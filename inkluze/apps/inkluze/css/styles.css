@@ -1,0 +1,16 @@
+.topbar .lm-logo {
+  cursor: pointer;
+  display: block;
+  background: url(img/lm-logo-black.png) no-repeat;
+  margin-right: 20px;
+}
+.topbar .lm-logo-black-small {
+  margin-top: 10px;
+  width: 41px;
+  height: 32px;
+}
+.topbar .lm-logo-black {
+  margin-top: 5px;
+  width: 192px;
+  height: 41px;
+}

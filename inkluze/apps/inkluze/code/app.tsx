@@ -1,0 +1,1 @@
+﻿sitemapRouter.bootApp(document.getElementById('content'));

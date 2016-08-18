@@ -7,15 +7,11 @@
     //"moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "noEmitHelpers": true,
+    //"noEmitHelpers": true,
     //"declaration": true,
     //"outFile": "react-framework.js",
     "inlineSourceMap": true,
     "inlineSources": true,
     "jsx": "react"
   }
-  //"exclude": [
-  //"node_modules"
-  //"typings"
-  //]
 }
