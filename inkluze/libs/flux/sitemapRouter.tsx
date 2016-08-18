@@ -35,7 +35,8 @@
     return React.createElement(type, par);
   }
 
-  export function bootApp(content: HTMLElement) {
+  export function bootApp(content: HTMLElement, sitemapCreator: lib.TCallback) {
+    sitemapCreator();
     site.bootApp();
     var startRoute = router.bootApp();
     ReactDOM.render(<AppRootComponent initRoute={ startRoute } />, content);

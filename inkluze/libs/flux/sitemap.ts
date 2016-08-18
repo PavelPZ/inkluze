@@ -1,4 +1,5 @@
 ﻿namespace site {
+
   export interface INode {
     id: string | number;
     title: string;
@@ -7,7 +8,7 @@
     childs?: Array<INode>;
     parent?: INode;
     largeLogo?: boolean; //velke logo v chladici
-    tabIdx?: number; //pro top level node
+    tab?: ITab; //pro top level node
   }
   export var root: INode;
   export var nodes: { [path: string]: INode; } = {};
@@ -29,6 +30,17 @@
     nodeParentsLow(nd, res, ignoreSelf);
     return res.res.reverse();
   }
+
+  export interface ITabs {
+    childs?: Array<ITab>;
+  }
+  export interface ITab {
+    title: string;
+    rootNode?: INode;
+  }
+  export var tabs: ITabs;
+
+  //*********** Private
 
   function nodeChilds(nd: INode): Array<INode> {
     var res: Array<INode> = null;

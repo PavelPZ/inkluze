@@ -1,1 +1,1 @@
-﻿sitemapRouter.bootApp(document.getElementById('content'));
+﻿sitemapRouter.bootApp(document.getElementById('content'), inkluze.bootApp);

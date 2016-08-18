@@ -1,5 +1,5 @@
-﻿interface ITopBar { isSmall?: boolean; }
-var TopBar: React.StatelessComponent<ITopBar> = (props: ITopBar, ctx: sitemapRouter.IContext) => <Navbar inverse={true} className="topbar">
+﻿interface ITopBarPar { isSmall?: boolean; }
+var TopBar: React.StatelessComponent<ITopBarPar> = (props: ITopBarPar, ctx: sitemapRouter.IContext) => <Navbar inverse={true} className="topbar">
   <Navbar.Header>
     <Navbar.Brand>
       <a href={router.navigateUrl(null)} className={classNames('lm-logo', 'lm-logo-black' + (props.isSmall ? '-small' : '')) }></a>
