@@ -29,6 +29,9 @@
   }
 
   export function navigateUrl<T>(node: site.INode, par?: T) { return router.navigateUrl({ storeId: node.path, par: par }); }
+  export function navigateTag<T>(node: site.INode, par?: T): JSX.Element {
+    return <a href={navigateUrl(node) }>{node.title}</a>;
+  }
 
   export function createElement<P>(type: React.ComponentClass<P> | React.SFC<P>, routePar, props: P & React.Attributes, ...children: React.ReactNode[]): React.ReactElement<P> {
     var par: P = Object.assign(Object.assign({}, props), routePar);

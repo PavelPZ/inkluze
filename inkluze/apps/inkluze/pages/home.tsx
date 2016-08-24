@@ -7,7 +7,7 @@ var Home: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext
     </Block>
     <Block gray>
       <p>
-        <a href={sitemapRouter.navigateUrl(inkluze.root.pravidla) }>Vyzva</a>
+        {sitemapRouter.navigateTag(inkluze.root.pravidla) }
       </p>
     </Block>
   </Page>
