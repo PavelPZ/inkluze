@@ -19,4 +19,8 @@
 
   export function noop() { }
 
+  export interface IComponentProps {
+    children?: React.ReactNode;
+  }
+
 }

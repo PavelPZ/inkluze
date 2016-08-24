@@ -35,8 +35,10 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="apps\inkluze\code\app.tsx" />
+    <TypeScriptCompile Include="apps\inkluze\code\controls.tsx" />
     <TypeScriptCompile Include="apps\inkluze\code\sitemap.tsx" />
-    <TypeScriptCompile Include="apps\inkluze\code\topbar.tsx" />
+    <TypeScriptCompile Include="apps\inkluze\code\page.tsx" />
+    <TypeScriptCompile Include="apps\inkluze\pages\blank.tsx" />
     <TypeScriptCompile Include="apps\inkluze\pages\home.tsx" />
     <TypeScriptCompile Include="libs\common\lib.ts" />
     <TypeScriptCompile Include="libs\flux\router.ts" />

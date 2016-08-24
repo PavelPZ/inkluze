@@ -1,12 +1,16 @@
-﻿interface IHomePar { subTitle: string; }
+﻿//interface IHomePar { subTitle: string; }
 
-var Home: React.StatelessComponent<IHomePar> = (props: IHomePar, ctx: sitemapRouter.IContext) => <div>
-  <TopBar isSmall={false}/>
-  <h1>{ctx.site.title}</h1>
-  <h2>{props.subTitle}</h2>
-  <p>
-    <a href={sitemapRouter.navigateUrl<IHomePar>(ctx.site, { subTitle: 'New SubTitle' }) }>Other home</a>
-  </p>
+var Home: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div>
+  <Page isSmall={false}>
+    <Block>
+      <p>text Text Text</p>
+    </Block>
+    <Block gray>
+      <p>
+        <a href={sitemapRouter.navigateUrl(inkluze.root.pravidla) }>Vyzva</a>
+      </p>
+    </Block>
+  </Page>
 </div>;
 
 Home.contextTypes = sitemapRouter.childContextTypes; 

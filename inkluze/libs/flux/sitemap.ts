@@ -2,13 +2,14 @@
 
   export interface INode {
     id: string | number;
-    title: string;
+    title?: string; //chybi-li, vezme se z ITab.title 
+    brTitle?:string; //title pro breadcrumb
     createPage: (routePar) => JSX.Element,
     path?: string;
     childs?: Array<INode>;
     parent?: INode;
     largeLogo?: boolean; //velke logo v chladici
-    tab?: ITab; //pro top level node
+    tab?: ITab; //my tab
   }
   export var root: INode;
   export var nodes: { [path: string]: INode; } = {};
@@ -17,11 +18,23 @@
     function initNode(parent: INode, nd: INode) {
       nd.childs = nodeChilds(nd);
       nd.parent = parent;
+      if (!nd.tab) nd.tab = nd.parent.tab;
       nd.path = getNodePath(nd);
       if (nodes[nd.path]) throw new lib.Exception(`SiteMap node ${nd.path} already exists!`);
       nodes[nd.path] = nd;
       if (nd.childs) nd.childs.forEach(n => initNode(nd, n));
     }
+    function initTabs() {
+      tabs.$childs = []; var idx = 0;
+      for (var p in tabs) {
+        if (p.startsWith('$')) continue;
+        var t: ITab = tabs[p]; tabs.$childs.push(t); t.idx = idx++;
+        if (!t.rootNode) throw new lib.Exception('!t.rootNode');
+        t.rootNode.tab = t;
+        if (!t.rootNode.title) t.rootNode.title = t.title;
+      }
+    }
+    initTabs();
     initNode(null, root);
   }
 
@@ -32,13 +45,16 @@
   }
 
   export interface ITabs {
-    childs?: Array<ITab>;
+    $childs?: Array<ITab>;
   }
   export interface ITab {
     title: string;
-    rootNode?: INode;
+    idx?: number;
+    rootNode?: INode; //hlavni stranka pro tab
   }
   export var tabs: ITabs;
+
+  export var getBlankPage: (routePar) => JSX.Element;;
 
   //*********** Private
 
@@ -46,7 +62,7 @@
     var res: Array<INode> = null;
     for (var p in nd) {
       var subNd: INode = nd[p];
-      if (!subNd || !subNd.title || !subNd.id) continue;
+      if (!subNd /*|| !subNd.title*/ || !subNd.id) continue;
       if (!res) res = [subNd]; else res.push(subNd);
     }
     return res;
