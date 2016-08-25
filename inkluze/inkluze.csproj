@@ -40,6 +40,7 @@
     <TypeScriptCompile Include="apps\inkluze\code\page.tsx" />
     <TypeScriptCompile Include="apps\inkluze\pages\blank.tsx" />
     <TypeScriptCompile Include="apps\inkluze\pages\home.tsx" />
+    <TypeScriptCompile Include="apps\inkluze\pages\popups.tsx" />
     <TypeScriptCompile Include="libs\common\lib.ts" />
     <TypeScriptCompile Include="libs\flux\router.ts" />
     <TypeScriptCompile Include="libs\flux\sitemap.ts" />
@@ -72,6 +73,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="HttpModule.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>

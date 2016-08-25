@@ -7,7 +7,7 @@ var Home: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext
     </Block>
     <Block gray>
       <p>
-        {sitemapRouter.navigateTag(inkluze.root.pravidla) }
+        {sitemapRouter.navigateTag(inkluze.root.pravidla.dump_popups) }
       </p>
     </Block>
   </Page>

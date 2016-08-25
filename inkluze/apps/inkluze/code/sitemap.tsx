@@ -9,8 +9,9 @@
   }
 
   export interface IPravidla extends site.INode {
-    msmt_vyzva: site.INode;
-    msmt_priloha3: site.INode;
+    //msmt_vyzva: site.INode;
+    //msmt_priloha3: site.INode;
+    dump_popups: site.INode;
   }
 
   export var root: ISiteRoot;
@@ -37,15 +38,20 @@
       pravidla: {
         id: 'vyzva',
         createPage: null,
-        msmt_vyzva: {
-          id: 'msmt_vyzva',
-          title:'msmt_vyzva',
-          createPage: null,
-        },
-        msmt_priloha3: {
-          id: 'msmt_priloha3',
-          title: 'msmt_priloha3',
-          createPage: null,
+        //msmt_vyzva: {
+        //  id: 'msmt_vyzva',
+        //  title:'msmt_vyzva',
+        //  createPage: null,
+        //},
+        //msmt_priloha3: {
+        //  id: 'msmt_priloha3',
+        //  title: 'msmt_priloha3',
+        //  createPage: null,
+        //},
+        dump_popups: {
+          id: 'dump_popups',
+          title: 'Dump Popups',
+          createPage: routePar => <DumpPopups/>,
         },
       },
       zadost: {
