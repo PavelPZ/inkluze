@@ -88,110 +88,83 @@
     </div>
   </Popup>,
 
-  asistent: <Popup document='priloha3' page={56} title='Školní asistent – personální podpora ZŠ'>
+  zs_skolni_asistent: <Popup document='priloha3' page={56} title='Školní asistent – personální podpora ZŠ'>
     <div>
-      <table>
-        <tr>
-          <td>Číslo a název aktivity
-          </td>
-          <td>II/1.1 Školní asistent – personální podpora ZŠ
-          </td>
-        </tr>
-        <tr>
-          <td>Investiční priorita
-          </td>
-          <td>IP 1
-          </td>
-        </tr>
-        <tr>
-          <td>Specifický cíl
-          </td>
-          <td>SC 2 (02.3.68.2)
-          </td>
-        </tr>
-        <tr>
-          <td>
-          </td>
-          <td>
-          </td>
-        </tr>
-        <tr>
-          <td>Cíle a popis realizace aktivity
-          </td>
-          <td>
-            <p>Cílem této aktivity je poskytnout dočasnou personální podporu – školního asistenta základním školám.Aktivita umožňuje vyzkoušet a na určité období poskytnout větší podporu zejména žákům ohroženým školním neúspěchem.Škola musí identifikovat alespoň tři žáky ohrožené školním neúspěchem.Při identifikaci žáků ohrožených školním neúspěchem je možné sledovat následující oblasti: </p>
-            <ul>
-              <li>nízká motivace ke vzdělávání; </li>
-              <li>dlouhodobá a opakovaná prospěchová neúspěšnost; </li>
-              <li>nedůslednost ve školní přípravě; </li>
-              <li>kázeňské přestupky; </li>
-              <li>nedůsledné rodičovské vedení; </li>
-              <li>sociokulturně znevýhodněné prostředí.</li>
-            </ul>
-            <p>Výběr žáků je zcela v kompetenci ředitele školy.Žáky vybírá ředitel školy ve spolupráci s pedagogy na základě prospěchu v uplynulém období (školní rok/pololetí).Minimálně tři žáci ohrožení školním neúspěchem musí být ve škole identifikovány po celou dobu realizace aktivity.Podmínka tří žáků ohrožených školním neúspěchem platí vždy až do výše úvazku 1, 0.</p>
-            <p>Školní asistent poskytuje základní nepedagogickou podporu přímo v rodině při spolupráci s rodiči, zprostředkovává komunikaci s komunitou, rodinou a školou spočívající např.v aktivitách vedoucích k zajištění pravidelné školní docházky žáků, porozumění rodinnému prostředí žáků a zajištění přenosu informací mezi školou a rodinou, pomáhá při rozvoji mimoškolních a volnočasových aktivit, poskytuje podporu pedagogovi při administrativní a organizační činnosti pedagoga ve vyučování i mimo vyučování.</p>
-            <p>Podmínkou výkonu činnosti školního asistenta je splnění stejných kvalifikačních předpokladů, jako je u pozice asistent pedagoga v zákoně o pedagogických pracovnících.</p>
-            <p>Aktivita bude realizována minimálně 12 a maximálně 24 po sobě jdoucích měsíců.</p>
-            <p>Úvazek 0, 5 na jeden měsíc nelze dělit mezi více osob.</p>
-          </td>
-        </tr>
-        <tr>
-          <td>Cílová skupina
-          </td>
-          <td>Žáci základních škol
-          </td>
-        </tr>
-        <tr>
-          <td>Výstup aktivity
-          </td>
-          <td>Práce školního asistenta ve škole ve výši úvazku 0, 5 na jeden měsíc
-          </td>
-        </tr>
-        <tr>
-          <td>Dokládání výstupů ve zprávě o realizaci projektu
-          </td>
-          <td>
-            <ol>
-              <li>sken pracovněprávního dokumentu (smlouva, DPČ); </li>
-              <li>sken reportu o činnosti školního asistenta ve škole; </li>
-              <li>sken doložení splnění kvalifikačních požadavků školního asistenta (doklad o dosaženém vzdělání nebo doklad o absolvování kvalifikačního kurzu pro asistenta pedagoga); </li>
-              <li>čestné prohlášení statutárního orgánu o přítomnosti alespoň tří žáků ohrožených školním neúspěchem.</li>
-            </ol>
-          </td>
-        </tr>
-        <tr>
-          <td>Dokládání výstupů pro kontrolu na místě
-          </td>
-          <td>
-            <ol>
-              <li>
-                originál pracovněprávního dokumentu (smlouva, DPČ);
-              </li>
-              <li>
-                originál reportu o činnosti školního asistenta ve škole;
-              </li>
-              <li>
-                identifikace dětí ohrožených školním neúspěchem pro minimálně tři žáky;
-              </li>
-              <li>
-                kontrola prezence pracovníka ve škole dle evidence docházky.
-              </li>
-            </ol>
-          </td>
-        </tr>
-        <tr>
-          <td>Indikátor výstupu
-          </td>
-          <td>5 05 01 Počet podpůrných personálních opatření ve školách
-          </td>
-        </tr>
-        <tr>
-          <td>Celkové náklady na aktivitu v Kč
-          </td>
-          <td>17 510
-          </td>
-        </tr>
-      </table>
+      <p>Školní asistent poskytuje základní nepedagogickou podporu přímo v rodině při spolupráci s rodiči, zprostředkovává komunikaci s komunitou, rodinou a školou spočívající např.v aktivitách vedoucích k zajištění pravidelné školní docházky žáků, porozumění rodinnému prostředí žáků a zajištění přenosu informací mezi školou a rodinou, pomáhá při rozvoji mimoškolních a volnočasových aktivit, poskytuje podporu pedagogovi při administrativní a organizační činnosti pedagoga ve vyučování i mimo vyučování.</p>
+    </div>
+  </Popup>,
+
+  ms_skolni_asistent: <Popup document='priloha3' page={56} title='Školní asistent – personální podpora ZŠ'>
+    <div>
+      <p>Školní asistent poskytuje základní nepedagogickou podporu přímo v rodině při spolupráci s rodiči, zprostředkovává komunikaci s komunitou, rodinou a školou spočívající např.v aktivitách vedoucích k zajištění pravidelné školní docházky žáků, porozumění rodinnému prostředí žáků a zajištění přenosu informací mezi školou a rodinou, pomáhá při rozvoji mimoškolních a volnočasových aktivit, poskytuje podporu pedagogovi při administrativní a organizační činnosti pedagoga ve vyučování i mimo vyučování.</p>
+    </div>
+  </Popup>,
+
+  zs_specialni_pedagog: <Popup document= 'priloha3' page= {61} title= 'Školní speciální pedagog – personální podpora ZŠ' >
+    <div>
+      <p>Speciální pedagog diagnostikuje speciální vzdělávací potřeby žáků a pomáhá vytvářet a zlepšit podmínky pro úspěšnou integraci žáků se speciálními vzdělávacími potřebami.Součástí práce je spolupráce na tvorbě plánu pedagogické podpory nebo individuálního vzdělávacího plánu pro každého žáka s potřebou podpůrných opatření/se speciálními vzdělávacími potřebami.</p>
+    </div>
+  </Popup >,
+
+  ms_specialni_pedagog: <Popup document= 'priloha3' page= {61} title= 'Školní speciální pedagog – personální podpora ZŠ' >
+    <div>
+      <p>Speciální pedagog diagnostikuje speciální vzdělávací potřeby žáků a pomáhá vytvářet a zlepšit podmínky pro úspěšnou integraci žáků se speciálními vzdělávacími potřebami.Součástí práce je spolupráce na tvorbě plánu pedagogické podpory nebo individuálního vzdělávacího plánu pro každého žáka s potřebou podpůrných opatření/se speciálními vzdělávacími potřebami.</p>
+    </div>
+  </Popup >,
+
+  zs_psycholog: <Popup document='priloha3' page= {63} title='Školní psycholog – personální podpora ZŠ'>
+    <div>
+      <p>
+        Školní psycholog zkoumá klima ve třídách, chování žáků, vytváří diagnostiku a poskytuje konzultace pro žáky, pedagogy a rodiče ve škole nebo mimo školu.Školní psycholog spolupracuje také se zdravotnickými a jinými organizacemi mimo školní zařízení.
+      </p>
+    </div>
+  </Popup>,
+
+  ms_psycholog: <Popup document='priloha3' page= {63} title='Školní psycholog – personální podpora ZŠ'>
+    <div>
+      <p>
+        Školní psycholog zkoumá klima ve třídách, chování žáků, vytváří diagnostiku a poskytuje konzultace pro žáky, pedagogy a rodiče ve škole nebo mimo školu.Školní psycholog spolupracuje také se zdravotnickými a jinými organizacemi mimo školní zařízení.
+      </p>
+    </div>
+  </Popup>,
+
+  zs_socialni_pedagog: <Popup document='priloha3' page= {67} title='Sociální pedagog – personální podpora ZŠ'>
+    <div>
+      <p>
+        Sociální pedagog není pedagogický pracovník, jeho náplní práce je vytvářet propojení mezi školou a jinými subjekty, např.obcí, policií, státním zástupcem a zdravotnickým zařízení.Součástí práce je poskytování mediace mezi školou, rodiči a uvedenými institucemi a pomoc s právními a sociálními otázkami.
+      </p>
+      <p>
+        Sociální pedagog bude působit jako prostředník mezi základní školou a rodinou.Účinně pomůže žákům, jejichž rodiny nemají dostatečnou kapacitu pomoci s přípravou do školy a s motivací ke studiu.Poskytne pedagogům informace týkající se zázemí žáků a problémů, což následně pedagogům pomůže zvolit vhodný přístup k žákovi.
+      </p>
+    </div>
+  </Popup>,
+
+  ms_socialni_pedagog: <Popup document='priloha3' page= {67} title='Sociální pedagog – personální podpora ZŠ'>
+    <div>
+      <p>
+        Sociální pedagog není pedagogický pracovník, jeho náplní práce je vytvářet propojení mezi školou a jinými subjekty, např.obcí, policií, státním zástupcem a zdravotnickým zařízení.Součástí práce je poskytování mediace mezi školou, rodiči a uvedenými institucemi a pomoc s právními a sociálními otázkami.
+      </p>
+      <p>
+        Sociální pedagog bude působit jako prostředník mezi základní školou a rodinou.Účinně pomůže žákům, jejichž rodiny nemají dostatečnou kapacitu pomoci s přípravou do školy a s motivací ke studiu.Poskytne pedagogům informace týkající se zázemí žáků a problémů, což následně pedagogům pomůže zvolit vhodný přístup k žákovi.
+      </p>
+    </div>
+  </Popup>,
+
+  xxx4: <Popup document='vyzva' page= {5} title='Oprávnění žadatelé'>
+    <div>
+      yyy
+    </div>
+  </Popup>,
+
+  xxx5: <Popup document='vyzva' page= {5} title='Oprávnění žadatelé'>
+    <div>
+      yyy
+    </div>
+  </Popup>,
+
+  xxx6: <Popup document='vyzva' page= {5} title='Oprávnění žadatelé'>
+    <div>
+      yyy
     </div>
   </Popup>
 
