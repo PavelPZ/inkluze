@@ -19,4 +19,3 @@ const DumpPopups: React.StatelessComponent<{}> = prop => {
   }
   return <div>{pops}</div>
 }
-
