@@ -39,7 +39,7 @@
         </p>
       </div>
       <p>
-        <b>Příklad č.1:</b> Škola má ve školním roce, ve kterém podává žádost, 100 dětí/žáků.Škola může čerpat maximálně 200 000 + (100 x 2 200 Kč) = 420 000 Kč.
+        <b>Příklad č.1: </b> Škola má ve školním roce, ve kterém podává žádost, 100 dětí/žáků.Škola může čerpat maximálně 200 000 + (100 x 2 200 Kč) = 420 000 Kč.
       </p>
       <p>
         <b>Příklad č.2: </b> Škola má celkem pět odloučených pracovišť.Ve školním roce, ve kterém podává žádost, má celkem 320 dětí/žáků.Škola může čerpat maximálně 200 000 + (320 x 2 200 Kč) = 904 000 Kč.
@@ -61,6 +61,39 @@
       </p>
     </div>
   </Popup>,
+
+  MAP: <Popup document='priloha3' page={3} title='Jak identifikovat oblasti pro rozvoj školy?'>
+    <div>
+      <p>
+        V listopadu roku 2015 byl školám v rámci šetření realizovaného pro potřeby výzvy Místní akční plány rozvoje vzdělávání (MAP) rozeslán dotazník, jehož vyplnění je podmínkou možnosti čerpání finančních prostředků prostřednictvím projektů zjednodušeného vykazování (šablon).Při zpracovávání dotazníků si školy ujasnily, ve kterých oblastech by se měly a chtěly rozvíjet.Školám pomohou v identifikaci jejich potřeb výsledky a vyhodnocení Výstupu z dotazníkového šetření MAP, které budou školám zaslány ze strany MŠMT a zpřístupněny ve webovém rozhraní https://sberdat.uiv.cz/login. Součástí tohoto vyhodnocení je také seznam šablon, ze kterých mohou školy volit, aby alespoň část jejich potřeb rozvoje byla naplněna. Výstup z dotazníkového šetření MAP2 bude povinnou přílohou Žádosti o podporu.
+      </p>
+      <div className="well well-sm">
+        Škola si povinně volí minimálně jednu šablonu z oblasti, která bude vyhodnocena jako nejslabší vzhledem k celorepublikovému průměru.Vzhledem k tomu, že dotazník byl koncipován šířeji pro programové období, je možné, že škola nenalezne odpovídající šablonu (např.oblast digitálních technologií v případě mateřské školy), pak bude volit ze šablon zaměřených na druhou nejslaběji vyhodnocenou oblast, pro kterou jsou k dispozici šablony.Volba minimálně jedné šablony dle uvedeného bude předmětem kontroly přijatelnosti projektu.Pokud škola tuto šablonu nezvolí, bude žádost vyřazena.
+      </div>
+      <p>
+        Příklad: Mateřská škola má nejslabší hodnocení v oblasti digitálních technologií.Pro tuto oblast nejsou v 1. vlně šablon připraveny žádné šablony.Jako druhou nejslabší má vyhodnocenou oblast matematické pregramotnosti.Bude tedy volit alespoň jednu šablonu zaměřenou na podporu matematické pregramotnosti.
+      </p>
+      <p>
+        Po splnění této podmínky může škola volit další šablony podle svého rozhodnutí do výše maximální částky na projekt.Výběr šablon musí být uvážlivý.Každá škola by měla před sestavením projektu nejen vyhodnotit oblasti z Výstupu dotazníkového šetření MAP, ve kterých se chce/potřebuje zlepšovat, ale také např.zhodnotit své časové a administrativní kapacity, případně také nabídku dalšího vzdělávání pedagogických pracovníků (dále jen „DVPP“) nebo dostatečných kapacit pro obsazení pozic personální podpory mateřský škol (MŠ) a základních škol (ZŠ).Pro rozhodování je také klíčové omezení výzvy v podobě minimální a maximální výše rozpočtu.
+      </p>
+      <p>
+        Na závěr projektu školy vyplní dotazník znovu, aby zjistily, k jakému posunu došlo.Tento posun bude součástí doložení indikátoru Počet organizací, ve kterých se zvýšila kvalita výchovy a vzdělávání a proinkluzivnost.Odkaz na dotazník k vyplnění v závěru projektu bude zveřejněn na webových stránkách Ministerstva školství, mládeže a tělovýchovy (dále jen „MŠMT“).Školy vyplní dotazník před koncem projektu v době, kdy budou mít co nejvíce aktivit (šablon) realizovaných.Výstup s vyhodnocením znovu vyplněného dotazníku bude přílohou závěrečné zprávy o realizaci (ZZoR).
+      </p>
+      <p>
+        Pokud škola výstup z dotazníku nedoloží, nebude moci vykázat indikátor výsledku.Při nedoložení indikátoru výsledku budou ze strany poskytovatele dotace uplatněny sankce dle kap.11.3.Pravidel pro žadatele a příjemce zjednodušených projektů.
+      </p>
+      <div className="well well-sm">
+        Školy, které budou nově zařazeny do školského rejstříku, mohou podat projektovou žádost až po vyplnění dotazníku a jeho následném vyhodnocení.Dotazníky budou pro nové školy přístupné od prosince 2016. Školy se musí samy přihlásit na adresu vyzkum-opvvv @msmt.cz.Pokud dojde ke sloučení škol a školy již předtím vyplnily dotazník, bude se vycházet z vyhodnocení již vyplněných dotazníků.
+      </div>
+    </div>
+  </Popup>,
+
+  asistent: <Popup document='priloha3' page={56} title='II/1.1 Školní asistent – personální podpora ZŠ'>
+    <div>
+      xxx
+    </div>
+  </Popup>
+
 }
 
 const DumpPopups: React.StatelessComponent<{}> = prop => {
