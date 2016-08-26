@@ -1,9 +1,8 @@
-﻿//interface IHomePar { subTitle: string; }
-
-var Home: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div>
+﻿var Home: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div>
   <Page isSmall={false}>
     <Block>
-      <p>text Text Text</p>
+      <p>{popups.zadavatel}</p>
+      <p>{popups.rozpocet}</p>
     </Block>
     <Block gray>
       <p>
@@ -13,4 +12,5 @@ var Home: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext
   </Page>
 </div>;
 
-Home.contextTypes = sitemapRouter.childContextTypes; 
+Home.contextTypes = sitemapRouter.childContextTypes;
+
