@@ -40,7 +40,7 @@
       noTitle:true,
       pravidla: {
         id: 'vyzva',
-        createPage: null,
+        createPage: rp => <Pravidla/>,
         //msmt_vyzva: {
         //  id: 'msmt_vyzva',
         //  title:'msmt_vyzva',

@@ -39,6 +39,7 @@
     <TypeScriptCompile Include="apps\inkluze\code\sitemap.tsx" />
     <TypeScriptCompile Include="apps\inkluze\code\page.tsx" />
     <TypeScriptCompile Include="apps\inkluze\pages\blank.tsx" />
+    <TypeScriptCompile Include="apps\inkluze\pages\pravidla.tsx" />
     <TypeScriptCompile Include="apps\inkluze\pages\home.tsx" />
     <TypeScriptCompile Include="apps\inkluze\pages\popups.tsx" />
     <TypeScriptCompile Include="libs\common\lib.ts" />
@@ -89,7 +90,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>49803</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
