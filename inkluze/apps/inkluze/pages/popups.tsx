@@ -10,9 +10,6 @@
         činnost  školy, zapsaná  ve  školském  rejstříku), které  mají ve školním roce, v němž žádost o podporu podávají, minimálně jedno
         dítě/žáka.
       </p>
-      <p>
-        Každý  žadatel  může  v rámci této výzvy, nebo výzvy  č.02_16_023 podat pouze jednu žádost o podporu.
-      </p>
     </div>
   </Popup>,
 
@@ -24,9 +21,6 @@
         </p>
         <p>
           Minimální výše: 200 000 Kč
-        </p>
-        <p>
-          Maximální výše: maximální výše finanční podpory na jeden projekt se stanoví dle tohoto vzorce: 200 000 Kč + (počet dětí/žáků školy x 2 200 Kč) = maximální částka na školu.V případě, že součástí právnické osoby je mateřská a základní škola, se částka 200 000 Kč počítá jedenkrát za mateřskou školu a jedenkrát za základní školu, celkem tedy 400 000 Kč3.Počet dětí/žáků školy k 30. 9. 2015 bude zveřejněn u vyhlášené výzvy na webových stránkách MŠMT.4 Počet dětí/žáků školy pro další školní roky bude vždy aktualizován v prosinci daného školního roku na webových stránkách MŠMT.5 Maximální výši podpory na jeden projekt žadatel vypočítá v „Kalkulačce indikátorů“, která je povinnou přílohou Žádosti o podporu.
         </p>
         <p>
           Maximální výše: maximální výše finanční podpory na jeden projekt se stanoví dle tohoto vzorce: 200 000 Kč + (počet dětí/žáků školy x 2 200 Kč) = maximální částka na školu.V případě, že součástí právnické osoby je mateřská a základní škola, se částka 200 000 Kč počít á jeden krát za mateřskou školu a jeden krát za základní školu, celkem tedy 400 000 Kč.
@@ -49,15 +43,6 @@
       </p>
       <p>
         V tomto případě je třeba, aby ředitel školy volil šablony jak pro mateřskou školu, tak pro základní školu, a to poměrně podle počtu dětí/žáků.Tzn., z celkové maximální částky na projekt budou na základní školu využity prostředky v max.výši 200 000 + (120 x 2 200 Kč) = 464 000 Kč, pro mateřskou školu prostředky v max.výši: 200 000 + (28 x 2 200 Kč) = 261 600 Kč.
-      </p>
-      <p>
-        Ke každé šabloně se automaticky a pevně váže jednotková cena, ze které vychází celková hodnota šablony.Jednotková cena je stanovena na základě průzkumů cen materiálů, mezd/platů, atd., ve vazbě na danou šablonu.Stanovené jednotky a jejich hodnoty jsou závazné pro všechny žadatele a příjemce a nelze je měnit.
-      </p>
-      <p>
-        Rozpočet projektu se naplňuje výběrem šablon až do maximální možné výše podpory stanovené pro danou školu výpočtem dle výše uvedeného vzorce.Minimální částka, kterou škola musí naplnit výběrem jednotlivých šablon, je 200 000 Kč.
-      </p>
-      <p>
-        Jakým způsobem budou příjemci poskytovány finanční prostředky, tzn.systém proplácení plateb, je uvedeno podrobně ve výzvě, kapitola č.3.
       </p>
     </div>
   </Popup>,
@@ -82,9 +67,6 @@
       <p>
         Pokud škola výstup z dotazníku nedoloží, nebude moci vykázat indikátor výsledku.Při nedoložení indikátoru výsledku budou ze strany poskytovatele dotace uplatněny sankce dle kap.11.3.Pravidel pro žadatele a příjemce zjednodušených projektů.
       </p>
-      <div className="well well-sm">
-        Školy, které budou nově zařazeny do školského rejstříku, mohou podat projektovou žádost až po vyplnění dotazníku a jeho následném vyhodnocení.Dotazníky budou pro nové školy přístupné od prosince 2016. Školy se musí samy přihlásit na adresu vyzkum-opvvv @msmt.cz.Pokud dojde ke sloučení škol a školy již předtím vyplnily dotazník, bude se vycházet z vyhodnocení již vyplněných dotazníků.
-      </div>
     </div>
   </Popup>,
 
@@ -94,7 +76,7 @@
     </div>
   </Popup>,
 
-  ms_skolni_asistent: <Popup document='priloha3' page={56} title='Školní asistent – personální podpora MŠ'>
+  ms_skolni_asistent: <Popup document='priloha3' page={18} title='Školní asistent – personální podpora MŠ'>
     <div>
       <p>Školní asistent poskytuje základní nepedagogickou podporu přímo v rodině při spolupráci s rodiči, zprostředkovává komunikaci s komunitou, rodinou a školou spočívající např.v aktivitách vedoucích k zajištění pravidelné docházky dětí, porozumění rodinnému prostředí dětí a zajištění přenosu informací mezi mateřskou školou a rodinou, poskytuje přímou nepedagogickou podporu dětí v předškolním vzdělávání spočívající např.v nácviku jednoduchých činností při příchodu a pobytu ve škole nebo školském zařízení nebo při akcích školy nebo školského zařízení, pomoci při oblékání, poskytuje podporu pedagogovi při administrativní a organizační činnosti pedagoga ve vyučování i mimo vyučování.</p>
     </div>
@@ -106,7 +88,7 @@
     </div>
   </Popup >,
 
-  ms_specialni_pedagog: <Popup document= 'priloha3' page= {61} title= 'Školní speciální pedagog – personální podpora MŠ' >
+  ms_specialni_pedagog: <Popup document= 'priloha3' page= {23} title= 'Školní speciální pedagog – personální podpora MŠ' >
     <div>
       <p>Speciální pedagog diagnostikuje speciální vzdělávací potřeby dětí a pomáhá vytvářet a zlepšit podmínky pro úspěšnou integraci dětí se speciálními vzdělávacími potřebami.Součástí práce je spolupráce na tvorbě plánu pedagogické podpory nebo individuálního vzdělávacího plánu pro každé dítě s potřebou podpůrných opatření/se speciálními vzdělávacími potřebami.</p>
     </div>
@@ -120,7 +102,7 @@
     </div>
   </Popup>,
 
-  ms_psycholog: <Popup document='priloha3' page= {63} title='Školní psycholog – personální podpora MŠ'>
+  ms_psycholog: <Popup document='priloha3' page= {26} title='Školní psycholog – personální podpora MŠ'>
     <div>
       <p>
         Školní psycholog zkoumá klima ve třídách, chování dětí, vytváří diagnostiku a poskytuje konzultace pro pedagogy a rodiče ve škole nebo mimo školu.Školní psycholog spolupracuje také se zdravotnickými a jinými organizacemi mimo školní zařízení.
@@ -139,7 +121,7 @@
     </div>
   </Popup>,
 
-  ms_socialni_pedagog: <Popup document='priloha3' page= {67} title='Sociální pedagog – personální podpora MŠ'>
+  ms_socialni_pedagog: <Popup document='priloha3' page= {29} title='Sociální pedagog – personální podpora MŠ'>
     <div>
       <p>
         Sociální pedagog není pedagogický pracovník, jeho náplní práce je vytvářet propojení mezi školou a jinými subjekty, např.obcí, policií, státním zástupcem a zdravotnickým zařízením.Součástí práce je poskytování mediace mezi školou, rodiči a uvedenými institucemi a pomoc s právními a sociálními otázkami.
@@ -148,9 +130,115 @@
         Sociální pedagog bude působit jako prostředník mezi mateřskou školou a rodinou.Účinně pomůže dětem, jejichž rodiny nemají dostatečnou kapacitu pomoci dětem při vzdělávání v mateřských školách.Poskytne pedagogům informace týkající se zázemí dětí a problémů, což následně pedagogům pomůže zvolit vhodný přístup k dítěti.
       </p>
     </div>
-  </Popup>
+  </Popup>,
 
+  ms_DVPP_16_hodin: <Popup document='priloha3' page= {39} title='I/2.3 Vzdělávání pedagogických pracovníků MŠ – DVPP v rozsahu 16 hodin'>
+    <div>
+      <p>
+        Cílem aktivity je podpořit profesní růst pedagogických pracovníků pomocí dlouhodobého vzdělávání a průběžného sebevzdělávání.
+      </p>
+      <p>
+        Vzdělávání bude probíhat formou absolvování vzdělávacího programu DVPP akreditovaného v systému DVPP.
+      </p>
+      <p>
+        Pedagogičtí pracovníci budou podpořeni v získávání dovedností, znalostí a kompetencí v jedné z následujících oblastí:
+        <ol type="a">
+          <li>
+            čtenářská pregramotnost;
+          </li>
+          <li>
+            matematická pregramotnost;
+          </li>
+          <li>
+            inkluze.
+          </li>
+        </ol>
+      </p>
+      <p>
+        Celkový součet hodin vzdělávání je minimálně 16 a probíhá prezenční formou.
+      </p>
+      <p>
+        Cílem je podpořit dlouhodobé vzdělávání a rozvoj pedagogických pracovníků formou ucelených vzdělávacích programů.Podmínkou tedy je, že se musí jednat o jeden vzdělávací program DVPP o rozsahu minimálně 16 hodin (není možné tedy dosáhnout požadovaného počtu hodin „skládáním“ hodin z více kratších programů/akcí).
+      </p>
+      <p>
+        Vzdělávací program musí být realizován prezenční formou.
+      </p>
+    </div>
+  </Popup>,
 
+  zs_DVPP_16_hodin: <Popup document='priloha3' page= {71} title='II/2.1 Vzdělávání pedagogických pracovníků ZŠ – DVPP v rozsahu 16 hodin'>
+    <div>
+      <p>
+        Cílem aktivity je podpořit profesní růst pedagogických pracovníků pomocí dlouhodobého vzdělávání a průběžného sebevzdělávání.
+      </p>
+      <p>
+        Pedagogičtí pracovníci základních škol budou podporováni ve svém profesním a odborném růstu účastí na odborných seminářích, workshopech a dalších vzdělávacích akcích zaměřených na rozvoj dovedností, znalostí a kompetencí a na využívání efektivních vyučovacích metod.Vzdělávání bude probíhat formou absolvování vzdělávacího programu DVPP akreditovaného v systému DVPP.
+      </p>
+      <p>
+        Pedagogičtí pracovníci budou podpořeni v jedné z následujících oblastí:
+        <ol type="a">
+          <li>
+            čtenářská pregramotnost;
+          </li>
+          <li>
+            matematická pregramotnost;
+          </li>
+          <li>
+            cizí jazyky;
+          </li>
+          <li>
+            inkluze.
+          </li>
+        </ol>
+      </p>
+      <p>
+        Celkový součet hodin vzdělávání je minimálně 16.
+      </p>
+      <p>
+        Cílem je podpořit dlouhodobé vzdělávání a rozvoj pedagogických pracovníků formou ucelených vzdělávacích programů.Podmínkou tedy je, že se musí jednat o jeden vzdělávací program DVPP o rozsahu minimálně 16 hodin (není možné tedy dosáhnout požadovaného počtu hodin „skládáním“ hodin z více kratších programů/akcí).
+      </p>
+      <p>
+        Vzdělávací program musí být realizován prezenční formou.
+      </p>
+    </div>
+  </Popup>,
+
+  zs_DVPP_32_hodin: <Popup document='priloha3' page= {75} title='II/2.3 Vzdělávání pedagogických pracovníků ZŠ zaměřené na inkluzi – DVPP v rozsahu 32 hodin'>
+    <div>
+      <p>
+        Cílem aktivity je podpořit profesní růst pedagogických pracovníků pomocí dlouhodobého vzdělávání a průběžného sebevzdělávání.
+      </p>
+      <p>
+        Pedagogičtí pracovníci základních škol budou podporováni ve svém profesním a odborném růstu účastí na odborných seminářích, workshopech a dalších vzdělávacích akcích zaměřených na rozvoj dovedností, znalostí a kompetencí v oblasti inkluze a na využívání efektivních vyučovacích metod.
+      </p>
+      <p>
+        Celkový součet hodin vzdělávání je minimálně 32.
+      </p>
+      <p>
+        Cílem je podpořit dlouhodobé vzdělávání a rozvoj pedagogických pracovníků formou ucelených vzdělávacích programů.Podmínkou tedy je, že se musí jednat o jeden vzdělávací program DVPP o rozsahu minimálně 32 hodin (není možné tedy dosáhnout požadovaného počtu hodin „skládáním“ hodin z více kratších programů).Jsou doporučované vzdělávací programy s možností účasti alespoň po dvou dnech po sobě, pro dosažení požadované intenzity kurzu, prostoru pro časově náročnější varianty aktivit a navázání spolupráce a kontaktů mezi účastníky.
+      </p>
+      <p>
+        Vzdělávací program musí být realizován prezenční formou.
+      </p>
+    </div>
+  </Popup>,
+
+  zs_sbor_8_hodin: <Popup document='priloha3' page= {85} title='II/2.8 Vzdělávání pedagogického sboru ZŠ zaměřené na inkluzi – vzdělávací akce v rozsahu 8 hodin'>
+    <div>
+      <p>
+        Cílem aktivity je podpořit profesní růst pedagogických pracovníků pomocí dalšího vzdělávání prostřednictvím ucelených vzdělávacích programů.Jednotka umožní pozvat lektora přímo do školy, a tak ušetřit pedagogům cenný čas.
+      </p>
+      <p>
+        Aktivita je koncipována tak, že umožňuje zajistit vzdělávání pro celý pedagogický sbor či jeho podstatnou část tak, aby bylo možné z podpořené skupiny pedagogů vytvořit tým s inovačním potenciálem schopným působit na kompetence, ale i hodnoty a postoje ostatních pedagogů ve škole.Jedná se o jeden vzdělávací program DVPP o rozsahu minimálně 8 hodin, který podpoří v dané škole koncept společného vzdělávání.Kurz přispěje k rozvoji kompetencí pedagogů pro práci s heterogenní skupinou žáků, ve které jsou vzdělávání i žáci s potřebou podpůrných opatření (včetně těch v prvním stupni podpory).Vzdělávání může být zaměřeno také na podporu bezpečného klimatu ve škole/třídách, budování týmu školy a podporu spolupráce, práci s nastavováním cílů a vyhodnocováním výsledků učení žáků (se zvláštním zřetelem na žáky s potřebou podpory).
+      </p>
+      <p>
+        Doporučený počet uchazečů pro volbu této aktivity je alespoň polovina pedagogického sboru.Aktivitu je proto třeba zvolit násobně podle počtu pedagogů, kteří se DVPP zúčastní.
+      </p>
+      <p>
+        Vzdělávací program musí být realizován prezenční formou.
+      </p>
+    </div>
+  </Popup>,
 
 }
 
