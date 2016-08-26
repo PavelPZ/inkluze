@@ -9,6 +9,17 @@ const Block: React.StatelessComponent<IBlockProps> = (props: IBlockProps) => {
   </div>;
 };
 
+interface IBlockExProps extends IBlockProps { title:string; }
+const BlockEx: React.StatelessComponent<IBlockExProps> = (props: IBlockExProps) => {
+  return React.createElement(Block, props,
+    [<h2>{props.title}</h2>,
+    <Row>
+      <Col mdOffset={2} md={8}>
+        {props.children}
+      </Col>
+    </Row>]);
+};
+
 interface IPopupProps extends lib.IComponentProps {
   document: 'priloha3' | 'vyzva';
   page: number;

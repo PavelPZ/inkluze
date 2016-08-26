@@ -47,71 +47,56 @@
         </Grid>
       </Block>
     </div>
-    <Block>
-      <h2>O inkluzi</h2>
-      <Row>
-        <Col mdOffset={2} md={8}>
-          <p>
-            Problematika inkluze neboli začleňování děti se speciálními vzdělávacími potřebami do běžných škol není žádnou letošní novinkou.
-            S malou nadsázkou se dá se říci, že v českých školách nenajdete učitele, který by se s touto problematikou v předchozích letech v některé ze svých tříd již nesetkal.
-          </p>
-          <p>
-            Co je však nového je, že se inkluze konečně začíná efektivně řešit.
-            Ať už právními úpravami, tak také velkými finančními dotacemi, které by měly školám významně pomoci problematiku inkluze v celé šíři zvládnout.
-          </p>
-          <br/>
-          <div className='alert alert-warning'>
-            Poznámka: <b>Inkluze</b> se nově nazývá <b>Společné vzdělávání</b>.
-            My budeme ale používat doposud rozšířenější termín Inkluze.
-          </div>
-        </Col>
-      </Row>
-    </Block>
-    <Block gray>
-      <h2>Dotace EU na inkluzi pro ZŠ a MŠ</h2>
-      <Row>
-        <Col mdOffset={2} md={8}>
-          <ul className='fa-ul'>
-            <HomeLi2>EU nyní poskytuje České republice dotaci v celkové výši 4.5 mld.na podporu inkluze, o kterou si mohou požádat české základní a mateřské školy</HomeLi2>
-            <HomeLi2>Dotace je určena zejména:
-              <ul>
-                <li>na tzv.&nbsp; <b>Personální podporu</b> (tj.platy specializovaných pracovníků, které musí školy v souvislosti s inkluzí zaměstnat, např.školní asistent, školní speciální pedagog apod.) </li>
-                <li>na <b>vzdělávání učitelů</b> v oblasti inkluze (tj.Vzdělávací kurzy v rámci „DVPP“ – Další Vzdělávání Pedagogických Pracovníků) </li>
-              </ul>
-            </HomeLi2>
-            <HomeLi2>
-              Dotační výzvy jsou dvě: <b>Výzva č.02_16_022</b> (pro mimopražské školy) a <b>Výzva č.02_16_023</b> (pro pražské školy).
-              Obsahem jsou tyto výzvy identické, budeme je dále nazývat zkráceně <b>Výzva</b>.</HomeLi2>
-            <HomeLi2>
-              V rámci Výzvy je možno získat dotace i na další kurzy a aktivity, které se nezabývají inkluzí.
-              O těch se ale budeme zmiňovat méně podrobně.</HomeLi2>
+    <BlockEx title="O inkluzi">
+      <p>
+        Problematika inkluze neboli začleňování děti se speciálními vzdělávacími potřebami do běžných škol není žádnou letošní novinkou.
+        S malou nadsázkou se dá se říci, že v českých školách nenajdete učitele, který by se s touto problematikou v předchozích letech v některé ze svých tříd již nesetkal.
+      </p>
+      <p>
+        Co je však nového je, že se inkluze konečně začíná efektivně řešit.
+        Ať už právními úpravami, tak také velkými finančními dotacemi, které by měly školám významně pomoci problematiku inkluze v celé šíři zvládnout.
+      </p>
+      <br/>
+      <div className='alert alert-warning'>
+        Poznámka: <b>Inkluze</b> se nově nazývá <b>Společné vzdělávání</b>.
+        My budeme ale používat doposud rozšířenější termín Inkluze.
+      </div>
+    </BlockEx>
+    <BlockEx title="Dotace EU na inkluzi pro ZŠ a MŠ" gray>
+      <ul className='fa-ul'>
+        <HomeLi2>EU nyní poskytuje České republice dotaci v celkové výši 4.5 mld.na podporu inkluze, o kterou si mohou požádat české základní a mateřské školy</HomeLi2>
+        <HomeLi2>Dotace je určena zejména:
+          <ul>
+            <li>na tzv.&nbsp; <b>Personální podporu</b> (tj.platy specializovaných pracovníků, které musí školy v souvislosti s inkluzí zaměstnat, např.školní asistent, školní speciální pedagog apod.) </li>
+            <li>na <b>vzdělávání učitelů</b> v oblasti inkluze (tj.Vzdělávací kurzy v rámci „DVPP“ – Další Vzdělávání Pedagogických Pracovníků) </li>
           </ul>
-        </Col>
-      </Row>
-    </Block>
-    <Block>
-      <h2>Postup pro získání a využití dotace</h2>
-      <Row>
-        <Col mdOffset={2} md={8}>
-          <ol>
-            <li><b>Seznámíte se s možnostmi a pravidly Výzvy.</b><br/>
-              Získat dotaci a využít ji není tak složité, jak se může při prvním čtení stovek stran oficiálních dokumentů zdát.
-              Pro vaši rychlou orientaci jsme popsali důležité aspekty Výzvy tak, abyste byli schopni o dotaci zažádat a využít ji dle pravidel EU<br/>
-              Viz {sitemapRouter.navigateTag(inkluze.root.pravidla) }.<br/>
-              V případě nejasností rádi zodpovíme vaše otázky v {sitemapRouter.navigateTag(inkluze.root.q_and_a) }.</li>
-            <li><b>Zažádáte si o dotaci</b> (v souladu s pravidly EU) <br/>
-              Pokud budete potřebovat, s vyplněním vám pomůžeme.<br/>
-              Viz {sitemapRouter.navigateTag(inkluze.root.zadost) }</li>
-            <li><b>Objednáte si Vzdělávací kurzy</b>, kterými vyškolíte vaše učitele.<br/>
-              Spolupracujeme s renomovanými lektory s mnohaletou praxí.
-              Jak naši lektoři, tak i naše kurzy na inkluzi splňují podmínky Výzvy (vše je akreditováno MŠMT).<br/>
-              Viz {sitemapRouter.navigateTag(inkluze.root.kurzy) }</li>
-            <li><b>Budete průběžně plnit další formální požadavky EU</b> (zasílání průběžných zpráv o realizaci projektu apod.) <br/>
-              Pomůžeme s kompletním projektovým na {sitemapRouter.navigateTag(inkluze.root.project) }</li>
-          </ol>
-        </Col>
-      </Row>
-    </Block>
+        </HomeLi2>
+        <HomeLi2>
+          Dotační výzvy jsou dvě: <b>Výzva č.02_16_022</b> (pro mimopražské školy) a <b>Výzva č.02_16_023</b> (pro pražské školy).
+          Obsahem jsou tyto výzvy identické, budeme je dále nazývat zkráceně <b>Výzva</b>.</HomeLi2>
+        <HomeLi2>
+          V rámci Výzvy je možno získat dotace i na další kurzy a aktivity, které se nezabývají inkluzí.
+          O těch se ale budeme zmiňovat méně podrobně.</HomeLi2>
+      </ul>
+    </BlockEx>
+    <BlockEx title="Postup pro získání a využití dotace">
+      <ol>
+        <li><b>Seznámíte se s možnostmi a pravidly Výzvy.</b><br/>
+          Získat dotaci a využít ji není tak složité, jak se může při prvním čtení stovek stran oficiálních dokumentů zdát.
+          Pro vaši rychlou orientaci jsme popsali důležité aspekty Výzvy tak, abyste byli schopni o dotaci zažádat a využít ji dle pravidel EU<br/>
+          Viz {sitemapRouter.navigateTag(inkluze.root.pravidla) }.<br/>
+          V případě nejasností rádi zodpovíme vaše otázky v {sitemapRouter.navigateTag(inkluze.root.q_and_a) }.</li>
+        <li><b>Zažádáte si o dotaci</b> (v souladu s pravidly EU) <br/>
+          Pokud budete potřebovat, s vyplněním vám pomůžeme.<br/>
+          Viz {sitemapRouter.navigateTag(inkluze.root.zadost) }</li>
+        <li><b>Objednáte si Vzdělávací kurzy</b>, kterými vyškolíte vaše učitele.<br/>
+          Spolupracujeme s renomovanými lektory s mnohaletou praxí.
+          Jak naši lektoři, tak i naše kurzy na inkluzi splňují podmínky Výzvy (vše je akreditováno MŠMT).<br/>
+          Viz {sitemapRouter.navigateTag(inkluze.root.kurzy) }</li>
+        <li><b>Budete průběžně plnit další formální požadavky EU</b> (zasílání průběžných zpráv o realizaci projektu apod.) <br/>
+          Pomůžeme s kompletním projektovým na {sitemapRouter.navigateTag(inkluze.root.project) }</li>
+      </ol>
+    </BlockEx>
   </Page>
 </div>;
 
