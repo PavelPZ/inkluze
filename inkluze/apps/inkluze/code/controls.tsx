@@ -43,7 +43,7 @@ class Popup extends React.Component<IPopupProps, IPopupState> {
 
   render(): JSX.Element {
     return <span>
-      <Label bsStyle="warning" onClick={() => this.open() } style={{ color: 'white', padding: '2px', fontSize: '100%', fontWeight:'normal' }}>{this.props.title}</Label>
+      <Label bsStyle="warning" onClick={() => this.open() } style={{ color: 'white', cursor: 'pointer', padding: '3px', fontSize: '100%', fontWeight: 'normal' }}>{this.props.title}</Label>
       <Modal show={this.state.showModal} onHide={() => this.close()}>
         <Modal.Header closeButton>
           <Modal.Title>{this.props.title}</Modal.Title>

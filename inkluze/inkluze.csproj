@@ -42,7 +42,7 @@
     <TypeScriptCompile Include="apps\inkluze\pages\pravidla.tsx" />
     <TypeScriptCompile Include="apps\inkluze\pages\home.tsx" />
     <TypeScriptCompile Include="apps\inkluze\pages\popups.tsx" />
-    <TypeScriptCompile Include="libs\common\lib.ts" />
+    <TypeScriptCompile Include="libs\common\lib.tsx" />
     <TypeScriptCompile Include="libs\flux\router.ts" />
     <TypeScriptCompile Include="libs\flux\sitemap.ts" />
     <TypeScriptCompile Include="libs\flux\sitemapRouter.tsx" />

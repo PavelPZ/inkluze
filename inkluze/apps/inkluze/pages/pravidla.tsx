@@ -1,7 +1,9 @@
 ﻿var Pravidla: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div>
   <Page isSmall={false}>
     <BlockEx title="Princip využití dotace">
-      Text s odkazem na {popups.MAP} popup.Text s odkazem na jinou stránku: {sitemapRouter.navigateTag(inkluze.root.kurzy) }.Text s odkazem <a href='http://www.langmaster.cz'>jinam</a>.
+      Text s odkazem na {popups.MAP} popup.
+      Text s odkazem na jinou stránku: {sitemapRouter.navigateTag(inkluze.root.kurzy) }.
+      Text s odkazem {lib.navigateExt('http://www.langmaster.cz', 'jinam') } nebo {lib.navigateExt('http://www.langmaster.cz', 'jinam', true) }.
     </BlockEx>
     <BlockEx title="Kdo je oprávněný žadatel o dotaci?" gray>
       XXXX

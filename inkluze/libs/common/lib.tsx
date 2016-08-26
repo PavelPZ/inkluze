@@ -19,8 +19,12 @@
 
   export function noop() { }
 
-  export interface IComponentProps extends React.HTMLAttributes{
+  export interface IComponentProps extends React.HTMLAttributes {
     children?: React.ReactNode;
+  }
+
+  export function navigateExt(url: string, title: string, newWindow?: boolean): JSX.Element {
+    return <a href={ url } target={newWindow ? '_blank' : '_self'}>{title}</a>;
   }
 
 }

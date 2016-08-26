@@ -47,7 +47,7 @@ var Page: React.StatelessComponent<IPagePar> = (props: IPagePar, ctx: sitemapRou
     {ctx.site.noTitle ? null :
       <div>
         <Block blue>
-          <h1>{ctx.site.title}</h1>
+          <h1 style={{ marginBottom: '0' }}>{ctx.site.title}</h1>
         </Block>
       </div>
     }
