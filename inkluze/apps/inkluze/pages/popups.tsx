@@ -10,9 +10,6 @@
         činnost  školy, zapsaná  ve  školském  rejstříku), které  mají ve školním roce, v němž žádost o podporu podávají, minimálně jedno
         dítě/žáka.
       </p>
-      <p>
-        Každý  žadatel  může  v rámci této výzvy, nebo výzvy  č.02_16_023 podat pouze jednu žádost o podporu.
-      </p>
     </div>
   </Popup>,
 
@@ -24,9 +21,6 @@
         </p>
         <p>
           Minimální výše: 200 000 Kč
-        </p>
-        <p>
-          Maximální výše: maximální výše finanční podpory na jeden projekt se stanoví dle tohoto vzorce: 200 000 Kč + (počet dětí/žáků školy x 2 200 Kč) = maximální částka na školu.V případě, že součástí právnické osoby je mateřská a základní škola, se částka 200 000 Kč počítá jedenkrát za mateřskou školu a jedenkrát za základní školu, celkem tedy 400 000 Kč3.Počet dětí/žáků školy k 30. 9. 2015 bude zveřejněn u vyhlášené výzvy na webových stránkách MŠMT.4 Počet dětí/žáků školy pro další školní roky bude vždy aktualizován v prosinci daného školního roku na webových stránkách MŠMT.5 Maximální výši podpory na jeden projekt žadatel vypočítá v „Kalkulačce indikátorů“, která je povinnou přílohou Žádosti o podporu.
         </p>
         <p>
           Maximální výše: maximální výše finanční podpory na jeden projekt se stanoví dle tohoto vzorce: 200 000 Kč + (počet dětí/žáků školy x 2 200 Kč) = maximální částka na školu.V případě, že součástí právnické osoby je mateřská a základní škola, se částka 200 000 Kč počít á jeden krát za mateřskou školu a jeden krát za základní školu, celkem tedy 400 000 Kč.
@@ -49,15 +43,6 @@
       </p>
       <p>
         V tomto případě je třeba, aby ředitel školy volil šablony jak pro mateřskou školu, tak pro základní školu, a to poměrně podle počtu dětí/žáků.Tzn., z celkové maximální částky na projekt budou na základní školu využity prostředky v max.výši 200 000 + (120 x 2 200 Kč) = 464 000 Kč, pro mateřskou školu prostředky v max.výši: 200 000 + (28 x 2 200 Kč) = 261 600 Kč.
-      </p>
-      <p>
-        Ke každé šabloně se automaticky a pevně váže jednotková cena, ze které vychází celková hodnota šablony.Jednotková cena je stanovena na základě průzkumů cen materiálů, mezd/platů, atd., ve vazbě na danou šablonu.Stanovené jednotky a jejich hodnoty jsou závazné pro všechny žadatele a příjemce a nelze je měnit.
-      </p>
-      <p>
-        Rozpočet projektu se naplňuje výběrem šablon až do maximální možné výše podpory stanovené pro danou školu výpočtem dle výše uvedeného vzorce.Minimální částka, kterou škola musí naplnit výběrem jednotlivých šablon, je 200 000 Kč.
-      </p>
-      <p>
-        Jakým způsobem budou příjemci poskytovány finanční prostředky, tzn.systém proplácení plateb, je uvedeno podrobně ve výzvě, kapitola č.3.
       </p>
     </div>
   </Popup>,
@@ -82,9 +67,6 @@
       <p>
         Pokud škola výstup z dotazníku nedoloží, nebude moci vykázat indikátor výsledku.Při nedoložení indikátoru výsledku budou ze strany poskytovatele dotace uplatněny sankce dle kap.11.3.Pravidel pro žadatele a příjemce zjednodušených projektů.
       </p>
-      <div className="well well-sm">
-        Školy, které budou nově zařazeny do školského rejstříku, mohou podat projektovou žádost až po vyplnění dotazníku a jeho následném vyhodnocení.Dotazníky budou pro nové školy přístupné od prosince 2016. Školy se musí samy přihlásit na adresu vyzkum-opvvv @msmt.cz.Pokud dojde ke sloučení škol a školy již předtím vyplnily dotazník, bude se vycházet z vyhodnocení již vyplněných dotazníků.
-      </div>
     </div>
   </Popup>,
 
