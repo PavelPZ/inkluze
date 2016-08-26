@@ -10,4 +10,6 @@ const Col = ReactBootstrap.Col;
 const Row = ReactBootstrap.Row;
 const Grid = ReactBootstrap.Grid;
 const Clearfix = ReactBootstrap.Clearfix;
+const Label = ReactBootstrap.Label;
+
 

@@ -6,6 +6,7 @@ const Block: React.StatelessComponent<IBlockProps> = (props: IBlockProps) => {
     <div className="container">
       {props.children}
     </div>
+    <br/>
   </div>;
 };
 
@@ -42,7 +43,7 @@ class Popup extends React.Component<IPopupProps, IPopupState> {
 
   render(): JSX.Element {
     return <span>
-      <Button onClick={() => this.open()}>{this.props.title}</Button>
+      <Label bsStyle="warning" onClick={() => this.open() } style={{ color: 'white', padding: '2px', fontSize: '100%', fontWeight:'normal' }}>{this.props.title}</Label>
       <Modal show={this.state.showModal} onHide={() => this.close()}>
         <Modal.Header closeButton>
           <Modal.Title>{this.props.title}</Modal.Title>

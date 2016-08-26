@@ -16,7 +16,7 @@ var Page: React.StatelessComponent<IPagePar> = (props: IPagePar, ctx: sitemapRou
   function nodeList(nds: Array<site.INode>): Array<JSX.Element> {
     var res: Array<JSX.Element> = [];
     nds.forEach(n => {
-      res.push(<a href={sitemapRouter.navigateUrl(n) }>{n.title}</a>); res.push(<br/>);
+      res.push(sitemapRouter.navigateTag(n)); res.push(<br/>);
     });
     return res;
   }
