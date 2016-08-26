@@ -118,4 +118,4 @@
 Home.contextTypes = sitemapRouter.childContextTypes;
 
 var HomeLi: React.StatelessComponent<lib.IComponentProps> = (props: lib.IComponentProps, ctx: sitemapRouter.IContext) => <li><i className='fa-li fa fa-file-o'></i>{props.children}</li>;
-var HomeLi2: React.StatelessComponent<lib.IComponentProps> = (props: lib.IComponentProps, ctx: sitemapRouter.IContext) => <li style={{ paddingBottom: '5px' }}><i className='fa-li fa fa-circle-o text-warning'></i>{props.children}</li>;
+var HomeLi2: React.StatelessComponent<lib.IComponentProps> = (props: lib.IComponentProps, ctx: sitemapRouter.IContext) => <li style={{ paddingBottom: '5px' }}><i className='fa-li fa fa-circle-o xtext-warning'></i>{props.children}</li>;
