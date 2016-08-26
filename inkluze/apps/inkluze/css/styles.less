@@ -20,7 +20,19 @@
     }
 }
 
-//*********** blue neader a tab
+//*********** blue header a tab
+
+.dark-header {
+    background-color:darkgray;
+    * {
+        color: white;
+        font-size:12px;
+    }
+    padding:10px;
+    a {
+        .white-link;
+    }
+}
 
 .blue-header {
     background-image: linear-gradient(to right, #071018, #337ab7 15%, #122b40);
@@ -33,6 +45,9 @@
     h1 {
         margin: 10px 0;
     }
+    a {
+        .white-link;
+    }
 }
 
 .nav-tabs > li.active > a {
@@ -40,3 +55,10 @@
     color: white;
 }
 
+.white-link {
+    color: white;
+    text-decoration:underline;
+    &:hover {
+        color: white;
+    }
+}

@@ -3,8 +3,8 @@
     <div>
       <Block blue style={{ paddingBottom: '10px' }}>
         <h1 className='text-center'>{ctx.site.title}</h1>
-        <h3 className='text-center'>Kurzy na inkluzi od zkušených lektorů</h3>
-        <div className="text-center">Napiště nám na <a href="mailto:info@langmaster.cz" style={{ textDecoration: 'underline' }}>info @langmaster.cz</a> nebo zavolejte +420 244 460 807</div>
+        <h3 className='text-center'><a href={sitemapRouter.navigateUrl(inkluze.root.kurzy) } >Kurzy na inkluzi od zkušených lektorů</a></h3>
+        <div className="text-center">Napiště nám na <a href="mailto:info@langmaster.cz" >info @langmaster.cz</a> nebo zavolejte +420 244 460 807</div>
         <Grid style={{ marginTop: '15px' }}>
           <Row>
             <Col md={1}>

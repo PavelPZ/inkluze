@@ -1,10 +1,11 @@
 ﻿namespace inkluze {
   export interface ISiteRoot extends site.INode {
     pravidla: IPravidla;
+    q_and_a: site.INode;
     zadost: site.INode;
-    personalni: site.INode;
+    //personalni: site.INode;
     kurzy: site.INode;
-    ostatni: site.INode;
+    project: site.INode;
     kontakt: site.INode;
   }
 
@@ -19,10 +20,11 @@
   export interface ITabs extends site.ITabs {
     home: site.ITab;
     pravidla: site.ITab;
+    q_and_a: site.ITab;
     zadost: site.ITab;
-    personalni: site.ITab;
+    //personalni: site.ITab;
     kurzy: site.ITab;
-    ostatni: site.ITab;
+    project: site.ITab;
     kontakt: site.ITab;
   }
 
@@ -55,19 +57,23 @@
           createPage: routePar => <DumpPopups/>,
         },
       },
+      q_and_a: {
+        id: 'q_and_a',
+        createPage: null,
+      },
       zadost: {
         id: 'zadost',
         createPage: null,
       },
-      personalni: {
-        id: 'personalni',
-        createPage: null,
-      },
+      //personalni: {
+      //  id: 'personalni',
+      //  createPage: null,
+      //},
       kurzy: {
         id: 'kurzy',
         createPage: null,
       },
-      ostatni: {
+      project: {
         id: 'ostatni',
         createPage: null,
       },
@@ -85,21 +91,25 @@
         title: 'Pravidla Výzvy',
         rootNode: root.pravidla,
       },
+      q_and_a: {
+        title: 'Otázky a odpovědi',
+        rootNode: root.q_and_a,
+      },
+      kurzy: {
+        title: 'Kurzy na inkluzi',
+        rootNode: root.kurzy,
+      },
       zadost: {
         title: 'Žádost o dotaci',
         rootNode: root.zadost,
       },
-      kurzy: {
-        title: 'Kurzy DVPP',
-        rootNode: root.kurzy,
-      },
-      personalni: {
-        title: 'Personální podpora',
-        rootNode: root.personalni,
-      },
-      ostatni: {
-        title: 'Ostatní služby',
-        rootNode: root.ostatni,
+      //personalni: {
+      //  title: 'Personální podpora',
+      //  rootNode: root.personalni,
+      //},
+      project: {
+        title: 'Projektové řízení',
+        rootNode: root.project,
       },
       kontakt: {
         title: 'Kontakt',
