@@ -19,7 +19,7 @@
 
   export function noop() { }
 
-  export interface IComponentProps {
+  export interface IComponentProps extends React.HTMLAttributes{
     children?: React.ReactNode;
   }
 

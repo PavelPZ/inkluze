@@ -5,8 +5,8 @@ var Page: React.StatelessComponent<IPagePar> = (props: IPagePar, ctx: sitemapRou
   var noBreadcrumb = bcItems.length == 0;
   var bc = noBreadcrumb ? null : <div className="container">
     <Breadcrumb>
-      {bcItems.map(b => <Breadcrumb.Item href={sitemapRouter.navigateUrl(b) }>{b.brTitle ? b.brTitle : b.title}</Breadcrumb.Item>) }
-      <Breadcrumb.Item href="#" active>{ctx.site.brTitle ? ctx.site.brTitle : ctx.site.title}</Breadcrumb.Item>
+      {bcItems.map(b => <Breadcrumb.Item href={sitemapRouter.navigateUrl(b) } key={b.path}>{b.brTitle ? b.brTitle : b.title}</Breadcrumb.Item>) } 
+      <Breadcrumb.Item href="#" active key={ctx.site.path}>{ctx.site.brTitle ? ctx.site.brTitle : ctx.site.title}</Breadcrumb.Item>
     </Breadcrumb>
   </div>;
   //tabs
@@ -28,14 +28,16 @@ var Page: React.StatelessComponent<IPagePar> = (props: IPagePar, ctx: sitemapRou
     {bc}
     <div className="container">
       <Nav bsStyle="tabs" activeKey={ctx.site.tab.idx}>
-        {site.tabs.$childs.map(t => <NavItem eventKey={t.idx} href={sitemapRouter.navigateUrl(t.rootNode) }>{t.title}</NavItem>) }
+        {site.tabs.$childs.map(t => <NavItem eventKey={t.idx} href={sitemapRouter.navigateUrl(t.rootNode) } key={t.idx}>{t.title}</NavItem>) }
       </Nav>
     </div>
-    <div>
-      <Block blue>
-        <h1>{ctx.site.title}</h1>
-      </Block>
-    </div>
+    {ctx.site.noTitle ? null :
+      <div>
+        <Block blue>
+          <h1>{ctx.site.title}</h1>
+        </Block>
+      </div>
+    }
     {props.children}
   </div>
 }

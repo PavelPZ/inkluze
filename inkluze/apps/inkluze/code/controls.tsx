@@ -1,8 +1,8 @@
 ﻿interface IBlockProps extends lib.IComponentProps { gray?: boolean; blue?: boolean; }
 const Block: React.StatelessComponent<IBlockProps> = (props: IBlockProps) => {
-  var st: React.CSSProperties = props.gray ? { backgroundColor: '#eeeeee' } : null;
+  var st: React.CSSProperties = props.gray ? { backgroundColor: '#eeeeee' } : {};
   var cls = props.blue ? 'blue-header' : null;
-  return <div style={st} className={cls}>
+  return <div style={Object.assign(st, props.style)} className={cls}>
     <div className="container">
       {props.children}
     </div>

@@ -35,6 +35,7 @@
       brTitle: 'Hlavní',
       largeLogo: true,
       createPage: routePar => <Home/>, //sitemapRouter.createElement<IHomePar>(Home, routePar, { subTitle: 'SubTitle Default' }),
+      noTitle:true,
       pravidla: {
         id: 'vyzva',
         createPage: null,

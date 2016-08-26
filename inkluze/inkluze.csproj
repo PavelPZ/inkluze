@@ -30,6 +30,7 @@
     <Content Include="externals\react-bootstrap.js" />
     <Content Include="externals\react-dom.js" />
     <Content Include="externals\react.js" />
+    <Content Include="HtmlPage1.html" />
     <Content Include="index.html" />
     <Content Include="web.config" />
   </ItemGroup>

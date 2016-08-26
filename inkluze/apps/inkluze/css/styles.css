@@ -18,8 +18,10 @@
   background-image: linear-gradient(to right, #071018, #337ab7 15%, #122b40);
   background-repeat: no-repeat;
 }
-.blue-header h1 {
+.blue-header * {
   color: white;
+}
+.blue-header h1 {
   margin: 10px 0;
 }
 .nav-tabs > li.active > a {

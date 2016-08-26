@@ -10,6 +10,7 @@
     parent?: INode;
     largeLogo?: boolean; //velke logo v chladici
     tab?: ITab; //my tab
+    noTitle?:boolean; //page template negeneruje title stranky
   }
   export var root: INode;
   export var nodes: { [path: string]: INode; } = {};
