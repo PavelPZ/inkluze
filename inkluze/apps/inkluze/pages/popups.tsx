@@ -94,9 +94,9 @@
     </div>
   </Popup>,
 
-  ms_skolni_asistent: <Popup document='priloha3' page={56} title='Školní asistent – personální podpora ZŠ'>
+  ms_skolni_asistent: <Popup document='priloha3' page={56} title='Školní asistent – personální podpora MŠ'>
     <div>
-      <p>Školní asistent poskytuje základní nepedagogickou podporu přímo v rodině při spolupráci s rodiči, zprostředkovává komunikaci s komunitou, rodinou a školou spočívající např.v aktivitách vedoucích k zajištění pravidelné školní docházky žáků, porozumění rodinnému prostředí žáků a zajištění přenosu informací mezi školou a rodinou, pomáhá při rozvoji mimoškolních a volnočasových aktivit, poskytuje podporu pedagogovi při administrativní a organizační činnosti pedagoga ve vyučování i mimo vyučování.</p>
+      <p>Školní asistent poskytuje základní nepedagogickou podporu přímo v rodině při spolupráci s rodiči, zprostředkovává komunikaci s komunitou, rodinou a školou spočívající např.v aktivitách vedoucích k zajištění pravidelné docházky dětí, porozumění rodinnému prostředí dětí a zajištění přenosu informací mezi mateřskou školou a rodinou, poskytuje přímou nepedagogickou podporu dětí v předškolním vzdělávání spočívající např.v nácviku jednoduchých činností při příchodu a pobytu ve škole nebo školském zařízení nebo při akcích školy nebo školského zařízení, pomoci při oblékání, poskytuje podporu pedagogovi při administrativní a organizační činnosti pedagoga ve vyučování i mimo vyučování.</p>
     </div>
   </Popup>,
 
@@ -106,9 +106,9 @@
     </div>
   </Popup >,
 
-  ms_specialni_pedagog: <Popup document= 'priloha3' page= {61} title= 'Školní speciální pedagog – personální podpora ZŠ' >
+  ms_specialni_pedagog: <Popup document= 'priloha3' page= {61} title= 'Školní speciální pedagog – personální podpora MŠ' >
     <div>
-      <p>Speciální pedagog diagnostikuje speciální vzdělávací potřeby žáků a pomáhá vytvářet a zlepšit podmínky pro úspěšnou integraci žáků se speciálními vzdělávacími potřebami.Součástí práce je spolupráce na tvorbě plánu pedagogické podpory nebo individuálního vzdělávacího plánu pro každého žáka s potřebou podpůrných opatření/se speciálními vzdělávacími potřebami.</p>
+      <p>Speciální pedagog diagnostikuje speciální vzdělávací potřeby dětí a pomáhá vytvářet a zlepšit podmínky pro úspěšnou integraci dětí se speciálními vzdělávacími potřebami.Součástí práce je spolupráce na tvorbě plánu pedagogické podpory nebo individuálního vzdělávacího plánu pro každé dítě s potřebou podpůrných opatření/se speciálními vzdělávacími potřebami.</p>
     </div>
   </Popup >,
 
@@ -120,10 +120,10 @@
     </div>
   </Popup>,
 
-  ms_psycholog: <Popup document='priloha3' page= {63} title='Školní psycholog – personální podpora ZŠ'>
+  ms_psycholog: <Popup document='priloha3' page= {63} title='Školní psycholog – personální podpora MŠ'>
     <div>
       <p>
-        Školní psycholog zkoumá klima ve třídách, chování žáků, vytváří diagnostiku a poskytuje konzultace pro žáky, pedagogy a rodiče ve škole nebo mimo školu.Školní psycholog spolupracuje také se zdravotnickými a jinými organizacemi mimo školní zařízení.
+        Školní psycholog zkoumá klima ve třídách, chování dětí, vytváří diagnostiku a poskytuje konzultace pro pedagogy a rodiče ve škole nebo mimo školu.Školní psycholog spolupracuje také se zdravotnickými a jinými organizacemi mimo školní zařízení.
       </p>
     </div>
   </Popup>,
@@ -139,34 +139,18 @@
     </div>
   </Popup>,
 
-  ms_socialni_pedagog: <Popup document='priloha3' page= {67} title='Sociální pedagog – personální podpora ZŠ'>
+  ms_socialni_pedagog: <Popup document='priloha3' page= {67} title='Sociální pedagog – personální podpora MŠ'>
     <div>
       <p>
-        Sociální pedagog není pedagogický pracovník, jeho náplní práce je vytvářet propojení mezi školou a jinými subjekty, např.obcí, policií, státním zástupcem a zdravotnickým zařízení.Součástí práce je poskytování mediace mezi školou, rodiči a uvedenými institucemi a pomoc s právními a sociálními otázkami.
+        Sociální pedagog není pedagogický pracovník, jeho náplní práce je vytvářet propojení mezi školou a jinými subjekty, např.obcí, policií, státním zástupcem a zdravotnickým zařízením.Součástí práce je poskytování mediace mezi školou, rodiči a uvedenými institucemi a pomoc s právními a sociálními otázkami.
       </p>
       <p>
-        Sociální pedagog bude působit jako prostředník mezi základní školou a rodinou.Účinně pomůže žákům, jejichž rodiny nemají dostatečnou kapacitu pomoci s přípravou do školy a s motivací ke studiu.Poskytne pedagogům informace týkající se zázemí žáků a problémů, což následně pedagogům pomůže zvolit vhodný přístup k žákovi.
+        Sociální pedagog bude působit jako prostředník mezi mateřskou školou a rodinou.Účinně pomůže dětem, jejichž rodiny nemají dostatečnou kapacitu pomoci dětem při vzdělávání v mateřských školách.Poskytne pedagogům informace týkající se zázemí dětí a problémů, což následně pedagogům pomůže zvolit vhodný přístup k dítěti.
       </p>
-    </div>
-  </Popup>,
-
-  xxx4: <Popup document='vyzva' page= {5} title='Oprávnění žadatelé'>
-    <div>
-      yyy
-    </div>
-  </Popup>,
-
-  xxx5: <Popup document='vyzva' page= {5} title='Oprávnění žadatelé'>
-    <div>
-      yyy
-    </div>
-  </Popup>,
-
-  xxx6: <Popup document='vyzva' page= {5} title='Oprávnění žadatelé'>
-    <div>
-      yyy
     </div>
   </Popup>
+
+
 
 }
 
