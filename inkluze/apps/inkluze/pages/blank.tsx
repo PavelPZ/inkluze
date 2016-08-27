@@ -2,7 +2,7 @@
   var childIdx = 0;
   return <div>
     <Page isSmall={true}>
-      <Block gray>
+      <Block>
         {!ctx.site.childs ? null : ctx.site.childs.map(ch => <p key={childIdx++}><a href={sitemapRouter.navigateUrl(ch) }>{ch.title}</a></p>) }
       </Block>
     </Page>

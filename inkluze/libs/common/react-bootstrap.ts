@@ -11,5 +11,11 @@ const Row = ReactBootstrap.Row;
 const Grid = ReactBootstrap.Grid;
 const Clearfix = ReactBootstrap.Clearfix;
 const Label = ReactBootstrap.Label;
+const Panel = ReactBootstrap.Panel;
+const PanelGroup = ReactBootstrap.PanelGroup;
+const FormGroup = ReactBootstrap.FormGroup;
+const HelpBlock = ReactBootstrap.HelpBlock;
+const FormControl = ReactBootstrap.FormControl;
+const ControlLabel = ReactBootstrap.ControlLabel;
 
 

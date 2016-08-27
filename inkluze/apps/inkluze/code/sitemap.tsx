@@ -59,7 +59,7 @@
       },
       q_and_a: {
         id: 'q_and_a',
-        createPage: null,
+        createPage: par => <Q_and_a/>,
       },
       zadost: {
         id: 'zadost',
@@ -92,7 +92,7 @@
         rootNode: root.pravidla,
       },
       q_and_a: {
-        title: 'Otázky a odpovědi',
+        title: 'Dotazy a odpovědi',
         rootNode: root.q_and_a,
       },
       kurzy: {

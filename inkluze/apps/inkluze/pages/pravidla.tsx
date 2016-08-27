@@ -11,10 +11,10 @@
     <BlockEx title="Jaká je výše dotace?">
       XXXX
     </BlockEx>
-    <BlockEx title="XXXX">
+    <BlockEx title="XXXX" gray>
       XXXX
     </BlockEx>
-    <BlockEx title="XXXX" gray>
+    <BlockEx title="XXXX" >
       XXXX
     </BlockEx>
   </Page>

@@ -38,6 +38,7 @@
     <TypeScriptCompile Include="apps\inkluze\code\controls.tsx" />
     <TypeScriptCompile Include="apps\inkluze\code\sitemap.tsx" />
     <TypeScriptCompile Include="apps\inkluze\code\page.tsx" />
+    <TypeScriptCompile Include="apps\inkluze\pages\q_and_a.tsx" />
     <TypeScriptCompile Include="apps\inkluze\pages\blank.tsx" />
     <TypeScriptCompile Include="apps\inkluze\pages\pravidla.tsx" />
     <TypeScriptCompile Include="apps\inkluze\pages\home.tsx" />

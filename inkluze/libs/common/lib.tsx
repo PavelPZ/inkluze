@@ -21,6 +21,7 @@
 
   export interface IComponentProps extends React.HTMLAttributes {
     children?: React.ReactNode;
+    key?: any;
   }
 
   export function navigateExt(url: string, title: string, newWindow?: boolean): JSX.Element {
