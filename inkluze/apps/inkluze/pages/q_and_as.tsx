@@ -6,8 +6,11 @@
       answer
     </div>),
   createQA(
-    'Text Question 2',
-    'Text Answer 2'),
+    'Pokud mám pod stejným REDIZO dva subjekty (např. MŠ a ZŠ), mám vytvořit jednu žádost o dotace nebo dvě?',
+    'V tomto případě se vyplňuje pouze jedna žádost.'),
+  createQA(
+    'Pokud jsem ředitel ve dvou subjektech (např. MŠ a ZŠ), ale každý má jiné REDIZO, mám vytvořit jednu žádost o dotace nebo dvě?',
+    'V tomto případě se vyplňují dvě žádosti.'),
 ]
 
 
