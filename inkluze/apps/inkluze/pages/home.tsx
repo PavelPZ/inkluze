@@ -66,7 +66,7 @@
       <ul className='fa-ul'>
         <HomeLi2>EU nyní poskytuje České republice dotaci na rozvoj kvalitního vzdělávání v celkové výši 4.5 mld.
           Součástí této dotace je i podpora inkluzívního vzdělávání, o kterou si mohou požádat všechny základní a mateřské školy.</HomeLi2>
-        <HomeLi2>Dotace pro oblast inkluzívního vzdělávání je určena zejména::
+        <HomeLi2>Dotace pro oblast inkluzívního vzdělávání je určena zejména:
           <ul>
             <li>na tzv.&nbsp; <b>Personální podporu</b> (tj.platy specializovaných pracovníků, které musí školy v souvislosti s inkluzí zaměstnat, např.školní asistent, školní speciální pedagog apod.) </li>
             <li>na <b>vzdělávání učitelů</b> v oblasti inkluze (tj.Vzdělávací kurzy v rámci „DVPP“ – Další Vzdělávání Pedagogických Pracovníků) </li>
@@ -85,7 +85,7 @@
         <li><b>Seznámíte se s možnostmi a pravidly Výzvy.</b><br/>
           Získat dotaci a využít ji není tak složité, jak se může při prvním čtení stovek stran oficiálních dokumentů zdát.
           Pro vaši rychlou orientaci jsme popsali důležité aspekty Výzvy tak, abyste byli schopni o dotaci zažádat a využít ji dle pravidel EU<br/>
-          Více viz {sitemapRouter.navigateTag(inkluze.root.pravidla) }.<br/>
+          Viz stránka {sitemapRouter.navigateTag(inkluze.root.pravidla) }.<br/>
           V případě nejasností rádi zodpovíme vaše otázky na stránce  {sitemapRouter.navigateTag(inkluze.root.q_and_a) }.</li>
         <li><b>Zažádáte si o dotaci</b> (v souladu s pravidly EU) <br/>
           Pokud budete potřebovat, s vyplněním vám pomůžeme.<br/>
@@ -95,7 +95,7 @@
           Jak naši lektoři, tak i naše kurzy na inkluzi splňují podmínky Výzvy (vše je akreditováno MŠMT).<br/>
           Viz stránka {sitemapRouter.navigateTag(inkluze.root.kurzy) }</li>
         <li><b>Budete průběžně plnit další formální požadavky EU</b> (zasílání průběžných zpráv o realizaci projektu apod.) <br/>
-          Pomůžeme Vám s kompletním projektovým řízením viz stránka {sitemapRouter.navigateTag(inkluze.root.project) }</li>
+          Pomůžeme Vám s kompletním projektovým řízením. Viz stránka {sitemapRouter.navigateTag(inkluze.root.project) }</li>
       </ol>
     </BlockEx>
   </Page>
