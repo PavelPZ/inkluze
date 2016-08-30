@@ -1,6 +1,6 @@
 ﻿var Pravidla: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div>
   <Page isSmall={false}>
-    <BlockEx title="Princip využití dotace">
+    <BlockEx title="Příklad odkazů">
       Text s odkazem na {popups.MAP} popup.
       Text s odkazem na jinou stránku: {sitemapRouter.navigateTag(inkluze.root.kurzy) }.
       Text s odkazem {lib.navigateExt('http://www.langmaster.cz', 'jinam') } nebo {lib.navigateExt('http://www.langmaster.cz', 'jinam', true) }.
@@ -20,7 +20,7 @@
     </BlockEx>
     <BlockEx title="Kdo je oprávněný žadatel o dotaci?">
       <p>
-        Oprávněným žadatelem o dotaci jsou ZŠ a MŠ z celé ČR {popups.zadavatel}, tedy i z Prahy (pražským školám byly doposud dotace EU odepřeny).
+        {popups.zadavatel} o dotaci jsou ZŠ a MŠ z celé ČR, tedy i z Prahy (pražským školám byly doposud dotace EU odepřeny).
       </p>
     </BlockEx>
     <BlockEx title="Jaká je výše dotace?" gray>
@@ -36,7 +36,7 @@
             200 000 Kč + počet dětí/žáků školy x 2 200 Kč.
             Tato maximální částka ale nesmí  přesáhnout 5 mil.
             Kč.<br/>
-            Viz {popups.rozpocet}
+            Více viz {popups.rozpocet}
           </li>
         </ul>
       </p>
@@ -46,7 +46,7 @@
 
       <h4>Jak určit „počet žáků školy“?</h4>
       <ol>
-        <li>U žádosti o dotaci podané do 31.12.2016, budete vycházet z počtu žáků k 30.9.2015. Tento {lib.navigateExt('http://www.msmt.cz/uploads/OP_VVV/Vyzva_zjednodusene_projekty_22_a23/Seznamy_MS_ZS_k_30_09_2015.xlsx', ' počet musí odpovídat oficiálním údajům na stránce MŠMT') }.</li>
+        <li>U žádosti o dotaci podané do 31.12.2016, budete vycházet z počtu žáků k 30.9.2015.Tento počet musí odpovídat  {lib.navigateExt('http://www.msmt.cz/uploads/OP_VVV/Vyzva_zjednodusene_projekty_22_a23/Seznamy_MS_ZS_k_30_09_2015.xlsx', 'oficiálním údajům na stránce MŠMT') }.</li>
         <li>U žádosti o dotaci podané po 1.1.2017, budete vycházet z  počtu žáků k 30.9.2016, který bude na webových stránkách MŠMT aktualizován v prosinci 2016.</li>
       </ol>
       <p>
@@ -106,11 +106,11 @@
       <p>
         Na začátku června 2016 zaslalo MŠMT podrobné vyhodnocení výše zmíněného dotazníkového šetření všem školám, které dotazník vyplnily.
         Na základě tohoto vyhodnocení je určena nejslabší oblast vzdělávání (v průměru k ČR).
-        V této oblasti by se škola měla rozvíjet, a má povinnost zvolit do projektu alespoň jednu šablonu, rozvíjející tuto oblast.{popups.MAP}
+        V této oblasti by se škola měla rozvíjet, a má povinnost zvolit do projektu alespoň jednu šablonu, rozvíjející tuto oblast. Více viz {popups.MAP}
       </p>
       <p>
         Pozn.
-        Nemůžete-li nalézt podrobné vyhodnocení co vám MŠMT poslalo tak tyto výsledky jsou také zpřístupněny na této adrese  {lib.navigateExt('https://sberdat.uiv.cz/login', 'https://sberdat.uiv.cz/login') }.
+        Nemůžete-li nalézt podrobné vyhodnocení, které vám MŠMT zaslalo, podívejte se na výsledky na této adrese: {lib.navigateExt('https://sberdat.uiv.cz/login', 'https://sberdat.uiv.cz/login') }.
       </p>
       <p>
         Na závěr projektu školy vyplní dotazník ještě jednou, aby se dalo zjistit, jaký vliv projekt na školu měl.
@@ -167,11 +167,7 @@
         </ul>
       </p>
       <p>
-        Více viz Kurzy na inkluzi {sitemapRouter.navigateTag(inkluze.root.kurzy) }
-      </p>
-      <p>
-        Je potřeba splnit minimální hranici bagatelní podpory, která je stanovena na 24 hodin.
-        To znamená, že každý pedagogický pracovník, který se účastní projektu, musí v souhrnu absolvovat alespoň 24 hodin školení.
+        Více viz {sitemapRouter.navigateTag(inkluze.root.kurzy) }
       </p>
     </BlockEx>
   </Page>

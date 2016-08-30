@@ -49,7 +49,7 @@
     </div>
     <BlockEx title="O inkluzi">
       <p>
-        Problematika inkluze neboli začleňování děti se speciálními vzdělávacími potřebami do běžných škol není žádnou letošní novinkou.
+        Problematika inkluze, neboli začleňování děti se speciálními vzdělávacími potřebami do běžných škol, není žádnou letošní novinkou. 
         S malou nadsázkou se dá se říci, že v českých školách nenajdete učitele, který by se s touto problematikou v předchozích letech v některé ze svých tříd již nesetkal.
       </p>
       <p>
