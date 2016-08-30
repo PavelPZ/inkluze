@@ -82,7 +82,7 @@
       </p>
       <h4>Pomoc s vyplněním žádosti</h4>
       <p>
-        Tuto pomoc nabízíme na této stránce {sitemapRouter.navigateTag(inkluze.root.zadost) }
+        Tuto pomoc nabízíme na stránce {sitemapRouter.navigateTag(inkluze.root.zadost) }
       </p>
     </BlockEx>
     <BlockEx title="Povinná šablona, související s vyplněním dotazníku MAP" gray>
