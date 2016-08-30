@@ -3,7 +3,7 @@
     <div>
       <Block blue style={{ paddingBottom: '10px' }}>
         <h1 className='text-center'>{ctx.site.title}</h1>
-        <h3 className='text-center'><a href={sitemapRouter.navigateUrl(inkluze.root.kurzy) } >Kurzy na inkluzi od zkušených lektorů</a></h3>
+        <h3 className='text-center'><a href={sitemapRouter.navigateUrl(inkluze.root.kurzy) } >Kurzy od zkušených akreditovaných lektorů</a></h3>
         <div className="text-center">Napiště nám na <a href="mailto:info@langmaster.cz" >info @langmaster.cz</a> nebo zavolejte +420 244 460 807</div>
         <Grid style={{ marginTop: '15px' }}>
           <Row>
@@ -49,11 +49,11 @@
     </div>
     <BlockEx title="O inkluzi">
       <p>
-        Problematika inkluze neboli začleňování děti se speciálními vzdělávacími potřebami do běžných škol není žádnou letošní novinkou.
+        Problematika inkluze, neboli začleňování děti se speciálními vzdělávacími potřebami do běžných škol, není žádnou letošní novinkou.
         S malou nadsázkou se dá se říci, že v českých školách nenajdete učitele, který by se s touto problematikou v předchozích letech v některé ze svých tříd již nesetkal.
       </p>
       <p>
-        Co je však nového je, že se inkluze konečně začíná efektivně řešit.
+        Novinkou je, že se inkluze konečně začíná efektivně řešit.
         Ať už právními úpravami, tak také velkými finančními dotacemi, které by měly školám významně pomoci problematiku inkluze v celé šíři zvládnout.
       </p>
       <br/>
@@ -64,8 +64,9 @@
     </BlockEx>
     <BlockEx title="Dotace EU na inkluzi pro ZŠ a MŠ" gray>
       <ul className='fa-ul'>
-        <HomeLi2>EU nyní poskytuje České republice dotaci v celkové výši 4.5 mld.na podporu inkluze, o kterou si mohou požádat české základní a mateřské školy</HomeLi2>
-        <HomeLi2>Dotace je určena zejména:
+        <HomeLi2>EU nyní poskytuje České republice dotaci na rozvoj kvalitního vzdělávání v celkové výši 4.5 mld.
+          Součástí této dotace je i podpora inkluzívního vzdělávání, o kterou si mohou požádat všechny základní a mateřské školy.</HomeLi2>
+        <HomeLi2>Dotace pro oblast inkluzívního vzdělávání je určena zejména:
           <ul>
             <li>na tzv.&nbsp; <b>Personální podporu</b> (tj.platy specializovaných pracovníků, které musí školy v souvislosti s inkluzí zaměstnat, např.školní asistent, školní speciální pedagog apod.) </li>
             <li>na <b>vzdělávání učitelů</b> v oblasti inkluze (tj.Vzdělávací kurzy v rámci „DVPP“ – Další Vzdělávání Pedagogických Pracovníků) </li>
@@ -84,17 +85,17 @@
         <li><b>Seznámíte se s možnostmi a pravidly Výzvy.</b><br/>
           Získat dotaci a využít ji není tak složité, jak se může při prvním čtení stovek stran oficiálních dokumentů zdát.
           Pro vaši rychlou orientaci jsme popsali důležité aspekty Výzvy tak, abyste byli schopni o dotaci zažádat a využít ji dle pravidel EU<br/>
-          Viz {sitemapRouter.navigateTag(inkluze.root.pravidla) }.<br/>
-          V případě nejasností rádi zodpovíme vaše otázky v {sitemapRouter.navigateTag(inkluze.root.q_and_a) }.</li>
+          Viz stránka {sitemapRouter.navigateTag(inkluze.root.pravidla) }.<br/>
+          V případě nejasností rádi zodpovíme vaše otázky na stránce  {sitemapRouter.navigateTag(inkluze.root.q_and_a) }.</li>
         <li><b>Zažádáte si o dotaci</b> (v souladu s pravidly EU) <br/>
           Pokud budete potřebovat, s vyplněním vám pomůžeme.<br/>
-          Viz {sitemapRouter.navigateTag(inkluze.root.zadost) }</li>
+          Viz stránka {sitemapRouter.navigateTag(inkluze.root.zadost) }</li>
         <li><b>Objednáte si Vzdělávací kurzy</b>, kterými vyškolíte vaše učitele.<br/>
           Spolupracujeme s renomovanými lektory s mnohaletou praxí.
           Jak naši lektoři, tak i naše kurzy na inkluzi splňují podmínky Výzvy (vše je akreditováno MŠMT).<br/>
-          Viz {sitemapRouter.navigateTag(inkluze.root.kurzy) }</li>
+          Viz stránka {sitemapRouter.navigateTag(inkluze.root.kurzy) }</li>
         <li><b>Budete průběžně plnit další formální požadavky EU</b> (zasílání průběžných zpráv o realizaci projektu apod.) <br/>
-          Pomůžeme s kompletním projektovým na {sitemapRouter.navigateTag(inkluze.root.project) }</li>
+          Pomůžeme Vám s kompletním projektovým řízením. Viz stránka {sitemapRouter.navigateTag(inkluze.root.project) }</li>
       </ol>
     </BlockEx>
   </Page>
