@@ -1,11 +1,5 @@
 ﻿const qas = [
   createQA(
-    <span><i>Formated</i> question</span>,
-    <div>
-      <b>Formated answer</b><br/>
-      answer
-    </div>),
-  createQA(
     'Pokud mám pod jedním IČO dva subjekty (např. MŠ a ZŠ), mám vytvořit jednu žádost o dotace nebo dvě?',
     'Žádost se podává za organizaci. Ta je určená IČ, takže ve Vašem případě podáte pouze jednu žádost.'),
   createQA(
