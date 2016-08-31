@@ -2,7 +2,7 @@
 var Page: React.StatelessComponent<IPagePar> = (props: IPagePar, ctx: sitemapRouter.IContext) => {
   //breadcrumb
   var bcItems = site.nodeParents(ctx.site, true);
-  var noBreadcrumb = bcItems.length == 0;
+  var noBreadcrumb = true; //bcItems.length == 0;
   var bc = noBreadcrumb ? null : <div className="container">
     <Breadcrumb>
       {bcItems.map(b => <Breadcrumb.Item href={sitemapRouter.navigateUrl(b) } key={b.path}>{b.brTitle ? b.brTitle : b.title}</Breadcrumb.Item>) }

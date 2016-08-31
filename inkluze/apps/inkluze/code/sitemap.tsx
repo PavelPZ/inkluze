@@ -4,6 +4,7 @@
     q_and_a: site.INode;
     dalsi: site.INode;
     //personalni: site.INode;
+    lektori: site.INode;
     kurzy: site.INode;
     slovnicek: site.INode;
     //kontakt: site.INode;
@@ -24,6 +25,7 @@
     dalsi: site.ITab;
     //personalni: site.ITab;
     kurzy: site.ITab;
+    lektori: site.ITab;
     slovnicek: site.ITab;
     //kontakt: site.ITab;
   }
@@ -33,7 +35,7 @@
   export function bootApp() {
     site.root = root = {
       id: 'home',
-      title: 'Podpora inkluze s pomocí dotací EU',
+      title: 'Podpora inkluze s pomocí dotace EU',
       brTitle: 'Hlavní',
       largeLogo: true,
       createPage: routePar => <Home/>, //sitemapRouter.createElement<IHomePar>(Home, routePar, { subTitle: 'SubTitle Default' }),
@@ -67,10 +69,14 @@
       },
       slovnicek: {
         id: 'slovnicek',
-        createPage: null,
+        createPage: par => <Slovnicek/>,
       },
       kurzy: {
         id: 'kurzy',
+        createPage: null,
+      },
+      lektori: {
+        id: 'lektori',
         createPage: null,
       },
       //project: {
@@ -94,6 +100,10 @@
       kurzy: {
         title: 'Kurzy na inkluzi',
         rootNode: root.kurzy,
+      },
+      lektori: {
+        title: 'Naši lektoři',
+        rootNode: root.lektori,
       },
       dalsi: {
         title: 'Další služby',

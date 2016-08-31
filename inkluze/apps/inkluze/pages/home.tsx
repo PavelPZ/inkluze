@@ -3,7 +3,7 @@
     <div>
       <Block blue style={{ paddingBottom: '10px' }}>
         <h1 className='text-center'>{ctx.site.title}</h1>
-        <h3 className='text-center'><a href={sitemapRouter.navigateUrl(inkluze.root.kurzy) } >Kurzy od zkušených akreditovaných lektorů</a></h3>
+        <h3 className='text-center'><a href={sitemapRouter.navigateUrl(inkluze.root.kurzy) } >Kurzy</a> od <a href={sitemapRouter.navigateUrl(inkluze.root.lektori) }>zkušených akreditovaných lektorů</a></h3>
         <div className="text-center">Napiště nám na <a href="mailto:info@langmaster.cz" >info @langmaster.cz</a> nebo zavolejte +420 244 460 807</div>
         <Grid style={{ marginTop: '15px' }}>
           <Row>
@@ -53,16 +53,11 @@
         Novinkou je, že se inkluze konečně začíná efektivně řešit.
         Ať už právními úpravami (nová vyhláška školského zákona) nebo velkými finančními dotacemi (které by měly školám významně pomoci inkluzi zvládnout).
       </p>
-      {/*
-      <p>
-        S malou nadsázkou se dá se říci, že v českých školách nenajdete učitele, který by se s touto problematikou v předchozích letech v některé ze svých tříd již nesetkal.
-      </p>
-      <br/>
       <div className='alert alert-warning'>
         Poznámka: <b>Inkluze</b> se nově nazývá <b>Společné vzdělávání</b>.
         My budeme ale používat doposud rozšířenější termín Inkluze.
+        Viz též {sitemapRouter.navigateTag(inkluze.root.slovnicek) }.
       </div>
-      */}
     </BlockEx>
     <BlockEx header={<div>"Výzva" = dotace EU na inkluzi pro ZŠ a MŠ</div>} gray>
       <ul className='fa-ul'>
@@ -70,8 +65,9 @@
           Dotace je z velké části určena na podporu inkluze.</LiHand>
         <LiHand>Dotace pro inkluzi je určena zejména na:
           <ul>
-            <li><b>Platy speciálních pracovníků</b> (asistent pedagoga, speciální pedagog, školní psycholog, sociální pedagog), které musí školy v souvislosti s inkluzí zaměstnat.Dotace na platy se nazývá <b>Personální podpora</b></li>
-            <li><b>Vzdělávání učitelů</b> (školení v rámci <b>DVPP</b> = <b>D</b>alšího <b>V</b>zdělávání <b>P</b>edagogických <b>P</b>racovníků) </li>
+            <li><b>Platy speciálních pracovníků</b> (asistent pedagoga, speciální pedagog, školní psycholog, sociální pedagog), které musí školy v souvislosti s inkluzí zaměstnat.
+              Dotace na platy se nazývá <b>Personální podpora</b></li>
+            <li><b>Vzdělávání učitelů</b> (kurzy <b>DVPP</b> = <b>D</b>alšího <b>V</b>zdělávání <b>P</b>edagogických <b>P</b>racovníků) </li>
           </ul>
         </LiHand>
         <LiHand>
@@ -83,14 +79,18 @@
           O těch se ale budeme zmiňovat méně podrobně.</HomeLi2>*/}
       </ul>
     </BlockEx>
-    <BlockEx header="Školení na inkluzi pod vedením renomovaných lektorů">
-      Pro učitele jsme ve spolupráci se zkušenými akreditovanými lektory připravili řadu školení.
-      Cílem školení je, aby pokud možno celý pedagogický sbor získal orientaci v problematice inkluze.
-      Naši lektoři mají mnohaletou praxi jak s vzděláváním učitelů tak s inkluzí, o čemž se můžete přesvědčit <i>TODO: zde.</i>
+    <BlockEx header="Kurzy na inkluzi od renomovaných lektorů">
+      <p>
+        Pro učitele jsme ve spolupráci se zkušenými akreditovanými lektory připravili řadu kurzů.
+        Cílem kurzu je, aby pokud možno celý pedagogický sbor získal orientaci v problematice inkluze.
+      </p>
+      <p>
+        Naši lektoři mají mnohaletou praxi jak s vzděláváním učitelů tak s inkluzí, o čemž se můžete přesvědčit na stránce {sitemapRouter.navigateTag(inkluze.root.lektori) }.
+      </p>
     </BlockEx>
     <BlockEx header="Inkluze se týká většiny učitelů" gray>
       S malou nadsázkou se dá se říci, že v českých školách nenajdete učitele, který by se v některé ze svých tříd nesetkal s problematikou inkluze.
-      V tomto případě se mu jistě budou hodit znalosti z našich školení, jako například:
+      V tomto případě se mu jistě budou hodit znalosti z našich kurzů, jako například:
       <ul className='fa-ul' style={{ marginTop: "8px" }}>
         <LiCheck>Existují nějaké speciální pomůcky nebo metody, které by mohly žákovi ve výuce pomoci?</LiCheck>
         <LiCheck>Kdo mu může poradit jak k žákovi přistupovat a řešit s ním problematické situace?</LiCheck>
@@ -105,16 +105,38 @@
         <LiCheck>A mnoho dalšího…</LiCheck>
       </ul>
     </BlockEx>
-    <BlockEx header="Alespoň 24 hodin školení nebo nic">
+    <BlockEx header="Alespoň 24 hodin kurzu nebo nic">
       <p>
-        V podmínkách pro využití dotace je stanoveno, že každý učitel, který se v rámci projektu účastní nějakého školení, <b>musí v souhrnu absolvovat alespoň 24 hodin školení</b>.
-        Připravili jsme proto 24-hodinové a 32-hodinové školení.
-        Obě školení splňují všechny podmínky, aby na ně bylo možno použit peníze z dotace.
+        V podmínkách pro využití dotace je stanoveno, že každý učitel, který se v rámci projektu účastní nějakého kurzu, <b>musí v souhrnu absolvovat alespoň 24 hodin kurzu</b>.
+        Této podmínce se říká tzv.&nbsp;bagatelní podpora, více se o ní dozvíte <i>TODO</i>.
       </p>
       <p>
-        Cílem obou školení je, aby učitelé získali základní orientaci v problematice inkluzivního vzdělávání.
-        U 32-hodinového školení zbude více prostoru na diskusi s učiteli, řešení konkrétních problémů, týkajících se dané školy a praktické procvičování získaných znalostí.
+        Připravili jsme proto 24-hodinové a 32-hodinové kurzy.
+        Naše kurzy splňují všechny podmínky, aby na ně bylo možno použit peníze z dotace.
       </p>
+      <p>
+        Cílem obou kurzů je, aby učitelé získali základní orientaci v problematice inkluzivního vzdělávání.
+        U 32-hodinového kurzu zbude více prostoru na diskusi s učiteli, řešení konkrétních problémů, týkajících se dané školy a praktické procvičování získaných znalostí.
+      </p>
+      <p>
+        Více viz stránka {sitemapRouter.navigateTag(inkluze.root.kurzy) }.
+      </p>
+    </BlockEx>
+    <BlockEx header="Další informace a služby, týkající se dotace na inkluzi" gray>
+      <p>
+        Získat dotaci a využít ji není tak složité, jak se může při prvním čtení stovek stran oficiálních dokumentů zdát.
+        Rádi vám poskytneme další informace a služby, které vám zjednoduší čerpání dotace:
+      </p>
+      <h4>Seznámení s pravidly Výzvy</h4>
+      <p>
+        Pro vaši rychlou orientaci jsme popsali důležité aspekty Výzvy tak, abyste byli schopni o dotaci zažádat a využít ji dle pravidel EU.<br/>
+      </p>
+      <p>
+        Viz stránka {sitemapRouter.navigateTag(inkluze.root.pravidla) }.
+        V případě nejasností rádi zodpovíme vaše otázky na stránce {sitemapRouter.navigateTag(inkluze.root.q_and_a) }.
+      </p>
+      <h4>Další služby</h4>
+      Pokud budete potřebovat, pomůžeme vám s vyplněním žádosti nebo s kompletním projektovým řízením (zasílání průběžných zpráv a závěrečné zprávy apod.), viz stránka {sitemapRouter.navigateTag(inkluze.root.dalsi) }.
     </BlockEx>
     {/*<BlockEx header="Postup pro získání a využití dotace">
       <ol>
@@ -135,7 +157,7 @@
       </ol>
     </BlockEx>*/}
   </Page>
-</div>;
+</div >;
 
 Home.contextTypes = sitemapRouter.childContextTypes;
 
