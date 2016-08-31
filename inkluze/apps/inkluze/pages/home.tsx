@@ -143,8 +143,3 @@
 
 Home.contextTypes = sitemapRouter.childContextTypes;
 
-var LiFile: React.StatelessComponent<lib.IComponentProps> = (props: lib.IComponentProps, ctx: sitemapRouter.IContext) => <li style={{ paddingBottom: '5px' }}><i className='fa-li fa fa-file-o'></i>{props.children}</li>;
-var LiHand: React.StatelessComponent<lib.IComponentProps> = (props: lib.IComponentProps, ctx: sitemapRouter.IContext) => <li style={{ paddingBottom: '5px' }}><i className='fa-li fa fa-hand-o-right'></i>{props.children}</li>;
-var LiCheck: React.StatelessComponent<lib.IComponentProps> = (props: lib.IComponentProps, ctx: sitemapRouter.IContext) => <li style={{ paddingBottom: '5px' }}><i className='fa-li fa fa-check'></i>{props.children}</li>;
-interface IAlertProps extends lib.IComponentProps { type: "Poznámka" | "Příklad"; }
-var Alert: React.StatelessComponent<IAlertProps> = (props: IAlertProps, ctx: sitemapRouter.IContext) => <div className='alert alert-warning'><i>{props.type}</i>: {props.children}</div>;

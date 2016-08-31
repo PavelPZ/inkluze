@@ -20,7 +20,7 @@ var Page: React.StatelessComponent<IPagePar> = (props: IPagePar, ctx: sitemapRou
     });
     return res;
   }
-  var left = nodeList(nodes.slice(0, idx)); 
+  var left = nodeList(nodes.slice(0, idx));
   var right = nodeList(nodes.slice(idx));
   //tabs
   //markup
@@ -38,6 +38,12 @@ var Page: React.StatelessComponent<IPagePar> = (props: IPagePar, ctx: sitemapRou
         <h4 className="navbar-text" style={{ margin: 5 }}><span style={{ color: 'white' }}>tel.244 460 807</span><br/><a href="mailto:info@langmaster.cz" className="navbar-link" style={{ color: '#9cdeff' }}>info @langmaster.cz</a></h4>
       </Nav>
     </Navbar>
+    <div className="container alert alert-danger text-center">
+      <h4>
+        Pracovní verze webu.
+        Tento web bude spouštěn 5. 9. 2016.
+      </h4>
+    </div>
     {bc}
     <div className="container">
       <Nav bsStyle="tabs" activeKey={ctx.site.tab.idx}>
@@ -56,14 +62,14 @@ var Page: React.StatelessComponent<IPagePar> = (props: IPagePar, ctx: sitemapRou
       <Grid>
         <Row>
           <Col md={4}>
-            <b>Přehled stránek:</b><br/>
+            <b>Přehled stránek: </b><br/>
             {left}
           </Col>
           <Col md={4}>
             {right}
           </Col>
           <Col md={4}>
-            <b>Kontakt:</b><br/>
+            <b>Kontakt: </b><br/>
             LANGMaster.com, s.r.o.<br/>
             Branicka 659/107<br/>
             147 00 Praha 4<br/>
