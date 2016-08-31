@@ -2,11 +2,11 @@
   export interface ISiteRoot extends site.INode {
     pravidla: IPravidla;
     q_and_a: site.INode;
-    zadost: site.INode;
+    dalsi: site.INode;
     //personalni: site.INode;
     kurzy: site.INode;
-    project: site.INode;
-    kontakt: site.INode;
+    slovnicek: site.INode;
+    //kontakt: site.INode;
   }
 
   export interface IPravidla extends site.INode {
@@ -21,11 +21,11 @@
     home: site.ITab;
     pravidla: site.ITab;
     q_and_a: site.ITab;
-    zadost: site.ITab;
+    dalsi: site.ITab;
     //personalni: site.ITab;
     kurzy: site.ITab;
-    project: site.ITab;
-    kontakt: site.ITab;
+    slovnicek: site.ITab;
+    //kontakt: site.ITab;
   }
 
   export var tabs: ITabs;
@@ -61,26 +61,26 @@
         id: 'q_and_a',
         createPage: par => <Q_and_a/>,
       },
-      zadost: {
-        id: 'zadost',
+      dalsi: {
+        id: 'dalsi',
         createPage: null,
       },
-      //personalni: {
-      //  id: 'personalni',
-      //  createPage: null,
-      //},
+      slovnicek: {
+        id: 'slovnicek',
+        createPage: null,
+      },
       kurzy: {
         id: 'kurzy',
         createPage: null,
       },
-      project: {
-        id: 'ostatni',
-        createPage: null,
-      },
-      kontakt: {
-        id: 'kontakt',
-        createPage: null,
-      },
+      //project: {
+      //  id: 'ostatni',
+      //  createPage: null,
+      //},
+      //kontakt: {
+      //  id: 'kontakt',
+      //  createPage: null,
+      //},
     }
     site.tabs = tabs = {
       home: {
@@ -91,30 +91,30 @@
         title: 'Pravidla Výzvy',
         rootNode: root.pravidla,
       },
-      q_and_a: {
-        title: 'Dotazy a odpovědi',
-        rootNode: root.q_and_a,
-      },
       kurzy: {
         title: 'Kurzy na inkluzi',
         rootNode: root.kurzy,
       },
-      zadost: {
-        title: 'Žádost o dotaci',
-        rootNode: root.zadost,
+      dalsi: {
+        title: 'Další služby',
+        rootNode: root.dalsi,
       },
       //personalni: {
       //  title: 'Personální podpora',
       //  rootNode: root.personalni,
       //},
-      project: {
-        title: 'Projektové řízení',
-        rootNode: root.project,
+      q_and_a: {
+        title: 'Dotazy a odpovědi',
+        rootNode: root.q_and_a,
       },
-      kontakt: {
-        title: 'Kontakt',
-        rootNode: root.kontakt,
+      slovnicek: {
+        title: 'Slovníček pojmů',
+        rootNode: root.slovnicek,
       },
+      //kontakt: {
+      //  title: 'Kontakt',
+      //  rootNode: root.kontakt,
+      //},
     }
  }
 }

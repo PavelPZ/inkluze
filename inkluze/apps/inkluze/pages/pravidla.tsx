@@ -1,15 +1,13 @@
 ﻿var Pravidla: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div>
   <Page isSmall={false}>
-    <BlockEx header="Princip využití dotace" gray>
+    <BlockEx header="Sestavte si Projekt ze Šablon" gray>
       <p>
-        Pro využití peněz z dotační Výzvy musí škola připravit Projekt.
-        Projekt si škola nemusí sama vymýšlet.
-        Ve Výzvě je stanoven soubor tzv.
-        Šablon (neboli Aktivit), ze kterých si škola projekt sestaví.
+        Pro využití peněz z Výzvy musí škola připravit Projekt.
+        Projekt si škola nemusí sama vymýšlet, výzva se skládá ze Šablon (neboli Aktivit), ze kterých si škola projekt sestaví.
         Příprava Projektu tedy spočívá ve výběru vhodných Šablon se specifikací jejich počtu.
       </p>
       <p>
-        Každá Šablona je ve Výzvě podrobně popsána a je u ní stanovena výše dotace.
+        Každá Šablona je ve Výzvě podrobně popsána a je u ní stanovena výše dotace na tuto šablonu.
         Škola tedy na základě celkové výše dotace, na kterou má nárok, a na základě svých potřeb, rozhodne, které šablony a v jakém počtu objedná.
       </p>
     </BlockEx>
@@ -77,7 +75,7 @@
       </p>
       <h4>Pomoc s vyplněním žádosti</h4>
       <p>
-        Tuto pomoc nabízíme na stránce {sitemapRouter.navigateTag(inkluze.root.zadost) }
+        Tuto pomoc nabízíme na stránce {sitemapRouter.navigateTag(inkluze.root.dalsi) }
       </p>
     </BlockEx>
     <BlockEx header="Povinná šablona, související s vyplněním dotazníku MAP" gray>
