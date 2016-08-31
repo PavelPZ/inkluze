@@ -22,11 +22,13 @@
   color: white;
   font-size: 12px;
 }
-.dark-header a {
+.dark-header a,
+.dark-header a:hover {
   color: white;
   text-decoration: underline;
 }
-.dark-header a:hover {
+.dark-header a:hover,
+.dark-header a:hover:hover {
   color: white;
 }
 .blue-header {
@@ -46,7 +48,8 @@
 .blue-header a:hover {
   color: white;
 }
-.nav-tabs > li.active > a {
+.nav-tabs > li.active a,
+.nav-tabs > li.active a:hover {
   background-color: #337ab7 !important;
   color: white;
 }

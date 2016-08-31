@@ -53,11 +53,11 @@
         Novinkou je, že se inkluze konečně začíná efektivně řešit.
         Ať už právními úpravami (nová vyhláška školského zákona) nebo velkými finančními dotacemi (které by měly školám významně pomoci inkluzi zvládnout).
       </p>
-      <div className='alert alert-warning'>
-        Poznámka: <b>Inkluze</b> se nově nazývá <b>Společné vzdělávání</b>.
+      <Alert type="Poznámka">
+        <b>Inkluze</b> se nově nazývá <b>Společné vzdělávání</b>.
         My budeme ale používat doposud rozšířenější termín Inkluze.
         Viz též {sitemapRouter.navigateTag(inkluze.root.slovnicek) }.
-      </div>
+      </Alert>
     </BlockEx>
     <BlockEx header={<div>"Výzva" = dotace EU na inkluzi pro ZŠ a MŠ</div>} gray>
       <ul className='fa-ul'>
@@ -138,24 +138,6 @@
       <h4>Další služby</h4>
       Pokud budete potřebovat, pomůžeme vám s vyplněním žádosti nebo s kompletním projektovým řízením (zasílání průběžných zpráv a závěrečné zprávy apod.), viz stránka {sitemapRouter.navigateTag(inkluze.root.dalsi) }.
     </BlockEx>
-    {/*<BlockEx header="Postup pro získání a využití dotace">
-      <ol>
-        <li><b>Seznámíte se s možnostmi a pravidly Výzvy.</b><br/>
-          Získat dotaci a využít ji není tak složité, jak se může při prvním čtení stovek stran oficiálních dokumentů zdát.
-          Pro vaši rychlou orientaci jsme popsali důležité aspekty Výzvy tak, abyste byli schopni o dotaci zažádat a využít ji dle pravidel EU<br/>
-          Viz stránka {sitemapRouter.navigateTag(inkluze.root.pravidla) }.<br/>
-          V případě nejasností rádi zodpovíme vaše otázky na stránce  {sitemapRouter.navigateTag(inkluze.root.q_and_a) }.</li>
-        <li><b>Zažádáte si o dotaci</b> (v souladu s pravidly EU) <br/>
-          Pokud budete potřebovat, s vyplněním vám pomůžeme.<br/>
-          Viz stránka {sitemapRouter.navigateTag(inkluze.root.zadost) }</li>
-        <li><b>Objednáte si Vzdělávací kurzy</b>, kterými vyškolíte vaše učitele.<br/>
-          Spolupracujeme s renomovanými lektory s mnohaletou praxí.
-          Jak naši lektoři, tak i naše kurzy na inkluzi splňují podmínky Výzvy (vše je akreditováno MŠMT).<br/>
-          Viz stránka {sitemapRouter.navigateTag(inkluze.root.kurzy) }</li>
-        <li><b>Budete průběžně plnit další formální požadavky EU</b> (zasílání průběžných zpráv o realizaci projektu apod.) <br/>
-          Pomůžeme Vám s kompletním projektovým řízením.Viz stránka {sitemapRouter.navigateTag(inkluze.root.project) }</li>
-      </ol>
-    </BlockEx>*/}
   </Page>
 </div >;
 
@@ -164,3 +146,5 @@ Home.contextTypes = sitemapRouter.childContextTypes;
 var LiFile: React.StatelessComponent<lib.IComponentProps> = (props: lib.IComponentProps, ctx: sitemapRouter.IContext) => <li style={{ paddingBottom: '5px' }}><i className='fa-li fa fa-file-o'></i>{props.children}</li>;
 var LiHand: React.StatelessComponent<lib.IComponentProps> = (props: lib.IComponentProps, ctx: sitemapRouter.IContext) => <li style={{ paddingBottom: '5px' }}><i className='fa-li fa fa-hand-o-right'></i>{props.children}</li>;
 var LiCheck: React.StatelessComponent<lib.IComponentProps> = (props: lib.IComponentProps, ctx: sitemapRouter.IContext) => <li style={{ paddingBottom: '5px' }}><i className='fa-li fa fa-check'></i>{props.children}</li>;
+interface IAlertProps extends lib.IComponentProps { type: "Poznámka" | "Příklad"; }
+var Alert: React.StatelessComponent<IAlertProps> = (props: IAlertProps, ctx: sitemapRouter.IContext) => <div className='alert alert-warning'><i>{props.type}</i>: {props.children}</div>;

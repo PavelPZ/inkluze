@@ -23,13 +23,16 @@
 //*********** blue header a tab
 
 .dark-header {
-    background-color:darkgray;
+    background-color: darkgray;
+
     * {
         color: white;
-        font-size:12px;
+        font-size: 12px;
     }
-    padding:10px;
-    a {
+
+    padding: 10px;
+
+    a, a:hover {
         .white-link;
     }
 }
@@ -45,21 +48,24 @@
     h1 {
         margin: 10px 0;
     }
+
     a {
         .white-link;
     }
 }
 
-.nav-tabs > li.active > a {
-    background-color: #337ab7 !important;
-    color: white;
-}
-
-.white-link {
-    color: white;
-    text-decoration:underline;
-    &:hover {
+.nav-tabs > li.active {
+    a, a:hover {
+        background-color: #337ab7 !important;
         color: white;
     }
 }
 
+.white-link {
+    color: white;
+    text-decoration: underline;
+
+    &:hover {
+        color: white;
+    }
+}

@@ -2,8 +2,8 @@
   <Page isSmall={false}>
     <BlockEx header="Sestavte si Projekt ze Šablon" gray>
       <p>
-        Pro využití peněz z Výzvy musí škola připravit Projekt.
-        Projekt si škola nemusí sama vymýšlet, výzva se skládá ze Šablon (neboli Aktivit), ze kterých si škola projekt sestaví.
+        Pro využití peněz z Výzvy musí škola připravit <b>Projekt</b>.
+        Projekt si škola nemusí sama vymýšlet.Výzva se totiž skládá ze <b>Šablon</b> (neboli Aktivit), ze kterých si škola projekt sestaví.
         Příprava Projektu tedy spočívá ve výběru vhodných Šablon se specifikací jejich počtu.
       </p>
       <p>
@@ -21,8 +21,7 @@
         Výše školou požadované dotace je určena skladbou a počtem vybraných šablon.Tato výše však musí splňovat následující minimální a maximální podmínky:
         <ul>
           <li>
-            Minimální výše dotace na vámi připravený projekt je stanovena na 200 tis.
-            Kč.
+            Minimální výše dotace na vámi připravený projekt je stanovena na Kč 200 tis.
           </li>
           <li>
             Maximální výše dotace na vámi připravený projekt se spočítá podle vzorce: <br/>

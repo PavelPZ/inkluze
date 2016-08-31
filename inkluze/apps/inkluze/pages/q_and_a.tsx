@@ -35,7 +35,9 @@ class QAForm extends React.Component<{}, IQAFormStatus> {
           <FormGroup controlId="email">
             <ControlLabel>Email: </ControlLabel>
             <FormControl value={this.state.email} placeholder="Vyplňte email" onChange={(e: any) => { this.state.email = e.target.value; this.forceUpdate(); } }/>
-            <HelpBlock>Email není povinný.Když jej vyplníte, zašleme vám na něj odpověď a můžeme se i doptat, když nebudeme dotazu rozumět.</HelpBlock>
+            <HelpBlock>
+              Email není povinný.
+              Když jej vyplníte, zašleme vám na něj odpověď a můžeme se i doptat, když nebudeme dotazu rozumět.</HelpBlock>
           </FormGroup>
           <hr/>
           <Button onClick={() => alert(this.state.message) } bsStyle='success'>Poslat dotaz</Button>

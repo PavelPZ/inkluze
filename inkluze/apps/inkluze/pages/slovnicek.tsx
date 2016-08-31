@@ -7,6 +7,7 @@
     Šablona<br/>
     Společné vzdělávání<br/>
     Aktivita<br/>
+    Projekt<br/>
   </Page>
 </div>;
 
