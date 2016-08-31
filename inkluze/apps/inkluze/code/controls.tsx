@@ -9,11 +9,11 @@ const Block: React.StatelessComponent<IBlockProps> = (props: IBlockProps) => {
   </div>;
 };
 
-interface IBlockExProps extends IBlockProps { title: string; }
+interface IBlockExProps extends IBlockProps { header: string | JSX.Element; }
 const BlockEx: React.StatelessComponent<IBlockExProps> = (props: IBlockExProps) => {
   return React.createElement(Block, props,
     [
-      <h2 key={1}>{props.title}</h2>,
+      <h2 key={1}>{props.header}</h2>,
       <Row key={2}>
         <Col mdOffset={2} md={8}>
           {props.children}
@@ -25,7 +25,7 @@ const BlockEx: React.StatelessComponent<IBlockExProps> = (props: IBlockExProps) 
 interface IPopupProps extends lib.IComponentProps {
   document: 'priloha3' | 'vyzva';
   page: number;
-  title: string;
+  header: string;
 }
 interface IPopupState {
   showModal: boolean;
@@ -44,10 +44,10 @@ class Popup extends React.Component<IPopupProps, IPopupState> {
 
   render(): JSX.Element {
     return <span>
-      <Label bsStyle="warning" onClick={() => this.open() } style={{ color: 'white', cursor: 'pointer', padding: '3px', fontSize: '100%', fontWeight: 'normal' }}>{this.props.title}</Label>
+      <Label bsStyle="warning" onClick={() => this.open() } style={{ color: 'white', cursor: 'pointer', padding: '3px', fontSize: '100%', fontWeight: 'normal' }}>{this.props.header}</Label>
       <Modal show={this.state.showModal} onHide={() => this.close() }>
         <Modal.Header closeButton>
-          <Modal.Title>{this.props.title}</Modal.Title>
+          <Modal.Title>{this.props.header}</Modal.Title>
           <p><i>{this.props.document}, stránka {this.props.page}</i></p>
         </Modal.Header>
         <Modal.Body>

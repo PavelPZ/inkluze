@@ -1,5 +1,5 @@
 ﻿const popups = {
-  MAP: <Popup document='priloha3' page={3} title='Jak identifikovat oblasti pro rozvoj školy?'>
+  MAP: <Popup document='priloha3' page={3} header='Jak identifikovat oblasti pro rozvoj školy?'>
     <div>
       <p>
         V listopadu roku 2015 byl školám v rámci šetření realizovaného pro potřeby výzvy Místní akční plány rozvoje vzdělávání (MAP) rozeslán dotazník, jehož vyplnění je podmínkou možnosti čerpání finančních prostředků prostřednictvím projektů zjednodušeného vykazování (šablon).
@@ -43,7 +43,7 @@
     </div>
   </Popup>,
 
-  zadavatel: <Popup document='vyzva' page= {5} title='Oprávnění žadatelé'>
+  zadavatel: <Popup document='vyzva' page= {5} header='Oprávnění žadatelé'>
     <div>
       <p>
         Mateřské  a  základní  školy  nezřizované  organizačními  složkami  státu (tj.
@@ -59,7 +59,7 @@
     </div>
   </Popup>,
 
-  rozpocet: <Popup document='priloha3' page={6} title='Jak sestavit rozpočet projektu?'>
+  rozpocet: <Popup document='priloha3' page={6} header='Jak sestavit rozpočet projektu?'>
     <div>
       <div className="well well-sm">
         <p>
@@ -102,7 +102,7 @@
     </div>
   </Popup>,
 
-  ms_skolni_asistent: <Popup document='priloha3' page={18} title='I/1.1 Školní asistent – personální podpora MŠ'>
+  ms_skolni_asistent: <Popup document='priloha3' page={18} header='I/1.1 Školní asistent – personální podpora MŠ'>
     <div>
       <p>Školní asistent poskytuje základní nepedagogickou podporu přímo v rodině při spolupráci s rodiči, zprostředkovává komunikaci s komunitou, rodinou a školou spočívající např.
         v aktivitách vedoucích k zajištění pravidelné docházky dětí, porozumění rodinnému prostředí dětí a zajištění přenosu informací mezi mateřskou školou a rodinou, poskytuje přímou nepedagogickou podporu dětí v předškolním vzdělávání spočívající např.
@@ -111,7 +111,7 @@
     </div>
   </Popup>,
 
-  ms_specialni_pedagog: <Popup document= 'priloha3' page= {23} title= 'I/1.2 Školní speciální pedagog – personální podpora MŠ' >
+  ms_specialni_pedagog: <Popup document= 'priloha3' page= {23} header= 'I/1.2 Školní speciální pedagog – personální podpora MŠ' >
     <div>
       <p>Speciální pedagog diagnostikuje speciální vzdělávací potřeby dětí a pomáhá vytvářet a zlepšit podmínky pro úspěšnou integraci dětí se speciálními vzdělávacími potřebami.
         Součástí práce je spolupráce na tvorbě plánu pedagogické podpory nebo individuálního vzdělávacího plánu pro každé dítě s potřebou podpůrných opatření/se speciálními vzdělávacími potřebami.
@@ -119,7 +119,7 @@
     </div>
   </Popup >,
 
-  ms_psycholog: <Popup document='priloha3' page= {26} title='I/1.3 Školní psycholog – personální podpora MŠ'>
+  ms_psycholog: <Popup document='priloha3' page= {26} header='I/1.3 Školní psycholog – personální podpora MŠ'>
     <div>
       <p>
         Školní psycholog zkoumá klima ve třídách, chování dětí, vytváří diagnostiku a poskytuje konzultace pro pedagogy a rodiče ve škole nebo mimo školu.
@@ -128,7 +128,7 @@
     </div>
   </Popup>,
 
-  ms_socialni_pedagog: <Popup document='priloha3' page= {29} title='I/1.4 Sociální pedagog – personální podpora MŠ'>
+  ms_socialni_pedagog: <Popup document='priloha3' page= {29} header='I/1.4 Sociální pedagog – personální podpora MŠ'>
     <div>
       <p>
         Sociální pedagog není pedagogický pracovník, jeho náplní práce je vytvářet propojení mezi školou a jinými subjekty, např.
@@ -143,7 +143,7 @@
     </div>
   </Popup>,
 
-  ms_chuva: <Popup document='priloha3' page= {32} title='I/1.5 Chůva – personální podpora MŠ'>
+  ms_chuva: <Popup document='priloha3' page= {32} header='I/1.5 Chůva – personální podpora MŠ'>
     <div>
       <p>
         Chůva v mateřské škole bude pomáhat pedagogickému pracovníkovi s péčí o dvouleté děti, a to zejména v oblasti sebeobsluhy dítěte, zajištění bezpečnosti a individuálních potřeb dítěte.
@@ -155,7 +155,7 @@
     </div>
   </Popup>,
 
-  ms_osobnostni_rozvoj_40_hodin: <Popup document='priloha3' page= {35} title='I/2.1 Osobnostně sociální rozvoj předškolních pedagogů MŠ v rozsahu 40 hodin'>
+  ms_osobnostni_rozvoj_40_hodin: <Popup document='priloha3' page= {35} header='I/2.1 Osobnostně sociální rozvoj předškolních pedagogů MŠ v rozsahu 40 hodin'>
     <div>
       <p>
         Pedagog absolvuje v rámci šablony akreditovaný vzdělávací program DVPP v celkovém minimálním časovém rozsahu 40 hodin.
@@ -164,7 +164,7 @@
     </div>
   </Popup>,
 
-  ms_osobnostni_rozvoj_16_hodin: <Popup document='priloha3' page= {37} title='I/2.2 Osobnostně sociální rozvoj předškolních pedagogů MŠ v rozsahu 16 hodin'>
+  ms_osobnostni_rozvoj_16_hodin: <Popup document='priloha3' page= {37} header='I/2.2 Osobnostně sociální rozvoj předškolních pedagogů MŠ v rozsahu 16 hodin'>
     <div>
       <p>
         Pedagog absolvuje v rámci šablony akreditovaný vzdělávací program DVPP v celkovém minimálním časovém rozsahu 16 hodin.
@@ -173,7 +173,7 @@
     </div>
   </Popup>,
 
-  ms_DVPP_16_hodin: <Popup document='priloha3' page= {39} title='I/2.3 Vzdělávání pedagogických pracovníků MŠ – DVPP v rozsahu 16 hodin'>
+  ms_DVPP_16_hodin: <Popup document='priloha3' page= {39} header='I/2.3 Vzdělávání pedagogických pracovníků MŠ – DVPP v rozsahu 16 hodin'>
     <div>
       <p>
         Vzdělávání bude probíhat formou absolvování vzdělávacího programu DVPP akreditovaného v systému DVPP.
@@ -195,7 +195,7 @@
     </div>
   </Popup>,
 
-  ms_specifika_prace_pedagoga: <Popup document='priloha3' page= {41} title='I/2.4 Specifika práce pedagoga s dvouletými dětmi v MŠ '>
+  ms_specifika_prace_pedagoga: <Popup document='priloha3' page= {41} header='I/2.4 Specifika práce pedagoga s dvouletými dětmi v MŠ '>
     <div>
       <p>
         Pedagog absolvuje v rámci šablony vzdělávací program DVPP v celkovém minimálním časovém rozsahu 24 hodin.
@@ -203,7 +203,7 @@
     </div>
   </Popup>,
 
-  ms_profesni_rozvoj_pedagogu: <Popup document='priloha3' page= {43} title='I/2.5 Profesní rozvoj předškolních pedagogů prostřednictvím supervize'>
+  ms_profesni_rozvoj_pedagogu: <Popup document='priloha3' page= {43} header='I/2.5 Profesní rozvoj předškolních pedagogů prostřednictvím supervize'>
     <div>
       <p>
         Mateřská škola využije službu skupinové supervize v celkovém rozsahu 20 hodin za školní rok doplněnou o individuální supervizi v celkovém rozsahu 10 hodin za školní rok.
@@ -211,7 +211,7 @@
     </div>
   </Popup>,
 
-  ms_sdileni_zkusenosti_pedagogu: <Popup document='priloha3' page= {46} title='I/2.6 Sdílení zkušeností pedagogů z různých škol prostřednictvím vzájemných návštěv (pro MŠ)'>
+  ms_sdileni_zkusenosti_pedagogu: <Popup document='priloha3' page= {46} header='I/2.6 Sdílení zkušeností pedagogů z různých škol prostřednictvím vzájemných návštěv (pro MŠ)'>
     <div>
       <p>
         Pedagogický pracovník ve spolupráci s vedením „vysílající“ mateřské školy identifikuje oblasti/oblast, ve které chce rozvíjet své znalosti a dovednosti.
@@ -221,7 +221,7 @@
     </div>
   </Popup>,
 
-  ms_prevence_logopedickych_vad: <Popup document='priloha3' page= {49} title='I/3.1 Prevence logopedických vad a problémů komunikačních schopností u dětí v MŠ'>
+  ms_prevence_logopedickych_vad: <Popup document='priloha3' page= {49} header='I/3.1 Prevence logopedických vad a problémů komunikačních schopností u dětí v MŠ'>
     <div>
       <p>
         Vzdělávací program DVPP je určen pro pedagogy mateřských škol a je zaměřen na podporu znalostí a praktických dovedností pedagogů v oblasti logopedické prevence u dětí předškolního věku.
@@ -229,7 +229,7 @@
     </div>
   </Popup>,
 
-  ms_individualizace_vzdelavani: <Popup document='priloha3' page= {51} title='I/3.2 Individualizace vzdělávání v MŠ'>
+  ms_individualizace_vzdelavani: <Popup document='priloha3' page= {51} header='I/3.2 Individualizace vzdělávání v MŠ'>
     <div>
       <p>
         DVPP umožní naplňovat požadavky Rámcového vzdělávacího programu pro předškolní vzdělávání, zejména při vzdělávání dětí se specifickými vzdělávacími potřebami.
@@ -237,7 +237,7 @@
     </div>
   </Popup>,
 
-  ms_odborne_zamerena_setkavani: <Popup document='priloha3' page= {53} title='I/3.3 Odborně zaměřená tematická setkávání a spolupráce s rodiči dětí v MŠ'>
+  ms_odborne_zamerena_setkavani: <Popup document='priloha3' page= {53} header='I/3.3 Odborně zaměřená tematická setkávání a spolupráce s rodiči dětí v MŠ'>
     <div>
       <p>
         Mateřská škola zorganizuje odborně zaměřená tematická setkávání rodičů za účasti externího odborníka na téma týkající se usnadnění přechodu dětí do základní školy.
@@ -248,7 +248,7 @@
     </div>
   </Popup>,
 
-  zs_skolni_asistent: <Popup document='priloha3' page={56} title='II/1.1 Školní asistent – personální podpora ZŠ'>
+  zs_skolni_asistent: <Popup document='priloha3' page={56} header='II/1.1 Školní asistent – personální podpora ZŠ'>
     <div>
       <p>Školní asistent poskytuje základní nepedagogickou podporu přímo v rodině při spolupráci s rodiči, zprostředkovává komunikaci s komunitou, rodinou a školou spočívající např.
         v aktivitách vedoucích k zajištění pravidelné školní docházky žáků, porozumění rodinnému prostředí žáků a zajištění přenosu informací mezi školou a rodinou, pomáhá při rozvoji mimoškolních a volnočasových aktivit, poskytuje podporu pedagogovi při administrativní a organizační činnosti pedagoga ve vyučování i mimo vyučování.
@@ -256,7 +256,7 @@
     </div>
   </Popup>,
 
-  zs_specialni_pedagog: <Popup document= 'priloha3' page= {61} title= 'II/1.2 Školní speciální pedagog – personální podpora ZŠ' >
+  zs_specialni_pedagog: <Popup document= 'priloha3' page= {61} header= 'II/1.2 Školní speciální pedagog – personální podpora ZŠ' >
     <div>
       <p>Speciální pedagog diagnostikuje speciální vzdělávací potřeby žáků a pomáhá vytvářet a zlepšit podmínky pro úspěšnou integraci žáků se speciálními vzdělávacími potřebami.
         Součástí práce je spolupráce na tvorbě plánu pedagogické podpory nebo individuálního vzdělávacího plánu pro každého žáka s potřebou podpůrných opatření/se speciálními vzdělávacími potřebami.
@@ -264,7 +264,7 @@
     </div>
   </Popup >,
 
-  zs_psycholog: <Popup document='priloha3' page= {63} title='II/1.3 Školní psycholog – personální podpora ZŠ'>
+  zs_psycholog: <Popup document='priloha3' page= {63} header='II/1.3 Školní psycholog – personální podpora ZŠ'>
     <div>
       <p>
         Školní psycholog zkoumá klima ve třídách, chování žáků, vytváří diagnostiku a poskytuje konzultace pro žáky, pedagogy a rodiče ve škole nebo mimo školu.
@@ -274,7 +274,7 @@
   </Popup>,
 
 
-  zs_socialni_pedagog: <Popup document='priloha3' page= {67} title='II/1.4 Sociální pedagog – personální podpora ZŠ'>
+  zs_socialni_pedagog: <Popup document='priloha3' page= {67} header='II/1.4 Sociální pedagog – personální podpora ZŠ'>
     <div>
       <p>
         Sociální pedagog není pedagogický pracovník, jeho náplní práce je vytvářet propojení mezi školou a jinými subjekty, např.
@@ -291,7 +291,7 @@
 
 
 
-  zs_DVPP_16_hodin: <Popup document='priloha3' page= {71} title='II/2.1 Vzdělávání pedagogických pracovníků ZŠ – DVPP v rozsahu 16 hodin'>
+  zs_DVPP_16_hodin: <Popup document='priloha3' page= {71} header='II/2.1 Vzdělávání pedagogických pracovníků ZŠ – DVPP v rozsahu 16 hodin'>
     <div>
       <p>
         Pedagogičtí pracovníci základních škol budou podporováni ve svém profesním a odborném růstu účastí na odborných seminářích, workshopech a dalších vzdělávacích akcích zaměřených na rozvoj dovedností, znalostí a kompetencí a na využívání efektivních vyučovacích metod.
@@ -317,7 +317,7 @@
     </div>
   </Popup>,
 
-  zs_DVPP_32_hodin: <Popup document='priloha3' page= {73} title='II/2.2 Vzdělávání pedagogických pracovníků ZŠ – DVPP v rozsahu 32 hodin'>
+  zs_DVPP_32_hodin: <Popup document='priloha3' page= {73} header='II/2.2 Vzdělávání pedagogických pracovníků ZŠ – DVPP v rozsahu 32 hodin'>
     <div>
       <p>
         Pedagogičtí pracovníci základních škol budou podporováni ve svém profesním a odborném růstu účastí na odborných seminářích, workshopech a dalších vzdělávacích akcích zaměřených na rozvoj dovedností, znalostí a kompetencí a na využívání efektivních vyučovacích metod.
@@ -343,7 +343,7 @@
     </div>
   </Popup>,
 
-  zs_DVPP_inkluze_32_hodin: <Popup document='priloha3' page= {75} title='II/2.3 Vzdělávání pedagogických pracovníků ZŠ zaměřené na inkluzi – DVPP v rozsahu 32 hodin'>
+  zs_DVPP_inkluze_32_hodin: <Popup document='priloha3' page= {75} header='II/2.3 Vzdělávání pedagogických pracovníků ZŠ zaměřené na inkluzi – DVPP v rozsahu 32 hodin'>
     <div>
       <p>
         Pedagogičtí pracovníci základních škol budou podporováni ve svém profesním a odborném růstu účastí na odborných seminářích, workshopech a dalších vzdělávacích akcích zaměřených na rozvoj dovedností, znalostí a kompetencí v oblasti inkluze a na využívání efektivních vyučovacích metod.
@@ -351,7 +351,7 @@
     </div>
   </Popup>,
 
-  zs_DVPP_56_hodin: <Popup document='priloha3' page= {77} title='II/2.4 Vzdělávání pedagogických pracovníků ZŠ – DVPP v rozsahu 56 hodin'>
+  zs_DVPP_56_hodin: <Popup document='priloha3' page= {77} header='II/2.4 Vzdělávání pedagogických pracovníků ZŠ – DVPP v rozsahu 56 hodin'>
     <div>
       <p>
         Pedagogičtí pracovníci základních škol budou podporováni ve svém profesním a odborném růstu účastí na odborných seminářích, workshopech a dalších vzdělávacích akcích zaměřených na rozvoj dovedností, znalostí a kompetencí a na využívání efektivních vyučovacích metod.
@@ -377,7 +377,7 @@
     </div>
   </Popup>,
 
-  zs_DVPP_inkluze_56_hodin: <Popup document='priloha3' page= {79} title='II/2.5 Vzdělávání pedagogických pracovníků ZŠ zaměřené na inkluzi – DVPP v rozsahu 56 hodin'>
+  zs_DVPP_inkluze_56_hodin: <Popup document='priloha3' page= {79} header='II/2.5 Vzdělávání pedagogických pracovníků ZŠ zaměřené na inkluzi – DVPP v rozsahu 56 hodin'>
     <div>
       <p>
         Pedagogičtí pracovníci základních škol budou podporováni ve svém profesním a odborném růstu účastí na odborných seminářích, workshopech a dalších vzdělávacích akcích zaměřených na rozvoj dovedností, znalostí a kompetencí v oblasti inkluze a na využívání efektivních vyučovacích metod.
@@ -385,7 +385,7 @@
     </div>
   </Popup>,
 
-  zs_DVPP_80_hodin: <Popup document='priloha3' page= {81} title='II/2.6 Vzdělávání pedagogických pracovníků ZŠ – DVPP v rozsahu 80 hodin'>
+  zs_DVPP_80_hodin: <Popup document='priloha3' page= {81} header='II/2.6 Vzdělávání pedagogických pracovníků ZŠ – DVPP v rozsahu 80 hodin'>
     <div>
       <p>
         Pedagogičtí pracovníci základních škol budou podporováni ve svém profesním a odborném růstu účastí na odborných seminářích, workshopech a dalších vzdělávacích akcích zaměřených na rozvoj dovedností, znalostí a kompetencí a na využívání efektivních vyučovacích metod.
@@ -411,7 +411,7 @@
     </div>
   </Popup>,
 
-  zs_DVPP_inkluze_80_hodin: <Popup document='priloha3' page= {83} title='II/2.7 Vzdělávání pedagogických pracovníků ZŠ zaměřené na inkluzi – DVPP v rozsahu 80 hodin'>
+  zs_DVPP_inkluze_80_hodin: <Popup document='priloha3' page= {83} header='II/2.7 Vzdělávání pedagogických pracovníků ZŠ zaměřené na inkluzi – DVPP v rozsahu 80 hodin'>
     <div>
       <p>
         Pedagogičtí pracovníci základních škol budou podporováni ve svém profesním a odborném růstu účastí na odborných seminářích, workshopech a dalších vzdělávacích akcích zaměřených na rozvoj dovedností, znalostí a kompetencí v oblasti inkluze a na využívání efektivních vyučovacích metod.
@@ -419,7 +419,7 @@
     </div>
   </Popup>,
 
-  zs_sbor_8_hodin: <Popup document='priloha3' page= {85} title='II/2.8 Vzdělávání pedagogického sboru ZŠ zaměřené na inkluzi – vzdělávací akce v rozsahu 8 hodin'>
+  zs_sbor_8_hodin: <Popup document='priloha3' page= {85} header='II/2.8 Vzdělávání pedagogického sboru ZŠ zaměřené na inkluzi – vzdělávací akce v rozsahu 8 hodin'>
     <div>
       <p>
         Aktivita je koncipována tak, že umožňuje zajistit vzdělávání pro celý pedagogický sbor či jeho podstatnou část tak, aby bylo možné z podpořené skupiny pedagogů vytvořit tým s inovačním potenciálem schopným působit na kompetence, ale i hodnoty a postoje ostatních pedagogů ve škole.
@@ -430,7 +430,7 @@
     </div>
   </Popup>,
 
-  zs_vzajemna_spoluprace: <Popup document='priloha3' page= {87} title='II/2.9 Vzájemná spolupráce pedagogů ZŠ'>
+  zs_vzajemna_spoluprace: <Popup document='priloha3' page= {87} header='II/2.9 Vzájemná spolupráce pedagogů ZŠ'>
     <div>
       <p>
         Podmínkou je vytvoření minitýmu ve spolupráci tří pedagogických pracovníků.
@@ -445,7 +445,7 @@
     </div>
   </Popup>,
 
-  zs_sdileni_zkusenosti: <Popup document='priloha3' page= {91} title='II/2.10 Sdílení zkušeností pedagogů z různých škol prostřednictvím vzájemných návštěv (pro ZŠ)'>
+  zs_sdileni_zkusenosti: <Popup document='priloha3' page= {91} header='II/2.10 Sdílení zkušeností pedagogů z různých škol prostřednictvím vzájemných návštěv (pro ZŠ)'>
     <div>
       <p>
         Pedagogický pracovník ve spolupráci s vedením „vysílající“ základní školy identifikuje oblasti/oblast, ve které chce rozvíjet své znalosti a dovednosti.
@@ -457,7 +457,7 @@
 
 
 
-  zs_tandemova_vyuka: <Popup document='priloha3' page= {94} title='II/2.11 Tandemová výuka na ZŠ '>
+  zs_tandemova_vyuka: <Popup document='priloha3' page= {94} header='II/2.11 Tandemová výuka na ZŠ '>
     <div>
       <p>
         Aktivita je určena pro dva pedagogy, kteří společně naplánují a zrealizují 10 vyučovacích hodin v průběhu pěti po sobě jdoucích měsíců, ve kterých probíhá výuka.
@@ -466,7 +466,7 @@
     </div>
   </Popup>,
 
-  zs_clil_ve_vyuce: <Popup document='priloha3' page= {97} title='II/2.12 CLIL ve výuce na ZŠ '>
+  zs_clil_ve_vyuce: <Popup document='priloha3' page= {97} header='II/2.12 CLIL ve výuce na ZŠ '>
     <div>
       <p>
         Pedagog, který vyučuje cizí jazyk (dále jen „pedagog-lektor“), povede své dva kolegy-pedagogy, kteří nevyučují vzdělávací obor Cizí jazyk (dále jen „pedagog-nejazykář“); toto omezení neplatí pro pedagogy 1. stupně).
@@ -478,7 +478,7 @@
     </div>
   </Popup>,
 
-  zs_nove_metody_ve_vyuce: <Popup document='priloha3' page= {101} title='II/2.13 Nové metody ve výuce na ZŠ'>
+  zs_nove_metody_ve_vyuce: <Popup document='priloha3' page= {101} header='II/2.13 Nové metody ve výuce na ZŠ'>
     <div>
       <p>
         Obsahem šablony je spolupráce pedagogického pracovníka, který má zkušenosti a potřebné znalosti v konkrétní oblasti forem a metod práce (dále jen „pedagog-expert“) s dalšími dvěma kolegy (dále jen „pedagog-začátečník“).
@@ -493,7 +493,7 @@
 	  </div>
   </Popup>,
 
-  zs_ctenarsky_klub: <Popup document='priloha3' page= {104} title='II/3.1 Čtenářský klub pro žáky ZŠ'>
+  zs_ctenarsky_klub: <Popup document='priloha3' page= {104} header='II/3.1 Čtenářský klub pro žáky ZŠ'>
     <div>
       <p>
         Čtenářský klub je možno zřídit pro nejméně šest žáků základní školy.
@@ -505,7 +505,7 @@
     </div>
   </Popup>,
 
-  zs_klub_zabavne_logiky: <Popup document='priloha3' page= {108} title='II/3.2 Klub zábavné logiky a deskových her pro žáky ZŠ '>
+  zs_klub_zabavne_logiky: <Popup document='priloha3' page= {108} header='II/3.2 Klub zábavné logiky a deskových her pro žáky ZŠ '>
     <div>
       <p>
         Aktivita vede k rozvoji logického (ale i informatického) a strategického myšlení žáků.
@@ -517,7 +517,7 @@
     </div>
   </Popup>,
 
-  zs_doucovani_zaku: <Popup document='priloha3' page= {112} title='II/3.3 Doučování žáků ZŠ ohrožených školním neúspěchem'>
+  zs_doucovani_zaku: <Popup document='priloha3' page= {112} header='II/3.3 Doučování žáků ZŠ ohrožených školním neúspěchem'>
     <div>
       <p>
         Aktivita bude realizována prostřednictvím doučování tří žáků ohrožených školním neúspěchem vedeného pedagogem, asistentem pedagoga či jinou osobou, která bude vedením školy určena pro vedení doučování (nemusí se jednat o pedagogického pracovníka, doučujícím může být i např.
@@ -528,7 +528,7 @@
     </div>
   </Popup>,
 
-  zs_priprava_na_vyucovani: <Popup document='priloha3' page= {115} title='II/3.4 Příprava na vyučování žáků ZŠ ohrožených školním neúspěchem'>
+  zs_priprava_na_vyucovani: <Popup document='priloha3' page= {115} header='II/3.4 Příprava na vyučování žáků ZŠ ohrožených školním neúspěchem'>
     <div>
       <p>
         Aktivita bude realizována prostřednictvím „odpolední školy“ (přípravy na vyučování) vedené pedagogem, asistentem pedagoga či jinou osobou, která bude vedením školy určena pro vedení přípravy na vyučování (nemusí se jednat o pedagogického pracovníka, doučujícím může být i např.
@@ -542,7 +542,7 @@
     </div>
   </Popup>,
 
-  zs_odborne_zamerena_setkavani: <Popup document='priloha3' page= {118} title='II/4.1 Odborně zaměřená tematická setkávání a spolupráce s rodiči žáků ZŠ'>
+  zs_odborne_zamerena_setkavani: <Popup document='priloha3' page= {118} header='II/4.1 Odborně zaměřená tematická setkávání a spolupráce s rodiči žáků ZŠ'>
     <div>
       <p>
         Základní škola zajistí realizaci odborně zaměřených tematických setkávání rodičů za účasti externího odborníka na téma související s modernizací škol a vzdělávacího systému.

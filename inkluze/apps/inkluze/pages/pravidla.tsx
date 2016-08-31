@@ -1,6 +1,6 @@
 ﻿var Pravidla: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div>
   <Page isSmall={false}>
-    <BlockEx title="Princip využití dotace" gray>
+    <BlockEx header="Princip využití dotace" gray>
       <p>
         Pro využití peněz z dotační Výzvy musí škola připravit Projekt.
         Projekt si škola nemusí sama vymýšlet.
@@ -13,12 +13,12 @@
         Škola tedy na základě celkové výše dotace, na kterou má nárok, a na základě svých potřeb, rozhodne, které šablony a v jakém počtu objedná.
       </p>
     </BlockEx>
-    <BlockEx title="Kdo je oprávněný žadatel o dotaci?">
+    <BlockEx header="Kdo je oprávněný žadatel o dotaci?">
       <p>
         {popups.zadavatel} o dotaci jsou ZŠ a MŠ z celé ČR, tedy i z Prahy (pražským školám byly doposud dotace EU odepřeny).
       </p>
     </BlockEx>
-    <BlockEx title="Jaká je výše dotace?" gray>
+    <BlockEx header="Jaká je výše dotace?" gray>
       <p>
         Výše školou požadované dotace je určena skladbou a počtem vybraných šablon.Tato výše však musí splňovat následující minimální a maximální podmínky:
         <ul>
@@ -57,7 +57,7 @@
         </li>
       </ol>
     </BlockEx>
-    <BlockEx title="Jak zažádat o dotaci" >
+    <BlockEx header="Jak zažádat o dotaci" >
       <p>
         Škola si vybere, o které šablony má zájem, a elektronicky vyplní žádost o dotaci {lib.navigateExt('https://mseu.mssf.cz/', 'v systému IS KP14+') }, více informací viz {lib.navigateExt('http://www.msmt.cz/strukturalni-fondy-1/zadost-o-podporu', 'žádost o podporu') }.
         K vyplnění je nutné mít elektronický podpis.
@@ -80,7 +80,7 @@
         Tuto pomoc nabízíme na stránce {sitemapRouter.navigateTag(inkluze.root.zadost) }
       </p>
     </BlockEx>
-    <BlockEx title="Povinná šablona, související s vyplněním dotazníku MAP" gray>
+    <BlockEx header="Povinná šablona, související s vyplněním dotazníku MAP" gray>
       <p>
         Kromě doposud uvedených pravidel přípravy projektu je třeba splnit ještě další podmínku.
         Projekt musí povinně obsahovat šablonu, která rozvíjí nejslabší oblast v rámci celorepublikového šetření MAP.
@@ -111,7 +111,7 @@
         Na závěr projektu školy vyplní dotazník ještě jednou, aby se dalo zjistit, jaký vliv projekt na školu měl.
       </p>
     </BlockEx>
-    <BlockEx title="Dotace na personální podporu" >
+    <BlockEx header="Dotace na personální podporu" >
       <p>
         Šablony pro personální podporu jsou vypsány na jednoho pracovníka ve výši 0, 5 úvazku na jeden měsíc.
         Výjimkou je šablona Sociální pedagog, která je vypsána na 0, 1 úvazku.
@@ -131,7 +131,7 @@
         Pokud škola potřebuje jednoho školního asistenta na půl úvazku na 1 školní rok a druhého školního asistenta na půl úvazku na 2 školní roky, tak šablonu Školní asistent objedná celkem 36x.
       </p>
     </BlockEx>
-    <BlockEx title="Dotace na školení učitelů" gray>
+    <BlockEx header="Dotace na školení učitelů" gray>
       <p>
         Všechny kurzy musí být akreditované MŠMT.
         Kurzy zamřené na inkluzi mohou přednášet pouze akreditovaní lektoři.
