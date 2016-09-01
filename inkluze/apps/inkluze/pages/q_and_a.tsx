@@ -13,21 +13,22 @@
 Q_and_a.contextTypes = sitemapRouter.childContextTypes;
 
 interface IQAFormStatus {
+  open: boolean;
   email?: string;
   message?: string;
 }
 class QAForm extends React.Component<{}, IQAFormStatus> {
   constructor(p, c) {
     super(p, c);
-    this.state = {};
+    this.state = {open:false};
   }
   getValidationState(): any {
     return this.state.message ? 'success' : 'error';
   }
   render(): JSX.Element {
+    var th = this;
     return <div>
-      <PanelGroup accordion style={{ marginTop: '15px', marginLeft:'-15px' }}>
-        <Panel header={<b>Zadejte nový dotaz <i className="fa fa-question-circle"></i></b>} bsStyle='warning' eventKey='1'>
+        <Panel collapsible style={{ marginTop: '15px', marginLeft: '-15px' }} header={<a href="#" onClick={ev => { th.state.open = !th.state.open; th.forceUpdate(); ev.preventDefault(); }}><b>Zadejte nový dotaz <i className="fa fa-question-circle"></i></b></a>} bsStyle='warning' eventKey='1' expanded={this.state.open}>
           <FormGroup controlId="message" validationState={this.getValidationState() } >
             <ControlLabel>Dotaz: </ControlLabel>
             <FormControl componentClass="textarea" value={this.state.message} placeholder="Napiště dotaz" onChange={(e: any) => { this.state.message = e.target.value; this.forceUpdate(); } } rows={5} />
@@ -40,9 +41,8 @@ class QAForm extends React.Component<{}, IQAFormStatus> {
               Když jej vyplníte, zašleme vám na něj odpověď a můžeme se i doptat, když nebudeme dotazu rozumět.</HelpBlock>
           </FormGroup>
           <hr/>
-          <Button onClick={() => alert(this.state.message) } bsStyle='success'>Poslat dotaz</Button>
+          <Button onClick={() => sendQA(th.state, () => { alert('Děkujeme za zaslání dotazu'); th.state.open = false; th.forceUpdate(); }) } bsStyle='success'>Poslat dotaz</Button>
         </Panel>
-      </PanelGroup>
     </div>;
   }
 }

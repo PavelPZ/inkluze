@@ -2,59 +2,60 @@
 
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>LANGMaster.com: Inkluze ve vzdělávání</title>
-    <link rel="stylesheet" href="externals/bootstrap.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="apps/inkluze/css/styles.css" type="text/css" />
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LANGMaster.com: Inkluze ve vzdělávání</title>
+  <link rel="stylesheet" href="externals/bootstrap.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="apps/inkluze/css/styles.css" type="text/css" />
 
-    <script src="externals/es6-shim.js"></script><!--https://cdnjs.cloudflare.com/ajax/libs/es6-shim/0.35.0/es6-shim.js-->
-    <script src="externals/react.js"></script>
-    <script src="externals/react-dom.js"></script>
-    <script src="externals/react-bootstrap.js"></script>
-    <script src="externals/classnames.js"></script>
-    <script src="libs/common/lib.js"></script>
-    <script src="libs/common/react-bootstrap.js"></script>
-    <script src="libs/flux/router.js"></script>
-    <script src="libs/flux/sitemap.js"></script>
-    <script src="libs/flux/sitemaprouter.js"></script>
+  <script src="externals/es6-shim.js"></script><!--https://cdnjs.cloudflare.com/ajax/libs/es6-shim/0.35.0/es6-shim.js-->
+  <script src="externals/react.js"></script>
+  <script src="externals/react-dom.js"></script>
+  <script src="externals/react-bootstrap.js"></script>
+  <script src="externals/classnames.js"></script>
+  <script src="libs/common/lib.js"></script>
+  <script src="libs/common/react-bootstrap.js"></script>
+  <script src="libs/flux/router.js"></script>
+  <script src="libs/flux/sitemap.js"></script>
+  <script src="libs/flux/sitemaprouter.js"></script>
 
-    <script src="apps/inkluze/code/controls.js"></script>
-    <script src="apps/inkluze/code/page.js"></script>
+  <script src="apps/inkluze/code/controls.js"></script>
+  <script src="apps/inkluze/code/page.js"></script>
+  <script src="apps/inkluze/code/callserver.js"></script>
 
-    <script src="apps/inkluze/pages/popups.js"></script>
-    <script src="apps/inkluze/pages/blank.js"></script>
-    <script src="apps/inkluze/pages/home.js"></script>
-    <script src="apps/inkluze/pages/pravidla.js"></script>
-    <script src="apps/inkluze/pages/q_and_a.js"></script>
-    <script src="apps/inkluze/pages/q_and_as.js"></script>
-    <script src="apps/inkluze/pages/slovnicek.js"></script>
+  <script src="apps/inkluze/pages/popups.js"></script>
+  <script src="apps/inkluze/pages/blank.js"></script>
+  <script src="apps/inkluze/pages/home.js"></script>
+  <script src="apps/inkluze/pages/pravidla.js"></script>
+  <script src="apps/inkluze/pages/q_and_a.js"></script>
+  <script src="apps/inkluze/pages/q_and_as.js"></script>
+  <script src="apps/inkluze/pages/slovnicek.js"></script>
 
-    <script src="apps/inkluze/code/sitemap.js"></script> <!--musi byt za vsemi Page komponentami-->
+  <script src="apps/inkluze/code/sitemap.js"></script> <!--musi byt za vsemi Page komponentami-->
 
-    <meta name="description" itemprop="description" content="Akreditované prezenční kurzy na inkluzi, prezenční výuka, vzdělávací programy na inkluzi v rámci DVPP. Lektor, implementátor" />
-    <meta name="google-site-verification" content="vG10BC2dc1o7PV8vYJmlrR2i-wmkJxTSQtzzsriWKno" />
-    <link rel="canonical" href="http://inkluze.langmaster.cz/" />
-    <script type="text/javascript">
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-5201597-17']);
-        _gaq.push(['_setDomainName', 'inkluze.langmaster.cz']);
-        _gaq.push(['_trackPageview']);
-        (function () {
-            var ga = document.createElement('script');
-            ga.type = 'text/javascript';
-            ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(ga, s);
-        })();
-    </script>
+  <meta name="description" itemprop="description" content="Akreditované prezenční kurzy na inkluzi, prezenční výuka, vzdělávací programy na inkluzi v rámci DVPP. Lektor, implementátor" />
+  <meta name="google-site-verification" content="vG10BC2dc1o7PV8vYJmlrR2i-wmkJxTSQtzzsriWKno" />
+  <link rel="canonical" href="http://inkluze.langmaster.cz/" />
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-5201597-17']);
+    _gaq.push(['_setDomainName', 'inkluze.langmaster.cz']);
+    _gaq.push(['_trackPageview']);
+    (function () {
+      var ga = document.createElement('script');
+      ga.type = 'text/javascript';
+      ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
 
 </head>
 <body>
-    <div id="content"></div>
-    <script src="apps/inkluze/code/app.js"></script>
+  <div id="content"></div>
+  <script src="apps/inkluze/code/app.js"></script>
 </body>
 </html>
