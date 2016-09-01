@@ -128,9 +128,8 @@
     </BlockEx>
     <BlockEx header="Dotace na vzdělávání učitelů" gray>
       <p>
-        V rámci dalšího vzdělávání si učitelé mohou vybrat z následujících aktivit:
-        {popups.ms_rozvoj_pedagogu}
-        {popups.zs_rozvoj_pedagogu}
+        V rámci dalšího vzdělávání si učitelé mohou vybrat z následujících aktivit: 
+        {popups.ms_rozvoj_pedagogu}&nbsp;{popups.zs_rozvoj_pedagogu}
       </p>
       <p>
         Všechny kurzy musí být akreditované MŠMT.
