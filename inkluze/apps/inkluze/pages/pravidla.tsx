@@ -56,7 +56,7 @@
     </BlockEx>
     <BlockEx header="Jak zažádat o dotaci" >
       <p>
-        Škola si vybere, o které šablony má zájem, a elektronicky vyplní žádost o dotaci {lib.navigateExt('https://mseu.mssf.cz/', 'v systému IS KP14+', true) }, více informací viz {lib.navigateExt('http://www.msmt.cz/strukturalni-fondy-1/zadost-o-podporu', 'žádost o podporu', true) }.
+        Škola si vybere, o které šablony má zájem, a elektronicky vyplní {popups.zadost_o_dotaci} {lib.navigateExt('https://mseu.mssf.cz/', 'v systému IS KP14+', true) }, více informací viz {lib.navigateExt('http://www.msmt.cz/strukturalni-fondy-1/zadost-o-podporu', 'žádost o podporu', true) }.
         K vyplnění je nutné mít elektronický podpis.
       </p>
       <p>
@@ -109,7 +109,7 @@
     </BlockEx>
     <BlockEx header="Dotace na personální podporu" >
       <p>
-        Šablony pro personální podporu jsou vypsány na jednoho pracovníka ve výši 0, 5 úvazku na jeden měsíc.
+        {popups.zs_ms_personalni_podpora} jsou vypsány na jednoho pracovníka ve výši 0, 5 úvazku na jeden měsíc.
         Výjimkou je šablona Sociální pedagog, která je vypsána na 0, 1 úvazku.
         Úvazek nelze dělit mezi více osob.
       </p>
@@ -126,34 +126,24 @@
         Pokud škola potřebuje jednoho školního asistenta na půl úvazku na 1 školní rok a druhého školního asistenta na půl úvazku na 2 školní roky, tak šablonu Školní asistent objedná celkem 36x.
       </Alert>
     </BlockEx>
-    <BlockEx header="Dotace na školení učitelů" gray>
+    <BlockEx header="Dotace na vzdělávání učitelů" gray>
       <p>
         Všechny kurzy musí být akreditované MŠMT.
-        Kurzy zamřené na inkluzi mohou přednášet pouze akreditovaní lektoři.
+        Kurzy zaměřené na inkluzi mohou přednášet pouze akreditovaní lektoři.
       </p>
       <p>
-        Každý učitel, který se v rámci projektu účastní nějakého školení, musí v souhrnu absolvovat alespoň 24 hodin školení.
+        Každý učitel, který se v rámci projektu účastní nějakého vzdělávacího kurzu, musí v souhrnu absolvovat alespoň 24 hodin vzdělávání viz {popups.bagatelni_podpora}.
       </p>
       <Alert type="Příklad">
-        Pokud se učitel rozhodne účastnit například školení „Vzdělávání pedagogického sboru ZŠ zaměřené na inkluzi – vzdělávací akce v rozsahu 8 hodin“, pak se musí účastnit ještě jiného školení v rozsahu minimálně 16 hodin.
+        Pokud se učitel rozhodne účastnit například kurzu „Vzdělávání pedagogického sboru ZŠ zaměřené na inkluzi – vzdělávací akce v rozsahu 8 hodin“, pak se musí účastnit ještě další vzdělávací akce v rozsahu minimálně 16 hodin.
       </Alert>
       <p>
-        Pro učitele jsme připravili 24 hodinové DVPP školení zaměřené na inkluzi.
+        Připravili jsme kurzy zaměřené na inkluzi v celkové délce 24 hodin resp.
+        32 hodin.
       </p>
       <p>
-        Školení zahrnuje:
-        akreditovaný 8 hod.
-        kurz zaměřený na inkluzi + akreditovaný 16 hod.
-        kurz zaměřený na inkluzi
-      </p>
-      <p>
-        Pro každého účastníka tohoto školení je nutné objednat:
-        <ul>
-          <li>
-            1x šablonu II/2.1 Vzdělávání pedagogických pracovníků ZŠ – DVPP v rozsahu 16 hodin</li>
-          <li>
-            1x šablonu II/2.8 Vzdělávání pedagogického sboru ZŠ zaměřené na inkluzi – vzdělávací akce v rozsahu 8 hodin</li>
-        </ul>
+        V rámci dalšího vzdělávání si učitelé mohou vybrat z následujících aktivit:
+        {popups.ms_rozvoj_pedagogu}{popups.zs_rozvoj_pedagogu}
       </p>
       <p>
         Více viz {sitemapRouter.navigateTag(inkluze.root.kurzy) }

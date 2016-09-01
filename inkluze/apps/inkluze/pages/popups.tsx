@@ -1,10 +1,20 @@
 ﻿const popups = {
+  vyzva: <Popup document='vyzva' page= {1} header='Výzva'>
+    <div>
+      <p>
+        Výzva podpoří osobnostně profesní rozvoj pedagogů prostřednictvím dalšího vzdělávání pedagogických pracovníků, vzájemného setkávání a sdílení zkušeností pedagogů a pomůže školám při společném vzdělávání dětí/žáků, a to možností personálního posílení o školního asistenta, školního psychologa, speciálního pedagoga, sociálního pedagoga, příp.
+        chůvu v mateřské škole.Důležitou oblastí podpory je také usnadnění přechodu dětí z mateřské školy do základní školy a spolupráce s rodiči dětí a žáků.
+        Zařazení žáků se speciálními vzdělávacími potřebami (SVP) do hlavního vzdělávacího proudu pomohou extrakurikulární aktivity (čtenářské kluby, kluby zábavné logiky a deskových her a doučování žáků základní školy ohrožených školním neúspěchem).
+      </p>
+    </div>
+  </Popup>,
+
   MAP: <Popup document='priloha3' page={3} header='Jak identifikovat oblasti pro rozvoj školy?'>
     <div>
       <p>
         V listopadu roku 2015 byl školám v rámci šetření realizovaného pro potřeby výzvy Místní akční plány rozvoje vzdělávání (MAP) rozeslán dotazník, jehož vyplnění je podmínkou možnosti čerpání finančních prostředků prostřednictvím projektů zjednodušeného vykazování (šablon).
         Při zpracovávání dotazníků si školy ujasnily, ve kterých oblastech by se měly a chtěly rozvíjet.
-        Školám pomohou v identifikaci jejich potřeb výsledky a vyhodnocení Výstupu z dotazníkového šetření MAP, které budou školám zaslány ze strany MŠMT a zpřístupněny {lib.navigateExt('https://sberdat.uiv.cz/login', 've webovém rozhraní',true)}.
+        Školám pomohou v identifikaci jejich potřeb výsledky a vyhodnocení Výstupu z dotazníkového šetření MAP, které budou školám zaslány ze strany MŠMT a zpřístupněny {lib.navigateExt('https://sberdat.uiv.cz/login', 've webovém rozhraní', true) }.
         Součástí tohoto vyhodnocení je také seznam šablon, ze kterých mohou školy volit, aby alespoň část jejich potřeb rozvoje byla naplněna.
         Výstup z dotazníkového šetření MAP2 bude povinnou přílohou Žádosti o podporu.
       </p>
@@ -44,7 +54,7 @@
     </div>
   </Popup>,
 
-  zadavatel: <Popup document='vyzva' page= {5} header='Oprávnění žadatelé'>
+  zadavatel: <Popup document='vyzva' page= {4} header='Oprávnění žadatelé'>
     <div>
       <p>
         Mateřské  a  základní  školy  nezřizované  organizačními  složkami  státu (tj.
@@ -103,6 +113,40 @@
     </div>
   </Popup>,
 
+  zadost_o_dotaci: <Popup document='vyzva' page={7} header='Žádost o dotaci'>
+    <div>
+      <p>
+        Přehled relevantních příloh žádosti o podporu je uveden v {lib.navigateExt('http://www.msmt.cz/uploads/OP_VVV/Vyzva_zjednodusene_projekty_22_a23/Priloha_c_4_Seznam_priloh_k_zadosti_o_podporu.pdf', 'příloze č.4 Seznam příloh k žádosti o podporu', true) }.
+        Řídicí orgán Operačního programu Výzkum, vývoj a vzdělávání je oprávněn aktualizovat vzory příloh žádosti o podporu v průběhu této výzvy.
+        Aktualizace vzorů příloh žádosti o podporu není změnou této výzvy.
+      </p>
+      <p>
+        Podání žádosti o podporu probíhá pouze elektronicky, prostřednictvím IS KP14+, {lib.navigateExt('https://mseu.mssf.cz/', 'v systému IS KP14+', true) }.
+        Listinná verze žádosti se nezasílá.Žádost o podporu je podávána v českém jazyce.
+      </p>
+      <p>
+        <b>
+          Žádost o podporu musí být opatřena certifikovaným elektronickým podpisem statutárního orgánu žadatele nebo osoby oprávněné podepisovat na základě pověření.
+        </b>
+      </p>
+    </div>
+  </Popup>,
+
+  bagatelni_podpora: <Popup document='priloha3' page={14} header='Bagatelní podpora'>
+    <div>
+      <p>
+        Bagatelní podpora je ve výzvě Podpora škol formou projektů zjednodušeného vykazování – Šablony pro MŠ a ZŠ I stanovena na 24 hodin.
+      </p>
+      <p>
+        Do bagatelní podpory se u šablon DVPP započítává délka vzdělávání uvedená na příslušném dokladu o absolvovaném vzdělání, u ostatních šablon hodinová dotace uvedená ve výstupu šablony.
+      </p>
+      <p>
+        Projekt musí být koncipován tak, aby vzdělávací aktivity každé podpořené osoby v souhrnu dosahovaly minimální hranice bagatelní podpory.
+        To znamená, že pokud bude konkrétní osoba vzdělávána v rámci šablony, kde časová dotace nedosahuje hranice bagatelní podpory, měla by tato konkrétní osoba být vzdělána ještě v rámci další šablony.
+      </p>
+    </div>
+  </Popup>,
+
   ms_skolni_asistent: <Popup document='priloha3' page={18} header='I/1.1 Školní asistent – personální podpora MŠ'>
     <div>
       <p>Školní asistent poskytuje základní nepedagogickou podporu přímo v rodině při spolupráci s rodiči, zprostředkovává komunikaci s komunitou, rodinou a školou spočívající např.
@@ -155,6 +199,44 @@
       </p>
     </div>
   </Popup>,
+
+  ms_rozvoj_pedagogu: <Popup document='priloha3' page= {35} header='Vzdělávací aktivity pro rozvoj pedagogů MŠ'>
+    <div>
+      <h4>Osobnostně sociální a profesní rozvoj pedagogů MŠ </h4>
+      <ul>
+        <li>
+          I/2.1 Osobnostně sociální rozvoj předškolních pedagogů MŠ v rozsahu 40 hodin
+        </li>
+        <li>
+          I/2.2 Osobnostně sociální rozvoj předškolních pedagogů MŠ v rozsahu 16 hodin
+        </li>
+        <li>
+          I/2.3 Vzdělávání pedagogických pracovníků MŠ – DVPP v rozsahu 16 hodin
+        </li>
+        <li>
+          I/2.4 Specifika práce pedagoga s dvouletými dětmi v MŠ
+        </li>
+        <li>
+          I/2.5 Profesní rozvoj předškolních pedagogů prostřednictvím supervize
+        </li>
+        <li>
+          I/2.6 Sdílení zkušeností pedagogů z různých škol prostřednictvím vzájemných návštěv (pro MŠ)
+        </li>
+      </ul>
+      <h4>Usnadňování přechodu dětí z MŠ do ZŠ </h4>
+      <ul>
+        <li>
+          I/3.1 Prevence logopedických vad a problémů komunikačních schopností u dětí v MŠ
+        </li>
+        <li>
+          I/3.2 Individualizace vzdělávání v MŠ
+        </li>
+        <li>
+          I/3.3 Odborně zaměřená tematická setkávání a spolupráce s rodiči dětí v MŠ
+        </li>
+      </ul>
+    </div>
+  </Popup >,
 
   ms_osobnostni_rozvoj_40_hodin: <Popup document='priloha3' page= {35} header='I/2.1 Osobnostně sociální rozvoj předškolních pedagogů MŠ v rozsahu 40 hodin'>
     <div>
@@ -249,6 +331,45 @@
     </div>
   </Popup>,
 
+  zs_ms_personalni_podpora: <Popup document='priloha3' page={56} header='Šablony pro personální podporu'>
+    <div>
+      <h4>{lib.navigateExt('http://www.msmt.cz/uploads/OP_VVV/Vyzva_zjednodusene_projekty_22_a23/Priloha_c_3_Prehled_sablon_k_1_8_2016.pdf#page18', 'Personální podpora MŠ', true) }</h4>
+      <ul>
+        <li>
+          I/1.1 Školní asistent – personální podpora MŠ
+        </li>
+        <li>
+          I/1.2 Školní speciální pedagog – personální podpora MŠ
+        </li>
+        <li>
+          I/1.3 Školní psycholog – personální podpora MŠ
+        </li>
+        <li>
+          I/1.4 Sociální pedagog – personální podpora MŠ
+        </li>
+        <li>
+          I/1.5 Chůva – personální podpora MŠ
+        </li>
+      </ul>
+
+      <h4>{lib.navigateExt('http://www.msmt.cz/uploads/OP_VVV/Vyzva_zjednodusene_projekty_22_a23/Priloha_c_3_Prehled_sablon_k_1_8_2016.pdf#page56', 'Personální podpora ZŠ', true) }</h4>
+      <ul>
+        <li>
+          II/1.1 Školní asistent – personální podpora ZŠ
+        </li>
+        <li>
+          II/1.2 Školní speciální pedagog – personální podpora ZŠ
+        </li>
+        <li>
+          II/1.3 Školní psycholog – personální podpora ZŠ
+        </li>
+        <li>
+          II/1.4 Sociální pedagog – personální podpora ZŠ
+        </li>
+      </ul>
+    </div>
+  </Popup>,
+
   zs_skolni_asistent: <Popup document='priloha3' page={56} header='II/1.1 Školní asistent – personální podpora ZŠ'>
     <div>
       <p>Školní asistent poskytuje základní nepedagogickou podporu přímo v rodině při spolupráci s rodiči, zprostředkovává komunikaci s komunitou, rodinou a školou spočívající např.
@@ -290,6 +411,73 @@
     </div>
   </Popup>,
 
+  zs_rozvoj_pedagogu: <Popup document='priloha3' page= {71} header='Vzdělávací aktivity pro rozvoj pedagogů ZŠ'>
+    <div>
+      <h4>Osobnostně sociální a profesní rozvoj pedagogů ZŠ </h4>
+      <ul>
+        <li>
+          II/2.1 Vzdělávání pedagogických pracovníků ZŠ – DVPP v rozsahu 16 hodin
+        </li>
+        <li>
+          II/2.2 Vzdělávání pedagogických pracovníků ZŠ – DVPP v rozsahu 32 hodin
+        </li>
+        <li>
+          II/2.3 Vzdělávání pedagogických pracovníků ZŠ zaměřené na inkluzi – DVPP v rozsahu 32 hodin
+        </li>
+        <li>
+          II/2.4 Vzdělávání pedagogických pracovníků ZŠ – DVPP v rozsahu 56 hodin
+        </li>
+        <li>
+          II/2.5 Vzdělávání pedagogických pracovníků ZŠ zaměřené na inkluzi – DVPP v rozsahu 56 hodin
+        </li>
+        <li>
+          II/2.6 Vzdělávání pedagogických pracovníků ZŠ – DVPP v rozsahu 80 hodin
+        </li>
+        <li>
+          II/2.7 Vzdělávání pedagogických pracovníků ZŠ zaměřené na inkluzi – DVPP v rozsahu 80 hodin
+        </li>
+        <li>
+          II/2.8 Vzdělávání pedagogického sboru ZŠ zaměřené na inkluzi – vzdělávací akce v rozsahu 8 hodin
+        </li>
+        <li>
+          II/2.9 Vzájemná spolupráce pedagogů ZŠ
+        </li>
+        <li>
+          II/2.10 Sdílení zkušeností pedagogů z různých škol prostřednictvím vzájemných návštěv (pro ZŠ)
+        </li>
+        <li>
+          II/2.11 Tandemová výuka na ZŠ
+        </li>
+        <li>
+          II/2.12 CLIL ve výuce na ZŠ
+        </li>
+        <li>
+          II/2.13 Nové metody ve výuce na ZŠ
+        </li>
+      </ul>
+      <h4>Extrakurikulární rozvojové aktivity ZŠ </h4>
+      <ul>
+        <li>
+          II/3.1 Čtenářský klub pro žáky ZŠ
+        </li>
+        <li>
+          II/3.2 Klub zábavné logiky a deskových her pro žáky ZŠ
+        </li>
+        <li>
+          II/3.3 Doučování žáků ZŠ ohrožených školním neúspěchem
+        </li>
+        <li>
+          II/3.4 Příprava na vyučování žáků ZŠ ohrožených školním neúspěchem
+        </li>
+      </ul>
+      <h4>Spolupráce s rodiči žáků ZŠ </h4>
+      <ul>
+        <li>
+          II/4.1 Odborně zaměřená tematická setkávání a spolupráce s rodiči žáků ZŠ
+        </li>
+      </ul>
+    </div>
+  </Popup >,
 
 
   zs_DVPP_16_hodin: <Popup document='priloha3' page= {71} header='II/2.1 Vzdělávání pedagogických pracovníků ZŠ – DVPP v rozsahu 16 hodin'>
@@ -486,12 +674,12 @@
       </p>
       <p>
         Šablonou budou podpořeny takové formy a metody práce pedagoga, které představují ucelené přístupy (např.
-        Hejného metoda, Čtením a psaním ke kritickému myšlení a další) nebo které je možné navázat na konkrétní položky z dotazníkového šetření MAP (ČG, MG, Inkluze) nebo položky z Metodik pro hodnocení rozvoje gramotností (připravených ČŠI). 
-	  </p>
-	   <p>
-    	Spolupráce v oblasti inkluze může být zaměřena i na obecnější témata, která zvyšují kompetence pedagogů z hlediska společného vzdělávání a osobnostního rozvoje, tedy například na reflexi a sebereflexi, plánování výuky (z hlediska cílů, obsahu, metod a individualizace), podporu učení (motivace žáků, diferenciace, klima, atd.), apod.
+        Hejného metoda, Čtením a psaním ke kritickému myšlení a další) nebo které je možné navázat na konkrétní položky z dotazníkového šetření MAP (ČG, MG, Inkluze) nebo položky z Metodik pro hodnocení rozvoje gramotností (připravených ČŠI).
       </p>
-	  </div>
+      <p>
+        Spolupráce v oblasti inkluze může být zaměřena i na obecnější témata, která zvyšují kompetence pedagogů z hlediska společného vzdělávání a osobnostního rozvoje, tedy například na reflexi a sebereflexi, plánování výuky (z hlediska cílů, obsahu, metod a individualizace), podporu učení (motivace žáků, diferenciace, klima, atd.), apod.
+      </p>
+    </div>
   </Popup>,
 
   zs_ctenarsky_klub: <Popup document='priloha3' page= {104} header='II/3.1 Čtenářský klub pro žáky ZŠ'>

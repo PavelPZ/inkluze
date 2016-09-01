@@ -108,7 +108,8 @@
     <BlockEx header="Alespoň 24 hodin kurzu nebo nic">
       <p>
         V podmínkách pro využití dotace je stanoveno, že každý učitel, který se v rámci projektu účastní nějakého vzdělávacího kurzu, <b>musí v souhrnu absolvovat alespoň 24 hodin vzdělávání</b>.
-        Této podmínce se říká tzv.&nbsp;bagatelní podpora, více se o ní dozvíte <i>TODO</i>.
+        Této podmínce se říká tzv.
+        {popups.bagatelni_podpora}.
       </p>
       <p>
         Připravili jsme proto kurzy v celkové délce 24 hodin resp.
