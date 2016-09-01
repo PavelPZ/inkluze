@@ -4,7 +4,8 @@
       <p>
         V listopadu roku 2015 byl školám v rámci šetření realizovaného pro potřeby výzvy Místní akční plány rozvoje vzdělávání (MAP) rozeslán dotazník, jehož vyplnění je podmínkou možnosti čerpání finančních prostředků prostřednictvím projektů zjednodušeného vykazování (šablon).
         Při zpracovávání dotazníků si školy ujasnily, ve kterých oblastech by se měly a chtěly rozvíjet.
-        Školám pomohou v identifikaci jejich potřeb výsledky a vyhodnocení Výstupu z dotazníkového šetření MAP, které budou školám zaslány ze strany MŠMT a zpřístupněny ve webovém rozhraní https://sberdat.uiv.cz/login. Součástí tohoto vyhodnocení je také seznam šablon, ze kterých mohou školy volit, aby alespoň část jejich potřeb rozvoje byla naplněna.
+        Školám pomohou v identifikaci jejich potřeb výsledky a vyhodnocení Výstupu z dotazníkového šetření MAP, které budou školám zaslány ze strany MŠMT a zpřístupněny {lib.navigateExt('https://sberdat.uiv.cz/login', 've webovém rozhraní',true)}.
+        Součástí tohoto vyhodnocení je také seznam šablon, ze kterých mohou školy volit, aby alespoň část jejich potřeb rozvoje byla naplněna.
         Výstup z dotazníkového šetření MAP2 bude povinnou přílohou Žádosti o podporu.
       </p>
       <div className="well well-sm">

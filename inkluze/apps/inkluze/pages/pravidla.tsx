@@ -33,12 +33,12 @@
         </ul>
       </p>
       <p>
-        Pro optimální výběr skladby a počtu šablon použijte {lib.navigateExt('http://www.msmt.cz/uploads/OP_VVV/Vyzva_zjednodusene_projekty_22_a23/Kalkulacka_indikatoru_final.xlsx', 'speciální kalkulačku') }.
+        Pro optimální výběr skladby a počtu šablon použijte {lib.navigateExt('http://www.msmt.cz/uploads/OP_VVV/Vyzva_zjednodusene_projekty_22_a23/Kalkulacka_indikatoru_final.xlsx', 'speciální kalkulačku',true) }.
       </p>
 
       <h4>Jak určit „počet žáků školy“?</h4>
       <ol>
-        <li>U žádosti o dotaci podané do 31.12.2016, budete vycházet z počtu žáků k 30.9.2015.Tento počet musí odpovídat  {lib.navigateExt('http://www.msmt.cz/uploads/OP_VVV/Vyzva_zjednodusene_projekty_22_a23/Seznamy_MS_ZS_k_30_09_2015.xlsx', 'oficiálním údajům na stránce MŠMT') }.</li>
+        <li>U žádosti o dotaci podané do 31.12.2016, budete vycházet z počtu žáků k 30.9.2015.Tento počet musí odpovídat  {lib.navigateExt('http://www.msmt.cz/uploads/OP_VVV/Vyzva_zjednodusene_projekty_22_a23/Seznamy_MS_ZS_k_30_09_2015.xlsx', 'oficiálním údajům na stránce MŠMT', true) }.</li>
         <li>U žádosti o dotaci podané po 1.1.2017, budete vycházet z  počtu žáků k 30.9.2016, který bude na webových stránkách MŠMT aktualizován v prosinci 2016.</li>
       </ol>
       <Alert type="Poznámka">
@@ -56,7 +56,7 @@
     </BlockEx>
     <BlockEx header="Jak zažádat o dotaci" >
       <p>
-        Škola si vybere, o které šablony má zájem, a elektronicky vyplní žádost o dotaci {lib.navigateExt('https://mseu.mssf.cz/', 'v systému IS KP14+') }, více informací viz {lib.navigateExt('http://www.msmt.cz/strukturalni-fondy-1/zadost-o-podporu', 'žádost o podporu') }.
+        Škola si vybere, o které šablony má zájem, a elektronicky vyplní žádost o dotaci {lib.navigateExt('https://mseu.mssf.cz/', 'v systému IS KP14+', true) }, více informací viz {lib.navigateExt('http://www.msmt.cz/strukturalni-fondy-1/zadost-o-podporu', 'žádost o podporu', true) }.
         K vyplnění je nutné mít elektronický podpis.
       </p>
       <p>
@@ -101,7 +101,7 @@
         V této oblasti by se škola měla rozvíjet, a má povinnost zvolit do projektu alespoň jednu šablonu, rozvíjející tuto oblast. Více viz {popups.MAP}
       </p>
       <Alert type="Poznámka">
-        Nemůžete-li nalézt podrobné vyhodnocení, které vám MŠMT zaslalo, podívejte se na výsledky na této adrese: {lib.navigateExt('https://sberdat.uiv.cz/login', 'https://sberdat.uiv.cz/login') }.
+        Nemůžete-li nalézt podrobné vyhodnocení, které vám MŠMT zaslalo, podívejte se na výsledky na této adrese: {lib.navigateExt('https://sberdat.uiv.cz/login', 'https://sberdat.uiv.cz/login', true) }.
       </Alert>
       <p>
         Na závěr projektu školy vyplní dotazník ještě jednou, aby se dalo zjistit, jaký vliv projekt na školu měl.
