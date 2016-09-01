@@ -9,7 +9,7 @@
     </div>
   </Popup>,
 
-  MAP: <Popup document='priloha3' page={3} header='Jak identifikovat oblasti pro rozvoj školy?'>
+  MAP: <Popup document='priloha3' page={4} header='Jak identifikovat oblasti pro rozvoj školy?'>
     <div>
       <p>
         V listopadu roku 2015 byl školám v rámci šetření realizovaného pro potřeby výzvy Místní akční plány rozvoje vzdělávání (MAP) rozeslán dotazník, jehož vyplnění je podmínkou možnosti čerpání finančních prostředků prostřednictvím projektů zjednodušeného vykazování (šablon).
