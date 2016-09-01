@@ -72,7 +72,7 @@
         </LiHand>
         <LiHand>
           Dotační výzvy jsou dvě: <b>Výzva č.02_16_022</b> (pro mimopražské školy) a <b>Výzva č.02_16_023</b> (pro pražské školy).
-          Obsahem jsou tyto výzvy identické, budeme je dále nazývat zkráceně <b>Výzva</b>.</LiHand>
+          Obsahem jsou tyto výzvy identické, budeme je dále nazývat zkráceně {popups.vyzva}.</LiHand>
         {/*
         <HomeLi2>
           V rámci Výzvy je možno získat dotace i na další kurzy a aktivity, které se nezabývají inkluzí.
