@@ -68,12 +68,12 @@
       <h4>Jedna žádost na školu</h4>
       <p>
         Každá škola může podat jenom jednu žádost.
-        Přesněji, pokud má například ZŠ a MŠ společné IČO, může být podána jenom jedna žádost pro jedno IČO.
+        V případě, že součástí právnické osoby je mateřská a základní škola (mají společné IČO), podává se jen jedna žádost za MŠ a ZŠ dohromady.
       </p>
-      <p>
+      <Alert type="Poznámka">
         Výjimkou je případ, kdy bude vaše žádost o dotaci zamítnuta (z formálních či obsahových důvodů).
         Pak je možné podat novou, opravnou žádost.
-      </p>
+      </Alert>
       <h4>Pomoc s vyplněním žádosti</h4>
       <p>
         Tuto pomoc nabízíme na stránce {sitemapRouter.navigateTag(inkluze.root.dalsi) }
