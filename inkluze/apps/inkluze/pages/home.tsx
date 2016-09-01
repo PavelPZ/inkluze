@@ -79,17 +79,17 @@
           O těch se ale budeme zmiňovat méně podrobně.</HomeLi2>*/}
       </ul>
     </BlockEx>
-    <BlockEx header="Kurzy na inkluzi od renomovaných lektorů">
+    <BlockEx header="Kurzy zaměřené na inkluzi">
       <p>
         Pro učitele jsme ve spolupráci se zkušenými akreditovanými lektory připravili řadu kurzů.
-        Cílem kurzu je, aby pokud možno celý pedagogický sbor získal orientaci v problematice inkluze.
+        Cílem kurzů je, aby pokud možno celý pedagogický sbor získal orientaci v problematice inkluze.
       </p>
       <p>
-        Naši lektoři mají mnohaletou praxi jak s vzděláváním učitelů tak s inkluzí, o čemž se můžete přesvědčit na stránce {sitemapRouter.navigateTag(inkluze.root.lektori) }.
+        Naši lektoři mají mnohaleté zkušenosti jak se vzděláváním učitelů tak s inkluzí, o čemž se můžete přesvědčit na stránce {sitemapRouter.navigateTag(inkluze.root.lektori) }.
       </p>
     </BlockEx>
     <BlockEx header="Inkluze se týká většiny učitelů" gray>
-      S malou nadsázkou se dá se říci, že v českých školách nenajdete učitele, který by se v některé ze svých tříd nesetkal s problematikou inkluze.
+      S malou nadsázkou se dá se říci, že v českých školách nenajdete učitele, který by se v některé ze svých tříd nesetkal s problémy souvisejícími s inkluzí.
       V tomto případě se mu jistě budou hodit znalosti z našich kurzů, jako například:
       <ul className='fa-ul' style={{ marginTop: "8px" }}>
         <LiCheck>Existují nějaké speciální pomůcky nebo metody, které by mohly žákovi ve výuce pomoci?</LiCheck>
@@ -107,16 +107,17 @@
     </BlockEx>
     <BlockEx header="Alespoň 24 hodin kurzu nebo nic">
       <p>
-        V podmínkách pro využití dotace je stanoveno, že každý učitel, který se v rámci projektu účastní nějakého kurzu, <b>musí v souhrnu absolvovat alespoň 24 hodin kurzu</b>.
+        V podmínkách pro využití dotace je stanoveno, že každý učitel, který se v rámci projektu účastní nějakého vzdělávacího kurzu, <b>musí v souhrnu absolvovat alespoň 24 hodin vzdělávání</b>.
         Této podmínce se říká tzv.&nbsp;bagatelní podpora, více se o ní dozvíte <i>TODO</i>.
       </p>
       <p>
-        Připravili jsme proto 24-hodinové a 32-hodinové kurzy.
+        Připravili jsme proto kurzy v celkové délce 24 hodin resp.
+        32 hodin.
         Naše kurzy splňují všechny podmínky, aby na ně bylo možno použit peníze z dotace.
       </p>
       <p>
-        Cílem obou kurzů je, aby učitelé získali základní orientaci v problematice inkluzivního vzdělávání.
-        U 32-hodinového kurzu zbude více prostoru na diskusi s učiteli, řešení konkrétních problémů, týkajících se dané školy a praktické procvičování získaných znalostí.
+        Cílem kurzů je, aby učitelé získali základní orientaci v problematice inkluzivního vzdělávání.
+        U kurzu v délce 32 hodin zbude více prostoru na diskusi s učiteli, řešení konkrétních problémů, týkajících se dané školy, a praktické procvičování získaných znalostí.
       </p>
       <p>
         Více viz stránka {sitemapRouter.navigateTag(inkluze.root.kurzy) }.
