@@ -41,9 +41,9 @@
         <li>U žádosti o dotaci podané do 31.12.2016, budete vycházet z počtu žáků k 30.9.2015.Tento počet musí odpovídat  {lib.navigateExt('http://www.msmt.cz/uploads/OP_VVV/Vyzva_zjednodusene_projekty_22_a23/Seznamy_MS_ZS_k_30_09_2015.xlsx', 'oficiálním údajům na stránce MŠMT') }.</li>
         <li>U žádosti o dotaci podané po 1.1.2017, budete vycházet z  počtu žáků k 30.9.2016, který bude na webových stránkách MŠMT aktualizován v prosinci 2016.</li>
       </ol>
-      <p>
-        Poznámka: Pokud se Vám tedy v novém roce zvýší počet žáků, a chcete toho využít, požádejte o dotaci až v lednu 2017.
-      </p>
+      <Alert type="Poznámka">
+        Pokud se Vám tedy v novém roce zvýší počet žáků, a chcete toho využít, požádejte o dotaci až v lednu 2017.
+      </Alert>
       <h4>Dotace bude poskytnuta ve dvou zálohových platbách</h4>
       <ol>
         <li>
@@ -100,10 +100,9 @@
         Na základě tohoto vyhodnocení je určena nejslabší oblast vzdělávání (v průměru k ČR).
         V této oblasti by se škola měla rozvíjet, a má povinnost zvolit do projektu alespoň jednu šablonu, rozvíjející tuto oblast. Více viz {popups.MAP}
       </p>
-      <p>
-        Pozn.
+      <Alert type="Poznámka">
         Nemůžete-li nalézt podrobné vyhodnocení, které vám MŠMT zaslalo, podívejte se na výsledky na této adrese: {lib.navigateExt('https://sberdat.uiv.cz/login', 'https://sberdat.uiv.cz/login') }.
-      </p>
+      </Alert>
       <p>
         Na závěr projektu školy vyplní dotazník ještě jednou, aby se dalo zjistit, jaký vliv projekt na školu měl.
       </p>
@@ -123,10 +122,9 @@
       <p>
         Pokud bude pracovník z nějakého důvodu v průběhu projektu nahrazen jiným, tak úvazek nového pracovníka musí na úvazek předchozího pracovníka bezprostředně navazovat.
       </p>
-      <p>
-        Příklad:
+      <Alert type="Příklad">
         Pokud škola potřebuje jednoho školního asistenta na půl úvazku na 1 školní rok a druhého školního asistenta na půl úvazku na 2 školní roky, tak šablonu Školní asistent objedná celkem 36x.
-      </p>
+      </Alert>
     </BlockEx>
     <BlockEx header="Dotace na školení učitelů" gray>
       <p>
@@ -136,10 +134,9 @@
       <p>
         Každý učitel, který se v rámci projektu účastní nějakého školení, musí v souhrnu absolvovat alespoň 24 hodin školení.
       </p>
-      <p>
-        Příklad:
+      <Alert type="Příklad">
         Pokud se učitel rozhodne účastnit například školení „Vzdělávání pedagogického sboru ZŠ zaměřené na inkluzi – vzdělávací akce v rozsahu 8 hodin“, pak se musí účastnit ještě jiného školení v rozsahu minimálně 16 hodin.
-      </p>
+      </Alert>
       <p>
         Pro učitele jsme připravili 24 hodinové DVPP školení zaměřené na inkluzi.
       </p>
