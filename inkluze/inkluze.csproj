@@ -24,6 +24,7 @@
   <ItemGroup>
     <Content Include="apps\inkluze\css\img\lm-logo-black.png" />
     <Content Include="apps\inkluze\css\img\lm-logo.png" />
+    <Content Include="apps\inkluze\css\styles.css" />
     <Content Include="externals\bootstrap.css" />
     <Content Include="externals\classnames.js" />
     <Content Include="externals\es6-shim.js" />
@@ -61,7 +62,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="tsconfig.json" />
-    <Content Include="apps\inkluze\css\styles.less" />
+    <None Include="apps\inkluze\css\styles.less" />
+    <None Include="buildprofile.pubxml" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>

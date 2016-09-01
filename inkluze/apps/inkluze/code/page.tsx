@@ -1,5 +1,4 @@
-﻿interface IPagePar extends lib.IComponentProps { isSmall?: boolean; }
-var Page: React.StatelessComponent<IPagePar> = (props: IPagePar, ctx: sitemapRouter.IContext) => {
+﻿var Page: React.StatelessComponent<lib.IComponentProps> = (props: lib.IComponentProps, ctx: sitemapRouter.IContext) => {
   //breadcrumb
   var bcItems = site.nodeParents(ctx.site, true);
   var noBreadcrumb = true; //bcItems.length == 0;
@@ -28,7 +27,7 @@ var Page: React.StatelessComponent<IPagePar> = (props: IPagePar, ctx: sitemapRou
     <Navbar inverse={true} className="topbar" style={noBreadcrumb ? null : { marginBottom: 0 }} >
       <Navbar.Header>
         <Navbar.Brand>
-          <a href={router.navigateUrl(null) } className={classNames('lm-logo', 'lm-logo-black' + (props.isSmall ? '-small' : '')) }></a>
+          <a href={router.navigateUrl(null) } className={classNames('lm-logo', 'lm-logo-black' + (ctx.site.largeLogo ? '' : '-small')) }></a>
         </Navbar.Brand>
       </Navbar.Header>
       <Nav>

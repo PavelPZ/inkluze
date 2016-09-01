@@ -1,6 +1,6 @@
 ﻿var Q_and_a: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => {
   return <div>
-    <Page isSmall={true}>
+    <Page>
       <Block key={0}>
         <QAForm/>
         <h2>Zodpovězené dotazy: </h2>

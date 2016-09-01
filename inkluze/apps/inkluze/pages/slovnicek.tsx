@@ -1,5 +1,5 @@
 ﻿var Slovnicek: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div>
-  <Page isSmall={false}>
+  <Page>
     Výzva<br/>
     Personální podpora<br/>
     DVPP<br/>

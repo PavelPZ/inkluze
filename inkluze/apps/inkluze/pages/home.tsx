@@ -1,5 +1,5 @@
 ﻿var Home: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div>
-  <Page isSmall={false}>
+  <Page>
     <div>
       <Block blue style={{ paddingBottom: '10px' }}>
         <h1 className='text-center'>{ctx.site.title}</h1>

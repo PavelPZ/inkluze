@@ -1,5 +1,5 @@
 ﻿var Pravidla: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div>
-  <Page isSmall={false}>
+  <Page>
     <BlockEx header="Sestavte si Projekt ze Šablon" gray>
       <p>
         Pro využití peněz z Výzvy musí škola připravit <b>Projekt</b>.
