@@ -64,6 +64,7 @@
     <Content Include="tsconfig.json" />
     <None Include="apps\inkluze\css\styles.less" />
     <None Include="buildprofile.pubxml" />
+    <Content Include="Server\Q_and_A.ashx" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
@@ -75,10 +76,14 @@
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="HttpModule.cs" />
+    <Compile Include="Server\Q_and_A.ashx.cs">
+      <DependentUpon>Q_and_A.ashx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />

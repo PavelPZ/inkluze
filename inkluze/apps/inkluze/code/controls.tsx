@@ -60,7 +60,7 @@ class Popup extends React.Component<IPopupProps, IPopupState> {
       <Modal show={this.state.showModal} onHide={() => this.close() }>
         <Modal.Header closeButton>
           <Modal.Title>{this.props.header}</Modal.Title>
-          <p><i>{docTitle }</i></p>
+          <p><i>viz {docTitle }</i></p>
         </Modal.Header>
         <Modal.Body>
           {this.props.children}
