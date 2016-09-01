@@ -7,7 +7,7 @@
     }
   }
   export class ENotImplemented extends Exception {
-    constructor(msg: string) { super(`Missing ${msg} override`); }
+    constructor(msg?: string) { super(`Missing ${msg} override`); }
   }
   export type TCallback = () => void;
 
