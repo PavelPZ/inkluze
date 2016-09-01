@@ -51,8 +51,8 @@ class Popup extends React.Component<IPopupProps, IPopupState> {
   render(): JSX.Element {
     let docTitle: JSX.Element;
     switch (this.props.document) {
-      case 'priloha3': docTitle = lib.navigateExt('http://www.msmt.cz/uploads/OP_VVV/Vyzva_zjednodusene_projekty_22_a23/Priloha_c_3_Prehled_sablon_k_1_8_2016.pdf','Přehled šablon a jejich věcný výklad', true); break;
-      case 'vyzva': docTitle = lib.navigateExt('http://www.msmt.cz/uploads/OP_VVV/Vyzva_zjednodusene_projekty_22_a23/Vyzva_Sablony_MRR.pdf', 'Výzva 22 a 23', true); break;
+      case 'priloha3': docTitle = lib.navigateExt('http://www.msmt.cz/uploads/OP_VVV/Vyzva_zjednodusene_projekty_22_a23/Priloha_c_3_Prehled_sablon_k_1_8_2016.pdf#page=' + this.props.page,'Přehled šablon a jejich věcný výklad, strana ' + this.props.page, true); break;
+      case 'vyzva': docTitle = lib.navigateExt('http://www.msmt.cz/uploads/OP_VVV/Vyzva_zjednodusene_projekty_22_a23/Vyzva_Sablony_MRR.pdf#page=' + this.props.page, 'Výzva 22 a 23, strana ' + this.props.page, true); break;
       default: throw new lib.ENotImplemented();
     }
     return <span>
@@ -60,7 +60,7 @@ class Popup extends React.Component<IPopupProps, IPopupState> {
       <Modal show={this.state.showModal} onHide={() => this.close() }>
         <Modal.Header closeButton>
           <Modal.Title>{this.props.header}</Modal.Title>
-          <p><i>{docTitle }, stránka {this.props.page}</i></p>
+          <p><i>{docTitle }</i></p>
         </Modal.Header>
         <Modal.Body>
           {this.props.children}
