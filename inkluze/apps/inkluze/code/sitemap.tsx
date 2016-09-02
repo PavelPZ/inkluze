@@ -98,7 +98,7 @@
         rootNode: root.pravidla,
       },
       kurzy: {
-        title: 'Kurzy na inkluzi',
+        title: 'Kurzy - inkluze',
         rootNode: root.kurzy,
       },
       lektori: {

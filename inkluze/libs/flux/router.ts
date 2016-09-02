@@ -100,6 +100,7 @@
   }
 
   function decodeUrlLow(url: string): TRouteActionPar {
+    if (!$isHashRouter) url = url.split('#')[0];
     url = '{' + url.replace(/\$\//g, '}').replace(/\//g, '{');
     let stack: Array<IDecodeStack> = []; let i = 0; let ch: string; let res: IDecodeStack = null;
     let parseRoute = (endIdx: number, st: IDecodeStack) => {

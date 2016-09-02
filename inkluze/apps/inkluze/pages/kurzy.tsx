@@ -1,4 +1,6 @@
-﻿var Kurzy: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div>
+﻿enum kurzEnum { no, k24, k32 }
+interface KurzyPars { kurs: kurzEnum }
+var Kurzy: React.StatelessComponent<KurzyPars> = (props: KurzyPars, ctx: sitemapRouter.IContext) => <div>
   <Page>
     <Block>
       <div className='alert alert-info'>
