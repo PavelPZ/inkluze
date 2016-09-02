@@ -19,10 +19,16 @@
           <Row>
             <Col mdOffset={1} md={8}>
               <p>Pro každého učitele je potřeba objednat šablony dle jedné z těchto možností: </p>
-              <p><b>Možnost 1: </b></p>
-              <p>2x šablonu II/2.1 Vzdělávání pedagogických pracovníků ZŠ – DVPP v rozsahu 16 hodin</p>
-              <p><b>Možnost 2: </b></p>
-              <p>1x šablonu II/2.3 Vzdělávání pedagogických pracovníků ZŠ zaměřené na inkluzi – DVPP v rozsahu 32 hodin</p>
+              <ul className='fa-ul'>
+                <LiHand>
+                  <b>Možnost 1: </b><br/>
+                  <b>2x</b> šablonu II/2.1 Vzdělávání pedagogických pracovníků ZŠ – DVPP v rozsahu 16 hodin
+                </LiHand>
+                <LiHand>
+                  <b>Možnost 2: </b><br/>
+                  <b>1x</b> šablonu II/2.3 Vzdělávání pedagogických pracovníků ZŠ zaměřené na inkluzi – DVPP v rozsahu 32 hodin
+                </LiHand>
+              </ul>
             </Col>
           </Row>
         </Panel>
@@ -61,8 +67,8 @@
             <Col mdOffset={1} md={8}>
               Pro každého učitele je potřeba objednat tyto šablony:
               <ul className='fa-ul'>
-                <LiHand>1x šablonu II/2.8 Vzdělávání pedagogického sboru ZŠ zaměřené na inkluzi – vzdělávací akce v rozsahu 8 hodin </LiHand>
-                <LiHand>1x šablonu II/2.1 Vzdělávání pedagogických pracovníků ZŠ – DVPP v rozsahu 16 hodin – inkluze </LiHand>
+                <LiHand><b>1x</b> šablonu II/2.8 Vzdělávání pedagogického sboru ZŠ zaměřené na inkluzi – vzdělávací akce v rozsahu 8 hodin </LiHand>
+                <LiHand><b>1x</b> šablonu II/2.1 Vzdělávání pedagogických pracovníků ZŠ – DVPP v rozsahu 16 hodin – inkluze </LiHand>
               </ul>
             </Col>
           </Row>
