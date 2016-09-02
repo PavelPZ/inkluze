@@ -119,7 +119,7 @@
         U kurzu v délce 32 hodin zbude více prostoru na diskusi s učiteli, řešení konkrétních problémů, týkajících se dané školy, a praktické procvičování získaných znalostí.
       </p>
       <p>
-        Více viz stránka {sitemapRouter.navigateTag(inkluze.root.kurzy) }.
+        Více viz stránka {sitemapRouter.navigateTag<IKurzyPars>(inkluze.root.kurzy, { kurz: kurzEnum.k24 }) }.
       </p>
     </BlockEx>
     <BlockEx header="Další informace a služby, týkající se dotace na inkluzi" gray>

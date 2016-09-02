@@ -73,7 +73,7 @@
       },
       kurzy: {
         id: 'kurzy',
-        createPage: par => <Kurzy/>,
+        createPage: (par: IKurzyPars) => React.createElement(Kurzy, par),
       },
       lektori: {
         id: 'lektori',
