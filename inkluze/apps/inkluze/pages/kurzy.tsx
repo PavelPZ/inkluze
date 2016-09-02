@@ -16,17 +16,40 @@
             <b>U tohoto kurzu je (oproti 24 hodinové verzi) více prostoru na diskusi s učiteli, řešení konkrétních problémů, týkajících se dané školy, a praktické procvičování získaných znalostí.</b>
           </div>
           <h3>Obsah: </h3>
-          <Row key={2}>
-            TODO dle vzoru z 24 hod kurzu
+          <Row>
+            <Col mdOffset={1} md={5}>
+              <ul className='fa-ul'>
+                <LiFile>Základní právní předpisy legislativní změny</LiFile>
+                <LiFile>Žák se speciálními vzdělávacími potřebami </LiFile>
+                <LiFile>Struktura podpůrných opatření a jejich členění do pěti stupňů</LiFile>
+                <LiFile>Podpůrná opatření prvního stupně </LiFile>
+                <LiFile>Podpůrná opatření 2. - 5. stupně </LiFile>
+                <LiFile>Struktura a obsah Plánu pedagogické podpory</LiFile>
+                <LiFile>Zpracování ukázkového Plánu pedagogické podpory</LiFile>
+                <LiFile>Výukové metody a jejich role při motivaci k učení</LiFile>
+              </ul>
+            </Col>
+            <Col mdOffset={1} md={5}>
+              <ul className='fa-ul'>
+                <LiFile>Individuální vzdělávací plán a pedagogická diagnostika</LiFile>
+                <LiFile>Hodnocení žáků ve společném vzdělávání</LiFile>
+                <LiFile>Spolupráce pedagoga s asistentem pedagoga</LiFile>
+                <LiFile>Komunikace s rodiči </LiFile>
+                <LiFile>Spolupráce s poradenskými zařízeními </LiFile>
+                <LiFile>Plán pedagogické podpory a Individuální vzdělávací plán</LiFile>
+                <LiFile>Efektivní hodnocení žáků a specifičnost hodnocení žáků se SVP</LiFile>
+                <LiFile>Pedagogická diagnostika žáka na základní škole</LiFile>
+              </ul>
+            </Col>
           </Row>
           <h3>Potřebné šablony: </h3>
           <Row>
             <Col mdOffset={1} md={8}>
-              <p>Pro každého učitele je potřeba objednat šablony dle jedné z těchto možností: </p>
+              <p>Pro každého učitele je potřeba objednat tyto šablony:</p>
               <ul className='fa-ul'>
                 <LiHand>
                   <b>Možnost 1: </b><br/>
-                  <b>2x</b> šablonu II/2.1 Vzdělávání pedagogických pracovníků ZŠ – DVPP v rozsahu 16 hodin
+                  <b>2x</b> šablonu II/2.1 Vzdělávání pedagogických pracovníků ZŠ – DVPP v rozsahu 16 hodin – inkluze
                 </LiHand>
                 <LiHand>
                   <b>Možnost 2: </b><br/>
