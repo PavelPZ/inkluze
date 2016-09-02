@@ -41,7 +41,7 @@ class QAForm extends React.Component<{}, IQAFormStatus> {
               Když jej vyplníte, zašleme vám na něj odpověď a můžeme se i doptat, když nebudeme dotazu rozumět.</HelpBlock>
           </FormGroup>
           <hr/>
-          <Button onClick={() => sendQA(th.state, () => { alert('Děkujeme za zaslání dotazu'); th.state.open = false; th.forceUpdate(); }) } bsStyle='success'>Poslat dotaz</Button>
+          <Button onClick={() => services.emailer.sendEMail({ from: 'Inkluzexx<qa@langmaster.cz>', to: 'pz<pzika@langmaster.cz>,kk<kubakaca@gmail.com>', subject: 'Inkluze: Q&A', body: JSON.stringify(this.state) }, () => { alert('Děkujeme za zaslání dotazu'); th.state.open = false; th.forceUpdate(); }) } bsStyle='success'>Poslat dotaz</Button>
         </Panel>
     </div>;
   }

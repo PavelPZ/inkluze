@@ -41,7 +41,7 @@
     <TypeScriptCompile Include="apps\inkluze\code\controls.tsx" />
     <TypeScriptCompile Include="apps\inkluze\code\sitemap.tsx" />
     <TypeScriptCompile Include="apps\inkluze\code\page.tsx" />
-    <TypeScriptCompile Include="apps\inkluze\pages\kurzy - Copy.tsx" />
+    <TypeScriptCompile Include="trash\kurzy - Copy.tsx" />
     <TypeScriptCompile Include="apps\inkluze\pages\kurzy.tsx" />
     <TypeScriptCompile Include="apps\inkluze\pages\slovnicek.tsx" />
     <TypeScriptCompile Include="apps\inkluze\pages\q_and_as.tsx" />
@@ -50,6 +50,8 @@
     <TypeScriptCompile Include="apps\inkluze\pages\pravidla.tsx" />
     <TypeScriptCompile Include="apps\inkluze\pages\home.tsx" />
     <TypeScriptCompile Include="apps\inkluze\pages\popups.tsx" />
+    <TypeScriptCompile Include="libs\services\common.ts" />
+    <TypeScriptCompile Include="libs\services\emailer\emailer.ts" />
     <TypeScriptCompile Include="libs\common\lib.tsx" />
     <TypeScriptCompile Include="libs\flux\router.ts" />
     <TypeScriptCompile Include="libs\flux\sitemap.ts" />
@@ -68,8 +70,9 @@
     <Content Include="tsconfig.json" />
     <None Include="apps\inkluze\css\styles.less" />
     <None Include="buildprofile.pubxml" />
-    <Content Include="Server\Q_and_A.ashx" />
+    <Content Include="trash\Server\Q_and_A.ashx" />
     <Content Include="packages.config" />
+    <Content Include="libs\services\emailer\service.ashx" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
@@ -90,13 +93,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="libs\services\common.cs" />
+    <Compile Include="libs\services\emailer\emailer.cs" />
     <Compile Include="HttpModule.cs" />
-    <Compile Include="Server\Q_and_A.ashx.cs">
+    <Compile Include="libs\services\emailer\service.ashx.cs">
+      <DependentUpon>service.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="trash\Server\Q_and_A.ashx.cs">
       <DependentUpon>Q_and_A.ashx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="libs\dom\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
