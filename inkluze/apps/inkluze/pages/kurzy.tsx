@@ -49,11 +49,11 @@
               <ul className='fa-ul'>
                 <LiHand>
                   <b>Možnost 1: </b><br/>
-                  <b>2x</b> šablonu II/2.1 Vzdělávání pedagogických pracovníků ZŠ – DVPP v rozsahu 16 hodin – inkluze
+                  <b>2x</b> šablonu {popups.zs_DVPP_16_hodin} – inkluze
                 </LiHand>
                 <LiHand>
                   <b>Možnost 2: </b><br/>
-                  <b>1x</b> šablonu II/2.3 Vzdělávání pedagogických pracovníků ZŠ zaměřené na inkluzi – DVPP v rozsahu 32 hodin
+                  <b>1x</b> šablonu {popups.zs_DVPP_32_hodin}
                 </LiHand>
               </ul>
             </Col>
@@ -94,8 +94,8 @@
             <Col mdOffset={1} md={8}>
               Pro každého učitele je potřeba objednat tyto šablony:
               <ul className='fa-ul'>
-                <LiHand><b>1x</b> šablonu II/2.8 Vzdělávání pedagogického sboru ZŠ zaměřené na inkluzi – vzdělávací akce v rozsahu 8 hodin </LiHand>
-                <LiHand><b>1x</b> šablonu II/2.1 Vzdělávání pedagogických pracovníků ZŠ – DVPP v rozsahu 16 hodin – inkluze </LiHand>
+                <LiHand><b>1x</b> šablonu {popups.zs_sbor_8_hodin} </LiHand>
+                <LiHand><b>1x</b> šablonu {popups.zs_DVPP_16_hodin} – inkluze </LiHand>
               </ul>
             </Col>
           </Row>

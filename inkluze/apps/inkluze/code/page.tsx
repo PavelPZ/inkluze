@@ -77,7 +77,7 @@
           </Col>
         </Row>
       </Grid>
-      <p className="text-center">Copyright 2015 LANGMaster.com, s.r.o.</p>
+      <p className="text-center">Copyright 2016 LANGMaster.com, s.r.o.</p>
     </Block>
   </div>
 }
