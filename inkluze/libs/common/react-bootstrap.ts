@@ -17,5 +17,7 @@ const FormGroup = ReactBootstrap.FormGroup;
 const HelpBlock = ReactBootstrap.HelpBlock;
 const FormControl = ReactBootstrap.FormControl;
 const ControlLabel = ReactBootstrap.ControlLabel;
+const Accordion = ReactBootstrap.Accordion;
+
 
 

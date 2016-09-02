@@ -60,3 +60,6 @@
 .white-link:hover {
   color: white;
 }
+.course-header a {
+  text-decoration: none;
+}

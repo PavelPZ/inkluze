@@ -32,6 +32,7 @@
     <Content Include="externals\react-dom.js" />
     <Content Include="externals\react.js" />
     <Content Include="index.html" />
+    <Content Include="inzerat.txt" />
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -40,6 +41,7 @@
     <TypeScriptCompile Include="apps\inkluze\code\controls.tsx" />
     <TypeScriptCompile Include="apps\inkluze\code\sitemap.tsx" />
     <TypeScriptCompile Include="apps\inkluze\code\page.tsx" />
+    <TypeScriptCompile Include="apps\inkluze\pages\kurzy.tsx" />
     <TypeScriptCompile Include="apps\inkluze\pages\slovnicek.tsx" />
     <TypeScriptCompile Include="apps\inkluze\pages\q_and_as.tsx" />
     <TypeScriptCompile Include="apps\inkluze\pages\q_and_a.tsx" />

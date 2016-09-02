@@ -12,7 +12,6 @@
             </Col>
             <h4>Příklad obsahu kurzu: </h4>
             <Col md={4}>
-              <div>
                 <ul className='fa-ul'>
                   <LiFile>Základní právní předpisy legislativní změny</LiFile>
                   <LiFile>Žák se speciálními vzdělávacími potřebami </LiFile>
@@ -22,7 +21,6 @@
                   <LiFile>Struktura a obsah Plánu pedagogické podpory</LiFile>
                   <LiFile>Zpracování ukázkového Plánu pedagogické podpory</LiFile>
                 </ul>
-              </div>
             </Col>
             <Col md={1} style={{ paddingTop: '20px' }}>
               <i className="fa fa-ellipsis-v text-info" style={{ fontSize: '60px' }}></i>

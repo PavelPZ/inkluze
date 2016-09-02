@@ -73,7 +73,7 @@
       },
       kurzy: {
         id: 'kurzy',
-        createPage: null,
+        createPage: par => <Kurzy/>,
       },
       lektori: {
         id: 'lektori',
