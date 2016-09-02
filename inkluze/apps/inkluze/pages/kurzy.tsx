@@ -4,6 +4,10 @@
       <div className='alert alert-info'>
         Cílem kurzů je, aby všichni učitelé získali základní orientaci v problematice inkluzivního vzdělávání.
       </div>
+      <div className='alert alert-warning'>
+        TODO: formular na zaslání poptávky
+      </div>
+
       <Accordion>
         <Panel bsStyle="success" header={<div className='course-header'>
           <h2><Label bsStyle="warning">32</Label>  Inkluze - kurzy v celkové délce 32 hodin</h2>
