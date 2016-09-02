@@ -10,7 +10,7 @@
 
       <Accordion>
         <Panel bsStyle="success" header={<div className='course-header'>
-          <h2><Label bsStyle="warning">32</Label>  Inkluze - kurzy v celkové délce 32 hodin</h2>
+          <h2><Label bsStyle="warning">32</Label>  <span style={{ textDecoration:'underline' }}>Inkluze - kurzy v celkové délce 32 hodin</span></h2>
         </div>} eventKey="2">
           <div className='alert alert-danger'>
             <b>U tohoto kurzu je (oproti 24 hodinové verzi) více prostoru na diskusi s učiteli, řešení konkrétních problémů, týkajících se dané školy, a praktické procvičování získaných znalostí.</b>
@@ -60,7 +60,7 @@
           </Row>
         </Panel>
         <Panel bsStyle="success" header={<div className='course-header'>
-          <h2><Label bsStyle="warning">24</Label> Inkluze - kurzy v celkové délce 24 hodin</h2>
+          <h2><Label bsStyle="warning">24</Label>  <span style={{ textDecoration: 'underline' }}>Inkluze - kurzy v celkové délce 24 hodin</span></h2>
         </div>} eventKey="1">
           <h3>Obsah: </h3>
           <Row>
