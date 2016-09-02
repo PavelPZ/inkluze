@@ -53,7 +53,7 @@
                 </LiHand>
                 <LiHand>
                   <b>Možnost 2: </b><br/>
-                  <b>1x</b> šablonu {popups.zs_DVPP_32_hodin}
+                  <b>1x</b> šablonu {popups.zs_DVPP_inkluze_32_hodin}
                 </LiHand>
               </ul>
             </Col>
