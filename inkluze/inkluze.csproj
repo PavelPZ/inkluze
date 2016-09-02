@@ -41,6 +41,7 @@
     <TypeScriptCompile Include="apps\inkluze\code\controls.tsx" />
     <TypeScriptCompile Include="apps\inkluze\code\sitemap.tsx" />
     <TypeScriptCompile Include="apps\inkluze\code\page.tsx" />
+    <TypeScriptCompile Include="apps\inkluze\pages\kurzy - Copy.tsx" />
     <TypeScriptCompile Include="apps\inkluze\pages\kurzy.tsx" />
     <TypeScriptCompile Include="apps\inkluze\pages\slovnicek.tsx" />
     <TypeScriptCompile Include="apps\inkluze\pages\q_and_as.tsx" />
