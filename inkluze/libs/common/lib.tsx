@@ -25,31 +25,31 @@
   }
 
   export function navigateExt(url: string, title: string, newWindow?: boolean): JSX.Element {
-    return <a href={ url } target={newWindow ? '_blank' : '_self'}>{title}</a>;
+    return <a href={ url } target={newWindow ? '_blank' : '_self'}><i className='fa fa-external-link'></i> {title}</a>;
   }
 
-  export function callServer(method: string, par: {}): Promise<{}> {
-    return new Promise((resolve, reject) => {
-      var xmlhttp = new XMLHttpRequest();
-      var url = `server/${method}.ashx?`;
-      xmlhttp.onreadystatechange = () => {
-        if (xmlhttp.readyState == XMLHttpRequest.DONE) {
-          if (xmlhttp.status == 200) {
-            try {
-              var resp = xmlhttp.responseText;
-              var res: number = resp ? JSON.parse(resp) : null;
-              var error = res  ? res['error'] : null;
-              if (error) reject(error); else resolve(res);
-            } catch (msg) {
-              reject(`JSON exception ${msg} at ${url}`);
-            }
-          } else
-            reject(`Status ${xmlhttp.status} at ${url}`);
-        }
-      };
-      xmlhttp.open('POST', url, true);
-      xmlhttp.send(par ? JSON.stringify(par, null, 2) : '');
-    });
-  }
+  //export function callServer(method: string, par: {}): Promise<{}> {
+  //  return new Promise((resolve, reject) => {
+  //    var xmlhttp = new XMLHttpRequest();
+  //    var url = `server/${method}.ashx?`;
+  //    xmlhttp.onreadystatechange = () => {
+  //      if (xmlhttp.readyState == XMLHttpRequest.DONE) {
+  //        if (xmlhttp.status == 200) {
+  //          try {
+  //            var resp = xmlhttp.responseText;
+  //            var res: number = resp ? JSON.parse(resp) : null;
+  //            var error = res  ? res['error'] : null;
+  //            if (error) reject(error); else resolve(res);
+  //          } catch (msg) {
+  //            reject(`JSON exception ${msg} at ${url}`);
+  //          }
+  //        } else
+  //          reject(`Status ${xmlhttp.status} at ${url}`);
+  //      }
+  //    };
+  //    xmlhttp.open('POST', url, true);
+  //    xmlhttp.send(par ? JSON.stringify(par, null, 2) : '');
+  //  });
+  //}
 
 }

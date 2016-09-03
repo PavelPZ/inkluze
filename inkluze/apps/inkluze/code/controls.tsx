@@ -58,7 +58,8 @@ class Popup extends React.Component<IPopupProps, IPopupState> {
       default: throw new lib.ENotImplemented();
     }
     return <span>
-      <Label bsStyle="warning" onClick={() => this.open() } style={{ color: 'white', cursor: 'pointer', padding: '3px', fontSize: '100%', fontWeight: 'normal' }}>{this.props.header}</Label>
+      {/*<Label bsStyle="warning" onClick={() => this.open() } style={{ color: 'white', cursor: 'pointer', padding: '3px', fontSize: '100%', fontWeight: 'normal' }}>{this.props.header}</Label>*/}
+      <a href='#' onClick={ev => { this.open(); ev.preventDefault(); } }><i className='fa fa-commenting-o'></i> {this.props.header}</a>
       <Modal show={this.state.showModal} onHide={() => this.close() }>
         <Modal.Header closeButton>
           <Modal.Title>{this.props.header}</Modal.Title>

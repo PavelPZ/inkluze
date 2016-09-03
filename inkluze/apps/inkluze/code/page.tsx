@@ -37,12 +37,12 @@
         <h4 className="navbar-text" style={{ margin: 5 }}><span style={{ color: 'white' }}>tel.244 460 807</span><br/><a href={'mailto:' + infoEmail} className="navbar-link" style={{ color: '#9cdeff' }}>{infoEmail}</a></h4>
       </Nav>
     </Navbar>
-    <div className="container alert alert-danger text-center">
+    {/*<div className="container alert alert-danger text-center">
       <h4>
         Pracovní verze webu.
         Tento web bude spouštěn 5. 9. 2016.
       </h4>
-    </div>
+    </div>*/}
     {bc}
     <div className="container">
       <Nav bsStyle="tabs" activeKey={ctx.site.tab.idx}>
