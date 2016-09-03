@@ -20,10 +20,9 @@
         <LiHand>vypracování průběžných zpráv</LiHand>
         <LiHand>vypracování závěrečné zprávy</LiHand>
       </ul>
-      ( apod.).
     </BlockEx>
     {/*
-    <BlockEx header='Další kurzy a školení, které je možné financovat z Výzvy'>
+    <BlockEx header='Další kurzy a školení, které je možné financovat z Výzvy'> 
       ...připravujeme ...
     </BlockEx>*/}
   </Page>
