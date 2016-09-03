@@ -51,9 +51,9 @@
               Když jej vyplníte, zašleme vám na něj odpověď a můžeme se i doptat, když nebudeme dotazu rozumět.</HelpBlock>
           </FormGroup>
           <hr/>
-          <Button onClick={() => services.emailer.sendEMail({ from: '"Inkluze FAQ"<faq@langmaster.cz>', to: 'info@langmaster.cz', subject: 'Inkluze FAQ', body: React.createElement<IQAFormStatus>(emailTemplate, this.state) }, () => { alert('Děkujeme za zaslání dotazu'); th.state.open = false; th.forceUpdate(); }) } bsStyle='success'>Poslat dotaz</Button>
+          <Button onClick={() => services.emailer.sendEMail({ from: '"Inkluze FAQ"<faq@langmaster.cz>', to: 'projekt@langmaster.cz', subject: 'Inkluze FAQ', body: React.createElement<IQAFormStatus>(emailTemplate, this.state) }, () => { alert('Děkujeme za zaslání dotazu'); th.state.open = false; th.forceUpdate(); }) } bsStyle='success'>Poslat dotaz</Button>
         </Panel>
-      </div>;
+      </div>; 
     }
   }
 
