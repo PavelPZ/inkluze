@@ -3,11 +3,9 @@
     pravidla: IPravidla;
     q_and_a: site.INode;
     dalsi: site.INode;
-    //personalni: site.INode;
     lektori: site.INode;
     kurzy: site.INode;
-    slovnicek: site.INode;
-    //kontakt: site.INode;
+    //slovnicek: site.INode;
   }
 
   export interface IPravidla extends site.INode {
@@ -23,11 +21,9 @@
     pravidla: site.ITab;
     q_and_a: site.ITab;
     dalsi: site.ITab;
-    //personalni: site.ITab;
     kurzy: site.ITab;
     lektori: site.ITab;
-    slovnicek: site.ITab;
-    //kontakt: site.ITab;
+    //slovnicek: site.ITab;
   }
 
   export var tabs: ITabs;
@@ -43,16 +39,6 @@
       pravidla: {
         id: 'vyzva',
         createPage: rp => <Pravidla/>,
-        //msmt_vyzva: {
-        //  id: 'msmt_vyzva',
-        //  title:'msmt_vyzva',
-        //  createPage: null,
-        //},
-        //msmt_priloha3: {
-        //  id: 'msmt_priloha3',
-        //  title: 'msmt_priloha3',
-        //  createPage: null,
-        //},
         dump_popups: {
           id: 'dump_popups',
           title: 'Dump Popups',
@@ -65,28 +51,20 @@
       },
       dalsi: {
         id: 'dalsi',
-        createPage: null,
+        createPage: par => <Ostatni/>,
       },
-      slovnicek: {
-        id: 'slovnicek',
-        createPage: par => <Slovnicek/>,
-      },
+      //slovnicek: {
+      //  id: 'slovnicek',
+      //  createPage: par => <Slovnicek/>,
+      //},
       kurzy: {
         id: 'kurzy',
         createPage: (par: IKurzyPars) => React.createElement(Kurzy, par),
       },
       lektori: {
         id: 'lektori',
-        createPage: null,
+        createPage: par => <Lektori/>
       },
-      //project: {
-      //  id: 'ostatni',
-      //  createPage: null,
-      //},
-      //kontakt: {
-      //  id: 'kontakt',
-      //  createPage: null,
-      //},
     }
     site.tabs = tabs = {
       home: {
@@ -109,21 +87,13 @@
         title: 'Další služby',
         rootNode: root.dalsi,
       },
-      //personalni: {
-      //  title: 'Personální podpora',
-      //  rootNode: root.personalni,
-      //},
       q_and_a: {
         title: 'Dotazy a odpovědi',
         rootNode: root.q_and_a,
       },
-      slovnicek: {
-        title: 'Slovníček pojmů',
-        rootNode: root.slovnicek,
-      },
-      //kontakt: {
-      //  title: 'Kontakt',
-      //  rootNode: root.kontakt,
+      //slovnicek: {
+      //  title: 'Slovníček pojmů',
+      //  rootNode: root.slovnicek,
       //},
     }
  }

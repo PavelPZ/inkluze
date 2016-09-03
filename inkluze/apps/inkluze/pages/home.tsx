@@ -54,7 +54,7 @@
       <Alert type="Poznámka">
         <b>Inkluze</b> se nově nazývá <b>Společné vzdělávání</b>.
         My budeme ale používat doposud rozšířenější termín Inkluze.
-        Viz též {sitemapRouter.navigateTag(inkluze.root.slovnicek) }.
+        {/*Viz též {sitemapRouter.navigateTag(inkluze.root.slovnicek) }.*/}
       </Alert>
     </BlockEx>
     <BlockEx header={<div>"Výzva" = dotace EU na inkluzi pro ZŠ a MŠ</div>} gray>
