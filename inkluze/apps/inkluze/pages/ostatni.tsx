@@ -14,7 +14,13 @@
       </p>
     </BlockEx>
     <BlockEx gray header='Kompletní projektové řízení'>
-      Jsme schopni pomoci s kompletním projektovým řízením (zasílání průběžných zpráv a závěrečné zprávy apod.).
+      Jsme schopni pomoci s kompletním projektovým řízením, jako např.
+      <ul className='fa-ul'>
+        <LiHand>volba šablon projektu na základě potřeb školy</LiHand>
+        <LiHand>vypracování průběžných zpráv</LiHand>
+        <LiHand>vypracování závěrečné zprávy</LiHand>
+      </ul>
+      ( apod.).
     </BlockEx>
     {/*
     <BlockEx header='Další kurzy a školení, které je možné financovat z Výzvy'>
