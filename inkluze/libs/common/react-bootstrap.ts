@@ -18,6 +18,8 @@ const HelpBlock = ReactBootstrap.HelpBlock;
 const FormControl = ReactBootstrap.FormControl;
 const ControlLabel = ReactBootstrap.ControlLabel;
 const Accordion = ReactBootstrap.Accordion;
+const Radio = ReactBootstrap.Radio;
+
 
 
 

@@ -29,6 +29,7 @@
     <Content Include="externals\classnames.js" />
     <Content Include="externals\es6-shim.js" />
     <Content Include="externals\react-bootstrap.js" />
+    <TypeScriptCompile Include="libs\common\react-dom-server.ts" />
     <Content Include="externals\react-dom.js" />
     <Content Include="externals\react.js" />
     <Content Include="index.html" />
@@ -37,7 +38,6 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="apps\inkluze\code\app.tsx" />
-    <TypeScriptCompile Include="apps\inkluze\code\callServer.ts" />
     <TypeScriptCompile Include="apps\inkluze\code\controls.tsx" />
     <TypeScriptCompile Include="apps\inkluze\code\sitemap.tsx" />
     <TypeScriptCompile Include="apps\inkluze\code\page.tsx" />
@@ -51,7 +51,7 @@
     <TypeScriptCompile Include="apps\inkluze\pages\home.tsx" />
     <TypeScriptCompile Include="apps\inkluze\pages\popups.tsx" />
     <TypeScriptCompile Include="libs\services\common.ts" />
-    <TypeScriptCompile Include="libs\services\emailer\emailer.ts" />
+    <TypeScriptCompile Include="libs\services\emailer\emailer.tsx" />
     <TypeScriptCompile Include="libs\common\lib.tsx" />
     <TypeScriptCompile Include="libs\flux\router.ts" />
     <TypeScriptCompile Include="libs\flux\sitemap.ts" />
@@ -106,9 +106,7 @@
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="libs\dom\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
   </PropertyGroup>

@@ -19,7 +19,7 @@
                   <LiFile>Podpůrná opatření prvního stupně </LiFile>
                   <LiFile>Podpůrná opatření 2. - 5. stupně </LiFile>
                   <LiFile>Struktura a obsah Plánu pedagogické podpory</LiFile>
-                  <LiFile>Zpracování ukázkového Plánu pedagogické podpory</LiFile>
+                  <LiFile>Zpracování ukázkového Plánu pedagogické podpory</LiFile> 
                 </ul>
             </Col>
             <Col md={1} style={{ paddingTop: '20px' }}>

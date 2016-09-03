@@ -34,7 +34,7 @@
         <h4 style={{ fontWeight: 'bold' }} className="navbar-text">{site.root.title}</h4>
       </Nav>
       <Nav pullRight>
-        <h4 className="navbar-text" style={{ margin: 5 }}><span style={{ color: 'white' }}>tel.244 460 807</span><br/><a href="mailto:info@langmaster.cz" className="navbar-link" style={{ color: '#9cdeff' }}>info @langmaster.cz</a></h4>
+        <h4 className="navbar-text" style={{ margin: 5 }}><span style={{ color: 'white' }}>tel.244 460 807</span><br/><a href={'mailto:' + infoEmail} className="navbar-link" style={{ color: '#9cdeff' }}>{infoEmail}</a></h4>
       </Nav>
     </Navbar>
     <div className="container alert alert-danger text-center">
@@ -72,7 +72,7 @@
             LANGMaster.com, s.r.o.<br/>
             Branicka 659/107<br/>
             147 00 Praha 4<br/>
-            <a href='mailto:info@langmaster.cz'>info @langmaster.cz</a><br/>
+            <a href={'mailto:' + infoEmail}>{infoEmail}</a><br/>
             +420 244 460 807<br/>
           </Col>
         </Row>

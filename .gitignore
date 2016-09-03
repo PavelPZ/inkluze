@@ -253,5 +253,5 @@ paket-files/
 
 *.js
 !inkluze/externals/*.js
-inkluze/compilerconfig.json
-inkluze/packages.config
+!inkluze/buildprofile.pubxml
+!inkluze/packages.config

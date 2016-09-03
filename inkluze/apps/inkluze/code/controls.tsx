@@ -1,8 +1,10 @@
-﻿var LiFile: React.StatelessComponent<lib.IComponentProps> = (props: lib.IComponentProps, ctx: sitemapRouter.IContext) => <li style={{ paddingBottom: '5px' }}><i className='fa-li fa fa-file-o'></i>{props.children}</li>;
-var LiHand: React.StatelessComponent<lib.IComponentProps> = (props: lib.IComponentProps, ctx: sitemapRouter.IContext) => <li style={{ paddingBottom: '5px' }}><i className='fa-li fa fa-hand-o-right'></i>{props.children}</li>;
-var LiCheck: React.StatelessComponent<lib.IComponentProps> = (props: lib.IComponentProps, ctx: sitemapRouter.IContext) => <li style={{ paddingBottom: '5px' }}><i className='fa-li fa fa-check'></i>{props.children}</li>;
+﻿const infoEmail = 'project@langmaster.cz';
+
+const LiFile: React.StatelessComponent<lib.IComponentProps> = (props: lib.IComponentProps, ctx: sitemapRouter.IContext) => <li style={{ paddingBottom: '5px' }}><i className='fa-li fa fa-file-o'></i>{props.children}</li>;
+const LiHand: React.StatelessComponent<lib.IComponentProps> = (props: lib.IComponentProps, ctx: sitemapRouter.IContext) => <li style={{ paddingBottom: '5px' }}><i className='fa-li fa fa-hand-o-right'></i>{props.children}</li>;
+const LiCheck: React.StatelessComponent<lib.IComponentProps> = (props: lib.IComponentProps, ctx: sitemapRouter.IContext) => <li style={{ paddingBottom: '5px' }}><i className='fa-li fa fa-check'></i>{props.children}</li>;
 interface IAlertProps extends lib.IComponentProps { type: "Poznámka" | "Příklad"; }
-var Alert: React.StatelessComponent<IAlertProps> = (props: IAlertProps, ctx: sitemapRouter.IContext) => <div className='alert alert-warning'><i>{props.type}</i>: {props.children}</div>;
+const Alert: React.StatelessComponent<IAlertProps> = (props: IAlertProps, ctx: sitemapRouter.IContext) => <div className='alert alert-warning'><i>{props.type}</i>: {props.children}</div>;
 
 interface IBlockProps extends lib.IComponentProps { gray?: boolean; blue?: boolean; darkGray?: boolean; }
 const Block: React.StatelessComponent<IBlockProps> = (props: IBlockProps) => {
@@ -15,11 +17,11 @@ const Block: React.StatelessComponent<IBlockProps> = (props: IBlockProps) => {
   </div>;
 };
 
-interface IBlockExProps extends IBlockProps { header: string | JSX.Element; }
+interface IBlockExProps extends IBlockProps { header?: string | JSX.Element; }
 const BlockEx: React.StatelessComponent<IBlockExProps> = (props: IBlockExProps) => {
   return React.createElement(Block, props,
     [
-      <h2 key={1}>{props.header}</h2>,
+      props.header ? <h2 key={1}>{props.header}</h2> : null,
       <Row key={2}>
         <Col mdOffset={2} md={8}>
           {props.children}
