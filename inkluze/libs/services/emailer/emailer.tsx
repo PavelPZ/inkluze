@@ -10,7 +10,6 @@
   }
 
   export function sendEMail(email: sendEmailIN, completed: lib.TCallback) {
-    debugger;
     email.isBodyHtml = typeof email.body != "string";
     if (email.isBodyHtml) email.body = ReactDOMServer.renderToStaticMarkup(email.body as JSX.Element);
     services.callRequest('libs/services/emailer', email).then(() => completed()).catch(err => { throw new lib.Exception(err); });

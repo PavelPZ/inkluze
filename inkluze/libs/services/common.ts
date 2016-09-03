@@ -5,7 +5,6 @@
 
   export function callRequest<TIN, TOUT extends serviceOUT>(methodPath:string, inPar: TIN): Promise<TOUT> {
     return new Promise((resolve, reject) => {
-      debugger;
       var xmlhttp = new XMLHttpRequest();
       var url = `${methodPath}/service.ashx?`;
       xmlhttp.onreadystatechange = () => {
