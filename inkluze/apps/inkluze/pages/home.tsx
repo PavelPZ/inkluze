@@ -4,7 +4,7 @@
       <Block blue style={{ paddingBottom: '10px' }}>
         <h1 className='text-center'>{ctx.site.title}</h1>
         <h3 className='text-center'><a href={sitemapRouter.navigateUrl(inkluze.root.kurzy) } >Kurzy</a> od <a href={sitemapRouter.navigateUrl(inkluze.root.lektori) }>zkušených akreditovaných lektorů</a></h3>
-        <div className="text-center">Napište nám na <a href="{'mailto:' + infoEmail}" >{infoEmail}</a> nebo zavolejte +420 244 460 807</div>
+        <div className="text-center">Napište nám na <a href={'mailto:' + infoEmail}>{infoEmail}</a> nebo zavolejte +420 244 460 807</div>
         <Grid style={{ marginTop: '15px' }}>
           <Row>
             <Col md={1}>
