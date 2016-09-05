@@ -10,22 +10,23 @@
             <Col md={1}>
               <i className="fa fa-exclamation text-info" style={{ fontSize: '100px' }}></i>
             </Col>
-            <h4>Příklad obsahu kurzu: </h4>
             <Col md={4}>
-                <ul className='fa-ul'>
-                  <LiFile>Základní právní předpisy legislativní změny</LiFile>
-                  <LiFile>Žák se speciálními vzdělávacími potřebami </LiFile>
-                  <LiFile>Struktura podpůrných opatření a jejich členění do pěti stupňů</LiFile>
-                  <LiFile>Podpůrná opatření prvního stupně </LiFile>
-                  <LiFile>Podpůrná opatření 2. - 5. stupně </LiFile>
-                  <LiFile>Struktura a obsah Plánu pedagogické podpory</LiFile>
-                  <LiFile>Zpracování ukázkového Plánu pedagogické podpory</LiFile> 
-                </ul>
+              <h4>Příklad obsahu kurzu: </h4>
+              <ul className='fa-ul'>
+                <LiFile>Základní právní předpisy legislativní změny</LiFile>
+                <LiFile>Žák se speciálními vzdělávacími potřebami </LiFile>
+                <LiFile>Struktura podpůrných opatření a jejich členění do pěti stupňů</LiFile>
+                <LiFile>Podpůrná opatření prvního stupně </LiFile>
+                <LiFile>Podpůrná opatření 2. - 5. stupně </LiFile>
+                <LiFile>Struktura a obsah Plánu pedagogické podpory</LiFile>
+                <LiFile>Zpracování ukázkového Plánu pedagogické podpory</LiFile>
+              </ul>
             </Col>
-            <Col md={1} style={{ paddingTop: '20px' }}>
+            <Col md={1} style={{ paddingTop: '110px' }}>
               <i className="fa fa-ellipsis-v text-info" style={{ fontSize: '60px' }}></i>
             </Col>
             <Col md={5}>
+              <h4>&nbsp; </h4>
               <ul className='fa-ul'>
                 <LiFile>Výukové metody a jejich role při motivaci k učení</LiFile>
                 <LiFile>Individuální vzdělávací plán a pedagogická diagnostika</LiFile>
