@@ -41,7 +41,7 @@
         <Panel collapsible style={{ marginTop: '15px', marginLeft: '-15px' }} header={<a href="#" onClick={ev => { th.state.open = !th.state.open; th.forceUpdate(); ev.preventDefault(); } }><b>Zadejte nový dotaz <i className="fa fa-question-circle"></i></b></a>} bsStyle='warning' eventKey='1' expanded={this.state.open}>
           <FormGroup controlId="message" validationState={this.getValidationState() } >
             <ControlLabel>Dotaz: </ControlLabel>
-            <FormControl componentClass="textarea" value={this.state.message} placeholder="Napiště dotaz" onChange={(e: any) => { this.state.message = e.target.value; this.forceUpdate(); } } rows={5} />
+            <FormControl componentClass="textarea" value={this.state.message} placeholder="Napište dotaz" onChange={(e: any) => { this.state.message = e.target.value; this.forceUpdate(); } } rows={5} />
           </FormGroup>
           <FormGroup controlId="email">
             <ControlLabel>Email: </ControlLabel>

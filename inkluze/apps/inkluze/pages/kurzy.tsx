@@ -131,28 +131,28 @@ class KurzyForm extends React.Component<{}, IKuryFormFormStatus> {
           <Col md={6}>
             <FormGroup controlId="email" validationState={this.getValidationState() } >
               <ControlLabel>Vyplňte buďto váš email...</ControlLabel>
-              <FormControl value={this.state.email} placeholder="Napiště váš email" onChange={(e: any) => { this.state.email = e.target.value; this.forceUpdate(); } } />
+              <FormControl value={this.state.email} placeholder="Napište váš email" onChange={(e: any) => { this.state.email = e.target.value; this.forceUpdate(); } } />
             </FormGroup>
             <hr/>
             <FormGroup controlId="teachers" validationState={this.getValidationState() } >
               <ControlLabel>Vyplňte buďto vaše IČO...</ControlLabel>
-              <FormControl value={this.state.ICO} placeholder="Napiště IČO" onChange={(e: any) => { this.state.ICO = e.target.value; this.forceUpdate(); } } />
+              <FormControl value={this.state.ICO} placeholder="Napište IČO" onChange={(e: any) => { this.state.ICO = e.target.value; this.forceUpdate(); } } />
             </FormGroup>
             <hr/>
             <FormGroup controlId="teachers" validationState={this.getValidationState() } >
               <ControlLabel>Počet učitelů v kurzu: </ControlLabel>
-              <FormControl value={this.state.teachers} placeholder="Napiště počet učitelů" onChange={(e: any) => { this.state.teachers = e.target.value; this.forceUpdate(); } } />
+              <FormControl value={this.state.teachers} placeholder="Napište počet učitelů" onChange={(e: any) => { this.state.teachers = e.target.value; this.forceUpdate(); } } />
             </FormGroup>
           </Col>
           <Col md={6}>
             <FormGroup controlId="tel" validationState={this.getValidationState() } >
               <ControlLabel>...nebo vaše telefonní číslo</ControlLabel>
-              <FormControl value={this.state.phone} placeholder="Napiště váše telefonní číslo" onChange={(e: any) => { this.state.phone = e.target.value; this.forceUpdate(); } } />
+              <FormControl value={this.state.phone} placeholder="Napište vaše telefonní číslo" onChange={(e: any) => { this.state.phone = e.target.value; this.forceUpdate(); } } />
             </FormGroup>
             <hr/>
             <FormGroup controlId="teachers" validationState={this.getValidationState() } >
               <ControlLabel>...nebo vaše RED-IZO</ControlLabel>
-              <FormControl value={this.state.RED_IZO} placeholder="Napiště RED-IZO" onChange={(e: any) => { this.state.RED_IZO = e.target.value; this.forceUpdate(); } } />
+              <FormControl value={this.state.RED_IZO} placeholder="Napište RED-IZO" onChange={(e: any) => { this.state.RED_IZO = e.target.value; this.forceUpdate(); } } />
             </FormGroup>
             <hr/>
             <FormGroup controlId="kurz" validationState={this.getValidationState() }>

@@ -35,12 +35,13 @@
         </ul>
       </p>
       <p>
-        Pro optimální výběr skladby a počtu šablon použijte {lib.navigateExt('http://www.msmt.cz/uploads/OP_VVV/Vyzva_zjednodusene_projekty_22_a23/Kalkulacka_indikatoru_final.xlsx', 'speciální kalkulačku',true) }.
+        Pro optimální výběr skladby a počtu šablon použijte {lib.navigateExt('http://www.msmt.cz/uploads/OP_VVV/Vyzva_zjednodusene_projekty_22_a23/Kalkulacka_indikatoru_final.xlsx', 'speciální kalkulačku', true) }.
       </p>
 
       <h4>Jak určit „počet žáků školy“?</h4>
       <ol>
-        <li>U žádosti o dotaci podané do 31.12.2016, budete vycházet z počtu žáků k 30.9.2015.Tento počet musí odpovídat  {lib.navigateExt('http://www.msmt.cz/uploads/OP_VVV/Vyzva_zjednodusene_projekty_22_a23/Seznamy_MS_ZS_k_30_09_2015.xlsx', 'oficiálním údajům na stránce MŠMT', true) }.</li>
+        <li>U žádosti o dotaci podané do 31.12.2016, budete vycházet z počtu žáků k 30.9.2015.
+          Tento počet musí odpovídat  {lib.navigateExt('http://www.msmt.cz/uploads/OP_VVV/Vyzva_zjednodusene_projekty_22_a23/Seznamy_MS_ZS_k_30_09_2015.xlsx', 'oficiálním údajům na stránce MŠMT', true) }.</li>
         <li>U žádosti o dotaci podané po 1.1.2017, budete vycházet z  počtu žáků k 30.9.2016, který bude na webových stránkách MŠMT aktualizován v prosinci 2016.</li>
       </ol>
       <Alert type="Poznámka">
@@ -100,7 +101,8 @@
       <p>
         Na začátku června 2016 zaslalo MŠMT podrobné vyhodnocení výše zmíněného dotazníkového šetření všem školám, které dotazník vyplnily.
         Na základě tohoto vyhodnocení je určena nejslabší oblast vzdělávání (v průměru k ČR).
-        V této oblasti by se škola měla rozvíjet, a má povinnost zvolit do projektu alespoň jednu šablonu, rozvíjející tuto oblast. Více viz {popups.MAP}
+        V této oblasti by se škola měla rozvíjet, a má povinnost zvolit do projektu alespoň jednu šablonu, rozvíjející tuto oblast.
+        Více viz {popups.MAP}
       </p>
       <Alert type="Poznámka">
         Nemůžete-li nalézt podrobné vyhodnocení, které vám MŠMT zaslalo, podívejte se na výsledky na této adrese: {lib.navigateExt('https://sberdat.uiv.cz/login', 'https://sberdat.uiv.cz/login', true) }.
@@ -130,14 +132,14 @@
     </BlockEx>
     <BlockEx header="Dotace na vzdělávání učitelů" gray>
       <p>
-        V rámci dalšího vzdělávání si učitelé mohou vybrat z následujících aktivit:<br/> {popups.ms_rozvoj_pedagogu}<br/>{popups.zs_rozvoj_pedagogu}
+        V rámci dalšího vzdělávání si učitelé mohou vybrat z následujících aktivit: <br/> {popups.ms_rozvoj_pedagogu}<br/>{popups.zs_rozvoj_pedagogu}
       </p>
       <p>
         Všechny kurzy musí být akreditované MŠMT.
         Kurzy zaměřené na inkluzi mohou přednášet pouze akreditovaní lektoři.
       </p>
       <p>
-        Každý učitel, který se v rámci projektu účastní nějakého vzdělávacího kurzu, musí v souhrnu absolvovat alespoň 24 hodin vzdělávání viz {popups.bagatelni_podpora}.
+        Každý učitel, který se v rámci projektu účastní nějakého vzdělávacího kurzu, musí v souhrnu absolvovat alespoň 24 hodin vzdělávání, viz {popups.bagatelni_podpora}.
       </p>
       <Alert type="Příklad">
         Pokud se učitel rozhodne účastnit například kurzu „Vzdělávání pedagogického sboru ZŠ zaměřené na inkluzi – vzdělávací akce v rozsahu 8 hodin“, pak se musí účastnit ještě další vzdělávací akce v rozsahu minimálně 16 hodin.

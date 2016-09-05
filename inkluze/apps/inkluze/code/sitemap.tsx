@@ -41,7 +41,7 @@
         createPage: rp => <Pravidla/>,
         dump_popups: {
           id: 'dump_popups',
-          title: 'Dump Popups',
+          title: 'Seznam vysvětlivek',
           createPage: routePar => <DumpPopups/>,
         },
       },

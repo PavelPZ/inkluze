@@ -4,7 +4,7 @@
       <Block blue style={{ paddingBottom: '10px' }}>
         <h1 className='text-center'>{ctx.site.title}</h1>
         <h3 className='text-center'><a href={sitemapRouter.navigateUrl(inkluze.root.kurzy) } >Kurzy</a> od <a href={sitemapRouter.navigateUrl(inkluze.root.lektori) }>zkušených akreditovaných lektorů</a></h3>
-        <div className="text-center">Napiště nám na <a href="mailto:info@langmaster.cz" >info @langmaster.cz</a> nebo zavolejte +420 244 460 807</div>
+        <div className="text-center">Napište nám na <a href="{'mailto:' + infoEmail}" >{infoEmail}</a> nebo zavolejte +420 244 460 807</div>
         <Grid style={{ marginTop: '15px' }}>
           <Row>
             <Col md={1}>
@@ -84,7 +84,8 @@
         Cílem kurzů je, aby pokud možno celý pedagogický sbor získal orientaci v problematice inkluze.
       </p>
       <p>
-        Naši lektoři mají mnohaleté zkušenosti jak se vzděláváním učitelů tak s inkluzí, o čemž se můžete přesvědčit na stránce {sitemapRouter.navigateTag(inkluze.root.lektori) }.
+        Naši lektoři mají mnohaleté zkušenosti jak se vzděláváním učitelů tak s inkluzí.
+        Více viz stránka  {sitemapRouter.navigateTag(inkluze.root.lektori) }.
       </p>
     </BlockEx>
     <BlockEx header="Inkluze se týká většiny učitelů" gray>
@@ -112,7 +113,7 @@
       <p>
         Připravili jsme proto kurzy v celkové délce 24, resp.
         32 hodin.
-        Naše kurzy splňují všechny podmínky tak, aby na ně bylo možno použit peníze z dotace.
+        Naše kurzy splňují všechny podmínky tak, aby na ně bylo možno použít peníze z dotace.
       </p>
       <p>
         Cílem kurzů je, aby se pokud možno celý pedagogický sbor dokázal orientovat v problematice inkluze.

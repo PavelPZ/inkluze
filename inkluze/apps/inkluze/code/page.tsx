@@ -70,7 +70,7 @@
           <Col md={4}>
             <b>Kontakt: </b><br/>
             LANGMaster.com, s.r.o.<br/>
-            Branicka 659/107<br/>
+            Branická 659/107<br/>
             147 00 Praha 4<br/>
             <a href={'mailto:' + infoEmail}>{infoEmail}</a><br/>
             +420 244 460 807<br/>
