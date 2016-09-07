@@ -31,7 +31,7 @@
   export function bootApp() {
     site.root = root = {
       id: 'home',
-      title: 'Podpora inkluze s pomocí dotace EU',
+      title: 'Kurzy zaměřené na inkluzi od zkušených lektorů',
       brTitle: 'Hlavní',
       largeLogo: true,
       createPage: routePar => <Home/>, //sitemapRouter.createElement<IHomePar>(Home, routePar, { subTitle: 'SubTitle Default' }),
@@ -71,25 +71,25 @@
         title: 'Hlavní',
         rootNode: root,
       },
-      pravidla: {
-        title: 'Pravidla Výzvy',
-        rootNode: root.pravidla,
-      },
       kurzy: {
-        title: 'Kurzy - inkluze',
+        title: 'Kurzy zaměřené na inkluzi',
         rootNode: root.kurzy,
       },
       lektori: {
-        title: 'Naši lektoři',
-        rootNode: root.lektori,
+          title: 'Naši lektoři',
+          rootNode: root.lektori,
+      },
+      pravidla: {
+          title: 'Pravidla Výzvy',
+          rootNode: root.pravidla,
+      },
+      q_and_a: {
+          title: 'Dotazy a odpovědi',
+          rootNode: root.q_and_a,
       },
       dalsi: {
         title: 'Další služby',
         rootNode: root.dalsi,
-      },
-      q_and_a: {
-        title: 'Dotazy a odpovědi',
-        rootNode: root.q_and_a,
       },
       //slovnicek: {
       //  title: 'Slovníček pojmů',

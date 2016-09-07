@@ -2,8 +2,7 @@
   <Page>
     <div>
       <Block blue style={{ paddingBottom: '10px' }}>
-        <h1 className='text-center'>{ctx.site.title}</h1>
-        <h3 className='text-center'><a href={sitemapRouter.navigateUrl(inkluze.root.kurzy) } >Kurzy</a> od <a href={sitemapRouter.navigateUrl(inkluze.root.lektori) }>zkušených akreditovaných lektorů</a></h3>
+        <h1 className='text-center'><a href={sitemapRouter.navigateUrl(inkluze.root.kurzy) } >Kurzy zaměřené na inkluzi</a><br/>od <a href={sitemapRouter.navigateUrl(inkluze.root.lektori) }>zkušených lektorů</a></h1>
         <div className="text-center">Napište nám na <a href={'mailto:' + infoEmail}>{infoEmail}</a> nebo zavolejte +420 244 460 807</div>
         <Grid style={{ marginTop: '15px' }}>
           <Row>
@@ -11,7 +10,7 @@
               <i className="fa fa-exclamation text-info" style={{ fontSize: '100px' }}></i>
             </Col>
             <Col md={4}>
-              <h4>Příklad obsahu kurzu: </h4>
+              <h4>Obsah kurzu, hrazeného z dotace EU: </h4>
               <ul className='fa-ul'>
                 <LiFile>Základní právní předpisy legislativní změny</LiFile>
                 <LiFile>Žák se speciálními vzdělávacími potřebami </LiFile>
@@ -78,9 +77,9 @@
           O těch se ale budeme zmiňovat méně podrobně.</HomeLi2>*/}
       </ul>
     </BlockEx>
-    <BlockEx header="Kurzy zaměřené na inkluzi">
+    <BlockEx header="Nabízíme kurzy zaměřené na inkluzi">
       <p>
-        Pro učitele jsme ve spolupráci se zkušenými akreditovanými lektory připravili řadu kurzů.
+        Pro učitele jsme <b>ve spolupráci se zkušenými akreditovanými lektory</b> připravili řadu kurzů.
         Cílem kurzů je, aby pokud možno celý pedagogický sbor získal orientaci v problematice inkluze.
       </p>
       <p>
@@ -88,7 +87,7 @@
         Více viz stránka  {sitemapRouter.navigateTag(inkluze.root.lektori) }.
       </p>
     </BlockEx>
-    <BlockEx header="Inkluze se týká většiny učitelů" gray>
+    <BlockEx header="Využijte naše kurzy, protože inkluze se týká většiny učitelů" gray>
       S malou nadsázkou se dá se říci, že v českých školách nenajdete učitele, který by se během své praxe nesetkal s problémy souvisejícími s inkluzí.
       V tom případě se mu jistě budou hodit znalosti z našich kurzů, které řeší otázky typu:
       <ul className='fa-ul' style={{ marginTop: "8px" }}>

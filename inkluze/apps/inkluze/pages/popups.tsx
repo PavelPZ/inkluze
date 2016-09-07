@@ -746,5 +746,6 @@ const DumpPopups: React.StatelessComponent<{}> = prop => {
   for (var p in popups) {
     pops.push(<p key={p}>{popups[p]}</p>);
   }
-  return <div>{pops}</div>
+
+  return <Page><Block>{pops}</Block></Page >
 }
