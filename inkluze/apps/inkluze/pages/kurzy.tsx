@@ -5,7 +5,7 @@
         <h3 style={{ marginTop: '0' }}>Úvod</h3>
         <p>
           Pro zvládnutí problematiky inkluze nabízíme dva kurzy (24 hodinový a 32 hodinový), po jejichž absolvování všichni učitelé získají základní orientaci v problematice inkluzivního vzdělávání.
-          Obsahy těchto kurzů jsou obdobné, u 32 hodinového kurzu zbude ale více prostoru na diskusi s učiteli, řešení konkrétních problémů, týkajících se dané školy, a praktické procvičování získaných znalostí.
+          Obsahy těchto kurzů jsou obdobné, u 32 hodinového kurzu zbude ale mnohem více prostoru na diskusi s učiteli, řešení konkrétních problémů, týkajících se dané školy, a praktické procvičování získaných znalostí.
         </p>
         <p>
           Pro více informací klikněte na název kurzu dole na stránce.

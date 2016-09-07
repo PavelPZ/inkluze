@@ -129,10 +129,9 @@
       </p>
       <h4>Seznámení s pravidly Výzvy</h4>
       <p>
-        Pro vaši rychlou orientaci jsme popsali důležité aspekty Výzvy tak, abyste byli schopni o dotaci zažádat a využít ji dle pravidel EU.<br/>
+        Pro vaši rychlou orientaci jsme popsali důležité aspekty Výzvy tak, abyste byli schopni o dotaci zažádat a využít ji dle pravidel EU (viz stránka {sitemapRouter.navigateTag(inkluze.root.pravidla) }).
       </p>
       <p>
-        Viz stránka {sitemapRouter.navigateTag(inkluze.root.pravidla) }.
         V případě nejasností rádi zodpovíme vaše otázky na stránce {sitemapRouter.navigateTag(inkluze.root.q_and_a) }.
       </p>
       <h4>Další služby</h4>

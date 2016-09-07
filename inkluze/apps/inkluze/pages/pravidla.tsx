@@ -23,7 +23,7 @@
         Tato výše však musí splňovat následující minimální a maximální podmínky:
         <ul>
           <li>
-            Minimální výše dotace na vámi připravený projekt je stanovena na Kč 200 tis.
+            Minimální výše dotace na vámi připravený projekt je stanovena na 200 000 Kč. 
           </li>
           <li>
             Maximální výše dotace na vámi připravený projekt se spočítá podle vzorce: <br/>
