@@ -2,7 +2,7 @@
   <Page>
     <div>
       <Block blue style={{ paddingBottom: '10px' }}>
-        <h1 className='text-center'><a href={sitemapRouter.navigateUrl(inkluze.root.kurzy) } >Kurzy zaměřené na inkluzi</a><br/>od <a href={sitemapRouter.navigateUrl(inkluze.root.lektori) }>zkušených lektorů</a></h1>
+        <h1 className='text-center'><a href={sitemapRouter.navigateUrl(inkluze.root.kurzy) } >Kurzy podle šablon z Výzvy 02_16_022/023</a><br/>od <a href={sitemapRouter.navigateUrl(inkluze.root.lektori) }>zkušených lektorů</a></h1>
         <div className="text-center">Napište nám na <a href={'mailto:' + infoEmail}>{infoEmail}</a> nebo zavolejte +420 244 460 807</div>
         <Grid style={{ marginTop: '15px' }}>
           <Row>

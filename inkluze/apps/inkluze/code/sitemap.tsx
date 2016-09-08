@@ -31,7 +31,7 @@
   export function bootApp() {
     site.root = root = {
       id: 'home',
-      title: 'Kurzy zaměřené na inkluzi od zkušených lektorů',
+      title: 'Kurzy podle šablon z Výzvy 02_16_022/023 od zkušených lektorů',
       brTitle: 'Hlavní',
       largeLogo: true,
       createPage: routePar => <Home/>, //sitemapRouter.createElement<IHomePar>(Home, routePar, { subTitle: 'SubTitle Default' }),
@@ -72,7 +72,7 @@
         rootNode: root,
       },
       kurzy: {
-        title: 'Kurzy zaměřené na inkluzi',
+        title: 'Kurzy podle šablon z Výzvy 02_16_022/023',
         rootNode: root.kurzy,
       },
       lektori: {
