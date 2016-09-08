@@ -60,7 +60,7 @@
     <BlockEx header="Jak zažádat o dotaci" >
       <p>
         Škola si vybere, o které šablony má zájem, a elektronicky vyplní {popups.zadost_o_dotaci} {lib.navigateExt('https://mseu.mssf.cz/', 'v systému IS KP14+', true) }, více informací viz {lib.navigateExt('http://www.msmt.cz/strukturalni-fondy-1/zadost-o-podporu', 'žádost o podporu', true) }.
-        K vyplnění je nutné mít elektronický podpis.
+        K vyplnění je nutné mít elektronický podpis anebo nahrát do systému oskenovanou plnou moc.
       </p>
       <p>
         Žádost je potřeba vyplnit nejpozději do 30.6.2017.

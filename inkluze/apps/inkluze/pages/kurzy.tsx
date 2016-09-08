@@ -3,11 +3,11 @@
     <Block>
       <div className='alert alert-warning'>
         <h3 style={{ marginTop: '0' }}>Úvod</h3>
-        <p>
+        <p style={{ fontSize: '18px' }}>
           Pro zvládnutí problematiky inkluze nabízíme dva kurzy (24 hodinový a 32 hodinový), po jejichž absolvování všichni učitelé získají základní orientaci v problematice inkluzivního vzdělávání.
           Obsahy těchto kurzů jsou obdobné, u 32 hodinového kurzu zbude ale mnohem více prostoru na diskusi s učiteli, řešení konkrétních problémů, týkajících se dané školy, a praktické procvičování získaných znalostí.
         </p>
-        <p>
+        <p style={{ fontSize: '18px' }}>
           Pro více informací klikněte na název kurzu dole na stránce.
           Pro objednání kurzu vyplňte poptávkový formulář.
         </p>

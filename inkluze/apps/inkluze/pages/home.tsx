@@ -10,7 +10,7 @@
               <i className="fa fa-exclamation text-info" style={{ fontSize: '100px' }}></i>
             </Col>
             <Col md={4}>
-              <h4>Obsah kurzu, hrazeného z dotace EU: </h4>
+              <h4>Obsah kurzu podle šablon z výzvy 02_16_022/02_16_023: </h4>
               <ul className='fa-ul'>
                 <LiFile>Základní právní předpisy legislativní změny</LiFile>
                 <LiFile>Žák se speciálními vzdělávacími potřebami </LiFile>
