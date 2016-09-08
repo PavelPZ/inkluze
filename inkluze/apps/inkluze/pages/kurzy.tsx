@@ -9,6 +9,8 @@
         </p>
         <p style={{ fontSize: '18px' }}>
           Pro více informací klikněte na název kurzu dole na stránce.
+        </p>
+        <p style={{ fontSize: '18px' }}>
           Pro získání podrobnějších informací o kurzech vyplňte a odešlete poptávkový formulář.
         </p>
       </div>
