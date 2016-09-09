@@ -14,8 +14,8 @@
         <LiHand>zodpovědět i nestandardní a detailní dotazy</LiHand>
       </ul>
       <p>
-        Pokud objednáte kurzy pro větší počet učitelů, naši lektoři za vámi přijedou, a školení bude moci proběhnout ve sborovně Vaší školy.
-        V případě, že učitelé z Vaší školy naplní celý kurz, může se lektor flexibilně více zaměřit na témata, která jsou nejaktuálnější přímo pro Vaši školu.
+        Pokud objednáte kurzy pro větší počet učitelů, naši lektoři za vámi přijedou, a školení bude moci proběhnout ve sborovně vaší školy.
+        V případě, že učitelé z vaší školy naplní celý kurz, může se lektor flexibilně více zaměřit na témata, která jsou nejaktuálnější přímo pro vaši školu.
       </p>
     </BlockEx>
   </Page>
