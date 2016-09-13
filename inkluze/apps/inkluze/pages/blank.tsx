@@ -11,4 +11,4 @@
 
 BlankPage.contextTypes = sitemapRouter.childContextTypes; 
 
-site.getBlankPage = p => <BlankPage/>;
+site.getBlankPage = p => <BlankPage/>; 

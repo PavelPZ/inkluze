@@ -5,6 +5,7 @@
     dalsi: site.INode;
     lektori: site.INode;
     kurzy: site.INode;
+    onas: site.INode;
     //slovnicek: site.INode;
   }
 
@@ -23,6 +24,7 @@
     dalsi: site.ITab;
     kurzy: site.ITab;
     lektori: site.ITab;
+    onas: site.ITab;
     //slovnicek: site.ITab;
   }
 
@@ -31,7 +33,7 @@
   export function bootApp() {
     site.root = root = {
       id: 'home',
-      title: 'Kurzy podle šablon z Výzvy 02_16_022/023 od zkušených lektorů',
+      title: 'Kurzy podle šablon z Výzev 02_16_022/023 od zkušených lektorů',
       brTitle: 'Hlavní',
       largeLogo: true,
       createPage: routePar => <Home/>, //sitemapRouter.createElement<IHomePar>(Home, routePar, { subTitle: 'SubTitle Default' }),
@@ -65,6 +67,10 @@
         id: 'lektori',
         createPage: par => <Lektori/>
       },
+      onas: {
+        id: 'onas',
+        createPage: par => <Onas/>
+      },
     }
     site.tabs = tabs = {
       home: {
@@ -72,7 +78,7 @@
         rootNode: root,
       },
       kurzy: {
-        title: 'Kurzy podle šablon z Výzvy 02_16_022/023',
+        title: 'Kurzy podle šablon z Výzev 02_16_022/023',
         rootNode: root.kurzy,
       },
       lektori: {
@@ -90,6 +96,10 @@
       dalsi: {
         title: 'Další služby',
         rootNode: root.dalsi,
+      },
+      onas: {
+        title: 'O nás',
+        rootNode: root.onas,
       },
       //slovnicek: {
       //  title: 'Slovníček pojmů',
