@@ -107,7 +107,7 @@
       </Accordion>
     </Block>
     <Block>
-      <Accordion>
+      <Accordion> 
         <Panel bsStyle="success" header={<div className='course-header'>
           <h2><Label bsStyle="warning">8</Label>  <span style={{ textDecoration: 'underline' }}>Inkluze - 8 hodinový kurz pro sborovnu</span></h2>
         </div>} eventKey={1}>
