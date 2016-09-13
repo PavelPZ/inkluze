@@ -97,6 +97,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="apps\rewise\server\IndexServer.cs" />
     <Compile Include="libs\services\common.cs" />
     <Compile Include="libs\services\emailer\emailer.cs" />
     <Compile Include="HttpModule.cs" />
@@ -106,9 +107,6 @@
     <Compile Include="trash\Server\Q_and_A.ashx.cs">
       <DependentUpon>Q_and_A.ashx</DependentUpon>
     </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup />
   <PropertyGroup>

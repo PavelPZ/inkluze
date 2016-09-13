@@ -104,14 +104,14 @@
         <LiCheck>A mnoho dalších…</LiCheck>
       </ul>
     </BlockEx>
-    <BlockEx header="Alespoň 24 hodin kurzu nebo nic">
+    <BlockEx header="Nabídka kurzů">
       <p>
         V podmínkách pro využití dotace je stanoveno, že každý učitel, který se v rámci projektu účastní nějakého vzdělávacího kurzu, <b>musí v souhrnu absolvovat alespoň 24 hodin vzdělávání</b>.
         Této podmínce se říká {popups.bagatelni_podpora}.
       </p>
       <p>
-        Připravili jsme proto kurzy v celkové délce 24, resp.
-        32 hodin.
+        Mimo základních kurzů zaměřenýách na inkluzi (<b>8</b> hodin a <b>16</b> hodin) jsme proto připravili kurzy v celkové délce <b>24</b>, resp.
+        <b>32</b> hodin.
         Naše kurzy splňují všechny podmínky tak, aby na ně bylo možno použít peníze z dotace.
       </p>
       <p>
