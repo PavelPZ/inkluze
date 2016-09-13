@@ -2,14 +2,14 @@
   <Page>
     <BlockEx header="Sestavte si Projekt ze Šablon" gray>
       <p>
-        Pro využití peněz z Výzvy musí škola připravit <b>Projekt</b>.
+        Pro využití finančních prostředků dotace z Výzvy musí škola připravit <b>Projekt</b>.
         Projekt si škola nemusí sama vymýšlet.
         Výzva se totiž skládá ze <b>Šablon</b> (neboli Aktivit), ze kterých si škola projekt sestaví.
         Příprava Projektu tedy spočívá ve výběru vhodných Šablon se specifikací jejich počtu.
       </p>
       <p>
         Každá Šablona je ve Výzvě podrobně popsána a je u ní stanovena výše dotace na tuto šablonu.
-        Škola tedy na základě celkové výše dotace, na kterou má nárok, a na základě svých potřeb, rozhodne, které šablony a v jakém počtu objedná.
+        Škola tedy na základě celkové výše dotace, na kterou má nárok, a na základě svých potřeb, rozhodne, které šablony a v jakém počtu je zahrne do rozpočtu projektu.
       </p>
     </BlockEx>
     <BlockEx header="Kdo je oprávněný žadatel o dotaci?">
