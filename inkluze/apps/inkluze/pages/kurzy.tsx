@@ -111,10 +111,7 @@
         <Panel bsStyle="success" header={<div className='course-header'>
           <h2><Label bsStyle="warning">8</Label>  <span style={{ textDecoration: 'underline' }}>Inkluze - 8 hodinový kurz pro sborovnu</span></h2>
         </div>} eventKey={1}>
-          <BlockEx>
-            <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
-            </div>
-          </BlockEx>
+
           <BlockEx header={<h3>Potřebné šablony: </h3>}>
             <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_sbor_8_hodin}</p>
           </BlockEx>
@@ -123,10 +120,6 @@
         <Panel bsStyle="success" header={<div className='course-header'>
           <h2><Label bsStyle="warning">16</Label>  <span style={{ textDecoration: 'underline' }}>Inkluze - 16 hodinový kurz</span></h2>
         </div>} eventKey={2}>
-          <BlockEx>
-            <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
-            </div>
-          </BlockEx>
           <BlockEx header={<h3>Potřebné šablony: </h3>}>
             <div>
               <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_16_hodin}</p>
