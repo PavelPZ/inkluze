@@ -107,7 +107,7 @@
       </Accordion>
     </Block>
     <Block>
-      <Accordion> 
+      <Accordion>
         <Panel bsStyle="success" header={<div className='course-header'>
           <h2><Label bsStyle="warning">8</Label>  <span style={{ textDecoration: 'underline' }}>Inkluze - 8 hodinový kurz pro sborovnu</span></h2>
         </div>} eventKey={1}>
@@ -160,16 +160,16 @@ interface IKuryFormFormStatus {
   teachers: string;
   ICO: string; //e.g. 49625918
   RED_IZO: string; //e.g. 600000206
-  is32: boolean;
+  course: string;
 }
 
 class KurzyForm extends React.Component<{}, IKuryFormFormStatus> {
   constructor(p, c) {
     super(p, c);
-    this.state = { email: '', phone: '', teachers: '', ICO: '', RED_IZO: '', is32: undefined };
+    this.state = { email: '', phone: '', teachers: '', ICO: '', RED_IZO: '', course: undefined };
   }
   getValidationState(): any {
-    return (this.state.email || this.state.phone) && !Number.isNaN(parseInt(this.state.teachers)) && this.state.is32 !== undefined && (!Number.isNaN(parseInt(this.state.ICO)) || !Number.isNaN(parseInt(this.state.RED_IZO))) ? 'success' : 'error';
+    return (this.state.email || this.state.phone) && !Number.isNaN(parseInt(this.state.teachers)) && this.state.course !== undefined && (!Number.isNaN(parseInt(this.state.ICO)) || !Number.isNaN(parseInt(this.state.RED_IZO))) ? 'success' : 'error';
   }
   render(): JSX.Element {
     var th = this;
@@ -206,10 +206,16 @@ class KurzyForm extends React.Component<{}, IKuryFormFormStatus> {
             <hr/>
             <FormGroup controlId="kurz" validationState={this.getValidationState() }>
               <ControlLabel>Typ kurzu: </ControlLabel><br/>
-              <Radio inline name="kurz" value="32" checked={this.state.is32 === true} onChange={() => { this.state.is32 = true; this.forceUpdate(); } }>
-                Kurz 32 hodin
+              <Radio inline name="kurz" value="32" checked={this.state.course == '32'} onChange={() => { this.state.course = '32'; this.forceUpdate(); } }>
+                <b>Kurz 32 hodin</b>
               </Radio>
-              <Radio inline name="kurz" value="24" checked={this.state.is32 === false} onChange={() => { this.state.is32 = false; this.forceUpdate(); } }>
+              <Radio inline name="kurz" value="24" checked={this.state.course == '24'} onChange={() => { this.state.course = '24'; this.forceUpdate(); } }>
+                <b>Kurz 24 hodin</b>
+              </Radio>
+              <Radio inline name="kurz" value="8" checked={this.state.course == '8'} onChange={() => { this.state.course = '8'; this.forceUpdate(); } }>
+                Kurz 8 hodin
+              </Radio>
+              <Radio inline name="kurz" value="24" checked={this.state.course == '16'} onChange={() => { this.state.course = '16'; this.forceUpdate(); } }>
                 Kurz 24 hodin
               </Radio>
             </FormGroup>
@@ -226,7 +232,7 @@ const emailTemplate: React.StatelessComponent<IKuryFormFormStatus> = (props: IKu
   <p><b>EMail: </b> {props.email}</p>
   <p><b>Phone: </b> {props.phone}</p>
   <p><b>Teachers: </b> {props.teachers}</p>
-  <p><b>Course: </b> {props.is32 == undefined ? '' : (props.is32 ? '32 hodin' : '24 hodin') }</p>
+  <p><b>Course: </b> {props.course}</p>
   <p><b>ICO: </b> {props.ICO}</p>
   <p><b>RED_IZO: </b> {props.RED_IZO}</p>
 </div>;
