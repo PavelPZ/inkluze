@@ -112,7 +112,14 @@
           <h2><Label bsStyle="warning">8</Label>  <span style={{ textDecoration: 'underline' }}>Inkluze - 8 hodinový kurz pro sborovnu</span></h2>
         </div>} eventKey={1}>
           <BlockEx>
+            Nabízíme více 8 hodinových kurzů určených pro vzdělávání pedagogického sboru.
+            Každý kurz obsahuje několik témat ze seznamu <i>Obsah kurzů</i> výše na této stránce.
+            Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
+          </BlockEx>
+          <BlockEx>
             <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
+              Každý účastník tohoto kurzu se musí účastnit ještě další vzdělávací akce v rozsahu minimálně 16 hodin.
+              Viz {popups.bagatelni_podpora}.
             </div>
           </BlockEx>
           <BlockEx header={<h3>Potřebné šablony: </h3>}>
@@ -124,7 +131,14 @@
           <h2><Label bsStyle="warning">16</Label>  <span style={{ textDecoration: 'underline' }}>Inkluze - 16 hodinový kurz</span></h2>
         </div>} eventKey={2}>
           <BlockEx>
+            Nabízíme více 16 hodinových kurzů.
+            Každý kurz obsahuje několik témat ze seznamu <i>Obsah kurzů</i> výše na této stránce.
+            Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
+          </BlockEx>
+          <BlockEx>
             <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
+              Každý účastník tohoto kurzu se musí účastnit ještě další vzdělávací akce v rozsahu minimálně 8 hodin.
+              Viz {popups.bagatelni_podpora}.
             </div>
           </BlockEx>
           <BlockEx header={<h3>Potřebné šablony: </h3>}>
