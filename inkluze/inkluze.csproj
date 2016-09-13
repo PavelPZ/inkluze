@@ -29,6 +29,7 @@
     <Content Include="externals\classnames.js" />
     <Content Include="externals\es6-shim.js" />
     <Content Include="externals\react-bootstrap.js" />
+    <TypeScriptCompile Include="apps\inkluze\pages\onas.tsx" />
     <TypeScriptCompile Include="apps\inkluze\pages\ostatni.tsx" />
     <TypeScriptCompile Include="apps\inkluze\pages\lektori.tsx" />
     <TypeScriptCompile Include="libs\common\react-dom-server.ts" />
