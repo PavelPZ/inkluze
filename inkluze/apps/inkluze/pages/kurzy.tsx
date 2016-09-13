@@ -1,22 +1,27 @@
 ﻿var Kurzy: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div>
   <Page>
     <Block>
-      <div className='alert alert-warning'>
+      <div className='alert alert-warning' style={{ fontSize: '18px' }}>
         <h3 style={{ marginTop: '0' }}>Úvod</h3>
-        <p style={{ fontSize: '18px' }}>
+        <p >
           Pro zvládnutí problematiky inkluze nabízíme dva kurzy (24 hodinový a 32 hodinový), po jejichž absolvování všichni učitelé získají základní orientaci v problematice inkluzivního vzdělávání.
           Obsahy těchto kurzů jsou obdobné, u 32 hodinového kurzu zbude ale mnohem více prostoru na diskusi s učiteli, řešení konkrétních problémů, týkajících se dané školy, a praktické procvičování získaných znalostí.
         </p>
-        <p style={{ fontSize: '18px' }}>
+        <p>
+          Pro školy, které chtějí naše kurzy zkombinovat s jinými šablonami, nabízíme i 16 hodinový kurz a 8 hodinový kurz pro sborovnu.
+        </p>
+        <p >
           Pro více informací klikněte na název kurzu dole na stránce.
         </p>
-        <p style={{ fontSize: '18px' }}>
+        <p >
           Pro získání podrobnějších informací o kurzech vyplňte a odešlete poptávkový formulář.
         </p>
       </div>
 
       <KurzyForm/>
 
+    </Block>
+    <Block gray>
       <div className='alert alert-success'>
         <h3>Obsah kurzů: </h3>
         <Row>
@@ -78,8 +83,8 @@
               </ul>
             </div>
           </BlockEx>
-
         </Panel>
+
         <Panel bsStyle="success" header={<div className='course-header'>
           <h2><Label bsStyle="warning">24</Label>  <span style={{ textDecoration: 'underline' }}>Inkluze - kurzy v celkové délce 24 hodin</span></h2>
         </div>} eventKey={2}>
@@ -101,6 +106,34 @@
         </Panel>
       </Accordion>
     </Block>
+    <Block>
+      <Accordion>
+        <Panel bsStyle="success" header={<div className='course-header'>
+          <h2><Label bsStyle="warning">8</Label>  <span style={{ textDecoration: 'underline' }}>Inkluze - 8 hodinový kurz pro sborovnu</span></h2>
+        </div>} eventKey={1}>
+          <BlockEx>
+            <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
+            </div>
+          </BlockEx>
+          <BlockEx header={<h3>Potřebné šablony: </h3>}>
+            <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_sbor_8_hodin}</p>
+          </BlockEx>
+        </Panel>
+
+        <Panel bsStyle="success" header={<div className='course-header'>
+          <h2><Label bsStyle="warning">16</Label>  <span style={{ textDecoration: 'underline' }}>Inkluze - 16 hodinový kurz</span></h2>
+        </div>} eventKey={2}>
+          <BlockEx>
+            <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
+            </div>
+          </BlockEx>
+          <BlockEx header={<h3>Potřebné šablony: </h3>}>
+            <div>
+              <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_16_hodin}</p>
+            </div>
+          </BlockEx>
+        </Panel>
+      </Accordion>    </Block>
   </Page>
 </div >;
 
