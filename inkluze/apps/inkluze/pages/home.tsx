@@ -110,8 +110,8 @@
         Této podmínce se říká {popups.bagatelni_podpora}.
       </p>
       <p>
-        Mimo základních kurzů zaměřenýách na inkluzi (<b>8</b> hodin a <b>16</b> hodin) jsme proto připravili kurzy v celkové délce <b>24</b>, resp.
-        <b>32</b> hodin.
+        Mimo základních kurzů zaměřených na inkluzi (<b>8</b> hodin a <b>16</b> hodin) jsme proto připravili kurzy v celkové délce <b>24</b>, resp.
+        <b> 32</b> hodin.
         Naše kurzy splňují všechny podmínky tak, aby na ně bylo možno použít peníze z dotace.
       </p>
       <p>
