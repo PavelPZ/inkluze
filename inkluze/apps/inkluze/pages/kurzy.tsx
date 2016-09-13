@@ -216,7 +216,7 @@ class KurzyForm extends React.Component<{}, IKuryFormFormStatus> {
                 Kurz 8 hodin
               </Radio>
               <Radio inline name="kurz" value="24" checked={this.state.course == '16'} onChange={() => { this.state.course = '16'; this.forceUpdate(); } }>
-                Kurz 24 hodin
+                Kurz 16 hodin
               </Radio>
             </FormGroup>
           </Col>
