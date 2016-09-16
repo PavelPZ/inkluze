@@ -253,5 +253,6 @@ paket-files/
 
 *.js
 !inkluze/externals/*.js
+!inkluze/libs/lib.js
 !inkluze/buildprofile.pubxml
 !inkluze/packages.config

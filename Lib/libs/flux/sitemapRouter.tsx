@@ -52,7 +52,7 @@
 
   //********** Private
   var rootComp: AppRootComponent;
-  interface IRootProps { initRoute: router.TRouteActionPar }
+  export interface IRootProps { initRoute: router.TRouteActionPar }
 
   router.getStartRoute = () => { return { storeId: site.root.path }; };
   router.onRouteChanged = route => { if (rootComp) rootComp.setState(route); };
