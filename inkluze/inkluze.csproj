@@ -28,11 +28,13 @@
     <Content Include="externals\bootstrap.css" />
     <Content Include="externals\classnames.js" />
     <Content Include="externals\es6-shim.js" />
+    <Content Include="libs\lib.js" />
+    <Content Include="externals\MurmanHash\goog.math.Long.js" />
+    <Content Include="externals\MurmanHash\murmurhash3_128.js" />
     <Content Include="externals\react-bootstrap.js" />
     <TypeScriptCompile Include="apps\inkluze\pages\onas.tsx" />
     <TypeScriptCompile Include="apps\inkluze\pages\ostatni.tsx" />
     <TypeScriptCompile Include="apps\inkluze\pages\lektori.tsx" />
-    <TypeScriptCompile Include="libs\common\react-dom-server.ts" />
     <Content Include="externals\react-dom.js" />
     <Content Include="externals\react.js" />
     <Content Include="index.html" />
@@ -44,8 +46,6 @@
     <TypeScriptCompile Include="apps\inkluze\code\controls.tsx" />
     <TypeScriptCompile Include="apps\inkluze\code\sitemap.tsx" />
     <TypeScriptCompile Include="apps\inkluze\code\page.tsx" />
-    <TypeScriptCompile Include="libs\forms\validator.ts" />
-    <TypeScriptCompile Include="trash\kurzy - Copy.tsx" />
     <TypeScriptCompile Include="apps\inkluze\pages\kurzy.tsx" />
     <TypeScriptCompile Include="apps\inkluze\pages\slovnicek.tsx" />
     <TypeScriptCompile Include="apps\inkluze\pages\q_and_as.tsx" />
@@ -54,15 +54,9 @@
     <TypeScriptCompile Include="apps\inkluze\pages\pravidla.tsx" />
     <TypeScriptCompile Include="apps\inkluze\pages\home.tsx" />
     <TypeScriptCompile Include="apps\inkluze\pages\popups.tsx" />
-    <TypeScriptCompile Include="libs\services\common.ts" />
-    <TypeScriptCompile Include="libs\services\emailer\emailer.tsx" />
-    <TypeScriptCompile Include="libs\common\lib.tsx" />
-    <TypeScriptCompile Include="libs\flux\router.ts" />
-    <TypeScriptCompile Include="libs\flux\sitemap.ts" />
-    <TypeScriptCompile Include="libs\flux\sitemapRouter.tsx" />
+    <TypeScriptCompile Include="libs\lib.d.ts" />
     <TypeScriptCompile Include="typings\classNames.d.ts" />
     <TypeScriptCompile Include="typings\es6-shim.d.ts" />
-    <TypeScriptCompile Include="libs\common\react-bootstrap.ts" />
     <TypeScriptCompile Include="typings\react-bootstrap.d.ts" />
     <TypeScriptCompile Include="typings\react\react-addons-css-transition-group.d.ts" />
     <TypeScriptCompile Include="typings\react\react-addons-transition-group.d.ts" />
@@ -74,9 +68,8 @@
     <Content Include="tsconfig.json" />
     <None Include="apps\inkluze\css\styles.less" />
     <None Include="buildprofile.pubxml" />
-    <Content Include="trash\Server\Q_and_A.ashx" />
     <Content Include="packages.config" />
-    <Content Include="libs\services\emailer\service.ashx" />
+    <Content Include="libs\service-emailer\service.ashx" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
@@ -85,10 +78,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
     <Reference Include="System.Data" />
@@ -97,18 +86,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="apps\rewise\server\IndexServer.cs" />
-    <Compile Include="libs\services\common.cs" />
-    <Compile Include="libs\services\emailer\emailer.cs" />
     <Compile Include="HttpModule.cs" />
-    <Compile Include="libs\services\emailer\service.ashx.cs">
-      <DependentUpon>service.ashx</DependentUpon>
-    </Compile>
-    <Compile Include="trash\Server\Q_and_A.ashx.cs">
-      <DependentUpon>Q_and_A.ashx</DependentUpon>
-    </Compile>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Lib\Lib.csproj">
+      <Project>{a4be58f2-a0f9-4885-8bac-15d1d075c5b4}</Project>
+      <Name>Lib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="trash\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
   </PropertyGroup>
