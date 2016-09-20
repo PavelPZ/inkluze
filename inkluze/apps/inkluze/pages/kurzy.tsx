@@ -3,15 +3,16 @@
     <Block>
       <div className='alert alert-warning' style={{ fontSize: '18px' }}>
         <h3 style={{ marginTop: '0' }}>Úvod</h3>
-        <p >
-          Pro zvládnutí problematiky inkluze nabízíme řadu kurzů v délce 8, 16 a 32 hodin.
-        </p>
-        <p >
-          Pro více informací klikněte na název kurzu dole na stránce.
-        </p>
-        <p >
-          Pro získání podrobnějších informací o kurzech vyplňte a odešlete poptávkový formulář.
-        </p>
+        <ul className='fa-ul'>
+          <LiHand>Pro zvládnutí problematiky inkluze nabízíme řadu kurzů v délce 8, 16 a 32 hodin.</LiHand>
+
+          <LiHand>
+            Pro více informací klikněte na název kurzu dole na stránce.
+          </LiHand>
+          <LiHand>
+            Pro získání podrobnějších informací o kurzech vyplňte a odešlete poptávkový formulář.
+          </LiHand>
+        </ul>
       </div>
 
       <KurzyForm/>
@@ -47,7 +48,50 @@
           </Col>
         </Row>
       </div>
+    </Block>
+    <Block>
+      <Panel collapsible bsStyle="success" header={<div className='course-header'>
+        <h2><Label bsStyle="warning">8</Label>  <span style={{ textDecoration: 'underline' }}>Inkluze - 8 hodinový kurz pro sborovnu</span></h2>
+      </div>} eventKey={1}>
+        <BlockEx>
+          Nabízíme více 8 hodinových kurzů určených pro vzdělávání pedagogického sboru.
+          Každý kurz obsahuje několik témat ze seznamu <i>Obsah kurzů</i> výše na této stránce.
+          Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
+        </BlockEx>
+        <BlockEx>
+          <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
+            Každý účastník tohoto kurzu se musí účastnit ještě další vzdělávací akce v rozsahu minimálně 16 hodin.
+            Viz {popups.bagatelni_podpora}.
+          </div>
+        </BlockEx>
+        <BlockEx header={<h3>Potřebné šablony: </h3>}>
+          <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_sbor_8_hodin}</p>
+        </BlockEx>
+      </Panel>
 
+      <Panel collapsible bsStyle="success" header={<div className='course-header'>
+        <h2><Label bsStyle="warning">16</Label>  <span style={{ textDecoration: 'underline' }}>Inkluze - 16 hodinový kurz</span></h2>
+      </div>} eventKey={2}>
+        <BlockEx>
+          Nabízíme více 16 hodinových kurzů.
+          Každý kurz obsahuje několik témat ze seznamu <i>Obsah kurzů</i> výše na této stránce.
+          Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
+        </BlockEx>
+        <BlockEx>
+          <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
+            Každý účastník tohoto kurzu se musí účastnit ještě další vzdělávací akce v rozsahu minimálně 8 hodin.
+            Viz {popups.bagatelni_podpora}.
+          </div>
+        </BlockEx>
+        <BlockEx header={<h3>Potřebné šablony: </h3>}>
+          <div>
+            <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_16_hodin}</p>
+          </div>
+        </BlockEx>
+      </Panel>
+    </Block>
+
+    <Block>
       <Panel collapsible bsStyle="success" header={<div className='course-header'>
         <h2><Label bsStyle="warning">32</Label>  <span style={{ textDecoration: 'underline' }}>Inkluze - kurzy v celkové délce 32 hodin</span></h2>
       </div>} eventKey={1}>
@@ -100,47 +144,6 @@
         </BlockEx>
       </Panel>
     </Block>
-    <Block>
-      <Panel collapsible bsStyle="success" header={<div className='course-header'>
-        <h2><Label bsStyle="warning">8</Label>  <span style={{ textDecoration: 'underline' }}>Inkluze - 8 hodinový kurz pro sborovnu</span></h2>
-      </div>} eventKey={1}>
-        <BlockEx>
-          Nabízíme více 8 hodinových kurzů určených pro vzdělávání pedagogického sboru.
-          Každý kurz obsahuje několik témat ze seznamu <i>Obsah kurzů</i> výše na této stránce.
-          Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
-        </BlockEx>
-        <BlockEx>
-          <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
-            Každý účastník tohoto kurzu se musí účastnit ještě další vzdělávací akce v rozsahu minimálně 16 hodin.
-            Viz {popups.bagatelni_podpora}.
-          </div>
-        </BlockEx>
-        <BlockEx header={<h3>Potřebné šablony: </h3>}>
-          <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_sbor_8_hodin}</p>
-        </BlockEx>
-      </Panel>
-
-      <Panel collapsible bsStyle="success" header={<div className='course-header'>
-        <h2><Label bsStyle="warning">16</Label>  <span style={{ textDecoration: 'underline' }}>Inkluze - 16 hodinový kurz</span></h2>
-      </div>} eventKey={2}>
-        <BlockEx>
-          Nabízíme více 16 hodinových kurzů.
-          Každý kurz obsahuje několik témat ze seznamu <i>Obsah kurzů</i> výše na této stránce.
-          Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
-        </BlockEx>
-        <BlockEx>
-          <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
-            Každý účastník tohoto kurzu se musí účastnit ještě další vzdělávací akce v rozsahu minimálně 8 hodin.
-            Viz {popups.bagatelni_podpora}.
-          </div>
-        </BlockEx>
-        <BlockEx header={<h3>Potřebné šablony: </h3>}>
-          <div>
-            <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_16_hodin}</p>
-          </div>
-        </BlockEx>
-      </Panel>
-    </Block>
   </Page>
 </div >;
 
@@ -167,7 +170,7 @@ class KurzyForm extends React.Component<{}, IKuryFormFormStatus> {
   render(): JSX.Element {
     var th = this;
     return <div>
-      <Panel collapsible style={{ marginTop: '15px' }} bsStyle='warning' header={<div className='course-header'>
+      <Panel collapsible style={{ marginTop: '15px' }} bsStyle='info' header={<div className='course-header'>
         <h2 style={{ marginTop: '0' }}><i className='fa fa-bars'></i> <span style={{ textDecoration: 'underline', cursor: 'pointer' }}>Poptávkový formulář</span></h2>
       </div>}>
         <Row>
