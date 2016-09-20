@@ -14,9 +14,10 @@
       <KurzyForm/>
 
     </Block>
-    <Block >
+    <Block gray>
+      <h2 className='text-right'>Inkluze</h2>
       <div className='alert alert-success'>
-        <h3>Obsah kurzů (inkluze): </h3>
+        <h3>Obsah kurzů: </h3>
         <Row>
           <Col mdOffset={1} md={5}>
             <ul className='fa-ul'>
@@ -44,10 +45,8 @@
           </Col>
         </Row>
       </div>
-    </Block>
-    <Block >
       <Panel collapsible bsStyle="success" header={<div className='course-header'>
-        <h2><Label bsStyle="warning">8</Label>  <span style={headerCss}>Inkluze - 8 hodinový kurz pro sborovnu</span></h2>
+        <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>Inkluze - 8 hodinový kurz pro sborovnu</span>3</h3>
       </div>} eventKey={1}>
         <BlockEx>
           Nabízíme několik 8 hodinových kurzů určených pro vzdělávání pedagogického sboru.
@@ -66,7 +65,7 @@
       </Panel>
 
       <Panel collapsible bsStyle="success" header={<div className='course-header'>
-        <h2><Label bsStyle="warning">16</Label>  <span style={headerCss}>Inkluze - 16 hodinový kurz</span></h2>
+        <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>Inkluze - 16 hodinový kurz</span></h3>
       </div>} eventKey={2}>
         <BlockEx>
           Nabízíme více 16 hodinových kurzů.
@@ -90,7 +89,7 @@
 
 
       <Panel collapsible bsStyle="success" header={<div className='course-header'>
-        <h2><Label bsStyle="warning">32</Label>  <span style={headerCss}>Inkluze - kurzy v celkové délce 32 hodin</span></h2>
+        <h3><Label bsStyle="warning">32</Label>  <span style={headerCss}>Inkluze - kurzy v celkové délce 32 hodin</span></h3>
       </div>} eventKey={1}>
         <BlockEx>
           <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
@@ -114,7 +113,7 @@
       </Panel>
 
       <Panel collapsible bsStyle="success" header={<div className='course-header'>
-        <h2><Label bsStyle="warning">24</Label>  <span style={headerCss}>Inkluze - kurzy v celkové délce 24 hodin</span></h2>
+        <h3><Label bsStyle="warning">24</Label>  <span style={headerCss}>Inkluze - kurzy v celkové délce 24 hodin</span></h3>
       </div>} eventKey={2}>
         <BlockEx>
           <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
@@ -138,6 +137,7 @@
 
     </Block>
     <Block >
+      <h2 className='text-right'>Ostatní</h2>
 
       <Panel collapsible bsStyle="success" header={<div className='course-header'>
         <h2><Label bsStyle="warning">16</Label>  <span style={headerCss}>Čtenářská gramotnost - 16 hodinový kurz</span></h2>
@@ -152,7 +152,7 @@
       </Panel>
 
       <Panel collapsible bsStyle="success" header={<div className='course-header'>
-        <h2><Label bsStyle="warning">16</Label>  <span style={headerCss}>Matematická gramotnost - 16 hodinový kurz</span></h2>
+        <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>Matematická gramotnost - 16 hodinový kurz</span></h3>
       </div>} eventKey={2}>
         <BlockEx header={<h3>Potřebné šablony: </h3>}>
           <div>
@@ -164,7 +164,7 @@
       </Panel>
 
       <Panel collapsible bsStyle="success" header={<div className='course-header'>
-        <h2><Label bsStyle="warning">32</Label>  <span style={headerCss}>Mentoring - 32 hodinový kurz</span></h2>
+        <h3><Label bsStyle="warning">32</Label>  <span style={headerCss}>Mentoring - 32 hodinový kurz</span></h3>
       </div>} eventKey={2}>
         <BlockEx header={<h3>Potřebné šablony: </h3>}>
           <div>
@@ -176,7 +176,7 @@
       </Panel>
 
       <Panel collapsible bsStyle="success" header={<div className='course-header'>
-        <h2><Label bsStyle="warning">56</Label>  <span style={headerCss}>Mentoring - 56 hodinový kurz </span></h2>
+        <h3><Label bsStyle="warning">56</Label>  <span style={headerCss}>Mentoring - 56 hodinový kurz </span></h3>
       </div>} eventKey={2}>
         <BlockEx header={<h3>Potřebné šablony: </h3>}>
           <div>
