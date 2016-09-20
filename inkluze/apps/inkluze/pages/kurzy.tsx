@@ -225,11 +225,12 @@ class KurzyForm extends React.Component<{}, IKuryFormFormStatus> {
               <FormControl value={this.state.email} placeholder="Napište váš email" onChange={(e: any) => { this.state.email = e.target.value; this.forceUpdate(); } } />
             </FormGroup>
             <hr/>
+            {/*
             <FormGroup controlId="teachers" validationState={this.getValidationState() } >
               <ControlLabel>Vyplňte buďto vaše IČO...</ControlLabel>
               <FormControl value={this.state.ICO} placeholder="Napište IČO" onChange={(e: any) => { this.state.ICO = e.target.value; this.forceUpdate(); } } />
             </FormGroup>
-            <hr/>
+            <hr/>*/}
             <FormGroup controlId="teachers" validationState={this.getValidationState() } >
               <ControlLabel>Počet učitelů v kurzu: </ControlLabel>
               <FormControl value={this.state.teachers} placeholder="Napište počet učitelů" onChange={(e: any) => { this.state.teachers = e.target.value; this.forceUpdate(); } } />
@@ -241,16 +242,16 @@ class KurzyForm extends React.Component<{}, IKuryFormFormStatus> {
               <FormControl value={this.state.phone} placeholder="Napište vaše telefonní číslo" onChange={(e: any) => { this.state.phone = e.target.value; this.forceUpdate(); } } />
             </FormGroup>
             <hr/>
+            {/*
             <FormGroup controlId="teachers" validationState={this.getValidationState() } >
               <ControlLabel>...nebo vaše RED-IZO</ControlLabel>
               <FormControl value={this.state.RED_IZO} placeholder="Napište RED-IZO" onChange={(e: any) => { this.state.RED_IZO = e.target.value; this.forceUpdate(); } } />
             </FormGroup>
-            <hr/>
+            <hr/>*/}
             <FormGroup controlId="teachers" validationState={this.getValidationState() } >
               <ControlLabel>Poznámka</ControlLabel>
               <FormControl value={this.state.poznamka} placeholder="Poznámka" onChange={(e: any) => { this.state.poznamka = e.target.value; this.forceUpdate(); } } />
             </FormGroup>
-            <hr/>
             {/*<FormGroup controlId="kurz" validationState={this.getValidationState() }>
               <ControlLabel>Typ kurzu: </ControlLabel><br/>
               <Radio inline name="kurz" value="32" checked={this.state.course == '32'} onChange={() => { this.state.course = '32'; this.forceUpdate(); } }>
