@@ -140,7 +140,7 @@
       <h2 className='text-right'>Ostatní</h2>
 
       <Panel collapsible bsStyle="success" header={<div className='course-header'>
-        <h2><Label bsStyle="warning">16</Label>  <span style={headerCss}>Čtenářská gramotnost - 16 hodinový kurz</span></h2>
+        <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>Čtenářská gramotnost - 16 hodinový kurz</span></h3>
       </div>} eventKey={2}>
         <BlockEx header={<h3>Potřebné šablony: </h3>}>
           <div>
