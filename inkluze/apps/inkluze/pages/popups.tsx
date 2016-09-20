@@ -270,7 +270,7 @@
           <li>
             matematická pregramotnost;
           </li>
-          <li>
+          <li value="5">
             inkluze.
           </li>
         </ol>
@@ -497,7 +497,7 @@
           <li>
             cizí jazyky;
           </li>
-          <li>
+          <li value="5">
             inkluze.
           </li>
         </ol>
@@ -505,7 +505,7 @@
     </div>
   </Popup>,
 
-  /*zs_DVPP_32_hodin: <Popup document='priloha3' page= {73} header='II/2.2 Vzdělávání pedagogických pracovníků ZŠ – DVPP v rozsahu 32 hodin'>
+  zs_DVPP_32_hodin: <Popup document='priloha3' page= {73} header='II/2.2 Vzdělávání pedagogických pracovníků ZŠ – DVPP v rozsahu 32 hodin'>
     <div>
       <p>
         Pedagogičtí pracovníci základních škol budou podporováni ve svém profesním a odborném růstu účastí na odborných seminářích, workshopech a dalších vzdělávacích akcích zaměřených na rozvoj dovedností, znalostí a kompetencí a na využívání efektivních vyučovacích metod.
@@ -529,7 +529,7 @@
         </ol>
       </p>
     </div>
-  </Popup>,*/
+  </Popup>,
 
   zs_DVPP_inkluze_32_hodin: <Popup document='priloha3' page= {75} header='II/2.3 Vzdělávání pedagogických pracovníků ZŠ zaměřené na inkluzi – DVPP v rozsahu 32 hodin'>
     <div>
@@ -539,7 +539,7 @@
     </div>
   </Popup>,
 
-  /*zs_DVPP_56_hodin: <Popup document='priloha3' page= {77} header='II/2.4 Vzdělávání pedagogických pracovníků ZŠ – DVPP v rozsahu 56 hodin'>
+  zs_DVPP_56_hodin: <Popup document='priloha3' page= {77} header='II/2.4 Vzdělávání pedagogických pracovníků ZŠ – DVPP v rozsahu 56 hodin'>
     <div>
       <p>
         Pedagogičtí pracovníci základních škol budou podporováni ve svém profesním a odborném růstu účastí na odborných seminářích, workshopech a dalších vzdělávacích akcích zaměřených na rozvoj dovedností, znalostí a kompetencí a na využívání efektivních vyučovacích metod.
@@ -563,7 +563,7 @@
         </ol>
       </p>
     </div>
-  </Popup>,*/
+  </Popup>,
 
   /*zs_DVPP_inkluze_56_hodin: <Popup document='priloha3' page= {79} header='II/2.5 Vzdělávání pedagogických pracovníků ZŠ zaměřené na inkluzi – DVPP v rozsahu 56 hodin'>
      <div>

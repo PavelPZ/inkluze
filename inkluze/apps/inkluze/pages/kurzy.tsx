@@ -2,19 +2,19 @@
   <Page>
     <Block>
       <div className='alert alert-warning' style={{ fontSize: '18px' }}>
-        <p style={{ marginTop: '0' }}><i className='fa fa-lightbulb-o'></i> Tip:&nbsp;
-        {/*<p >
+        <p style={{ marginTop: '0' }}><i className='fa fa-lightbulb-o'></i> Tip: &nbsp;
+          {/*<p >
           Pro zvládnutí problematiky inkluze nabízíme řadu kurzů v délce 8, 16 a 32 hodin.
         </p>*/}
           Pro více informací klikněte na název kurzu dole na stránce.
-          Pro získání podrobnějších informací o kurzech vyplňte a odešlete poptávkový formulář.
+          Pro získání podrobnějších informací o kurzech vyplňte a odešlete nezávazný poptávkový formulář.
         </p>
       </div>
 
       <KurzyForm/>
 
     </Block>
-    <Block gray>
+    <Block >
       <div className='alert alert-success'>
         <h3>Obsah kurzů (inkluze): </h3>
         <Row>
@@ -44,60 +44,8 @@
           </Col>
         </Row>
       </div>
-
-      <Panel collapsible bsStyle="success" header={<div className='course-header'>
-        <h2><Label bsStyle="warning">32</Label>  <span style={headerCss}>Inkluze - kurzy v celkové délce 32 hodin</span></h2>
-      </div>} eventKey={1}>
-        <BlockEx>
-          <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
-            Tento kurz poskytuje optimální variantu pro seznámení celého učitelského sboru s problematikou inkluze.
-            U tohoto kurzu je (oproti 24 hodinové verzi) více prostoru na:
-            <ul className='fa-ul'>
-              <LiHand>diskusi s učiteli</LiHand>
-              <LiHand>možnost řešení konkrétních problémů, týkajících se dané školy</LiHand>
-              <LiHand>praktické procvičování získaných znalostí</LiHand>
-              <LiHand>...a další</LiHand>
-            </ul>
-          </div>
-        </BlockEx>
-        <BlockEx header={<h3>Potřebné šablony: </h3>}>
-          <div>
-            <p>Pro každého učitele je potřeba objednat šablony dle jedné z následujících možností: </p>
-            <ul className='fa-ul'>
-              <LiHand>
-                <b>Možnost 1: </b><br/>
-                <b>2x</b> šablonu {popups.zs_DVPP_16_hodin} – inkluze
-              </LiHand>
-              <LiHand>
-                <b>Možnost 2: </b><br/>
-                <b>1x</b> šablonu {popups.zs_DVPP_inkluze_32_hodin} – inkluze
-              </LiHand>
-            </ul>
-          </div>
-        </BlockEx>
-      </Panel>
-
-      <Panel collapsible bsStyle="success" header={<div className='course-header'>
-        <h2><Label bsStyle="warning">24</Label>  <span style={headerCss}>Inkluze - kurzy v celkové délce 24 hodin</span></h2>
-      </div>} eventKey={2}>
-        <BlockEx>
-          <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
-            Tento kurz použijte v případě, že jeden den školení navíc (který je vyžadován u 32 hodinového kurzu) je pro vaši školu kritický.
-            24 hodinová délka kurzu je minimální délka, povolená v podmínkách výzvy, viz {popups.bagatelni_podpora}.
-          </div>
-        </BlockEx>
-        <BlockEx header={<h3>Potřebné šablony: </h3>}>
-          <div>
-            Pro každého učitele je potřeba objednat tyto šablony:
-            <ul className='fa-ul'>
-              <LiHand><b>1x</b> šablonu {popups.zs_sbor_8_hodin} </LiHand>
-              <LiHand><b>1x</b> šablonu {popups.zs_DVPP_16_hodin} – inkluze </LiHand>
-            </ul>
-          </div>
-        </BlockEx>
-      </Panel>
     </Block>
-    <Block>
+    <Block >
       <Panel collapsible bsStyle="success" header={<div className='course-header'>
         <h2><Label bsStyle="warning">8</Label>  <span style={headerCss}>Inkluze - 8 hodinový kurz pro sborovnu</span></h2>
       </div>} eventKey={1}>
@@ -137,8 +85,56 @@
           </div>
         </BlockEx>
       </Panel>
+
+
+      <Panel collapsible bsStyle="success" header={<div className='course-header'>
+        <h2><Label bsStyle="warning">32</Label>  <span style={headerCss}>Inkluze - kurzy v celkové délce 32 hodin</span></h2>
+      </div>} eventKey={1}>
+        <BlockEx>
+          <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
+            Tento kurz poskytuje optimální variantu pro seznámení celého učitelského sboru s problematikou inkluze.
+            U tohoto kurzu je (oproti 24 hodinové verzi) více prostoru na:
+            <ul className='fa-ul'>
+              <LiHand>diskusi s učiteli</LiHand>
+              <LiHand>možnost řešení konkrétních problémů, týkajících se dané školy</LiHand>
+              <LiHand>praktické procvičování získaných znalostí</LiHand>
+              <LiHand>...a další</LiHand>
+            </ul>
+          </div>
+        </BlockEx>
+        <BlockEx header={<h3>Potřebné šablony: </h3>}>
+          <div>
+            <p>
+              Pro každého učitele je potřeba objednat šablonu  {popups.zs_DVPP_inkluze_32_hodin}
+            </p>
+          </div>
+        </BlockEx>
+      </Panel>
+
+      <Panel collapsible bsStyle="success" header={<div className='course-header'>
+        <h2><Label bsStyle="warning">24</Label>  <span style={headerCss}>Inkluze - kurzy v celkové délce 24 hodin</span></h2>
+      </div>} eventKey={2}>
+        <BlockEx>
+          <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
+            Tento kurz použijte v případě, že jeden den školení navíc (který je vyžadován u 32 hodinového kurzu) je pro vaši školu kritický.
+            24 hodinová délka kurzu je minimální délka, povolená v podmínkách výzvy, viz {popups.bagatelni_podpora}.
+          </div>
+        </BlockEx>
+        <BlockEx header={<h3>Potřebné šablony: </h3>}>
+          <div>
+            Pro každého učitele je potřeba objednat tyto šablony:
+            <ul className='fa-ul'>
+              <LiHand><b>1x</b> šablonu {popups.zs_sbor_8_hodin} </LiHand>
+              <LiHand><b>1x</b> šablonu {popups.zs_DVPP_16_hodin} – inkluze </LiHand>
+            </ul>
+          </div>
+        </BlockEx>
+      </Panel>
+
+
     </Block>
-    <Block gray>
+    <Block >
+
       <Panel collapsible bsStyle="success" header={<div className='course-header'>
         <h2><Label bsStyle="warning">16</Label>  <span style={headerCss}>Čtenářská gramotnost - 16 hodinový kurz</span></h2>
       </div>} eventKey={2}>
@@ -148,6 +144,7 @@
           </div>
         </BlockEx>
       </Panel>
+
       <Panel collapsible bsStyle="success" header={<div className='course-header'>
         <h2><Label bsStyle="warning">16</Label>  <span style={headerCss}>Matematická gramotnost - 16 hodinový kurz</span></h2>
       </div>} eventKey={2}>
@@ -157,24 +154,27 @@
           </div>
         </BlockEx>
       </Panel>
+
       <Panel collapsible bsStyle="success" header={<div className='course-header'>
-        <h2><Label bsStyle="warning">XX</Label>  <span style={headerCss}>Mentoring - XX hodinový kurz</span></h2>
+        <h2><Label bsStyle="warning">32</Label>  <span style={headerCss}>Mentoring - 32 hodinový kurz</span></h2>
       </div>} eventKey={2}>
         <BlockEx header={<h3>Potřebné šablony: </h3>}>
           <div>
-            <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_16_hodin}</p>
+            <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_32_hodin}</p>
           </div>
         </BlockEx>
       </Panel>
+
       <Panel collapsible bsStyle="success" header={<div className='course-header'>
-        <h2><Label bsStyle="warning">XX</Label>  <span style={headerCss}>Mentoring - ZZ hodinový kurz</span></h2>
+        <h2><Label bsStyle="warning">56</Label>  <span style={headerCss}>Mentoring - 56 hodinový kurz</span></h2>
       </div>} eventKey={2}>
         <BlockEx header={<h3>Potřebné šablony: </h3>}>
           <div>
-            <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_16_hodin}</p>
+            <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_56_hodin}</p>
           </div>
         </BlockEx>
       </Panel>
+
     </Block>
   </Page>
 </div >;
@@ -202,8 +202,8 @@ class KurzyForm extends React.Component<{}, IKuryFormFormStatus> {
   render(): JSX.Element {
     var th = this;
     return <div>
-      <Panel collapsible style={{ marginTop: '15px' }} bsStyle='warning' header={<div className='course-header'>
-        <h2 style={{ marginTop: '0' }}><i className='fa fa-bars'></i> <span style={headerCss}>Poptávkový formulář...</span></h2>
+      <Panel collapsible style={{ marginTop: '15px' }} bsStyle='info' header={<div className='course-header'>
+        <h2 style={{ marginTop: '0' }}><i className='fa fa-bars'></i> <span style={headerCss}>Nezávazný poptávkový formulář...</span></h2>
       </div>}>
         <Row>
           <Col md={6}>
