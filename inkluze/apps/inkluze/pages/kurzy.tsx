@@ -200,13 +200,14 @@ interface IKuryFormFormStatus {
   teachers: string;
   ICO: string; //e.g. 49625918
   RED_IZO: string; //e.g. 600000206
+  poznamka: string; //e.g. 600000206
   //course: string;
 }
 
 class KurzyForm extends React.Component<{}, IKuryFormFormStatus> {
   constructor(p, c) {
     super(p, c);
-    this.state = { email: '', phone: '', teachers: '', ICO: '', RED_IZO: '' };//, course: undefined };
+    this.state = { email: '', phone: '', teachers: '', ICO: '', RED_IZO: '', poznamka: '' };//, course: undefined };
   }
   getValidationState(): any {
     return (this.state.email || this.state.phone) && !Number.isNaN(parseInt(this.state.teachers)) /*&& this.state.course !== undefined*/ && (!Number.isNaN(parseInt(this.state.ICO)) || !Number.isNaN(parseInt(this.state.RED_IZO))) ? 'success' : 'error';
@@ -245,6 +246,11 @@ class KurzyForm extends React.Component<{}, IKuryFormFormStatus> {
               <FormControl value={this.state.RED_IZO} placeholder="Napište RED-IZO" onChange={(e: any) => { this.state.RED_IZO = e.target.value; this.forceUpdate(); } } />
             </FormGroup>
             <hr/>
+            <FormGroup controlId="teachers" validationState={this.getValidationState() } >
+              <ControlLabel>Poznámka</ControlLabel>
+              <FormControl value={this.state.poznamka} placeholder="Poznámka" onChange={(e: any) => { this.state.poznamka = e.target.value; this.forceUpdate(); } } />
+            </FormGroup>
+            <hr/>
             {/*<FormGroup controlId="kurz" validationState={this.getValidationState() }>
               <ControlLabel>Typ kurzu: </ControlLabel><br/>
               <Radio inline name="kurz" value="32" checked={this.state.course == '32'} onChange={() => { this.state.course = '32'; this.forceUpdate(); } }>
@@ -276,6 +282,7 @@ const emailTemplate: React.StatelessComponent<IKuryFormFormStatus> = (props: IKu
   {/*<p><b>Course: </b> {props.course}</p>*/}
   <p><b>ICO: </b> {props.ICO}</p>
   <p><b>RED_IZO: </b> {props.RED_IZO}</p>
+  <p><b>Poznámka: </b> {props.poznamka}</p>
 </div>;
 
 const headerCss: React.CSSProperties = { textDecoration: 'underline', cursor: 'pointer' };
