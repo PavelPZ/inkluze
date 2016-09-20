@@ -81,7 +81,7 @@
         </BlockEx>
         <BlockEx header={<h3>Potřebné šablony: </h3>}>
           <div>
-            <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_16_hodin}</p>
+            <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_16_hodin} varianta e. inkluze</p>
           </div>
         </BlockEx>
       </Panel>
@@ -125,7 +125,7 @@
             Pro každého učitele je potřeba objednat tyto šablony:
             <ul className='fa-ul'>
               <LiHand><b>1x</b> šablonu {popups.zs_sbor_8_hodin} </LiHand>
-              <LiHand><b>1x</b> šablonu {popups.zs_DVPP_16_hodin} – inkluze </LiHand>
+              <LiHand><b>1x</b> šablonu {popups.zs_DVPP_16_hodin} varianta e. inkluze</LiHand>
             </ul>
           </div>
         </BlockEx>
@@ -140,7 +140,7 @@
       </div>} eventKey={2}>
         <BlockEx header={<h3>Potřebné šablony: </h3>}>
           <div>
-            <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_16_hodin}</p>
+            <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_16_hodin} varianta a. čtenářská gramotnost</p>
           </div>
         </BlockEx>
       </Panel>
@@ -150,7 +150,7 @@
       </div>} eventKey={2}>
         <BlockEx header={<h3>Potřebné šablony: </h3>}>
           <div>
-            <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_16_hodin}</p>
+            <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_16_hodin} varianta b. matematická gramotnost</p>
           </div>
         </BlockEx>
       </Panel>
@@ -160,17 +160,17 @@
       </div>} eventKey={2}>
         <BlockEx header={<h3>Potřebné šablony: </h3>}>
           <div>
-            <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_32_hodin}</p>
+            <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_32_hodin} varianta d. mentoring</p>
           </div>
         </BlockEx>
       </Panel>
 
       <Panel collapsible bsStyle="success" header={<div className='course-header'>
-        <h2><Label bsStyle="warning">56</Label>  <span style={headerCss}>Mentoring - 56 hodinový kurz</span></h2>
+        <h2><Label bsStyle="warning">56</Label>  <span style={headerCss}>Mentoring - 56 hodinový kurz </span></h2>
       </div>} eventKey={2}>
         <BlockEx header={<h3>Potřebné šablony: </h3>}>
           <div>
-            <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_56_hodin}</p>
+            <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_56_hodin} varianta d. mentoring</p>
           </div>
         </BlockEx>
       </Panel>
@@ -203,7 +203,7 @@ class KurzyForm extends React.Component<{}, IKuryFormFormStatus> {
     var th = this;
     return <div>
       <Panel collapsible style={{ marginTop: '15px' }} bsStyle='info' header={<div className='course-header'>
-        <h2 style={{ marginTop: '0' }}><i className='fa fa-bars'></i> <span style={headerCss}>Nezávazný poptávkový formulář...</span></h2>
+        <h2 style={{ marginTop: '0' }}><i className='fa fa-bars'></i> <span style={headerCss}>Nezávazný poptávkový formulář</span></h2>
       </div>}>
         <Row>
           <Col md={6}>

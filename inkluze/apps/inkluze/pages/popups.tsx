@@ -489,10 +489,10 @@
         Pedagogičtí pracovníci budou podpořeni v jedné z následujících oblastí:
         <ol type="a">
           <li>
-            čtenářská pregramotnost;
+            čtenářská gramotnost;
           </li>
           <li>
-            matematická pregramotnost;
+            matematická gramotnost;
           </li>
           <li>
             cizí jazyky;
@@ -549,7 +549,7 @@
         Pedagogičtí pracovníci budou podpořeni v jedné z následujících oblastí:
         <ol type="a">
           <li>
-            čtenářská pregramotnost;
+            čtenářská gramotnost;
           </li>
           <li>
             matematická gramotnost;
