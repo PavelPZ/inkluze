@@ -249,8 +249,8 @@ class KurzyForm extends React.Component<{}, IKuryFormFormStatus> {
             </FormGroup>
             <hr/>*/}
             <FormGroup controlId="teachers" validationState={this.getValidationState() } >
-              <ControlLabel>Poznámka</ControlLabel>
-              <FormControl value={this.state.poznamka} placeholder="Poznámka" onChange={(e: any) => { this.state.poznamka = e.target.value; this.forceUpdate(); } } />
+              <ControlLabel>Upřesnění poptávky nebo dotaz</ControlLabel>
+              <FormControl value={this.state.poznamka} placeholder="Napište upřesnění poptávky nebo dotaz" onChange={(e: any) => { this.state.poznamka = e.target.value; this.forceUpdate(); } } />
             </FormGroup>
             {/*<FormGroup controlId="kurz" validationState={this.getValidationState() }>
               <ControlLabel>Typ kurzu: </ControlLabel><br/>
@@ -283,7 +283,7 @@ const emailTemplate: React.StatelessComponent<IKuryFormFormStatus> = (props: IKu
   {/*<p><b>Course: </b> {props.course}</p>*/}
   <p><b>ICO: </b> {props.ICO}</p>
   <p><b>RED_IZO: </b> {props.RED_IZO}</p>
-  <p><b>Poznámka: </b> {props.poznamka}</p>
+  <p><b>Upřesnění poptávky: </b> {props.poznamka}</p>
 </div>;
 
 const headerCss: React.CSSProperties = { textDecoration: 'underline', cursor: 'pointer' };
