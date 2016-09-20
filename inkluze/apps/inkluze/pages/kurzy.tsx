@@ -81,7 +81,7 @@
         </BlockEx>
         <BlockEx header={<h3>Potřebné šablony: </h3>}>
           <div>
-            <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_16_hodin} <b>varianta e.
+            <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_16_hodin} varianta <b>e.
               inkluze</b>
             </p>
           </div>
@@ -127,7 +127,7 @@
             Pro každého učitele je potřeba objednat tyto šablony:
             <ul className='fa-ul'>
               <LiHand><b>1x</b> šablonu {popups.zs_sbor_8_hodin} </LiHand>
-              <LiHand><b>1x</b> šablonu {popups.zs_DVPP_16_hodin} <b>varianta e.
+              <LiHand><b>1x</b> šablonu {popups.zs_DVPP_16_hodin} varianta <b>e.
                 inkluze</b>
               </LiHand>
             </ul>
@@ -144,7 +144,7 @@
       </div>} eventKey={2}>
         <BlockEx header={<h3>Potřebné šablony: </h3>}>
           <div>
-            <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_16_hodin} <b>varianta a.
+            <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_16_hodin} varianta <b>a.
               čtenářská gramotnost</b>
             </p>
           </div>
@@ -156,7 +156,7 @@
       </div>} eventKey={2}>
         <BlockEx header={<h3>Potřebné šablony: </h3>}>
           <div>
-            <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_16_hodin} <b>varianta b.
+            <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_16_hodin} varianta <b>b.
               matematická gramotnost</b>
             </p>
           </div>
@@ -168,7 +168,7 @@
       </div>} eventKey={2}>
         <BlockEx header={<h3>Potřebné šablony: </h3>}>
           <div>
-            <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_32_hodin} <b>varianta d.
+            <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_32_hodin} varianta <b>d.
               mentoring</b>
             </p>
           </div>
@@ -180,7 +180,7 @@
       </div>} eventKey={2}>
         <BlockEx header={<h3>Potřebné šablony: </h3>}>
           <div>
-            <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_56_hodin} <b>varianta d.
+            <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_56_hodin} varianta <b>d.
               mentoring</b>
             </p>
           </div>
