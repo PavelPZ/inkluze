@@ -34,7 +34,7 @@
     site.root = root = {
       id: 'home',
       title: 'Kurzy podle šablon z Výzvy 02_16_022/023 od zkušených lektorů',
-      brTitle: 'Hlavní',
+      brTitle: 'O inkluzi',
       largeLogo: true,
       createPage: routePar => <Home/>, //sitemapRouter.createElement<IHomePar>(Home, routePar, { subTitle: 'SubTitle Default' }),
       noTitle:true,
@@ -74,7 +74,7 @@
     }
     site.tabs = tabs = {
       home: {
-        title: 'Hlavní',
+        title: 'O inkluzi',
         rootNode: root,
       },
       kurzy: {

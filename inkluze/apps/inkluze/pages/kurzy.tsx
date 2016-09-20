@@ -50,7 +50,7 @@
         <h2><Label bsStyle="warning">8</Label>  <span style={headerCss}>Inkluze - 8 hodinový kurz pro sborovnu</span></h2>
       </div>} eventKey={1}>
         <BlockEx>
-          Nabízíme více 8 hodinových kurzů určených pro vzdělávání pedagogického sboru.
+          Nabízíme několik 8 hodinových kurzů určených pro vzdělávání pedagogického sboru.
           Každý kurz obsahuje několik témat ze seznamu <i>Obsah kurzů</i> výše na této stránce.
           Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
         </BlockEx>

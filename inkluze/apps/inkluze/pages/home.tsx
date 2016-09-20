@@ -45,27 +45,18 @@
         </Grid>
       </Block>
     </div>
-    <BlockEx header="O Inkluzi">
-      <p>
-        Problematika inkluze, neboli začleňování dětí se speciálními vzdělávacími potřebami do základních a mateřských škol, není žádnou letošní novinkou.
-        Novinkou však je, že se inkluze konečně začíná efektivně řešit.
-        Ať už právními úpravami (nová vyhláška školského zákona) nebo velkými finančními dotacemi, které by měly školám významně pomoci inkluzi zvládnout.
-      </p>
-      <Alert type="Poznámka">
-        <b>Inkluze</b> se nově nazývá <b>společné vzdělávání</b>.
-        My budeme ale používat doposud rozšířenější termín inkluze.
-        {/*Viz též {sitemapRouter.navigateTag(inkluze.root.slovnicek) }.*/}
-      </Alert>
-    </BlockEx>
+    
     <BlockEx header={<div>"Výzva" = dotace EU pro ZŠ a MŠ</div>} gray>
       <ul className='fa-ul'>
         <LiHand>EU nyní poskytuje českým základním a mateřským školám dotaci v ohromující výši Kč 4.5 mld.
-          Dotace je z velké části určena na podporu inkluze a na další vzdělávání pedagogických pracovníků (DVPP).</LiHand>
-        <LiHand>Dotace pro inkluzi je určena zejména na:
+          Dotace je z velké části určena na podporu inkluze (společného vzdělávání) a na další vzdělávání pedagogických pracovníků (DVPP).</LiHand>
+        <LiHand>Dotace je určena zejména na:
           <ul>
-            <li><b>Platy speciálních pracovníků</b> (asistent pedagoga, speciální pedagog, školní psycholog, sociální pedagog), které musí školy v souvislosti s inkluzí zaměstnat.
+            <li><b>Platy speciálních pracovníků</b> (asistent pedagoga, speciální pedagog, školní psycholog, sociální pedagog), které musí školy zaměstnat v souvislosti s inkluzí.
               Dotace na platy se nazývá <b>Personální podpora</b></li>
-            <li><b>Vzdělávání učitelů</b> (kurzy <b>DVPP</b> = <b>D</b>alšího <b>V</b>zdělávání <b>P</b>edagogických <b>P</b>racovníků) </li>
+            <li><b>Vzdělávání učitelů</b> (kurzy <b>DVPP</b> = <b>D</b>alšího <b>V</b>zdělávání <b>P</b>edagogických <b>P</b>racovníků)
+              zaměřené na inkluzi, čtenářskou a matematickou gramotnost, cizíj jazyky a mentoring.
+            </li> 
           </ul>
         </LiHand>
         <LiHand>
@@ -77,13 +68,14 @@
           O těch se ale budeme zmiňovat méně podrobně.</HomeLi2>*/}
       </ul>
     </BlockEx>
-    <BlockEx header="Nabízíme kurzy zaměřené na inkluzi, mentoring, čtenářskou a matematickou gramotnost">
+    <BlockEx header="Nabízíme DVPP kurzy zaměřené na inkluzi, mentoring, čtenářskou a matematickou gramotnost">
       <p>
         Pro učitele jsme <b>ve spolupráci se zkušenými akreditovanými lektory</b> připravili v rámci DVPP řadu kurzů.
-        Cílem kurzů je, aby pokud možno celý pedagogický sbor získal orientaci v problematice inkluze a dále ve speciálních dovednostech (<b>mentoring, čtenářská a matematická gramotnost</b>).
+        Cílem kurzů je, aby pokud možno celý pedagogický sbor získal orientaci v problematice inkluze resp.
+        ve speciálních dovednostech: <b>mentoring, čtenářská a matematická gramotnost</b>.
       </p>
       <p>
-        Naši lektoři mají mnohaleté zkušenosti s DVPP.
+        Naši lektoři mají s DVPP mnohaleté zkušenosti.
         Více viz stránka  {sitemapRouter.navigateTag(inkluze.root.lektori) }.
       </p>
       <p>
@@ -103,7 +95,7 @@
         Více viz stránka {sitemapRouter.navigateTag(inkluze.root.kurzy) }.
       </p>
     </BlockEx>
-    <BlockEx header="Inkluze se týká většiny učitelů" gray>
+    {/*<BlockEx header="Inkluze se týká většiny učitelů" gray>
       S malou nadsázkou se dá se říci, že v českých školách nenajdete učitele, který by se během své praxe nesetkal s problémy souvisejícími s inkluzí.
       V tom případě se mu jistě budou hodit znalosti z našich kurzů, které řeší otázky typu:
       <ul className='fa-ul' style={{ marginTop: "8px" }}>
@@ -119,7 +111,7 @@
           Kdo s tím učiteli může pomoci?</LiCheck>
         <LiCheck>A mnoho dalších…</LiCheck>
       </ul>
-    </BlockEx>
+    </BlockEx>*/}
     {/*<BlockEx header="Nabídka kurzů">
       <p>
         V podmínkách pro využití dotace je stanoveno, že každý učitel, který se v rámci projektu účastní nějakého vzdělávacího kurzu, <b>musí v souhrnu absolvovat alespoň 24 hodin vzdělávání</b>.
