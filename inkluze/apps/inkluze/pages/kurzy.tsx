@@ -2,14 +2,11 @@
   <Page>
     <Block>
       <div className='alert alert-warning' style={{ fontSize: '18px' }}>
-        <h3 style={{ marginTop: '0' }}>Úvod</h3>
-        <p >
+        <p style={{ marginTop: '0' }}><i className='fa fa-lightbulb-o'></i> Tip:&nbsp;
+        {/*<p >
           Pro zvládnutí problematiky inkluze nabízíme řadu kurzů v délce 8, 16 a 32 hodin.
-        </p>
-        <p >
+        </p>*/}
           Pro více informací klikněte na název kurzu dole na stránce.
-        </p>
-        <p >
           Pro získání podrobnějších informací o kurzech vyplňte a odešlete poptávkový formulář.
         </p>
       </div>
@@ -19,7 +16,7 @@
     </Block>
     <Block gray>
       <div className='alert alert-success'>
-        <h3>Obsah kurzů: </h3>
+        <h3>Obsah kurzů (inkluze): </h3>
         <Row>
           <Col mdOffset={1} md={5}>
             <ul className='fa-ul'>
@@ -49,7 +46,7 @@
       </div>
 
       <Panel collapsible bsStyle="success" header={<div className='course-header'>
-        <h2><Label bsStyle="warning">32</Label>  <span style={{ textDecoration: 'underline' }}>Inkluze - kurzy v celkové délce 32 hodin</span></h2>
+        <h2><Label bsStyle="warning">32</Label>  <span style={headerCss}>Inkluze - kurzy v celkové délce 32 hodin</span></h2>
       </div>} eventKey={1}>
         <BlockEx>
           <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
@@ -81,7 +78,7 @@
       </Panel>
 
       <Panel collapsible bsStyle="success" header={<div className='course-header'>
-        <h2><Label bsStyle="warning">24</Label>  <span style={{ textDecoration: 'underline' }}>Inkluze - kurzy v celkové délce 24 hodin</span></h2>
+        <h2><Label bsStyle="warning">24</Label>  <span style={headerCss}>Inkluze - kurzy v celkové délce 24 hodin</span></h2>
       </div>} eventKey={2}>
         <BlockEx>
           <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
@@ -102,7 +99,7 @@
     </Block>
     <Block>
       <Panel collapsible bsStyle="success" header={<div className='course-header'>
-        <h2><Label bsStyle="warning">8</Label>  <span style={{ textDecoration: 'underline' }}>Inkluze - 8 hodinový kurz pro sborovnu</span></h2>
+        <h2><Label bsStyle="warning">8</Label>  <span style={headerCss}>Inkluze - 8 hodinový kurz pro sborovnu</span></h2>
       </div>} eventKey={1}>
         <BlockEx>
           Nabízíme více 8 hodinových kurzů určených pro vzdělávání pedagogického sboru.
@@ -121,7 +118,7 @@
       </Panel>
 
       <Panel collapsible bsStyle="success" header={<div className='course-header'>
-        <h2><Label bsStyle="warning">16</Label>  <span style={{ textDecoration: 'underline' }}>Inkluze - 16 hodinový kurz</span></h2>
+        <h2><Label bsStyle="warning">16</Label>  <span style={headerCss}>Inkluze - 16 hodinový kurz</span></h2>
       </div>} eventKey={2}>
         <BlockEx>
           Nabízíme více 16 hodinových kurzů.
@@ -141,6 +138,44 @@
         </BlockEx>
       </Panel>
     </Block>
+    <Block gray>
+      <Panel collapsible bsStyle="success" header={<div className='course-header'>
+        <h2><Label bsStyle="warning">16</Label>  <span style={headerCss}>Čtenářská gramotnost - 16 hodinový kurz</span></h2>
+      </div>} eventKey={2}>
+        <BlockEx header={<h3>Potřebné šablony: </h3>}>
+          <div>
+            <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_16_hodin}</p>
+          </div>
+        </BlockEx>
+      </Panel>
+      <Panel collapsible bsStyle="success" header={<div className='course-header'>
+        <h2><Label bsStyle="warning">16</Label>  <span style={headerCss}>Matematická gramotnost - 16 hodinový kurz</span></h2>
+      </div>} eventKey={2}>
+        <BlockEx header={<h3>Potřebné šablony: </h3>}>
+          <div>
+            <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_16_hodin}</p>
+          </div>
+        </BlockEx>
+      </Panel>
+      <Panel collapsible bsStyle="success" header={<div className='course-header'>
+        <h2><Label bsStyle="warning">XX</Label>  <span style={headerCss}>Mentoring - XX hodinový kurz</span></h2>
+      </div>} eventKey={2}>
+        <BlockEx header={<h3>Potřebné šablony: </h3>}>
+          <div>
+            <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_16_hodin}</p>
+          </div>
+        </BlockEx>
+      </Panel>
+      <Panel collapsible bsStyle="success" header={<div className='course-header'>
+        <h2><Label bsStyle="warning">XX</Label>  <span style={headerCss}>Mentoring - ZZ hodinový kurz</span></h2>
+      </div>} eventKey={2}>
+        <BlockEx header={<h3>Potřebné šablony: </h3>}>
+          <div>
+            <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_16_hodin}</p>
+          </div>
+        </BlockEx>
+      </Panel>
+    </Block>
   </Page>
 </div >;
 
@@ -153,22 +188,22 @@ interface IKuryFormFormStatus {
   teachers: string;
   ICO: string; //e.g. 49625918
   RED_IZO: string; //e.g. 600000206
-  course: string;
+  //course: string;
 }
 
 class KurzyForm extends React.Component<{}, IKuryFormFormStatus> {
   constructor(p, c) {
     super(p, c);
-    this.state = { email: '', phone: '', teachers: '', ICO: '', RED_IZO: '', course: undefined };
+    this.state = { email: '', phone: '', teachers: '', ICO: '', RED_IZO: '' };//, course: undefined };
   }
   getValidationState(): any {
-    return (this.state.email || this.state.phone) && !Number.isNaN(parseInt(this.state.teachers)) && this.state.course !== undefined && (!Number.isNaN(parseInt(this.state.ICO)) || !Number.isNaN(parseInt(this.state.RED_IZO))) ? 'success' : 'error';
+    return (this.state.email || this.state.phone) && !Number.isNaN(parseInt(this.state.teachers)) /*&& this.state.course !== undefined*/ && (!Number.isNaN(parseInt(this.state.ICO)) || !Number.isNaN(parseInt(this.state.RED_IZO))) ? 'success' : 'error';
   }
   render(): JSX.Element {
     var th = this;
     return <div>
       <Panel collapsible style={{ marginTop: '15px' }} bsStyle='warning' header={<div className='course-header'>
-        <h2 style={{ marginTop: '0' }}><i className='fa fa-bars'></i> <span style={{ textDecoration: 'underline', cursor: 'pointer' }}>Poptávkový formulář</span></h2>
+        <h2 style={{ marginTop: '0' }}><i className='fa fa-bars'></i> <span style={headerCss}>Poptávkový formulář...</span></h2>
       </div>}>
         <Row>
           <Col md={6}>
@@ -198,7 +233,7 @@ class KurzyForm extends React.Component<{}, IKuryFormFormStatus> {
               <FormControl value={this.state.RED_IZO} placeholder="Napište RED-IZO" onChange={(e: any) => { this.state.RED_IZO = e.target.value; this.forceUpdate(); } } />
             </FormGroup>
             <hr/>
-            <FormGroup controlId="kurz" validationState={this.getValidationState() }>
+            {/*<FormGroup controlId="kurz" validationState={this.getValidationState() }>
               <ControlLabel>Typ kurzu: </ControlLabel><br/>
               <Radio inline name="kurz" value="32" checked={this.state.course == '32'} onChange={() => { this.state.course = '32'; this.forceUpdate(); } }>
                 <b>Kurz 32 hodin</b>
@@ -212,7 +247,7 @@ class KurzyForm extends React.Component<{}, IKuryFormFormStatus> {
               <Radio inline name="kurz" value="24" checked={this.state.course == '16'} onChange={() => { this.state.course = '16'; this.forceUpdate(); } }>
                 Kurz 16 hodin
               </Radio>
-            </FormGroup>
+            </FormGroup>*/}
           </Col>
         </Row>
         <hr/>
@@ -226,7 +261,9 @@ const emailTemplate: React.StatelessComponent<IKuryFormFormStatus> = (props: IKu
   <p><b>EMail: </b> {props.email}</p>
   <p><b>Phone: </b> {props.phone}</p>
   <p><b>Teachers: </b> {props.teachers}</p>
-  <p><b>Course: </b> {props.course}</p>
+  {/*<p><b>Course: </b> {props.course}</p>*/}
   <p><b>ICO: </b> {props.ICO}</p>
   <p><b>RED_IZO: </b> {props.RED_IZO}</p>
 </div>;
+
+const headerCss: React.CSSProperties = { textDecoration: 'underline', cursor: 'pointer' };

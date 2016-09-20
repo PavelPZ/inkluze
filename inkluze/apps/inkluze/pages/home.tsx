@@ -10,7 +10,7 @@
               <i className="fa fa-exclamation text-info" style={{ fontSize: '100px' }}></i>
             </Col>
             <Col md={4}>
-              <h4>Obsah kurzu podle šablon z výzvy: </h4>
+              <h4>Příklad obsahu kurzu - Inkluze: </h4>
               <ul className='fa-ul'>
                 <LiFile>Základní právní předpisy legislativní změny</LiFile>
                 <LiFile>Žák se speciálními vzdělávacími potřebami </LiFile>
@@ -57,10 +57,10 @@
         {/*Viz též {sitemapRouter.navigateTag(inkluze.root.slovnicek) }.*/}
       </Alert>
     </BlockEx>
-    <BlockEx header={<div>"Výzva" = dotace EU na inkluzi pro ZŠ a MŠ</div>} gray>
+    <BlockEx header={<div>"Výzva" = dotace EU pro ZŠ a MŠ</div>} gray>
       <ul className='fa-ul'>
         <LiHand>EU nyní poskytuje českým základním a mateřským školám dotaci v ohromující výši Kč 4.5 mld.
-          Dotace je z velké části určena na podporu inkluze.</LiHand>
+          Dotace je z velké části určena na podporu inkluze a na další vzdělávání pedagogických pracovníků (DVPP).</LiHand>
         <LiHand>Dotace pro inkluzi je určena zejména na:
           <ul>
             <li><b>Platy speciálních pracovníků</b> (asistent pedagoga, speciální pedagog, školní psycholog, sociální pedagog), které musí školy v souvislosti s inkluzí zaměstnat.
@@ -77,17 +77,33 @@
           O těch se ale budeme zmiňovat méně podrobně.</HomeLi2>*/}
       </ul>
     </BlockEx>
-    <BlockEx header="Nabízíme kurzy zaměřené na inkluzi">
+    <BlockEx header="Nabízíme kurzy zaměřené na inkluzi, mentoring, čtenářskou a matematickou gramotnost">
       <p>
-        Pro učitele jsme <b>ve spolupráci se zkušenými akreditovanými lektory</b> připravili řadu kurzů.
-        Cílem kurzů je, aby pokud možno celý pedagogický sbor získal orientaci v problematice inkluze.
+        Pro učitele jsme <b>ve spolupráci se zkušenými akreditovanými lektory</b> připravili v rámci DVPP řadu kurzů.
+        Cílem kurzů je, aby pokud možno celý pedagogický sbor získal orientaci v problematice inkluze a dále ve speciálních dovednostech (<b>mentoring, čtenářská a matematická gramotnost</b>).
       </p>
       <p>
-        Naši lektoři mají mnohaleté zkušenosti jak se vzděláváním učitelů tak s inkluzí.
+        Naši lektoři mají mnohaleté zkušenosti s DVPP.
         Více viz stránka  {sitemapRouter.navigateTag(inkluze.root.lektori) }.
       </p>
+      <p>
+        V podmínkách pro využití dotace je stanoveno, že každý učitel, který se v rámci projektu účastní nějakého vzdělávacího kurzu, <b>musí v souhrnu absolvovat alespoň 24 hodin vzdělávání</b>.
+        Této podmínce se říká {popups.bagatelni_podpora}.
+      </p>
+      {/*<p>
+        Mimo základních kurzů zaměřených na inkluzi (<b>8</b> hodin a <b>16</b> hodin) jsme proto připravili kurzy v celkové délce <b>24</b>, resp.
+        <b> 32</b> hodin a kurzy mentoringu a čtenářské a matematické gramotnosti.
+        Naše kurzy splňují všechny podmínky tak, aby na ně bylo možno použít peníze z dotace.
+      </p>
+      <p>
+        Cílem kurzů je, aby se pokud možno celý pedagogický sbor dokázal orientovat v problematice inkluze.
+        U kurzu v délce 32 hodin zbude více prostoru na diskusi s učiteli, řešení konkrétních problémů týkajících se dané školy a praktické procvičování získaných znalostí.
+      </p>*/}
+      <p>
+        Více viz stránka {sitemapRouter.navigateTag(inkluze.root.kurzy) }.
+      </p>
     </BlockEx>
-    <BlockEx header="Využijte naše kurzy, protože inkluze se týká většiny učitelů" gray>
+    <BlockEx header="Inkluze se týká většiny učitelů" gray>
       S malou nadsázkou se dá se říci, že v českých školách nenajdete učitele, který by se během své praxe nesetkal s problémy souvisejícími s inkluzí.
       V tom případě se mu jistě budou hodit znalosti z našich kurzů, které řeší otázky typu:
       <ul className='fa-ul' style={{ marginTop: "8px" }}>
@@ -104,14 +120,14 @@
         <LiCheck>A mnoho dalších…</LiCheck>
       </ul>
     </BlockEx>
-    <BlockEx header="Nabídka kurzů">
+    {/*<BlockEx header="Nabídka kurzů">
       <p>
         V podmínkách pro využití dotace je stanoveno, že každý učitel, který se v rámci projektu účastní nějakého vzdělávacího kurzu, <b>musí v souhrnu absolvovat alespoň 24 hodin vzdělávání</b>.
         Této podmínce se říká {popups.bagatelni_podpora}.
       </p>
       <p>
         Mimo základních kurzů zaměřených na inkluzi (<b>8</b> hodin a <b>16</b> hodin) jsme proto připravili kurzy v celkové délce <b>24</b>, resp.
-        <b> 32</b> hodin.
+        <b> 32</b> hodin a kurzy mentoringu a čtenářské a matematické gramotnosti.
         Naše kurzy splňují všechny podmínky tak, aby na ně bylo možno použít peníze z dotace.
       </p>
       <p>
@@ -121,8 +137,8 @@
       <p>
         Více viz stránka {sitemapRouter.navigateTag(inkluze.root.kurzy) }.
       </p>
-    </BlockEx>
-    <BlockEx header="Další informace a služby týkající se dotace na inkluzi" gray>
+    </BlockEx>*/}
+    <BlockEx header="Další informace a služby týkající se dotace">
       <p>
         Získat dotaci a využít ji není tak složité, jak se může při prvním čtení stovek stran oficiálních dokumentů zdát.
         Rádi vám poskytneme další informace a služby, které vám čerpání dotace výrazně zjednoduší:
