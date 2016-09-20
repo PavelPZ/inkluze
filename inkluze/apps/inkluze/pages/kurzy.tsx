@@ -198,8 +198,8 @@ interface IKuryFormFormStatus {
   email: string;
   phone: string;
   teachers: string;
-  ICO: string; //e.g. 49625918
-  RED_IZO: string; //e.g. 600000206
+  //ICO: string; //e.g. 49625918
+  //RED_IZO: string; //e.g. 600000206
   poznamka: string; //e.g. 600000206
   //course: string;
 }
@@ -207,10 +207,10 @@ interface IKuryFormFormStatus {
 class KurzyForm extends React.Component<{}, IKuryFormFormStatus> {
   constructor(p, c) {
     super(p, c);
-    this.state = { email: '', phone: '', teachers: '', ICO: '', RED_IZO: '', poznamka: '' };//, course: undefined };
+    this.state = { email: '', phone: '', teachers: '', poznamka: '' };//ICO: '', RED_IZO: '',  , course: undefined };
   }
   getValidationState(): any {
-    return (this.state.email || this.state.phone) && !Number.isNaN(parseInt(this.state.teachers)) /*&& this.state.course !== undefined*/ && (!Number.isNaN(parseInt(this.state.ICO)) || !Number.isNaN(parseInt(this.state.RED_IZO))) ? 'success' : 'error';
+    return (this.state.email || this.state.phone) && !Number.isNaN(parseInt(this.state.teachers)) /*&& this.state.course !== undefined && (!Number.isNaN(parseInt(this.state.ICO)) || !Number.isNaN(parseInt(this.state.RED_IZO))*/ ? 'success' : 'error';
   }
   render(): JSX.Element {
     var th = this;
@@ -231,10 +231,6 @@ class KurzyForm extends React.Component<{}, IKuryFormFormStatus> {
               <FormControl value={this.state.ICO} placeholder="Napište IČO" onChange={(e: any) => { this.state.ICO = e.target.value; this.forceUpdate(); } } />
             </FormGroup>
             <hr/>*/}
-            <FormGroup controlId="teachers" validationState={this.getValidationState() } >
-              <ControlLabel>Počet učitelů v kurzu: </ControlLabel>
-              <FormControl value={this.state.teachers} placeholder="Napište počet učitelů" onChange={(e: any) => { this.state.teachers = e.target.value; this.forceUpdate(); } } />
-            </FormGroup>
           </Col>
           <Col md={6}>
             <FormGroup controlId="tel" validationState={this.getValidationState() } >
@@ -248,10 +244,6 @@ class KurzyForm extends React.Component<{}, IKuryFormFormStatus> {
               <FormControl value={this.state.RED_IZO} placeholder="Napište RED-IZO" onChange={(e: any) => { this.state.RED_IZO = e.target.value; this.forceUpdate(); } } />
             </FormGroup>
             <hr/>*/}
-            <FormGroup controlId="teachers" validationState={this.getValidationState() } >
-              <ControlLabel>Upřesnění poptávky nebo dotaz</ControlLabel>
-              <FormControl value={this.state.poznamka} placeholder="Napište upřesnění poptávky nebo dotaz" onChange={(e: any) => { this.state.poznamka = e.target.value; this.forceUpdate(); } } />
-            </FormGroup>
             {/*<FormGroup controlId="kurz" validationState={this.getValidationState() }>
               <ControlLabel>Typ kurzu: </ControlLabel><br/>
               <Radio inline name="kurz" value="32" checked={this.state.course == '32'} onChange={() => { this.state.course = '32'; this.forceUpdate(); } }>
@@ -269,6 +261,20 @@ class KurzyForm extends React.Component<{}, IKuryFormFormStatus> {
             </FormGroup>*/}
           </Col>
         </Row>
+        <Row>
+          <Col md={3}>
+            <FormGroup controlId="teachers" validationState={this.getValidationState() } >
+              <ControlLabel>Počet učitelů v kurzu: </ControlLabel>
+              <FormControl value={this.state.teachers} placeholder="Napište počet učitelů" onChange={(e: any) => { this.state.teachers = e.target.value; this.forceUpdate(); } } />
+            </FormGroup>
+          </Col>
+          <Col md={9}>
+            <FormGroup controlId="teachers" validationState={this.getValidationState() } >
+              <ControlLabel>Upřesnění poptávky nebo dotaz</ControlLabel>
+              <FormControl componentClass="textarea" rows={3} value={this.state.poznamka} placeholder="Napište upřesnění poptávky nebo dotaz" onChange={(e: any) => { this.state.poznamka = e.target.value; this.forceUpdate(); } } />
+            </FormGroup>
+          </Col>
+        </Row>
         <hr/>
         <Button bsStyle='success' onClick={() => services.emailer.sendEMail({ from: '"Inkluze poptávka"<poptavka@langmaster.cz>', to: 'projekt@langmaster.cz', subject: 'Inkluze poptávka', body: React.createElement<IKuryFormFormStatus>(emailTemplate, this.state) }, () => alert('Děkujeme za zaslání poptávky')) }>Poslat poptávku</Button>
       </Panel>
@@ -280,9 +286,9 @@ const emailTemplate: React.StatelessComponent<IKuryFormFormStatus> = (props: IKu
   <p><b>EMail: </b> {props.email}</p>
   <p><b>Phone: </b> {props.phone}</p>
   <p><b>Teachers: </b> {props.teachers}</p>
-  {/*<p><b>Course: </b> {props.course}</p>*/}
+  {/*<p><b>Course: </b> {props.course}</p>
   <p><b>ICO: </b> {props.ICO}</p>
-  <p><b>RED_IZO: </b> {props.RED_IZO}</p>
+  <p><b>RED_IZO: </b> {props.RED_IZO}</p>*/}
   <p><b>Upřesnění poptávky: </b> {props.poznamka}</p>
 </div>;
 

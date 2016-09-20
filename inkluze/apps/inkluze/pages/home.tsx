@@ -130,7 +130,7 @@
         Více viz stránka {sitemapRouter.navigateTag(inkluze.root.kurzy) }.
       </p>
     </BlockEx>*/}
-    <BlockEx header="Další informace a služby týkající se dotace">
+    <BlockEx header="Další informace a služby týkající se dotace" gray>
       <p>
         Získat dotaci a využít ji není tak složité, jak se může při prvním čtení stovek stran oficiálních dokumentů zdát.
         Rádi vám poskytneme další informace a služby, které vám čerpání dotace výrazně zjednoduší:
