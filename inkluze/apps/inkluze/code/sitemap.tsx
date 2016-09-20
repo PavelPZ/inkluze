@@ -78,7 +78,7 @@
         rootNode: root,
       },
       kurzy: {
-        title: 'Kurzy podle šablon z Výzvy 02_16_022 a 02_16_023',
+        title: 'Kurzy podle šablon z Výzvy 02_16_022 / 023',
         rootNode: root.kurzy,
       },
       lektori: {
