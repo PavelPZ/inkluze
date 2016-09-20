@@ -3,7 +3,7 @@
     <BlockEx>
       <p>
         Všichni naši lektoři jsou akreditovaní a lektoři přednášející o inkluzi mají osvědčení lektora implementátora (lektora pro společné vzdělávání) od MŠMT.
-        Se vzděláváním učitelů a témat, které přednášejí (inkluze, čtenářská gramotnost, matematická gramotnost, mentoring), mají lektoři dlouholeté zkušenosti.
+        Se vzděláváním učitelů a s tématy, které přednášejí (inkluze, čtenářská gramotnost, matematická gramotnost, mentoring), mají lektoři dlouholeté zkušenosti.
       </p>
       <p>
         Lektoři jsou schopni: </p>

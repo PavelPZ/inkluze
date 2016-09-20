@@ -55,7 +55,7 @@
             <li><b>Platy speciálních pracovníků</b> (asistent pedagoga, speciální pedagog, školní psycholog, sociální pedagog), které musí školy zaměstnat v souvislosti s inkluzí.
               Dotace na platy se nazývá <b>Personální podpora</b></li>
             <li><b>Vzdělávání učitelů</b> (kurzy <b>DVPP</b> = <b>D</b>alšího <b>V</b>zdělávání <b>P</b>edagogických <b>P</b>racovníků)
-              zaměřené na inkluzi, čtenářskou a matematickou gramotnost, cizíj jazyky a mentoring.
+              zaměřené na inkluzi, čtenářskou a matematickou gramotnost, cizí jazyky a mentoring.
             </li> 
           </ul>
         </LiHand>
