@@ -29,8 +29,6 @@
     <Content Include="externals\classnames.js" />
     <Content Include="externals\es6-shim.js" />
     <Content Include="libs\lib.js" />
-    <Content Include="externals\MurmanHash\goog.math.Long.js" />
-    <Content Include="externals\MurmanHash\murmurhash3_128.js" />
     <Content Include="externals\react-bootstrap.js" />
     <TypeScriptCompile Include="apps\inkluze\pages\onas.tsx" />
     <TypeScriptCompile Include="apps\inkluze\pages\ostatni.tsx" />
@@ -94,9 +92,7 @@
       <Name>Lib</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="trash\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
   </PropertyGroup>

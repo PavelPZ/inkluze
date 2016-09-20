@@ -4,11 +4,7 @@
       <div className='alert alert-warning' style={{ fontSize: '18px' }}>
         <h3 style={{ marginTop: '0' }}>Úvod</h3>
         <p >
-          Pro zvládnutí problematiky inkluze nabízíme dva kurzy (24 hodinový a 32 hodinový), po jejichž absolvování všichni učitelé získají základní orientaci v problematice inkluzivního vzdělávání.
-          Obsahy těchto kurzů jsou obdobné, u 32 hodinového kurzu zbude ale mnohem více prostoru na diskusi s učiteli, řešení konkrétních problémů, týkajících se dané školy, a praktické procvičování získaných znalostí.
-        </p>
-        <p>
-          Pro školy, které chtějí naše kurzy zkombinovat s jinými šablonami, nabízíme i 16 hodinový kurz a 8 hodinový kurz pro sborovnu.
+          Pro zvládnutí problematiky inkluze nabízíme řadu kurzů v délce 8, 16 a 32 hodin.
         </p>
         <p >
           Pro více informací klikněte na název kurzu dole na stránce.
@@ -52,102 +48,99 @@
         </Row>
       </div>
 
-      <Accordion>
-        <Panel bsStyle="success" header={<div className='course-header'>
-          <h2><Label bsStyle="warning">32</Label>  <span style={{ textDecoration: 'underline' }}>Inkluze - kurzy v celkové délce 32 hodin</span></h2>
-        </div>} eventKey={1}>
-          <BlockEx>
-            <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
-              Tento kurz poskytuje optimální variantu pro seznámení celého učitelského sboru s problematikou inkluze.
-              U tohoto kurzu je (oproti 24 hodinové verzi) více prostoru na:
-              <ul className='fa-ul'>
-                <LiHand>diskusi s učiteli</LiHand>
-                <LiHand>možnost řešení konkrétních problémů, týkajících se dané školy</LiHand>
-                <LiHand>praktické procvičování získaných znalostí</LiHand>
-                <LiHand>...a další</LiHand>
-              </ul>
-            </div>
-          </BlockEx>
-          <BlockEx header={<h3>Potřebné šablony: </h3>}>
-            <div>
-              <p>Pro každého učitele je potřeba objednat šablony dle jedné z následujících možností: </p>
-              <ul className='fa-ul'>
-                <LiHand>
-                  <b>Možnost 1: </b><br/>
-                  <b>2x</b> šablonu {popups.zs_DVPP_16_hodin} – inkluze
-                </LiHand>
-                <LiHand>
-                  <b>Možnost 2: </b><br/>
-                  <b>1x</b> šablonu {popups.zs_DVPP_inkluze_32_hodin} – inkluze
-                </LiHand>
-              </ul>
-            </div>
-          </BlockEx>
-        </Panel>
+      <Panel collapsible bsStyle="success" header={<div className='course-header'>
+        <h2><Label bsStyle="warning">32</Label>  <span style={{ textDecoration: 'underline' }}>Inkluze - kurzy v celkové délce 32 hodin</span></h2>
+      </div>} eventKey={1}>
+        <BlockEx>
+          <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
+            Tento kurz poskytuje optimální variantu pro seznámení celého učitelského sboru s problematikou inkluze.
+            U tohoto kurzu je (oproti 24 hodinové verzi) více prostoru na:
+            <ul className='fa-ul'>
+              <LiHand>diskusi s učiteli</LiHand>
+              <LiHand>možnost řešení konkrétních problémů, týkajících se dané školy</LiHand>
+              <LiHand>praktické procvičování získaných znalostí</LiHand>
+              <LiHand>...a další</LiHand>
+            </ul>
+          </div>
+        </BlockEx>
+        <BlockEx header={<h3>Potřebné šablony: </h3>}>
+          <div>
+            <p>Pro každého učitele je potřeba objednat šablony dle jedné z následujících možností: </p>
+            <ul className='fa-ul'>
+              <LiHand>
+                <b>Možnost 1: </b><br/>
+                <b>2x</b> šablonu {popups.zs_DVPP_16_hodin} – inkluze
+              </LiHand>
+              <LiHand>
+                <b>Možnost 2: </b><br/>
+                <b>1x</b> šablonu {popups.zs_DVPP_inkluze_32_hodin} – inkluze
+              </LiHand>
+            </ul>
+          </div>
+        </BlockEx>
+      </Panel>
 
-        <Panel bsStyle="success" header={<div className='course-header'>
-          <h2><Label bsStyle="warning">24</Label>  <span style={{ textDecoration: 'underline' }}>Inkluze - kurzy v celkové délce 24 hodin</span></h2>
-        </div>} eventKey={2}>
-          <BlockEx>
-            <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
-              Tento kurz použijte v případě, že jeden den školení navíc (který je vyžadován u 32 hodinového kurzu) je pro vaši školu kritický.
-              24 hodinová délka kurzu je minimální délka, povolená v podmínkách výzvy, viz {popups.bagatelni_podpora}.
-            </div>
-          </BlockEx>
-          <BlockEx header={<h3>Potřebné šablony: </h3>}>
-            <div>
-              Pro každého učitele je potřeba objednat tyto šablony:
-              <ul className='fa-ul'>
-                <LiHand><b>1x</b> šablonu {popups.zs_sbor_8_hodin} </LiHand>
-                <LiHand><b>1x</b> šablonu {popups.zs_DVPP_16_hodin} – inkluze </LiHand>
-              </ul>
-            </div>
-          </BlockEx>
-        </Panel>
-      </Accordion>
+      <Panel collapsible bsStyle="success" header={<div className='course-header'>
+        <h2><Label bsStyle="warning">24</Label>  <span style={{ textDecoration: 'underline' }}>Inkluze - kurzy v celkové délce 24 hodin</span></h2>
+      </div>} eventKey={2}>
+        <BlockEx>
+          <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
+            Tento kurz použijte v případě, že jeden den školení navíc (který je vyžadován u 32 hodinového kurzu) je pro vaši školu kritický.
+            24 hodinová délka kurzu je minimální délka, povolená v podmínkách výzvy, viz {popups.bagatelni_podpora}.
+          </div>
+        </BlockEx>
+        <BlockEx header={<h3>Potřebné šablony: </h3>}>
+          <div>
+            Pro každého učitele je potřeba objednat tyto šablony:
+            <ul className='fa-ul'>
+              <LiHand><b>1x</b> šablonu {popups.zs_sbor_8_hodin} </LiHand>
+              <LiHand><b>1x</b> šablonu {popups.zs_DVPP_16_hodin} – inkluze </LiHand>
+            </ul>
+          </div>
+        </BlockEx>
+      </Panel>
     </Block>
     <Block>
-      <Accordion>
-        <Panel bsStyle="success" header={<div className='course-header'>
-          <h2><Label bsStyle="warning">8</Label>  <span style={{ textDecoration: 'underline' }}>Inkluze - 8 hodinový kurz pro sborovnu</span></h2>
-        </div>} eventKey={1}>
-          <BlockEx>
-            Nabízíme více 8 hodinových kurzů určených pro vzdělávání pedagogického sboru.
-            Každý kurz obsahuje několik témat ze seznamu <i>Obsah kurzů</i> výše na této stránce.
-            Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
-          </BlockEx>
-          <BlockEx>
-            <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
-              Každý účastník tohoto kurzu se musí účastnit ještě další vzdělávací akce v rozsahu minimálně 16 hodin.
-              Viz {popups.bagatelni_podpora}.
-            </div>
-          </BlockEx>
-          <BlockEx header={<h3>Potřebné šablony: </h3>}>
-            <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_sbor_8_hodin}</p>
-          </BlockEx>
-        </Panel>
+      <Panel collapsible bsStyle="success" header={<div className='course-header'>
+        <h2><Label bsStyle="warning">8</Label>  <span style={{ textDecoration: 'underline' }}>Inkluze - 8 hodinový kurz pro sborovnu</span></h2>
+      </div>} eventKey={1}>
+        <BlockEx>
+          Nabízíme více 8 hodinových kurzů určených pro vzdělávání pedagogického sboru.
+          Každý kurz obsahuje několik témat ze seznamu <i>Obsah kurzů</i> výše na této stránce.
+          Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
+        </BlockEx>
+        <BlockEx>
+          <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
+            Každý účastník tohoto kurzu se musí účastnit ještě další vzdělávací akce v rozsahu minimálně 16 hodin.
+            Viz {popups.bagatelni_podpora}.
+          </div>
+        </BlockEx>
+        <BlockEx header={<h3>Potřebné šablony: </h3>}>
+          <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_sbor_8_hodin}</p>
+        </BlockEx>
+      </Panel>
 
-        <Panel bsStyle="success" header={<div className='course-header'>
-          <h2><Label bsStyle="warning">16</Label>  <span style={{ textDecoration: 'underline' }}>Inkluze - 16 hodinový kurz</span></h2>
-        </div>} eventKey={2}>
-          <BlockEx>
-            Nabízíme více 16 hodinových kurzů.
-            Každý kurz obsahuje několik témat ze seznamu <i>Obsah kurzů</i> výše na této stránce.
-            Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
-          </BlockEx>
-          <BlockEx>
-            <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
-              Každý účastník tohoto kurzu se musí účastnit ještě další vzdělávací akce v rozsahu minimálně 8 hodin.
-              Viz {popups.bagatelni_podpora}.
-            </div>
-          </BlockEx>
-          <BlockEx header={<h3>Potřebné šablony: </h3>}>
-            <div>
-              <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_16_hodin}</p>
-            </div>
-          </BlockEx>
-        </Panel>
-      </Accordion>    </Block>
+      <Panel collapsible bsStyle="success" header={<div className='course-header'>
+        <h2><Label bsStyle="warning">16</Label>  <span style={{ textDecoration: 'underline' }}>Inkluze - 16 hodinový kurz</span></h2>
+      </div>} eventKey={2}>
+        <BlockEx>
+          Nabízíme více 16 hodinových kurzů.
+          Každý kurz obsahuje několik témat ze seznamu <i>Obsah kurzů</i> výše na této stránce.
+          Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
+        </BlockEx>
+        <BlockEx>
+          <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
+            Každý účastník tohoto kurzu se musí účastnit ještě další vzdělávací akce v rozsahu minimálně 8 hodin.
+            Viz {popups.bagatelni_podpora}.
+          </div>
+        </BlockEx>
+        <BlockEx header={<h3>Potřebné šablony: </h3>}>
+          <div>
+            <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_16_hodin}</p>
+          </div>
+        </BlockEx>
+      </Panel>
+    </Block>
   </Page>
 </div >;
 
@@ -174,8 +167,9 @@ class KurzyForm extends React.Component<{}, IKuryFormFormStatus> {
   render(): JSX.Element {
     var th = this;
     return <div>
-      <Panel style={{ marginTop: '15px' }} bsStyle='warning'header={<div><h3 style={{ marginTop: '0' }}>Poptávka</h3>
-        Mám zájem o bližší informace a o upřesnění nabídky</div>}>
+      <Panel collapsible style={{ marginTop: '15px' }} bsStyle='warning' header={<div className='course-header'>
+        <h2 style={{ marginTop: '0' }}><i className='fa fa-bars'></i> <span style={{ textDecoration: 'underline', cursor: 'pointer' }}>Poptávkový formulář</span></h2>
+      </div>}>
         <Row>
           <Col md={6}>
             <FormGroup controlId="email" validationState={this.getValidationState() } >
