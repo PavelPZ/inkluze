@@ -46,7 +46,7 @@
         </Row>
       </div>
       <Panel collapsible bsStyle="success" header={<div className='course-header'>
-        <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>Inkluze - 8 hodinový kurz pro sborovnu</span>3</h3>
+        <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>Inkluze - 8 hodinový kurz pro sborovnu</span></h3>
       </div>} eventKey={1}>
         <BlockEx>
           Nabízíme několik 8 hodinových kurzů určených pro vzdělávání pedagogického sboru.
