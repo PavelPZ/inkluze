@@ -196,9 +196,8 @@
             <LiFile>vymezení mentoringu ve vzdělávání</LiFile>
             <LiFile>etika v práci mentora</LiFile>
             <LiFile>základní principy práce interního mentora</LiFile>
-            <LiFile>Součástí semináře jsou ukázky vedení rozhovorů s klientem v jednotlivých fázích</LiFile>
-            <LiFile>mentorského procesu.</LiFile>
           </ul>
+          Součástí semináře jsou ukázky vedení rozhovorů s klientem v jednotlivých fázích mentorského procesu.
         </BlockEx>
         <BlockEx header={<h3>Potřebné šablony: </h3>}>
           <div>
@@ -223,8 +222,8 @@
             <LiFile> stanovování potřeb klienta plánování mentorského procesu</LiFile>
             <LiFile> osobnostní typy z hlediska mentora a z hlediska klienta</LiFile>
             <LiFile> poskytování zpětné vazy klientovi</LiFile>
-            <LiFile>Součástí semináře jsou základní nácviky vedení rozhovorů s klientem v jednotlivých fázích mentorského procesu, rozbory pozorování, výcvik v poskytování zpětné vazby.</LiFile>
           </ul>
+          Součástí semináře jsou základní nácviky vedení rozhovorů s klientem v jednotlivých fázích mentorského procesu, rozbory pozorování, výcvik v poskytování zpětné vazby.
         </BlockEx>
         <BlockEx header={<h3>Potřebné šablony: </h3>}>
           <div>
