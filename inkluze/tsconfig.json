@@ -10,6 +10,7 @@
     //"noEmitHelpers": true,
     //"declaration": true,
     //"outFile": "react-framework.js",
+    //"strictNullChecks": true,
     "inlineSourceMap": true,
     "inlineSources": true,
     "jsx": "react"
