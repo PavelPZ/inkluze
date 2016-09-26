@@ -1,17 +1,5 @@
 ﻿namespace inkluze {
 
-  export const Q_and_a: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => {
-    return <div>
-      <Page>
-        <Block key={0}>
-          <QAForm/>
-          <h2>Zodpovězené dotazy: </h2>
-        </Block>
-        {qas}
-      </Page>
-    </div>;
-  };
-
   export function createQA(question: JSX.Element | string, answer: JSX.Element | string): JSX.Element {
     return <QA question={question} answer={answer} idx={qcnt++} key={qcnt}/>;
   }
@@ -20,14 +8,12 @@
 
   var qcnt = 1;
 
-  Q_and_a.contextTypes = sitemapRouter.childContextTypes;
-
   interface IQAFormStatus {
     open: boolean;
     email?: string;
     message?: string;
   }
-  class QAForm extends React.Component<{}, IQAFormStatus> {
+  export class QAForm extends React.Component<{}, IQAFormStatus> {
     constructor(p, c) {
       super(p, c);
       this.state = { open: false };

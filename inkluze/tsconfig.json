@@ -11,6 +11,7 @@
     //"declaration": true,
     //"outFile": "react-framework.js",
     //"strictNullChecks": true,
+    "outFile": "apps/inkluze.js",
     "inlineSourceMap": true,
     "inlineSources": true,
     "jsx": "react"

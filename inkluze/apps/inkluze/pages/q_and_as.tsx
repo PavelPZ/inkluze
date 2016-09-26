@@ -15,4 +15,20 @@
     </div>),
 ]
 
+const QAForm = inkluze.QAForm;
 
+namespace inkluze {
+  export const Q_and_a: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => {
+    return <div>
+      <Page>
+        <Block key={0}>
+          <QAForm />
+          <h2>Zodpovězené dotazy: </h2>
+        </Block>
+        {qas}
+      </Page>
+    </div>;
+  };
+
+  Q_and_a.contextTypes = sitemapRouter.childContextTypes;
+}
