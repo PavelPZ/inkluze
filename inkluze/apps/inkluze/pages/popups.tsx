@@ -256,7 +256,7 @@
     </div>
   </Popup>,*/
 
-  /*ms_DVPP_16_hodin: <Popup document='priloha3' page= {39} header='I/2.3 Vzdělávání pedagogických pracovníků MŠ – DVPP v rozsahu 16 hodin'>
+  ms_DVPP_16_hodin: <Popup document='priloha3' page= {39} header='I/2.3 Vzdělávání pedagogických pracovníků MŠ – DVPP v rozsahu 16 hodin'>
     <div>
       <p>
         Vzdělávání bude probíhat formou absolvování vzdělávacího programu DVPP akreditovaného v systému DVPP.
@@ -276,7 +276,7 @@
         </ol>
       </p>
     </div>
-  </Popup>,*/
+  </Popup>,
 
   /*ms_specifika_prace_pedagoga: <Popup document='priloha3' page= {41} header='I/2.4 Specifika práce pedagoga s dvouletými dětmi v MŠ '>
     <div>

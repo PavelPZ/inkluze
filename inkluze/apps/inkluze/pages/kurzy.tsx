@@ -11,11 +11,11 @@
         </p>
       </div>
 
-      <KurzyForm/>
+      <KurzyForm />
 
     </Block>
     <Block gray>
-      <h2 className='text-right'>Inkluze</h2>
+      <h2 className='text-right'>ZŠ Inkluze</h2>
       <div className='alert alert-success'>
         <h3>Obsah kurzů: </h3>
         <Row>
@@ -80,7 +80,7 @@
         </BlockEx>
         <BlockEx header={<h3>Potřebné šablony: </h3>}>
           <div>
-            <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_16_hodin} varianta <b>e.
+            <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_16_hodin}varianta <b>e.
               inkluze</b>
             </p>
           </div>
@@ -126,7 +126,7 @@
             Pro každého učitele je potřeba objednat tyto šablony:
             <ul className='fa-ul'>
               <LiHand><b>1x</b> šablonu {popups.zs_sbor_8_hodin} </LiHand>
-              <LiHand><b>1x</b> šablonu {popups.zs_DVPP_16_hodin} varianta <b>e.
+              <LiHand><b>1x</b> šablonu {popups.zs_DVPP_16_hodin}varianta <b>e.
                 inkluze</b>
               </LiHand>
             </ul>
@@ -134,17 +134,29 @@
         </BlockEx>
       </Panel>
 
-
     </Block>
+
     <Block >
-      <h2 className='text-right'>Ostatní</h2>
+      <h2 className='text-right'>ZŠ Ostatní</h2>
 
       <Panel collapsible bsStyle="success" header={<div className='course-header'>
         <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>Čtenářská gramotnost - 16 hodinový kurz</span></h3>
       </div>} eventKey={2}>
+        <BlockEx header={<h3>Seminář se věnuje tématům:  </h3>}>
+          <ul className='fa-ul'>
+            <LiFile>seznámení s problematikou čtenářské gramotnosti</LiFile>
+            <LiFile>  čtení s porozuměním</LiFile>
+            <LiFile> metody a formy práce, rozvíjející čtenářskou gramotnost </LiFile>
+            <LiFile> myšlenkové mapy</LiFile>
+            <LiFile> správné kladení otázek jak pro učitele, tak pro žáky</LiFile>
+            <LiFile> promýšlení strategií</LiFile>
+            <LiFile>  rozvoj kritického myšlení.</LiFile>
+            <LiFile> zkušenost zprostředkovaného učení </LiFile>
+          </ul>
+        </BlockEx>
         <BlockEx header={<h3>Potřebné šablony: </h3>}>
           <div>
-            <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_16_hodin} varianta <b>a.
+            <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_16_hodin}varianta <b>a.
               čtenářská gramotnost</b>
             </p>
           </div>
@@ -154,9 +166,22 @@
       <Panel collapsible bsStyle="success" header={<div className='course-header'>
         <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>Matematická gramotnost - 16 hodinový kurz</span></h3>
       </div>} eventKey={2}>
+        <BlockEx header={<h3>Seminář se věnuje tématům:  </h3>}>
+          <ul className='fa-ul'>
+            <LiFile>vymezení pojmu matematická gramotnost </LiFile>
+            <LiFile> praktické rady jak a kde během výuky rozvíjet matematickou gramotnost</LiFile>
+            <LiFile> obohacení výuky v hodinách o inovativní metody</LiFile>
+            <LiFile> seznámeni s různými strategiemi práce se žáky</LiFile>
+            <LiFile> matematická argumentace</LiFile>
+            <LiFile> komunikace</LiFile>
+            <LiFile> modelování</LiFile>
+            <LiFile> vymezování problémů a jejich řešení</LiFile>
+            <LiFile> schopnost matematizovat reálné situace</LiFile>
+          </ul>
+        </BlockEx>
         <BlockEx header={<h3>Potřebné šablony: </h3>}>
           <div>
-            <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_16_hodin} varianta <b>b.
+            <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_16_hodin}varianta <b>b.
               matematická gramotnost</b>
             </p>
           </div>
@@ -166,9 +191,19 @@
       <Panel collapsible bsStyle="success" header={<div className='course-header'>
         <h3><Label bsStyle="warning">32</Label>  <span style={headerCss}>Mentoring - 32 hodinový kurz</span></h3>
       </div>} eventKey={2}>
+        <BlockEx header={<h3>Seminář se věnuje tématům:  </h3>}>
+          <ul className='fa-ul'>
+            <LiFile>vymezení mentoringu ve vzdělávání</LiFile>
+            <LiFile>etika v práci mentora</LiFile>
+            <LiFile>základní principy práce interního mentora</LiFile>
+            <LiFile>Součástí semináře jsou ukázky vedení rozhovorů s klientem v jednotlivých fázích</LiFile>
+            <LiFile>mentorského procesu.</LiFile>
+          </ul>
+        </BlockEx>
         <BlockEx header={<h3>Potřebné šablony: </h3>}>
           <div>
-            <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_32_hodin} varianta <b>d.
+            <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_32_hodin}
+              varianta <b>d.
               mentoring</b>
             </p>
           </div>
@@ -178,9 +213,23 @@
       <Panel collapsible bsStyle="success" header={<div className='course-header'>
         <h3><Label bsStyle="warning">56</Label>  <span style={headerCss}>Mentoring - 56 hodinový kurz </span></h3>
       </div>} eventKey={2}>
+        <BlockEx header={<h3>Seminář se věnuje tématům:  </h3>}>
+          <ul className='fa-ul'>
+            <LiFile>vymezení mentoringu ve vzdělávání</LiFile>
+            <LiFile> etika v práci mentora, etické kodexy ACF a EMCC</LiFile>
+            <LiFile> základní principy práce interního mentora</LiFile>
+            <LiFile> základy práce s klientem</LiFile>
+            <LiFile> hlavní kompetence mentora</LiFile>
+            <LiFile> stanovování potřeb klienta plánování mentorského procesu</LiFile>
+            <LiFile> osobnostní typy z hlediska mentora a z hlediska klienta</LiFile>
+            <LiFile> poskytování zpětné vazy klientovi</LiFile>
+            <LiFile>Součástí semináře jsou základní nácviky vedení rozhovorů s klientem v jednotlivých fázích mentorského procesu, rozbory pozorování, výcvik v poskytování zpětné vazby.</LiFile>
+          </ul>
+        </BlockEx>
         <BlockEx header={<h3>Potřebné šablony: </h3>}>
           <div>
-            <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_56_hodin} varianta <b>d.
+            <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_56_hodin}
+              varianta <b>d.
               mentoring</b>
             </p>
           </div>
@@ -188,7 +237,86 @@
       </Panel>
 
     </Block>
-  </Page>
+
+    <Block gray>
+      <h2 className='text-right'>MŠ Kurzy</h2>
+
+      <Panel collapsible bsStyle="success" header={<div className='course-header'>
+        <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>Inkluze - 16 hodinový kurz</span></h3>
+      </div>} eventKey={2}>
+        <BlockEx>
+          Nabízíme více 16 hodinových kurzů.
+          Každý kurz obsahuje několik témat ze seznamu <i>Obsah kurzů</i> výše na této stránce.
+          Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
+        </BlockEx>
+        <BlockEx>
+          <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
+            Každý účastník tohoto kurzu se musí účastnit ještě další vzdělávací akce v rozsahu minimálně 8 hodin.
+            Viz {popups.bagatelni_podpora}.
+          </div>
+        </BlockEx>
+        <BlockEx header={<h3>Potřebné šablony: </h3>}>
+          <div>
+            <p>Pro každého učitele je potřeba objednat šablonu {popups.ms_DVPP_16_hodin}varianta <b>e.
+              inkluze</b>
+            </p>
+          </div>
+        </BlockEx>
+      </Panel>
+
+
+      <Panel collapsible bsStyle="success" header={<div className='course-header'>
+        <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>Čtenářská pregramotnost - 16 hodinový kurz</span></h3>
+      </div>} eventKey={2}>
+        <BlockEx header={<h3>Seminář se věnuje tématům:  </h3>}>
+          <ul className='fa-ul'>
+            <LiFile>předškolní období a vnitřní motivace ke čtení, budování si vztahu ke knihám a porozumění čteného textu</LiFile>
+            <LiFile>předpoklady pro čtení – genetické předpoklady, percepčně-kognitivní zralost, zralost nervové soustavy, podnětné prostředí </LiFile>
+            <LiFile>činnosti a hry pro rozvoj zrakového a sluchového vnímání</LiFile>
+            <LiFile>rozvoj představivosti a fantazie z hlediska důležitosti pro rozvoj předčtenářské gramotnosti</LiFile>
+            <LiFile>rozvoj myšlení – vývoj a úrovně myšlení – předřečové myšlení, předpojmové myšlení, pojmové myšlení, analýza, syntéza, srovnávání, zobecňování</LiFile>
+            <LiFile>vývoj a rozvoj řeči a komunikačních schopností, slovní zásoba, znalost významu slov</LiFile>
+          </ul>
+        </BlockEx>
+        <BlockEx header={<h3>Potřebné šablony: </h3>}>
+          <div>
+            <p>Pro každého učitele je potřeba objednat šablonu {popups.ms_DVPP_16_hodin}varianta <b>a.
+              čtenářská pregramotnost</b>
+            </p>
+          </div>
+        </BlockEx>
+      </Panel>
+
+      <Panel collapsible bsStyle="success" header={<div className='course-header'>
+        <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>Matematická pregramotnost - 16 hodinový kurz</span></h3>
+      </div>} eventKey={2}>
+        <BlockEx header={<h3>Seminář se věnuje tématům:  </h3>}>
+          <ul className='fa-ul'>
+            <LiFile>cíle předmatematické výchovy, příprava na matematiku</LiFile>
+            <LiFile>příprava dítěte na zpracování informací v zadání slovní úlohy, rozvoj řeči, komunikace,  paměti,  představ, prostorového vnímání</LiFile>
+            <LiFile>aktivity spojené s porovnáváním – rozlišovací schopnosti</LiFile>
+            <LiFile>aktivity spojené s přiřazováním, hry, orientace v prostoru</LiFile>
+            <LiFile>typy třídění – podle druhu, barvy, velikosti, tvaru</LiFile>
+            <LiFile>řazení a uspořádání, vzájemné postavení objektů</LiFile>
+            <LiFile>počet – určování počtu, počítání po jedné, určování počtu objektů na první pohled</LiFile>
+            <LiFile>nezávislost počtu objektů na velikosti, barvě, vzájemného postavení, vzdálenosti</LiFile>
+          </ul>
+        </BlockEx>
+        <BlockEx header={<h3>Potřebné šablony: </h3>}>
+          <div>
+            <p>Pro každého učitele je potřeba objednat šablonu {popups.ms_DVPP_16_hodin}varianta <b>b.
+              matematická pregramotnost</b>
+            </p>
+          </div>
+        </BlockEx>
+      </Panel>
+
+
+
+    </Block>
+
+
+  </Page >
 </div >;
 
 
@@ -220,11 +348,11 @@ class KurzyForm extends React.Component<{}, IKuryFormFormStatus> {
       </div>}>
         <Row>
           <Col md={6}>
-            <FormGroup controlId="email" validationState={this.getValidationState() } >
+            <FormGroup controlId="email" validationState={this.getValidationState()} >
               <ControlLabel>Vyplňte buďto váš email...</ControlLabel>
               <FormControl value={this.state.email} placeholder="Napište váš email" onChange={(e: any) => { this.state.email = e.target.value; this.forceUpdate(); } } />
             </FormGroup>
-            <hr/>
+            <hr />
             {/*
             <FormGroup controlId="teachers" validationState={this.getValidationState() } >
               <ControlLabel>Vyplňte buďto vaše IČO...</ControlLabel>
@@ -233,11 +361,11 @@ class KurzyForm extends React.Component<{}, IKuryFormFormStatus> {
             <hr/>*/}
           </Col>
           <Col md={6}>
-            <FormGroup controlId="tel" validationState={this.getValidationState() } >
+            <FormGroup controlId="tel" validationState={this.getValidationState()} >
               <ControlLabel>...nebo vaše telefonní číslo</ControlLabel>
               <FormControl value={this.state.phone} placeholder="Napište vaše telefonní číslo" onChange={(e: any) => { this.state.phone = e.target.value; this.forceUpdate(); } } />
             </FormGroup>
-            <hr/>
+            <hr />
             {/*
             <FormGroup controlId="teachers" validationState={this.getValidationState() } >
               <ControlLabel>...nebo vaše RED-IZO</ControlLabel>
@@ -263,20 +391,20 @@ class KurzyForm extends React.Component<{}, IKuryFormFormStatus> {
         </Row>
         <Row>
           <Col md={3}>
-            <FormGroup controlId="teachers" validationState={this.getValidationState() } >
+            <FormGroup controlId="teachers" validationState={this.getValidationState()} >
               <ControlLabel>Počet učitelů v kurzu: </ControlLabel>
               <FormControl value={this.state.teachers} placeholder="Napište počet učitelů" onChange={(e: any) => { this.state.teachers = e.target.value; this.forceUpdate(); } } />
             </FormGroup>
           </Col>
           <Col md={9}>
-            <FormGroup controlId="teachers" validationState={this.getValidationState() } >
+            <FormGroup controlId="teachers" validationState={this.getValidationState()} >
               <ControlLabel>Upřesnění poptávky nebo dotaz</ControlLabel>
               <FormControl componentClass="textarea" rows={3} value={this.state.poznamka} placeholder="Napište upřesnění poptávky nebo dotaz" onChange={(e: any) => { this.state.poznamka = e.target.value; this.forceUpdate(); } } />
             </FormGroup>
           </Col>
         </Row>
-        <hr/>
-        <Button bsStyle='success' onClick={() => services.emailer.sendEMail({ from: '"Inkluze poptávka"<poptavka@langmaster.cz>', to: 'projekt@langmaster.cz', subject: 'Inkluze poptávka', body: React.createElement<IKuryFormFormStatus>(emailTemplate, this.state) }, () => alert('Děkujeme za zaslání poptávky')) }>Poslat poptávku</Button>
+        <hr />
+        <Button bsStyle='success' onClick={() => services.emailer.sendEMail({ from: '"Inkluze poptávka"<poptavka@langmaster.cz>', to: 'projekt@langmaster.cz', subject: 'Inkluze poptávka', body: React.createElement<IKuryFormFormStatus>(emailTemplate, this.state) }, () => alert('Děkujeme za zaslání poptávky'))}>Poslat poptávku</Button>
       </Panel>
     </div>;
   }
