@@ -31,7 +31,7 @@
   export function navigateUrl<T>(node: site.INode, par?: T) { router.navigateUrl({ storeId: node.path, par: par }); }
   export function doNavigate<T>(node: site.INode, ev?: React.SyntheticEvent, par?: T) { router.doNavigate({ storeId: node.path, par: par }, ev); }
   export function doNavigateTag<T>(node: site.INode, ev?: React.SyntheticEvent, par?: T): JSX.Element {
-    return <a href="#" onClick={ev => doNavigate(node, ev, par) }>{node.title}</a>;
+    return <a href="#" key={node.path} onClick={ev => doNavigate(node, ev, par) }>{node.title}</a>;
   }
 
   export function createElement<P>(type: React.ComponentClass<P> | React.SFC<P>, routePar, props: P & React.Attributes, ...children: React.ReactNode[]): React.ReactElement<P> {

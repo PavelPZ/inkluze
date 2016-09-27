@@ -4,7 +4,7 @@
   var noBreadcrumb = true; //bcItems.length == 0;
   var bc = noBreadcrumb ? null : <div className="container">
     <ol className="breadcrumb">
-      {bcItems.map(b => <li><a href="#" onClick={ev => sitemapRouter.doNavigate(b, ev)}>Home</a></li>)}
+      {bcItems.map(b => <li key={b.path}><a href="#" onClick={ev => sitemapRouter.doNavigate(b, ev)}>Home</a></li>)}
       <li className="active">ctx.site.brTitle ? ctx.site.brTitle : ctx.site.title</li>  
     </ol>
     {/*
@@ -21,7 +21,7 @@
   function nodeList(nds: Array<site.INode>): Array<JSX.Element> {
     var res: Array<JSX.Element> = [];
     nds.forEach(n => {
-      res.push(sitemapRouter.doNavigateTag(n)); res.push(<br/>);
+      res.push(sitemapRouter.doNavigateTag(n)); res.push(<br key={'br-' + n.path}/>);
     });
     return res;
   }

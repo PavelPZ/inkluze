@@ -59,7 +59,7 @@
             Viz {popups.bagatelni_podpora}.
           </div>
         </BlockEx>
-        <BlockEx header={<h3>Potřebné šablony: </h3>}>
+        <BlockEx header="Potřebné šablony: ">
           <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_sbor_8_hodin}</p>
         </BlockEx>
       </Panel>
@@ -78,7 +78,7 @@
             Viz {popups.bagatelni_podpora}.
           </div>
         </BlockEx>
-        <BlockEx header={<h3>Potřebné šablony: </h3>}>
+        <BlockEx header="Potřebné šablony: ">
           <div>
             <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_16_hodin}varianta <b>e.
               inkluze</b>
@@ -103,7 +103,7 @@
             </ul>
           </div>
         </BlockEx>
-        <BlockEx header={<h3>Potřebné šablony: </h3>}>
+        <BlockEx header="Potřebné šablony: ">
           <div>
             <p>
               Pro každého učitele je potřeba objednat šablonu  {popups.zs_DVPP_inkluze_32_hodin}
@@ -121,7 +121,7 @@
             24 hodinová délka kurzu je minimální délka, povolená v podmínkách výzvy, viz {popups.bagatelni_podpora}.
           </div>
         </BlockEx>
-        <BlockEx header={<h3>Potřebné šablony: </h3>}>
+        <BlockEx header="Potřebné šablony: ">
           <div>
             Pro každého učitele je potřeba objednat tyto šablony:
             <ul className='fa-ul'>
@@ -142,7 +142,7 @@
       <Panel collapsible bsStyle="success" header={<div className='course-header'>
         <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>Čtenářská gramotnost - 16 hodinový kurz</span></h3>
       </div>} eventKey={2}>
-        <BlockEx header={<h3>Seminář se věnuje tématům:  </h3>}>
+        <BlockEx header="Seminář se věnuje tématům:  ">
           <ul className='fa-ul'>
             <LiFile>seznámení s problematikou čtenářské gramotnosti</LiFile>
             <LiFile>  čtení s porozuměním</LiFile>
@@ -154,7 +154,7 @@
             <LiFile> zkušenost zprostředkovaného učení </LiFile>
           </ul>
         </BlockEx>
-        <BlockEx header={<h3>Potřebné šablony: </h3>}>
+        <BlockEx header="Potřebné šablony: ">
           <div>
             <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_16_hodin}varianta <b>a.
               čtenářská gramotnost</b>
@@ -166,7 +166,7 @@
       <Panel collapsible bsStyle="success" header={<div className='course-header'>
         <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>Matematická gramotnost - 16 hodinový kurz</span></h3>
       </div>} eventKey={2}>
-        <BlockEx header={<h3>Seminář se věnuje tématům:  </h3>}>
+        <BlockEx header="Seminář se věnuje tématům:  ">
           <ul className='fa-ul'>
             <LiFile>vymezení pojmu matematická gramotnost </LiFile>
             <LiFile> praktické rady jak a kde během výuky rozvíjet matematickou gramotnost</LiFile>
@@ -179,7 +179,7 @@
             <LiFile> schopnost matematizovat reálné situace</LiFile>
           </ul>
         </BlockEx>
-        <BlockEx header={<h3>Potřebné šablony: </h3>}>
+        <BlockEx header="Potřebné šablony: ">
           <div>
             <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_16_hodin}varianta <b>b.
               matematická gramotnost</b>
@@ -191,7 +191,7 @@
       <Panel collapsible bsStyle="success" header={<div className='course-header'>
         <h3><Label bsStyle="warning">32</Label>  <span style={headerCss}>Mentoring - 32 hodinový kurz</span></h3>
       </div>} eventKey={2}>
-        <BlockEx header={<h3>Seminář se věnuje tématům:  </h3>}>
+        <BlockEx header="Seminář se věnuje tématům:  ">
           <ul className='fa-ul'>
             <LiFile>vymezení mentoringu ve vzdělávání</LiFile>
             <LiFile>etika v práci mentora</LiFile>
@@ -199,7 +199,7 @@
           </ul>
           Součástí semináře jsou ukázky vedení rozhovorů s klientem v jednotlivých fázích mentorského procesu.
         </BlockEx>
-        <BlockEx header={<h3>Potřebné šablony: </h3>}>
+        <BlockEx header="Potřebné šablony: ">
           <div>
             <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_32_hodin}
               varianta <b>d.
@@ -212,7 +212,7 @@
       <Panel collapsible bsStyle="success" header={<div className='course-header'>
         <h3><Label bsStyle="warning">56</Label>  <span style={headerCss}>Mentoring - 56 hodinový kurz </span></h3>
       </div>} eventKey={2}>
-        <BlockEx header={<h3>Seminář se věnuje tématům:  </h3>}>
+        <BlockEx header="Seminář se věnuje tématům:  ">
           <ul className='fa-ul'>
             <LiFile>vymezení mentoringu ve vzdělávání</LiFile>
             <LiFile> etika v práci mentora, etické kodexy ACF a EMCC</LiFile>
@@ -225,7 +225,7 @@
           </ul>
           Součástí semináře jsou základní nácviky vedení rozhovorů s klientem v jednotlivých fázích mentorského procesu, rozbory pozorování, výcvik v poskytování zpětné vazby.
         </BlockEx>
-        <BlockEx header={<h3>Potřebné šablony: </h3>}>
+        <BlockEx header="Potřebné šablony: ">
           <div>
             <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_56_hodin}
               varianta <b>d.
@@ -254,7 +254,7 @@
             Viz {popups.bagatelni_podpora}.
           </div>
         </BlockEx>
-        <BlockEx header={<h3>Potřebné šablony: </h3>}>
+        <BlockEx header="Potřebné šablony: ">
           <div>
             <p>Pro každého učitele je potřeba objednat šablonu {popups.ms_DVPP_16_hodin}varianta <b>e.
               inkluze</b>
@@ -267,7 +267,7 @@
       <Panel collapsible bsStyle="success" header={<div className='course-header'>
         <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>Čtenářská pregramotnost - 16 hodinový kurz</span></h3>
       </div>} eventKey={2}>
-        <BlockEx header={<h3>Seminář se věnuje tématům:  </h3>}>
+        <BlockEx header="Seminář se věnuje tématům:  ">
           <ul className='fa-ul'>
             <LiFile>předškolní období a vnitřní motivace ke čtení, budování si vztahu ke knihám a porozumění čteného textu</LiFile>
             <LiFile>předpoklady pro čtení – genetické předpoklady, percepčně-kognitivní zralost, zralost nervové soustavy, podnětné prostředí </LiFile>
@@ -277,7 +277,7 @@
             <LiFile>vývoj a rozvoj řeči a komunikačních schopností, slovní zásoba, znalost významu slov</LiFile>
           </ul>
         </BlockEx>
-        <BlockEx header={<h3>Potřebné šablony: </h3>}>
+        <BlockEx header="Potřebné šablony: ">
           <div>
             <p>Pro každého učitele je potřeba objednat šablonu {popups.ms_DVPP_16_hodin}varianta <b>a.
               čtenářská pregramotnost</b>
@@ -289,7 +289,7 @@
       <Panel collapsible bsStyle="success" header={<div className='course-header'>
         <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>Matematická pregramotnost - 16 hodinový kurz</span></h3>
       </div>} eventKey={2}>
-        <BlockEx header={<h3>Seminář se věnuje tématům:  </h3>}>
+        <BlockEx header="Seminář se věnuje tématům:  ">
           <ul className='fa-ul'>
             <LiFile>cíle předmatematické výchovy, příprava na matematiku</LiFile>
             <LiFile>příprava dítěte na zpracování informací v zadání slovní úlohy, rozvoj řeči, komunikace,  paměti,  představ, prostorového vnímání</LiFile>
@@ -301,7 +301,7 @@
             <LiFile>nezávislost počtu objektů na velikosti, barvě, vzájemného postavení, vzdálenosti</LiFile>
           </ul>
         </BlockEx>
-        <BlockEx header={<h3>Potřebné šablony: </h3>}>
+        <BlockEx header="Potřebné šablony: ">
           <div>
             <p>Pro každého učitele je potřeba objednat šablonu {popups.ms_DVPP_16_hodin}varianta <b>b.
               matematická pregramotnost</b>

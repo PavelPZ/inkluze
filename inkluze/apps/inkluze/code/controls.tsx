@@ -21,7 +21,7 @@ interface IBlockExProps extends IBlockProps { header?: string | JSX.Element; }
 const BlockEx: React.StatelessComponent<IBlockExProps> = (props: IBlockExProps) => {
   return React.createElement(Block, props,
     [
-      props.header ? <h2 key={1}>{props.header}</h2> : null,
+      props.header ? <h3 key={1}>{props.header}</h3> : null,
       <Row key={2}>
         <Col mdOffset={2} md={8}>
           {props.children}
