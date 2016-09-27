@@ -2,7 +2,7 @@
   <Page>
     <div>
       <Block blue style={{ paddingBottom: '10px' }}>
-        <h1 className='text-center'><a href={sitemapRouter.navigateUrl(inkluze.root.kurzy) } >Kurzy podle šablon z Výzvy 02_16_022/023</a><br/>od <a href={sitemapRouter.navigateUrl(inkluze.root.lektori) }>zkušených lektorů</a></h1>
+        <h1 className='text-center'><a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.kurzy, ev)} >Kurzy podle šablon z Výzvy 02_16_022/023</a><br />od <a href="#" onClick = {ev => sitemapRouter.doNavigate(inkluze.root.lektori, ev) }>zkušených lektorů</a></h1>
         <div className="text-center">Napište nám na <a href={'mailto:' + infoEmail}>{infoEmail}</a> nebo zavolejte +420 244 460 807</div>
         <Grid style={{ marginTop: '15px' }}>
           <Row>
@@ -76,7 +76,7 @@
       </p>
       <p>
         Naši lektoři mají s DVPP mnohaleté zkušenosti.
-        Více viz stránka  {sitemapRouter.navigateTag(inkluze.root.lektori) }.
+        Více viz stránka  {sitemapRouter.doNavigateTag(inkluze.root.lektori) }.
       </p>
       <p>
         V podmínkách pro využití dotace je stanoveno, že každý učitel, který se v rámci projektu účastní nějakého vzdělávacího kurzu, <b>musí v souhrnu absolvovat alespoň 24 hodin vzdělávání</b>.
@@ -92,7 +92,7 @@
         U kurzu v délce 32 hodin zbude více prostoru na diskusi s učiteli, řešení konkrétních problémů týkajících se dané školy a praktické procvičování získaných znalostí.
       </p>*/}
       <p>
-        Více viz stránka {sitemapRouter.navigateTag(inkluze.root.kurzy) }.
+        Více viz stránka {sitemapRouter.doNavigateTag(inkluze.root.kurzy) }.
       </p>
     </BlockEx>
     {/*<BlockEx header="Inkluze se týká většiny učitelů" gray>
@@ -137,13 +137,13 @@
       </p>
       <h4>Seznámení s pravidly Výzvy</h4>
       <p>
-        Pro vaši rychlou orientaci jsme popsali důležité aspekty Výzvy tak, abyste byli schopni o dotaci zažádat a využít ji dle pravidel EU (viz stránka {sitemapRouter.navigateTag(inkluze.root.pravidla) }).
+        Pro vaši rychlou orientaci jsme popsali důležité aspekty Výzvy tak, abyste byli schopni o dotaci zažádat a využít ji dle pravidel EU (viz stránka {sitemapRouter.doNavigateTag(inkluze.root.pravidla) }).
       </p>
       <p>
-        V případě nejasností rádi zodpovíme vaše otázky na stránce {sitemapRouter.navigateTag(inkluze.root.q_and_a) }.
+        V případě nejasností rádi zodpovíme vaše otázky na stránce {sitemapRouter.doNavigateTag(inkluze.root.q_and_a) }.
       </p>
       <h4>Další služby</h4>
-      Pokud budete potřebovat, pomůžeme vám s vyplněním žádosti nebo s kompletním projektovým řízením (zasílání průběžných zpráv, závěrečné zprávy apod.), viz stránka {sitemapRouter.navigateTag(inkluze.root.dalsi) }.
+      Pokud budete potřebovat, pomůžeme vám s vyplněním žádosti nebo s kompletním projektovým řízením (zasílání průběžných zpráv, závěrečné zprávy apod.), viz stránka {sitemapRouter.doNavigateTag(inkluze.root.dalsi) }.
     </BlockEx>
   </Page>
 </div >;

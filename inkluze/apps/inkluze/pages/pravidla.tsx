@@ -77,7 +77,7 @@
       </Alert>
       <h4>Pomoc s vyplněním žádosti</h4>
       <p>
-        Tuto pomoc nabízíme na stránce {sitemapRouter.navigateTag(inkluze.root.dalsi) }
+        Tuto pomoc nabízíme na stránce {sitemapRouter.doNavigateTag(inkluze.root.dalsi) }
       </p>
     </BlockEx>
     <BlockEx header="Povinná šablona, související s vyplněním dotazníku MAP" gray>
@@ -149,7 +149,7 @@
         32 hodin.
       </p>
       <p>
-        Více viz {sitemapRouter.navigateTag(inkluze.root.kurzy) }
+        Více viz {sitemapRouter.doNavigateTag(inkluze.root.kurzy) }
       </p>
     </BlockEx>
   </Page>

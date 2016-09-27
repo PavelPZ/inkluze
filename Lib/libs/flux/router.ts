@@ -4,10 +4,10 @@
   export var getStartRoute: () => TRouteActionPar; 
 
   //boot routeru
-  export function bootApp(): TRouteActionPar { rootRouteBind(decodeFullUrl(), false); return route; }
+  export function bootApp(): TRouteActionPar { return rootRouteBind(decodeFullUrl(), false); }
 
   //navigace na route
-  export function navigate(routes: TRouteActionPar) { return rootRouteBind(routes, true); }
+  export function doNavigate(routes: TRouteActionPar, ev?: React.SyntheticEvent) { if (ev) ev.preventDefault(); return rootRouteBind(routes, true); }
   export function navigateUrl(routes: TRouteActionPar): string { return encodeFullUrl(routes); }
 
   //route changed notification
@@ -29,13 +29,14 @@
 
   //***************** refresh view on route change
   //aktualni route objekt
-  var route: TRouteActionPar;
+  //var route: TRouteActionPar;
 
-  function rootRouteBind(routes: TRouteActionPar /*null => start route*/, withPustState: boolean) {
+  function rootRouteBind(routes: TRouteActionPar /*null => start route*/, withPustState: boolean): TRouteActionPar {
     if (!routes) routes = getStartRoute ? getStartRoute() : null; if (!routes) throw new lib.Exception(`missing routes`);
-    route = routes;
+    //route = routes;
     if (onRouteChanged) onRouteChanged(routes);
-    if (withPustState) pushState();
+    if (withPustState) pushState(routes);
+    return routes;
   }
 
   //***************** POPSTATE EVENT
@@ -45,7 +46,7 @@
   });
 
   //modify browser URL
-  function pushState() {
+  function pushState(route: TRouteActionPar) {
     let urlStr = encodeFullUrl(route);
     console.log(`> pushState: ${urlStr}`);
     history.pushState(null, null, urlStr);

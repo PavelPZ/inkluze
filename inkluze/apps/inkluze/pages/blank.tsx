@@ -3,7 +3,7 @@
   return <div>
     <Page>
       <Block>
-        {!ctx.site.childs ? null : ctx.site.childs.map(ch => <p key={childIdx++}><a href={sitemapRouter.navigateUrl(ch) }>{ch.title}</a></p>) }
+        {!ctx.site.childs ? null : ctx.site.childs.map(ch => <p key={childIdx++}><a href="#" onClick={ev => sitemapRouter.doNavigate(ch, ev) }>{ch.title}</a></p>)}
       </Block>
     </Page>
   </div>;

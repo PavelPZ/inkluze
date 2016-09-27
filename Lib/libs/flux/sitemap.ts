@@ -55,7 +55,7 @@
   }
   export var tabs: ITabs;
 
-  export var getBlankPage: (routePar) => JSX.Element;;
+  export var getBlankPage: (routePar) => JSX.Element;
 
   //*********** Private
 

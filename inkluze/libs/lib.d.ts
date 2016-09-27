@@ -55,7 +55,7 @@ declare var ReactDOMServer: IDOMServer;
 declare namespace router {
     var getStartRoute: () => TRouteActionPar;
     function bootApp(): TRouteActionPar;
-    function navigate(routes: TRouteActionPar): void;
+    function doNavigate(routes: TRouteActionPar, ev?: React.SyntheticEvent): TRouteActionPar;
     function navigateUrl(routes: TRouteActionPar): string;
     var onRouteChanged: (route: TRouteActionPar) => void;
     var $isHashRouter: boolean;
@@ -106,8 +106,9 @@ declare namespace sitemapRouter {
         getChildContext(): IContext;
         static childContextTypes: React.ValidationMap<any>;
     }
-    function navigateUrl<T>(node: site.INode, par?: T): string;
-    function navigateTag<T>(node: site.INode, par?: T): JSX.Element;
+    function navigateUrl<T>(node: site.INode, par?: T): void;
+    function doNavigate<T>(node: site.INode, ev?: React.SyntheticEvent, par?: T): void;
+    function doNavigateTag<T>(node: site.INode, ev?: React.SyntheticEvent, par?: T): JSX.Element;
     function createElement<P>(type: React.ComponentClass<P> | React.SFC<P>, routePar: any, props: P & React.Attributes, ...children: React.ReactNode[]): React.ReactElement<P>;
     function bootApp(content: HTMLElement, sitemapCreator: lib.TCallback): void;
     interface IContext {

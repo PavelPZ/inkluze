@@ -1,19 +1,20 @@
 {
+
+  //"include": [ "apps/inkluze/code/app.tsx" ],
+
   "compileOnSave": true,
   "compilerOptions": {
     "target": "es5",
-    //"module": "amd",
     "module": "none",
     //"moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     //"noEmitHelpers": true,
-    //"declaration": true,
-    //"outFile": "react-framework.js",
     //"strictNullChecks": true,
     "outFile": "apps/inkluze.js",
     "inlineSourceMap": true,
     "inlineSources": true,
     "jsx": "react"
   }
+
 }

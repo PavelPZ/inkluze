@@ -3,10 +3,16 @@
   var bcItems = site.nodeParents(ctx.site, true);
   var noBreadcrumb = true; //bcItems.length == 0;
   var bc = noBreadcrumb ? null : <div className="container">
+    <ol className="breadcrumb">
+      {bcItems.map(b => <li><a href="#" onClick={ev => sitemapRouter.doNavigate(b, ev)}>Home</a></li>)}
+      <li className="active">ctx.site.brTitle ? ctx.site.brTitle : ctx.site.title</li>  
+    </ol>
+    {/*
     <Breadcrumb>
-      {bcItems.map(b => <Breadcrumb.Item href={sitemapRouter.navigateUrl(b) } key={b.path}>{b.brTitle ? b.brTitle : b.title}</Breadcrumb.Item>) }
+      {bcItems.map(b => <Breadcrumb.Item href="#" key={b.path}>{b.brTitle ? b.brTitle : b.title}</Breadcrumb.Item>)  
       <Breadcrumb.Item href="#" active key={ctx.site.path}>{ctx.site.brTitle ? ctx.site.brTitle : ctx.site.title}</Breadcrumb.Item>
-    </Breadcrumb>
+    </Breadcrumb> */}
+    {/*{sitemapRouter.navigateUrl(b) }*/}
   </div>;
   //all nodes
   let nodes: Array<site.INode> = [];
@@ -15,7 +21,7 @@
   function nodeList(nds: Array<site.INode>): Array<JSX.Element> {
     var res: Array<JSX.Element> = [];
     nds.forEach(n => {
-      res.push(sitemapRouter.navigateTag(n)); res.push(<br/>);
+      res.push(sitemapRouter.doNavigateTag(n)); res.push(<br/>);
     });
     return res;
   }
@@ -46,7 +52,7 @@
     {bc}
     <div className="container">
       <Nav bsStyle="tabs" activeKey={ctx.site.tab.idx}>
-        {site.tabs.$childs.map(t => <NavItem eventKey={t.idx} href={sitemapRouter.navigateUrl(t.rootNode) } key={t.idx}>{t.title}</NavItem>) }
+        {site.tabs.$childs.map(t => <NavItem eventKey={t.idx} href="#" onClick = {ev => sitemapRouter.doNavigate(t.rootNode, ev)} key={t.idx}>{t.title}</NavItem>)}
       </Nav>
     </div>
     {ctx.site.noTitle ? null :
