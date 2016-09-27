@@ -5,7 +5,7 @@
   var bc = noBreadcrumb ? null : <div className="container">
     <ol className="breadcrumb">
       {bcItems.map(b => <li key={b.path}><a href="#" onClick={ev => sitemapRouter.doNavigate(b, ev)}>Home</a></li>)}
-      <li className="active">ctx.site.brTitle ? ctx.site.brTitle : ctx.site.title</li>  
+      <li className="active">ctx.site.brTitle ? ctx.site.brTitle : ctx.site.title</li>
     </ol>
     {/*
     <Breadcrumb>
@@ -21,7 +21,7 @@
   function nodeList(nds: Array<site.INode>): Array<JSX.Element> {
     var res: Array<JSX.Element> = [];
     nds.forEach(n => {
-      res.push(sitemapRouter.doNavigateTag(n)); res.push(<br key={'br-' + n.path}/>);
+      res.push(sitemapRouter.doNavigateTag(n)); res.push(<br key={'br-' + n.path} />);
     });
     return res;
   }
@@ -30,6 +30,7 @@
   //tabs
   //markup
   return <div>
+    {/*
     <Navbar inverse={true} className="topbar" style={noBreadcrumb ? null : { marginBottom: 0 }} >
       <Navbar.Header>
         <Navbar.Brand>
@@ -37,22 +38,38 @@
         </Navbar.Brand>
       </Navbar.Header>
       <Nav>
-        <h4 style={{ fontWeight: 'bold' }} className="navbar-text">{site.root.title}</h4>
+        <li><h4 style={{ fontWeight: 'bold' }} className="navbar-text">{site.root.title}</h4></li>
       </Nav>
       <Nav pullRight>
-        <h4 className="navbar-text" style={{ margin: 5 }}><span style={{ color: 'white' }}>tel.244 460 807</span><br/><a href={'mailto:' + infoEmail} className="navbar-link" style={{ color: '#9cdeff' }}>{infoEmail}</a></h4>
+        <li><h4 className="navbar-text" style={{ margin: 5 }}><span style={{ color: 'white' }}>tel.244 460 807</span><br/><a href={'mailto:' + infoEmail} className="navbar-link" style={{ color: '#9cdeff' }}>{infoEmail}</a></h4></li>
       </Nav>
     </Navbar>
-    {/*<div className="container alert alert-danger text-center">
-      <h4>
-        Pracovní verze webu.
-        Tento web bude spouštěn 5. 9. 2016.
-      </h4>
-    </div>*/}
+    */}
+    <nav className="topbar navbar navbar-inverse">
+      <div className="container">
+        <div className="navbar-header">
+          <a href="http://localhost:49803/index.html" className={classNames('navbar-brand', 'lm-logo', 'lm-logo-black' + (ctx.site.largeLogo ? '' : '-small'))}></a>
+        </div>
+        <ul className="nav navbar-nav">
+          <li>
+            <h4 className="navbar-text" style={{ fontWeight: "bold" }}>{site.root.title}</h4>
+          </li>
+        </ul>
+        <ul className="nav navbar-nav navbar-right">
+          <li>
+            <h4 className="navbar-text" style={{ margin: 5 }}>
+              <span style={{ color: 'white' }}>tel.244 460 807</span><br />
+              <a href="mailto:projekt@langmaster.cz" className="navbar-link" style={{ color: '#9cdeff' }}>{infoEmail}</a>
+            </h4>
+          </li>
+        </ul>
+      </div>
+
+    </nav>
     {bc}
     <div className="container">
       <Nav bsStyle="tabs" activeKey={ctx.site.tab.idx}>
-        {site.tabs.$childs.map(t => <NavItem eventKey={t.idx} href="#" onClick = {ev => sitemapRouter.doNavigate(t.rootNode, ev)} key={t.idx}>{t.title}</NavItem>)}
+        {site.tabs.$childs.map(t => <NavItem eventKey={t.idx} href="#" onClick={ev => sitemapRouter.doNavigate(t.rootNode, ev)} key={t.idx}>{t.title}</NavItem>)}
       </Nav>
     </div>
     {ctx.site.noTitle ? null :
@@ -67,19 +84,19 @@
       <Grid>
         <Row>
           <Col md={4}>
-            <b>Přehled stránek: </b><br/>
+            <b>Přehled stránek: </b><br />
             {left}
           </Col>
           <Col md={4}>
             {right}
           </Col>
           <Col md={4}>
-            <b>Kontakt: </b><br/>
-            LANGMaster.com, s.r.o.<br/>
-            Branická 659/107<br/>
-            147 00 Praha 4<br/>
-            <a href={'mailto:' + infoEmail}>{infoEmail}</a><br/>
-            +420 244 460 807<br/>
+            <b>Kontakt: </b><br />
+            LANGMaster.com, s.r.o.<br />
+            Branická 659/107<br />
+            147 00 Praha 4<br />
+            <a href={'mailto:' + infoEmail}>{infoEmail}</a><br />
+            +420 244 460 807<br />
           </Col>
         </Row>
       </Grid>

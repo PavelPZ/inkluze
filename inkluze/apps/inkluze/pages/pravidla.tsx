@@ -14,34 +14,33 @@
     </BlockEx>
     <BlockEx header="Kdo je oprávněný žadatel o dotaci?">
       <p>
-        {popups.zadavatel} o dotaci jsou ZŠ a MŠ z celé ČR, tedy i z Prahy (pražským školám byly doposud dotace EU odepřeny).
+        {popups.zadavatel}
+        o dotaci jsou ZŠ a MŠ z celé ČR, tedy i z Prahy (pražským školám byly doposud dotace EU odepřeny).
       </p>
     </BlockEx>
     <BlockEx header="Jaká je výše dotace?" gray>
-      <p>
-        Výše školou požadované dotace je určena skladbou a počtem vybraných šablon.
+      Výše školou požadované dotace je určena skladbou a počtem vybraných šablon.
         Tato výše však musí splňovat následující minimální a maximální podmínky:
         <ul>
-          <li>
-            Minimální výše dotace na vámi připravený projekt je stanovena na 200 000 Kč. 
+        <li>
+          Minimální výše dotace na vámi připravený projekt je stanovena na 200 000 Kč.
           </li>
-          <li>
-            Maximální výše dotace na vámi připravený projekt se spočítá podle vzorce: <br/>
-            200 000 Kč + počet dětí/žáků školy x 2 200 Kč.
+        <li>
+          Maximální výše dotace na vámi připravený projekt se spočítá podle vzorce: <br />
+          200 000 Kč + počet dětí/žáků školy x 2 200 Kč.
             Tato maximální částka ale nesmí  přesáhnout 5 mil.
-            Kč.<br/>
-            Více viz {popups.rozpocet}
-          </li>
-        </ul>
-      </p>
+            Kč.<br />
+          Více viz {popups.rozpocet}
+        </li>
+      </ul>
       <p>
-        Pro optimální výběr skladby a počtu šablon použijte {lib.navigateExt('http://www.msmt.cz/uploads/OP_VVV/Vyzva_zjednodusene_projekty_22_a23/Kalkulacka_indikatoru_final.xlsx', 'speciální kalkulačku', true) }.
+        Pro optimální výběr skladby a počtu šablon použijte {lib.navigateExt('http://www.msmt.cz/uploads/OP_VVV/Vyzva_zjednodusene_projekty_22_a23/Kalkulacka_indikatoru_final.xlsx', 'speciální kalkulačku', true)}.
       </p>
 
       <h4>Jak určit „počet žáků školy“?</h4>
       <ol>
         <li>U žádosti o dotaci podané do 31.12.2016, budete vycházet z počtu žáků k 30.9.2015.
-          Tento počet musí odpovídat  {lib.navigateExt('http://www.msmt.cz/uploads/OP_VVV/Vyzva_zjednodusene_projekty_22_a23/Seznamy_MS_ZS_k_30_09_2015.xlsx', 'oficiálním údajům na stránce MŠMT', true) }.</li>
+          Tento počet musí odpovídat  {lib.navigateExt('http://www.msmt.cz/uploads/OP_VVV/Vyzva_zjednodusene_projekty_22_a23/Seznamy_MS_ZS_k_30_09_2015.xlsx', 'oficiálním údajům na stránce MŠMT', true)}.</li>
         <li>U žádosti o dotaci podané po 1.1.2017, budete vycházet z  počtu žáků k 30.9.2016, který bude na webových stránkách MŠMT aktualizován v prosinci 2016.</li>
       </ol>
       <Alert type="Poznámka">
@@ -59,7 +58,7 @@
     </BlockEx>
     <BlockEx header="Jak zažádat o dotaci" >
       <p>
-        Škola si vybere, o které šablony má zájem, a elektronicky vyplní {popups.zadost_o_dotaci} {lib.navigateExt('https://mseu.mssf.cz/', 'v systému IS KP14+', true) }, více informací viz {lib.navigateExt('http://www.msmt.cz/strukturalni-fondy-1/zadost-o-podporu', 'žádost o podporu', true) }.
+        Škola si vybere, o které šablony má zájem, a elektronicky vyplní {popups.zadost_o_dotaci} {lib.navigateExt('https://mseu.mssf.cz/', 'v systému IS KP14+', true)}, více informací viz {lib.navigateExt('http://www.msmt.cz/strukturalni-fondy-1/zadost-o-podporu', 'žádost o podporu', true)}.
         K vyplnění je nutné mít elektronický podpis anebo nahrát do systému oskenovanou plnou moc.
       </p>
       <p>
@@ -77,7 +76,7 @@
       </Alert>
       <h4>Pomoc s vyplněním žádosti</h4>
       <p>
-        Tuto pomoc nabízíme na stránce {sitemapRouter.doNavigateTag(inkluze.root.dalsi) }
+        Tuto pomoc nabízíme na stránce {sitemapRouter.doNavigateTag(inkluze.root.dalsi)}
       </p>
     </BlockEx>
     <BlockEx header="Povinná šablona, související s vyplněním dotazníku MAP" gray>
@@ -94,7 +93,7 @@
         Vyplnění tohoto dotazníku je podmínkou možnosti čerpání dotace ze stávající Výzvy.
       </p>
       <p>
-        Školy, které dotazník nevyplnily, mohou požádat o dodatečné vyplnění dotazníku emailem na {lib.navigateExt('mailto:vyzkum-opvvv@msmt.cz', 'vyzkum-opvvv@msmt.cz') }.
+        Školy, které dotazník nevyplnily, mohou požádat o dodatečné vyplnění dotazníku emailem na {lib.navigateExt('mailto:vyzkum-opvvv@msmt.cz', 'vyzkum-opvvv@msmt.cz')}.
         Nově zřízené školy mohou o vyplnění dotazníku zažádat na stejné emailové adrese nejdříve v prosinci roku 2016.
       </p>
       <h4>Povinná šablona</h4>
@@ -105,7 +104,7 @@
         Více viz {popups.MAP}
       </p>
       <Alert type="Poznámka">
-        Nemůžete-li nalézt podrobné vyhodnocení, které vám MŠMT zaslalo, podívejte se na výsledky na této adrese: {lib.navigateExt('https://sberdat.uiv.cz/login', 'https://sberdat.uiv.cz/login', true) }.
+        Nemůžete-li nalézt podrobné vyhodnocení, které vám MŠMT zaslalo, podívejte se na výsledky na této adrese: {lib.navigateExt('https://sberdat.uiv.cz/login', 'https://sberdat.uiv.cz/login', true)}.
       </Alert>
       <p>
         Na závěr projektu školy vyplní dotazník ještě jednou, aby se dalo zjistit, jaký vliv projekt na školu měl.
@@ -113,7 +112,7 @@
     </BlockEx>
     <BlockEx header="Dotace na personální podporu" >
       <p>
-        {popups.zs_ms_personalni_podpora} jsou vypsány na jednoho pracovníka ve výši 0, 5 úvazku na jeden měsíc.
+        {popups.zs_ms_personalni_podpora}jsou vypsány na jednoho pracovníka ve výši 0, 5 úvazku na jeden měsíc.
         Výjimkou je šablona Sociální pedagog, která je vypsána na 0, 1 úvazku.
         Úvazek nelze dělit mezi více osob.
       </p>
@@ -132,7 +131,7 @@
     </BlockEx>
     <BlockEx header="Dotace na vzdělávání učitelů" gray>
       <p>
-        V rámci dalšího vzdělávání si učitelé mohou vybrat z následujících aktivit: <br/> {popups.ms_rozvoj_pedagogu}<br/>{popups.zs_rozvoj_pedagogu}
+        V rámci dalšího vzdělávání si učitelé mohou vybrat z následujících aktivit: <br /> {popups.ms_rozvoj_pedagogu}<br />{popups.zs_rozvoj_pedagogu}
       </p>
       <p>
         Všechny kurzy musí být akreditované MŠMT.
@@ -149,7 +148,7 @@
         32 hodin.
       </p>
       <p>
-        Více viz {sitemapRouter.doNavigateTag(inkluze.root.kurzy) }
+        Více viz {sitemapRouter.doNavigateTag(inkluze.root.kurzy)}
       </p>
     </BlockEx>
   </Page>

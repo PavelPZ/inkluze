@@ -29,6 +29,7 @@
     <Content Include="externals\bootstrap.css" />
     <Content Include="externals\classnames.js" />
     <Content Include="externals\es6-shim.js" />
+    <Content Include="favicon.ico" />
     <Content Include="libs\lib.js" />
     <Content Include="externals\react-bootstrap.js" />
     <TypeScriptCompile Include="apps\inkluze\pages\onas.tsx" />
@@ -38,6 +39,7 @@
     <Content Include="externals\react.js" />
     <Content Include="index.html" />
     <Content Include="inzerat.txt" />
+    <Content Include="temp.html" />
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
