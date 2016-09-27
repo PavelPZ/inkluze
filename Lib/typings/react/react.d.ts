@@ -1879,7 +1879,7 @@ declare namespace __React {
      */
     zoom?: "auto" | number;
 
-    [propertyName: string]: any;
+    //LM [propertyName: string]: any;
   }
 
   interface HTMLAttributes extends DOMAttributes {

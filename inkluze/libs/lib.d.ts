@@ -1,3 +1,29 @@
+interface IDOMServer {
+    renderToString(element: React.ReactElement<any>): string;
+    renderToStaticMarkup(element: React.ReactElement<any>): string;
+}
+declare var ReactDOMServer: IDOMServer;
+declare const Button: React.ClassicComponentClass<ReactBootstrap.ButtonProps>;
+declare const Navbar: ReactBootstrap.NavbarClass;
+declare const Nav: typeof ReactBootstrap.Nav;
+declare const NavItem: React.ClassicComponentClass<ReactBootstrap.NavItemProps>;
+declare const NavDropdown: typeof ReactBootstrap.NavDropdown;
+declare const MenuItem: typeof ReactBootstrap.MenuItem;
+declare const Breadcrumb: ReactBootstrap.BreadcrumbClass;
+declare const Modal: ReactBootstrap.ModalClass;
+declare const Col: React.ClassicComponentClass<ReactBootstrap.ColProps>;
+declare const Row: React.ClassicComponentClass<ReactBootstrap.RowProps>;
+declare const Grid: React.ClassicComponentClass<ReactBootstrap.GridProps>;
+declare const Clearfix: typeof ReactBootstrap.Clearfix;
+declare const Label: typeof ReactBootstrap.Label;
+declare const Panel: React.ClassicComponentClass<ReactBootstrap.PanelProps>;
+declare const PanelGroup: React.ClassicComponentClass<ReactBootstrap.PanelGroupProps>;
+declare const FormGroup: typeof ReactBootstrap.FormGroup;
+declare const HelpBlock: typeof ReactBootstrap.HelpBlock;
+declare const FormControl: ReactBootstrap.FormControlClass;
+declare const ControlLabel: typeof ReactBootstrap.ControlLabel;
+declare const Accordion: React.ClassicComponentClass<ReactBootstrap.AccordionProps>;
+declare const Radio: typeof ReactBootstrap.Radio;
 declare namespace lib {
     class Exception extends Error {
         constructor(msg: string);
@@ -25,33 +51,62 @@ declare namespace lib {
    * @returns {integer | string}
    */
     function hash(str: string, asString?: boolean, seed?: number): string | number;
+    function camelCaseToDashCase(input: string): string;
+    function dashCaseToCamelCase(input: string): string;
 }
-declare const Button: React.ClassicComponentClass<ReactBootstrap.ButtonProps>;
-declare const Navbar: ReactBootstrap.NavbarClass;
-declare const Nav: typeof ReactBootstrap.Nav;
-declare const NavItem: React.ClassicComponentClass<ReactBootstrap.NavItemProps>;
-declare const NavDropdown: typeof ReactBootstrap.NavDropdown;
-declare const MenuItem: typeof ReactBootstrap.MenuItem;
-declare const Breadcrumb: ReactBootstrap.BreadcrumbClass;
-declare const Modal: ReactBootstrap.ModalClass;
-declare const Col: React.ClassicComponentClass<ReactBootstrap.ColProps>;
-declare const Row: React.ClassicComponentClass<ReactBootstrap.RowProps>;
-declare const Grid: React.ClassicComponentClass<ReactBootstrap.GridProps>;
-declare const Clearfix: typeof ReactBootstrap.Clearfix;
-declare const Label: typeof ReactBootstrap.Label;
-declare const Panel: React.ClassicComponentClass<ReactBootstrap.PanelProps>;
-declare const PanelGroup: React.ClassicComponentClass<ReactBootstrap.PanelGroupProps>;
-declare const FormGroup: typeof ReactBootstrap.FormGroup;
-declare const HelpBlock: typeof ReactBootstrap.HelpBlock;
-declare const FormControl: ReactBootstrap.FormControlClass;
-declare const ControlLabel: typeof ReactBootstrap.ControlLabel;
-declare const Accordion: React.ClassicComponentClass<ReactBootstrap.AccordionProps>;
-declare const Radio: typeof ReactBootstrap.Radio;
-interface IDOMServer {
-    renderToString(element: React.ReactElement<any>): string;
-    renderToStaticMarkup(element: React.ReactElement<any>): string;
+declare enum flex {
+    flex = 0,
+    justifySpaceBetween = 1,
+    justifySpaceAround = 2,
+    justifyEnd = 3,
+    justifyStart = 4,
+    justifyCenter = 5,
+    alignSelfEnd = 6,
+    alignSelfStart = 7,
+    alignSelfAuto = 8,
+    alignSelfCenter = 9,
+    alignSelfBaseline = 10,
+    alignSelfStretch = 11,
+    alignContentEnd = 12,
+    alignContentStart = 13,
+    alignContentCenter = 14,
+    alignContentStretch = 15,
+    alignContentSpaceAround = 16,
+    alignContentSpaceBetween = 17,
+    alignItemsStart = 18,
+    alignItemsEnd = 19,
+    alignItemsCenter = 20,
+    alignItemsBaseline = 21,
+    alignItemsStretch = 22,
+    directionRow = 23,
+    directionRowReverse = 24,
+    directionColumn = 25,
+    directionColumnReverse = 26,
+    wrapNowrap = 27,
+    wrapWrap = 28,
+    wrapWrapReverse = 29,
+    order0 = 30,
+    order1 = 31,
+    order2 = 32,
+    order3 = 33,
+    order4 = 34,
+    order5 = 35,
+    order6 = 36,
+    order7 = 37,
+    order8 = 38,
+    order9 = 39,
+    grow0 = 40,
+    grow1 = 41,
+    grow2 = 42,
+    grow3 = 43,
+    grow4 = 44,
+    grow5 = 45,
+    grow6 = 46,
+    grow7 = 47,
+    grow8 = 48,
+    grow9 = 49,
 }
-declare var ReactDOMServer: IDOMServer;
+declare function flexClass(clss: Array<flex>): string;
 declare namespace router {
     var getStartRoute: () => TRouteActionPar;
     function bootApp(): TRouteActionPar;
@@ -119,50 +174,11 @@ declare namespace sitemapRouter {
         initRoute: router.TRouteActionPar;
     }
 }
-declare namespace validation {
-    interface IValidPars {
-        type: types;
-        mask?: string;
-        minLength?: number;
-        maxLength?: number;
-        min?: number;
-        max?: number;
-        equalToId?: string;
+declare namespace services {
+    interface serviceOUT {
+        error: string;
     }
-    enum types {
-        no = 0,
-        required = 1,
-        email = 2,
-        number = 4,
-        digits = 8,
-        equalTo = 16,
-        stringLength = 32,
-        numberRange = 64,
-        stringMask = 128,
-    }
-    interface IInputState {
-        value: string;
-        blured?: boolean;
-        error?: string;
-    }
-    function validate(validator: IValidPars, st: IInputState): void;
-    var messages: {
-        required: () => string;
-        remote: () => string;
-        email: () => string;
-        url: () => string;
-        date: () => string;
-        dateISO: () => string;
-        number: () => string;
-        digits: () => string;
-        equalTo: () => string;
-        maxlength: (v1: any) => string;
-        minlength: (v1: any) => string;
-        rangelength: (v1: any, v2: any) => string;
-        range: (v1: any, v2: any) => string;
-        max: (v1: any) => string;
-        min: (v1: any) => string;
-    };
+    function callRequest<TIN, TOUT extends serviceOUT>(methodPath: string, inPar: TIN): Promise<TOUT>;
 }
 declare namespace services.emailer {
     interface sendEmailIN {
@@ -175,10 +191,4 @@ declare namespace services.emailer {
         subject: string;
     }
     function sendEMail(email: sendEmailIN, completed: lib.TCallback): void;
-}
-declare namespace services {
-    interface serviceOUT {
-        error: string;
-    }
-    function callRequest<TIN, TOUT extends serviceOUT>(methodPath: string, inPar: TIN): Promise<TOUT>;
 }

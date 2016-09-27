@@ -1,4 +1,23 @@
 {
+  "files": [
+    "typings/es6-shim.d.ts",
+    "typings/react/react.d.ts",
+    "typings/react/react-global.d.ts",
+    "typings/react/react-dom.d.ts",
+    "typings/react/react-addons-css-transition-group.d.ts",
+    "typings/react/react-addons-transition-group.d.ts",
+    "typings/classNames.d.ts",
+    "typings/react-bootstrap.d.ts",
+    "libs/common/react-dom-server.ts",
+    "libs/common/react-bootstrap.ts",
+    "libs/common/lib.tsx",
+    "libs/common/flex-box.tsx",
+    "libs/flux/router.ts",
+    "libs/flux/sitemap.ts",
+    "libs/flux/sitemap-router.tsx",
+    "libs/services/common.ts",
+    "libs/service-emailer/emailer.tsx"
+  ],
   "compileOnSave": true,
   "compilerOptions": {
     "target": "es5",

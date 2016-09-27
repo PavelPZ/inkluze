@@ -23,12 +23,13 @@
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="libs\common\flex-box.tsx" />
     <TypeScriptCompile Include="libs\common\lib.tsx" />
     <TypeScriptCompile Include="libs\common\react-bootstrap.ts" />
     <TypeScriptCompile Include="libs\common\react-dom-server.ts" />
     <TypeScriptCompile Include="libs\flux\router.ts" />
     <TypeScriptCompile Include="libs\flux\sitemap.ts" />
-    <TypeScriptCompile Include="libs\flux\sitemapRouter.tsx" />
+    <TypeScriptCompile Include="libs\flux\sitemap-router.tsx" />
     <TypeScriptCompile Include="libs\forms\validator.ts" />
     <TypeScriptCompile Include="libs\services\common.ts" />
     <TypeScriptCompile Include="libs\service-emailer\emailer.tsx" />
@@ -42,6 +43,7 @@
     <TypeScriptCompile Include="typings\react\react.d.ts" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\flex.css" />
     <Content Include="libs\service-emailer\service.ashx" />
     <Content Include="tsconfig.json" />
     <Content Include="packages.config" />
@@ -61,6 +63,9 @@
     <Reference Include="System" />
     <Reference Include="System.configuration" />
     <Reference Include="System.Web" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\flex.less" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>

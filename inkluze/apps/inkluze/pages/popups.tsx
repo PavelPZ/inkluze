@@ -746,6 +746,14 @@ const DumpPopups: React.StatelessComponent<{}> = prop => {
   for (var p in popups) {
     pops.push(<p key={p}>{popups[p]}</p>);
   }
-
-  return <Page><Block>{pops}</Block></Page >
+  return <Page><Block>
+    {/*
+    <div className={flexClass([flex.flex, flex.directionRow, flex.justifySpaceAround])}>
+      <div className={flexClass([flex.grow2])}>1</div>
+      <div className={flexClass([flex.grow3])}>2</div>
+      <div className={flexClass([flex.grow4])}>3</div> 
+    </div>
+    */}
+    {pops}
+  </Block></Page >
 }
