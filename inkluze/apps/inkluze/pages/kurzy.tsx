@@ -1,6 +1,38 @@
 ﻿var Kurzy: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div>
   <Page>
-    <Block>
+    <Block >
+      <Row>
+        <h2 style={{ marginLeft: '20'}}>Seznam nabízených kurzů</h2>
+        <Col mdOffset={1} md={3}>
+          <h4>ZŠ Inkluze</h4>
+          <ul className='fa-ul'>
+            <LiFile>8 hodinový kurz pro sborovnu</LiFile>
+            <LiFile>16 hodinový kurz</LiFile>
+            <LiFile>Kurzy v celkové délce 32 hodin</LiFile>
+            <LiFile>Kurzy v celkové délce 24 hodin</LiFile>
+          </ul>
+        </Col>
+        <Col md={3}>
+          <h4>ZŠ Ostatní</h4>
+          <ul className='fa-ul'>
+            <LiFile>8 hodinový kurz pro sborovnu</LiFile>
+            <LiFile>16 hodinový kurz</LiFile>
+            <LiFile>Kurzy v celkové délce 32 hodin</LiFile>
+            <LiFile>Kurzy v celkové délce 24 hodin</LiFile>
+          </ul>
+        </Col>
+        <Col md={4}>
+          <h4>MŠ Kurzy</h4>
+          <ul className='fa-ul'>
+            <LiFile>Inkluze - 16 hodinový kurz</LiFile>
+            <LiFile>Čtenářská pregramotnost - 16 hodinový kurz</LiFile>
+            <LiFile>Matematická pregramotnost - 16 hodinový kurz</LiFile>
+          </ul>
+        </Col>
+      </Row>
+      <KurzyForm />
+    </Block>
+    <Block gray>
       <div className='alert alert-warning' style={{ fontSize: '18px' }}>
         <p style={{ marginTop: '0' }}><i className='fa fa-lightbulb-o'></i> Tip: &nbsp;
           {/*<p >
@@ -10,11 +42,6 @@
           Pro získání podrobnějších informací o kurzech vyplňte a odešlete nezávazný poptávkový formulář.
         </p>
       </div>
-
-      <KurzyForm />
-
-    </Block>
-    <Block gray>
       <h2 className='text-right'>ZŠ Inkluze</h2>
       <div className='alert alert-success'>
         <h3>Obsah kurzů: </h3>
@@ -80,7 +107,8 @@
         </BlockEx>
         <BlockEx header="Potřebné šablony: ">
           <div>
-            <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_16_hodin}varianta <b>e.
+            <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_16_hodin} 
+              varianta <b>e.
               inkluze</b>
             </p>
           </div>
@@ -126,7 +154,8 @@
             Pro každého učitele je potřeba objednat tyto šablony:
             <ul className='fa-ul'>
               <LiHand><b>1x</b> šablonu {popups.zs_sbor_8_hodin} </LiHand>
-              <LiHand><b>1x</b> šablonu {popups.zs_DVPP_16_hodin}varianta <b>e.
+              <LiHand><b>1x</b> šablonu {popups.zs_DVPP_16_hodin}
+                varianta <b>e.
                 inkluze</b>
               </LiHand>
             </ul>
@@ -145,18 +174,19 @@
         <BlockEx header="Seminář se věnuje tématům:  ">
           <ul className='fa-ul'>
             <LiFile>seznámení s problematikou čtenářské gramotnosti</LiFile>
-            <LiFile>  čtení s porozuměním</LiFile>
-            <LiFile> metody a formy práce, rozvíjející čtenářskou gramotnost </LiFile>
-            <LiFile> myšlenkové mapy</LiFile>
-            <LiFile> správné kladení otázek jak pro učitele, tak pro žáky</LiFile>
-            <LiFile> promýšlení strategií</LiFile>
-            <LiFile>  rozvoj kritického myšlení.</LiFile>
-            <LiFile> zkušenost zprostředkovaného učení </LiFile>
+            <LiFile>čtení s porozuměním</LiFile>
+            <LiFile>metody a formy práce, rozvíjející čtenářskou gramotnost </LiFile>
+            <LiFile>myšlenkové mapy</LiFile>
+            <LiFile>správné kladení otázek jak pro učitele, tak pro žáky</LiFile>
+            <LiFile>promýšlení strategií</LiFile>
+            <LiFile>rozvoj kritického myšlení.</LiFile>
+            <LiFile>zkušenost zprostředkovaného učení </LiFile>
           </ul>
         </BlockEx>
         <BlockEx header="Potřebné šablony: ">
           <div>
-            <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_16_hodin}varianta <b>a.
+            <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_16_hodin}
+              varianta <b>a.
               čtenářská gramotnost</b>
             </p>
           </div>
@@ -181,7 +211,8 @@
         </BlockEx>
         <BlockEx header="Potřebné šablony: ">
           <div>
-            <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_16_hodin}varianta <b>b.
+            <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_16_hodin}
+              varianta <b>b.
               matematická gramotnost</b>
             </p>
           </div>
@@ -256,7 +287,8 @@
         </BlockEx>
         <BlockEx header="Potřebné šablony: ">
           <div>
-            <p>Pro každého učitele je potřeba objednat šablonu {popups.ms_DVPP_16_hodin}varianta <b>e.
+            <p>Pro každého učitele je potřeba objednat šablonu {popups.ms_DVPP_16_hodin}
+              varianta <b>e.
               inkluze</b>
             </p>
           </div>
@@ -279,7 +311,8 @@
         </BlockEx>
         <BlockEx header="Potřebné šablony: ">
           <div>
-            <p>Pro každého učitele je potřeba objednat šablonu {popups.ms_DVPP_16_hodin}varianta <b>a.
+            <p>Pro každého učitele je potřeba objednat šablonu {popups.ms_DVPP_16_hodin}
+              varianta <b>a.
               čtenářská pregramotnost</b>
             </p>
           </div>
@@ -303,7 +336,8 @@
         </BlockEx>
         <BlockEx header="Potřebné šablony: ">
           <div>
-            <p>Pro každého učitele je potřeba objednat šablonu {popups.ms_DVPP_16_hodin}varianta <b>b.
+            <p>Pro každého učitele je potřeba objednat šablonu {popups.ms_DVPP_16_hodin}
+              varianta <b>b.
               matematická pregramotnost</b>
             </p>
           </div>
