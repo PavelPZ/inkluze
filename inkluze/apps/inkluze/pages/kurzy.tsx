@@ -1,7 +1,7 @@
 ﻿var Kurzy: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div>
   <Page>
     <Block >
-      <h2 className='text-right'>Seznam nabízených akreditovaných kurzů DVPP</h2>
+      <h2 className='text-right'>Akreditované kurzy DVPP</h2>
       <Row>
         <Col md={4}>
           <h4>ZŠ Inkluze/společné vzdělávání</h4>
