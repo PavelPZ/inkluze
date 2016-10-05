@@ -33,7 +33,7 @@
   export function bootApp() {
     site.root = root = {
       id: 'home',
-      title: 'Kurzy podle šablon z Výzvy 02_16_022/023 od zkušených lektorů',
+      title: 'Akreditované kurzy podle šablon z Výzvy 02_16_022/023 od zkušených lektorů',
       brTitle: 'DVPP',
       largeLogo: true,
       createPage: routePar => <Home/>, //sitemapRouter.createElement<IHomePar>(Home, routePar, { subTitle: 'SubTitle Default' }),
