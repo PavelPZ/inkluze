@@ -1,10 +1,12 @@
 ﻿var Onas: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div>
   <Page>
     <BlockEx header='Akreditace vzdělávací instituce'>
-      <p>
+      <div className='alert alert-warning' style={{ fontSize: '18px' }}>
+        <p style={{ marginTop: '0' }}>
         Rozhodnutím akreditační komise Č.j.
         MSMT- 25237/2016-1-706 je LANGMaster.com akreditován jako vzdělávací instituce s oprávněním provádění vzdělávacích programů a vydávání osvědčení o jejich absolvování.
-      </p>
+        </p>
+      </div>
     </BlockEx>
     <BlockEx header='Spolehlivost a tradice'>
       <p>

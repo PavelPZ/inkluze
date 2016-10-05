@@ -30,19 +30,19 @@
           </ul>
         </Col>
       </Row>
+      <div className='alert alert-warning' style={{ fontSize: '18px' }}>
+        <p style={{ marginTop: '0' }}><i className='fa fa-lightbulb-o'></i> Tip: &nbsp;</p>
+        <p>
+          Pro více informací klikněte na název kurzu dole na stránce.
+        </p>
+        <p>
+          Pro získání podrobnějších informací o našich akreditovaných kurzech vyplňte a odešlete nezávazný poptávkový formulář.
+        </p>
+      </div>
       <KurzyForm />
     </Block>
 
     <Block gray>
-      <div className='alert alert-warning' style={{ fontSize: '18px' }}>
-        <p style={{ marginTop: '0' }}><i className='fa fa-lightbulb-o'></i> Tip: &nbsp;
-          {/*<p >
-          Pro zvládnutí problematiky inkluze nabízíme řadu kurzů v délce 8, 16 a 32 hodin.
-        </p>*/}
-          Pro více informací klikněte na název kurzu dole na stránce.
-          Pro získání podrobnějších informací o našich akreditovaných kurzech vyplňte a odešlete nezávazný poptávkový formulář.
-        </p>
-      </div>
       <h2 className='text-right'>ZŠ Inkluze</h2>
       <div className='alert alert-success'>
         <h3>Obsah kurzů: </h3>
