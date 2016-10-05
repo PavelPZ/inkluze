@@ -1,5 +1,11 @@
 ﻿const qas = [
   inkluze.createQA(
+    <span>Jsou vaše kurzy zaměřené na společné vzdělávání akreditované? Přednášejí je akreditovaní lektoři?</span>,
+    <div>
+      <p>Ano, všechny naše kurzy zaměřené na společné vzdělávání jsou akreditované.
+        Všichni naši lektoři mají požadované osvědčení: Lektor implementátor pro společné vzdělávání.</p>
+    </div>),
+  inkluze.createQA(
     <span>Provozujeme zároveň ZŠ a MŠ, kolik žádostí o dotaci máme podat?</span>,
     <div>
       <p>Pokud jsou ZŠ a MŠ 2 různé právnické subjekty (ZŠ a MŠ mají různé IČO), podáváte 2 žádosti.</p>

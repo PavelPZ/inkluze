@@ -1,24 +1,24 @@
 ﻿var Kurzy: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div>
   <Page>
     <Block >
+      <h2 className='text-right'>Seznam nabízených akreditovaných kurzů DVPP</h2>
       <Row>
-        <h2 style={{ marginLeft: '20'}}>Seznam nabízených kurzů</h2>
-        <Col mdOffset={1} md={3}>
-          <h4>ZŠ Inkluze</h4>
+        <Col md={4}>
+          <h4>ZŠ Inkluze/společné vzdělávání</h4>
           <ul className='fa-ul'>
             <LiFile>8 hodinový kurz pro sborovnu</LiFile>
             <LiFile>16 hodinový kurz</LiFile>
-            <LiFile>Kurzy v celkové délce 32 hodin</LiFile>
             <LiFile>Kurzy v celkové délce 24 hodin</LiFile>
+            <LiFile>32 hodinový kurz</LiFile>
           </ul>
         </Col>
-        <Col md={3}>
+        <Col md={4}>
           <h4>ZŠ Ostatní</h4>
           <ul className='fa-ul'>
-            <LiFile>8 hodinový kurz pro sborovnu</LiFile>
-            <LiFile>16 hodinový kurz</LiFile>
-            <LiFile>Kurzy v celkové délce 32 hodin</LiFile>
-            <LiFile>Kurzy v celkové délce 24 hodin</LiFile>
+            <LiFile>Čtenářská gramotnost - 16 hodinový kurz</LiFile>
+            <LiFile>Matematická gramotnost - 16 hodinový kurz</LiFile>
+            <LiFile>Mentoring - 32 hodinový kurz</LiFile>
+            <LiFile>Mentoring - 56 hodinový kurz </LiFile>
           </ul>
         </Col>
         <Col md={4}>
@@ -32,6 +32,7 @@
       </Row>
       <KurzyForm />
     </Block>
+
     <Block gray>
       <div className='alert alert-warning' style={{ fontSize: '18px' }}>
         <p style={{ marginTop: '0' }}><i className='fa fa-lightbulb-o'></i> Tip: &nbsp;
@@ -39,7 +40,7 @@
           Pro zvládnutí problematiky inkluze nabízíme řadu kurzů v délce 8, 16 a 32 hodin.
         </p>*/}
           Pro více informací klikněte na název kurzu dole na stránce.
-          Pro získání podrobnějších informací o kurzech vyplňte a odešlete nezávazný poptávkový formulář.
+          Pro získání podrobnějších informací o našich akreditovaných kurzech vyplňte a odešlete nezávazný poptávkový formulář.
         </p>
       </div>
       <h2 className='text-right'>ZŠ Inkluze</h2>
@@ -76,7 +77,7 @@
         <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>Inkluze - 8 hodinový kurz pro sborovnu</span></h3>
       </div>} eventKey={1}>
         <BlockEx>
-          Nabízíme několik 8 hodinových kurzů určených pro vzdělávání pedagogického sboru.
+          Nabízíme několik 8 hodinových akreditovaných kurzů určených pro vzdělávání pedagogického sboru.
           Každý kurz obsahuje několik témat ze seznamu <i>Obsah kurzů</i> výše na této stránce.
           Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
         </BlockEx>
@@ -95,7 +96,7 @@
         <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>Inkluze - 16 hodinový kurz</span></h3>
       </div>} eventKey={2}>
         <BlockEx>
-          Nabízíme více 16 hodinových kurzů.
+          Nabízíme několik 16 hodinových akreditovaných kurzů.
           Každý kurz obsahuje několik témat ze seznamu <i>Obsah kurzů</i> výše na této stránce.
           Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
         </BlockEx>
@@ -110,31 +111,6 @@
             <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_16_hodin} 
               varianta <b>e.
               inkluze</b>
-            </p>
-          </div>
-        </BlockEx>
-      </Panel>
-
-
-      <Panel collapsible bsStyle="success" header={<div className='course-header'>
-        <h3><Label bsStyle="warning">32</Label>  <span style={headerCss}>Inkluze - kurzy v celkové délce 32 hodin</span></h3>
-      </div>} eventKey={1}>
-        <BlockEx>
-          <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
-            Tento kurz poskytuje optimální variantu pro seznámení celého učitelského sboru s problematikou inkluze.
-            U tohoto kurzu je (oproti 24 hodinové verzi) více prostoru na:
-            <ul className='fa-ul'>
-              <LiHand>diskusi s učiteli</LiHand>
-              <LiHand>možnost řešení konkrétních problémů, týkajících se dané školy</LiHand>
-              <LiHand>praktické procvičování získaných znalostí</LiHand>
-              <LiHand>...a další</LiHand>
-            </ul>
-          </div>
-        </BlockEx>
-        <BlockEx header="Potřebné šablony: ">
-          <div>
-            <p>
-              Pro každého učitele je potřeba objednat šablonu  {popups.zs_DVPP_inkluze_32_hodin}
             </p>
           </div>
         </BlockEx>
@@ -163,6 +139,29 @@
         </BlockEx>
       </Panel>
 
+      <Panel collapsible bsStyle="success" header={<div className='course-header'>
+        <h3><Label bsStyle="warning">32</Label>  <span style={headerCss}>Inkluze - 32 hodinový kurz</span></h3>
+      </div>} eventKey={1}>
+        <BlockEx>
+          <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
+            Tento akreditovaný kurz poskytuje optimální variantu pro seznámení se s problematikou společného vzdělávání.
+            U tohoto kurzu je (oproti 24 hodinové verzi) více prostoru na:
+            <ul className='fa-ul'>
+              <LiHand>diskusi s učiteli</LiHand>
+              <LiHand>možnost řešení konkrétních problémů, týkajících se dané školy</LiHand>
+              <LiHand>praktické procvičování získaných znalostí</LiHand>
+              <LiHand>...a další</LiHand>
+            </ul>
+          </div>
+        </BlockEx>
+        <BlockEx header="Potřebné šablony: ">
+          <div>
+            <p>
+              Pro každého učitele je potřeba objednat šablonu  {popups.zs_DVPP_inkluze_32_hodin}
+            </p>
+          </div>
+        </BlockEx>
+      </Panel>
     </Block>
 
     <Block >
@@ -275,7 +274,7 @@
         <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>Inkluze - 16 hodinový kurz</span></h3>
       </div>} eventKey={2}>
         <BlockEx>
-          Nabízíme více 16 hodinových kurzů.
+          Nabízíme více 16 hodinových akreditovaných kurzů.
           Každý kurz obsahuje několik témat ze seznamu <i>Obsah kurzů</i> výše na této stránce.
           Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
         </BlockEx>

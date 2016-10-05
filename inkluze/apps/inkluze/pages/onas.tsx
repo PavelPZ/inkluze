@@ -1,5 +1,11 @@
 ﻿var Onas: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div>
   <Page>
+    <BlockEx header='Akreditace vzdělávací instituce'>
+      <p>
+        Rozhodnutím akreditační komise Č.j.
+        MSMT- 25237/2016-1-706 je LANGMaster.com akreditován jako vzdělávací instituce s oprávněním provádění vzdělávacích programů a vydávání osvědčení o jejich absolvování.
+      </p>
+    </BlockEx>
     <BlockEx header='Spolehlivost a tradice'>
       <p>
         Česká společnost LANGMaster.com vznikla v roce 1992.
