@@ -4,7 +4,7 @@
       <div className='alert alert-warning' style={{ fontSize: '18px' }}>
         <p style={{ marginTop: '0' }}>
         Rozhodnutím akreditační komise Č.j.
-        MSMT- 25237/2016-1-706 je LANGMaster.com, s.r.o. akreditována jako vzdělávací instituce s oprávněním provádění vzdělávacích programů a vydávání osvědčení o jejich absolvování.
+        MSMT- 25237/2016-1-706 je firma LANGMaster.com, s.r.o. akreditována jako vzdělávací instituce s oprávněním provádění vzdělávacích programů a vydávání osvědčení o jejich absolvování.
         </p>
       </div>
     </BlockEx>
