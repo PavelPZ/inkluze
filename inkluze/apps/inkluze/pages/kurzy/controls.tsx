@@ -10,10 +10,10 @@
 
 const headerCss: React.CSSProperties = { textDecoration: 'underline', cursor: 'pointer' };
 
-interface IKurzProps { defaultExpanded:boolean; }
+interface IKurzProps { defaultExpanded: boolean; title: string; }
 
 var ZSInkluze8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>Inkluze - 8 hodinový kurz pro sborovnu</span></h3>
+  <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
   <BlockEx>
     Nabízíme několik 8 hodinových akreditovaných kurzů určených pro vzdělávání pedagogického sboru.
@@ -32,7 +32,7 @@ var ZSInkluze8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: 
 </Panel>
 
 var ZSInkluze16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>Inkluze - 16 hodinový kurz</span></h3>
+  <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
   <BlockEx>
     Nabízíme několik 16 hodinových akreditovaných kurzů.
@@ -56,7 +56,7 @@ var ZSInkluze16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
 </Panel>;
 
 var ZSInkluze24: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">24</Label>  <span style={headerCss}>Inkluze - kurzy v celkové délce 24 hodin</span></h3>
+  <h3><Label bsStyle="warning">24</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
   <BlockEx>
     <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
@@ -79,7 +79,7 @@ var ZSInkluze24: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
 </Panel>;
 
 var ZSInkluze32: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">32</Label>  <span style={headerCss}>Inkluze - 32 hodinový kurz</span></h3>
+  <h3><Label bsStyle="warning">32</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
   <BlockEx>
     <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
@@ -103,7 +103,7 @@ var ZSInkluze32: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
 </Panel>;
 
 var ZSCtenarska: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>Čtenářská gramotnost - 16 hodinový kurz</span></h3>
+  <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
   <BlockEx header="Seminář se věnuje tématům:  ">
     <ul className='fa-ul'>
@@ -128,7 +128,7 @@ var ZSCtenarska: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
 </Panel>;
 
 var ZSMatematicka: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>Matematická gramotnost - 16 hodinový kurz</span></h3>
+  <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
   <BlockEx header="Seminář se věnuje tématům:  ">
     <ul className='fa-ul'>
@@ -154,7 +154,7 @@ var ZSMatematicka: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
 </Panel>;
 
 var ZSMentoring32: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">32</Label>  <span style={headerCss}>Mentoring - 32 hodinový kurz</span></h3>
+  <h3><Label bsStyle="warning">32</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
   <BlockEx header="Seminář se věnuje tématům:  ">
     <ul className='fa-ul'>
@@ -175,7 +175,7 @@ var ZSMentoring32: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
 </Panel>;
 
 var ZSMentoring56: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">56</Label>  <span style={headerCss}>Mentoring - 56 hodinový kurz </span></h3>
+  <h3><Label bsStyle="warning">56</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
   <BlockEx header="Seminář se věnuje tématům:  ">
     <ul className='fa-ul'>
@@ -201,7 +201,7 @@ var ZSMentoring56: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
 </Panel>;
 
 var MSInkluze16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>Inkluze - 16 hodinový kurz pro MŠ</span></h3>
+  <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
   <BlockEx>
     Nabízíme více 16 hodinových akreditovaných kurzů.
@@ -225,7 +225,7 @@ var MSInkluze16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
 </Panel>;
 
 var MSCtenarska: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>Čtenářská pregramotnost - 16 hodinový kurz</span></h3>
+  <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
   <BlockEx header="Seminář se věnuje tématům:  ">
     <ul className='fa-ul'>
@@ -248,7 +248,7 @@ var MSCtenarska: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
 </Panel>;
 
 var MSMatematicka: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>Matematická pregramotnost - 16 hodinový kurz</span></h3>
+  <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
   <BlockEx header="Seminář se věnuje tématům:  ">
     <ul className='fa-ul'>
