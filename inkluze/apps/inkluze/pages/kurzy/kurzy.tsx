@@ -1,5 +1,5 @@
 ﻿var Kurzy: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => {
-  var allLoaders = getLoaders(); var actId = ctx.site.id as string;
+  var allLoaders = getLoaders(); var actId = (ctx.site.id as string).toLowerCase();
   return <div>
     <Page>
       <Block >
@@ -106,7 +106,7 @@ function coursesLoader(getLoaders: () => Array<ICoursesLoader>, allLoaders: Arra
 }
 
 function getLoaders(): Array<Array<ICourseLoader>> {
-  return [
+  var res = [
     [
       { id: 'ZSInkluze8', create: expanded => <ZSInkluze8 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzy.ZSInkluze8.title} /> },
       { id: 'ZSInkluze16', create: expanded => <ZSInkluze16 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzy.ZSInkluze16.title} /> },
@@ -124,5 +124,7 @@ function getLoaders(): Array<Array<ICourseLoader>> {
       { id: 'MSCtenarska', create: expanded => <MSCtenarska defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzy.MSCtenarska.title} /> },
       { id: 'MSMatematicka', create: expanded => <MSMatematicka defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzy.MSMatematicka.title} /> },
     ]
-  ]
+  ];
+  res.forEach(l => l.forEach(ll => ll.id = ll.id.toLowerCase()));
+  return res;
 }

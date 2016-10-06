@@ -75,5 +75,5 @@
   }
   interface nodeParentsResult { res ?: Array<INode> }
 
-  function getNodePath(nd: INode): string { return nodeParents(nd).map(n => n.id).join('|'); }
+  function getNodePath(nd: INode): string { return nodeParents(nd).map(n => n.id).join('|').toLowerCase(); }
 }
