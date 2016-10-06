@@ -9,9 +9,9 @@
       </Block>
 
       {coursesLoader(() => [
-        { create: gray => <KurzyInkluze loaders={allLoaders[0]} actId={actId} gray={gray} /> },
-        { create: gray => <KurzyOstatni loaders={allLoaders[1]} actId={actId} gray={gray} /> },
-        { create: gray => <KurzyMS loaders={allLoaders[2]} actId={actId} gray={gray} /> },
+        { create: gray => <KurzyInkluze loaders={allLoaders[0]} actId={actId} gray={gray} key={0} /> },
+        { create: gray => <KurzyOstatni loaders={allLoaders[1]} actId={actId} gray={gray} key={1}/> },
+        { create: gray => <KurzyMS loaders={allLoaders[2]} actId={actId} gray={gray} key={2}/> },
       ], allLoaders, actId)}
 
     </Page >
