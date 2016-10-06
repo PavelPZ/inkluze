@@ -378,26 +378,26 @@ var KurzyList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.ICo
       <h4>ZŠ Inkluze/společné vzdělávání</h4>
       <ul className='fa-ul'>
         <LiFile>{inkluze.root.kurzy.ZSInkluze8.title}</LiFile>
-        <LiFile>16 hodinový kurz</LiFile>
-        <LiFile>Kurzy v celkové délce 24 hodin</LiFile>
-        <LiFile>32 hodinový kurz</LiFile>
+        <LiFile>{inkluze.root.kurzy.ZSInkluze16.title}</LiFile>
+        <LiFile>{inkluze.root.kurzy.ZSInkluze24.title}</LiFile>
+        <LiFile>{inkluze.root.kurzy.ZSInkluze32.title}</LiFile>
       </ul>
     </Col>
     <Col md={4}>
       <h4>ZŠ Ostatní</h4>
       <ul className='fa-ul'>
-        <LiFile>Čtenářská gramotnost - 16 hodinový kurz</LiFile>
-        <LiFile>Matematická gramotnost - 16 hodinový kurz</LiFile>
-        <LiFile>Mentoring - 32 hodinový kurz</LiFile>
-        <LiFile>Mentoring - 56 hodinový kurz </LiFile>
+        <LiFile>{inkluze.root.kurzy.ZSCtenarska.title}</LiFile>
+        <LiFile>{inkluze.root.kurzy.ZSMatematicka.title}</LiFile>
+        <LiFile>{inkluze.root.kurzy.ZSMentoring32.title}</LiFile>
+        <LiFile>{inkluze.root.kurzy.ZSMentoring56.title}</LiFile>
       </ul>
     </Col>
     <Col md={4}>
       <h4>MŠ Kurzy</h4>
       <ul className='fa-ul'>
-        <LiFile>Inkluze - 16 hodinový kurz</LiFile>
-        <LiFile>Čtenářská pregramotnost - 16 hodinový kurz</LiFile>
-        <LiFile>Matematická pregramotnost - 16 hodinový kurz</LiFile>
+        <LiFile>{inkluze.root.kurzy.MSInkluze16.title}</LiFile>
+        <LiFile>{inkluze.root.kurzy.MSCtenarska.title}</LiFile>
+        <LiFile>{inkluze.root.kurzy.MSMatematicka.title}</LiFile>
       </ul>
     </Col>
   </Row>
