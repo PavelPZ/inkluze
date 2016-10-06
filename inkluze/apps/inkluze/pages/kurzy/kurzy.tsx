@@ -2,16 +2,16 @@
   var allLoaders = getLoaders(); var actId = ctx.site.id as string;
   return <div>
     <Page>
-      {ctx.site.id == 'kurzy' ? <Block >
-        <KurzyList />
+      <Block >
+        {ctx.site.id == 'kurzy' ? <KurzyList /> : null}
         <KurzyAlert />
         <KurzyForm />
-      </Block> : <Block ><KurzyAlert /><KurzyForm /></Block >}
+      </Block>
 
       {coursesLoader(() => [
-        { create: () => <KurzyInkluze loaders={allLoaders[0]} actId={actId} /> },
-        { create: () => <KurzyOstatni loaders={allLoaders[1]} actId={actId} /> },
-        { create: () => <KurzyMS loaders={allLoaders[2]} actId={actId} /> },
+        { create: gray => <KurzyInkluze loaders={allLoaders[0]} actId={actId} gray={gray} /> },
+        { create: gray => <KurzyOstatni loaders={allLoaders[1]} actId={actId} gray={gray} /> },
+        { create: gray => <KurzyMS loaders={allLoaders[2]} actId={actId} gray={gray} /> },
       ], allLoaders, actId)}
 
     </Page >
@@ -20,13 +20,14 @@
 
 Kurzy.contextTypes = sitemapRouter.childContextTypes;
 
-interface IKuryBlockProps {
+interface IKurzyBlockProps {
   loaders: Array<ICourseLoader>;
   actId: string;
+  gray: boolean;
 }
 
-var KurzyInkluze: React.StatelessComponent<IKuryBlockProps> = (props: IKuryBlockProps, ctx: sitemapRouter.IContext) => {
-  return <Block gray>
+var KurzyInkluze: React.StatelessComponent<IKurzyBlockProps> = (props: IKurzyBlockProps, ctx: sitemapRouter.IContext) => {
+  return <Block gray={props.gray}>
     <h2 className='text-right'>ZŠ Inkluze</h2>
     {courseLoader(props.loaders, props.actId)}
     <div className='alert alert-success'>
@@ -62,16 +63,16 @@ var KurzyInkluze: React.StatelessComponent<IKuryBlockProps> = (props: IKuryBlock
 };
 KurzyInkluze.contextTypes = sitemapRouter.childContextTypes;
 
-var KurzyOstatni: React.StatelessComponent<IKuryBlockProps> = (props: IKuryBlockProps, ctx: sitemapRouter.IContext) => {
-  return <Block >
+var KurzyOstatni: React.StatelessComponent<IKurzyBlockProps> = (props: IKurzyBlockProps, ctx: sitemapRouter.IContext) => {
+  return <Block gray={props.gray}>
     <h2 className='text-right'>ZŠ Ostatní</h2>
     {courseLoader(props.loaders, props.actId)}
   </Block>;
 }
 KurzyOstatni.contextTypes = sitemapRouter.childContextTypes;
 
-var KurzyMS: React.StatelessComponent<IKuryBlockProps> = (props: IKuryBlockProps, ctx: sitemapRouter.IContext) => {
-  return <Block gray>
+var KurzyMS: React.StatelessComponent<IKurzyBlockProps> = (props: IKurzyBlockProps, ctx: sitemapRouter.IContext) => {
+  return <Block gray={props.gray}>
     <h2 className='text-right'>MŠ Kurzy</h2>
     {courseLoader(props.loaders, props.actId)}
   </Block>;
@@ -90,7 +91,7 @@ function courseLoader(loaders: Array<ICourseLoader>, actId: string): Array<JSX.E
 
 interface ICoursesLoader {
   containsId?: boolean;
-  create: () => JSX.Element;
+  create: (gray:boolean) => JSX.Element;
 }
 
 function coursesLoader(getLoaders: () => Array<ICoursesLoader>, allLoaders: Array<Array<ICourseLoader>>, actId: string): Array<JSX.Element> {
@@ -100,7 +101,8 @@ function coursesLoader(getLoaders: () => Array<ICoursesLoader>, allLoaders: Arra
     loaders[i].containsId = !!block.find(l => l.id == actId);
   }
   loaders.sort((a, b) => a.containsId ? -1 : (b.containsId ? 1 : 0));
-  return loaders.map(l => l.create());
+  var gray = false;
+  return loaders.map(l => { gray = !gray; return l.create(gray); } );
 }
 
 function getLoaders(): Array<Array<ICourseLoader>> {

@@ -377,7 +377,7 @@ var KurzyList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.ICo
     <Col md={4}>
       <h4>ZŠ Inkluze/společné vzdělávání</h4>
       <ul className='fa-ul'>
-        <LiFile>8 hodinový kurz pro sborovnu</LiFile>
+        <LiFile>{inkluze.root.kurzy.ZSInkluze8.title}</LiFile>
         <LiFile>16 hodinový kurz</LiFile>
         <LiFile>Kurzy v celkové délce 24 hodin</LiFile>
         <LiFile>32 hodinový kurz</LiFile>
