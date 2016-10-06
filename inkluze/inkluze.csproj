@@ -40,6 +40,7 @@
     <Content Include="externals\react.js" />
     <Content Include="index.html" />
     <Content Include="inzerat.txt" />
+    <Content Include="sitemap.xml" />
     <Content Include="temp.html" />
     <Content Include="web.config" />
   </ItemGroup>
