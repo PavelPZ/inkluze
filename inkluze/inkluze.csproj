@@ -32,6 +32,7 @@
     <Content Include="favicon.ico" />
     <Content Include="libs\lib.js" />
     <Content Include="externals\react-bootstrap.js" />
+    <TypeScriptCompile Include="apps\inkluze\pages\kurzy\controls.tsx" />
     <TypeScriptCompile Include="apps\inkluze\pages\onas.tsx" />
     <TypeScriptCompile Include="apps\inkluze\pages\ostatni.tsx" />
     <TypeScriptCompile Include="apps\inkluze\pages\lektori.tsx" />
@@ -47,7 +48,7 @@
     <TypeScriptCompile Include="apps\inkluze\code\controls.tsx" />
     <TypeScriptCompile Include="apps\inkluze\code\sitemap.tsx" />
     <TypeScriptCompile Include="apps\inkluze\code\page.tsx" />
-    <TypeScriptCompile Include="apps\inkluze\pages\kurzy.tsx" />
+    <TypeScriptCompile Include="apps\inkluze\pages\kurzy\kurzy.tsx" />
     <TypeScriptCompile Include="apps\inkluze\pages\slovnicek.tsx" />
     <TypeScriptCompile Include="apps\inkluze\pages\q_and_as.tsx" />
     <TypeScriptCompile Include="apps\inkluze\pages\q_and_a.tsx" />

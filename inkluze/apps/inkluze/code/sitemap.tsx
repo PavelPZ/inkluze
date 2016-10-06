@@ -4,9 +4,23 @@
     q_and_a: site.INode;
     dalsi: site.INode;
     lektori: site.INode;
-    kurzy: site.INode;
+    kurzy: ISiteKurzy;
     onas: site.INode;
     //slovnicek: site.INode;
+  }
+
+  export interface ISiteKurzy extends site.INode {
+    ZSInkluze8: site.INode;
+    ZSInkluze16: site.INode;
+    ZSInkluze24: site.INode;
+    ZSInkluze32: site.INode;
+    ZSCtenarska: site.INode;
+    ZSMatematicka: site.INode;
+    ZSMentoring32: site.INode;
+    ZSMentoring56: site.INode;
+    MSInkluze16: site.INode;
+    MSCtenarska: site.INode;
+    MSMatematicka: site.INode;
   }
 
   export interface IPravidla extends site.INode {
@@ -36,24 +50,24 @@
       title: 'Akreditované kurzy podle šablon z Výzvy 02_16_022/023 od zkušených lektorů',
       brTitle: 'DVPP',
       largeLogo: true,
-      createPage: routePar => <Home/>, //sitemapRouter.createElement<IHomePar>(Home, routePar, { subTitle: 'SubTitle Default' }),
-      noTitle:true,
+      createPage: routePar => <Home />, //sitemapRouter.createElement<IHomePar>(Home, routePar, { subTitle: 'SubTitle Default' }),
+      noTitle: true,
       pravidla: {
         id: 'vyzva',
-        createPage: rp => <Pravidla/>,
+        createPage: rp => <Pravidla />,
         dump_popups: {
           id: 'dump_popups',
           title: 'Seznam vysvětlivek',
-          createPage: routePar => <DumpPopups/>,
+          createPage: routePar => <DumpPopups />,
         },
       },
       q_and_a: {
         id: 'q_and_a',
-        createPage: par => <Q_and_a/>,
+        createPage: par => <Q_and_a />,
       },
       dalsi: {
         id: 'dalsi',
-        createPage: par => <Ostatni/>,
+        createPage: par => <Ostatni />,
       },
       //slovnicek: {
       //  id: 'slovnicek',
@@ -61,15 +75,72 @@
       //},
       kurzy: {
         id: 'kurzy',
-        createPage: par => React.createElement(Kurzy, par),
+        createPage: par => React.createElement(Kurzy),
+        ZSInkluze8: {
+          id: 'ZSInkluze8',
+          createPage: par => React.createElement(Kurzy),
+          title: 'Inkluze - 8 hodinový kurz pro sborovnu',
+        },
+        ZSInkluze16: {
+          id: 'ZSInkluze16',
+          title: 'Inkluze - 16 hodinový kurz',
+          createPage: par => React.createElement(Kurzy),
+        },
+        ZSInkluze24: {
+          id: 'ZSInkluze24',
+          title: 'Inkluze - 24 hodinový kurz',
+          createPage: par => React.createElement(Kurzy),
+        },
+        ZSInkluze32: {
+          id: 'ZSInkluze32',
+          title: 'Inkluze - 32 hodinový kurz',
+          createPage: par => React.createElement(Kurzy),
+        },
+
+        ZSCtenarska: {
+          id: 'ZSCtenarska',
+          title: 'Čtenářská gramotnost - 16 hodinový kurz',
+          createPage: par => React.createElement(Kurzy),
+        },
+        ZSMatematicka: {
+          id: 'ZSMatematicka',
+          title: 'Matematická gramotnost - 16 hodinový kurz',
+          createPage: par => React.createElement(Kurzy),
+        },
+        ZSMentoring32: {
+          id: 'ZSMentoring32',
+          title: 'Mentoring - 32 hodinový kurz',
+          createPage: par => React.createElement(Kurzy),
+        },
+        ZSMentoring56: {
+          id: 'ZSMentoring56',
+          title: 'Mentoring - 56 hodinový kurz',
+          createPage: par => React.createElement(Kurzy),
+        },
+
+        MSInkluze16: {
+          id: 'MSInkluze16',
+          title: 'Inkluze - 16 hodinový kurz pro MŠ',
+          createPage: par => React.createElement(Kurzy),
+        },
+        MSCtenarska: {
+          id: 'MSCtenarska',
+          title: 'Čtenářská pregramotnost - 16 hodinový kurz',
+          createPage: par => React.createElement(Kurzy),
+        },
+        MSMatematicka: {
+          id: 'MSMatematicka',
+          title: 'Matematická pregramotnost - 16 hodinový kurz',
+          createPage: par => React.createElement(Kurzy),
+        },
       },
       lektori: {
         id: 'lektori',
-        createPage: par => <Lektori/>
+        createPage: par => <Lektori />
       },
       onas: {
         id: 'onas',
-        createPage: par => <Onas/>
+        createPage: par => <Onas />
       },
     }
     site.tabs = tabs = {
@@ -82,16 +153,16 @@
         rootNode: root.kurzy,
       },
       lektori: {
-          title: 'Naši lektoři',
-          rootNode: root.lektori,
+        title: 'Naši lektoři',
+        rootNode: root.lektori,
       },
       pravidla: {
-          title: 'Pravidla Výzvy',
-          rootNode: root.pravidla,
+        title: 'Pravidla Výzvy',
+        rootNode: root.pravidla,
       },
       q_and_a: {
-          title: 'Dotazy a odpovědi',
-          rootNode: root.q_and_a,
+        title: 'Dotazy a odpovědi',
+        rootNode: root.q_and_a,
       },
       dalsi: {
         title: 'Další služby',
@@ -106,5 +177,5 @@
       //  rootNode: root.slovnicek,
       //},
     }
- }
+  }
 }
