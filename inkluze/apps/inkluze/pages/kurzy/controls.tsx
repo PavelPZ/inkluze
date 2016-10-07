@@ -47,8 +47,7 @@ var ZSInkluze16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
   </BlockEx>
   <BlockEx header="Potřebné šablony: ">
     <div>
-      <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_16_hodin}
-        varianta <b>e.
+      <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_16_hodin}&nbsp;varianta <b>e.
               inkluze</b>
       </p>
     </div>
@@ -69,8 +68,7 @@ var ZSInkluze24: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
       Pro každého učitele je potřeba objednat tyto šablony:
             <ul className='fa-ul'>
         <LiHand><b>1x</b> šablonu {popups.zs_sbor_8_hodin} </LiHand>
-        <LiHand><b>1x</b> šablonu {popups.zs_DVPP_16_hodin}
-          varianta <b>e.
+        <LiHand><b>1x</b> šablonu {popups.zs_DVPP_16_hodin}&nbsp;varianta <b>e.
                 inkluze</b>
         </LiHand>
       </ul>
@@ -102,7 +100,7 @@ var ZSInkluze32: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
   </BlockEx>
 </Panel>;
 
-var ZSCtenarska: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+var ZSCtenarska16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
   <BlockEx header="Seminář se věnuje tématům:  ">
@@ -119,8 +117,38 @@ var ZSCtenarska: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
   </BlockEx>
   <BlockEx header="Potřebné šablony: ">
     <div>
-      <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_16_hodin}
-        varianta <b>a.
+      <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_16_hodin}&nbsp;varianta <b>a.
+              čtenářská gramotnost</b>
+      </p>
+    </div>
+  </BlockEx>
+</Panel>;
+
+var ZSCtenarska32: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+  <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
+</div>} eventKey={2}>
+  <BlockEx header="Seminář se věnuje tématům:  ">
+    <ul className='fa-ul'>
+      <LiFile>sedm základních strategií čtenářské gramotnosti</LiFile>
+      <LiFile>principem třífázového učení</LiFile>
+      <LiFile>metody a formy práce, rozvíjející čtenářskou gramotnost </LiFile>
+      <LiFile>práce s textem - princip a různé způsoby využití</LiFile>
+      <LiFile>brainstorming – princip a různé způsoby využití</LiFile>
+      <LiFile>myšlenková mapa - princip a různé způsoby využití</LiFile>
+      <LiFile>škálování - princip a různé způsoby využití</LiFile>
+      <LiFile>práce s textem - princip a různé způsoby využití</LiFile>
+      <LiFile>vyhledávání a zpracovávání informací</LiFile>
+      <LiFile>metoda I.N.S.E.R.T.</LiFile>
+      <LiFile>skládankové učení</LiFile>
+      <LiFile>párové čtení</LiFile>
+      <LiFile>pětilístek</LiFile>
+      <LiFile>volné psaní</LiFile>
+      <LiFile>třífázový rozhovor…</LiFile>
+    </ul>
+  </BlockEx>
+  <BlockEx header="Potřebné šablony: ">
+    <div>
+      <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_32_hodin}&nbsp;varianta <b>a.
               čtenářská gramotnost</b>
       </p>
     </div>
@@ -145,8 +173,7 @@ var ZSMatematicka: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
   </BlockEx>
   <BlockEx header="Potřebné šablony: ">
     <div>
-      <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_16_hodin}
-        varianta <b>b.
+      <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_16_hodin}&nbsp;varianta <b>b.
               matematická gramotnost</b>
       </p>
     </div>
@@ -166,8 +193,7 @@ var ZSMentoring32: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
         </BlockEx>
   <BlockEx header="Potřebné šablony: ">
     <div>
-      <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_32_hodin}
-        varianta <b>d.
+      <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_32_hodin}&nbsp;varianta <b>d.
               mentoring</b>
       </p>
     </div>
@@ -192,8 +218,7 @@ var ZSMentoring56: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
         </BlockEx>
   <BlockEx header="Potřebné šablony: ">
     <div>
-      <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_56_hodin}
-        varianta <b>d.
+      <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_56_hodin}&nbsp;varianta <b>d.
               mentoring</b>
       </p>
     </div>
@@ -216,8 +241,7 @@ var MSInkluze16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
   </BlockEx>
   <BlockEx header="Potřebné šablony: ">
     <div>
-      <p>Pro každého učitele je potřeba objednat šablonu {popups.ms_DVPP_16_hodin}
-        varianta <b>e.
+      <p>Pro každého učitele je potřeba objednat šablonu {popups.ms_DVPP_16_hodin}&nbsp;varianta <b>e.
               inkluze</b>
       </p>
     </div>
@@ -239,8 +263,7 @@ var MSCtenarska: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
   </BlockEx>
   <BlockEx header="Potřebné šablony: ">
     <div>
-      <p>Pro každého učitele je potřeba objednat šablonu {popups.ms_DVPP_16_hodin}
-        varianta <b>a.
+      <p>Pro každého učitele je potřeba objednat šablonu {popups.ms_DVPP_16_hodin}&nbsp;varianta <b>a.
               čtenářská pregramotnost</b>
       </p>
     </div>
@@ -264,8 +287,7 @@ var MSMatematicka: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
   </BlockEx>
   <BlockEx header="Potřebné šablony: ">
     <div>
-      <p>Pro každého učitele je potřeba objednat šablonu {popups.ms_DVPP_16_hodin}
-        varianta <b>b.
+      <p>Pro každého učitele je potřeba objednat šablonu {popups.ms_DVPP_16_hodin}&nbsp;varianta <b>b.
               matematická pregramotnost</b>
       </p>
     </div>
@@ -386,7 +408,8 @@ var KurzyList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.ICo
     <Col md={4}>
       <h4>ZŠ Ostatní</h4>
       <ul className='fa-ul'>
-        <LiFile>{inkluze.root.kurzy.ZSCtenarska.title}</LiFile>
+        <LiFile>{inkluze.root.kurzy.ZSCtenarska16.title}</LiFile>
+        <LiFile>{inkluze.root.kurzy.ZSCtenarska32.title}</LiFile>
         <LiFile>{inkluze.root.kurzy.ZSMatematicka.title}</LiFile>
         <LiFile>{inkluze.root.kurzy.ZSMentoring32.title}</LiFile>
         <LiFile>{inkluze.root.kurzy.ZSMentoring56.title}</LiFile>

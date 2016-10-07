@@ -14,7 +14,8 @@
     ZSInkluze16: site.INode;
     ZSInkluze24: site.INode;
     ZSInkluze32: site.INode;
-    ZSCtenarska: site.INode;
+    ZSCtenarska16: site.INode;
+    ZSCtenarska32: site.INode;
     ZSMatematicka: site.INode;
     ZSMentoring32: site.INode;
     ZSMentoring56: site.INode;
@@ -97,9 +98,14 @@
           createPage: par => React.createElement(Kurzy),
         },
 
-        ZSCtenarska: {
-          id: 'ZSCtenarska',
+        ZSCtenarska16: {
+          id: 'ZSCtenarska16',
           title: 'Čtenářská gramotnost - 16 hodinový kurz',
+          createPage: par => React.createElement(Kurzy),
+        },
+        ZSCtenarska32: {
+          id: 'ZSCtenarska32',
+          title: 'Čtenářská gramotnost - 32 hodinový kurz',
           createPage: par => React.createElement(Kurzy),
         },
         ZSMatematicka: {
