@@ -394,7 +394,7 @@ var KurzyAlert: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IC
 </div>;
 
 var KurzyList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div>
-  <h2 className='text-right'>Akreditované kurzy DVPP</h2>
+  <h2 className='text-right'>Akreditované kurzy DVPP MŠMT</h2>
   <Row>
     <Col md={4}>
       <h4>ZŠ Inkluze/společné vzdělávání</h4>
