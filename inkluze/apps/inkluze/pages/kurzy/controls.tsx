@@ -44,6 +44,8 @@ var ZSInkluze16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
       Každý účastník tohoto kurzu se musí účastnit ještě další vzdělávací akce v rozsahu minimálně 8 hodin.
       Viz {popups.bagatelni_podpora}.
     </div>
+  </BlockEx>
+  <BlockEx header="Výuka ve sborovně:">
     <p>
       <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do Vaší školy a pedagogy proškolíme přímo ve Vaší sborovně ve Vámi zvoleném termínu.</b>
     </p>
@@ -65,6 +67,8 @@ var ZSInkluze24: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
       Tento kurz použijte v případě, že jeden den školení navíc (který je vyžadován u 32 hodinového kurzu) je pro vaši školu kritický.
       24 hodinová délka kurzu je minimální délka, povolená v podmínkách výzvy, viz {popups.bagatelni_podpora}.
     </div>
+  </BlockEx>
+  <BlockEx header="Výuka ve sborovně:">
     <p>
       <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do Vaší školy a pedagogy proškolíme přímo ve Vaší sborovně ve Vámi zvoleném termínu.</b>
     </p>
@@ -96,6 +100,8 @@ var ZSInkluze32: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
         <LiHand>...a další</LiHand>
       </ul>
     </div>
+  </BlockEx>
+  <BlockEx header="Výuka ve sborovně:">
     <p>
       <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do Vaší školy a pedagogy proškolíme přímo ve Vaší sborovně ve Vámi zvoleném termínu.</b>
     </p>
@@ -123,6 +129,8 @@ var ZSCtenarska16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
       <LiFile>rozvoj kritického myšlení.</LiFile>
       <LiFile>zkušenost zprostředkovaného učení </LiFile>
     </ul>
+  </BlockEx>
+  <BlockEx header="Výuka ve sborovně:">
     <p>
       <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do Vaší školy a pedagogy proškolíme přímo ve Vaší sborovně ve Vámi zvoleném termínu.</b>
     </p>
@@ -157,6 +165,8 @@ var ZSCtenarska32: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
       <LiFile>volné psaní</LiFile>
       <LiFile>třífázový rozhovor…</LiFile>
     </ul>
+  </BlockEx>
+  <BlockEx header="Výuka ve sborovně:">
     <p>
       <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do Vaší školy a pedagogy proškolíme přímo ve Vaší sborovně ve Vámi zvoleném termínu.</b>
     </p>
@@ -185,6 +195,8 @@ var ZSMatematicka: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
       <LiFile> vymezování problémů a jejich řešení</LiFile>
       <LiFile> schopnost matematizovat reálné situace</LiFile>
     </ul>
+  </BlockEx>
+  <BlockEx header="Výuka ve sborovně:">
     <p>
       <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do Vaší školy a pedagogy proškolíme přímo ve Vaší sborovně ve Vámi zvoleném termínu.</b>
     </p>
