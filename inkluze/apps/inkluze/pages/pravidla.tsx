@@ -44,7 +44,7 @@
         <li>U žádosti o dotaci podané po 1.1.2017, budete vycházet z  počtu žáků k 30.9.2016, který bude na webových stránkách MŠMT aktualizován v prosinci 2016.</li>
       </ol>
       <Alert type="Poznámka">
-        Pokud se Vám tedy ve školním roce 2016 / 2017 zvýší počet žáků, a chcete toho využít, požádejte o dotaci až v lednu 2017.
+        Pokud se vám tedy ve školním roce 2016 / 2017 zvýší počet žáků, a chcete toho využít, požádejte o dotaci až v lednu 2017.
       </Alert>
       <h4>Dotace bude poskytnuta ve dvou zálohových platbách</h4>
       <ol>

@@ -66,11 +66,15 @@
       this.state = { opened: false };
     }
     render(): JSX.Element {
-      return <Block gray={!!(this.props.idx % 2) }>
-        <b><a href='#' onClick={e => { this.state.opened = !this.state.opened; this.forceUpdate(); e.preventDefault(); } }>{this.props.idx}.{this.props.question}</a></b>
+      return <Block gray={!!(this.props.idx % 2)}>
+        <Col md={8}>
+          <b><a href='#' onClick={e => { this.state.opened = !this.state.opened; this.forceUpdate(); e.preventDefault(); } }>{this.props.idx}.&nbsp;{this.props.question}</a></b>
+        </Col>
         {this.state.opened && <Row style={{ display: !!this.state.opened ? 'block' : '' }}>
           <Col mdOffset={2} md={8}>
-            {this.props.answer}
+            <big >
+              {this.props.answer}
+            </big>
           </Col>
         </Row>}
       </Block>;

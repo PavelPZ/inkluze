@@ -47,7 +47,7 @@ var ZSInkluze16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
   </BlockEx>
   <BlockEx header="Výuka ve sborovně:">
     <p>
-      <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve Vámi zvoleném termínu.</b>
+      <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve vámi zvoleném termínu.</b>
     </p>
   </BlockEx>
   <BlockEx header="Potřebné šablony: ">
@@ -70,7 +70,7 @@ var ZSInkluze24: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
   </BlockEx>
   <BlockEx header="Výuka ve sborovně:">
     <p>
-      <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve Vámi zvoleném termínu.</b>
+      <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve vámi zvoleném termínu.</b>
     </p>
   </BlockEx>
   <BlockEx header="Potřebné šablony: ">
@@ -103,7 +103,7 @@ var ZSInkluze32: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
   </BlockEx>
   <BlockEx header="Výuka ve sborovně:">
     <p>
-      <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve Vámi zvoleném termínu.</b>
+      <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve vámi zvoleném termínu.</b>
     </p>
   </BlockEx>
   <BlockEx header="Potřebné šablony: ">
@@ -132,7 +132,7 @@ var ZSCtenarska16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
   </BlockEx>
   <BlockEx header="Výuka ve sborovně:">
     <p>
-      <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve Vámi zvoleném termínu.</b>
+      <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve vámi zvoleném termínu.</b>
     </p>
   </BlockEx>
   <BlockEx header="Potřebné šablony: ">
@@ -168,7 +168,7 @@ var ZSCtenarska32: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
   </BlockEx>
   <BlockEx header="Výuka ve sborovně:">
     <p>
-      <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve Vámi zvoleném termínu.</b>
+      <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve vámi zvoleném termínu.</b>
     </p>
   </BlockEx>
   <BlockEx header="Potřebné šablony: ">
@@ -198,7 +198,7 @@ var ZSMatematicka: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
   </BlockEx>
   <BlockEx header="Výuka ve sborovně:">
     <p>
-      <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve Vámi zvoleném termínu.</b>
+      <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve vámi zvoleném termínu.</b>
     </p>
   </BlockEx>
   <BlockEx header="Potřebné šablony: ">
