@@ -72,7 +72,7 @@
         </Col>
         {this.state.opened && <Row style={{ display: !!this.state.opened ? 'block' : '' }}>
           <Col mdOffset={2} md={8}>
-            <big >
+            <big>
               {this.props.answer}
             </big>
           </Col>
