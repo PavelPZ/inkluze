@@ -63,7 +63,6 @@
     <Compile Include="libs\rewise-repository\metadata-read.ashx.cs">
       <DependentUpon>metadata-read.ashx</DependentUpon>
     </Compile>
-    <Compile Include="libs\rewise\dom.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
@@ -95,6 +94,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="libs\rewise-repository\data-write.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="libs\rewise\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
