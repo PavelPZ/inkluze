@@ -259,5 +259,7 @@ paket-files/
 
 deploy/
 rewise/
-rewiselib/
+# rewiselib/
 rewiseapp/
+rewiserepository/app_data
+*.map

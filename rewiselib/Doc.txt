@@ -1,0 +1,10 @@
+************ APLIKACE
+RewiseVocabularies: .NET console application, pøevod pùvodních dat z XML (d:\LMCom\rew\Web4\RwBooks\Texts\) do Repositories a JSON
+RewiseRepository: ASP.NET service. Centralni uloziste dat pro ReiwseEditors
+RewiseEditor: Typescript GUI na editaci slovnicku (online na PC)
+RewiseApp: Typescript GUI na zkouseni slovicek (online x store, PC x mobile)
+RewiseLib: knihovna s CSharp a Typescript kodem, sdilena ostattnimi aplikacemi
+
+
+************ TODO
+Resize d:\LMCom\rw\SLRewise\PronuncApp\CoursesTab\Img\ images via https://jobmob.co.il/blog/personal-avatar-size-reference-guide-for-2010/ recomendation
