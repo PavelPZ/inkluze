@@ -17,7 +17,7 @@ var ZSInkluze8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: 
 </div>} eventKey={1}>
   <BlockEx>
     Nabízíme několik 8 hodinových akreditovaných kurzů určených pro vzdělávání pedagogického sboru.
-          Každý kurz obsahuje několik témat ze seznamu <i>Obsah kurzů</i> výše na této stránce.
+          Každý kurz obsahuje část témat ze seznamu <i>Obsah kurzů</i> na této stránce.
           Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
         </BlockEx>
   <BlockEx>
@@ -36,7 +36,7 @@ var ZSInkluze16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
 </div>} eventKey={2}>
   <BlockEx>
     Nabízíme několik 16 hodinových akreditovaných kurzů.
-    Každý kurz obsahuje několik témat ze seznamu <i>Obsah kurzů</i> výše na této stránce.
+    Každý kurz obsahuje část témat ze seznamu <i>Obsah kurzů</i> na této stránce.
     Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
   </BlockEx>
   <BlockEx>
@@ -260,7 +260,7 @@ var MSInkluze16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
 </div>} eventKey={2}>
   <BlockEx>
     Nabízíme více 16 hodinových akreditovaných kurzů.
-          Každý kurz obsahuje několik témat ze seznamu <i>Obsah kurzů</i> výše na této stránce.
+          Každý kurz obsahuje část témat ze seznamu <i>Obsah kurzů</i> na této stránce.
           Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
         </BlockEx>
   <BlockEx>
