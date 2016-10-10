@@ -13,8 +13,7 @@
     <span>Vyhovovalo by nám školení pro celou sborovnu. Abychom ale splnili bagatelní podporu, potřebovali bychom pro každého pedagoga šablonu II/2.8 Vzdělávání pedagogického sboru ZŠ zaměřené na inkluzi objednat 3x. Je to možné?</span>,
     <div>
       <p>Ano, je to možné. Pravidla výzvy 02_16_022/023 to umožňují, podmínkou ale je, že se musí jednat o 3 různé kurzy. Naše firma nabízí pro šablonu II/2.8 celkem 6 různých akreditovaných kurzů, takže si u nás můžete objednat tři 8-mi hodinová školení, každé z nich zaměřené na jinou část inkluzivní tematiky.
-Nicméně pro jistotu připomínáme, že pokud přihlásíte dostatečný počet účastníků tak za vámi přijedeme do sborovny i u všech ostatních námi nabízených kurzů.
-</p>
+      </p>
     </div>),
   inkluze.createQA(
     <span>Je možné absolvovat školení formou intenzívního kurzu s pobytem, například na chatě</span>,
