@@ -258,6 +258,55 @@ var ZSMentoring56: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
   </BlockEx>
 </Panel>;
 
+var ZSMentoring80: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+  <h3><Label bsStyle="warning">80</Label>  <span style={headerCss}>{props.title}</span></h3>
+</div>} eventKey={2}>
+  <BlockEx>
+    Seminář je určen budoucím interním mentorům, kteří budou působit v rámci své školy.
+    Účastníci získají základní znalosti a dovednosti potřebné k tomu, aby úspěšně zahájili a zvládali svoje mentorské působení.
+    Rozsah semináře umožňuje poskytnout budoucím mentorům základní výcvik v jednotlivých mentorských dovednostech.
+    Předpokládá se, že v průběhu výcviku již pracuje mentor s několika klienty.
+    Supervize jeho mentorských aktivit je součástí tohoto výcvikového semináře.
+    Předpokládá se, že po absolvování semináře bude pokračovat praktická činnost mentora s kolegy a další vzdělávání v oblasti mentoringu.
+  </BlockEx>
+  <BlockEx header="Seminář se věnuje tématům:  ">
+    <ul className='fa-ul'>
+      <LiFile> vymezení mentoringu ve vzdělávání</LiFile>
+      <LiFile> etika v práci mentora, etické kodexy ACF a EMCC</LiFile>
+      <LiFile> základní principy práce interního mentora</LiFile>
+      <LiFile> základy práce s klientem</LiFile>
+      <LiFile> hlavní kompetence mentora</LiFile>
+      <LiFile> mentorské portfolio – jeho vedení</LiFile>
+      <LiFile> stanovování potřeb klienta plánování mentorského procesu</LiFile>
+      <LiFile> osobnostní typy z hlediska mentora a z hlediska klienta</LiFile>
+      <LiFile> kontraktování</LiFile>
+      <LiFile> stanovování cílů mentoringu</LiFile>
+      <LiFile> škola jako systém – nastavování mentorské podpory jako součást systému</LiFile>
+      <LiFile> práce s kompetenčním modelem pedagoga</LiFile>
+      <LiFile> stanovení kritérií kvality v práci pedagoga</LiFile>
+      <LiFile> poskytování zpětné vazy klientovi</LiFile>
+      <LiFile> techniky pozorování</LiFile>
+      <LiFile> techniky vedení rozhovorů</LiFile>
+      <LiFile>další techniky v práci mentora</LiFile>
+      <LiFile>hranice mentora</LiFile>
+      <LiFile>poskytování zpětné vazy klientovi</LiFile>
+      <LiFile>problematické situace v mentoringu</LiFile>
+      <LiFile>uzavírání a vyhodnocování mentoringu</LiFile>
+      <LiFile>seberozvoj mentora a jeho další vzdělávání</LiFile>
+      <LiFile>základní informační zdroje</LiFile>
+      <LiFile>profesní organizace mentorů a koučů</LiFile>
+    </ul>
+    Součástí semináře jsou nácviky vedení rozhovorů s klientem v jednotlivých fázích mentorského procesu, rozbory pozorování, výcvik v poskytování zpětné vazby.
+  </BlockEx>
+  <BlockEx header="Potřebné šablony: ">
+    <div>
+      <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_80_hodin}&nbsp;varianta <b>d.
+              mentoring</b>
+      </p>
+    </div>
+  </BlockEx>
+</Panel>;
+
 var MSInkluze16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
@@ -456,6 +505,7 @@ var KurzyList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.ICo
         <LiFile>{inkluze.root.kurzy.ZSMatematicka.title}</LiFile>
         <LiFile>{inkluze.root.kurzy.ZSMentoring32.title}</LiFile>
         <LiFile>{inkluze.root.kurzy.ZSMentoring56.title}</LiFile>
+        <LiFile>{inkluze.root.kurzy.ZSMentoring80.title}</LiFile>
       </ul>
     </Col>
     <Col md={4}>

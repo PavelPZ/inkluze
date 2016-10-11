@@ -19,6 +19,7 @@
     ZSMatematicka: site.INode;
     ZSMentoring32: site.INode;
     ZSMentoring56: site.INode;
+    ZSMentoring80: site.INode;
     MSInkluze16: site.INode;
     MSCtenarska: site.INode;
     MSMatematicka: site.INode;
@@ -121,6 +122,11 @@
         ZSMentoring56: {
           id: 'ZSMentoring56',
           title: 'Mentoring - 56 hodinový kurz',
+          createPage: par => React.createElement(Kurzy),
+        },
+        ZSMentoring80: {
+          id: 'ZSMentoring80',
+          title: 'Mentoring - 80 hodinový kurz',
           createPage: par => React.createElement(Kurzy),
         },
 
