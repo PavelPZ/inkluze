@@ -6,6 +6,7 @@
         {ctx.site.id == 'kurzy' ? <KurzyList /> : null}
         <KurzyAlert />
         <KurzyForm />
+        <BonusAlert />
       </Block>
 
       {coursesLoader(() => [
