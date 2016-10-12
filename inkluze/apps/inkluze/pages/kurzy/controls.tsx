@@ -29,10 +29,7 @@ var ZSInkluze8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: 
   <BlockEx header="Potřebné šablony: ">
     <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_sbor_8_hodin}</p>
   </BlockEx>
-  <BlockEx header="Bonus - jazykové kurzy zdarma: ">
-    <p>Pro každého učitele je připraven bonus v podobě interaktivního jazykového kurzu zdarma.
-      V případě zájmu Vám rádi poskytneme podrobnější informace.</p>
-  </BlockEx>
+  <BonusAlert/>
 </Panel>
 
 var ZSInkluze16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
@@ -61,10 +58,7 @@ var ZSInkluze16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
       </p>
     </div>
   </BlockEx>
-  <BlockEx header="Bonus - jazykové kurzy zdarma: ">
-    <p>Pro každého učitele je připraven bonus v podobě interaktivního jazykového kurzu zdarma.
-      V případě zájmu Vám rádi poskytneme podrobnější informace.</p>
-  </BlockEx>
+  <BonusAlert />
 </Panel>;
 
 var ZSInkluze24: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
@@ -92,10 +86,7 @@ var ZSInkluze24: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
       </ul>
     </div>
   </BlockEx>
-  <BlockEx header="Bonus - jazykové kurzy zdarma: ">
-    <p>Pro každého učitele je připraven bonus v podobě interaktivního jazykového kurzu zdarma.
-      V případě zájmu Vám rádi poskytneme podrobnější informace.</p>
-  </BlockEx>
+  <BonusAlert />
 </Panel>;
 
 var ZSInkluze32: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
@@ -125,6 +116,7 @@ var ZSInkluze32: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
       </p>
     </div>
   </BlockEx>
+  <BonusAlert />
 </Panel>;
 
 var ZSCtenarska16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
@@ -154,6 +146,7 @@ var ZSCtenarska16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
       </p>
     </div>
   </BlockEx>
+  <BonusAlert />
 </Panel>;
 
 var ZSCtenarska32: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
@@ -190,6 +183,7 @@ var ZSCtenarska32: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
       </p>
     </div>
   </BlockEx>
+  <BonusAlert />
 </Panel>;
 
 var ZSMatematicka: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
@@ -220,6 +214,7 @@ var ZSMatematicka: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
       </p>
     </div>
   </BlockEx>
+  <BonusAlert />
 </Panel>;
 
 var ZSMentoring32: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
@@ -240,6 +235,7 @@ var ZSMentoring32: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
       </p>
     </div>
   </BlockEx>
+  <BonusAlert />
 </Panel>;
 
 var ZSMentoring56: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
@@ -265,6 +261,7 @@ var ZSMentoring56: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
       </p>
     </div>
   </BlockEx>
+  <BonusAlert />
 </Panel>;
 
 var ZSMentoring80: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
@@ -314,6 +311,7 @@ var ZSMentoring80: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
       </p>
     </div>
   </BlockEx>
+  <BonusAlert />
 </Panel>;
 
 var MSInkluze16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
@@ -337,6 +335,7 @@ var MSInkluze16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
       </p>
     </div>
   </BlockEx>
+  <BonusAlert />
 </Panel>;
 
 var MSCtenarska: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
@@ -359,6 +358,7 @@ var MSCtenarska: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
       </p>
     </div>
   </BlockEx>
+  <BonusAlert />
 </Panel>;
 
 var MSMatematicka: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
@@ -383,6 +383,7 @@ var MSMatematicka: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
       </p>
     </div>
   </BlockEx>
+  <BonusAlert />
 </Panel>;
 
 interface IKuryFormFormStatus {
@@ -485,12 +486,10 @@ var KurzyAlert: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IC
 </div>;
 
 var BonusAlert: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div className='alert alert-warning' style={{ fontSize: '18px' }}>
-  <p style={{ marginTop: '0' }}><i className='fa fa-lightbulb-o'></i> Bonus - jazykové kurzy zdarma: &nbsp;</p>
+  <p style={{ marginTop: '0' }}><i className='fa fa-lightbulb-o'></i> Bonus - jazykové kurzy zdarma:</p>
   <p>
-    Lorem ipsum
-  </p>
-  <p>
-    Lorem ipsum
+    Pro každého učitele je připraven bonus v podobě interaktivního jazykového kurzu zdarma.
+    V případě zájmu Vám rádi poskytneme podrobnější informace.
   </p>
 </div>;
 
