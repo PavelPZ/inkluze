@@ -3,6 +3,7 @@ using System.IO;
 using System.Web;
 using System;
 using System.Net;
+using System.Text;
 
 namespace services {
   public class serviceOUT {
@@ -28,18 +29,23 @@ namespace services {
   }
 
   public static class callRequest {
-    public static TOUT run<TIN, TOUT>(string url, TIN inPar) where TOUT : serviceOUT, new() {
-      //Prepare OAuth request 
+    public static TOUT run<TIN, TOUT>(string url, TIN inPar, bool isGet = false) where TOUT : serviceOUT, new() {
+      string inParJson = inPar != null ? JsonConvert.SerializeObject(inPar) : "";
+      //if (isGet) url = url + "?" + HttpServerUtility..UrlTokenEncode(inParJson);
       WebRequest webRequest = WebRequest.Create(url);
-      webRequest.ContentType = "application/x-www-form-urlencoded";
-      webRequest.Method = "POST";
-      byte[] bytes = new byte[] { 0 };
-      webRequest.ContentLength = bytes.Length;
-      using (Stream outputStream = webRequest.GetRequestStream()) {
-        outputStream.Write(bytes, 0, bytes.Length);
+      webRequest.ContentType = "application/json";
+      if (isGet) {
+        webRequest.Method = "GET";
+      } else {
+        webRequest.Method = "POST";
+        byte[] bytes = Encoding.UTF8.GetBytes(inParJson);
+        webRequest.ContentLength = bytes.Length;
+        using (Stream outputStream = webRequest.GetRequestStream()) {
+          outputStream.Write(bytes, 0, bytes.Length);
+        }
       }
       using (WebResponse webResponse = webRequest.GetResponse()) {
-        return null;
+        return JsonUtils.StreamToObject<TOUT>(webResponse.GetResponseStream());
       }
     }
   }

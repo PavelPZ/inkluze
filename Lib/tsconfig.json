@@ -28,7 +28,9 @@
     "experimentalDecorators": true,
     //"noEmitHelpers": true,
     "declaration": true,
-    "outFile": "../inkluze/libs/lib.js",
+    //"outFile": "../inkluze/libs/lib.js",
+    //"outFile": "../rewiselib/libs/lib.js",
+    "outFile": "../rewiseeditor/libs/lib.js",
     "inlineSourceMap": true,
     "inlineSources": true,
     "jsx": "react"

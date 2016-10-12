@@ -10,7 +10,7 @@
     //"noEmitHelpers": true,
     "strictNullChecks": true,
     "declaration": true,
-    "outFile": "../inkluze/libs/fulltext.js",
+    "outFile": "../rewiseeditor/libs/rewise.js",
     "inlineSourceMap": true,
     "inlineSources": true,
     "jsx": "react"

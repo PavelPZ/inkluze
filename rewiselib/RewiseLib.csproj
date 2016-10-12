@@ -42,7 +42,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Doc.txt" />
-    <Content Include="libs\lib.js" />
     <Content Include="tsconfig.json" />
   </ItemGroup>
   <ItemGroup>

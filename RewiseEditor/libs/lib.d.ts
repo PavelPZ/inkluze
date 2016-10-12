@@ -178,7 +178,7 @@ declare namespace services {
     interface serviceOUT {
         error: string;
     }
-    function callRequest<TIN, TOUT extends serviceOUT>(methodPath: string, inPar: TIN): Promise<TOUT>;
+    function callRequest<TIN, TOUT extends serviceOUT>(methodPath: string, inPar: TIN, isGet?: boolean): Promise<TOUT>;
 }
 declare namespace services.emailer {
     interface sendEmailIN {
