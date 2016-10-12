@@ -29,8 +29,9 @@ var ZSInkluze8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: 
   <BlockEx header="Potřebné šablony: ">
     <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_sbor_8_hodin}</p>
   </BlockEx>
-  <BlockEx header="Bonus - kurzy zdarma: ">
-    <p>Pro každého učitele je připraven bonus v podobě jazykového kurzu zdarma</p>
+  <BlockEx header="Bonus - jazykové kurzy zdarma: ">
+    <p>Pro každého učitele je připraven bonus v podobě interaktivního jazykového kurzu zdarma.
+      V případě zájmu Vám rádi poskytneme podrobnější informace.</p>
   </BlockEx>
 </Panel>
 
@@ -60,6 +61,10 @@ var ZSInkluze16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
       </p>
     </div>
   </BlockEx>
+  <BlockEx header="Bonus - jazykové kurzy zdarma: ">
+    <p>Pro každého učitele je připraven bonus v podobě interaktivního jazykového kurzu zdarma.
+      V případě zájmu Vám rádi poskytneme podrobnější informace.</p>
+  </BlockEx>
 </Panel>;
 
 var ZSInkluze24: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
@@ -86,6 +91,10 @@ var ZSInkluze24: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
         </LiHand>
       </ul>
     </div>
+  </BlockEx>
+  <BlockEx header="Bonus - jazykové kurzy zdarma: ">
+    <p>Pro každého učitele je připraven bonus v podobě interaktivního jazykového kurzu zdarma.
+      V případě zájmu Vám rádi poskytneme podrobnější informace.</p>
   </BlockEx>
 </Panel>;
 

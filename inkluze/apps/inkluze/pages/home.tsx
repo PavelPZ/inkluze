@@ -94,11 +94,13 @@
       <p>
         Více viz stránka {sitemapRouter.doNavigateTag(inkluze.root.kurzy) }.
       </p>
-    </BlockEx>
-    <BlockEx header="Pro každého účastníka našich kurzů jazykový kurz jako bonus zdarma " gray>
-      <p>
-        Pro učitele, kteří se zúčastní našich DVPP kurzů máme připravený bonus - jazykový kurz zdarma.
-      </p>
+      <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
+        <p>
+          Pro učitele, kteří se zúčastní našich DVPP kurzů, máme připravený bonus - interaktivní jazykový kurz zdarma.
+          Můžete si vybrat mezi kurzem angličtiny, němčiny, španělštiny, francouzštiny, italštiny nebo ruštiny.
+          V případě zájmu Vám rádi poskytneme podrobnější informace.
+        </p>
+      </div>
     </BlockEx>
     {/*<BlockEx header="Inkluze se týká většiny učitelů" gray>
       S malou nadsázkou se dá se říci, že v českých školách nenajdete učitele, který by se během své praxe nesetkal s problémy souvisejícími s inkluzí.
@@ -135,7 +137,7 @@
         Více viz stránka {sitemapRouter.navigateTag(inkluze.root.kurzy) }.
       </p>
     </BlockEx>*/}
-    <BlockEx header="Další informace a služby týkající se dotace" >
+    <BlockEx header="Další informace a služby týkající se dotace" gray>
       <p>
         Získat dotaci a využít ji není tak složité, jak se může při prvním čtení stovek stran oficiálních dokumentů zdát.
         Rádi vám poskytneme další informace a služby, které vám čerpání dotace výrazně zjednoduší:
