@@ -29,7 +29,7 @@ var ZSInkluze8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: 
   <BlockEx header="Potřebné šablony: ">
     <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_sbor_8_hodin}</p>
   </BlockEx>
-  <BonusAlert/>
+  <BonusAlert />
 </Panel>
 
 var ZSInkluze16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
@@ -493,35 +493,39 @@ var BonusAlert: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IC
   </p>
 </div>;
 
+function doNavigateCourse(crs: site.INode): JSX.Element {
+  return sitemapRouter.doNavigateTag(crs);
+}
+
 var KurzyList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div>
   <h2 className='text-right'>Akreditované kurzy DVPP MŠMT</h2>
   <Row>
     <Col md={4}>
       <h4>ZŠ Inkluze/společné vzdělávání</h4>
       <ul className='fa-ul'>
-        <LiFile>{inkluze.root.kurzy.ZSInkluze8.title}</LiFile>
-        <LiFile>{inkluze.root.kurzy.ZSInkluze16.title}</LiFile>
-        <LiFile>{inkluze.root.kurzy.ZSInkluze24.title}</LiFile>
-        <LiFile>{inkluze.root.kurzy.ZSInkluze32.title}</LiFile>
+        <LiFile>{doNavigateCourse(inkluze.root.kurzy.ZSInkluze8)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.ZSInkluze16)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.ZSInkluze24)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.ZSInkluze32)}</LiFile>
       </ul>
     </Col>
     <Col md={4}>
       <h4>ZŠ Ostatní</h4>
       <ul className='fa-ul'>
-        <LiFile>{inkluze.root.kurzy.ZSCtenarska16.title}</LiFile>
-        <LiFile>{inkluze.root.kurzy.ZSCtenarska32.title}</LiFile>
-        <LiFile>{inkluze.root.kurzy.ZSMatematicka.title}</LiFile>
-        <LiFile>{inkluze.root.kurzy.ZSMentoring32.title}</LiFile>
-        <LiFile>{inkluze.root.kurzy.ZSMentoring56.title}</LiFile>
-        <LiFile>{inkluze.root.kurzy.ZSMentoring80.title}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.ZSCtenarska16)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.ZSCtenarska32)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.ZSMatematicka)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.ZSMentoring32)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.ZSMentoring56)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.ZSMentoring80)}</LiFile>
       </ul>
     </Col>
     <Col md={4}>
       <h4>MŠ Kurzy</h4>
       <ul className='fa-ul'>
-        <LiFile>{inkluze.root.kurzy.MSInkluze16.title}</LiFile>
-        <LiFile>{inkluze.root.kurzy.MSCtenarska.title}</LiFile>
-        <LiFile>{inkluze.root.kurzy.MSMatematicka.title}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.MSInkluze16)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.MSCtenarska)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.MSMatematicka)}</LiFile>
       </ul>
     </Col>
   </Row>

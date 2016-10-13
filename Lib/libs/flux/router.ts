@@ -79,7 +79,7 @@
     if (!url.toLowerCase().startsWith($basicUrl)) throw new lib.Exception(`location.href does not start with ${$basicUrl}`);
     let res = clearSlashes(url.substr($basicUrl.length));
     if (!res || res == '') return res;
-    res = decodeURIComponent(res.split('&glcid')[0]); 
+    res = decodeURIComponent(res.split('&glcid')[0]); //google prida do vysledku hledani tento parametr, viz http://stackoverflow.com/questions/365888/how-to-decode-google-gclids
     return res;
   }
 
