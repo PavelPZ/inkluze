@@ -1,7 +1,7 @@
 ﻿namespace router {
 
   //difotni route pro pripad, ze je URL prazdna
-  export var getStartRoute: () => TRouteActionPar; 
+  export var getStartRoute: () => TRouteActionPar;
 
   //boot routeru
   export function bootApp(): TRouteActionPar { return rootRouteBind(decodeFullUrl(), false); }
@@ -12,10 +12,6 @@
 
   //route changed notification
   export var onRouteChanged: (route: TRouteActionPar) => void;
-
-  //config
-  export var $isHashRouter = false; //hash or slash route delimiter
-  export var $basicUrl = getBasicUrl(window.location.href); //cast URL pred route paramatter
 
   //rooute objekt structure
   export interface TRouteActionPar {
@@ -39,7 +35,7 @@
     return routes;
   }
 
-  //***************** POPSTATE EVENT
+  //***************** POPSTATE EVENT 
   window.addEventListener("popstate", ev => {
     console.log(`> popstate: ${window.location.href}`);
     rootRouteBind(decodeFullUrl(), false);
@@ -53,7 +49,10 @@
   }
 
   //routa pars are after ".html" url part
-  function getBasicUrl(startUrl: string): string { let idx = startUrl.toLowerCase().indexOf('.html'); return idx >= 0 ? startUrl.substr(0, idx + 5) : startUrl; }
+  function getBasicUrl(startUrl: string): string {
+    let idx = startUrl.toLowerCase().indexOf(index_Html); return idx >= 0 ? startUrl.substr(0, idx + index_Html.length) : startUrl;
+  }
+  const index_Html = 'index.html';
 
   var routeParIgnores = ['storeId', 'hookId', 'par'];
   var routeHookDefaultName = 'routeHookDefault';
@@ -78,7 +77,10 @@
   function decodeUrlPart(url?: string): string {
     if (!url) url = window.location.href;
     if (!url.toLowerCase().startsWith($basicUrl)) throw new lib.Exception(`location.href does not start with ${$basicUrl}`);
-    return clearSlashes(url.substr($basicUrl.length));
+    let res = clearSlashes(url.substr($basicUrl.length));
+    if (!res || res == '') return res;
+    res = decodeURIComponent(res.split('&glcid')[0]); 
+    return res;
   }
 
   function decodeUrl(url?: string): TRouteActionPar {
@@ -168,4 +170,8 @@
   }
 
   function clearSlashes(path: string): string { return path.replace(/\/$/, '').replace(/^[\#\/\?]?/, ''); }
+
+  //config
+  export var $isHashRouter = false; //hash or slash route delimiter
+  export var $basicUrl = getBasicUrl(window.location.href); //cast URL pred route paramatter
 }

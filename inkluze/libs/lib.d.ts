@@ -113,14 +113,14 @@ declare namespace router {
     function doNavigate(routes: TRouteActionPar, ev?: React.SyntheticEvent): TRouteActionPar;
     function navigateUrl(routes: TRouteActionPar): string;
     var onRouteChanged: (route: TRouteActionPar) => void;
-    var $isHashRouter: boolean;
-    var $basicUrl: string;
     interface TRouteActionPar {
         storeId?: string;
         hookId?: string;
         par?: {};
         routeHookDefault?: TRouteActionPar;
     }
+    var $isHashRouter: boolean;
+    var $basicUrl: string;
 }
 declare namespace site {
     interface INode {

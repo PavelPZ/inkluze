@@ -13,7 +13,7 @@
     }
     render(): JSX.Element {
       this.actNode = site.nodes[this.state.storeId.toLowerCase()];
-      if (!this.actNode) throw new lib.Exception(`Node path ${this.state.storeId} not found`);
+      if (!this.actNode) this.actNode = site.root; //  throw new lib.Exception(`Node path ${this.state.storeId} not found`);
       var res = (this.actNode.createPage ? this.actNode.createPage : site.getBlankPage)((this.state.par));
       return res;
     }
