@@ -499,7 +499,7 @@ var KurzyList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.ICo
     <Col md={4}>
       <h4>ZŠ Inkluze/společné vzdělávání</h4>
       <ul className='fa-ul'>
-        <LiFile>{doNavigateCourse(inkluze.root.kurzy.ZSInkluze8)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.ZSInkluze8)}</LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.ZSInkluze16)}</LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.ZSInkluze24)}</LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.ZSInkluze32)}</LiFile>
