@@ -493,10 +493,6 @@ var BonusAlert: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IC
   </p>
 </div>;
 
-function doNavigateCourse(crs: site.INode): JSX.Element {
-  return sitemapRouter.doNavigateTag(crs);
-}
-
 var KurzyList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div>
   <h2 className='text-right'>Akreditované kurzy DVPP MŠMT</h2>
   <Row>
