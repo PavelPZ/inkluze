@@ -15,11 +15,11 @@ interface IKurzProps { defaultExpanded: boolean; title: string; }
 var ZSInkluze8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
+  <ObsahInkluze />
   <BlockEx>
-    Nabízíme několik 8 hodinových akreditovaných kurzů určených pro vzdělávání pedagogického sboru.
-          Každý kurz obsahuje část témat ze seznamu <i>Obsah kurzů</i> na této stránce.
-          Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
-        </BlockEx>
+    Nabízíme řadu 8 hodinových akreditovaných kurzů. Každý kurz obsahuje část z těchto témat.
+    Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
+  </BlockEx>
   <BlockEx>
     <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
       Každý účastník tohoto kurzu se musí účastnit ještě další vzdělávací akce v rozsahu minimálně 16 hodin.
@@ -35,9 +35,9 @@ var ZSInkluze8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: 
 var ZSInkluze16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
+  <ObsahInkluze />
   <BlockEx>
-    Nabízíme několik 16 hodinových akreditovaných kurzů.
-    Každý kurz obsahuje část témat ze seznamu <i>Obsah kurzů</i> na této stránce.
+    Nabízíme řadu 16 hodinových akreditovaných kurzů. Každý kurz obsahuje část z těchto témat.
     Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
   </BlockEx>
   <BlockEx>
@@ -64,6 +64,7 @@ var ZSInkluze16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
 var ZSInkluze24: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">24</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
+  <ObsahInkluze />
   <BlockEx>
     <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
       Tento kurz použijte v případě, že jeden den školení navíc (který je vyžadován u 32 hodinového kurzu) je pro vaši školu kritický.
@@ -92,6 +93,7 @@ var ZSInkluze24: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
 var ZSInkluze32: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">32</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
+  <ObsahInkluze />
   <BlockEx>
     <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
       Tento akreditovaný kurz poskytuje optimální variantu pro seznámení se s problematikou společného vzdělávání.
@@ -526,3 +528,33 @@ var KurzyList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.ICo
     </Col>
   </Row>
 </div>;
+
+var ObsahInkluze: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <BlockEx header="Seminář se věnuje tématům:">
+  <Row>
+    <Col md={6}>
+      <ul className='fa-ul'>
+        <LiFile>Základní právní předpisy, legislativní změny</LiFile>
+        <LiFile>Žák se speciálními vzdělávacími potřebami </LiFile>
+        <LiFile>Struktura podpůrných opatření a jejich členění do pěti stupňů</LiFile>
+        <LiFile>Podpůrná opatření prvního stupně </LiFile>
+        <LiFile>Podpůrná opatření 2. - 5. stupně </LiFile>
+        <LiFile>Struktura a obsah Plánu pedagogické podpory</LiFile>
+        <LiFile>Zpracování ukázkového Plánu pedagogické podpory</LiFile>
+        <LiFile>Výukové metody a jejich role při motivaci k učení</LiFile>
+      </ul>
+    </Col>
+    <Col md={6}>
+      <ul className='fa-ul'>
+        <LiFile>Individuální vzdělávací plán a pedagogická diagnostika</LiFile>
+        <LiFile>Hodnocení žáků ve společném vzdělávání</LiFile>
+        <LiFile>Spolupráce pedagoga s asistentem pedagoga</LiFile>
+        <LiFile>Komunikace s rodiči </LiFile>
+        <LiFile>Spolupráce s poradenskými zařízeními </LiFile>
+        <LiFile>Plán pedagogické podpory a Individuální vzdělávací plán</LiFile>
+        <LiFile>Efektivní hodnocení žáků a specifičnost hodnocení žáků se SVP</LiFile>
+        <LiFile>Pedagogická diagnostika žáka na základní škole</LiFile>
+      </ul>
+    </Col>
+  </Row>
+</BlockEx>
+;

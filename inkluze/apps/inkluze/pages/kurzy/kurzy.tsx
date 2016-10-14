@@ -6,13 +6,13 @@
         {ctx.site.id == 'kurzy' ? <KurzyList /> : null}
         <KurzyAlert />
         <KurzyForm />
-        
+
       </Block>
 
       {coursesLoader(() => [
         { create: gray => <KurzyInkluze loaders={allLoaders[0]} actId={actId} gray={gray} key={0} /> },
-        { create: gray => <KurzyOstatni loaders={allLoaders[1]} actId={actId} gray={gray} key={1}/> },
-        { create: gray => <KurzyMS loaders={allLoaders[2]} actId={actId} gray={gray} key={2}/> },
+        { create: gray => <KurzyOstatni loaders={allLoaders[1]} actId={actId} gray={gray} key={1} /> },
+        { create: gray => <KurzyMS loaders={allLoaders[2]} actId={actId} gray={gray} key={2} /> },
       ], allLoaders, actId)}
 
     </Page >
@@ -31,35 +31,6 @@ var KurzyInkluze: React.StatelessComponent<IKurzyBlockProps> = (props: IKurzyBlo
   return <Block gray={props.gray}>
     <h2 className='text-right'>ZŠ Inkluze</h2>
     {courseLoader(props.loaders, props.actId)}
-    <div className='alert alert-success'>
-      <h3>Obsah kurzů: </h3>
-      <Row>
-        <Col mdOffset={1} md={5}>
-          <ul className='fa-ul'>
-            <LiFile>Základní právní předpisy, legislativní změny</LiFile>
-            <LiFile>Žák se speciálními vzdělávacími potřebami </LiFile>
-            <LiFile>Struktura podpůrných opatření a jejich členění do pěti stupňů</LiFile>
-            <LiFile>Podpůrná opatření prvního stupně </LiFile>
-            <LiFile>Podpůrná opatření 2. - 5. stupně </LiFile>
-            <LiFile>Struktura a obsah Plánu pedagogické podpory</LiFile>
-            <LiFile>Zpracování ukázkového Plánu pedagogické podpory</LiFile>
-            <LiFile>Výukové metody a jejich role při motivaci k učení</LiFile>
-          </ul>
-        </Col>
-        <Col mdOffset={1} md={5}>
-          <ul className='fa-ul'>
-            <LiFile>Individuální vzdělávací plán a pedagogická diagnostika</LiFile>
-            <LiFile>Hodnocení žáků ve společném vzdělávání</LiFile>
-            <LiFile>Spolupráce pedagoga s asistentem pedagoga</LiFile>
-            <LiFile>Komunikace s rodiči </LiFile>
-            <LiFile>Spolupráce s poradenskými zařízeními </LiFile>
-            <LiFile>Plán pedagogické podpory a Individuální vzdělávací plán</LiFile>
-            <LiFile>Efektivní hodnocení žáků a specifičnost hodnocení žáků se SVP</LiFile>
-            <LiFile>Pedagogická diagnostika žáka na základní škole</LiFile>
-          </ul>
-        </Col>
-      </Row>
-    </div>
   </Block>
 };
 KurzyInkluze.contextTypes = sitemapRouter.childContextTypes;
@@ -92,7 +63,7 @@ function courseLoader(loaders: Array<ICourseLoader>, actId: string): Array<JSX.E
 
 interface ICoursesLoader {
   containsId?: boolean;
-  create: (gray:boolean) => JSX.Element;
+  create: (gray: boolean) => JSX.Element;
 }
 
 function coursesLoader(getLoaders: () => Array<ICoursesLoader>, allLoaders: Array<Array<ICourseLoader>>, actId: string): Array<JSX.Element> {
@@ -103,7 +74,7 @@ function coursesLoader(getLoaders: () => Array<ICoursesLoader>, allLoaders: Arra
   }
   loaders.sort((a, b) => a.containsId ? -1 : (b.containsId ? 1 : 0));
   var gray = false;
-  return loaders.map(l => { gray = !gray; return l.create(gray); } );
+  return loaders.map(l => { gray = !gray; return l.create(gray); });
 }
 
 function getLoaders(): Array<Array<ICourseLoader>> {
