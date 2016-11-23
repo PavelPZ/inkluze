@@ -6,6 +6,7 @@
   <p><b>ICO: </b> {props.ICO}</p>
   <p><b>RED_IZO: </b> {props.RED_IZO}</p>*/}
   <p><b>Upřesnění poptávky: </b> {props.poznamka}</p>
+  <p><b>URL: </b> {location.href}</p>
 </div>;
 
 const headerCss: React.CSSProperties = { textDecoration: 'underline', cursor: 'pointer' };
@@ -415,6 +416,7 @@ class KurzyForm extends React.Component<{}, IKuryFormFormStatus> {
         <Row>
           <Col md={6}>
             <FormGroup controlId="email" validationState={this.getValidationState()} >
+
               <ControlLabel>Vyplňte buďto váš email...</ControlLabel>
               <FormControl value={this.state.email} placeholder="Napište váš email" onChange={(e: any) => { this.state.email = e.target.value; this.forceUpdate(); } } />
             </FormGroup>
