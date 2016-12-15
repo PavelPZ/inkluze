@@ -241,6 +241,27 @@ var ZSMentoring32: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
   <BonusAlert />
 </Panel>;
 
+var SSMentoring32: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+  <h3><Label bsStyle="warning">32</Label>  <span style={headerCss}>{props.title}</span></h3>
+</div>} eventKey={2}>
+  <BlockEx header="Seminář se věnuje tématům:  ">
+    <ul className='fa-ul'>
+      <LiFile>vymezení mentoringu ve vzdělávání</LiFile>
+      <LiFile>etika v práci mentora</LiFile>
+      <LiFile>základní principy práce interního mentora</LiFile>
+    </ul>
+    Součástí semináře jsou ukázky vedení rozhovorů s klientem v jednotlivých fázích mentorského procesu.
+        </BlockEx>
+  <BlockEx header="Potřebné šablony: ">
+    <div>
+      <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_32_hodin}&nbsp;varianta <b>d.
+              mentoring</b>
+      </p>
+    </div>
+  </BlockEx>
+  <BonusAlert />
+</Panel>;
+
 var ZSMentoring56: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">56</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
@@ -341,7 +362,54 @@ var MSInkluze16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
   <BonusAlert />
 </Panel>;
 
+var SSInkluze16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+  <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
+</div>} eventKey={2}>
+  <BlockEx>
+    Nabízíme více 16 hodinových akreditovaných kurzů.
+          Každý kurz obsahuje část témat ze seznamu <i>Obsah kurzů</i> na této stránce.
+          Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
+        </BlockEx>
+  <BlockEx>
+    <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
+      Každý účastník tohoto kurzu se musí účastnit ještě další vzdělávací akce v rozsahu minimálně 8 hodin.
+            Viz {popups.bagatelni_podpora}.
+          </div>
+  </BlockEx>
+  <BlockEx header="Potřebné šablony: ">
+    <div>
+      <p>Pro každého učitele je potřeba objednat šablonu {popups.ms_DVPP_16_hodin}&nbsp;varianta <b>e.
+              inkluze</b>
+      </p>
+    </div>
+  </BlockEx>
+  <BonusAlert />
+</Panel>;
+
 var MSCtenarska: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+  <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
+</div>} eventKey={2}>
+  <BlockEx header="Seminář se věnuje tématům:  ">
+    <ul className='fa-ul'>
+      <LiFile>předškolní období a vnitřní motivace ke čtení, budování si vztahu ke knihám a porozumění čteného textu</LiFile>
+      <LiFile>předpoklady pro čtení – genetické předpoklady, percepčně-kognitivní zralost, zralost nervové soustavy, podnětné prostředí </LiFile>
+      <LiFile>činnosti a hry pro rozvoj zrakového a sluchového vnímání</LiFile>
+      <LiFile>rozvoj představivosti a fantazie z hlediska důležitosti pro rozvoj předčtenářské gramotnosti</LiFile>
+      <LiFile>rozvoj myšlení – vývoj a úrovně myšlení – předřečové myšlení, předpojmové myšlení, pojmové myšlení, analýza, syntéza, srovnávání, zobecňování</LiFile>
+      <LiFile>vývoj a rozvoj řeči a komunikačních schopností, slovní zásoba, znalost významu slov</LiFile>
+    </ul>
+  </BlockEx>
+  <BlockEx header="Potřebné šablony: ">
+    <div>
+      <p>Pro každého učitele je potřeba objednat šablonu {popups.ms_DVPP_16_hodin}&nbsp;varianta <b>a.
+              čtenářská pregramotnost</b>
+      </p>
+    </div>
+  </BlockEx>
+  <BonusAlert />
+</Panel>;
+
+var SSCtenarska: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
   <BlockEx header="Seminář se věnuje tématům:  ">
@@ -497,6 +565,24 @@ var BonusAlert: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IC
   </p>
 </div>;
 
+var KurzySSAlert: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div className='alert alert-warning' style={{ fontSize: '18px' }}>
+  <p style={{ marginTop: '0' }}><i className='fa fa-lightbulb-o'></i> Tip: &nbsp;</p>
+  <p>
+    SŠ Pro více informací klikněte na název kurzu dole na stránce.
+  </p>
+  <p>
+    Pro získání podrobnějších informací o našich akreditovaných kurzech vyplňte a odešlete nezávazný poptávkový formulář.
+  </p>
+</div>;
+
+var BonusAlert: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div className='alert alert-warning' style={{ fontSize: '18px' }}>
+  <p style={{ marginTop: '0' }}><i className='fa fa-lightbulb-o'></i> Bonus - jazykové kurzy zdarma:</p>
+  <p>
+    Pro každého učitele je připraven bonus v podobě interaktivního jazykového kurzu zdarma.
+    V případě zájmu Vám rádi poskytneme podrobnější informace.
+  </p>
+</div>;
+
 var KurzyList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div>
   <h2 className='text-right'>Akreditované kurzy DVPP MŠMT</h2>
   <Row>
@@ -526,6 +612,30 @@ var KurzyList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.ICo
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.MSInkluze16)}</LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.MSCtenarska)}</LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.MSMatematicka)}</LiFile>
+      </ul>
+    </Col>
+  </Row>
+</div>;
+
+var KurzySSList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div>
+  <h2 className='text-right'>SŠ Akreditované kurzy DVPP MŠMT</h2>
+  <Row>
+    <Col md={4}>
+      <h4>SŠ Inkluze/společné vzdělávání</h4>
+      <ul className='fa-ul'>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSInkluze16)}</LiFile>
+      </ul>
+    </Col>
+    <Col md={4}>
+      <h4>SŠ Ostatní</h4>
+      <ul className='fa-ul'>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSMentoring32)}</LiFile>
+      </ul>
+    </Col>
+    <Col md={4}>
+      <h4>SŠ Kurzy ostatní</h4>
+      <ul className='fa-ul'>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSCtenarska)}</LiFile>
       </ul>
     </Col>
   </Row>

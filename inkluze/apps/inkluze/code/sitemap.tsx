@@ -5,6 +5,7 @@
     dalsi: site.INode;
     lektori: site.INode;
     kurzy: ISiteKurzy;
+    kurzyss: ISiteKurzySS;
     onas: site.INode;
     //slovnicek: site.INode;
   }
@@ -25,6 +26,12 @@
     MSMatematicka: site.INode;
   }
 
+  export interface ISiteKurzySS extends site.INode {
+    SSInkluze16: site.INode;
+    SSMentoring32: site.INode;
+    SSCtenarska: site.INode;
+  }
+
   export interface IPravidla extends site.INode {
     //msmt_vyzva: site.INode;
     //msmt_priloha3: site.INode;
@@ -39,6 +46,7 @@
     q_and_a: site.ITab;
     dalsi: site.ITab;
     kurzy: site.ITab;
+    kurzyss: site.ITab;
     lektori: site.ITab;
     onas: site.ITab;
     //slovnicek: site.ITab;
@@ -146,6 +154,25 @@
           createPage: par => React.createElement(Kurzy),
         },
       },
+      kurzyss: {
+        id: 'kurzyss',
+        createPage: par => React.createElement(KurzySS),
+        SSInkluze16: {
+          id: 'SSInkluze16',
+          title: 'Inkluze - 16 hodinový kurz',
+          createPage: par => React.createElement(KurzySS),
+        },
+        SSMentoring32: {
+          id: 'MSMentoring32',
+          title: 'Mentoring - 32 hodinový kurz pro SŠ',
+          createPage: par => React.createElement(KurzySS),
+        },
+        SSCtenarska: {
+          id: 'MSCtenarska',
+          title: 'Čtenářská pregramotnost - 16 hodinový kurz',
+          createPage: par => React.createElement(KurzySS),
+        },
+      },
       lektori: {
         id: 'lektori',
         createPage: par => <Lektori />
@@ -161,8 +188,12 @@
         rootNode: root,
       },
       kurzy: {
-        title: 'Kurzy podle šablon z Výzvy 02_16_022 / 023',
+        title: 'Kurzy podle šablon ZŠ a MŠ',
         rootNode: root.kurzy,
+      },
+      kurzyss: {
+        title: 'Kurzy podle šablon SŠ',
+        rootNode: root.kurzyss,
       },
       lektori: {
         title: 'Naši lektoři',
