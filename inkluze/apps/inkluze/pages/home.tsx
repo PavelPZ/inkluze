@@ -46,7 +46,7 @@
       </Block>
     </div>
     
-    <BlockEx header="\"Výzva\" = dotace EU pro ZŠ a MŠ" gray>
+    <BlockEx header={"\"Výzva\" = dotace EU pro ZŠ a MŠ"} gray>
       <ul className='fa-ul'>
         <LiHand>EU nyní poskytuje českým základním a mateřským školám dotaci v ohromující výši Kč 4.5 mld.
           Dotace je z velké části určena na podporu inkluze (společného vzdělávání) a na další vzdělávání pedagogických pracovníků (DVPP).</LiHand>
