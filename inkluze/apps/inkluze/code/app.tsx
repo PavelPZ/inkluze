@@ -10,6 +10,7 @@
 /// <reference path="../pages/slovnicek.tsx"/>
 /// <reference path="../pages/kurzy/controls.tsx"/>
 /// <reference path="../pages/kurzy/kurzy.tsx"/>
+/// <reference path="../pages/kurzy/kurzyss.tsx"/>
 /// <reference path="../pages/lektori.tsx"/>
 /// <reference path="../pages/ostatni.tsx"/>
 /// <reference path="../pages/onas.tsx"/>
