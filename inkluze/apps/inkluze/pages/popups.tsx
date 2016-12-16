@@ -573,7 +573,7 @@
      </div>
    </Popup>,*/
 
-  /*zs_DVPP_80_hodin: <Popup document='priloha3' page= {81} header='II/2.6 Vzdělávání pedagogických pracovníků ZŠ – DVPP v rozsahu 80 hodin'>
+  zs_DVPP_80_hodin: <Popup document='priloha3' page= {81} header='II/2.6 Vzdělávání pedagogických pracovníků ZŠ – DVPP v rozsahu 80 hodin'>
     <div>
       <p>
         Pedagogičtí pracovníci základních škol budou podporováni ve svém profesním a odborném růstu účastí na odborných seminářích, workshopech a dalších vzdělávacích akcích zaměřených na rozvoj dovedností, znalostí a kompetencí a na využívání efektivních vyučovacích metod.
@@ -597,7 +597,7 @@
         </ol>
       </p>
     </div>
-  </Popup>,*/
+  </Popup>,
 
   /*zs_DVPP_inkluze_80_hodin: <Popup document='priloha3' page= {83} header='II/2.7 Vzdělávání pedagogických pracovníků ZŠ zaměřené na inkluzi – DVPP v rozsahu 80 hodin'>
      <div>

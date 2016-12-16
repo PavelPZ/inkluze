@@ -113,14 +113,14 @@ declare namespace router {
     function doNavigate(routes: TRouteActionPar, ev?: React.SyntheticEvent): TRouteActionPar;
     function navigateUrl(routes: TRouteActionPar): string;
     var onRouteChanged: (route: TRouteActionPar) => void;
-    var $isHashRouter: boolean;
-    var $basicUrl: string;
     interface TRouteActionPar {
         storeId?: string;
         hookId?: string;
         par?: {};
         routeHookDefault?: TRouteActionPar;
     }
+    var $isHashRouter: boolean;
+    var $basicUrl: string;
 }
 declare namespace site {
     interface INode {
@@ -178,7 +178,7 @@ declare namespace services {
     interface serviceOUT {
         error: string;
     }
-    function callRequest<TIN, TOUT extends serviceOUT>(methodPath: string, inPar: TIN): Promise<TOUT>;
+    function callRequest<TIN, TOUT extends serviceOUT>(methodPath: string, inPar: TIN, isGet?: boolean): Promise<TOUT>;
 }
 declare namespace services.emailer {
     interface sendEmailIN {

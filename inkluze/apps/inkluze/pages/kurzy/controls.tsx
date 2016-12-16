@@ -6,6 +6,7 @@
   <p><b>ICO: </b> {props.ICO}</p>
   <p><b>RED_IZO: </b> {props.RED_IZO}</p>*/}
   <p><b>Upřesnění poptávky: </b> {props.poznamka}</p>
+  <p><b>URL: </b> {location.href}</p>
 </div>;
 
 const headerCss: React.CSSProperties = { textDecoration: 'underline', cursor: 'pointer' };
@@ -15,11 +16,11 @@ interface IKurzProps { defaultExpanded: boolean; title: string; }
 var ZSInkluze8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
+  <ObsahInkluze />
   <BlockEx>
-    Nabízíme několik 8 hodinových akreditovaných kurzů určených pro vzdělávání pedagogického sboru.
-          Každý kurz obsahuje část témat ze seznamu <i>Obsah kurzů</i> na této stránce.
-          Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
-        </BlockEx>
+    Nabízíme řadu 8 hodinových akreditovaných kurzů. Každý kurz obsahuje část z těchto témat.
+    Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
+  </BlockEx>
   <BlockEx>
     <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
       Každý účastník tohoto kurzu se musí účastnit ještě další vzdělávací akce v rozsahu minimálně 16 hodin.
@@ -29,14 +30,15 @@ var ZSInkluze8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: 
   <BlockEx header="Potřebné šablony: ">
     <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_sbor_8_hodin}</p>
   </BlockEx>
+  <BonusAlert />
 </Panel>
 
 var ZSInkluze16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
+  <ObsahInkluze />
   <BlockEx>
-    Nabízíme několik 16 hodinových akreditovaných kurzů.
-    Každý kurz obsahuje část témat ze seznamu <i>Obsah kurzů</i> na této stránce.
+    Nabízíme řadu 16 hodinových akreditovaných kurzů. Každý kurz obsahuje část z těchto témat.
     Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
   </BlockEx>
   <BlockEx>
@@ -57,11 +59,13 @@ var ZSInkluze16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
       </p>
     </div>
   </BlockEx>
+  <BonusAlert />
 </Panel>;
 
 var ZSInkluze24: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">24</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
+  <ObsahInkluze />
   <BlockEx>
     <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
       Tento kurz použijte v případě, že jeden den školení navíc (který je vyžadován u 32 hodinového kurzu) je pro vaši školu kritický.
@@ -84,11 +88,13 @@ var ZSInkluze24: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
       </ul>
     </div>
   </BlockEx>
+  <BonusAlert />
 </Panel>;
 
 var ZSInkluze32: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">32</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
+  <ObsahInkluze />
   <BlockEx>
     <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
       Tento akreditovaný kurz poskytuje optimální variantu pro seznámení se s problematikou společného vzdělávání.
@@ -113,6 +119,7 @@ var ZSInkluze32: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
       </p>
     </div>
   </BlockEx>
+  <BonusAlert />
 </Panel>;
 
 var ZSCtenarska16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
@@ -142,6 +149,7 @@ var ZSCtenarska16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
       </p>
     </div>
   </BlockEx>
+  <BonusAlert />
 </Panel>;
 
 var ZSCtenarska32: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
@@ -178,6 +186,7 @@ var ZSCtenarska32: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
       </p>
     </div>
   </BlockEx>
+  <BonusAlert />
 </Panel>;
 
 var ZSMatematicka: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
@@ -208,6 +217,7 @@ var ZSMatematicka: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
       </p>
     </div>
   </BlockEx>
+  <BonusAlert />
 </Panel>;
 
 var ZSMentoring32: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
@@ -228,6 +238,28 @@ var ZSMentoring32: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
       </p>
     </div>
   </BlockEx>
+  <BonusAlert />
+</Panel>;
+
+var SSMentoring32: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+  <h3><Label bsStyle="warning">32</Label>  <span style={headerCss}>{props.title}</span></h3>
+</div>} eventKey={2}>
+  <BlockEx header="Seminář se věnuje tématům:  ">
+    <ul className='fa-ul'>
+      <LiFile>vymezení mentoringu ve vzdělávání</LiFile>
+      <LiFile>etika v práci mentora</LiFile>
+      <LiFile>základní principy práce interního mentora</LiFile>
+    </ul>
+    Součástí semináře jsou ukázky vedení rozhovorů s klientem v jednotlivých fázích mentorského procesu.
+        </BlockEx>
+  <BlockEx header="Potřebné šablony: ">
+    <div>
+      <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_32_hodin}&nbsp;varianta <b>d.
+              mentoring</b>
+      </p>
+    </div>
+  </BlockEx>
+  <BonusAlert />
 </Panel>;
 
 var ZSMentoring56: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
@@ -253,6 +285,57 @@ var ZSMentoring56: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
       </p>
     </div>
   </BlockEx>
+  <BonusAlert />
+</Panel>;
+
+var ZSMentoring80: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+  <h3><Label bsStyle="warning">80</Label>  <span style={headerCss}>{props.title}</span></h3>
+</div>} eventKey={2}>
+  <BlockEx>
+    Seminář je určen budoucím interním mentorům, kteří budou působit v rámci své školy.
+    Účastníci získají základní znalosti a dovednosti potřebné k tomu, aby úspěšně zahájili a zvládali svoje mentorské působení.
+    Rozsah semináře umožňuje poskytnout budoucím mentorům základní výcvik v jednotlivých mentorských dovednostech.
+    Předpokládá se, že v průběhu výcviku již pracuje mentor s několika klienty.
+    Supervize jeho mentorských aktivit je součástí tohoto výcvikového semináře.
+    Předpokládá se, že po absolvování semináře bude pokračovat praktická činnost mentora s kolegy a další vzdělávání v oblasti mentoringu.
+  </BlockEx>
+  <BlockEx header="Seminář se věnuje tématům:  ">
+    <ul className='fa-ul'>
+      <LiFile> vymezení mentoringu ve vzdělávání</LiFile>
+      <LiFile> etika v práci mentora, etické kodexy ACF a EMCC</LiFile>
+      <LiFile> základní principy práce interního mentora</LiFile>
+      <LiFile> základy práce s klientem</LiFile>
+      <LiFile> hlavní kompetence mentora</LiFile>
+      <LiFile> mentorské portfolio – jeho vedení</LiFile>
+      <LiFile> stanovování potřeb klienta plánování mentorského procesu</LiFile>
+      <LiFile> osobnostní typy z hlediska mentora a z hlediska klienta</LiFile>
+      <LiFile> kontraktování</LiFile>
+      <LiFile> stanovování cílů mentoringu</LiFile>
+      <LiFile> škola jako systém – nastavování mentorské podpory jako součást systému</LiFile>
+      <LiFile> práce s kompetenčním modelem pedagoga</LiFile>
+      <LiFile> stanovení kritérií kvality v práci pedagoga</LiFile>
+      <LiFile> poskytování zpětné vazy klientovi</LiFile>
+      <LiFile> techniky pozorování</LiFile>
+      <LiFile> techniky vedení rozhovorů</LiFile>
+      <LiFile>další techniky v práci mentora</LiFile>
+      <LiFile>hranice mentora</LiFile>
+      <LiFile>poskytování zpětné vazy klientovi</LiFile>
+      <LiFile>problematické situace v mentoringu</LiFile>
+      <LiFile>uzavírání a vyhodnocování mentoringu</LiFile>
+      <LiFile>seberozvoj mentora a jeho další vzdělávání</LiFile>
+      <LiFile>základní informační zdroje</LiFile>
+      <LiFile>profesní organizace mentorů a koučů</LiFile>
+    </ul>
+    Součástí semináře jsou nácviky vedení rozhovorů s klientem v jednotlivých fázích mentorského procesu, rozbory pozorování, výcvik v poskytování zpětné vazby.
+  </BlockEx>
+  <BlockEx header="Potřebné šablony: ">
+    <div>
+      <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_80_hodin}&nbsp;varianta <b>d.
+              mentoring</b>
+      </p>
+    </div>
+  </BlockEx>
+  <BonusAlert />
 </Panel>;
 
 var MSInkluze16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
@@ -276,6 +359,31 @@ var MSInkluze16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
       </p>
     </div>
   </BlockEx>
+  <BonusAlert />
+</Panel>;
+
+var SSInkluze16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+  <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
+</div>} eventKey={2}>
+  <BlockEx>
+    Nabízíme více 16 hodinových akreditovaných kurzů.
+          Každý kurz obsahuje část témat ze seznamu <i>Obsah kurzů</i> na této stránce.
+          Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
+        </BlockEx>
+  <BlockEx>
+    <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
+      Každý účastník tohoto kurzu se musí účastnit ještě další vzdělávací akce v rozsahu minimálně 8 hodin.
+            Viz {popups.bagatelni_podpora}.
+          </div>
+  </BlockEx>
+  <BlockEx header="Potřebné šablony: ">
+    <div>
+      <p>Pro každého učitele je potřeba objednat šablonu {popups.ms_DVPP_16_hodin}&nbsp;varianta <b>e.
+              inkluze</b>
+      </p>
+    </div>
+  </BlockEx>
+  <BonusAlert />
 </Panel>;
 
 var MSCtenarska: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
@@ -298,6 +406,30 @@ var MSCtenarska: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
       </p>
     </div>
   </BlockEx>
+  <BonusAlert />
+</Panel>;
+
+var SSCtenarska: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+  <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
+</div>} eventKey={2}>
+  <BlockEx header="Seminář se věnuje tématům:  ">
+    <ul className='fa-ul'>
+      <LiFile>předškolní období a vnitřní motivace ke čtení, budování si vztahu ke knihám a porozumění čteného textu</LiFile>
+      <LiFile>předpoklady pro čtení – genetické předpoklady, percepčně-kognitivní zralost, zralost nervové soustavy, podnětné prostředí </LiFile>
+      <LiFile>činnosti a hry pro rozvoj zrakového a sluchového vnímání</LiFile>
+      <LiFile>rozvoj představivosti a fantazie z hlediska důležitosti pro rozvoj předčtenářské gramotnosti</LiFile>
+      <LiFile>rozvoj myšlení – vývoj a úrovně myšlení – předřečové myšlení, předpojmové myšlení, pojmové myšlení, analýza, syntéza, srovnávání, zobecňování</LiFile>
+      <LiFile>vývoj a rozvoj řeči a komunikačních schopností, slovní zásoba, znalost významu slov</LiFile>
+    </ul>
+  </BlockEx>
+  <BlockEx header="Potřebné šablony: ">
+    <div>
+      <p>Pro každého učitele je potřeba objednat šablonu {popups.ms_DVPP_16_hodin}&nbsp;varianta <b>a.
+              čtenářská pregramotnost</b>
+      </p>
+    </div>
+  </BlockEx>
+  <BonusAlert />
 </Panel>;
 
 var MSMatematicka: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
@@ -322,6 +454,7 @@ var MSMatematicka: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
       </p>
     </div>
   </BlockEx>
+  <BonusAlert />
 </Panel>;
 
 interface IKuryFormFormStatus {
@@ -351,6 +484,7 @@ class KurzyForm extends React.Component<{}, IKuryFormFormStatus> {
         <Row>
           <Col md={6}>
             <FormGroup controlId="email" validationState={this.getValidationState()} >
+
               <ControlLabel>Vyplňte buďto váš email...</ControlLabel>
               <FormControl value={this.state.email} placeholder="Napište váš email" onChange={(e: any) => { this.state.email = e.target.value; this.forceUpdate(); } } />
             </FormGroup>
@@ -406,7 +540,7 @@ class KurzyForm extends React.Component<{}, IKuryFormFormStatus> {
           </Col>
         </Row>
         <hr />
-        <Button bsStyle='success' onClick={() => services.emailer.sendEMail({ from: '"Inkluze poptávka"<poptavka@langmaster.cz>', to: 'projekt@langmaster.cz', subject: 'Inkluze poptávka', body: React.createElement<IKuryFormFormStatus>(emailTemplate, this.state) }, () => alert('Děkujeme za zaslání poptávky'))}>Poslat poptávku</Button>
+        <Button bsStyle='success' onClick={() => services.emailer.sendEMail({ from: '"DVPP poptávka"<poptavka@langmaster.cz>', to: 'projekt@langmaster.cz', subject: 'DVPP poptávka', body: React.createElement<IKuryFormFormStatus>(emailTemplate, this.state) }, () => alert('Děkujeme za zaslání poptávky'))}>Poslat poptávku</Button>
       </Panel>
     </div>;
   }
@@ -423,35 +557,116 @@ var KurzyAlert: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IC
   </p>
 </div>;
 
+var BonusAlert: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div className='alert alert-warning' style={{ fontSize: '18px' }}>
+  <p style={{ marginTop: '0' }}><i className='fa fa-lightbulb-o'></i> Bonus - jazykové kurzy zdarma:</p>
+  <p>
+    Pro každého učitele je připraven bonus v podobě interaktivního jazykového kurzu zdarma.
+    V případě zájmu Vám rádi poskytneme podrobnější informace.
+  </p>
+</div>;
+
+var KurzySSAlert: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div className='alert alert-warning' style={{ fontSize: '18px' }}>
+  <p style={{ marginTop: '0' }}><i className='fa fa-lightbulb-o'></i> Tip: &nbsp;</p>
+  <p>
+    SŠ Pro více informací klikněte na název kurzu dole na stránce.
+  </p>
+  <p>
+    Pro získání podrobnějších informací o našich akreditovaných kurzech vyplňte a odešlete nezávazný poptávkový formulář.
+  </p>
+</div>;
+
+var BonusAlert: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div className='alert alert-warning' style={{ fontSize: '18px' }}>
+  <p style={{ marginTop: '0' }}><i className='fa fa-lightbulb-o'></i> Bonus - jazykové kurzy zdarma:</p>
+  <p>
+    Pro každého učitele je připraven bonus v podobě interaktivního jazykového kurzu zdarma.
+    V případě zájmu Vám rádi poskytneme podrobnější informace.
+  </p>
+</div>;
+
 var KurzyList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div>
   <h2 className='text-right'>Akreditované kurzy DVPP MŠMT</h2>
   <Row>
     <Col md={4}>
       <h4>ZŠ Inkluze/společné vzdělávání</h4>
       <ul className='fa-ul'>
-        <LiFile>{inkluze.root.kurzy.ZSInkluze8.title}</LiFile>
-        <LiFile>{inkluze.root.kurzy.ZSInkluze16.title}</LiFile>
-        <LiFile>{inkluze.root.kurzy.ZSInkluze24.title}</LiFile>
-        <LiFile>{inkluze.root.kurzy.ZSInkluze32.title}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.ZSInkluze8)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.ZSInkluze16)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.ZSInkluze24)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.ZSInkluze32)}</LiFile>
       </ul>
     </Col>
     <Col md={4}>
       <h4>ZŠ Ostatní</h4>
       <ul className='fa-ul'>
-        <LiFile>{inkluze.root.kurzy.ZSCtenarska16.title}</LiFile>
-        <LiFile>{inkluze.root.kurzy.ZSCtenarska32.title}</LiFile>
-        <LiFile>{inkluze.root.kurzy.ZSMatematicka.title}</LiFile>
-        <LiFile>{inkluze.root.kurzy.ZSMentoring32.title}</LiFile>
-        <LiFile>{inkluze.root.kurzy.ZSMentoring56.title}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.ZSCtenarska16)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.ZSCtenarska32)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.ZSMatematicka)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.ZSMentoring32)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.ZSMentoring56)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.ZSMentoring80)}</LiFile>
       </ul>
     </Col>
     <Col md={4}>
       <h4>MŠ Kurzy</h4>
       <ul className='fa-ul'>
-        <LiFile>{inkluze.root.kurzy.MSInkluze16.title}</LiFile>
-        <LiFile>{inkluze.root.kurzy.MSCtenarska.title}</LiFile>
-        <LiFile>{inkluze.root.kurzy.MSMatematicka.title}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.MSInkluze16)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.MSCtenarska)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.MSMatematicka)}</LiFile>
       </ul>
     </Col>
   </Row>
 </div>;
+
+var KurzySSList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div>
+  <h2 className='text-right'>SŠ Akreditované kurzy DVPP MŠMT</h2>
+  <Row>
+    <Col md={4}>
+      <h4>SŠ Inkluze/společné vzdělávání</h4>
+      <ul className='fa-ul'>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSInkluze16)}</LiFile>
+      </ul>
+    </Col>
+    <Col md={4}>
+      <h4>SŠ Ostatní</h4>
+      <ul className='fa-ul'>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSMentoring32)}</LiFile>
+      </ul>
+    </Col>
+    <Col md={4}>
+      <h4>SŠ Kurzy ostatní</h4>
+      <ul className='fa-ul'>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSCtenarska)}</LiFile>
+      </ul>
+    </Col>
+  </Row>
+</div>;
+
+var ObsahInkluze: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <BlockEx header="Seminář se věnuje tématům:">
+  <Row>
+    <Col md={6}>
+      <ul className='fa-ul'>
+        <LiFile>Základní právní předpisy, legislativní změny</LiFile>
+        <LiFile>Žák se speciálními vzdělávacími potřebami </LiFile>
+        <LiFile>Struktura podpůrných opatření a jejich členění do pěti stupňů</LiFile>
+        <LiFile>Podpůrná opatření prvního stupně </LiFile>
+        <LiFile>Podpůrná opatření 2. - 5. stupně </LiFile>
+        <LiFile>Struktura a obsah Plánu pedagogické podpory</LiFile>
+        <LiFile>Zpracování ukázkového Plánu pedagogické podpory</LiFile>
+        <LiFile>Výukové metody a jejich role při motivaci k učení</LiFile>
+      </ul>
+    </Col>
+    <Col md={6}>
+      <ul className='fa-ul'>
+        <LiFile>Individuální vzdělávací plán a pedagogická diagnostika</LiFile>
+        <LiFile>Hodnocení žáků ve společném vzdělávání</LiFile>
+        <LiFile>Spolupráce pedagoga s asistentem pedagoga</LiFile>
+        <LiFile>Komunikace s rodiči </LiFile>
+        <LiFile>Spolupráce s poradenskými zařízeními </LiFile>
+        <LiFile>Plán pedagogické podpory a Individuální vzdělávací plán</LiFile>
+        <LiFile>Efektivní hodnocení žáků a specifičnost hodnocení žáků se SVP</LiFile>
+        <LiFile>Pedagogická diagnostika žáka na základní škole</LiFile>
+      </ul>
+    </Col>
+  </Row>
+</BlockEx>
+;

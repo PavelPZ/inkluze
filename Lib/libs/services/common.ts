@@ -1,12 +1,12 @@
 ﻿namespace services {
   export interface serviceOUT {
-    error:string;
+    error: string;
   }
 
-  export function callRequest<TIN, TOUT extends serviceOUT>(methodPath:string, inPar: TIN): Promise<TOUT> {
+  export function callRequest<TIN, TOUT extends serviceOUT>(methodPath: string, inPar: TIN, isGet?: boolean): Promise<TOUT> {
     return new Promise((resolve, reject) => {
       var xmlhttp = new XMLHttpRequest();
-      var url = `${methodPath}/service.ashx?`;
+      var url = `${methodPath}/service.ashx`;
       xmlhttp.onreadystatechange = () => {
         if (xmlhttp.readyState == XMLHttpRequest.DONE) {
           if (xmlhttp.status == 200) {
@@ -22,8 +22,14 @@
             reject(`Status ${xmlhttp.status} at ${url}`);
         }
       };
-      xmlhttp.open('POST', url, true);
-      xmlhttp.send(inPar ? JSON.stringify(inPar, null, 2) : '');
+      let inParJson = inPar ? JSON.stringify(inPar, null, 2) : '';
+      if (isGet) {
+        xmlhttp.open('GET', url + '?' + encodeURIComponent(inParJson), true);
+        xmlhttp.send();
+      } else {
+        xmlhttp.open('POST', url, true);
+        xmlhttp.send(inParJson);
+      }
     });
   }
 }

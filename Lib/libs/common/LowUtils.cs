@@ -64,12 +64,16 @@ public static class JsonUtils {
       throw new Exception(fileName, exp);
     }
   }
+  static public T StreamToObject<T>(Stream str) {
+    using (StreamReader rdr = new StreamReader(str))
+      return json.JsonConvert.DeserializeObject<T>(rdr.ReadToEnd());
+  }
   static public void ObjectToFile(string fileName, object xmlObject, bool indent = false, bool adjustDir = false) {
     if (adjustDir) LowUtils.AdjustFileDir(fileName);
     File.WriteAllText(fileName, ObjectToString(xmlObject, indent));
   }
 
-  static json.JsonSerializerSettings settings = new json.JsonSerializerSettings() { DefaultValueHandling=json.DefaultValueHandling.Ignore};
+  static json.JsonSerializerSettings settings = new json.JsonSerializerSettings() { DefaultValueHandling = json.DefaultValueHandling.Ignore };
 
   static public T StringToObject<T>(string s) where T : class {
     return json.JsonConvert.DeserializeObject<T>(s);
