@@ -27,9 +27,17 @@
   }
 
   export interface ISiteKurzySS extends site.INode {
+    SSInkluze8: site.INode;
     SSInkluze16: site.INode;
+    SSInkluze24: site.INode;
     SSMentoring32: site.INode;
-    SSCtenarska: site.INode;
+    SSMentoring80: site.INode;
+    SSCtenarska8: site.INode;
+    SSCtenarska16: site.INode;
+    SSCtenarska24: site.INode;
+    SSMatematicka8: site.INode;
+    SSMatematicka16: site.INode;
+    SSMatematicka24: site.INode;
   }
 
   export interface IPravidla extends site.INode {
@@ -157,19 +165,59 @@
       kurzyss: {
         id: 'kurzyss',
         createPage: par => React.createElement(KurzySS),
+        SSInkluze8: {
+          id: 'SSInkluze8',
+          title: 'Inkluze - 8 hodinový kurz',
+          createPage: par => React.createElement(KurzySS),
+        },
         SSInkluze16: {
           id: 'SSInkluze16',
           title: 'Inkluze - 16 hodinový kurz',
           createPage: par => React.createElement(KurzySS),
         },
+        SSInkluze24: {
+          id: 'SSInkluze24',
+          title: 'Inkluze - 24 hodinový kurz',
+          createPage: par => React.createElement(KurzySS),
+        },
         SSMentoring32: {
-          id: 'MSMentoring32',
+          id: 'SSMentoring32',
           title: 'Mentoring - 32 hodinový kurz pro SŠ',
           createPage: par => React.createElement(KurzySS),
         },
-        SSCtenarska: {
-          id: 'MSCtenarska',
-          title: 'Čtenářská pregramotnost - 16 hodinový kurz',
+        SSMentoring80: {
+          id: 'SSMentoring80',
+          title: 'Mentoring - 80 hodinový kurz pro SŠ',
+          createPage: par => React.createElement(KurzySS),
+        },
+        SSCtenarska8: {
+          id: 'SSCtenarska8',
+          title: 'Čtenářská gramotnost - 8 hodinový kurz',
+          createPage: par => React.createElement(KurzySS),
+        },
+        SSCtenarska16: {
+          id: 'SSCtenarska16',
+          title: 'Čtenářská gramotnost - 16 hodinový kurz',
+          createPage: par => React.createElement(KurzySS),
+        },
+        SSCtenarska24: {
+          id: 'SSCtenarska24',
+          title: 'Čtenářská gramotnost - 24 hodinový kurz',
+          createPage: par => React.createElement(KurzySS),
+        },
+        SSMatematicka8: {
+          id: 'SSMatematicka8',
+          title: 'Matematická gramotnost - 8 hodinový kurz',
+          createPage: par => React.createElement(KurzySS),
+        },
+        SSMatematicka16: {
+          id: 'SSMatematicka16',
+          title: 'Matematická gramotnost - 16 hodinový kurz',
+          createPage: par => React.createElement(KurzySS),
+        },
+        SSMatematicka24: {
+          id: 'SSMatematicka24',
+          title: 'Matematická gramotnost - 24 hodinový kurz',
           createPage: par => React.createElement(KurzySS),
         },
       },
@@ -188,11 +236,11 @@
         rootNode: root,
       },
       kurzy: {
-        title: 'Kurzy podle šablon ZŠ a MŠ',
+        title: 'Kurzy podle šablon - ZŠ a MŠ',
         rootNode: root.kurzy,
       },
       kurzyss: {
-        title: 'Kurzy podle šablon SŠ',
+        title: 'Kurzy podle šablon - SŠ a VOŠ',
         rootNode: root.kurzyss,
       },
       lektori: {
