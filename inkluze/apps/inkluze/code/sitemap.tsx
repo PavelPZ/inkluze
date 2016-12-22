@@ -30,7 +30,6 @@
     SSInkluze8: site.INode;
     SSInkluze16: site.INode;
     SSInkluze24: site.INode;
-    SSMentoring32: site.INode;
     SSMentoring80: site.INode;
     SSCtenarska8: site.INode;
     SSCtenarska16: site.INode;
@@ -65,7 +64,7 @@
   export function bootApp() {
     site.root = root = {
       id: 'home',
-      title: 'Akreditované kurzy podle šablon z Výzvy 02_16_022/023 od zkušených lektorů',
+      title: 'Akreditované kurzy podle šablon z Výzvy 02_16_022/023/034/042 od zkušených lektorů',
       brTitle: 'DVPP',
       largeLogo: true,
       createPage: routePar => <Home />, //sitemapRouter.createElement<IHomePar>(Home, routePar, { subTitle: 'SubTitle Default' }),
@@ -178,11 +177,6 @@
         SSInkluze24: {
           id: 'SSInkluze24',
           title: 'Inkluze - 24 hodinový kurz',
-          createPage: par => React.createElement(KurzySS),
-        },
-        SSMentoring32: {
-          id: 'SSMentoring32',
-          title: 'Mentoring - 32 hodinový kurz pro SŠ',
           createPage: par => React.createElement(KurzySS),
         },
         SSMentoring80: {

@@ -404,7 +404,7 @@ var SSInkluze8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: 
           </div>
   </BlockEx>
   <BlockEx header="Potřebné šablony: ">
-    <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_sbor_8_hodin}</p>
+    <p>Pro každého učitele je potřeba objednat šablonu {popups.ss_DVPP_8_hodin}</p>
   </BlockEx>
   <BonusAlert />
 </Panel>
@@ -462,27 +462,6 @@ var SSInkluze24: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
                 inkluze</b>
         </LiHand>
       </ul>
-    </div>
-  </BlockEx>
-  <BonusAlert />
-</Panel>;
-
-var SSMentoring32: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">32</Label>  <span style={headerCss}>{props.title}</span></h3>
-</div>} eventKey={2}>
-  <BlockEx header="Seminář se věnuje tématům:  ">
-    <ul className='fa-ul'>
-      <LiFile>vymezení mentoringu ve vzdělávání</LiFile>
-      <LiFile>etika v práci mentora</LiFile>
-      <LiFile>základní principy práce interního mentora</LiFile>
-    </ul>
-    Součástí semináře jsou ukázky vedení rozhovorů s klientem v jednotlivých fázích mentorského procesu.
-        </BlockEx>
-  <BlockEx header="Potřebné šablony: ">
-    <div>
-      <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_32_hodin}&nbsp;varianta <b>d.
-              mentoring</b>
-      </p>
     </div>
   </BlockEx>
   <BonusAlert />
@@ -902,7 +881,6 @@ var KurzySSList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.I
     <Col md={4}>
       <h4>SŠ a VOŠ Mentoring</h4>
       <ul className='fa-ul'>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSMentoring32)}</LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSMentoring80)}</LiFile>
       </ul>
     </Col>

@@ -86,7 +86,6 @@ function getSSLoaders(): Array<Array<ICourseSSLoader>> {
       { id: 'SSInkluze24', create: expanded => <SSInkluze24 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSInkluze24.title} /> },
     ],
     [
-      { id: 'SSMentoring32', create: expanded => <SSMentoring32 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSMentoring32.title} /> },
       { id: 'SSMentoring80', create: expanded => <SSMentoring80 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSMentoring80.title} /> },
     ],
     [

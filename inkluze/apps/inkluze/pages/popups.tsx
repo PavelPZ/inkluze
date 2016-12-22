@@ -738,6 +738,38 @@
      </div>
    </Popup>,*/
 
+  ss_DVPP_8_hodin: <Popup document='priloha3' page={39} header='III/2.1 Vzdělávání pedagogických pracovníků SŠ – DVPP v rozsahu 8 hodin'>
+    <div>
+      <p>
+        Cílem  aktivity  je  podpořit  profesní  růst  pedagogických pracovníků  pomocí  vzdělávání  a průběžného sebevzdělávání.
+      </p>
+      <p>        
+        Pedagogičtí pracovníci středních škol budou podporováni ve svém profesním a odborném růstu účastí na odborných seminářích,  workshopech  a  dalších  vzdělávacích  akcích zaměřených na rozvoj dovedností, znalostí a kompetencí a na využívání efektivních vyučovacích metod.
+        Vzdělávání bude probíhat formou absolvování vzdělávacího programu DVPP akreditovaného v systému DVPP.
+      </p>
+      <p>
+        Pedagogičtí pracovníci budou podpořeni v jedné z výše  uvedených variant této aktivity.
+        <ol type="a">
+          <li>
+            Čtenářská gramotnost;
+          </li>
+          <li>
+            Matematická gramotnost;
+          </li>
+          <li>
+            Cizí jazyky;
+          </li>
+          <li>
+            Mentoring;
+          </li>
+          <li>
+            Inkluze;
+          </li>
+        </ol>
+      </p>
+    </div>
+  </Popup>,
+
 
 }
 
