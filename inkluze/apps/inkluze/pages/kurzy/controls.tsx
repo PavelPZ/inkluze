@@ -276,12 +276,31 @@ var ZSMentoring32: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
 </div>} eventKey={2}>
   <BlockEx header="Ukázky z témat:  ">
     <ul className='fa-ul'>
-      <LiFile>vymezení mentoringu ve vzdělávání</LiFile>
-      <LiFile>etika v práci mentora</LiFile>
-      <LiFile>základní principy práce interního mentora</LiFile>
+      <LiFile>Mapování dosavadních zkušeností s danou tématikou.</LiFile>
+      <LiFile>Charakteristiky kvality pedagogické práce – kompetenční model.</LiFile>
+      <LiFile>Kritéria dobré školy (ČŠI) ve vztahu k nárokům na pedagogické kompetence. </LiFile>
+      <LiFile>Kritéria dobré učitelské práce. </LiFile>
+      <LiFile>Indikátory dobrého pedagogického výkonu. </LiFile>
+      <LiFile>Východiska pro zavádění mentoringu v ČR. </LiFile>
+      <LiFile>Profesní organizace a závazek seberozvoji mentorů. </LiFile>
+      <LiFile>Etické kodexy při práci mentora (EMCC a ICF). </LiFile>
+      <LiFile>Úloha a odpovědnost mentora, kompetence a mentorské dovednosti. </LiFile>
+      <LiFile>Vyhodnocení vlastních předpokladů účastníků pro budování role mentora. </LiFile>
+      <LiFile>Vztah mentora a mentorovaného. </LiFile>
+      <LiFile>Role mentora. </LiFile>
+      <LiFile>Principy individuální práce s lidmi – mentorig, koučing, poradenství, terapie. Co je spojuje, co je odlišuje. </LiFile>
+      <LiFile>Model GROW, aktivní naslouchání. </LiFile>
+      <LiFile>Praktický nácvik aktivního naslouchání a modelu GROW. </LiFile>
+      <LiFile>Průběh jednání pro nastavení kontraktu s klientem – co slíbit, co nikoliv. </LiFile>
+      <LiFile>Smlouva. </LiFile>
+      <LiFile>Úvodní mentorská schůzka – délka, průběh, rizika. </LiFile>
+      <LiFile>Evaluace průběhu a výsledků spolupráce. </LiFile>
+      <LiFile>Mentorská sebereflexe, plánování osobního růstu. </LiFile>
+      <LiFile>Prezentace mentoringu – jeho výhod, limitů. </LiFile>
+      <LiFile>Uvědomění si rizik – vědět, jak s nimi pracovat.</LiFile>
     </ul>
     Součástí semináře jsou ukázky vedení rozhovorů s klientem v jednotlivých fázích mentorského procesu.
-        </BlockEx>
+  </BlockEx>
   <BlockEx header="Potřebné šablony: ">
     <div>
       <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_32_hodin}&nbsp;varianta <b>d.
@@ -297,17 +316,33 @@ var ZSMentoring56: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
 </div>} eventKey={2}>
   <BlockEx header="Ukázky z témat:  ">
     <ul className='fa-ul'>
-      <LiFile>vymezení mentoringu ve vzdělávání</LiFile>
-      <LiFile> etika v práci mentora, etické kodexy ACF a EMCC</LiFile>
-      <LiFile> základní principy práce interního mentora</LiFile>
-      <LiFile> základy práce s klientem</LiFile>
-      <LiFile> hlavní kompetence mentora</LiFile>
-      <LiFile> stanovování potřeb klienta plánování mentorského procesu</LiFile>
-      <LiFile> osobnostní typy z hlediska mentora a z hlediska klienta</LiFile>
-      <LiFile> poskytování zpětné vazy klientovi</LiFile>
+      <LiFile>Mapování dosavadních zkušeností s danou tématikou. </LiFile>
+      <LiFile>Charakteristiky kvality pedagogické práce – kompetenční model. </LiFile>
+      <LiFile>Kritéria dobré školy (ČŠI) ve vztahu k nárokům na pedagogické kompetence. </LiFile>
+      <LiFile>Kritéria dobré učitelské práce. </LiFile>
+      <LiFile>Indikátory dobrého pedagogického výkonu. </LiFile>
+      <LiFile>Východiska pro zavádění mentoringu v ČR. </LiFile>
+      <LiFile>Profesní organizace a závazek seberozvoji mentorů. </LiFile>
+      <LiFile>Etické kodexy při práci mentora (EMCC a ICF). </LiFile>
+      <LiFile>Úloha a odpovědnost mentora, kompetence a mentorské dovednosti. </LiFile>
+      <LiFile>Vyhodnocení vlastních předpokladů účastníků pro budování role mentora. </LiFile>
+      <LiFile>Vztah mentora a mentorovaného. </LiFile>
+      <LiFile>Role mentora. </LiFile>
+      <LiFile>Principy individuální práce s lidmi mentorig, koučing, poradenství, terapie. Co je spojuje, co je odlišuje. </LiFile>
+      <LiFile>Model GROW, aktivní naslouchání. </LiFile>
+      <LiFile>Praktický nácvik aktivního naslouchání a modelu GROW. </LiFile>
+      <LiFile>Průběh jednání pro nastavení kontraktu s klientem co slíbit, co nikoliv. </LiFile>
+      <LiFile>Smlouva. </LiFile>
+      <LiFile>Úvodní mentorská schůzka délka, průběh, rizika. </LiFile>
+      <LiFile>Evaluace průběhu a výsledků spolupráce. </LiFile>
+      <LiFile>Mentorská sebereflexe, plánování osobního růstu. </LiFile>
+      <LiFile>Prezentace mentoringu – jeho výhod, limitů. </LiFile>
+      <LiFile>Uvědomění si rizik – vědět, jak s nimi pracovat.</LiFile>
+      <LiFile>Ve výcvikovém kurzu je věnováno více času cvičení mentorských dovedností a možnostem nechat se vést lektory mentory. </LiFile>
+      <LiFile>Účastníkům bude nabídnut mentor – mentorink, reflektování jejich vlastní praxe.</LiFile>
     </ul>
     Součástí semináře jsou základní nácviky vedení rozhovorů s klientem v jednotlivých fázích mentorského procesu, rozbory pozorování, výcvik v poskytování zpětné vazby.
-        </BlockEx>
+  </BlockEx>
   <BlockEx header="Potřebné šablony: ">
     <div>
       <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_56_hodin}&nbsp;varianta <b>d.
