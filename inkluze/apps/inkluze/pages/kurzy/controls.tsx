@@ -160,7 +160,7 @@ var ZSCtenarska16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
 var ZSCtenarska32: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">32</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
-  <BlockEx header="Seminář se věnuje tématům:  ">
+  <BlockEx header="Ukázky z témat:  ">
     <ul className='fa-ul'>
       <LiFile>sedm základních strategií čtenářské gramotnosti</LiFile>
       <LiFile>princip třífázového učení E-U-R</LiFile>
@@ -241,7 +241,7 @@ var ZSMatematicka16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, 
 var ZSMatematicka32: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">32</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
-  <BlockEx header="Seminář se věnuje tématům:  ">
+  <BlockEx header="Ukázky z témat:  ">
     <ul className='fa-ul'>
       <LiFile>Charakteristika matematické gramotnosti. Situace a kontexty ( kde člověk aplikuje znalosti a dovednosti, řeší problémy). </LiFile>
       <LiFile> Rozvíjení schopnosti řešit problémy. Správné kladení otázek.  Analýza   informací. Rozbor slovních úloh. Práce s chybou. Matematizování reálných situací. Používání správné terminologie a symboliky. Praktické využití poznatků z matematiky. Budování vztahu k matematice. </LiFile>
@@ -274,7 +274,7 @@ var ZSMatematicka32: React.StatelessComponent<IKurzProps> = (props: IKurzProps, 
 var ZSMentoring32: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">32</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
-  <BlockEx header="Seminář se věnuje tématům:  ">
+  <BlockEx header="Ukázky z témat:  ">
     <ul className='fa-ul'>
       <LiFile>vymezení mentoringu ve vzdělávání</LiFile>
       <LiFile>etika v práci mentora</LiFile>
@@ -295,7 +295,7 @@ var ZSMentoring32: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
 var ZSMentoring56: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">56</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
-  <BlockEx header="Seminář se věnuje tématům:  ">
+  <BlockEx header="Ukázky z témat:  ">
     <ul className='fa-ul'>
       <LiFile>vymezení mentoringu ve vzdělávání</LiFile>
       <LiFile> etika v práci mentora, etické kodexy ACF a EMCC</LiFile>
@@ -329,7 +329,7 @@ var ZSMentoring80: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
     Supervize jeho mentorských aktivit je součástí tohoto výcvikového semináře.
     Předpokládá se, že po absolvování semináře bude pokračovat praktická činnost mentora s kolegy a další vzdělávání v oblasti mentoringu.
   </BlockEx>
-  <BlockEx header="Seminář se věnuje tématům:  ">
+  <BlockEx header="Ukázky z témat:  ">
     <ul className='fa-ul'>
       <LiFile> vymezení mentoringu ve vzdělávání</LiFile>
       <LiFile> etika v práci mentora, etické kodexy ACF a EMCC</LiFile>
@@ -502,6 +502,7 @@ var SSInkluze16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
 var SSInkluze24: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">24</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
+  <BlockEx header="… připravujeme"></BlockEx>
   <ObsahInkluze />
   <BlockEx>
     <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
@@ -545,7 +546,7 @@ var SSMentoring80: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
     Supervize jeho mentorských aktivit je součástí tohoto výcvikového semináře.
     Předpokládá se, že po absolvování semináře bude pokračovat praktická činnost mentora s kolegy a další vzdělávání v oblasti mentoringu.
   </BlockEx>
-  <BlockEx header="Seminář se věnuje tématům:  ">
+  <BlockEx header="Ukázky z témat:  ">
     <ul className='fa-ul'>
       <LiFile> vymezení mentoringu ve vzdělávání</LiFile>
       <LiFile> etika v práci mentora, etické kodexy ACF a EMCC</LiFile>
@@ -585,18 +586,21 @@ var SSMentoring80: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
 </Panel>;
 
 var SSCtenarska8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
+  <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
-  <BlockEx header="Seminář se věnuje tématům:  ">
+  <BlockEx header="Ukázky z témat:  ">
     <ul className='fa-ul'>
-      <LiFile>seznámení s problematikou čtenářské gramotnosti</LiFile>
-      <LiFile>čtení s porozuměním</LiFile>
-      <LiFile>metody a formy práce, rozvíjející čtenářskou gramotnost </LiFile>
-      <LiFile>myšlenkové mapy</LiFile>
-      <LiFile>správné kladení otázek jak pro učitele, tak pro žáky</LiFile>
-      <LiFile>promýšlení strategií</LiFile>
-      <LiFile>rozvoj kritického myšlení.</LiFile>
-      <LiFile>zkušenost zprostředkovaného učení </LiFile>
+      <LiFile>Seznámení s principem třífázového učení E-U-R a se základními metodami a formami práce a jejich dělením </LiFile>
+      <LiFile>Aplikace jednotlivých základních metod ve výuce:
+        <ul >
+          <LiFile>Brainstorming – princip a různé způsoby využití</LiFile>
+          <LiFile>Myšlenková mapa - princip a různé způsoby využití</LiFile>
+          <LiFile>Práce s textem - princip a různé způsoby využití</LiFile>
+          <LiFile>Škálování - princip a různé způsoby využití</LiFile>
+          <LiFile>další aktivizující metody a formy výuky</LiFile>
+        </ul>
+      </LiFile>
+      <LiFile>Diskuse nad konkrétními problémy.</LiFile>
     </ul>
   </BlockEx>
   <BlockEx header="Výuka ve sborovně:">
@@ -617,16 +621,31 @@ var SSCtenarska8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
 var SSCtenarska16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
-  <BlockEx header="Seminář se věnuje tématům:  ">
+  <BlockEx header="Ukázky z témat:  ">
     <ul className='fa-ul'>
-      <LiFile>seznámení s problematikou čtenářské gramotnosti</LiFile>
-      <LiFile>čtení s porozuměním</LiFile>
-      <LiFile>metody a formy práce, rozvíjející čtenářskou gramotnost </LiFile>
-      <LiFile>myšlenkové mapy</LiFile>
-      <LiFile>správné kladení otázek jak pro učitele, tak pro žáky</LiFile>
-      <LiFile>promýšlení strategií</LiFile>
-      <LiFile>rozvoj kritického myšlení.</LiFile>
-      <LiFile>zkušenost zprostředkovaného učení </LiFile>
+      <LiFile>Čtenářská gramotnost – vyvození sedmi základních strategií čtenářské gramotnosti </LiFile>
+      <LiFile>Seznámení s principem třífázového učení E-U-R a se základními metodami a formami práce a jejich dělením </LiFile>
+      <LiFile>Metody a formy práce, které rozvíjejí nejvíce klíčových kompetencí (vyvození) </LiFile>
+      <LiFile>Aplikace jednotlivých základních metod ve výuce – interaktivní část semináře – interaktivní zapojení účastníků
+        <ul>
+          <LiFile>Brainstorming – princip a různé způsoby využití</LiFile>
+          <LiFile>Myšlenková mapa - princip a různé způsoby využití</LiFile>
+          <LiFile>Práce s textem - princip a různé způsoby využití
+            <ul>
+              <LiFile>vyhledávání a zpracovávání informací</LiFile>
+              <LiFile>metoda I.N.S.E.R.T.</LiFile>
+              <LiFile>skládankové učení</LiFile>
+              <LiFile>párové čtení</LiFile>
+              <LiFile>pětilístek</LiFile>
+              <LiFile>volné psaní</LiFile>
+              <LiFile>třífázový rozhovoru…</LiFile>
+            </ul>
+          </LiFile>
+          <LiFile>Škálování - princip a různé způsoby využití</LiFile>
+          <LiFile>další aktivizující metody a formy výuky</LiFile>
+        </ul>
+      </LiFile>
+      <LiFile>Hodnocení úrovně rozvoje čtenářské gramotnosti </LiFile>
     </ul>
   </BlockEx>
   <BlockEx header="Výuka ve sborovně:">
@@ -645,25 +664,37 @@ var SSCtenarska16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
 </Panel>;
 
 var SSCtenarska24: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
+  <h3><Label bsStyle="warning">24</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
-  <BlockEx header="Seminář se věnuje tématům:  ">
+  <BlockEx header="Ukázky z témat:  ">
     <ul className='fa-ul'>
-      <LiFile>sedm základních strategií čtenářské gramotnosti</LiFile>
-      <LiFile>principem třífázového učení</LiFile>
-      <LiFile>metody a formy práce, rozvíjející čtenářskou gramotnost </LiFile>
-      <LiFile>práce s textem - princip a různé způsoby využití</LiFile>
-      <LiFile>brainstorming – princip a různé způsoby využití</LiFile>
-      <LiFile>myšlenková mapa - princip a různé způsoby využití</LiFile>
-      <LiFile>škálování - princip a různé způsoby využití</LiFile>
-      <LiFile>práce s textem - princip a různé způsoby využití</LiFile>
-      <LiFile>vyhledávání a zpracovávání informací</LiFile>
-      <LiFile>metoda I.N.S.E.R.T.</LiFile>
-      <LiFile>skládankové učení</LiFile>
-      <LiFile>párové čtení</LiFile>
-      <LiFile>pětilístek</LiFile>
-      <LiFile>volné psaní</LiFile>
-      <LiFile>třífázový rozhovor…</LiFile>
+      <LiFile>Čtenářská gramotnost – vyvození sedmi základních strategií čtenářské gramotnosti </LiFile>
+      <LiFile>Seznámení s principem třífázového učení E-U-R a se základními metodami a formami práce a jejich dělením </LiFile>
+      <LiFile>Metody a formy práce, které rozvíjejí nejvíce klíčových kompetencí (vyvození) </LiFile>
+      <LiFile>Pedagogická diagnostika v rámci ČG</LiFile>
+      <LiFile>Aplikace jednotlivých základních metod ve výuce – interaktivní část semináře – interaktivní zapojení účastníků
+        <ul>
+          <LiFile>Brainstorming – princip a různé způsoby využití</LiFile>
+          <LiFile>Myšlenková mapa - princip a různé způsoby využití</LiFile>
+          <LiFile>Práce s textem - princip a různé způsoby využití
+            <ul>
+              <LiFile>vyhledávání a zpracovávání informací</LiFile>
+              <LiFile>metoda I.N.S.E.R.T.</LiFile>
+              <LiFile>skládankové učení</LiFile>
+              <LiFile>párové čtení</LiFile>
+              <LiFile>pětilístek</LiFile>
+              <LiFile>volné psaní</LiFile>
+              <LiFile>třífázový rozhovor</LiFile>
+              <LiFile>další metody RWCT</LiFile>
+            </ul>
+          </LiFile>
+          <LiFile>Škálování - princip a různé způsoby využití</LiFile>
+          <LiFile>Projektové vyučování</LiFile>
+          <LiFile>další aktivizující metody a formy výuky vedoucí k rozvoji čtenářské gramotnosti</LiFile>
+        </ul>
+      </LiFile>
+      <LiFile>Ukázky vlastní práce učitele v rámci rozvoje čtenářské gramotnosti – interaktivní část semináře </LiFile>
+      <LiFile>Diskuse nad konkrétními problémy </LiFile>
     </ul>
   </BlockEx>
   <BlockEx header="Výuka ve sborovně:">
@@ -682,9 +713,10 @@ var SSCtenarska24: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
 </Panel>;
 
 var SSMatematicka8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
+  <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
-  <BlockEx header="Seminář se věnuje tématům:  ">
+  <BlockEx header="… připravujeme"></BlockEx>
+  <BlockEx header="Ukázky z témat:  ">
     <ul className='fa-ul'>
       <LiFile>vymezení pojmu matematická gramotnost </LiFile>
       <LiFile> praktické rady jak a kde během výuky rozvíjet matematickou gramotnost</LiFile>
@@ -715,18 +747,26 @@ var SSMatematicka8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, c
 var SSMatematicka16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
-  <BlockEx header="Seminář se věnuje tématům:  ">
+  <BlockEx header="Ukázky z témat:  ">
     <ul className='fa-ul'>
-      <LiFile>vymezení pojmu matematická gramotnost </LiFile>
-      <LiFile> praktické rady jak a kde během výuky rozvíjet matematickou gramotnost</LiFile>
-      <LiFile> obohacení výuky v hodinách o inovativní metody</LiFile>
-      <LiFile> seznámeni s různými strategiemi práce se žáky</LiFile>
-      <LiFile> matematická argumentace</LiFile>
-      <LiFile> komunikace</LiFile>
-      <LiFile> modelování</LiFile>
-      <LiFile> vymezování problémů a jejich řešení</LiFile>
-      <LiFile> schopnost matematizovat reálné situace</LiFile>
+      <LiFile>Rozvíjení schopnosti řešit problémy. Správné kladení otázek.  Analýza   informací. Rozbor slovních úloh. Práce s chybou. Matematizování reálných situací. Používání správné terminologie a symboliky. Praktické využití poznatků z matematiky. Budování vztahu k matematice.</LiFile>
+      <LiFile>Využití matematického jazyka a symbolů ke konkrétním výstupům  podle věkové kategorie, s využitím množinového pojetí rozborů textů a Vennových diagramů. </LiFile>
+      <LiFile>Využití základních vlastností tělesa reálných čísel, výroků a logické stavby vět, při vzájemné komunikaci a matematizaci konkrétních situací.</LiFile>
+      <LiFile>Využití číselné osy, časové přímky, řády celých čísel(popř. desetinných čísel), typů zápisů čísel, prvočísel, dekadického rozvoje čísel. Trojí pohled na zlomky.</LiFile>
+      <LiFile>Video : Fantastický výlet do makrosvěta a mikrosvěta ve světě čísel a přírodních věd.</LiFile>
+      <LiFile>Jak řešit matematickou úlohu – čtyři základní fáze. Rozdíl mezi tzv. „trychtýřováním“  a správným kladením otázek učitelem. Postupy pozpátku.</LiFile>
+      <LiFile>Geometrie v rovině a v prostoru – představivost, odvozování vztahů, množiny určitých vlastností. </LiFile>
+      <LiFile>Využití výroků, složených výroků, jejich pravdivosti i negace (logická stavba vět a komunikace).</LiFile>
+      <LiFile>Využití kombinatorických pojmů ve výuce podle věku studentů.</LiFile>
+      <LiFile>Tvorba pohyblivých objektů 2D a 3D objektů s programem GeoGebra (využití programu jako nástroje podpory matematické gramotnosti formou propojování geometrických a algebraických interpretací v matematice a dalších nejen přírodovědných předmětech)</LiFile>
+      <LiFile>Příklady her a prostředí na internetu pro podporu matematické gramotnosti</LiFile>
+      <LiFile>Programy a aplikace pro jednoduché vytváření zábavných kvízů</LiFile>
+      <LiFile>Rozšířená realita jako nástroj motivace i rozvoje nejen matematické gramotnosti </LiFile>
+      <LiFile>… a mnoho dalších</LiFile>
     </ul>
+  </BlockEx>
+  <BlockEx>
+    Nabízíme více 16 hodinových akreditovaných kurzů. Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
   </BlockEx>
   <BlockEx header="Výuka ve sborovně:">
     <p>
@@ -744,9 +784,10 @@ var SSMatematicka16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, 
 </Panel>;
 
 var SSMatematicka24: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
+  <h3><Label bsStyle="warning">24</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
-  <BlockEx header="Seminář se věnuje tématům:  ">
+  <BlockEx header="… připravujeme"></BlockEx>
+  <BlockEx header="Ukázky z témat:  ">
     <ul className='fa-ul'>
       <LiFile>vymezení pojmu matematická gramotnost </LiFile>
       <LiFile> praktické rady jak a kde během výuky rozvíjet matematickou gramotnost</LiFile>
@@ -966,7 +1007,7 @@ var KurzySSList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.I
   </Row>
 </div>;
 
-var ObsahInkluze: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <BlockEx header="Seminář se věnuje tématům:">
+var ObsahInkluze: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <BlockEx header="Ukázky z témat:">
   <Row>
     <Col md={6}>
       <ul className='fa-ul'>
