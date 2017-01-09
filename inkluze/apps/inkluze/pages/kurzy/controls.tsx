@@ -16,7 +16,7 @@ interface IKurzProps { defaultExpanded: boolean; title: string; }
 var ZSInkluze8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
-  <ObsahInkluze />
+  <ObsahInkluzeZS />
   <BlockEx>
     Nabízíme řadu 8 hodinových akreditovaných kurzů. Každý kurz obsahuje část z těchto témat.
     Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
@@ -36,7 +36,7 @@ var ZSInkluze8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: 
 var ZSInkluze16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
-  <ObsahInkluze />
+  <ObsahInkluzeZS />
   <BlockEx>
     Nabízíme řadu 16 hodinových akreditovaných kurzů. Každý kurz obsahuje část z těchto témat.
     Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
@@ -65,7 +65,7 @@ var ZSInkluze16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
 var ZSInkluze24: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">24</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
-  <ObsahInkluze />
+  <ObsahInkluzeZS />
   <BlockEx>
     <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
       Tento kurz použijte v případě, že jeden den školení navíc (který je vyžadován u 32 hodinového kurzu) je pro vaši školu kritický.
@@ -94,7 +94,7 @@ var ZSInkluze24: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
 var ZSInkluze32: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">32</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
-  <ObsahInkluze />
+  <ObsahInkluzeZS />
   <BlockEx>
     <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
       Tento akreditovaný kurz poskytuje optimální variantu pro seznámení se s problematikou společného vzdělávání.
@@ -371,7 +371,7 @@ var ZSMentoring80: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
 var MSInkluze16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
-  <ObsahInkluze />
+  <ObsahInkluzeMS />
   <BlockEx>
     Nabízíme více 16 hodinových akreditovaných kurzů.
           Každý kurz obsahuje část témat ze seznamu <i>Obsah kurzů</i> na této stránce.
@@ -406,6 +406,8 @@ var MSCtenarska: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
       <LiFile>vývoj a rozvoj řeči a komunikačních schopností, slovní zásoba, znalost významu slov</LiFile>
       <LiFile>obrázkové osnovy, obrázkové čtení</LiFile>
     </ul>
+  </BlockEx>
+  <BlockEx>
     <p>
       Nabízíme několik různých 16 hodinových akreditovaných kurzů.
       Kurzy obsahují část z témat výše + spoustu dalších.
@@ -440,6 +442,13 @@ var MSMatematicka: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
       <LiFile>matematika v přírodě, využití školní zahrady</LiFile>
     </ul>
   </BlockEx>
+  <BlockEx>
+    <p>
+      Nabízíme několik různých 16 hodinových akreditovaných kurzů.
+      Kurzy obsahují část z témat výše + spoustu dalších.
+      Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
+    </p>
+  </BlockEx>
   <BlockEx header="Potřebné šablony: ">
     <div>
       <p>Pro každého učitele je potřeba objednat šablonu {popups.ms_DVPP_16_hodin}&nbsp;varianta <b>b.
@@ -453,7 +462,7 @@ var MSMatematicka: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
 var SSInkluze8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
-  <ObsahInkluze />
+  <ObsahInkluzeSS />
   <BlockEx>
     Nabízíme řadu 8 hodinových akreditovaných kurzů. Každý kurz obsahuje část z těchto témat.
     Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
@@ -473,7 +482,7 @@ var SSInkluze8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: 
 var SSInkluze16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
-  <ObsahInkluze />
+  <ObsahInkluzeSS />
   <BlockEx>
     Nabízíme řadu 16 hodinových akreditovaných kurzů. Každý kurz obsahuje část z těchto témat.
     Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
@@ -503,7 +512,7 @@ var SSInkluze24: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
   <h3><Label bsStyle="warning">24</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
   <BlockEx header="… připravujeme"></BlockEx>
-  <ObsahInkluze />
+  <ObsahInkluzeSS />
   <BlockEx>
     <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
       Tento akreditovaný kurz poskytuje optimální variantu pro seznámení se s problematikou společného vzdělávání.
@@ -716,7 +725,7 @@ var SSMatematicka8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, c
   <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
   <BlockEx header="… připravujeme"></BlockEx>
-  <BlockEx header="Ukázky z témat:  ">
+  {/*<BlockEx header="Ukázky z témat:  ">
     <ul className='fa-ul'>
       <LiFile>vymezení pojmu matematická gramotnost </LiFile>
       <LiFile> praktické rady jak a kde během výuky rozvíjet matematickou gramotnost</LiFile>
@@ -728,7 +737,7 @@ var SSMatematicka8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, c
       <LiFile> vymezování problémů a jejich řešení</LiFile>
       <LiFile> schopnost matematizovat reálné situace</LiFile>
     </ul>
-  </BlockEx>
+  </BlockEx>*/}
   <BlockEx header="Výuka ve sborovně:">
     <p>
       <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve vámi zvoleném termínu.</b>
@@ -787,7 +796,7 @@ var SSMatematicka24: React.StatelessComponent<IKurzProps> = (props: IKurzProps, 
   <h3><Label bsStyle="warning">24</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
   <BlockEx header="… připravujeme"></BlockEx>
-  <BlockEx header="Ukázky z témat:  ">
+  {/*<BlockEx header="Ukázky z témat:  ">
     <ul className='fa-ul'>
       <LiFile>vymezení pojmu matematická gramotnost </LiFile>
       <LiFile> praktické rady jak a kde během výuky rozvíjet matematickou gramotnost</LiFile>
@@ -799,7 +808,7 @@ var SSMatematicka24: React.StatelessComponent<IKurzProps> = (props: IKurzProps, 
       <LiFile> vymezování problémů a jejich řešení</LiFile>
       <LiFile> schopnost matematizovat reálné situace</LiFile>
     </ul>
-  </BlockEx>
+  </BlockEx>*/}
   <BlockEx header="Výuka ve sborovně:">
     <p>
       <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve vámi zvoleném termínu.</b>
@@ -1007,7 +1016,38 @@ var KurzySSList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.I
   </Row>
 </div>;
 
-var ObsahInkluze: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <BlockEx header="Ukázky z témat:">
+var ObsahInkluzeMS: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <BlockEx header="Ukázky z témat:">
+  <Row>
+    <Col md={6}>
+      <ul className='fa-ul'>
+        <LiFile>Základní právní předpisy, legislativní změny</LiFile>
+        <LiFile>Žák se speciálními vzdělávacími potřebami </LiFile>
+        <LiFile>Struktura podpůrných opatření a jejich členění do pěti stupňů</LiFile>
+        <LiFile>Podpůrná opatření prvního stupně </LiFile>
+        <LiFile>Podpůrná opatření 2. - 5. stupně </LiFile>
+        <LiFile>Struktura a obsah Plánu pedagogické podpory</LiFile>
+        <LiFile>Zpracování ukázkového Plánu pedagogické podpory</LiFile>
+        <LiFile>Výukové metody a jejich role při motivaci k učení</LiFile>
+        <LiFile>Individuální vzdělávací plán a pedagogická diagnostika</LiFile>
+      </ul>
+    </Col>
+    <Col md={6}>
+      <ul className='fa-ul'>
+
+        <LiFile>Hodnocení dětí ve společném vzdělávání</LiFile>
+        <LiFile>Spolupráce pedagoga s asistentem pedagoga</LiFile>
+        <LiFile>Komunikace s rodiči </LiFile>
+        <LiFile>Spolupráce s poradenskými zařízeními </LiFile>
+        <LiFile>Plán pedagogické podpory a Individuální vzdělávací plán</LiFile>
+        <LiFile>Efektivní hodnocení dětí a specifičnost hodnocení dětí se SVP</LiFile>
+        <LiFile>Pedagogická diagnostika dítěte na základní škole</LiFile>
+        <LiFile>Vzdělávání dětí nadaných a mimořádně nadaných</LiFile>
+      </ul>
+    </Col>
+  </Row>
+</BlockEx>;
+
+var ObsahInkluzeZS: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <BlockEx header="Ukázky z témat:">
   <Row>
     <Col md={6}>
       <ul className='fa-ul'>
@@ -1036,5 +1076,35 @@ var ObsahInkluze: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.
       </ul>
     </Col>
   </Row>
-</BlockEx>
-  ;
+</BlockEx>;
+
+var ObsahInkluzeSS: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <BlockEx header="Ukázky z témat:">
+  <Row>
+    <Col md={6}>
+      <ul className='fa-ul'>
+        <LiFile>Základní právní předpisy, legislativní změny</LiFile>
+        <LiFile>Student se speciálními vzdělávacími potřebami </LiFile>
+        <LiFile>Struktura podpůrných opatření a jejich členění do pěti stupňů</LiFile>
+        <LiFile>Podpůrná opatření prvního stupně </LiFile>
+        <LiFile>Podpůrná opatření 2. - 5. stupně </LiFile>
+        <LiFile>Struktura a obsah Plánu pedagogické podpory</LiFile>
+        <LiFile>Zpracování ukázkového Plánu pedagogické podpory</LiFile>
+        <LiFile>Výukové metody a jejich role při motivaci k učení</LiFile>
+        <LiFile>Individuální vzdělávací plán a pedagogická diagnostika</LiFile>
+      </ul>
+    </Col>
+    <Col md={6}>
+      <ul className='fa-ul'>
+
+        <LiFile>Hodnocení studentů ve společném vzdělávání</LiFile>
+        <LiFile>Spolupráce pedagoga s asistentem pedagoga</LiFile>
+        <LiFile>Komunikace s rodiči </LiFile>
+        <LiFile>Spolupráce s poradenskými zařízeními </LiFile>
+        <LiFile>Plán pedagogické podpory a Individuální vzdělávací plán</LiFile>
+        <LiFile>Efektivní hodnocení studentů a specifičnost hodnocení studenta se SVP</LiFile>
+        <LiFile>Pedagogická diagnostika studenta na základní škole</LiFile>
+        <LiFile>Vzdělávání studentů nadaných a mimořádně nadaných</LiFile>
+      </ul>
+    </Col>
+  </Row>
+</BlockEx>;
