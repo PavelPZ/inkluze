@@ -2,7 +2,7 @@
   <Page>
     <div>
       <Block blue style={{ paddingBottom: '10px' }}>
-        <h1 className='text-center'><a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.kurzy, ev)} >Kurzy podle šablon z Výzvy 02_16_022/023</a><br />od <a href="#" onClick = {ev => sitemapRouter.doNavigate(inkluze.root.lektori, ev) }>zkušených lektorů</a></h1>
+        <h1 className='text-center'><a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.kurzy, ev)} >Kurzy podle šablon z Výzev 02_16_022/023 a 02_16_035/ 042</a><br />od <a href="#" onClick = {ev => sitemapRouter.doNavigate(inkluze.root.lektori, ev) }>zkušených lektorů</a></h1>
         <div className="text-center">Napište nám na <a href={'mailto:' + infoEmail}>{infoEmail}</a> nebo zavolejte +420 244 460 807</div>
         <Grid style={{ marginTop: '15px' }}>
           <Row>
@@ -46,7 +46,7 @@
       </Block>
     </div>
     
-    <BlockEx header={"\"Výzva\" = dotace EU pro ZŠ a MŠ"} gray>
+    {/*<BlockEx header={"\"Výzva\" = dotace EU pro ZŠ a MŠ"} gray>
       <ul className='fa-ul'>
         <LiHand>EU nyní poskytuje českým základním a mateřským školám dotaci v ohromující výši Kč 4.5 mld.
           Dotace je z velké části určena na podporu inkluze (společného vzdělávání) a na další vzdělávání pedagogických pracovníků (DVPP).</LiHand>
@@ -61,13 +61,13 @@
         </LiHand>
         <LiHand>
           Dotační výzvy jsou dvě: <b>Výzva č.02_16_022</b> (pro mimopražské školy) a <b>Výzva č.02_16_023</b> (pro pražské školy).
-          Obsahem jsou tyto výzvy identické, budeme je dále nazývat zkráceně {popups.vyzva}.</LiHand>
+          Obsahem jsou tyto výzvy identické, budeme je dále nazývat zkráceně {popups.vyzva}.</LiHand>*/}
         {/*
         <HomeLi2>
           V rámci Výzvy je možno získat dotace i na další kurzy a aktivity, které se nezabývají inkluzí.
           O těch se ale budeme zmiňovat méně podrobně.</HomeLi2>*/}
-      </ul>
-    </BlockEx>
+        {/*</ul>
+    </BlockEx>*/}
     <BlockEx header="Nabízíme DVPP kurzy zaměřené na inkluzi, mentoring, čtenářskou a matematickou gramotnost">
       <p>
         Pro učitele jsme <b>ve spolupráci se zkušenými akreditovanými lektory</b> připravili v rámci DVPP řadu kurzů.
@@ -137,7 +137,7 @@
         Více viz stránka {sitemapRouter.navigateTag(inkluze.root.kurzy) }.
       </p>
     </BlockEx>*/}
-    <BlockEx header="Další informace a služby týkající se dotace" gray>
+    {/*<BlockEx header="Další informace a služby týkající se dotace" gray>
       <p>
         Získat dotaci a využít ji není tak složité, jak se může při prvním čtení stovek stran oficiálních dokumentů zdát.
         Rádi vám poskytneme další informace a služby, které vám čerpání dotace výrazně zjednoduší:
@@ -151,7 +151,7 @@
       </p>
       <h4>Další služby</h4>
       Pokud budete potřebovat, pomůžeme vám s vyplněním žádosti nebo s kompletním projektovým řízením (zasílání průběžných zpráv, závěrečné zprávy apod.), viz stránka {sitemapRouter.doNavigateTag(inkluze.root.dalsi) }.
-    </BlockEx>
+    </BlockEx>*/}
   </Page>
 </div >;
 

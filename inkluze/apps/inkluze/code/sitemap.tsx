@@ -17,7 +17,8 @@
     ZSInkluze32: site.INode;
     ZSCtenarska16: site.INode;
     ZSCtenarska32: site.INode;
-    ZSMatematicka: site.INode;
+    ZSMatematicka16: site.INode;
+    ZSMatematicka32: site.INode;
     ZSMentoring32: site.INode;
     ZSMentoring56: site.INode;
     ZSMentoring80: site.INode;
@@ -64,7 +65,7 @@
   export function bootApp() {
     site.root = root = {
       id: 'home',
-      title: 'Akreditované kurzy podle šablon z Výzvy 02_16_022/023/034/042 od zkušených lektorů',
+      title: 'Akreditované kurzy podle šablon z Výzev 02_16_022/023 a 02_16_035/ 042',
       brTitle: 'DVPP',
       largeLogo: true,
       createPage: routePar => <Home />, //sitemapRouter.createElement<IHomePar>(Home, routePar, { subTitle: 'SubTitle Default' }),
@@ -124,9 +125,14 @@
           title: 'Čtenářská gramotnost - 32 hodinový kurz',
           createPage: par => React.createElement(Kurzy),
         },
-        ZSMatematicka: {
-          id: 'ZSMatematicka',
+        ZSMatematicka16: {
+          id: 'ZSMatematicka16',
           title: 'Matematická gramotnost - 16 hodinový kurz',
+          createPage: par => React.createElement(Kurzy),
+        },
+        ZSMatematicka32: {
+          id: 'ZSMatematicka32',
+          title: 'Matematická gramotnost - 32 hodinový kurz',
           createPage: par => React.createElement(Kurzy),
         },
         ZSMentoring32: {

@@ -70,10 +70,15 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://dvpp.langmaster.cz/index.html?home|kurzy|zsmatematicka</loc>
+    <loc>http://dvpp.langmaster.cz/index.html?home|kurzy|zsmatematicka16</loc>
     <lastmod>2016-10-13T09:45:14+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
+  <url>
+    <loc>http://dvpp.langmaster.cz/index.html?home|kurzy|zsmatematicka32</loc>
+    <lastmod>2016-10-13T09:45:14+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>  
   <url>
     <loc>http://dvpp.langmaster.cz/index.html?home|kurzy|zsmentoring32</loc>
     <lastmod>2016-10-13T09:45:14+00:00</lastmod>
