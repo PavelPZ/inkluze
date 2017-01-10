@@ -1,5 +1,5 @@
 ﻿const popups = {
-  vyzva: <Popup document='vyzva' page= {1} header='Výzva'>
+  vyzva: <Popup document='vyzva' page={1} header='Výzva'>
     <div>
       <p>
         Výzva podpoří osobnostně profesní rozvoj pedagogů prostřednictvím dalšího vzdělávání pedagogických pracovníků, vzájemného setkávání a sdílení zkušeností pedagogů a pomůže školám při společném vzdělávání dětí/žáků, a to možností personálního posílení o školního asistenta, školního psychologa, speciálního pedagoga, sociálního pedagoga, příp.
@@ -14,7 +14,7 @@
       <p>
         V listopadu roku 2015 byl školám v rámci šetření realizovaného pro potřeby výzvy Místní akční plány rozvoje vzdělávání (MAP) rozeslán dotazník, jehož vyplnění je podmínkou možnosti čerpání finančních prostředků prostřednictvím projektů zjednodušeného vykazování (šablon).
         Při zpracovávání dotazníků si školy ujasnily, ve kterých oblastech by se měly a chtěly rozvíjet.
-        Školám pomohou v identifikaci jejich potřeb výsledky a vyhodnocení Výstupu z dotazníkového šetření MAP, které budou školám zaslány ze strany MŠMT a zpřístupněny {lib.navigateExt('https://sberdat.uiv.cz/login', 've webovém rozhraní', true) }.
+        Školám pomohou v identifikaci jejich potřeb výsledky a vyhodnocení Výstupu z dotazníkového šetření MAP, které budou školám zaslány ze strany MŠMT a zpřístupněny {lib.navigateExt('https://sberdat.uiv.cz/login', 've webovém rozhraní', true)}.
         Součástí tohoto vyhodnocení je také seznam šablon, ze kterých mohou školy volit, aby alespoň část jejich potřeb rozvoje byla naplněna.
         Výstup z dotazníkového šetření MAP2 bude povinnou přílohou Žádosti o podporu.
       </p>
@@ -54,7 +54,7 @@
     </div>
   </Popup>,
 
-  zadavatel: <Popup document='vyzva' page= {4} header='Oprávnění žadatelé'>
+  zadavatel: <Popup document='vyzva' page={4} header='Oprávnění žadatelé'>
     <div>
       <p>
         Mateřské  a  základní  školy  nezřizované  organizačními  složkami  státu (tj.
@@ -116,12 +116,12 @@
   zadost_o_dotaci: <Popup document='vyzva' page={7} header='Žádost o dotaci'>
     <div>
       <p>
-        Přehled relevantních příloh žádosti o podporu je uveden v {lib.navigateExt('http://www.msmt.cz/uploads/OP_VVV/Vyzva_zjednodusene_projekty_22_a23/Priloha_c_4_Seznam_priloh_k_zadosti_o_podporu.pdf', 'příloze č.4 Seznam příloh k žádosti o podporu', true) }.
+        Přehled relevantních příloh žádosti o podporu je uveden v {lib.navigateExt('http://www.msmt.cz/uploads/OP_VVV/Vyzva_zjednodusene_projekty_22_a23/Priloha_c_4_Seznam_priloh_k_zadosti_o_podporu.pdf', 'příloze č.4 Seznam příloh k žádosti o podporu', true)}.
         Řídicí orgán Operačního programu Výzkum, vývoj a vzdělávání je oprávněn aktualizovat vzory příloh žádosti o podporu v průběhu této výzvy.
         Aktualizace vzorů příloh žádosti o podporu není změnou této výzvy.
       </p>
       <p>
-        Podání žádosti o podporu probíhá pouze elektronicky, prostřednictvím IS KP14+, {lib.navigateExt('https://mseu.mssf.cz/', 'v systému IS KP14+', true) }.
+        Podání žádosti o podporu probíhá pouze elektronicky, prostřednictvím IS KP14+, {lib.navigateExt('https://mseu.mssf.cz/', 'v systému IS KP14+', true)}.
         Listinná verze žádosti se nezasílá.Žádost o podporu je podávána v českém jazyce.
       </p>
       <p>
@@ -200,7 +200,7 @@
     </div>
   </Popup>,*/
 
-  ms_rozvoj_pedagogu: <Popup document='priloha3' page= {35} header='Vzdělávací aktivity pro rozvoj pedagogů MŠ'>
+  ms_rozvoj_pedagogu: <Popup document='priloha3' page={35} header='Vzdělávací aktivity pro rozvoj pedagogů MŠ'>
     <div>
       <h4>Osobnostně sociální a profesní rozvoj pedagogů MŠ </h4>
       <ul>
@@ -256,7 +256,7 @@
     </div>
   </Popup>,*/
 
-  ms_DVPP_16_hodin: <Popup document='priloha3' page= {39} header='I/2.3 Vzdělávání pedagogických pracovníků MŠ – DVPP v rozsahu 16 hodin'>
+  ms_DVPP_16_hodin: <Popup document='priloha3' page={39} header='I/2.3 Vzdělávání pedagogických pracovníků MŠ – DVPP v rozsahu 16 hodin'>
     <div>
       <p>
         Vzdělávání bude probíhat formou absolvování vzdělávacího programu DVPP akreditovaného v systému DVPP.
@@ -333,7 +333,7 @@
 
   zs_ms_personalni_podpora: <Popup document='priloha3' page={56} header='Šablony pro personální podporu'>
     <div>
-      <h4>{lib.navigateExt('http://www.msmt.cz/uploads/OP_VVV/Vyzva_zjednodusene_projekty_22_a23/Priloha_c_3_Prehled_sablon_k_1_8_2016.pdf#page18', 'Personální podpora MŠ', true) }</h4>
+      <h4>{lib.navigateExt('http://www.msmt.cz/uploads/OP_VVV/Vyzva_zjednodusene_projekty_22_a23/Priloha_c_3_Prehled_sablon_k_1_8_2016.pdf#page18', 'Personální podpora MŠ', true)}</h4>
       <ul>
         <li>
           I/1.1 Školní asistent – personální podpora MŠ
@@ -352,7 +352,7 @@
         </li>
       </ul>
 
-      <h4>{lib.navigateExt('http://www.msmt.cz/uploads/OP_VVV/Vyzva_zjednodusene_projekty_22_a23/Priloha_c_3_Prehled_sablon_k_1_8_2016.pdf#page56', 'Personální podpora ZŠ', true) }</h4>
+      <h4>{lib.navigateExt('http://www.msmt.cz/uploads/OP_VVV/Vyzva_zjednodusene_projekty_22_a23/Priloha_c_3_Prehled_sablon_k_1_8_2016.pdf#page56', 'Personální podpora ZŠ', true)}</h4>
       <ul>
         <li>
           II/1.1 Školní asistent – personální podpora ZŠ
@@ -410,7 +410,7 @@
     </div>
   </Popup>,*/
 
-  zs_rozvoj_pedagogu: <Popup document='priloha3' page= {71} header='Vzdělávací aktivity pro rozvoj pedagogů ZŠ'>
+  zs_rozvoj_pedagogu: <Popup document='priloha3' page={71} header='Vzdělávací aktivity pro rozvoj pedagogů ZŠ'>
     <div>
       <h4>Osobnostně sociální a profesní rozvoj pedagogů ZŠ </h4>
       <ul>
@@ -479,7 +479,7 @@
   </Popup >,
 
 
-  zs_DVPP_16_hodin: <Popup document='priloha3' page= {71} header='II/2.1 Vzdělávání pedagogických pracovníků ZŠ – DVPP v rozsahu 16 hodin'>
+  zs_DVPP_16_hodin: <Popup document='priloha3' page={71} header='II/2.1 Vzdělávání pedagogických pracovníků ZŠ – DVPP v rozsahu 16 hodin'>
     <div>
       <p>
         Pedagogičtí pracovníci základních škol budou podporováni ve svém profesním a odborném růstu účastí na odborných seminářích, workshopech a dalších vzdělávacích akcích zaměřených na rozvoj dovedností, znalostí a kompetencí a na využívání efektivních vyučovacích metod.
@@ -505,7 +505,7 @@
     </div>
   </Popup>,
 
-  zs_DVPP_32_hodin: <Popup document='priloha3' page= {73} header='II/2.2 Vzdělávání pedagogických pracovníků ZŠ – DVPP v rozsahu 32 hodin'>
+  zs_DVPP_32_hodin: <Popup document='priloha3' page={73} header='II/2.2 Vzdělávání pedagogických pracovníků ZŠ – DVPP v rozsahu 32 hodin'>
     <div>
       <p>
         Pedagogičtí pracovníci základních škol budou podporováni ve svém profesním a odborném růstu účastí na odborných seminářích, workshopech a dalších vzdělávacích akcích zaměřených na rozvoj dovedností, znalostí a kompetencí a na využívání efektivních vyučovacích metod.
@@ -531,7 +531,7 @@
     </div>
   </Popup>,
 
-  zs_DVPP_inkluze_32_hodin: <Popup document='priloha3' page= {75} header='II/2.3 Vzdělávání pedagogických pracovníků ZŠ zaměřené na inkluzi – DVPP v rozsahu 32 hodin'>
+  zs_DVPP_inkluze_32_hodin: <Popup document='priloha3' page={75} header='II/2.3 Vzdělávání pedagogických pracovníků ZŠ zaměřené na inkluzi – DVPP v rozsahu 32 hodin'>
     <div>
       <p>
         Pedagogičtí pracovníci základních škol budou podporováni ve svém profesním a odborném růstu účastí na odborných seminářích, workshopech a dalších vzdělávacích akcích zaměřených na rozvoj dovedností, znalostí a kompetencí v oblasti inkluze a na využívání efektivních vyučovacích metod.
@@ -539,7 +539,7 @@
     </div>
   </Popup>,
 
-  zs_DVPP_56_hodin: <Popup document='priloha3' page= {77} header='II/2.4 Vzdělávání pedagogických pracovníků ZŠ – DVPP v rozsahu 56 hodin'>
+  zs_DVPP_56_hodin: <Popup document='priloha3' page={77} header='II/2.4 Vzdělávání pedagogických pracovníků ZŠ – DVPP v rozsahu 56 hodin'>
     <div>
       <p>
         Pedagogičtí pracovníci základních škol budou podporováni ve svém profesním a odborném růstu účastí na odborných seminářích, workshopech a dalších vzdělávacích akcích zaměřených na rozvoj dovedností, znalostí a kompetencí a na využívání efektivních vyučovacích metod.
@@ -573,7 +573,7 @@
      </div>
    </Popup>,*/
 
-  zs_DVPP_80_hodin: <Popup document='priloha3' page= {81} header='II/2.6 Vzdělávání pedagogických pracovníků ZŠ – DVPP v rozsahu 80 hodin'>
+  zs_DVPP_80_hodin: <Popup document='priloha3' page={81} header='II/2.6 Vzdělávání pedagogických pracovníků ZŠ – DVPP v rozsahu 80 hodin'>
     <div>
       <p>
         Pedagogičtí pracovníci základních škol budou podporováni ve svém profesním a odborném růstu účastí na odborných seminářích, workshopech a dalších vzdělávacích akcích zaměřených na rozvoj dovedností, znalostí a kompetencí a na využívání efektivních vyučovacích metod.
@@ -607,7 +607,7 @@
      </div>
    </Popup>,*/
 
-  zs_sbor_8_hodin: <Popup document='priloha3' page= {85} header='II/2.8 Vzdělávání pedagogického sboru ZŠ zaměřené na inkluzi – vzdělávací akce v rozsahu 8 hodin'>
+  zs_sbor_8_hodin: <Popup document='priloha3' page={85} header='II/2.8 Vzdělávání pedagogického sboru ZŠ zaměřené na inkluzi – vzdělávací akce v rozsahu 8 hodin'>
     <div>
       <p>
         Aktivita je koncipována tak, že umožňuje zajistit vzdělávání pro celý pedagogický sbor či jeho podstatnou část tak, aby bylo možné z podpořené skupiny pedagogů vytvořit tým s inovačním potenciálem schopným působit na kompetence, ale i hodnoty a postoje ostatních pedagogů ve škole.
@@ -738,12 +738,12 @@
      </div>
    </Popup>,*/
 
-  ss_DVPP_8_hodin: <Popup document='priloha3' page={39} header='III/2.1 Vzdělávání pedagogických pracovníků SŠ – DVPP v rozsahu 8 hodin'>
+  ss_DVPP_8_hodin: <Popup document='priloha3SS' page={39} header='III/2.1 Vzdělávání pedagogických pracovníků SŠ – DVPP v rozsahu 8 hodin'>
     <div>
       <p>
         Cílem  aktivity  je  podpořit  profesní  růst  pedagogických pracovníků  pomocí  vzdělávání  a průběžného sebevzdělávání.
       </p>
-      <p>        
+      <p>
         Pedagogičtí pracovníci středních škol budou podporováni ve svém profesním a odborném růstu účastí na odborných seminářích,  workshopech  a  dalších  vzdělávacích  akcích zaměřených na rozvoj dovedností, znalostí a kompetencí a na využívání efektivních vyučovacích metod.
         Vzdělávání bude probíhat formou absolvování vzdělávacího programu DVPP akreditovaného v systému DVPP.
       </p>
@@ -770,6 +770,119 @@
     </div>
   </Popup>,
 
+  ss_8_hodin_inkluze: <Popup document='priloha3SS' page={68} header='III/2.12 Vzdělávání pedagogického sboru SŠ zaměřené na inkluzi – vzdělávací akce v rozsahu 8 hodin'>
+    <div>
+      <p>
+				Aktivita je koncipována tak, že umožňuje zajistit vzdělávání pro celý pedagogický sbor či jeho podstatnou část tak, aby bylo možné z podpořené skupiny pedagogů vytvořit tým
+s inovačním  potenciálem  schopným  působit na kompetence,  ale  i hodnoty a postoje ostatních pedagogů ve  škole.  Jedná  se  o  jeden  vzdělávací  program  DVPP o
+rozsahu minimálně 8 hodin, který podpoří v dané škole koncept společného vzdělávání. Kurz přispěje k rozvoji
+kompetencí pedagogů pro práci s hete
+rogenní skupinou
+žáků, ve které jsou vzdělávání i žáci s
+potřebou podpůrných
+opatření (včetně těch v
+prvním stupni podpory). Vzdělávání
+může být zaměřeno také na podporu bezpečného klimatu
+ve  škole/třídách,  budování  týmu  školy  a  podporu
+spolupráce, práci s
+nastavováním cílů a vyhodnocováním
+výsledků  učení  žáků  (se  zvláštním  zřetelem  na  žáky s potřebou podpory).
+      </p>
+    </div>
+  </Popup>,
+
+  ss_8_hodin_DVPP: <Popup document='priloha3SS' page={40} header='III/2.1 Vzdělávání pedagogických pracovníků SŠ – DVPP v rozsahu 8 hodin'>
+    <div>
+      <p>
+        Cílem  je  podpořit  vzdělávání  a  rozvoj  pedagogických 
+pracovníků  formou  ucelených
+vzdělávacích  programů. 
+Podmínkou  je,  že  se  musí  jednat  o  jeden  vzdělávací 
+program DVPP o rozsahu minimálně 
+8
+hodin (není možné 
+tedy dosáhnout požadovaného počtu hodin „skládáním“ 
+hodin z více kratších programů/akcí).
+      </p>
+    </div>
+  </Popup>,
+
+  ss_16_hodin_DVPP: <Popup document='priloha3SS' page={42} header='III/2.2 Vzdělávání pedagogických pracovníků SŠ – DVPP v rozsahu 16 hodin'>
+    <div>
+      <p>
+        Cílem  je  podpořit  vzdělávání  a  rozvoj  pedagogických 
+pracovníků  formou  ucelených
+vzdělávacích  programů. 
+Podmínkou  je,  že  se  musí  jednat  o  jeden  vzdělávací 
+program DVPP o rozsahu minimálně 
+16
+hodin (není možné 
+tedy dosáhnout požadovaného počtu hodin „skládáním“ 
+hodin z více kratších programů/akcí). 
+      </p>
+    </div>
+  </Popup>,
+
+  ss_24_hodin_DVPP: <Popup document='priloha3SS' page={44} header='III/2.3 Vzdělávání pedagogických pracovníků SŠ – DVPP v rozsahu 24 hodin'>
+    <div>
+      <p>
+        Cílem  je  podpořit  dlouhodobé  vzdělávání  a  rozvoj 
+pedagogických pra
+covníků formou ucelených vzdělávacích 
+programů. Podmínkou tedy je, že se musí jednat o jeden 
+vzdělávací program DVPP o rozsahu minimálně
+24
+hodin 
+(není  možné 
+dosáhnout  požadovaného  počtu  hodin 
+„skládáním“  hodin  z  více  kratších  programů).  Jsou 
+doporučované  vzdělávací  programy  s
+možností  účasti 
+alespoň po dvou dnech po sobě pro dosažení požadované 
+intenzity kurzu, prostoru pro časově náročnější varianty 
+aktivit a navázání spolupráce a kontaktů mezi účastníky.
+      </p>
+    </div>
+  </Popup>,
+
+  ss_24_hodin_inkluze: <Popup document='priloha3SS' page={46} header='III /2.4 Vzdělávání pedagogických pracovníků SŠ zaměřené na inkluzi – DVPP v rozsahu 24 hodin'>
+    <div>
+      <p>
+        Cílem  aktivity  je  podpořit  profesní  růst  pedagogických pracovníků   pomocí 
+dlouhodobého   vzdělávání 
+a
+průběžného sebevzdělávání.
+Pedagogičtí pracovníci středních škol budou podporováni 
+ve svém profesním a odborném růstu účastí na odborných 
+seminářích,  workshopech  a  dalších  vzdělávacích  akcích 
+zaměřených na rozvoj dovedností, znalo
+stí a kompetencí 
+v
+oblasti inkluze a na využívání efektivních vyučovacích 
+metod. 
+      </p>
+    </div>
+  </Popup>,
+
+  ss_80_hodin_DVPP: <Popup document='priloha3SS' page={48} header='III/2.5 Vzdělávání pedagogických pracovníků SŠ – DVPP v rozsahu 80 hodin'>
+    <div>
+      <p>
+        Cílem  je  podpořit  dlouhodobé  vzdělávání  a  rozvoj 
+pedagogických pracovníků formou ucelených vzdělávacích 
+programů. Podmínkou tedy je, že se musí jednat o jeden 
+vzdělávací program DVPP o rozsahu minimálně 80
+hodin 
+(není  možné  dosáhnout  požadovaného  počtu  hodin 
+„skládáním“  hodin  z  více  kratších  programů).  Jsou 
+doporučované  vzdělávací  programy  s
+možností  účasti 
+alespoň po dvou dnech po sobě pro dosažení požadované 
+intenzity kurzu, prostoru pro časově náročnější varianty 
+aktivit a navázání spolu
+práce a kontaktů mezi účastníky.
+      </p>
+    </div>
+  </Popup>,
 
 }
 

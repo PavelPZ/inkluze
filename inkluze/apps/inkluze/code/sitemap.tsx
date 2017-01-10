@@ -43,6 +43,7 @@
   export interface IPravidla extends site.INode {
     //msmt_vyzva: site.INode;
     //msmt_priloha3: site.INode;
+    //msmt_priloha3SS: site.INode;
     dump_popups: site.INode;
   }
 
