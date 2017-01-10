@@ -263,8 +263,8 @@ var ZSMatematicka32: React.StatelessComponent<IKurzProps> = (props: IKurzProps, 
   </BlockEx>
   <BlockEx header="Potřebné šablony: ">
     <div>
-      <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_32_hodin}&nbsp;varianta <b>a.
-              čtenářská gramotnost</b>
+      <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_32_hodin}&nbsp;varianta <b>b.
+              matematická gramotnost</b>
       </p>
     </div>
   </BlockEx>
@@ -509,7 +509,8 @@ var SSInkluze8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: 
           </div>
   </BlockEx>
   <BlockEx header="Potřebné šablony: ">
-    <p>Pro každého učitele je potřeba objednat šablonu {popups.ss_8_hodin_inkluze}</p>
+    <p>Pro každého učitele je potřeba objednat šablonu {popups.ss_DVPP_8_hodin}&nbsp;varianta <b>e.
+              inkluze</b></p>
   </BlockEx>
   <BonusAlert />
 </Panel>
