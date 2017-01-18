@@ -92,7 +92,7 @@
         U kurzu v délce 32 hodin zbude více prostoru na diskusi s učiteli, řešení konkrétních problémů týkajících se dané školy a praktické procvičování získaných znalostí.
       </p>*/}
       <p>
-        Více viz stránka {sitemapRouter.doNavigateTag(inkluze.root.kurzy) }.
+        Více viz stránka {sitemapRouter.doNavigateTag(inkluze.root.kurzy)} a {sitemapRouter.doNavigateTag(inkluze.root.kurzyss)}.
       </p>
       <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
         <p>
