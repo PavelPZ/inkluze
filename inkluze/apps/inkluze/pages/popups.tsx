@@ -54,7 +54,7 @@
     </div>
   </Popup>,
 
-  zadavatel: <Popup document='vyzva' page={4} header='Oprávnění žadatelé'>
+  zadavatel: <Popup document='vyzva' page={4} header='MŠ a ZŠ'>
     <div>
       <p>
         Mateřské  a  základní  školy  nezřizované  organizačními  složkami  státu (tj.
@@ -66,6 +66,17 @@
         právnická osoba vykonávající
         činnost  školy, zapsaná  ve  školském  rejstříku), které  mají ve školním roce, v němž žádost o podporu podávají, minimálně jedno
         dítě/žáka.
+      </p>
+    </div>
+  </Popup>,
+
+  zadavatelss: <Popup document='vyzvaSS' page={6} header='SŠ a VOŠ'>
+    <div>
+      <p>
+        Střední školy, konzervatoře a vyšší odborné školy nezřizované organizačními složkami  státu (tj. právnická  osoba  vykonávající  činnost  školy, zapsaná ve školském rejstříku), které mají ve školním roce, v němž žádost o podporu podávají, minimálně jednoho žáka/studenta. 
+      </p>
+      <p>
+        Střední  školy a  konzervatoře zřizované Ministerstvem  školství,  mládeže a tělovýchovy dle školského zákona (tj. právnická osoba vykonávající činnost školy, zapsaná  ve  školském  rejstříku),  které  mají  ve školním roce,  v němž žádost o podporu podávají, minimálně jednoho žáka/studenta. 
       </p>
     </div>
   </Popup>,

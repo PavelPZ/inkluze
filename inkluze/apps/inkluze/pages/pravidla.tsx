@@ -14,7 +14,7 @@
     </BlockEx>
     <BlockEx header="Kdo je oprávněný žadatel o dotaci?">
       <p>
-        {popups.zadavatel} o dotaci jsou ZŠ, MŠ, SŠ a VOŠ z celé ČR, tedy i z Prahy (pražským školám byly doposud dotace EU odepřeny).
+        Oprávněný zadavatel o dotaci je {popups.zadavatel} nebo {popups.zadavatelss} z celé ČR, tedy i z Prahy (pražským školám byly doposud dotace EU odepřeny).
       </p>
     </BlockEx>
     <BlockEx header="Jaká je výše dotace?" gray>
