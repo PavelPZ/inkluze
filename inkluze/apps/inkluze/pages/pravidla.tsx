@@ -69,7 +69,7 @@
         K vyplnění je nutné mít elektronický podpis anebo nahrát do systému oskenovanou plnou moc.
       </p>
       <p>
-        Žádost je potřeba vyplnit nejpozději do 30.6.2017.
+        Žádost je potřeba vyplnit nejpozději do 30.6.2017 u MŠ a ZŠ resp. do 30.9.2017 u SŠ a VOŠ.
       </p>
 
       <h4>Jedna žádost na školu</h4>
@@ -119,7 +119,7 @@
     </BlockEx>
     <BlockEx header="Dotace na personální podporu" >
       <p>
-        {popups.zs_ms_personalni_podpora}jsou vypsány na jednoho pracovníka ve výši 0, 5 úvazku na jeden měsíc.
+        {popups.zs_ms_personalni_podpora} jsou vypsány na jednoho pracovníka ve výši 0, 5 úvazku na jeden měsíc.
         Výjimkou je šablona Sociální pedagog, která je vypsána na 0, 1 úvazku.
         Úvazek nelze dělit mezi více osob.
       </p>
@@ -138,14 +138,14 @@
     </BlockEx>
     <BlockEx header="Dotace na vzdělávání učitelů" gray>
       <p>
-        V rámci dalšího vzdělávání si učitelé mohou vybrat z následujících aktivit: <br /> {popups.ms_rozvoj_pedagogu}<br />{popups.zs_rozvoj_pedagogu}
+        V rámci dalšího vzdělávání si učitelé mohou vybrat z následujících aktivit: <br /> {popups.ms_rozvoj_pedagogu}<br />{popups.zs_rozvoj_pedagogu}<br />{popups.ss_rozvoj_pedagogu}
       </p>
       <p>
         Všechny kurzy musí být akreditované MŠMT.
         Kurzy zaměřené na inkluzi mohou přednášet pouze akreditovaní lektoři.
       </p>
       <p>
-        Každý učitel, který se v rámci projektu účastní nějakého vzdělávacího kurzu, musí v souhrnu absolvovat alespoň 24 hodin vzdělávání, viz {popups.bagatelni_podpora}.
+        Každý učitel, který se v rámci projektu účastní nějakého vzdělávacího kurzu, musí v souhrnu absolvovat alespoň 24 hodin vzdělávání, viz bagatelní podpora pro {popups.bagatelni_podpora} nebo {popups.bagatelni_podpora_ss}.
       </p>
       <Alert type="Příklad">
         Pokud se učitel rozhodne účastnit například kurzu „Vzdělávání pedagogického sboru ZŠ zaměřené na inkluzi – vzdělávací akce v rozsahu 8 hodin“, pak se musí účastnit ještě další vzdělávací akce v rozsahu minimálně 16 hodin.

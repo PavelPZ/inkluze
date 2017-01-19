@@ -204,10 +204,25 @@
     </div>
   </Popup>,
 
-  bagatelni_podpora: <Popup document='priloha3' page={14} header='Bagatelní podpora'>
+  bagatelni_podpora: <Popup document='priloha3' page={14} header='MŠ a ZŠ'>
     <div>
       <p>
-        Bagatelní podpora je ve výzvě Podpora škol formou projektů zjednodušeného vykazování – Šablony pro MŠ a ZŠ I stanovena na 24 hodin.
+        Bagatelní podpora je ve výzvě Podpora škol formou projektů zjednodušeného vykazování – Šablony pro MŠ a ZŠ - stanovena na 24 hodin.
+      </p>
+      <p>
+        Do bagatelní podpory se u šablon DVPP započítává délka vzdělávání uvedená na příslušném dokladu o absolvovaném vzdělání, u ostatních šablon hodinová dotace uvedená ve výstupu šablony.
+      </p>
+      <p>
+        Projekt musí být koncipován tak, aby vzdělávací aktivity každé podpořené osoby v souhrnu dosahovaly minimální hranice bagatelní podpory.
+        To znamená, že pokud bude konkrétní osoba vzdělávána v rámci šablony, kde časová dotace nedosahuje hranice bagatelní podpory, měla by tato konkrétní osoba být vzdělána ještě v rámci další šablony.
+      </p>
+    </div>
+  </Popup>,
+
+  bagatelni_podpora_ss: <Popup document='priloha3SS' page={14} header='SŠ a VOŠ'>
+    <div>
+      <p>
+        Bagatelní podpora je ve výzvě Podpora škol formou projektů zjednodušeného vykazování – Šablony pro SŠ a VOŠ - stanovena na 24 hodin.
       </p>
       <p>
         Do bagatelní podpory se u šablon DVPP započítává délka vzdělávání uvedená na příslušném dokladu o absolvovaném vzdělání, u ostatních šablon hodinová dotace uvedená ve výstupu šablony.
@@ -550,6 +565,57 @@
     </div>
   </Popup >,
 
+  ss_rozvoj_pedagogu: <Popup document='priloha3SS' page={40} header='Vzdělávací aktivity pro rozvoj pedagogů SŠ a VOŠ'>
+    <div>
+      <h4>Osobnostně sociální a profesní rozvoj pedagogů SŠ a VOŠ </h4>
+      <ul>
+        <li>
+          III/2.1 Vzdělávání pedagogických pracovníků SŠ – DVPP v rozsahu 8 hodin
+        </li>
+        <li>
+          III/2.2 Vzdělávání pedagogických pracovníků SŠ – DVPP v rozsahu 16 hodin
+        </li>
+        <li>
+          III/2.3 Vzdělávání pedagogických pracovníků SŠ – DVPP v rozsahu 24 hodin
+        </li>
+        <li>
+          III/2.4 Vzdělávání pedagogických pracovníků SŠ zaměřené na inkluzi – DVPP v rozsahu 24 hodin
+        </li>
+        <li>
+          III/2.5 Vzdělávání pedagogických pracovníků SŠ – DVPP v rozsahu 80 hodin
+        </li>
+        <li>
+          III/2.6 Vzdělávání pedagogických pracovníků SŠ zaměřené na inkluzi – DVPP v rozsahu 80 hodin
+        </li>
+        <li>
+          III/2.7 Sdílení  zkušeností  pedagogů  z  různých  škol prostřednictvím vzájemných návštěv (pro SŠ)
+        </li>
+        <li>
+          III/2.8 Stáže pedagogů u zaměstnavatelů (pro SŠ)
+        </li>
+        <li>
+          III/2.9 Tandemová výuka na SŠ</li>
+        <li>
+          III/2.10 Zapojení odborníka z praxe do výuky na SŠ
+        </li>
+        <li>
+          III/2.11 CLIL ve výuce na SŠ
+        </li>
+        <li>
+          III/2.12 Vzdělávání pedagogického sboru SŠ zaměřené na inkluzi – vzdělávací akce v rozsahu 8 hodin
+        </li>
+        <li>
+          III/2.13 Vzájemná spolupráce pedagogů SŠ
+        </li>
+        <li>
+          III/2.14 Nové metody ve výuce na SŠ
+        </li>
+        <li>
+          a další
+        </li>
+      </ul>
+    </div>
+  </Popup >,
 
   zs_DVPP_16_hodin: <Popup document='priloha3' page={71} header='II/2.1 Vzdělávání pedagogických pracovníků ZŠ – DVPP v rozsahu 16 hodin'>
     <div>
