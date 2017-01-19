@@ -155,7 +155,7 @@
         32 hodin.
       </p>
       <p>
-        Více viz {sitemapRouter.doNavigateTag(inkluze.root.kurzy)}
+        Více viz {sitemapRouter.doNavigateTag(inkluze.root.kurzy)} a {sitemapRouter.doNavigateTag(inkluze.root.kurzyss)}
       </p>
     </BlockEx>
   </Page>
