@@ -14,8 +14,7 @@
     </BlockEx>
     <BlockEx header="Kdo je oprávněný žadatel o dotaci?">
       <p>
-        {popups.zadavatel}
-        o dotaci jsou ZŠ a MŠ z celé ČR, tedy i z Prahy (pražským školám byly doposud dotace EU odepřeny).
+        {popups.zadavatel} o dotaci jsou ZŠ, MŠ, SŠ a VOŠ z celé ČR, tedy i z Prahy (pražským školám byly doposud dotace EU odepřeny).
       </p>
     </BlockEx>
     <BlockEx header="Jaká je výše dotace?" gray>
@@ -27,20 +26,28 @@
           </li>
         <li>
           Maximální výše dotace na vámi připravený projekt se spočítá podle vzorce: <br />
-          200 000 Kč + počet dětí/žáků školy x 2 200 Kč.
+          <ul>
+            <li><b>MŠ a ZŠ</b> - 200 000 Kč + počet dětí/žáků školy x 2 200 Kč.
+            Tato maximální částka ale nesmí  přesáhnout 5&nbsp;mil. Kč.<br />
+            Více viz {popups.rozpocet}
+            </li>
+            <li><b>SŠ a VOŠ</b> - 
+              200 000 Kč + (počet žáků školy v denním studiu x 2 000 Kč a/nebo počet žáků školy v ostatních formách  studia  x  500  Kč).
             Tato maximální částka ale nesmí  přesáhnout 5 mil.
             Kč.<br />
-          Více viz {popups.rozpocet}
+            Více viz {popups.rozpocetss}
+            </li>
+          </ul>
         </li>
       </ul>
       <p>
-        Pro optimální výběr skladby a počtu šablon použijte {lib.navigateExt('http://www.msmt.cz/uploads/OP_VVV/Vyzva_zjednodusene_projekty_22_a23/Kalkulacka_indikatoru_final.xlsx', 'speciální kalkulačku', true)}.
+        Pro optimální výběr skladby a počtu šablon použijte {lib.navigateExt('http://www.msmt.cz/uploads/OP_VVV/Vyzva_zjednodusene_projekty_22_a23/Kalkulacka_indikatoru_final.xlsx', 'kalkulačku pro MŠ a ZŠ', true)} nebo {lib.navigateExt('http://www.msmt.cz/uploads/OP_VVV/vyzva_sablony_ss_a_vos_I/Kalkulacka_indikatoru_SS_VOS_verze_2.xlsx', 'kalkulačku pro SŠ a VOŠ', true)}.
       </p>
 
       <h4>Jak určit „počet žáků školy“?</h4>
       <ol>
         <li>U žádosti o dotaci podané do 31.12.2016, budete vycházet z počtu žáků k 30.9.2015.
-          Tento počet musí odpovídat  {lib.navigateExt('http://www.msmt.cz/uploads/OP_VVV/Vyzva_zjednodusene_projekty_22_a23/Seznamy_MS_ZS_k_30_09_2015.xlsx', 'oficiálním údajům na stránce MŠMT', true)}.</li>
+          Tento počet musí odpovídat oficiálním údajům na stránce MŠMT - {lib.navigateExt('http://www.msmt.cz/uploads/OP_VVV/Vyzva_zjednodusene_projekty_22_a23/Seznamy_MS_ZS_k_30_09_2015.xlsx', 'ZŠ a MŠ', true)} a {lib.navigateExt('http://www.msmt.cz/uploads/OP_VVV/vyzva_sablony_ss_a_vos_I/Seznamy_SS_k_30_09_2016_VOS_k_31_10_2016_.xlsx', 'SŠ a SOŠ', true)}.</li>
         <li>U žádosti o dotaci podané po 1.1.2017, budete vycházet z  počtu žáků k 30.9.2016, který bude na webových stránkách MŠMT aktualizován v prosinci 2016.</li>
       </ol>
       <Alert type="Poznámka">
@@ -58,7 +65,7 @@
     </BlockEx>
     <BlockEx header="Jak zažádat o dotaci" >
       <p>
-        Škola si vybere, o které šablony má zájem, a elektronicky vyplní {popups.zadost_o_dotaci} {lib.navigateExt('https://mseu.mssf.cz/', 'v systému IS KP14+', true)}, více informací viz {lib.navigateExt('http://www.msmt.cz/strukturalni-fondy-1/zadost-o-podporu', 'žádost o podporu', true)}.
+        Škola si vybere, o které šablony má zájem, a elektronicky vyplní žádost o dotaci pro {popups.zadost_o_dotaci} nebo {popups.zadost_o_dotaci_ss}  {lib.navigateExt('https://mseu.mssf.cz/', 'v systému IS KP14+', true)}, více informací viz {lib.navigateExt('http://www.msmt.cz/strukturalni-fondy-1/zadost-o-podporu', 'žádost o podporu', true)}.
         K vyplnění je nutné mít elektronický podpis anebo nahrát do systému oskenovanou plnou moc.
       </p>
       <p>
@@ -68,7 +75,7 @@
       <h4>Jedna žádost na školu</h4>
       <p>
         Každá škola může podat jenom jednu žádost.
-        V případě, že součástí právnické osoby je mateřská a základní škola (mají společné IČO), podává se jen jedna žádost za MŠ a ZŠ dohromady.
+        V případě, že součástí právnické osoby je více škol (mají společné IČO), podává se za ně jen jedna žádost dohromady.
       </p>
       <Alert type="Poznámka">
         Výjimkou je případ, kdy bude vaše žádost o dotaci zamítnuta (z formálních či obsahových důvodů).

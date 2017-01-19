@@ -31,7 +31,7 @@ const BlockEx: React.StatelessComponent<IBlockExProps> = (props: IBlockExProps) 
 };
 
 interface IPopupProps extends lib.IComponentProps {
-  document: 'priloha3' | 'vyzva' | 'priloha3SS';
+  document: 'priloha3' | 'vyzva' | 'priloha3SS' | 'vyzvaSS';
   page: number;
   header: string;
 }
@@ -56,6 +56,7 @@ class Popup extends React.Component<IPopupProps, IPopupState> {
       case 'priloha3': docTitle = lib.navigateExt('http://www.msmt.cz/uploads/OP_VVV/Vyzva_zjednodusene_projekty_22_a23/Priloha_c_3_Prehled_sablon_k_1_8_2016.pdf#page=' + this.props.page,'Přehled šablon a jejich věcný výklad, strana ' + (this.props.page - 1), true); break;
       case 'priloha3SS': docTitle = lib.navigateExt('http://www.msmt.cz/uploads/OP_VVV/vyzva_sablony_ss_a_vos_I/Priloha_c_3_Prehled_sablon_verze_2.pdf#page=' + this.props.page, 'Přehled šablon a jejich věcný výklad, strana ' + (this.props.page - 1), true); break;
       case 'vyzva': docTitle = lib.navigateExt('http://www.msmt.cz/uploads/OP_VVV/Vyzva_zjednodusene_projekty_22_a23/Vyzva_Sablony_MRR.pdf#page=' + this.props.page, 'Výzva 22 a 23, strana ' + this.props.page, true); break;
+      case 'vyzvaSS': docTitle = lib.navigateExt('http://www.msmt.cz/uploads/OP_VVV/vyzva_sablony_ss_a_vos_I/Vyzva_Sablony_pro_SS_a_VOS_I_MRR.pdf#page=' + this.props.page, 'Výzva 35 a 42, strana ' + this.props.page, true); break;
       default: throw new lib.ENotImplemented();
     }
     return <span>

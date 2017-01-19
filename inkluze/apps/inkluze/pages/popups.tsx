@@ -113,10 +113,71 @@
     </div>
   </Popup>,
 
-  zadost_o_dotaci: <Popup document='vyzva' page={7} header='Žádost o dotaci'>
+  rozpocetss: <Popup document='priloha3SS' page={6} header='Jak sestavit rozpočet projektu?'>
+    <div>
+      <div className="well well-sm">
+        <p>
+          Řídicí orgán upozorňuje, že jednotlivé šablony je nutné vybírat tak, aby byla dodržena podmínka výzvy pro minimální a maximální výši finanční podpory na jeden projekt:
+        </p>
+        <p>
+          Minimální výše: 200 000 Kč
+        </p>
+        <p>
+          Maximální výše: maximální výše finanční podpory na jeden projekt se stanoví dle tohoto vzorce:  200 000 Kč + (počet žáků/studentů školy v denním studiu x 2000 Kč + počet žáků/studentů v ostatních formách studia x 500 Kč) = maximální částka na školu. 
+          V případě, že součástí právnické osoby je střední škola a vyšší odborná škola, se částka 200 000 Kč počítá jedenkrát za SŠ a jedenkrát za VOŠ, celkem tedy 400 000 Kč. Tato částka je stanovena pouze pro určení maximální částky dotace.
+          Minimální částka na jeden projekt i v případě, že součástí právnické osoby je SŠ i VOŠ, je 200 000 Kč.
+          </p>
+        <p>
+          Počet dětí/ žáků školy k 30.9.2015 bude zveřejněn u vyhlášené výzvy na webových stránkách MŠMT.
+          Počet dětí/žáků školy pro další školní roky bude vždy aktualizován v prosinci daného školního roku na webových stránkách MŠMT.
+        </p>
+        <p>
+          Maximální výši podpory na jeden projekt žadatel vypočítá v „Kalkulačce indikátorů“, která je povinnou přílohou Žádosti o podporu.
+        </p>
+      </div>
+      <p>
+        <b>Příklad č.1: </b> Škola má ve školním roce, ve kterém podává žádost, 100 dětí/žáků.
+        Škola může čerpat maximálně 200 000 + (100 x 2 000 Kč) = 400 000 Kč.
+      </p>
+      <p>
+        <b>Příklad č.2: </b> Škola má celkem pět odloučených pracovišť.
+        Ve školním roce, ve kterém podává žádost, má celkem 320 dětí/žáků, z nichž 310 ve formě denního studia a 10 ve formě dálkového studia. 
+        Škola může čerpat maximálně 200 000 + (310 x 2 000 Kč + 10 x 500 Kč) = 825 000 Kč.
+      </p>
+      <p>
+        <b>Příklad č.3: </b> Součástí právnické osoby je střední škola se 120 žáky denního studia a vyšší odborná škola se 150 studenty (z nichž je 100 studentů denního studia a 50 studentů dálkového studia).
+        Škola jako celá právnická osoba může čerpat maximálně 200 000 + 200 000 + (220 x 2 000 Kč) + (50 x 500) = 865 000 Kč.
+      </p>
+      <p>
+        V tomto případě je třeba, aby ředitel školy volil šablony jak pro střední školu, tak pro vyšší odbornou školu, a to poměrně podle počtu žáků/studentů. 
+        Tzn., z celkové maximální částky na projekt  budou  pro střední školu využity prostředky v max. výši 200 000  +  (120  x  2000 Kč)  = 440 000 Kč a pro vyšší odbornou školu prostředky v max. výši: 200 000 + (100 x 2000 Kč) + (50 x 500) = 425 000 Kč. 
+      </p>
+    </div>
+  </Popup>,
+
+  zadost_o_dotaci: <Popup document='vyzva' page={7} header='MŠ a ZŠ'>
     <div>
       <p>
         Přehled relevantních příloh žádosti o podporu je uveden v {lib.navigateExt('http://www.msmt.cz/uploads/OP_VVV/Vyzva_zjednodusene_projekty_22_a23/Priloha_c_4_Seznam_priloh_k_zadosti_o_podporu.pdf', 'příloze č.4 Seznam příloh k žádosti o podporu', true)}.
+        Řídicí orgán Operačního programu Výzkum, vývoj a vzdělávání je oprávněn aktualizovat vzory příloh žádosti o podporu v průběhu této výzvy.
+        Aktualizace vzorů příloh žádosti o podporu není změnou této výzvy.
+      </p>
+      <p>
+        Podání žádosti o podporu probíhá pouze elektronicky, prostřednictvím IS KP14+, {lib.navigateExt('https://mseu.mssf.cz/', 'v systému IS KP14+', true)}.
+        Listinná verze žádosti se nezasílá.Žádost o podporu je podávána v českém jazyce.
+      </p>
+      <p>
+        <b>
+          Žádost o podporu musí být opatřena certifikovaným elektronickým podpisem statutárního orgánu žadatele nebo osoby oprávněné podepisovat na základě pověření.
+        </b>
+      </p>
+    </div>
+  </Popup>,
+
+  zadost_o_dotaci_ss: <Popup document='vyzvaSS' page={9} header='SŠ a VOŠ'>
+    <div>
+      <p>
+        Přehled relevantních příloh žádosti o podporu je uveden v {lib.navigateExt('http://www.msmt.cz/uploads/OP_VVV/vyzva_sablony_ss_a_vos_I/Priloha_c._4_Seznam_priloh_k_zadosti_o_podporu.pdf', 'příloze č.4 Seznam příloh k žádosti o podporu', true)}.
         Řídicí orgán Operačního programu Výzkum, vývoj a vzdělávání je oprávněn aktualizovat vzory příloh žádosti o podporu v průběhu této výzvy.
         Aktualizace vzorů příloh žádosti o podporu není změnou této výzvy.
       </p>
