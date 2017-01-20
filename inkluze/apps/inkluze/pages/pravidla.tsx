@@ -119,8 +119,8 @@
     </BlockEx>
     <BlockEx header="Dotace na personální podporu" >
       <p>
-        {popups.zs_ms_personalni_podpora} jsou vypsány na jednoho pracovníka ve výši 0, 5 úvazku na jeden měsíc.
-        Výjimkou je šablona Sociální pedagog, která je vypsána na 0, 1 úvazku.
+        Šablony pro personální podporu {popups.zs_ms_personalni_podpora} i {popups.ss_personalni_podpora} jsou vypsány na jednoho pracovníka ve výši 0,5 úvazku na jeden měsíc.
+        Výjimkou je šablona Sociální pedagog, která je vypsána na 0,1 úvazku.
         Úvazek nelze dělit mezi více osob.
       </p>
       <p>
@@ -151,8 +151,7 @@
         Pokud se učitel rozhodne účastnit například kurzu „Vzdělávání pedagogického sboru ZŠ zaměřené na inkluzi – vzdělávací akce v rozsahu 8 hodin“, pak se musí účastnit ještě další vzdělávací akce v rozsahu minimálně 16 hodin.
       </Alert>
       <p>
-        Připravili jsme kurzy zaměřené na inkluzi v celkové délce 24 hodin resp.
-        32 hodin.
+        Nabízíme kurzy zaměřené na inkluzi, čtenářskou gramotnost, matematickou gramotnost a mentoring.
       </p>
       <p>
         Více viz {sitemapRouter.doNavigateTag(inkluze.root.kurzy)} a {sitemapRouter.doNavigateTag(inkluze.root.kurzyss)}

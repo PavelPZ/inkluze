@@ -418,7 +418,7 @@
     </div>
   </Popup>,*/
 
-  zs_ms_personalni_podpora: <Popup document='priloha3' page={56} header='Šablony pro personální podporu'>
+  zs_ms_personalni_podpora: <Popup document='priloha3' page={56} header='MŠ a ZŠ'>
     <div>
       <h4>{lib.navigateExt('http://www.msmt.cz/uploads/OP_VVV/Vyzva_zjednodusene_projekty_22_a23/Priloha_c_3_Prehled_sablon_k_1_8_2016.pdf#page18', 'Personální podpora MŠ', true)}</h4>
       <ul>
@@ -453,6 +453,29 @@
         <li>
           II/1.4 Sociální pedagog – personální podpora ZŠ
         </li>
+      </ul>
+    </div>
+  </Popup>,
+
+  ss_personalni_podpora: <Popup document='priloha3SS' page={18} header='SŠ a VOŠ'>
+    <div>
+      <ul>
+        <li>
+          III/1.1 Školní asistent – personální podpora SŠ
+        </li>
+        <li>
+          III/1.2 Školní speciální pedagog – personální podpora SŠ 
+        </li>
+        <li>
+          III/1.3 Školní psycholog – personální podpora SŠ
+        </li>
+        <li>
+          III/1.4 Sociální pedagog – personální podpora SŠ
+        </li>
+        <li>
+          III/1.5 Koordinátor spolupráce školy a zaměstnavatele – personální podpora SŠ
+        </li>
+        <li>III/1.6 Školní kariérový poradce – personální podpora SŠ</li>
       </ul>
     </div>
   </Popup>,
