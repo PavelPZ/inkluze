@@ -80,7 +80,7 @@
       </p>
       <p>
         V podmínkách pro využití dotace je stanoveno, že každý učitel, který se v rámci projektu účastní nějakého vzdělávacího kurzu, <b>musí v souhrnu absolvovat alespoň 24 hodin vzdělávání</b>.
-        Této podmínce se říká {popups.bagatelni_podpora}.
+        Této podmínce se říká bagetelní podpora pro {popups.bagatelni_podpora} respektive {popups.bagatelni_podpora_ss} .
       </p>
       {/*<p>
         Mimo základních kurzů zaměřených na inkluzi (<b>8</b> hodin a <b>16</b> hodin) jsme proto připravili kurzy v celkové délce <b>24</b>, resp.

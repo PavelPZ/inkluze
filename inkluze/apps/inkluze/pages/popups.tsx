@@ -219,7 +219,7 @@
     </div>
   </Popup>,
 
-  bagatelni_podpora_ss: <Popup document='priloha3SS' page={14} header='SŠ a VOŠ'>
+  bagatelni_podpora_ss: <Popup document='priloha3SS' page={10} header='SŠ a VOŠ'>
     <div>
       <p>
         Bagatelní podpora je ve výzvě Podpora škol formou projektů zjednodušeného vykazování – Šablony pro SŠ a VOŠ - stanovena na 24 hodin.
@@ -228,7 +228,7 @@
         Do bagatelní podpory se u šablon DVPP započítává délka vzdělávání uvedená na příslušném dokladu o absolvovaném vzdělání, u ostatních šablon hodinová dotace uvedená ve výstupu šablony.
       </p>
       <p>
-        Projekt musí být koncipován tak, aby vzdělávací aktivity každé podpořené osoby v souhrnu dosahovaly minimální hranice bagatelní podpory.
+        Projekt musí být koncipován tak, aby vzdělávací aktivity každé podpořené osoby v souhrnu dosahovaly minimální hranice bagatelní podpory. 
         To znamená, že pokud bude konkrétní osoba vzdělávána v rámci šablony, kde časová dotace nedosahuje hranice bagatelní podpory, měla by tato konkrétní osoba být vzdělána ještě v rámci další šablony.
       </p>
     </div>
