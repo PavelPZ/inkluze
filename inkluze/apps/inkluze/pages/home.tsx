@@ -88,12 +88,15 @@
       </ul>
 
       <p>
-        Více viz stránka {sitemapRouter.doNavigateTag(inkluze.root.kurzy)}a {sitemapRouter.doNavigateTag(inkluze.root.kurzyss)}.
+        Bližší informace naleznete ma stránkách {sitemapRouter.doNavigateTag(inkluze.root.kurzy)}
+        a {sitemapRouter.doNavigateTag(inkluze.root.kurzyss)}.
       </p>
     </BlockEx>
     <BlockEx header="Termíny a místo kurzů">
       <p>
-        Naší strategií je vycházet maximálně vstříc potřebám jednotlivých škol. Zaměřujeme se tedy především na výuku ve sborovnách, s tím, že výuka může probíhat i o víkendech nebo v odpoledních hodinách.  Pokud máte zájem o nějaký konkrétní termín, napište nám na projekt@langmaster.cz nebo zavolejte +420 244 460 807.
+        Naší strategií je vycházet maximálně vstříc potřebám jednotlivých škol.
+        Zaměřujeme se tedy především na výuku <b>ve sborovnách</b>, s tím, že výuka může probíhat <b>i o víkendech nebo v odpoledních hodinách</b>.
+        Pokud máte zájem o nějaký konkrétní termín, napište nám na projekt@langmaster.cz nebo zavolejte +420 244 460 807.
       </p>
     </BlockEx>
     <BlockEx header="Bonus pro účastníky našich kurzů">
