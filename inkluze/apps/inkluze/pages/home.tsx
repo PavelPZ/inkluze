@@ -2,7 +2,7 @@
   <Page>
     <div>
       <Block blue style={{ paddingBottom: '10px' }}>
-        <h1 className='text-center'><a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.kurzy, ev)} >Kurzy podle šablon z Výzev 02_16_022/023 a 02_16_035/ 042</a><br />od <a href="#" onClick = {ev => sitemapRouter.doNavigate(inkluze.root.lektori, ev) }>zkušených lektorů</a></h1>
+        <h1 className='text-center'><a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.kurzy, ev)} >Kurzy podle šablon z Výzev 02_16_022/023 a 02_16_035/ 042</a><br />od <a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.lektori, ev)}>zkušených lektorů</a></h1>
         <div className="text-center">Napište nám na <a href={'mailto:' + infoEmail}>{infoEmail}</a> nebo zavolejte +420 244 460 807</div>
         <Grid style={{ marginTop: '15px' }}>
           <Row>
@@ -45,7 +45,7 @@
         </Grid>
       </Block>
     </div>
-    
+
     {/*<BlockEx header={"\"Výzva\" = dotace EU pro ZŠ a MŠ"} gray>
       <ul className='fa-ul'>
         <LiHand>EU nyní poskytuje českým základním a mateřským školám dotaci v ohromující výši Kč 4.5 mld.
@@ -62,13 +62,50 @@
         <LiHand>
           Dotační výzvy jsou dvě: <b>Výzva č.02_16_022</b> (pro mimopražské školy) a <b>Výzva č.02_16_023</b> (pro pražské školy).
           Obsahem jsou tyto výzvy identické, budeme je dále nazývat zkráceně {popups.vyzva}.</LiHand>*/}
-        {/*
+    {/*
         <HomeLi2>
           V rámci Výzvy je možno získat dotace i na další kurzy a aktivity, které se nezabývají inkluzí.
           O těch se ale budeme zmiňovat méně podrobně.</HomeLi2>*/}
-        {/*</ul>
+    {/*</ul>
     </BlockEx>*/}
-    <BlockEx header="Nabízíme DVPP kurzy zaměřené na inkluzi, mentoring, čtenářskou a matematickou gramotnost">
+    <BlockEx header="Přehled akreditovaných kurzů zaměřených na inkluzi, mentoring, čtenářskou a matematickou gramotnost">
+      <ul className='fa-ul'>
+        <LiHand>
+          Inkluze: 5 kurzů pro výzvu 02_16_022 / 023 a 3 kurzy pro výzvu 02_16_035 / 042 
+        </LiHand>
+        <LiHand>
+          Čtenářská gramotnost: …
+        </LiHand>
+        <LiHand>
+          Matematická gramotnost: …
+        </LiHand>
+        <LiHand>
+          Mentoring: …
+        </LiHand>
+        <LiHand>
+          V současné době máme k akreditaci podaných dalších XX kurzů. Vzhledem k našim zkušenostem z předchozích akreditací očekáváme jejich bezproblémové schválení.
+        </LiHand>
+      </ul>
+
+      <p>
+        Více viz stránka {sitemapRouter.doNavigateTag(inkluze.root.kurzy)}a {sitemapRouter.doNavigateTag(inkluze.root.kurzyss)}.
+      </p>
+    </BlockEx>
+    <BlockEx header="Termíny a místo kurzů">
+      <p>
+        Naší strategií je vycházet maximálně vstříc potřebám jednotlivých škol. Zaměřujeme se tedy především na výuku ve sborovnách, s tím, že výuka může probíhat i o víkendech nebo v odpoledních hodinách.  Pokud máte zájem o nějaký konkrétní termín, napište nám na projekt@langmaster.cz nebo zavolejte +420 244 460 807.
+      </p>
+    </BlockEx>
+    <BlockEx header="Bonus pro účastníky našich kurzů">
+      <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
+        <p>
+          Pro učitele, kteří se zúčastní našich DVPP kurzů, máme připravený bonus - interaktivní jazykový kurz zdarma.
+          Můžete si vybrat mezi kurzem angličtiny, němčiny, španělštiny, francouzštiny, italštiny nebo ruštiny.
+          V případě zájmu Vám rádi poskytneme podrobnější informace.
+        </p>
+      </div>
+    </BlockEx>
+    {/*<BlockEx header="Nabízíme DVPP kurzy zaměřené na inkluzi, mentoring, čtenářskou a matematickou gramotnost">
       <p>
         Pro učitele jsme <b>ve spolupráci se zkušenými akreditovanými lektory</b> připravili v rámci DVPP řadu kurzů.
         Cílem kurzů je, aby pokud možno celý pedagogický sbor získal orientaci v problematice inkluze resp.
@@ -81,8 +118,8 @@
       <p>
         V podmínkách pro využití dotace je stanoveno, že každý učitel, který se v rámci projektu účastní nějakého vzdělávacího kurzu, <b>musí v souhrnu absolvovat alespoň 24 hodin vzdělávání</b>.
         Této podmínce se říká <b>bagetelní podpora</b> pro {popups.bagatelni_podpora} respektive {popups.bagatelni_podpora_ss} .
-      </p>
-      {/*<p>
+      </p>*/}
+    {/*<p>
         Mimo základních kurzů zaměřených na inkluzi (<b>8</b> hodin a <b>16</b> hodin) jsme proto připravili kurzy v celkové délce <b>24</b>, resp.
         <b> 32</b> hodin a kurzy mentoringu a čtenářské a matematické gramotnosti.
         Naše kurzy splňují všechny podmínky tak, aby na ně bylo možno použít peníze z dotace.
@@ -91,17 +128,8 @@
         Cílem kurzů je, aby se pokud možno celý pedagogický sbor dokázal orientovat v problematice inkluze.
         U kurzu v délce 32 hodin zbude více prostoru na diskusi s učiteli, řešení konkrétních problémů týkajících se dané školy a praktické procvičování získaných znalostí.
       </p>*/}
-      <p>
-        Více viz stránka {sitemapRouter.doNavigateTag(inkluze.root.kurzy)} a {sitemapRouter.doNavigateTag(inkluze.root.kurzyss)}.
-      </p>
-      <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
-        <p>
-          Pro učitele, kteří se zúčastní našich DVPP kurzů, máme připravený bonus - interaktivní jazykový kurz zdarma.
-          Můžete si vybrat mezi kurzem angličtiny, němčiny, španělštiny, francouzštiny, italštiny nebo ruštiny.
-          V případě zájmu Vám rádi poskytneme podrobnější informace.
-        </p>
-      </div>
-    </BlockEx>
+
+    {/*</BlockEx>*/}
     {/*<BlockEx header="Inkluze se týká většiny učitelů" gray>
       S malou nadsázkou se dá se říci, že v českých školách nenajdete učitele, který by se během své praxe nesetkal s problémy souvisejícími s inkluzí.
       V tom případě se mu jistě budou hodit znalosti z našich kurzů, které řeší otázky typu:
