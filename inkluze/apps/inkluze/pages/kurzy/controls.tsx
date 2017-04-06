@@ -260,6 +260,42 @@ var ZSMatematicka32: React.StatelessComponent<IKurzProps> = (props: IKurzProps, 
       <LiFile> … a mnoho dalších </LiFile>
     </ul>
   </BlockEx>
+
+  <BlockEx header="Moderní technologie jako pomocník při rozvoji matematické gramotnosti">
+    <ul className="fa-ul">
+      <LiFile>Seznámení s úložišti již hotových materiálů, které je možno rovnou využít ve výuce (bez vlastní tvorby) a různými webovými stránkami s videi, texty i jinými materiály, které je možné vhodně využít nejen k podpoře rozvoje matematické gramotnosti</LiFile>
+      <LiFile>Příklady her a prostředí na internetu pro podporu matematické gramotnosti</LiFile>
+      <LiFile>Seznámení programy a aplikacemi, které oživí každou prezentaci</LiFile>
+      <LiFile>Využití programů a aplikací pro komunikaci mezi žáky, studenty, učiteli a rodiči</LiFile>
+      <LiFile>Rozšířená realita jako nástroj motivace i rozvoje nejen matematické gramotnosti</LiFile>
+      <LiFile>Programy a aplikace pro jednoduché vytváření zábavných kvízů</LiFile>
+      <LiFile>Použití programu Formulator Tarsia pro tvorbu domin, triomin a jiných her vhodných k oživení procvičovaného učiva (1 hodina)</LiFile>
+    </ul>
+  </BlockEx>
+
+  <BlockEx header="GeoGebra">
+    <ul className='fa-ul'>
+      <LiFile>Pracovní prostředí programu GeoGebra (panel nástrojů, algebraické okno, tabulka, nákresny, vstupní panel) </LiFile>
+      <LiFile>GeoGebra jako nástroj pro tvorbu vlastního didaktického materiálů (např. ukládání vytvořených souborů, export do různých typů souborů včetně exportu do interaktivní webové stránky) </LiFile>
+      <LiFile>Aplikace programu do výuky geometrie, algebry a funkcí </LiFile>
+      <LiFile>Využití programu jako nástroje rozvoje matematické gramotnosti, propojování geometrických a algebraických interpretací v matematice prostřednictvím programu</LiFile>
+      <LiFile>Základní ovládání prostředí 3D (1 hodina)</LiFile>
+    </ul>
+  </BlockEx>
+
+  <BlockEx header="Hravě k matematické gramotnosti (14 hodin)">
+    <ul className='fa-ul'>
+      <LiFile>Principy přípravy úloh a žákovských projektů</LiFile>
+      <LiFile>Didaktická hra jako zvnějšku řízená motivovaná činnost, při které si žáci procvičují, upevňují vědomosti, dovednosti a návyky a rozvíjejí psychické funkce (paměť, představivost, postřeh atd.) </LiFile>
+      <LiFile>Didaktická hra jako nástroj rozvoje spolupráce mezi žáky </LiFile>
+      <LiFile>Hry pro rozvoj matematické gramotnosti dostupné na trhu (např. Digit, Klotz, Imagination, Blokus, Penta, Cuts) </LiFile>
+      <LiFile>Hry na procvičování (např. skládačky, domino, bingo, matematické omalovánky, matematický diktát) </LiFile>
+      <LiFile>Aktivity k oživení učiva geometrie (osová souměrnost – práce v mřížce, se zrcátky; vlastním objevem k Pythagorově větě, vyprávění příběhů, hrajeme si s kruhy aj.) </LiFile>
+      <LiFile>projektem k rozvoji prostorové představivosti a finanční gramotnosti v programu Sweet Home 3D </LiFile>
+      <LiFile>Kouzelné účty – aktivita pro rozvoj matematické a finanční gramotnosti ze světa Harryho Pottera </LiFile>
+    </ul>
+  </BlockEx>
+
   <BlockEx header="Výuka ve sborovně:">
     <p>
       <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve vámi zvoleném termínu.</b>
@@ -634,7 +670,7 @@ var SSCtenarska8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
     <ul className='fa-ul'>
       <LiFile>Seznámení s principem třífázového učení E-U-R a se základními metodami a formami práce a jejich dělením </LiFile>
       <LiFile>Aplikace jednotlivých základních metod ve výuce:
-        <ul >
+        <ul>
           <LiFile>Brainstorming – princip a různé způsoby využití</LiFile>
           <LiFile>Myšlenková mapa - princip a různé způsoby využití</LiFile>
           <LiFile>Práce s textem - princip a různé způsoby využití</LiFile>
