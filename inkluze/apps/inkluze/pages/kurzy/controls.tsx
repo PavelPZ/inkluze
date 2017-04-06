@@ -688,29 +688,29 @@ var SSCtenarska16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
               <LiFile>třífázový rozhovor</LiFile>
             </ul>
           </LiFile>
-          <LiFile>Čtenářské strategie
-            <ul>
-              <LiFile>předvídání</LiFile>
-              <LiFile>práce s otázkami</LiFile>
-              <LiFile>hledání souvislostí (já-text, text a další text, text a okolní svět)</LiFile>
-              <LiFile>porozumění neznámému; práce s představami, fantazií</LiFile>
-              <LiFile>výběr klíčové informace</LiFile>
-              <LiFile>shrnutí a zhodnocení informace</LiFile>
-            </ul>
-          </LiFile>
-          <LiFile>Formy a metody na podporu čtenářských dovedností
-            <ul>
-              <LiFile>šifrování</LiFile>
-              <LiFile>analýza textu: metody RWCT</LiFile>
-              <LiFile>rozvoj komunikačních dovedností (kolážování, práce s fotografií a ilustracemi, expertní skupiny)</LiFile>
-              <LiFile>náměty pro tvůrčí psaní</LiFile>
-              <LiFile>drobné metody podporující soustředění se na danou věc </LiFile>
-            </ul>
-          </LiFile>
-          <LiFile>Škálování - princip a různé způsoby využití</LiFile>
-          <LiFile>další aktivizující metody a formy výuky</LiFile>
         </ul>
       </LiFile>
+      <LiFile>Čtenářské strategie
+            <ul>
+          <LiFile>předvídání</LiFile>
+          <LiFile>práce s otázkami</LiFile>
+          <LiFile>hledání souvislostí (já-text, text a další text, text a okolní svět)</LiFile>
+          <LiFile>porozumění neznámému; práce s představami, fantazií</LiFile>
+          <LiFile>výběr klíčové informace</LiFile>
+          <LiFile>shrnutí a zhodnocení informace</LiFile>
+        </ul>
+      </LiFile>
+      <LiFile>Formy a metody na podporu čtenářských dovedností
+            <ul>
+          <LiFile>šifrování</LiFile>
+          <LiFile>analýza textu: metody RWCT</LiFile>
+          <LiFile>rozvoj komunikačních dovedností (kolážování, práce s fotografií a ilustracemi, expertní skupiny)</LiFile>
+          <LiFile>náměty pro tvůrčí psaní</LiFile>
+          <LiFile>drobné metody podporující soustředění se na danou věc </LiFile>
+        </ul>
+      </LiFile>
+      <LiFile>Škálování - princip a různé způsoby využití</LiFile>
+      <LiFile>další aktivizující metody a formy výuky</LiFile>
       <LiFile>Hodnocení úrovně rozvoje čtenářské gramotnosti </LiFile>
     </ul>
   </BlockEx>
@@ -727,7 +727,7 @@ var SSCtenarska16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
     </div>
   </BlockEx>
   <BonusAlert />
-</Panel>;
+</Panel >;
 
 var SSCtenarska24: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">24</Label>  <span style={headerCss}>{props.title}</span></h3>
@@ -754,47 +754,47 @@ var SSCtenarska24: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
               <LiFile>další metody RWCT</LiFile>
             </ul>
           </LiFile>
-          <LiFile>Čtenářské strategie
-            <ul>
-              <LiFile>předvídání</LiFile>
-              <LiFile>práce s otázkami</LiFile>
-              <LiFile>hledání souvislostí (já-text, text a další text, text a okolní svět)</LiFile>
-              <LiFile>porozumění neznámému; práce s představami, fantazií</LiFile>
-              <LiFile>výběr klíčové informace</LiFile>
-              <LiFile>shrnutí a zhodnocení informace</LiFile>
-            </ul>
-          </LiFile>
-          <LiFile>Formy a metody na podporu čtenářských dovedností
-            <ul>
-              <LiFile>šifrování</LiFile>
-              <LiFile>analýza textu: metody RWCT</LiFile>
-              <LiFile>rozvoj komunikačních dovedností (kolážování, práce s fotografií a ilustracemi, expertní skupiny)</LiFile>
-              <LiFile>náměty pro tvůrčí psaní</LiFile>
-              <LiFile>drobné metody podporující soustředění se na danou věc </LiFile>
-            </ul>
-          </LiFile>
-          <LiFile>Tvůrčí činnosti na podporu čtenářských dovedností
-            <ul>
-              <LiFile>Trénink vnímání věcí</LiFile>
-              <LiFile>Interpretace/ Variace/ Falzifikace</LiFile>
-              <LiFile>Jak na nápad</LiFile>
-              <LiFile>Význam první věty</LiFile>
-              <LiFile>Kompozice textu</LiFile>
-              <LiFile>Dialog a monolog</LiFile>
-              <LiFile>Konflikt</LiFile>
-            </ul>
-          </LiFile>
-
-
-          <LiFile>Škálování - princip a různé způsoby využití</LiFile>
-          <LiFile>Projektové vyučování</LiFile>
-          <LiFile>další aktivizující metody a formy výuky vedoucí k rozvoji čtenářské gramotnosti</LiFile>
         </ul>
       </LiFile>
+      <LiFile>Čtenářské strategie
+            <ul>
+          <LiFile>předvídání</LiFile>
+          <LiFile>práce s otázkami</LiFile>
+          <LiFile>hledání souvislostí (já-text, text a další text, text a okolní svět)</LiFile>
+          <LiFile>porozumění neznámému; práce s představami, fantazií</LiFile>
+          <LiFile>výběr klíčové informace</LiFile>
+          <LiFile>shrnutí a zhodnocení informace</LiFile>
+        </ul>
+      </LiFile>
+      <LiFile>Formy a metody na podporu čtenářských dovedností
+            <ul>
+          <LiFile>šifrování</LiFile>
+          <LiFile>analýza textu: metody RWCT</LiFile>
+          <LiFile>rozvoj komunikačních dovedností (kolážování, práce s fotografií a ilustracemi, expertní skupiny)</LiFile>
+          <LiFile>náměty pro tvůrčí psaní</LiFile>
+          <LiFile>drobné metody podporující soustředění se na danou věc </LiFile>
+        </ul>
+      </LiFile>
+      <LiFile>Tvůrčí činnosti na podporu čtenářských dovedností
+            <ul>
+          <LiFile>Trénink vnímání věcí</LiFile>
+          <LiFile>Interpretace/ Variace/ Falzifikace</LiFile>
+          <LiFile>Jak na nápad</LiFile>
+          <LiFile>Význam první věty</LiFile>
+          <LiFile>Kompozice textu</LiFile>
+          <LiFile>Dialog a monolog</LiFile>
+          <LiFile>Konflikt</LiFile>
+        </ul>
+      </LiFile>
+
+
+      <LiFile>Škálování - princip a různé způsoby využití</LiFile>
+      <LiFile>Projektové vyučování</LiFile>
+      <LiFile>další aktivizující metody a formy výuky vedoucí k rozvoji čtenářské gramotnosti</LiFile>
       <LiFile>Ukázky vlastní práce učitele v rámci rozvoje čtenářské gramotnosti – interaktivní část semináře </LiFile>
       <LiFile>Diskuse nad konkrétními problémy </LiFile>
     </ul>
-  </BlockEx>
+  </BlockEx >
   <BlockEx header="Výuka ve sborovně:">
     <p>
       <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve vámi zvoleném termínu.</b>
@@ -808,7 +808,7 @@ var SSCtenarska24: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
     </div>
   </BlockEx>
   <BonusAlert />
-</Panel>;
+</Panel >;
 
 var SSMatematicka8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>

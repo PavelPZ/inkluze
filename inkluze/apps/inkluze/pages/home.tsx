@@ -2,7 +2,7 @@
   <Page>
     <div>
       <Block blue style={{ paddingBottom: '10px' }}>
-        <h1 className='text-center'><a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.kurzy, ev)} >Kurzy podle šablon z Výzev 02_16_022/023 a 02_16_035/ 042</a><br />od <a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.lektori, ev)}>zkušených lektorů</a></h1>
+        <h1 className='text-center'><a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.kurzy, ev)} >Kurzy podle šablon z Výzev 02_16_022/ 023 a 02_16_035/ 042</a><br />od <a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.lektori, ev)}>zkušených lektorů</a></h1>
         <div className="text-center">Napište nám na <a href={'mailto:' + infoEmail}>{infoEmail}</a> nebo zavolejte +420 244 460 807</div>
         <Grid style={{ marginTop: '15px' }}>
           <Row>
