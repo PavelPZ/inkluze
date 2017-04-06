@@ -136,6 +136,10 @@ var ZSCtenarska16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
       <LiFile>práce s textem (metoda I.N.S.E.R.T., skládankové učení, pětilístek, …)</LiFile>
       <LiFile>čtení s porozuměním, rozvoj kritického myšlení </LiFile>
       <LiFile>čtenářská dílna </LiFile>
+      <LiFile>práce s různými informačními zdroji – médii, časopisy, internetem, populárně naučnou literaturou,  autentickými materiály a reklamou atd.</LiFile>
+      <LiFile>čtenářské strategie (kladení otázek, předvídání, sledování porozumění a vyjasňování, vysuzování, shrnování, vytváření představ, hledání souvislostí, hodnocení – metody a postupy pro rozvíjení jednotlivých dovedností) </LiFile>
+      <LiFile>odborný text (fungování mozku, rychlé vyhledávání informací, vlastnosti odborného textu, myšlenková mapa, základní metody VCHD a INSERT, značkování textu, anotace odborného textu) </LiFile>
+      <LiFile>pojem kritické myšlení, třífázový model učení</LiFile>
     </ul>
   </BlockEx>
   <BlockEx>
@@ -547,7 +551,6 @@ var SSInkluze16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
 var SSInkluze24: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">24</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
-  <BlockEx header="… připravujeme"></BlockEx>
   <ObsahInkluzeSS />
   <BlockEx>
     <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
@@ -568,7 +571,7 @@ var SSInkluze24: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
   </BlockEx>
   <BlockEx header="Potřebné šablony: ">
     <p>
-      Pro každého učitele je potřeba objednat šablonu {popups.ss_24_hodin_inkluze} 
+      Pro každého učitele je potřeba objednat šablonu {popups.ss_24_hodin_inkluze}
     </p>
   </BlockEx>
   <BonusAlert />
@@ -636,6 +639,11 @@ var SSCtenarska8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
           <LiFile>Myšlenková mapa - princip a různé způsoby využití</LiFile>
           <LiFile>Práce s textem - princip a různé způsoby využití</LiFile>
           <LiFile>Škálování - princip a různé způsoby využití</LiFile>
+          <LiFile>Šifrování</LiFile>
+          <LiFile>Analýza textu: metody RWCT</LiFile>
+          <LiFile>Rozvoj komunikačních dovedností (kolážování, práce s fotografií a ilustracemi, expertní skupiny)</LiFile>
+          <LiFile>Náměty pro tvůrčí psaní</LiFile>
+          <LiFile>Drobné metody podporující soustředění se na danou věc </LiFile>
           <LiFile>další aktivizující metody a formy výuky</LiFile>
         </ul>
       </LiFile>
@@ -677,7 +685,26 @@ var SSCtenarska16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
               <LiFile>párové čtení</LiFile>
               <LiFile>pětilístek</LiFile>
               <LiFile>volné psaní</LiFile>
-              <LiFile>třífázový rozhovoru…</LiFile>
+              <LiFile>třífázový rozhovor</LiFile>
+            </ul>
+          </LiFile>
+          <LiFile>Čtenářské strategie
+            <ul>
+              <LiFile>předvídání</LiFile>
+              <LiFile>práce s otázkami</LiFile>
+              <LiFile>hledání souvislostí (já-text, text a další text, text a okolní svět)</LiFile>
+              <LiFile>porozumění neznámému; práce s představami, fantazií</LiFile>
+              <LiFile>výběr klíčové informace</LiFile>
+              <LiFile>shrnutí a zhodnocení informace</LiFile>
+            </ul>
+          </LiFile>
+          <LiFile>Formy a metody na podporu čtenářských dovedností
+            <ul>
+              <LiFile>šifrování</LiFile>
+              <LiFile>analýza textu: metody RWCT</LiFile>
+              <LiFile>rozvoj komunikačních dovedností (kolážování, práce s fotografií a ilustracemi, expertní skupiny)</LiFile>
+              <LiFile>náměty pro tvůrčí psaní</LiFile>
+              <LiFile>drobné metody podporující soustředění se na danou věc </LiFile>
             </ul>
           </LiFile>
           <LiFile>Škálování - princip a různé způsoby využití</LiFile>
@@ -727,6 +754,38 @@ var SSCtenarska24: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
               <LiFile>další metody RWCT</LiFile>
             </ul>
           </LiFile>
+          <LiFile>Čtenářské strategie
+            <ul>
+              <LiFile>předvídání</LiFile>
+              <LiFile>práce s otázkami</LiFile>
+              <LiFile>hledání souvislostí (já-text, text a další text, text a okolní svět)</LiFile>
+              <LiFile>porozumění neznámému; práce s představami, fantazií</LiFile>
+              <LiFile>výběr klíčové informace</LiFile>
+              <LiFile>shrnutí a zhodnocení informace</LiFile>
+            </ul>
+          </LiFile>
+          <LiFile>Formy a metody na podporu čtenářských dovedností
+            <ul>
+              <LiFile>šifrování</LiFile>
+              <LiFile>analýza textu: metody RWCT</LiFile>
+              <LiFile>rozvoj komunikačních dovedností (kolážování, práce s fotografií a ilustracemi, expertní skupiny)</LiFile>
+              <LiFile>náměty pro tvůrčí psaní</LiFile>
+              <LiFile>drobné metody podporující soustředění se na danou věc </LiFile>
+            </ul>
+          </LiFile>
+          <LiFile>Tvůrčí činnosti na podporu čtenářských dovedností
+            <ul>
+              <LiFile>Trénink vnímání věcí</LiFile>
+              <LiFile>Interpretace/ Variace/ Falzifikace</LiFile>
+              <LiFile>Jak na nápad</LiFile>
+              <LiFile>Význam první věty</LiFile>
+              <LiFile>Kompozice textu</LiFile>
+              <LiFile>Dialog a monolog</LiFile>
+              <LiFile>Konflikt</LiFile>
+            </ul>
+          </LiFile>
+
+
           <LiFile>Škálování - princip a různé způsoby využití</LiFile>
           <LiFile>Projektové vyučování</LiFile>
           <LiFile>další aktivizující metody a formy výuky vedoucí k rozvoji čtenářské gramotnosti</LiFile>
@@ -754,20 +813,40 @@ var SSCtenarska24: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
 var SSMatematicka8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
-  <BlockEx header="… připravujeme"></BlockEx>
-  {/*<BlockEx header="Ukázky z témat:  ">
+  <BlockEx header="Ukázky z témat:  ">
     <ul className='fa-ul'>
-      <LiFile>vymezení pojmu matematická gramotnost </LiFile>
-      <LiFile> praktické rady jak a kde během výuky rozvíjet matematickou gramotnost</LiFile>
-      <LiFile> obohacení výuky v hodinách o inovativní metody</LiFile>
-      <LiFile> seznámeni s různými strategiemi práce se žáky</LiFile>
-      <LiFile> matematická argumentace</LiFile>
-      <LiFile> komunikace</LiFile>
-      <LiFile> modelování</LiFile>
-      <LiFile> vymezování problémů a jejich řešení</LiFile>
-      <LiFile> schopnost matematizovat reálné situace</LiFile>
+      <LiFile>Rozvíjení schopnosti řešit problémy a analýza informací - rozbor slovních úloh. </LiFile>
+      <LiFile> 	Práce s chybou. Matematizování reálných situací. </LiFile>
+      <LiFile> 	Používání správné terminologie a symboliky a praktické využití poznatků z matematiky.  </LiFile>
+      <LiFile> 	Využití matematického jazyka a symbolů ke konkrétním výstupům  podle věkové kategorie s využitím množinového pojetí rozborů textů a Vennových diagramů. </LiFile>
+      <LiFile> 	Využití výroků a logické stavby vět - komunikace a matematizace konkrétních situací.</LiFile>
+      <LiFile> 	Využití číselné osy, časové přímky. </LiFile>
+      <LiFile> 	Trojí pohled na zlomky.</LiFile>
+      <LiFile> 	Video : Fantastický výlet do makrosvěta a mikrosvěta ve světě čísel a přírodních věd.</LiFile>
+      <LiFile> 	Jak řešit matematickou úlohu – čtyři základní fáze.</LiFile>
+      <LiFile> 	Rozdíl mezi tzv. „trychtýřováním“  a správným kladením otázek učitelem. </LiFile>
+      <LiFile> 	Geometrie v rovině a v prostoru .</LiFile>
+      <LiFile> 	Představivost, Odvozování vztahů. </LiFile>
+      <LiFile> 	Využití kombinatorických pojmů ve výuce podle věkové úrovně žáků.</LiFile>
     </ul>
-  </BlockEx>*/}
+  </BlockEx>
+
+  <BlockEx header="GeoGebra jako nástroj rozvoje matematické gramotnosti na SŠ">
+    <ul className='fa-ul'>
+      <LiFile> 	Pracovní prostředí programu GeoGebra (panel nástrojů, algebraické okno, tabulka, nákresny, vstupní panel) </LiFile>
+      <LiFile> 	GeoGebra jako nástroj pro tvorbu vlastního didaktického materiálů </LiFile>
+      <LiFile> 	Aplikace programu do výuky geometrie, algebry a matematické analýzy </LiFile>
+      <LiFile> 	Využití programu jako nástroje rozvoje matematické gramotnosti, propojování geometrických a algebraických interpretací v matematice prostřednictvím programu </LiFile>
+      <LiFile> 	Základní ovládání prostředí 3D </LiFile>
+    </ul>
+  </BlockEx>
+
+  <BlockEx>
+    <p>
+      Nabízíme více 8 hodinových akreditovaných kurzů. Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
+    </p>
+  </BlockEx>
+
   <BlockEx header="Výuka ve sborovně:">
     <p>
       <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve vámi zvoleném termínu.</b>
@@ -781,27 +860,30 @@ var SSMatematicka8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, c
     </div>
   </BlockEx>
   <BonusAlert />
-</Panel>;
+</Panel >;
 
 var SSMatematicka16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
   <BlockEx header="Ukázky z témat:  ">
     <ul className='fa-ul'>
-      <LiFile>Rozvíjení schopnosti řešit problémy. Správné kladení otázek.  Analýza   informací. Rozbor slovních úloh. Práce s chybou. Matematizování reálných situací. Používání správné terminologie a symboliky. Praktické využití poznatků z matematiky. Budování vztahu k matematice.</LiFile>
-      <LiFile>Využití matematického jazyka a symbolů ke konkrétním výstupům  podle věkové kategorie, s využitím množinového pojetí rozborů textů a Vennových diagramů. </LiFile>
-      <LiFile>Využití základních vlastností tělesa reálných čísel, výroků a logické stavby vět, při vzájemné komunikaci a matematizaci konkrétních situací.</LiFile>
-      <LiFile>Využití číselné osy, časové přímky, řády celých čísel(popř. desetinných čísel), typů zápisů čísel, prvočísel, dekadického rozvoje čísel. Trojí pohled na zlomky.</LiFile>
-      <LiFile>Video : Fantastický výlet do makrosvěta a mikrosvěta ve světě čísel a přírodních věd.</LiFile>
-      <LiFile>Jak řešit matematickou úlohu – čtyři základní fáze. Rozdíl mezi tzv. „trychtýřováním“  a správným kladením otázek učitelem. Postupy pozpátku.</LiFile>
-      <LiFile>Geometrie v rovině a v prostoru – představivost, odvozování vztahů, množiny určitých vlastností. </LiFile>
-      <LiFile>Využití výroků, složených výroků, jejich pravdivosti i negace (logická stavba vět a komunikace).</LiFile>
-      <LiFile>Využití kombinatorických pojmů ve výuce podle věku studentů.</LiFile>
-      <LiFile>Tvorba pohyblivých objektů 2D a 3D objektů s programem GeoGebra (využití programu jako nástroje podpory matematické gramotnosti formou propojování geometrických a algebraických interpretací v matematice a dalších nejen přírodovědných předmětech)</LiFile>
-      <LiFile>Příklady her a prostředí na internetu pro podporu matematické gramotnosti</LiFile>
-      <LiFile>Programy a aplikace pro jednoduché vytváření zábavných kvízů</LiFile>
-      <LiFile>Rozšířená realita jako nástroj motivace i rozvoje nejen matematické gramotnosti </LiFile>
-      <LiFile>… a mnoho dalších</LiFile>
+      <LiFile>Seznámení s úložišti již hotových materiálů, které je možno rovnou využít ve výuce (bez vlastní tvorby) a různými webovými stránkami s videi, texty i jinými materiály, které je možné vhodně využít nejen k podpoře rozvoje matematické gramotnosti </LiFile>
+      <LiFile> 	Příklady her a prostředí na internetu pro podporu matematické gramotnosti </LiFile>
+      <LiFile> 	Seznámení programy a aplikacemi, které oživí každou prezentaci </LiFile>
+      <LiFile> 	Využití programů a aplikací pro komunikaci mezi žáky, studenty, učiteli a rodiči </LiFile>
+      <LiFile> 	Rozšířená realita jako nástroj motivace i rozvoje nejen matematické gramotnosti </LiFile>
+      <LiFile> 	Programy a aplikace pro jednoduché vytváření zábavných kvízů </LiFile>
+      <LiFile> 	Tvorba pohyblivých objektů 2D a 3D objektů s programem GeoGebra (využití programu jako nástroje podpory matematické gramotnosti formou propojování geometrických a algebraických interpretací v matematice a dalších nejen přírodovědných předmětech) (5 hodin)</LiFile>
+      <LiFile> 	Rozvíjení schopnosti řešit problémy. Správné kladení otázek. Analýza informací. Rozbor slovních úloh. Práce s chybou. Matematizování reálných situací. Používání správné terminologie a symboliky. Praktické využití poznatků z matematiky. Budování vztahu k matematice.</LiFile>
+      <LiFile> 	Využití matematického jazyka a symbolů ke konkrétním výstupům podle věkové kategorie, s využitím množinového pojetí rozborů textů a Vennových diagramů. </LiFile>
+      <LiFile> 	Využití základních vlastností tělesa reálných čísel, výroků a logické stavby vět, při vzájemné komunikaci a matematizaci konkrétních situací.</LiFile>
+      <LiFile> 	Využití číselné osy, časové přímky, řády celých čísel(popř. desetinných čísel), typů zápisů čísel, prvočísel, dekadického rozvoje čísel. Trojí pohled na zlomky.</LiFile>
+      <LiFile> 	Video : Fantastický výlet do makrosvěta a mikrosvěta ve světě čísel a přírodních věd.</LiFile>
+      <LiFile> 	Jak řešit matematickou úlohu – čtyři základní fáze. Rozdíl mezi tzv. „trychtýřováním“ a správným kladením otázek učitelem. Postupy pozpátku.</LiFile>
+      <LiFile> 	Geometrie v rovině a v prostoru – představivost, odvozování vztahů, množiny určitých vlastností. </LiFile>
+      <LiFile> 	Využití výroků, složených výroků, jejich pravdivosti i negace (logická stavba vět a komunikace).</LiFile>
+      <LiFile> 	Využití kombinatorických pojmů ve výuce podle věku studentů.</LiFile>
+      <LiFile> 	… a mnoho dalších</LiFile>
     </ul>
   </BlockEx>
   <BlockEx>
@@ -820,25 +902,45 @@ var SSMatematicka16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, 
     </div>
   </BlockEx>
   <BonusAlert />
-</Panel>;
+</Panel >;
 
 var SSMatematicka24: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">24</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
-  <BlockEx header="… připravujeme"></BlockEx>
-  {/*<BlockEx header="Ukázky z témat:  ">
+  <BlockEx header="Ukázky z témat:  ">
     <ul className='fa-ul'>
-      <LiFile>vymezení pojmu matematická gramotnost </LiFile>
-      <LiFile> praktické rady jak a kde během výuky rozvíjet matematickou gramotnost</LiFile>
-      <LiFile> obohacení výuky v hodinách o inovativní metody</LiFile>
-      <LiFile> seznámeni s různými strategiemi práce se žáky</LiFile>
-      <LiFile> matematická argumentace</LiFile>
-      <LiFile> komunikace</LiFile>
-      <LiFile> modelování</LiFile>
-      <LiFile> vymezování problémů a jejich řešení</LiFile>
-      <LiFile> schopnost matematizovat reálné situace</LiFile>
+      <LiFile>Rozvíjení schopnosti řešit problémy. Správné kladení otázek. Analýza informací. Rozbor slovních úloh. Práce s chybou. Matematizování reálných situací. Používání správné terminologie a symboliky. Praktické využití poznatků z matematiky. Budování vztahu k matematice.</LiFile>
+      <LiFile> 	Využití matematického jazyka a symbolů ke konkrétním výstupům podle věkové kategorie, s využitím množinového pojetí rozborů textů a Vennových diagramů. </LiFile>
+      <LiFile> 	Využití základních vlastností tělesa reálných čísel, výroků a logické stavby vět, při vzájemné komunikaci a matematizaci konkrétních situací.</LiFile>
+      <LiFile> 	Využití číselné osy, časové přímky, řády celých čísel(popř. desetinných čísel), typů zápisů čísel, prvočísel, dekadického rozvoje čísel. Trojí pohled na zlomky.</LiFile>
+      <LiFile> 	Video : Fantastický výlet do makrosvěta a mikrosvěta ve světě čísel a přírodních věd.</LiFile>
+      <LiFile> 	Jak řešit matematickou úlohu – čtyři základní fáze. Rozdíl mezi tzv. „trychtýřováním“ a správným kladením otázek učitelem. Postupy pozpátku.</LiFile>
+      <LiFile> 	Geometrie v rovině a v prostoru – představivost, odvozování vztahů, množiny určitých vlastností. </LiFile>
+      <LiFile> 	Využití výroků, složených výroků, jejich pravdivosti i negace (logická stavba vět a komunikace).</LiFile>
+      <LiFile> 	Využití kombinatorických pojmů ve výuce podle věku studentů.</LiFile>
+      <LiFile> 	Metoda Prof. Hejného. Pět zásad výuky.Desatero pro učitele. Desatero pro rodiče. Příklady (popř.názorné video).</LiFile>
+      <LiFile> 	Seznámení s úložišti již hotových materiálů, které je možno rovnou využít ve výuce (bez vlastní tvorby) a různými webovými stránkami s videi, texty i jinými materiály, které je možné vhodně využít nejen k podpoře rozvoje matematické gramotnosti </LiFile>
+      <LiFile> 	Příklady her a prostředí na internetu pro podporu matematické gramotnosti </LiFile>
+      <LiFile> 	Seznámení programy a aplikacemi, které oživí každou prezentaci </LiFile>
+      <LiFile> 	Využití programů a aplikací pro komunikaci mezi žáky, studenty, učiteli a rodiči </LiFile>
+      <LiFile> 	Rozšířená realita jako nástroj motivace i rozvoje nejen matematické gramotnosti </LiFile>
+      <LiFile> 	Programy a aplikace pro jednoduché vytváření zábavných kvízů </LiFile>
     </ul>
-  </BlockEx>*/}
+  </BlockEx>
+
+  <BlockEx header="GeoGebra jako nástroj rozvoje matematické gramotnosti na SŠ">
+    <ul className='fa-ul'>
+      <LiFile>Pracovní prostředí programu GeoGebra (panel nástrojů, algebraické okno, tabulka, nákresny, vstupní panel)</LiFile>
+      <LiFile>GeoGebra jako nástroj pro tvorbu vlastního didaktického materiálů </LiFile>
+      <LiFile>Aplikace programu do výuky geometrie, algebry a matematické analýzy </LiFile>
+      <LiFile>Využití programu jako nástroje rozvoje matematické gramotnosti, propojování geometrických a algebraických interpretací v matematice prostřednictvím programu </LiFile>
+      <LiFile>Základní ovládání prostředí 3D</LiFile>
+    </ul>
+  </BlockEx>
+  <BlockEx>
+    Nabízíme více 24 hodinových akreditovaných kurzů. Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
+  </BlockEx>
+
   <BlockEx header="Výuka ve sborovně:">
     <p>
       <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve vámi zvoleném termínu.</b>

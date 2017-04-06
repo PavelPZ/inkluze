@@ -68,7 +68,7 @@
           O těch se ale budeme zmiňovat méně podrobně.</HomeLi2>*/}
     {/*</ul>
     </BlockEx>*/}
-    <BlockEx header="Přehled akreditovaných kurzů zaměřených na inkluzi, mentoring, čtenářskou a matematickou gramotnost">
+    {/*<BlockEx header="Přehled akreditovaných kurzů zaměřených na inkluzi, mentoring, čtenářskou a matematickou gramotnost">
       <ul className='fa-ul'>
         <LiHand>
           Inkluze: 5 kurzů pro výzvu 02_16_022 / 023 a 3 kurzy pro výzvu 02_16_035 / 042 
@@ -91,7 +91,7 @@
         Bližší informace naleznete ma stránkách {sitemapRouter.doNavigateTag(inkluze.root.kurzy)}
         a {sitemapRouter.doNavigateTag(inkluze.root.kurzyss)}.
       </p>
-    </BlockEx>
+    </BlockEx>*/}
     <BlockEx header="Termíny a místo kurzů">
       <p>
         Naší strategií je vycházet maximálně vstříc potřebám jednotlivých škol.
