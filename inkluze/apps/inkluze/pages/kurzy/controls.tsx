@@ -16,6 +16,13 @@ interface IKurzProps { defaultExpanded: boolean; title: string; }
 var ZSInkluze8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
+  <BlockEx>
+    <div className='alert alert-info' style={{ fontSize: '18px' }}>
+      <p>
+        Novinka: Klima třídy a vedení třídnické hodiny v rámci inkluze
+      </p>
+    </div>
+  </BlockEx>
   <ObsahInkluzeZS />
   <BlockEx>
     Nabízíme řadu 8 hodinových akreditovaných kurzů. Každý kurz obsahuje část z těchto témat.
@@ -36,6 +43,13 @@ var ZSInkluze8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: 
 var ZSInkluze16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
+  <BlockEx>
+    <div className='alert alert-info' style={{ fontSize: '18px' }}>
+      <p>
+        Novinka: Klima třídy a vedení třídnické hodiny v rámci inkluze (od února 2018)
+      </p>
+    </div>
+  </BlockEx>
   <ObsahInkluzeZS />
   <BlockEx>
     Nabízíme řadu 16 hodinových akreditovaných kurzů. Každý kurz obsahuje část z těchto témat.
@@ -534,9 +548,108 @@ var MSMatematicka: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
   <BonusAlert />
 </Panel>;
 
+var SSRozvoj8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+  <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
+</div>} eventKey={1}>
+  <BlockEx>
+    <div className='alert alert-info' style={{ fontSize: '18px' }}>
+      <p>
+        Od února 2018 budou dostupné následující kurzy:<br/>
+        Vybrané aspekty emoční a sociální inteligence pedagoga_8<br />
+        Osobnostně sociální rozvoj učitele v sebepoznání<br />
+        Osobnostně sociální rozvoj učitele v komunikaci<br />
+        Osobnostní a sociální rozvoj učitele ve zvládání konfliktů
+      </p>
+    </div>
+  </BlockEx>
+  <ObsahInkluzeSS />
+  <BlockEx>
+    Nabízíme řadu 8 hodinových akreditovaných kurzů. Každý kurz obsahuje část z těchto témat.
+    Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
+  </BlockEx>
+  <BlockEx>
+    <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
+      Každý účastník tohoto kurzu se musí účastnit ještě další vzdělávací akce v rozsahu minimálně 16 hodin.
+            Viz {popups.bagatelni_podpora}.
+          </div>
+  </BlockEx>
+  <BlockEx header="Potřebné šablony: ">
+    <p>Pro každého učitele je potřeba objednat šablonu {popups.ss_DVPP_8_hodin}&nbsp;varianta <b>e.
+              inkluze</b></p>
+  </BlockEx>
+  <BonusAlert />
+</Panel>
+
+var SSRozvoj16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+  <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
+</div>} eventKey={1}>
+  <BlockEx>
+    <div className='alert alert-info' style={{ fontSize: '18px' }}>
+      <p>
+        Od února 2018 budou dostupné následující kurzy:<br/>
+        Vybrané aspekty emoční a sociální inteligence pedagoga_16<br />
+        Osobnostní a sociální rozvoj učitele
+      </p>
+    </div>
+  </BlockEx>
+  <ObsahInkluzeSS />
+  <BlockEx>
+    Nabízíme řadu 8 hodinových akreditovaných kurzů. Každý kurz obsahuje část z těchto témat.
+    Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
+  </BlockEx>
+  <BlockEx>
+    <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
+      Každý účastník tohoto kurzu se musí účastnit ještě další vzdělávací akce v rozsahu minimálně 16 hodin.
+            Viz {popups.bagatelni_podpora}.
+          </div>
+  </BlockEx>
+  <BlockEx header="Potřebné šablony: ">
+    <p>Pro každého učitele je potřeba objednat šablonu {popups.ss_DVPP_8_hodin}&nbsp;varianta <b>e.
+              inkluze</b></p>
+  </BlockEx>
+  <BonusAlert />
+</Panel>
+
+var SSRozvoj24: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+  <h3><Label bsStyle="warning">24</Label>  <span style={headerCss}>{props.title}</span></h3>
+</div>} eventKey={1}>
+  <BlockEx>
+    <div className='alert alert-info' style={{ fontSize: '18px' }}>
+      <p>
+        Od února 2018 budou dostupné následující kurzy:<br/>
+        Vybrané aspekty emoční a sociální inteligence pedagoga_24<br />
+        Profesní kompetence učitele a jeho osobnostně sociální rozvoj
+      </p>
+    </div>
+  </BlockEx>
+  <ObsahInkluzeSS />
+  <BlockEx>
+    Nabízíme řadu 8 hodinových akreditovaných kurzů. Každý kurz obsahuje část z těchto témat.
+    Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
+  </BlockEx>
+  <BlockEx>
+    <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
+      Každý účastník tohoto kurzu se musí účastnit ještě další vzdělávací akce v rozsahu minimálně 16 hodin.
+            Viz {popups.bagatelni_podpora}.
+          </div>
+  </BlockEx>
+  <BlockEx header="Potřebné šablony: ">
+    <p>Pro každého učitele je potřeba objednat šablonu {popups.ss_DVPP_8_hodin}&nbsp;varianta <b>e.
+              inkluze</b></p>
+  </BlockEx>
+  <BonusAlert />
+</Panel>
+
 var SSInkluze8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
+  <BlockEx>
+    <div className='alert alert-info' style={{ fontSize: '18px' }}>
+      <p>
+        Novinka: Klima třídy a vedení třídnické hodiny v rámci inkluze
+      </p>
+    </div>
+  </BlockEx>
   <ObsahInkluzeSS />
   <BlockEx>
     Nabízíme řadu 8 hodinových akreditovaných kurzů. Každý kurz obsahuje část z těchto témat.
@@ -558,6 +671,13 @@ var SSInkluze8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: 
 var SSInkluze16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
+  <BlockEx>
+    <div className='alert alert-info' style={{ fontSize: '18px' }}>
+      <p>
+        Novinka: Klima třídy a vedení třídnické hodiny v rámci inkluze (od února 2018)
+      </p>
+    </div>
+  </BlockEx>
   <ObsahInkluzeSS />
   <BlockEx>
     Nabízíme řadu 16 hodinových akreditovaných kurzů. Každý kurz obsahuje část z těchto témat.
@@ -1163,11 +1283,17 @@ var KurzySSList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.I
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSInkluze16)}</LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSInkluze24)}</LiFile>
       </ul>
-    </Col>
-    <Col md={4}>
       <h4>SŠ a VOŠ Mentoring</h4>
       <ul className='fa-ul'>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSMentoring80)}</LiFile>
+      </ul>
+    </Col>
+    <Col md={4}>
+      <h4>SŠ a VOŠ Osobnostně sociální rozvoj</h4>
+      <ul className='fa-ul'>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSRozvoj8)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSRozvoj16)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSRozvoj24)}</LiFile>
       </ul>
     </Col>
     <Col md={4}>

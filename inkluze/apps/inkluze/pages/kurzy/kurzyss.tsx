@@ -84,9 +84,12 @@ function getSSLoaders(): Array<Array<ICourseSSLoader>> {
       { id: 'SSInkluze8', create: expanded => <SSInkluze8 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSInkluze8.title} /> },
       { id: 'SSInkluze16', create: expanded => <SSInkluze16 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSInkluze16.title} /> },
       { id: 'SSInkluze24', create: expanded => <SSInkluze24 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSInkluze24.title} /> },
+      { id: 'SSMentoring80', create: expanded => <SSMentoring80 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSMentoring80.title} /> },
     ],
     [
-      { id: 'SSMentoring80', create: expanded => <SSMentoring80 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSMentoring80.title} /> },
+      { id: 'SSRozvoj8', create: expanded => <SSRozvoj8 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSRozvoj8.title} /> },
+      { id: 'SSRozvoj16', create: expanded => <SSRozvoj16 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSRozvoj16.title} /> },
+      { id: 'SSRozvoj24', create: expanded => <SSRozvoj24 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSRozvoj24.title} /> },
     ],
     [
       { id: 'SSCtenarska8', create: expanded => <SSCtenarska8 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSCtenarska8.title} /> },

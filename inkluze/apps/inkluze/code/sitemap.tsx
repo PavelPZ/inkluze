@@ -28,6 +28,9 @@
   }
 
   export interface ISiteKurzySS extends site.INode {
+    SSRozvoj8: site.INode;
+    SSRozvoj16: site.INode;
+    SSRozvoj24: site.INode;
     SSInkluze8: site.INode;
     SSInkluze16: site.INode;
     SSInkluze24: site.INode;
@@ -171,6 +174,21 @@
       kurzyss: {
         id: 'kurzyss',
         createPage: par => React.createElement(KurzySS),
+        SSRozvoj8: {
+          id: 'SSRozvoj8',
+          title: 'Osobnostně sociální rozvoj - 8 hod',
+          createPage: par => React.createElement(KurzySS),
+        },
+        SSRozvoj16: {
+          id: 'SSRozvoj16',
+          title: 'Osobnostně sociální rozvoj - 16 hod',
+          createPage: par => React.createElement(KurzySS),
+        },
+        SSRozvoj24: {
+          id: 'SSRozvoj24',
+          title: 'Osobnostně sociální rozvoj - 24 hod',
+          createPage: par => React.createElement(KurzySS),
+        },
         SSInkluze8: {
           id: 'SSInkluze8',
           title: 'Inkluze - 8 hodinový kurz',
