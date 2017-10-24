@@ -649,7 +649,7 @@ var SSInkluze8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: 
     </p>
   </BlockEx>
   <BlockEx header="Potřebné šablony: ">
-    <p>Pro každého učitele je potřeba objednat šablonu {popups.ss_8_hodin_inkluze}&nbsp;nebo {popups.vos_8_hodin_DVPP}&nbsp;varianta <b>e.
+    <p>Pro každého učitele je potřeba objednat šablonu {popups.ss_8_hodin_inkluze}&nbsp;nebo {popups.ss_8_hodin_DVPP}&nbsp;nebo {popups.vos_8_hodin_DVPP}&nbsp;varianta <b>e.
               inkluze</b></p>
   </BlockEx>
   <BonusAlert />
