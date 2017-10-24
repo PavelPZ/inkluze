@@ -568,7 +568,7 @@ var SSRozvoj8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
     </p>
   </BlockEx>
   <BlockEx header="Potřebné šablony: ">
-    <p>Pro každého učitele je potřeba objednat šablonu {popups.ss_DVPP_8_hodin}&nbsp;varianta <b>i.
+    <p>Pro každého učitele je potřeba objednat šablonu {popups.ss_8_hodin_DVPP}&nbsp;nebo {popups.vos_8_hodin_DVPP}&nbsp;varianta <b>i.
               Osobnostně sociální rozvoj</b></p>
   </BlockEx>
   <BonusAlert />
@@ -592,7 +592,7 @@ var SSRozvoj16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: 
     </p>
   </BlockEx>
   <BlockEx header="Potřebné šablony: ">
-    <p>Pro každého učitele je potřeba objednat šablonu {popups.ss_DVPP_8_hodin}&nbsp;varianta <b>i.
+    <p>Pro každého učitele je potřeba objednat šablonu {popups.ss_16_hodin_DVPP}&nbsp;nebo {popups.vos_16_hodin_DVPP}&nbsp;varianta <b>i.
               Osobnostně sociální rozvoj</b></p>
   </BlockEx>
   <BonusAlert />
@@ -616,7 +616,7 @@ var SSRozvoj24: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: 
     </p>
   </BlockEx>
   <BlockEx header="Potřebné šablony: ">
-    <p>Pro každého učitele je potřeba objednat šablonu {popups.ss_DVPP_8_hodin}&nbsp;varianta <b>i.
+    <p>Pro každého učitele je potřeba objednat šablonu {popups.ss_24_hodin_DVPP}&nbsp;nebo {popups.vos_24_hodin_DVPP}&nbsp;varianta <b>i.
               Osobnostně sociální rozvoj</b></p>
   </BlockEx>
   <BonusAlert />
@@ -649,7 +649,7 @@ var SSInkluze8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: 
     </p>
   </BlockEx>
   <BlockEx header="Potřebné šablony: ">
-    <p>Pro každého učitele je potřeba objednat šablonu {popups.ss_DVPP_8_hodin}&nbsp;varianta <b>e.
+    <p>Pro každého učitele je potřeba objednat šablonu {popups.ss_8_hodin_inkluze}&nbsp;nebo {popups.vos_8_hodin_DVPP}&nbsp;varianta <b>e.
               inkluze</b></p>
   </BlockEx>
   <BonusAlert />
@@ -683,7 +683,7 @@ var SSInkluze16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
   </BlockEx>
   <BlockEx header="Potřebné šablony: ">
     <div>
-      <p>Pro každého učitele je potřeba objednat šablonu {popups.ss_16_hodin_DVPP}&nbsp;varianta <b>e.
+      <p>Pro každého učitele je potřeba objednat šablonu {popups.ss_16_hodin_DVPP}&nbsp;nebo {popups.vos_16_hodin_DVPP}&nbsp;varianta <b>e.
               inkluze</b>
       </p>
     </div>
@@ -714,7 +714,7 @@ var SSInkluze24: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
   </BlockEx>
   <BlockEx header="Potřebné šablony: ">
     <p>
-      Pro každého učitele je potřeba objednat šablonu {popups.ss_24_hodin_inkluze}
+      Pro každého učitele je potřeba objednat šablonu {popups.ss_24_hodin_inkluze}&nbsp;nebo {popups.vos_24_hodin_inkluze}
     </p>
   </BlockEx>
   <BonusAlert />
@@ -762,7 +762,7 @@ var SSMentoring80: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
   </BlockEx>
   <BlockEx header="Potřebné šablony: ">
     <div>
-      <p>Pro každého učitele je potřeba objednat šablonu {popups.ss_80_hodin_DVPP}&nbsp;varianta <b>d.
+      <p>Pro každého učitele je potřeba objednat šablonu {popups.ss_80_hodin_DVPP}&nbsp;nebo {popups.vos_80_hodin_DVPP}&nbsp;varianta <b>d.
               mentoring</b>
       </p>
     </div>
@@ -800,7 +800,7 @@ var SSCtenarska8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
   </BlockEx>
   <BlockEx header="Potřebné šablony: ">
     <div>
-      <p>Pro každého učitele je potřeba objednat šablonu {popups.ss_8_hodin_DVPP}&nbsp;varianta <b>a.
+      <p>Pro každého učitele je potřeba objednat šablonu {popups.ss_8_hodin_DVPP}&nbsp;nebo {popups.vos_8_hodin_DVPP}&nbsp;varianta <b>a.
               čtenářská gramotnost</b>
       </p>
     </div>
@@ -864,7 +864,7 @@ var SSCtenarska16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
   </BlockEx>
   <BlockEx header="Potřebné šablony: ">
     <div>
-      <p>Pro každého učitele je potřeba objednat šablonu {popups.ss_16_hodin_DVPP}&nbsp;varianta <b>a.
+      <p>Pro každého učitele je potřeba objednat šablonu {popups.ss_16_hodin_DVPP}&nbsp;nebo {popups.vos_16_hodin_DVPP}&nbsp;varianta <b>a.
               čtenářská gramotnost</b>
       </p>
     </div>
@@ -945,7 +945,7 @@ var SSCtenarska24: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
   </BlockEx>
   <BlockEx header="Potřebné šablony: ">
     <div>
-      <p>Pro každého učitele je potřeba objednat šablonu {popups.ss_24_hodin_DVPP}&nbsp;varianta <b>a.
+      <p>Pro každého učitele je potřeba objednat šablonu {popups.ss_24_hodin_DVPP}&nbsp;nebo {popups.vos_24_hodin_DVPP}&nbsp;varianta <b>a.
               čtenářská gramotnost</b>
       </p>
     </div>
@@ -997,7 +997,7 @@ var SSMatematicka8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, c
   </BlockEx>
   <BlockEx header="Potřebné šablony: ">
     <div>
-      <p>Pro každého učitele je potřeba objednat šablonu {popups.ss_8_hodin_DVPP}&nbsp;varianta <b>b.
+      <p>Pro každého učitele je potřeba objednat šablonu {popups.ss_8_hodin_DVPP}&nbsp;nebo {popups.vos_8_hodin_DVPP}&nbsp;varianta <b>b.
               matematická gramotnost</b>
       </p>
     </div>
@@ -1039,7 +1039,7 @@ var SSMatematicka16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, 
   </BlockEx>
   <BlockEx header="Potřebné šablony: ">
     <div>
-      <p>Pro každého učitele je potřeba objednat šablonu {popups.ss_16_hodin_DVPP}&nbsp;varianta <b>b.
+      <p>Pro každého učitele je potřeba objednat šablonu {popups.ss_16_hodin_DVPP}&nbsp;nebo {popups.vos_16_hodin_DVPP}&nbsp;varianta <b>b.
               matematická gramotnost</b>
       </p>
     </div>
@@ -1091,7 +1091,7 @@ var SSMatematicka24: React.StatelessComponent<IKurzProps> = (props: IKurzProps, 
   </BlockEx>
   <BlockEx header="Potřebné šablony: ">
     <div>
-      <p>Pro každého učitele je potřeba objednat šablonu {popups.ss_24_hodin_DVPP}&nbsp;varianta <b>b.
+      <p>Pro každého učitele je potřeba objednat šablonu {popups.ss_24_hodin_DVPP}&nbsp;nebo {popups.vos_24_hodin_DVPP}&nbsp;varianta <b>b.
               matematická gramotnost</b>
       </p>
     </div>

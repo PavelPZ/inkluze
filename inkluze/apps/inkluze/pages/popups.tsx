@@ -899,38 +899,6 @@
      </div>
    </Popup>,*/
 
-  ss_DVPP_8_hodin: <Popup document='priloha3SS' page={39} header='III/2.1 Vzdělávání pedagogických pracovníků SŠ – DVPP v rozsahu 8 hodin'>
-    <div>
-      <p>
-        Cílem  aktivity  je  podpořit  profesní  růst  pedagogických pracovníků  pomocí  vzdělávání  a průběžného sebevzdělávání.
-      </p>
-      <p>
-        Pedagogičtí pracovníci středních škol budou podporováni ve svém profesním a odborném růstu účastí na odborných seminářích,  workshopech  a  dalších  vzdělávacích  akcích zaměřených na rozvoj dovedností, znalostí a kompetencí a na využívání efektivních vyučovacích metod.
-        Vzdělávání bude probíhat formou absolvování vzdělávacího programu DVPP akreditovaného v systému DVPP.
-      </p>
-      <p>
-        Pedagogičtí pracovníci budou podpořeni v jedné z výše  uvedených variant této aktivity.
-        <ol type="a">
-          <li>
-            Čtenářská gramotnost;
-          </li>
-          <li>
-            Matematická gramotnost;
-          </li>
-          <li>
-            Cizí jazyky;
-          </li>
-          <li>
-            Mentoring;
-          </li>
-          <li>
-            Inkluze;
-          </li>
-        </ol>
-      </p>
-    </div>
-  </Popup>,
-
   ss_8_hodin_inkluze: <Popup document='priloha3SS' page={68} header='III/2.12 Vzdělávání pedagogického sboru SŠ zaměřené na inkluzi – vzdělávací akce v rozsahu 8 hodin'>
     <div>
       <p>
@@ -968,6 +936,22 @@ hodin z více kratších programů/akcí).
     </div>
   </Popup>,
 
+  vos_8_hodin_DVPP: <Popup document='priloha3SS' page={94} header='IV/2.1 Vzdělávání pedagogických pracovníků VOŠ – DVPP v rozsahu 8 hodin'>
+    <div>
+      <p>
+        Cílem  je  podpořit  vzdělávání  a  rozvoj  pedagogických
+pracovníků  formou  ucelených
+vzdělávacích  programů.
+Podmínkou  je,  že  se  musí  jednat  o  jeden  vzdělávací
+program DVPP o rozsahu minimálně
+8
+hodin (není možné
+tedy dosáhnout požadovaného počtu hodin „skládáním“
+hodin z více kratších programů/akcí).
+      </p>
+    </div>
+  </Popup>,
+
   ss_16_hodin_DVPP: <Popup document='priloha3SS' page={42} header='III/2.2 Vzdělávání pedagogických pracovníků SŠ – DVPP v rozsahu 16 hodin'>
     <div>
       <p>
@@ -983,6 +967,23 @@ hodin z více kratších programů/akcí).
       </p>
     </div>
   </Popup>,
+
+  vos_16_hodin_DVPP: <Popup document='priloha3SS' page={96} header='IV/2.2 Vzdělávání pedagogických pracovníků VOŠ – DVPP v rozsahu 16 hodin'>
+    <div>
+      <p>
+        Cílem  je  podpořit  vzdělávání  a  rozvoj  pedagogických
+pracovníků  formou  ucelených
+vzdělávacích  programů.
+Podmínkou  je,  že  se  musí  jednat  o  jeden  vzdělávací
+program DVPP o rozsahu minimálně
+16
+hodin (není možné
+tedy dosáhnout požadovaného počtu hodin „skládáním“
+hodin z více kratších programů/akcí).
+      </p>
+    </div>
+  </Popup>,
+
 
   ss_24_hodin_DVPP: <Popup document='priloha3SS' page={44} header='III/2.3 Vzdělávání pedagogických pracovníků SŠ – DVPP v rozsahu 24 hodin'>
     <div>
@@ -1001,6 +1002,28 @@ doporučované  vzdělávací  programy  s
 možností  účasti 
 alespoň po dvou dnech po sobě pro dosažení požadované 
 intenzity kurzu, prostoru pro časově náročnější varianty 
+aktivit a navázání spolupráce a kontaktů mezi účastníky.
+      </p>
+    </div>
+  </Popup>,
+
+  vos_24_hodin_DVPP: <Popup document='priloha3SS' page={98} header='IV/2.3 Vzdělávání pedagogických pracovníků VOŠ – DVPP v rozsahu 24 hodin'>
+    <div>
+      <p>
+        Cílem  je  podpořit  dlouhodobé  vzdělávání  a  rozvoj
+pedagogických pra
+covníků formou ucelených vzdělávacích
+programů. Podmínkou tedy je, že se musí jednat o jeden
+vzdělávací program DVPP o rozsahu minimálně
+24
+hodin
+(není  možné
+dosáhnout  požadovaného  počtu  hodin
+„skládáním“  hodin  z  více  kratších  programů).  Jsou
+doporučované  vzdělávací  programy  s
+možností  účasti
+alespoň po dvou dnech po sobě pro dosažení požadované
+intenzity kurzu, prostoru pro časově náročnější varianty
 aktivit a navázání spolupráce a kontaktů mezi účastníky.
       </p>
     </div>
@@ -1025,6 +1048,26 @@ metod.
     </div>
   </Popup>,
 
+
+  vos_24_hodin_inkluze: <Popup document='priloha3SS' page={100} header='IV /2.4 Vzdělávání pedagogických pracovníků VOŠ zaměřené na inkluzi – DVPP v rozsahu 24 hodin'>
+    <div>
+      <p>
+        Cílem  aktivity  je  podpořit  profesní  růst  pedagogických pracovníků   pomocí
+dlouhodobého   vzdělávání
+a
+průběžného sebevzdělávání.
+Pedagogičtí pracovníci středních škol budou podporováni
+ve svém profesním a odborném růstu účastí na odborných
+seminářích,  workshopech  a  dalších  vzdělávacích  akcích
+zaměřených na rozvoj dovedností, znalo
+stí a kompetencí
+v
+oblasti inkluze a na využívání efektivních vyučovacích
+metod.
+      </p>
+    </div>
+  </Popup>,
+
   ss_80_hodin_DVPP: <Popup document='priloha3SS' page={48} header='III/2.5 Vzdělávání pedagogických pracovníků SŠ – DVPP v rozsahu 80 hodin'>
     <div>
       <p>
@@ -1039,6 +1082,26 @@ doporučované  vzdělávací  programy  s
 možností  účasti 
 alespoň po dvou dnech po sobě pro dosažení požadované 
 intenzity kurzu, prostoru pro časově náročnější varianty 
+aktivit a navázání spolu
+práce a kontaktů mezi účastníky.
+      </p>
+    </div>
+  </Popup>,
+
+  vos_80_hodin_DVPP: <Popup document='priloha3SS' page={102} header='IV/2.5 Vzdělávání pedagogických pracovníků VOŠ – DVPP v rozsahu 80 hodin'>
+    <div>
+      <p>
+        Cílem  je  podpořit  dlouhodobé  vzdělávání  a  rozvoj
+pedagogických pracovníků formou ucelených vzdělávacích
+programů. Podmínkou tedy je, že se musí jednat o jeden
+vzdělávací program DVPP o rozsahu minimálně 80
+hodin
+(není  možné  dosáhnout  požadovaného  počtu  hodin
+„skládáním“  hodin  z  více  kratších  programů).  Jsou
+doporučované  vzdělávací  programy  s
+možností  účasti
+alespoň po dvou dnech po sobě pro dosažení požadované
+intenzity kurzu, prostoru pro časově náročnější varianty
 aktivit a navázání spolu
 práce a kontaktů mezi účastníky.
       </p>
