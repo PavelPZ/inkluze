@@ -555,27 +555,21 @@ var SSRozvoj8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
     <div className='alert alert-info' style={{ fontSize: '18px' }}>
       <p>
         Od února 2018 budou dostupné následující kurzy:<br/>
-        Vybrané aspekty emoční a sociální inteligence pedagoga_8<br />
+        Vybrané aspekty emoční a sociální inteligence pedagoga<br />
         Osobnostně sociální rozvoj učitele v sebepoznání<br />
         Osobnostně sociální rozvoj učitele v komunikaci<br />
         Osobnostní a sociální rozvoj učitele ve zvládání konfliktů
       </p>
     </div>
   </BlockEx>
-  <ObsahInkluzeSS />
-  <BlockEx>
-    Nabízíme řadu 8 hodinových akreditovaných kurzů. Každý kurz obsahuje část z těchto témat.
-    Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
-  </BlockEx>
-  <BlockEx>
-    <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
-      Každý účastník tohoto kurzu se musí účastnit ještě další vzdělávací akce v rozsahu minimálně 16 hodin.
-            Viz {popups.bagatelni_podpora}.
-          </div>
+  <BlockEx header="Výuka ve sborovně:">
+    <p>
+      <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve vámi zvoleném termínu.</b>
+    </p>
   </BlockEx>
   <BlockEx header="Potřebné šablony: ">
-    <p>Pro každého učitele je potřeba objednat šablonu {popups.ss_DVPP_8_hodin}&nbsp;varianta <b>e.
-              inkluze</b></p>
+    <p>Pro každého učitele je potřeba objednat šablonu {popups.ss_DVPP_8_hodin}&nbsp;varianta <b>i.
+              Osobnostně sociální rozvoj</b></p>
   </BlockEx>
   <BonusAlert />
 </Panel>
@@ -587,25 +581,19 @@ var SSRozvoj16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: 
     <div className='alert alert-info' style={{ fontSize: '18px' }}>
       <p>
         Od února 2018 budou dostupné následující kurzy:<br/>
-        Vybrané aspekty emoční a sociální inteligence pedagoga_16<br />
+        Vybrané aspekty emoční a sociální inteligence pedagoga<br />
         Osobnostní a sociální rozvoj učitele
       </p>
     </div>
   </BlockEx>
-  <ObsahInkluzeSS />
-  <BlockEx>
-    Nabízíme řadu 8 hodinových akreditovaných kurzů. Každý kurz obsahuje část z těchto témat.
-    Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
-  </BlockEx>
-  <BlockEx>
-    <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
-      Každý účastník tohoto kurzu se musí účastnit ještě další vzdělávací akce v rozsahu minimálně 16 hodin.
-            Viz {popups.bagatelni_podpora}.
-          </div>
+  <BlockEx header="Výuka ve sborovně:">
+    <p>
+      <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve vámi zvoleném termínu.</b>
+    </p>
   </BlockEx>
   <BlockEx header="Potřebné šablony: ">
-    <p>Pro každého učitele je potřeba objednat šablonu {popups.ss_DVPP_8_hodin}&nbsp;varianta <b>e.
-              inkluze</b></p>
+    <p>Pro každého učitele je potřeba objednat šablonu {popups.ss_DVPP_8_hodin}&nbsp;varianta <b>i.
+              Osobnostně sociální rozvoj</b></p>
   </BlockEx>
   <BonusAlert />
 </Panel>
@@ -617,25 +605,19 @@ var SSRozvoj24: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: 
     <div className='alert alert-info' style={{ fontSize: '18px' }}>
       <p>
         Od února 2018 budou dostupné následující kurzy:<br/>
-        Vybrané aspekty emoční a sociální inteligence pedagoga_24<br />
+        Vybrané aspekty emoční a sociální inteligence pedagoga<br />
         Profesní kompetence učitele a jeho osobnostně sociální rozvoj
       </p>
     </div>
   </BlockEx>
-  <ObsahInkluzeSS />
-  <BlockEx>
-    Nabízíme řadu 8 hodinových akreditovaných kurzů. Každý kurz obsahuje část z těchto témat.
-    Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
-  </BlockEx>
-  <BlockEx>
-    <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
-      Každý účastník tohoto kurzu se musí účastnit ještě další vzdělávací akce v rozsahu minimálně 16 hodin.
-            Viz {popups.bagatelni_podpora}.
-          </div>
+  <BlockEx header="Výuka ve sborovně:">
+    <p>
+      <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve vámi zvoleném termínu.</b>
+    </p>
   </BlockEx>
   <BlockEx header="Potřebné šablony: ">
-    <p>Pro každého učitele je potřeba objednat šablonu {popups.ss_DVPP_8_hodin}&nbsp;varianta <b>e.
-              inkluze</b></p>
+    <p>Pro každého učitele je potřeba objednat šablonu {popups.ss_DVPP_8_hodin}&nbsp;varianta <b>i.
+              Osobnostně sociální rozvoj</b></p>
   </BlockEx>
   <BonusAlert />
 </Panel>
@@ -658,8 +640,13 @@ var SSInkluze8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: 
   <BlockEx>
     <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
       Každý účastník tohoto kurzu se musí účastnit ještě další vzdělávací akce v rozsahu minimálně 16 hodin.
-            Viz {popups.bagatelni_podpora}.
+            Viz {popups.bagatelni_podpora_ss}.
           </div>
+  </BlockEx>
+  <BlockEx header="Výuka ve sborovně:">
+    <p>
+      <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve vámi zvoleném termínu.</b>
+    </p>
   </BlockEx>
   <BlockEx header="Potřebné šablony: ">
     <p>Pro každého učitele je potřeba objednat šablonu {popups.ss_DVPP_8_hodin}&nbsp;varianta <b>e.
@@ -686,7 +673,7 @@ var SSInkluze16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
   <BlockEx>
     <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
       Každý účastník tohoto kurzu se musí účastnit ještě další vzdělávací akce v rozsahu minimálně 8 hodin.
-      Viz {popups.bagatelni_podpora}.
+      Viz {popups.bagatelni_podpora_ss}.
     </div>
   </BlockEx>
   <BlockEx header="Výuka ve sborovně:">
@@ -1341,7 +1328,7 @@ var ObsahInkluzeMS: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRoute
   </Row>
 </BlockEx>;
 
-var ObsahInkluzeZS: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <BlockEx header="Ukázky z témat:">
+var ObsahInkluzeZS: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <BlockEx header="Ukázky z dalších témat:">
   <Row>
     <Col md={6}>
       <ul className='fa-ul'>
@@ -1372,7 +1359,7 @@ var ObsahInkluzeZS: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRoute
   </Row>
 </BlockEx>;
 
-var ObsahInkluzeSS: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <BlockEx header="Ukázky z témat:">
+var ObsahInkluzeSS: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <BlockEx header="Ukázky z dalších témat:">
   <Row>
     <Col md={6}>
       <ul className='fa-ul'>
