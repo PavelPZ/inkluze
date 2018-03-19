@@ -90,6 +90,7 @@ function getSSLoaders(): Array<Array<ICourseSSLoader>> {
       { id: 'SSRozvoj8', create: expanded => <SSRozvoj8 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSRozvoj8.title} /> },
       { id: 'SSRozvoj16', create: expanded => <SSRozvoj16 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSRozvoj16.title} /> },
       { id: 'SSRozvoj24', create: expanded => <SSRozvoj24 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSRozvoj24.title} /> },
+      { id: 'SSICT8', create: expanded => <SSICT8 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSICT8.title} /> },
     ],
     [
       { id: 'SSCtenarska8', create: expanded => <SSCtenarska8 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSCtenarska8.title} /> },

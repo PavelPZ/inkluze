@@ -22,13 +22,16 @@
         Při vytváření jednotlivých titulů jsme úzce spolupracovali s řadou pedagogů z několika základních i středních škol. 
       </p>
       <p>
-        V minulém roce jsme se úspěšně zúčastnili výzvy 57.
+        V roce 2015 jsme se úspěšně zúčastnili výzvy 57.
         Naše jazykové kurzy pro výuku angličtiny, němčiny a francouzštiny si vybralo přes 230 škol a proškolili jsme zhruba 15.000 žáků a 800 učitelů.
         Řada škol tyto kurzy používá i po skončení projektu a některé ji zařadily jako stálý doplněk běžné výuky jazyků.
       </p>
       <p>
-        V současnosti spolupracujeme s nejzkušenějšími českými lektory – implementátory, zabývající se DVPP v oblasti Společného vzdělávání.
-        Cílem spolupráce je poskytnout učitelům českých škol kvalitní vzdělání v této oblasti. 
+        V současnosti spolupracujeme s nejzkušenějšími českými lektory z oblasti DVPP.
+        Spolu s nimi jsme úspěšně akreditovali již 95 kurzů a dalších 15 máme podaných k akreditaci. 
+        Náměty na zaměření i konkrétní obsah kurzů čerpáme z každodenního styku s pedagogickými pracovníky.
+        Díky tomu se nám daří vyvářet kurzy, které odpovídají jejich skutečným problémům a potřebám.
+        Rádi budeme tímto způsobem spolupracovat i s Vámi.
       </p>
     </BlockEx>
     <BlockEx header='Obraťte se na nás'>

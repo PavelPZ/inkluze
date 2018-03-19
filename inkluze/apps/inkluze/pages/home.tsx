@@ -2,40 +2,24 @@
   <Page>
     <div>
       <Block blue style={{ paddingBottom: '10px' }}>
-        <h1 className='text-center'><a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.kurzy, ev)} >Kurzy podle šablon z Výzev 02_16_022/ 023 a 02_16_035/ 042</a><br />od <a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.lektori, ev)}>zkušených lektorů</a></h1>
+        <h1 className='text-center'><a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.kurzy, ev)} >Akreditované kurzy podle šablon I a II</a><br />od <a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.lektori, ev)}>zkušených lektorů</a></h1>
+        <h3 className='text-center'>výzvy 02_16_022/ 023, 02_16_035/ 042 a 02_18_063/ 064</h3>
         <div className="text-center">Napište nám na <a href={'mailto:' + infoEmail}>{infoEmail}</a> nebo zavolejte +420 244 460 807</div>
         <Grid style={{ marginTop: '15px' }}>
           <Row>
             <Col md={1}>
               <i className="fa fa-exclamation text-info" style={{ fontSize: '100px' }}></i>
             </Col>
-            <Col md={4}>
-              <h4>Příklad obsahu kurzu - Inkluze: </h4>
+            <Col md={10}>
+              <h4>Nabízíme kurzy následujícího zaměření:</h4>
               <ul className='fa-ul'>
-                <LiFile>Základní právní předpisy legislativní změny</LiFile>
-                <LiFile>Žák se speciálními vzdělávacími potřebami </LiFile>
-                <LiFile>Struktura podpůrných opatření a jejich členění do pěti stupňů</LiFile>
-                <LiFile>Podpůrná opatření prvního stupně </LiFile>
-                <LiFile>Podpůrná opatření 2. - 5. stupně </LiFile>
-                <LiFile>Struktura a obsah Plánu pedagogické podpory</LiFile>
-                <LiFile>Zpracování ukázkového Plánu pedagogické podpory</LiFile>
-              </ul>
-            </Col>
-            <Col md={1} style={{ paddingTop: '110px' }}>
-              <i className="fa fa-ellipsis-v text-info" style={{ fontSize: '60px' }}></i>
-            </Col>
-            <Col md={5}>
-              <h4>&nbsp; </h4>
-              <ul className='fa-ul'>
-                <LiFile>Výukové metody a jejich role při motivaci k učení</LiFile>
-                <LiFile>Individuální vzdělávací plán a pedagogická diagnostika</LiFile>
-                <LiFile>Hodnocení žáků ve společném vzdělávání</LiFile>
-                <LiFile>Spolupráce pedagoga s asistentem pedagoga</LiFile>
-                <LiFile>Komunikace s rodiči </LiFile>
-                <LiFile>Spolupráce s poradenskými zařízeními </LiFile>
-                <LiFile>Plán pedagogické podpory a Individuální vzdělávací plán</LiFile>
-                <LiFile>Efektivní hodnocení žáků a specifičnost hodnocení žáků se SVP</LiFile>
-                <LiFile>Pedagogická diagnostika žáka na základní škole</LiFile>
+                <LiFile>Inkluze (46 akreditovaných kurzů, dalších 7 kurzů v procesu akreditace)</LiFile>
+                <LiFile>Čtenářská gramotnost (24 akreditovaných kurzů, další 4 kurzy v procesu akreditace)</LiFile>
+                <LiFile>Matematická gramotnost (15 akreditovaných kurzů, další 3 kurzy v procesu akreditace)</LiFile>
+                <LiFile>Mentoring (3 akreditované kurzy)</LiFile>
+                <LiFile>Osobnostně sociální rozvoj (8 akreditovaných kurzů, další 2 kurzy v procesu akreditace)</LiFile>
+                <LiFile>ICT (1 kurz v procesu akreditace)</LiFile>
+                <LiFile>Podrobnější přehledy a obsah jednotlivých kurzů naleznete na stránkách <a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.kurzy, ev)}>Šablony I – ZŠ a MŠ</a>, <a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.kurzyss, ev)}>Šablony I – SŠ a VOŠ</a> a <a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.kurzyII, ev)}>Šablony II – ZŠ, MŠ, ZUŠ, ŠD, …</a></LiFile>
               </ul>
             </Col>
             <Col md={1}>

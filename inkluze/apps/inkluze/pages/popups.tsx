@@ -334,14 +334,14 @@
     </div>
   </Popup>,*/
 
-  /*ms_osobnostni_rozvoj_16_hodin: <Popup document='priloha3' page= {37} header='I/2.2 Osobnostně sociální rozvoj předškolních pedagogů MŠ v rozsahu 16 hodin'>
+  ms_osobnostni_rozvoj_16_hodin: <Popup document='priloha3' page= {37} header='I/2.2 Osobnostně sociální rozvoj předškolních pedagogů MŠ v rozsahu 16 hodin'>
     <div>
       <p>
         Pedagog absolvuje v rámci šablony akreditovaný vzdělávací program DVPP v celkovém minimálním časovém rozsahu 16 hodin.
         Program DVPP bude zaměřen na rozvoj sebepoznání, osobních kvalit, prohloubení zejména komunikativních a kooperativních dovedností, kompetencí pro vzdělávání bez předsudků a rozvoj profesionální sebereflexe pedagogů.
       </p>
     </div>
-  </Popup>,*/
+  </Popup>,
 
   ms_DVPP_16_hodin: <Popup document='priloha3' page={39} header='I/2.3 Vzdělávání pedagogických pracovníků MŠ – DVPP v rozsahu 16 hodin'>
     <div>

@@ -6,6 +6,7 @@
     lektori: site.INode;
     kurzy: ISiteKurzy;
     kurzyss: ISiteKurzySS;
+    kurzyII: ISiteKurzyII;
     onas: site.INode;
     //slovnicek: site.INode;
   }
@@ -25,9 +26,27 @@
     MSInkluze16: site.INode;
     MSCtenarska: site.INode;
     MSMatematicka: site.INode;
+    MSRozvoj16: site.INode;
   }
 
   export interface ISiteKurzySS extends site.INode {
+    SSRozvoj8: site.INode;
+    SSRozvoj16: site.INode;
+    SSRozvoj24: site.INode;
+    SSICT8: site.INode;
+    SSInkluze8: site.INode;
+    SSInkluze16: site.INode;
+    SSInkluze24: site.INode;
+    SSMentoring80: site.INode;
+    SSCtenarska8: site.INode;
+    SSCtenarska16: site.INode;
+    SSCtenarska24: site.INode;
+    SSMatematicka8: site.INode;
+    SSMatematicka16: site.INode;
+    SSMatematicka24: site.INode;
+  }
+
+  export interface ISiteKurzyII extends site.INode {
     SSRozvoj8: site.INode;
     SSRozvoj16: site.INode;
     SSRozvoj24: site.INode;
@@ -59,6 +78,7 @@
     dalsi: site.ITab;
     kurzy: site.ITab;
     kurzyss: site.ITab;
+    kurzyII: site.ITab;
     lektori: site.ITab;
     onas: site.ITab;
     //slovnicek: site.ITab;
@@ -69,7 +89,7 @@
   export function bootApp() {
     site.root = root = {
       id: 'home',
-      title: 'Akreditované kurzy podle šablon z Výzev 02_16_022/ 023 a 02_16_035/ 042',
+      title: 'Akreditované kurzy podle šablon z Výzev 02_16_022/ 023, 02_16_035/ 042 a 02_18_063/ 064',
       brTitle: 'DVPP',
       largeLogo: true,
       createPage: routePar => <Home />, //sitemapRouter.createElement<IHomePar>(Home, routePar, { subTitle: 'SubTitle Default' }),
@@ -170,9 +190,88 @@
           title: 'Matematická pregramotnost - 16 hodinový kurz',
           createPage: par => React.createElement(Kurzy),
         },
+        MSRozvoj16: {
+          id: 'MSRozvoj16',
+          title: 'Osobnostně sociální rozvoj - 16 hodinový kurz',
+          createPage: par => React.createElement(Kurzy),
+        },
       },
       kurzyss: {
         id: 'kurzyss',
+        createPage: par => React.createElement(KurzySS),
+        SSRozvoj8: {
+          id: 'SSRozvoj8',
+          title: 'Osobnostně sociální rozvoj - 8 hod',
+          createPage: par => React.createElement(KurzySS),
+        },
+        SSRozvoj16: {
+          id: 'SSRozvoj16',
+          title: 'Osobnostně sociální rozvoj - 16 hod',
+          createPage: par => React.createElement(KurzySS),
+        },
+        SSRozvoj24: {
+          id: 'SSRozvoj24',
+          title: 'Osobnostně sociální rozvoj - 24 hod',
+          createPage: par => React.createElement(KurzySS),
+        },
+        SSICT8: {
+          id: 'SSICT8',
+          title: 'Využití ICT ve výuce - 8 hod',
+          createPage: par => React.createElement(KurzySS),
+        },
+        SSInkluze8: {
+          id: 'SSInkluze8',
+          title: 'Inkluze - 8 hodinový kurz',
+          createPage: par => React.createElement(KurzySS),
+        },
+        SSInkluze16: {
+          id: 'SSInkluze16',
+          title: 'Inkluze - 16 hodinový kurz',
+          createPage: par => React.createElement(KurzySS),
+        },
+        SSInkluze24: {
+          id: 'SSInkluze24',
+          title: 'Inkluze - 24 hodinový kurz',
+          createPage: par => React.createElement(KurzySS),
+        },
+        SSMentoring80: {
+          id: 'SSMentoring80',
+          title: 'Mentoring - 80 hodinový kurz pro SŠ',
+          createPage: par => React.createElement(KurzySS),
+        },
+        SSCtenarska8: {
+          id: 'SSCtenarska8',
+          title: 'Čtenářská gramotnost - 8 hodinový kurz',
+          createPage: par => React.createElement(KurzySS),
+        },
+        SSCtenarska16: {
+          id: 'SSCtenarska16',
+          title: 'Čtenářská gramotnost - 16 hodinový kurz',
+          createPage: par => React.createElement(KurzySS),
+        },
+        SSCtenarska24: {
+          id: 'SSCtenarska24',
+          title: 'Čtenářská gramotnost - 24 hodinový kurz',
+          createPage: par => React.createElement(KurzySS),
+        },
+        SSMatematicka8: {
+          id: 'SSMatematicka8',
+          title: 'Matematická gramotnost - 8 hodinový kurz',
+          createPage: par => React.createElement(KurzySS),
+        },
+        SSMatematicka16: {
+          id: 'SSMatematicka16',
+          title: 'Matematická gramotnost - 16 hodinový kurz',
+          createPage: par => React.createElement(KurzySS),
+        },
+        SSMatematicka24: {
+          id: 'SSMatematicka24',
+          title: 'Matematická gramotnost - 24 hodinový kurz',
+          createPage: par => React.createElement(KurzySS),
+        },
+      },
+      kurzyII: {
+        id: 'kurzyII',
         createPage: par => React.createElement(KurzySS),
         SSRozvoj8: {
           id: 'SSRozvoj8',
@@ -255,19 +354,23 @@
         rootNode: root,
       },
       kurzy: {
-        title: 'Kurzy podle šablon - ZŠ a MŠ',
+        title: 'Šablony I – ZŠ a MŠ',
         rootNode: root.kurzy,
       },
       kurzyss: {
-        title: 'Kurzy podle šablon - SŠ a VOŠ',
+        title: 'Šablony I – SŠ a VOŠ',
         rootNode: root.kurzyss,
+      },
+      kurzyII: {
+        title: 'Šablony II – ZŠ, MŠ, ZUŠ, ŠD, …',
+        rootNode: root.kurzyII,
       },
       lektori: {
         title: 'Naši lektoři',
         rootNode: root.lektori,
       },
       pravidla: {
-        title: 'Pravidla Výzvy',
+        title: 'Pravidla',
         rootNode: root.pravidla,
       },
       q_and_a: {
@@ -275,7 +378,7 @@
         rootNode: root.q_and_a,
       },
       dalsi: {
-        title: 'Další služby',
+        title: 'Služby',
         rootNode: root.dalsi,
       },
       onas: {

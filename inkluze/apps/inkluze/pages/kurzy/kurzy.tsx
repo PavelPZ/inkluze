@@ -98,6 +98,7 @@ function getLoaders(): Array<Array<ICourseLoader>> {
       { id: 'MSInkluze16', create: expanded => <MSInkluze16 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzy.MSInkluze16.title} /> },
       { id: 'MSCtenarska', create: expanded => <MSCtenarska defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzy.MSCtenarska.title} /> },
       { id: 'MSMatematicka', create: expanded => <MSMatematicka defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzy.MSMatematicka.title} /> },
+      { id: 'MSRozvoj16', create: expanded => <MSRozvoj16 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzy.MSRozvoj16.title} /> },
     ]
   ];
   res.forEach(l => l.forEach(ll => ll.id = ll.id.toLowerCase()));

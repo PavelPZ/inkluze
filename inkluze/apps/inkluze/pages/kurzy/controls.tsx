@@ -19,7 +19,12 @@ var ZSInkluze8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: 
   <BlockEx>
     <div className='alert alert-info' style={{ fontSize: '18px' }}>
       <p>
-        Novinka: Klima třídy a vedení třídnické hodiny v rámci inkluze
+        Novinky:
+        <ul>
+          <li>Klima třídy a vedení třídnické hodiny v rámci inkluze</li>
+          <li>Práce s problémovým žákem v rámci inkluze (od června 2018)</li>
+          <li>Práce s pedagogickým sborem-jak předejít syndromu vyhoření (od června 2018)</li>
+        </ul>
       </p>
     </div>
   </BlockEx>
@@ -46,7 +51,8 @@ var ZSInkluze16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
   <BlockEx>
     <div className='alert alert-info' style={{ fontSize: '18px' }}>
       <p>
-        Novinka: Klima třídy a vedení třídnické hodiny v rámci inkluze (od února 2018)
+        Novinka:
+        Klima třídy a vedení třídnické hodiny v rámci inkluze
       </p>
     </div>
   </BlockEx>
@@ -482,6 +488,31 @@ var MSInkluze16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
   <BonusAlert />
 </Panel>;
 
+var MSRozvoj16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+  <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
+</div>} eventKey={1}>
+  <BlockEx>
+    <div className='alert alert-info' style={{ fontSize: '18px' }}>
+      <p>
+        Nabízíme následující kurzy:<br />
+        Vybrané aspekty emoční a sociální inteligence pedagoga<br />
+        Osobnostní a sociální rozvoj učitele
+      </p>
+    </div>
+  </BlockEx>
+  <BlockEx header="Výuka ve sborovně:">
+    <p>
+      <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve vámi zvoleném termínu.</b>
+    </p>
+  </BlockEx>
+  <BlockEx header="Potřebné šablony: ">
+    <p>Pro každého učitele je potřeba objednat šablonu {popups.ms_osobnostni_rozvoj_16_hodin}&nbsp;varianta <b>i.
+              Osobnostně sociální rozvoj</b></p>
+  </BlockEx>
+  <BonusAlert />
+</Panel>
+
+
 var MSCtenarska: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
@@ -554,7 +585,7 @@ var SSRozvoj8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
   <BlockEx>
     <div className='alert alert-info' style={{ fontSize: '18px' }}>
       <p>
-        Od února 2018 budou dostupné následující kurzy:<br/>
+        Nabízíme následující kurzy:<br />
         Vybrané aspekty emoční a sociální inteligence pedagoga<br />
         Osobnostně sociální rozvoj učitele v sebepoznání<br />
         Osobnostně sociální rozvoj učitele v komunikaci<br />
@@ -580,7 +611,7 @@ var SSRozvoj16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: 
   <BlockEx>
     <div className='alert alert-info' style={{ fontSize: '18px' }}>
       <p>
-        Od února 2018 budou dostupné následující kurzy:<br/>
+        Nabízíme následující kurzy:<br />
         Vybrané aspekty emoční a sociální inteligence pedagoga<br />
         Osobnostní a sociální rozvoj učitele
       </p>
@@ -604,7 +635,7 @@ var SSRozvoj24: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: 
   <BlockEx>
     <div className='alert alert-info' style={{ fontSize: '18px' }}>
       <p>
-        Od února 2018 budou dostupné následující kurzy:<br/>
+        Nabízíme následující kurzy:<br />
         Vybrané aspekty emoční a sociální inteligence pedagoga<br />
         Profesní kompetence učitele a jeho osobnostně sociální rozvoj
       </p>
@@ -622,13 +653,43 @@ var SSRozvoj24: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: 
   <BonusAlert />
 </Panel>
 
+var SSICT8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+  <h3><Label bsStyle="warning">24</Label>  <span style={headerCss}>{props.title}</span></h3>
+</div>} eventKey={1}>
+  <BlockEx>
+    <div className='alert alert-info' style={{ fontSize: '18px' }}>
+      <p>
+        Od června 2018 bude dostupný následující kurz:
+        Využití ICT ve výuce – praktická inspirace:
+      </p>
+    </div>
+  </BlockEx>
+  <BlockEx header="Výuka ve sborovně:">
+    <p>
+      <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve vámi zvoleném termínu.</b>
+    </p>
+  </BlockEx>
+  <BlockEx header="Potřebné šablony: ">
+    <p>Pro každého učitele je potřeba objednat šablonu {popups.ss_16_hodin_DVPP}&nbsp;nebo {popups.vos_16_hodin_DVPP}&nbsp;varianta <b>k.
+              ICT</b></p>
+  </BlockEx>
+  <BonusAlert />
+</Panel>
+
+
 var SSInkluze8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
   <BlockEx>
     <div className='alert alert-info' style={{ fontSize: '18px' }}>
       <p>
-        Novinka: Klima třídy a vedení třídnické hodiny v rámci inkluze
+        Novinky:
+        <ul>
+          <li>Klima třídy a vedení třídnické hodiny v rámci inkluze</li>
+          <li>Práce s problémovým žákem SŠ v rámci inkluze (od června 2018)</li>
+          <li>Práce s pedagogickým sborem-jak předejít syndromu vyhoření (od června 2018)</li>
+          <li>Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje na SŠ (od června 2018)</li>
+        </ul>
       </p>
     </div>
   </BlockEx>
@@ -661,7 +722,7 @@ var SSInkluze16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
   <BlockEx>
     <div className='alert alert-info' style={{ fontSize: '18px' }}>
       <p>
-        Novinka: Klima třídy a vedení třídnické hodiny v rámci inkluze (od února 2018)
+        Novinka: Klima třídy a vedení třídnické hodiny v rámci inkluze
       </p>
     </div>
   </BlockEx>
@@ -1255,6 +1316,7 @@ var KurzyList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.ICo
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.MSInkluze16)}</LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.MSCtenarska)}</LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.MSMatematicka)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.MSRozvoj16)}</LiFile>
       </ul>
     </Col>
   </Row>
@@ -1282,6 +1344,10 @@ var KurzySSList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.I
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSRozvoj16)}</LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSRozvoj24)}</LiFile>
       </ul>
+      <h4>SŠ a VOŠ ICT</h4>
+      <ul className='fa-ul'>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSICT8)}</LiFile>
+      </ul>
     </Col>
     <Col md={4}>
       <h4>SŠ a VOŠ Ostatní</h4>
@@ -1302,7 +1368,7 @@ var ObsahInkluzeMS: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRoute
     <Col md={6}>
       <ul className='fa-ul'>
         <LiFile>Základní právní předpisy, legislativní změny</LiFile>
-        <LiFile>Žák se speciálními vzdělávacími potřebami </LiFile>
+        <LiFile>Dítě se speciálními vzdělávacími potřebami </LiFile>
         <LiFile>Struktura podpůrných opatření a jejich členění do pěti stupňů</LiFile>
         <LiFile>Podpůrná opatření prvního stupně </LiFile>
         <LiFile>Podpůrná opatření 2. - 5. stupně </LiFile>
