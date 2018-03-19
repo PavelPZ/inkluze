@@ -506,8 +506,7 @@ var MSRozvoj16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: 
     </p>
   </BlockEx>
   <BlockEx header="Potřebné šablony: ">
-    <p>Pro každého učitele je potřeba objednat šablonu {popups.ms_osobnostni_rozvoj_16_hodin}&nbsp;varianta <b>i.
-              Osobnostně sociální rozvoj</b></p>
+    <p>Pro každého učitele je potřeba objednat šablonu {popups.ms_osobnostni_rozvoj_16_hodin} Osobnostně sociální rozvoj</p>
   </BlockEx>
   <BonusAlert />
 </Panel>
@@ -1278,6 +1277,16 @@ var KurzySSAlert: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.
   </p>
 </div>;
 
+var KurzyIIAlert: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div className='alert alert-warning' style={{ fontSize: '18px' }}>
+  <p style={{ marginTop: '0' }}><i className='fa fa-lightbulb-o'></i> Tip: &nbsp;</p>
+  <p>
+    IIS kurzy Pro více informací klikněte na název kurzu dole na stránce.
+  </p>
+  <p>
+    Pro získání podrobnějších informací o našich akreditovaných kurzech vyplňte a odešlete nezávazný poptávkový formulář.
+  </p>
+</div>;
+
 var BonusAlert: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div className='alert alert-warning' style={{ fontSize: '18px' }}>
   <p style={{ marginTop: '0' }}><i className='fa fa-lightbulb-o'></i> Bonus - jazykové kurzy zdarma:</p>
   <p>
@@ -1358,6 +1367,29 @@ var KurzySSList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.I
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSMatematicka8)}</LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSMatematicka16)}</LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSMatematicka24)}</LiFile>
+      </ul>
+    </Col>
+  </Row>
+</div>;
+
+var KurzyIIList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div>
+  <h2 className='text-right'>ZŠ, MŠ, ZUŠ, ŠD akreditované kurzy DVPP MŠMT - Výzva 02_18_063/ 064</h2>
+  <Row>
+    <Col md={4}>
+      <h4>SŠ a VOŠ Inkluze/společné vzdělávání</h4>
+      <ul className='fa-ul'>
+      </ul>
+    </Col>
+    <Col md={4}>
+      <h4>SŠ a VOŠ Osobnostně sociální rozvoj</h4>
+      <ul className='fa-ul'>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.IIRozvoj8)}</LiFile>
+
+      </ul>
+    </Col>
+    <Col md={4}>
+      <h4>SŠ a VOŠ Ostatní</h4>
+      <ul className='fa-ul'>
       </ul>
     </Col>
   </Row>
@@ -1455,3 +1487,29 @@ var ObsahInkluzeSS: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRoute
     </Col>
   </Row>
 </BlockEx>;
+
+var IIRozvoj8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+  <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
+</div>} eventKey={1}>
+  <BlockEx>
+    <div className='alert alert-info' style={{ fontSize: '18px' }}>
+      <p>
+        Nabízíme následující kurzy:<br />
+        Vybrané aspekty emoční a sociální inteligence pedagoga<br />
+        Osobnostně sociální rozvoj učitele v sebepoznání<br />
+        Osobnostně sociální rozvoj učitele v komunikaci<br />
+        Osobnostní a sociální rozvoj učitele ve zvládání konfliktů
+      </p>
+    </div>
+  </BlockEx>
+  <BlockEx header="Výuka ve sborovně:">
+    <p>
+      <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve vámi zvoleném termínu.</b>
+    </p>
+  </BlockEx>
+  <BlockEx header="Potřebné šablony: ">
+    <p>Pro každého učitele je potřeba objednat šablonu {popups.ss_8_hodin_DVPP}&nbsp;nebo {popups.vos_8_hodin_DVPP}&nbsp;varianta <b>i.
+              Osobnostně sociální rozvoj</b></p>
+  </BlockEx>
+  <BonusAlert />
+</Panel>

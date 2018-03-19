@@ -28,7 +28,7 @@
       </p>
       <p>
         V současnosti spolupracujeme s nejzkušenějšími českými lektory z oblasti DVPP.
-        Spolu s nimi jsme úspěšně akreditovali již 95 kurzů a dalších 15 máme podaných k akreditaci. 
+        Spolu s nimi jsme úspěšně akreditovali již 94 kurzů a dalších 17 máme podaných k akreditaci. 
         Náměty na zaměření i konkrétní obsah kurzů čerpáme z každodenního styku s pedagogickými pracovníky.
         Díky tomu se nám daří vyvářet kurzy, které odpovídají jejich skutečným problémům a potřebám.
         Rádi budeme tímto způsobem spolupracovat i s Vámi.

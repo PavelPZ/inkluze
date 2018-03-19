@@ -19,7 +19,7 @@
                 <LiFile>Mentoring (3 akreditované kurzy)</LiFile>
                 <LiFile>Osobnostně sociální rozvoj (8 akreditovaných kurzů, další 2 kurzy v procesu akreditace)</LiFile>
                 <LiFile>ICT (1 kurz v procesu akreditace)</LiFile>
-                <LiFile>Podrobnější přehledy a obsah jednotlivých kurzů naleznete na stránkách <a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.kurzy, ev)}>Šablony I – ZŠ a MŠ</a>, <a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.kurzyss, ev)}>Šablony I – SŠ a VOŠ</a> a <a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.kurzyII, ev)}>Šablony II – ZŠ, MŠ, ZUŠ, ŠD, …</a></LiFile>
+                <LiFile>Obsah jednotlivých kurzů naleznete na stránkách <a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.kurzy, ev)}>Šablony I – ZŠ a MŠ</a>, <a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.kurzyss, ev)}>Šablony I – SŠ a VOŠ</a> a <a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.kurzyii, ev)}>Šablony II – ZŠ, MŠ, ZUŠ, ŠD, …</a></LiFile>
               </ul>
             </Col>
             <Col md={1}>
