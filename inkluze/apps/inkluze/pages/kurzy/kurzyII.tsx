@@ -12,8 +12,6 @@
 
       {coursesIILoader(() => [
         { create: gray => <KurzyIIInkluze iiloaders={allIILoaders[0]} actId={actId} gray={gray} key={0} /> },
-        { create: gray => <KurzyIIOstatni iiloaders={allIILoaders[1]} actId={actId} gray={gray} key={1} /> },
-        { create: gray => <KurzyIIDalsi iiloaders={allIILoaders[2]} actId={actId} gray={gray} key={2} /> },
       ], allIILoaders, actId)}
 
     </Page >
@@ -30,7 +28,7 @@ interface IKurzyIIBlockProps {
 
 var KurzyIIInkluze: React.StatelessComponent<IKurzyIIBlockProps> = (props: IKurzyIIBlockProps, ctx: sitemapRouter.IContext) => {
   return <Block gray={props.gray}>
-    <h2 className='text-right'>SŠ Inkluze</h2>
+    <h2 className='text-right'>II Inkluze</h2>
     {courseIILoader(props.iiloaders, props.actId)}
   </Block>
 };
@@ -38,7 +36,7 @@ KurzyIIInkluze.contextTypes = sitemapRouter.childContextTypes;
 
 var KurzyIIOstatni: React.StatelessComponent<IKurzyIIBlockProps> = (props: IKurzyIIBlockProps, ctx: sitemapRouter.IContext) => {
   return <Block gray={props.gray}>
-    <h2 className='text-right'>SŠ Ostatní</h2>
+    <h2 className='text-right'>II Ostatní</h2>
     {courseIILoader(props.iiloaders, props.actId)}
   </Block>;
 }
@@ -46,7 +44,7 @@ KurzyIIOstatni.contextTypes = sitemapRouter.childContextTypes;
 
 var KurzyIIDalsi: React.StatelessComponent<IKurzyIIBlockProps> = (props: IKurzyIIBlockProps, ctx: sitemapRouter.IContext) => {
   return <Block gray={props.gray}>
-    <h2 className='text-right'>SŠ Kurzy</h2>
+    <h2 className='text-right'>II Kurzy</h2>
     {courseIILoader(props.iiloaders, props.actId)}
   </Block>;
 }
