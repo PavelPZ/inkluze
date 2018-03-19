@@ -46,7 +46,23 @@
   }
 
   export interface ISiteKurzyII extends site.INode {
-    IIRozvoj8: site.INode;
+    IIMSRozvoj16: site.INode;
+    IIMSMatematicka16: site.INode;
+    IIMSCtenarska16: site.INode;
+    IIMSInkluze16: site.INode;
+    IIMSPripravujeme: site.INode;
+    IIZSInkluze8: site.INode;
+    IIZSInkluze1632: site.INode;
+    IIZUSInkluze8: site.INode;
+    IIZUSRozvoj8: site.INode;
+    IIZUSICT8: site.INode;
+    IIZSICT8: site.INode;
+    IIZSRozvoj1632: site.INode;
+    IIZSRozvoj8: site.INode;
+    IIZSCtenarska1632: site.INode;
+    IIZSCtenarska8: site.INode;
+    IIZSMatematicka8: site.INode;
+    IIZSMatematicka1632: site.INode;
   }
 
   export var root: ISiteRoot;
@@ -243,9 +259,89 @@
       kurzyii: {
         id: 'kurzyii',
         createPage: par => React.createElement(KurzyII),
-        IIRozvoj8: {
-          id: 'IIRozvoj8',
+        IIMSRozvoj16: {
+          id: 'IIMSRozvoj16',
+          title: 'Osobnostně sociální rozvoj - 16 hod',
+          createPage: par => React.createElement(KurzyII),
+        },
+        IIMSPripravujeme: {
+          id: 'IIMSPripravujeme',
+          title: 'Připravujeme',
+          createPage: par => React.createElement(KurzyII),
+        },
+        IIMSMatematicka16: {
+          id: 'IIMSMatematicka16',
+          title: 'Matematická pregramotnost - 16 hod',
+          createPage: par => React.createElement(KurzyII),
+        },
+        IIMSCtenarska16: {
+          id: 'IIMSCtenarksa16',
+          title: 'Matematická pregramotnost - 16 hod',
+          createPage: par => React.createElement(KurzyII),
+        },
+        IIMSInkluze16: {
+          id: 'IIMSInkluze16',
+          title: 'Inkluze - 16 hod',
+          createPage: par => React.createElement(KurzyII),
+        },
+        IIZSRozvoj8: {
+          id: 'IIZSRozvoj8',
           title: 'Osobnostně sociální rozvoj - 8 hod',
+          createPage: par => React.createElement(KurzyII),
+        },
+        IIZSRozvoj1632: {
+          id: 'IIZSRozvoj1632',
+          title: 'Osobnostně sociální rozvoj - 16/32 hod',
+          createPage: par => React.createElement(KurzyII),
+        },
+        IIZSICT8: {
+          id: 'IIZSICT8',
+          title: 'Kurz ICT - 8 hod',
+          createPage: par => React.createElement(KurzyII),
+        },
+        IIZSMatematicka8: {
+          id: 'IIZSMatematicka8',
+          title: 'Matematická gramotnost - 8 hod',
+          createPage: par => React.createElement(KurzyII),
+        },
+        IIZSMatematicka1632: {
+          id: 'IIZSMatematicka1632',
+          title: 'Matematická gramotnost - 16/32 hod',
+          createPage: par => React.createElement(KurzyII),
+        },
+        IIZSCtenarska8: {
+          id: 'IIZSCtenarska8',
+          title: 'Čtenářská gramotnost - 8 hod',
+          createPage: par => React.createElement(KurzyII),
+        },
+        IIZSCtenarska1632: {
+          id: 'IIZSCtenarska1632',
+          title: 'Čtenářská gramotnost - 16/32 hod',
+          createPage: par => React.createElement(KurzyII),
+        },
+        IIZSInkluze8: {
+          id: 'IIZSInkluze8',
+          title: 'Inkluze - 8 hod',
+          createPage: par => React.createElement(KurzyII),
+        },
+        IIZSInkluze1632: {
+          id: 'IIZSInkluze1632',
+          title: 'Inkluze - 16/32 hod',
+          createPage: par => React.createElement(KurzyII),
+        },
+        IIZUSInkluze8: {
+          id: 'IIZUSInkluze8',
+          title: 'Inkluze - 8 hod',
+          createPage: par => React.createElement(KurzyII),
+        },
+        IIZUSRozvoj8: {
+          id: 'IIZUSRozvoj8',
+          title: 'Osobnostně sociální rozvoj - 8 hod',
+          createPage: par => React.createElement(KurzyII),
+        },
+        IIZUSICT8: {
+          id: 'IIZUSICT8',
+          title: 'Kurz ICT - 8 hod',
           createPage: par => React.createElement(KurzyII),
         },
       },

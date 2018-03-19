@@ -11,7 +11,9 @@
       </Block>
 
       {coursesIILoader(() => [
-        { create: gray => <KurzyIIInkluze iiloaders={allIILoaders[0]} actId={actId} gray={gray} key={0} /> },
+        { create: gray => <KurzyIIZSKurzy iiloaders={allIILoaders[0]} actId={actId} gray={gray} key={0} /> },
+        { create: gray => <KurzyIIInkluzeZUS iiloaders={allIILoaders[1]} actId={actId} gray={gray} key={1} /> },
+        { create: gray => <KurzyIIMSKurzy iiloaders={allIILoaders[2]} actId={actId} gray={gray} key={2} /> },
       ], allIILoaders, actId)}
 
     </Page >
@@ -26,29 +28,29 @@ interface IKurzyIIBlockProps {
   gray: boolean;
 }
 
-var KurzyIIInkluze: React.StatelessComponent<IKurzyIIBlockProps> = (props: IKurzyIIBlockProps, ctx: sitemapRouter.IContext) => {
+var KurzyIIZSKurzy: React.StatelessComponent<IKurzyIIBlockProps> = (props: IKurzyIIBlockProps, ctx: sitemapRouter.IContext) => {
   return <Block gray={props.gray}>
     <h2 className='text-right'>II Inkluze</h2>
     {courseIILoader(props.iiloaders, props.actId)}
   </Block>
 };
-KurzyIIInkluze.contextTypes = sitemapRouter.childContextTypes;
+KurzyIIZSKurzy.contextTypes = sitemapRouter.childContextTypes;
 
-var KurzyIIOstatni: React.StatelessComponent<IKurzyIIBlockProps> = (props: IKurzyIIBlockProps, ctx: sitemapRouter.IContext) => {
+var KurzyIIInkluzeZUS: React.StatelessComponent<IKurzyIIBlockProps> = (props: IKurzyIIBlockProps, ctx: sitemapRouter.IContext) => {
   return <Block gray={props.gray}>
     <h2 className='text-right'>II Ostatní</h2>
     {courseIILoader(props.iiloaders, props.actId)}
   </Block>;
 }
-KurzyIIOstatni.contextTypes = sitemapRouter.childContextTypes;
+KurzyIIInkluzeZUS.contextTypes = sitemapRouter.childContextTypes;
 
-var KurzyIIDalsi: React.StatelessComponent<IKurzyIIBlockProps> = (props: IKurzyIIBlockProps, ctx: sitemapRouter.IContext) => {
+var KurzyIIMSKurzy: React.StatelessComponent<IKurzyIIBlockProps> = (props: IKurzyIIBlockProps, ctx: sitemapRouter.IContext) => {
   return <Block gray={props.gray}>
     <h2 className='text-right'>II Kurzy</h2>
     {courseIILoader(props.iiloaders, props.actId)}
   </Block>;
 }
-KurzyIIDalsi.contextTypes = sitemapRouter.childContextTypes;
+KurzyIIMSKurzy.contextTypes = sitemapRouter.childContextTypes;
 
 var courseKey = 0;
 interface ICourseIILoader {
@@ -79,8 +81,28 @@ function coursesIILoader(getIILoaders: () => Array<ICoursesIILoader>, allLoaders
 function getIILoaders(): Array<Array<ICourseIILoader>> {
   var res = [
     [
-      { id: 'IIRozvoj8', create: expanded => <IIRozvoj8 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIRozvoj8.title} /> },
+      { id: 'IIZSCtenarska8', create: expanded => <IIZSCtenarska8 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIZSCtenarska8.title} /> },
+      { id: 'IIZSCtenarska1632', create: expanded => <IIZSCtenarska1632 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIZSCtenarska1632.title} /> },
+      { id: 'IIZSMatematicka8', create: expanded => <IIZSMatematicka8 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIZSMatematicka8.title} /> },
+      { id: 'IIZSMatematicka1632', create: expanded => <IIZSMatematicka1632 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIZSMatematicka1632.title} /> },
+      { id: 'IIZSRozvoj8', create: expanded => <IIZSRozvoj8 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIZSRozvoj8.title} /> },
+      { id: 'IIZSRozvoj1632', create: expanded => <IIZSRozvoj1632 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIZSRozvoj1632.title} /> },
+      { id: 'IIZSICT8', create: expanded => <IIZSICT8 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIZSICT8.title} /> },
     ],
+    [
+      { id: 'IIZSInkluze8', create: expanded => <IIZSInkluze8 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIZSInkluze8.title} /> },
+      { id: 'IIZSInkluze1632', create: expanded => <IIZSInkluze1632 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIZSInkluze1632.title} /> },
+      { id: 'IIZUSInkluze8', create: expanded => <IIZUSInkluze8 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIZUSInkluze8.title} /> },
+      { id: 'IIZUSRozvoj8', create: expanded => <IIZUSRozvoj8 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIZUSRozvoj8.title} /> },
+      { id: 'IIZUSICT8', create: expanded => <IIZUSICT8 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIZUSICT8.title} /> },
+    ],
+    [
+      { id: 'IIMSInkluze16', create: expanded => <IIMSInkluze16 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIMSInkluze16.title} /> },
+      { id: 'IIMSCtenarska16', create: expanded => <IIMSCtenarska16 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIMSCtenarska16.title} /> },
+      { id: 'IIMSMatematicka16', create: expanded => <IIMSMatematicka16 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIMSMatematicka16.title} /> },
+      { id: 'IIMSRozvoj16', create: expanded => <IIMSRozvoj16 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIMSRozvoj16.title} /> },
+      { id: 'IIMSPripravujeme', create: expanded => <IIMSPripravujeme defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIMSPripravujeme.title} /> },
+    ]
   ];
   res.forEach(l => l.forEach(ll => ll.id = ll.id.toLowerCase()));
   return res;
