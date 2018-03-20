@@ -175,6 +175,15 @@ declare namespace __React {
     refs: {
       [key: string]: ReactInstance
     };
+
+    componentWillMount?(): void;
+    componentDidMount?(): void;
+    componentWillReceiveProps?(nextProps: P, nextContext: any): void;
+    shouldComponentUpdate?(nextProps: P, nextState: S, nextContext: any): boolean;
+    componentWillUpdate?(nextProps: P, nextState: S, nextContext: any): void;
+    componentDidUpdate?(prevProps: P, prevState: S, prevContext: any): void;
+    componentWillUnmount?(): void;
+
   }
 
   interface ClassicComponent<P, S> extends Component<P, S> {

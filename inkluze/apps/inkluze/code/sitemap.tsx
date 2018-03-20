@@ -69,12 +69,12 @@
 
   export interface ITabs extends site.ITabs {
     home: site.ITab;
-    q_and_a: site.ITab;
-    dalsi: site.ITab;
     kurzy: site.ITab;
     kurzyss: site.ITab;
     kurzyii: site.ITab;
     lektori: site.ITab;
+    q_and_a: site.ITab;
+    dalsi: site.ITab;
     onas: site.ITab;
     //slovnicek: site.ITab;
   }
@@ -264,11 +264,6 @@
           title: 'Osobnostně sociální rozvoj - 16 hod',
           createPage: par => React.createElement(KurzyII),
         },
-        IIMSPripravujeme: {
-          id: 'IIMSPripravujeme',
-          title: 'Připravujeme',
-          createPage: par => React.createElement(KurzyII),
-        },
         IIMSMatematicka16: {
           id: 'IIMSMatematicka16',
           title: 'Matematická pregramotnost - 16 hod',
@@ -282,6 +277,11 @@
         IIMSInkluze16: {
           id: 'IIMSInkluze16',
           title: 'Inkluze - 16 hod',
+          createPage: par => React.createElement(KurzyII),
+        },
+        IIMSPripravujeme: {
+          id: 'IIMSPripravujeme',
+          title: 'Připravujeme',
           createPage: par => React.createElement(KurzyII),
         },
         IIZSRozvoj8: {
@@ -353,7 +353,7 @@
         id: 'onas',
         createPage: par => <Onas />
       },
-    }
+    };
     site.tabs = tabs = {
       home: {
         title: 'DVPP',
@@ -391,6 +391,6 @@
       //  title: 'Slovníček pojmů',
       //  rootNode: root.slovnicek,
       //},
-    }
+    } as ITabs
   }
 }

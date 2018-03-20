@@ -11,6 +11,7 @@
     "experimentalDecorators": true,
     //"noEmitHelpers": true,
     //"strictNullChecks": true,
+    "strict": false,
     "outFile": "apps/inkluze.js",
     "inlineSourceMap": true,
     "inlineSources": true,
