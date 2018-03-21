@@ -1867,7 +1867,7 @@ var IIZSInkluze8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
 </Panel>
 
 var IIZSInkluze1632: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">32</Label>  <span style={headerCss}>{props.title}</span></h3>
+  <h3><Label bsStyle="warning">16</Label>&nbsp;<Label bsStyle="warning">32</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
   <BlockEx>
     <div className='alert alert-info' style={{ fontSize: '18px' }}>
