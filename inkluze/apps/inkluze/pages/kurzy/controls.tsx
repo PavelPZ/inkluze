@@ -511,7 +511,7 @@ var MSRozvoj16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: 
     </p>
   </BlockEx>
   <BlockEx header="Potřebné šablony: ">
-    <p>Pro každého učitele je potřeba objednat šablonu {popups.ms_osobnostni_rozvoj_16_hodin}Osobnostně sociální rozvoj</p>
+    <p>Pro každého učitele je potřeba objednat šablonu {popups.ms_osobnostni_rozvoj_16_hodin}</p>
   </BlockEx>
   <BonusAlert />
 </Panel>
@@ -1486,7 +1486,7 @@ var ObsahInkluzeZS: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRoute
   </Row>
 </BlockEx>;
 
-var ObsahInkluzeZUS: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <BlockEx header="Kromě výše uvedených novinek nabízíme ještě dalších 7 kurzů inkluze pro ZŠ. Kurzy jsou seskládané z následujících témat:">
+var ObsahInkluzeZUS: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <BlockEx header="Kromě výše uvedených novinek nabízíme ještě dalších 8 kurzů inkluze v délce 16 hodin a 2 kurzy inkluze pro ZŠ v délce 32 hodin. Kurzy jsou seskládané z následujících témat:">
   <Row>
     <Col md={6}>
       <ul className='fa-ul'>
@@ -1565,27 +1565,6 @@ var IIZSCtenarska8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, c
     </div>
   </BlockEx>
 
-  <BlockEx header="Ukázky z témat: ">
-    <ul className='fa-ul'>
-      <LiFile>seznámení s problematikou čtenářské gramotnosti, </LiFile>
-      <LiFile>metody a formy práce, rozvíjející čtenářskou gramotnost </LiFile>
-      <LiFile>vyvození sedmi základních strategií čtenářské gramotnosti </LiFile>
-      <LiFile>správné kladení otázek jak pro učitele, tak pro žáky</LiFile>
-      <LiFile>princip třífázového učení E-U-R </LiFile>
-      <LiFile>brainstorming, myšlenkové mapy</LiFile>
-      <LiFile>práce s textem (metoda I.N.S.E.R.T., skládankové učení, pětilístek, …)</LiFile>
-      <LiFile>čtení s porozuměním, rozvoj kritického myšlení </LiFile>
-      <LiFile>čtenářská dílna </LiFile>
-      <LiFile>práce s různými informačními zdroji – médii, časopisy, internetem, populárně naučnou literaturou,  autentickými materiály a reklamou atd.</LiFile>
-      <LiFile>čtenářské strategie (kladení otázek, předvídání, sledování porozumění a vyjasňování, vysuzování, shrnování, vytváření představ, hledání souvislostí, hodnocení – metody a postupy pro rozvíjení jednotlivých dovedností) </LiFile>
-      <LiFile>odborný text (fungování mozku, rychlé vyhledávání informací, vlastnosti odborného textu, myšlenková mapa, základní metody VCHD a INSERT, značkování textu, anotace odborného textu) </LiFile>
-      <LiFile>pojem kritické myšlení, třífázový model učení</LiFile>
-    </ul>
-  </BlockEx>
-  <BlockEx>
-    Nabízíme řadu 16 hodinových akreditovaných kurzů.
-    Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
-  </BlockEx>
   <BlockEx header="Výuka ve sborovně:">
     <p>
       <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve vámi zvoleném termínu.</b>
@@ -1623,27 +1602,6 @@ var IIZSCtenarska1632: React.StatelessComponent<IKurzProps> = (props: IKurzProps
       </p>
     </div>
   </BlockEx>
-  <BlockEx header="Ukázky z témat: ">
-    <ul className='fa-ul'>
-      <LiFile>seznámení s problematikou čtenářské gramotnosti, </LiFile>
-      <LiFile>metody a formy práce, rozvíjející čtenářskou gramotnost </LiFile>
-      <LiFile>vyvození sedmi základních strategií čtenářské gramotnosti </LiFile>
-      <LiFile>správné kladení otázek jak pro učitele, tak pro žáky</LiFile>
-      <LiFile>princip třífázového učení E-U-R </LiFile>
-      <LiFile>brainstorming, myšlenkové mapy</LiFile>
-      <LiFile>práce s textem (metoda I.N.S.E.R.T., skládankové učení, pětilístek, …)</LiFile>
-      <LiFile>čtení s porozuměním, rozvoj kritického myšlení </LiFile>
-      <LiFile>čtenářská dílna </LiFile>
-      <LiFile>práce s různými informačními zdroji – médii, časopisy, internetem, populárně naučnou literaturou,  autentickými materiály a reklamou atd.</LiFile>
-      <LiFile>čtenářské strategie (kladení otázek, předvídání, sledování porozumění a vyjasňování, vysuzování, shrnování, vytváření představ, hledání souvislostí, hodnocení – metody a postupy pro rozvíjení jednotlivých dovedností) </LiFile>
-      <LiFile>odborný text (fungování mozku, rychlé vyhledávání informací, vlastnosti odborného textu, myšlenková mapa, základní metody VCHD a INSERT, značkování textu, anotace odborného textu) </LiFile>
-      <LiFile>pojem kritické myšlení, třífázový model učení</LiFile>
-    </ul>
-  </BlockEx>
-  <BlockEx>
-    Nabízíme řadu 16 hodinových akreditovaných kurzů.
-    Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
-  </BlockEx>
   <BlockEx header="Výuka ve sborovně:">
     <p>
       <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve vámi zvoleném termínu.</b>
@@ -1664,7 +1622,7 @@ var IIZSMatematicka8: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
   <BlockEx>
     <div className='alert alert-info' style={{ fontSize: '18px' }}>
       <p>
-        Nabízíme následující kurzy (jen pro ZŠ):
+        Nabízíme následující kurzy:
         <ul>
           <li>Rozvoj matematické gramotnosti pro ZŠ 8 hodin (od června 2018, jen pro ZŠ):</li>
           <li>GeoGebra jako nástroj rozvoje matematické gramotnosti na ZŠ (od června 2018, jen pro ZŠ)</li>
@@ -1673,28 +1631,6 @@ var IIZSMatematicka8: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
       </p>
     </div>
   </BlockEx>
-  <BlockEx header="Ukázky z témat: ">
-    <ul className='fa-ul'>
-      <LiFile>Charakteristika matematické gramotnosti. Situace a kontexty ( kde člověk aplikuje znalosti a dovednosti, řeší problémy).</LiFile>
-      <LiFile>Rozvíjení schopnosti řešit problémy. Správné kladení otázek.  Analýza   informací. Rozbor slovních úloh. Práce s chybou. Matematizování reálných situací. Používání správné terminologie a symboliky. Praktické využití poznatků z matematiky. Budování vztahu k matematice. </LiFile>
-      <LiFile>Využití matematického jazyka a symbolů ke konkrétním výstupům  podle věkové kategorie, s využitím množinového pojetí rozborů textů a Vennových diagramů</LiFile>
-      <LiFile>Video: Fantastický výlet do makrosvěta a mikrosvěta ve světě čísel a přírodních věd.</LiFile >
-      <LiFile>Jak řešit matematickou úlohu – čtyři základní fáze.
-        Rozdíl mezi tzv.„trychtýřováním“  a správným kladením otázek učitelem.Postupy pozpátku.
-        Příklady.</LiFile >
-      <LiFile>Metoda Prof.
-        Hejného – Pět zásad výuky a desatero pro učitele a desatero pro rodiče.
-        Příklady a názorné video.</LiFile >
-      <LiFile>Konkrétní příklady využívání matematické gramotnosti ve výuce v jednotlivých předmětech</LiFile >
-      <LiFile>Tvorba pohyblivých objektů 2D a 3D objektů s programem GeoGebra (využití programu jako nástroje podpory matematické gramotnosti formou propojování geometrických a algebraických interpretací v matematice a dalších nejen přírodovědných předmětech)</LiFile >
-      <LiFile>Příklady her a prostředí na internetu pro podporu matematické gramotnosti</LiFile >
-      <LiFile>Programy a aplikace pro jednoduché vytváření zábavných kvízů</LiFile >
-      <LiFile>… a mnoho dalších</LiFile >
-    </ul>
-  </BlockEx>
-  <BlockEx>
-    Nabízíme více 16 hodinových akreditovaných kurzů. Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
-  </BlockEx >
   <BlockEx header="Výuka ve sborovně:">
     <p>
       <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve vámi zvoleném termínu.</b>
@@ -1725,21 +1661,6 @@ var IIZSMatematicka1632: React.StatelessComponent<IKurzProps> = (props: IKurzPro
         </ul>
       </p>
     </div>
-  </BlockEx>
-  <BlockEx header="Ukázky z témat:  ">
-    <ul className='fa-ul'>
-      <LiFile>Charakteristika matematické gramotnosti. Situace a kontexty ( kde člověk aplikuje znalosti a dovednosti, řeší problémy). </LiFile>
-      <LiFile> Rozvíjení schopnosti řešit problémy. Správné kladení otázek.  Analýza   informací. Rozbor slovních úloh. Práce s chybou. Matematizování reálných situací. Používání správné terminologie a symboliky. Praktické využití poznatků z matematiky. Budování vztahu k matematice. </LiFile>
-      <LiFile> Využití matematického jazyka a symbolů ke konkrétním výstupům  podle věkové kategorie, s využitím množinového pojetí rozborů textů a Vennových diagramů</LiFile>
-      <LiFile> Video : Fantastický výlet do makrosvěta a mikrosvěta ve světě čísel a přírodních věd.</LiFile>
-      <LiFile> Jak řešit matematickou úlohu – čtyři základní fáze.Rozdíl mezi tzv. „trychtýřováním“  a správným kladením otázek učitelem. Postupy pozpátku. Příklady.</LiFile>
-      <LiFile> Metoda Prof. Hejného – Pět zásad výuky a desatero pro učitele a desatero pro rodiče. Příklady a názorné video.</LiFile>
-      <LiFile> Využití číselné osy, časové přímky. Trojí pohled na zlomky.</LiFile>
-      <LiFile> Využití výroků, složených výroků, jejich pravdivosti i negace (logická stavba vět a komunikace).</LiFile>
-      <LiFile> Geometrie v rovině a v prostoru – představivost, odvozování vztahů, množiny určitých vlastností. </LiFile>
-      <LiFile> Využití kombinatorických pojmů ve výuce podle věkové úrovně žáků. </LiFile>
-      <LiFile> … a mnoho dalších </LiFile>
-    </ul>
   </BlockEx>
   <BlockEx header="Potřebné šablony: ">
     <div>
@@ -1800,7 +1721,7 @@ var IIZSRozvoj1624: React.StatelessComponent<IKurzProps> = (props: IKurzProps, c
     </p>
   </BlockEx>
   <BlockEx header="Potřebné šablony: ">
-    <p>Pro každého učitele je potřeba objednat 2x šablonu 2.I/6 Vzdělávání pedagogických pracovníků MŠ – DVPP v rozsahu 8 hodin  varianta d. osobnostně sociální rozvoj</p>
+    <p>Pro každého učitele je potřeba objednat 2x-3x šablonu 2.II/6 Vzdělávání pedagogických pracovníků ZŠ – DVPP v rozsahu 8 hodin varianta d. osobnostně sociální rozvoj</p>
   </BlockEx>
   <BonusAlert />
 </Panel>
@@ -1844,16 +1765,6 @@ var IIZSInkluze8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
     </div>
   </BlockEx>
   <ObsahInkluzeZUS />
-  <BlockEx>
-    Nabízíme řadu 8 hodinových akreditovaných kurzů. Každý kurz obsahuje část z těchto témat.
-    Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
-  </BlockEx>
-  <BlockEx>
-    <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
-      Každý účastník tohoto kurzu se musí účastnit ještě další vzdělávací akce v rozsahu minimálně 16 hodin.
-            Viz {popups.bagatelni_podpora}.
-          </div>
-  </BlockEx>
   <BlockEx header="Potřebné šablony: ">
     <p>Pro každého učitele je potřeba objednat některou z následujících šablon:
       <ul>
@@ -1881,18 +1792,6 @@ var IIZSInkluze1632: React.StatelessComponent<IKurzProps> = (props: IKurzProps, 
     </div>
   </BlockEx>
   <ObsahInkluzeZUS />
-  <BlockEx>
-    <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
-      Tento akreditovaný kurz poskytuje optimální variantu pro seznámení se s problematikou společného vzdělávání.
-      U tohoto kurzu je (oproti 24 hodinové verzi) více prostoru na:
-      <ul className='fa-ul'>
-        <LiHand>diskusi s učiteli</LiHand>
-        <LiHand>možnost řešení konkrétních problémů, týkajících se dané školy</LiHand>
-        <LiHand>praktické procvičování získaných znalostí</LiHand>
-        <LiHand>...a další</LiHand>
-      </ul>
-    </div>
-  </BlockEx>
   <BlockEx header="Výuka ve sborovně:">
     <p>
       <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve vámi zvoleném termínu.</b>
@@ -2010,7 +1909,7 @@ var IIMSRozvoj16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
     </p>
   </BlockEx>
   <BlockEx header="Potřebné šablony: ">
-    <p>Pro každého učitele je potřeba objednat šablonu {popups.ms_osobnostni_rozvoj_16_hodin}</p>
+    <p>Pro každého učitele je potřeba objednat 2x šablonu 2.I/6 Vzdělávání pedagogických pracovníků MŠ – DVPP v rozsahu 8 hodin  varianta d. osobnostně sociální rozvoj</p>
   </BlockEx>
   <BonusAlert />
 </Panel>
