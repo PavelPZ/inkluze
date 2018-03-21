@@ -57,7 +57,7 @@
     IIZUSRozvoj8: site.INode;
     IIZUSICT8: site.INode;
     IIZSICT8: site.INode;
-    IIZSRozvoj1632: site.INode;
+    IIZSRozvoj1624: site.INode;
     IIZSRozvoj8: site.INode;
     IIZSCtenarska1632: site.INode;
     IIZSCtenarska8: site.INode;
@@ -270,8 +270,8 @@
           createPage: par => React.createElement(KurzyII),
         },
         IIMSCtenarska16: {
-          id: 'IIMSCtenarksa16',
-          title: 'Matematická pregramotnost - 16 hod',
+          id: 'IIMSCtenarska16',
+          title: 'Čtenářská pregramotnost - 16 hod',
           createPage: par => React.createElement(KurzyII),
         },
         IIMSInkluze16: {
@@ -289,9 +289,9 @@
           title: 'Osobnostně sociální rozvoj - 8 hod',
           createPage: par => React.createElement(KurzyII),
         },
-        IIZSRozvoj1632: {
-          id: 'IIZSRozvoj1632',
-          title: 'Osobnostně sociální rozvoj - 16/32 hod',
+        IIZSRozvoj1624: {
+          id: 'IIZSRozvoj1624',
+          title: 'Osobnostně sociální rozvoj - 16/24 hod',
           createPage: par => React.createElement(KurzyII),
         },
         IIZSICT8: {

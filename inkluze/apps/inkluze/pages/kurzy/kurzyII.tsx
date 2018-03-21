@@ -30,7 +30,7 @@ interface IKurzyIIBlockProps {
 
 var KurzyIIZSKurzy: React.StatelessComponent<IKurzyIIBlockProps> = (props: IKurzyIIBlockProps, ctx: sitemapRouter.IContext) => {
   return <Block gray={props.gray}>
-    <h2 className='text-right'>II Inkluze</h2>
+    <h2 className='text-right'>ZŠ Kurzy</h2>
     {courseIILoader(props.iiloaders, props.actId)}
   </Block>
 };
@@ -38,7 +38,7 @@ KurzyIIZSKurzy.contextTypes = sitemapRouter.childContextTypes;
 
 var KurzyIIInkluzeZUS: React.StatelessComponent<IKurzyIIBlockProps> = (props: IKurzyIIBlockProps, ctx: sitemapRouter.IContext) => {
   return <Block gray={props.gray}>
-    <h2 className='text-right'>II Ostatní</h2>
+    <h2 className='text-right'>ZŠ Inkluze a ZUŠ</h2>
     {courseIILoader(props.iiloaders, props.actId)}
   </Block>;
 }
@@ -46,7 +46,7 @@ KurzyIIInkluzeZUS.contextTypes = sitemapRouter.childContextTypes;
 
 var KurzyIIMSKurzy: React.StatelessComponent<IKurzyIIBlockProps> = (props: IKurzyIIBlockProps, ctx: sitemapRouter.IContext) => {
   return <Block gray={props.gray}>
-    <h2 className='text-right'>II Kurzy</h2>
+    <h2 className='text-right'>MŠ Kurzy</h2>
     {courseIILoader(props.iiloaders, props.actId)}
   </Block>;
 }
@@ -86,7 +86,7 @@ function getIILoaders(): Array<Array<ICourseIILoader>> {
       { id: 'IIZSMatematicka8', create: expanded => <IIZSMatematicka8 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIZSMatematicka8.title} /> },
       { id: 'IIZSMatematicka1632', create: expanded => <IIZSMatematicka1632 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIZSMatematicka1632.title} /> },
       { id: 'IIZSRozvoj8', create: expanded => <IIZSRozvoj8 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIZSRozvoj8.title} /> },
-      { id: 'IIZSRozvoj1632', create: expanded => <IIZSRozvoj1632 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIZSRozvoj1632.title} /> },
+      { id: 'IIZSRozvoj1624', create: expanded => <IIZSRozvoj1624 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIZSRozvoj1624.title} /> },
       { id: 'IIZSICT8', create: expanded => <IIZSICT8 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIZSICT8.title} /> },
     ],
     [
