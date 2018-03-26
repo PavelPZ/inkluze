@@ -680,8 +680,8 @@ var SSICT8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: site
     </p>
   </BlockEx>
   <BlockEx header="Potřebné šablony: ">
-    <p>Pro každého učitele je potřeba objednat šablonu {popups.ss_16_hodin_DVPP}&nbsp;nebo {popups.vos_16_hodin_DVPP}&nbsp;varianta <b>k.
-              ICT</b></p>
+    <p>Pro každého učitele je potřeba objednat šablonu {popups.ss_8_hodin_DVPP}&nbsp;nebo {popups.vos_8_hodin_DVPP}&nbsp;varianta <b>k.
+              ICT</b>.</p>
   </BlockEx>
   <BonusAlert />
 </Panel>
