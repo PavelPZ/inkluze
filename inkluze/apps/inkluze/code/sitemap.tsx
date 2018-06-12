@@ -261,27 +261,27 @@
         createPage: par => React.createElement(KurzyII),
         IIMSRozvoj16: {
           id: 'IIMSRozvoj16',
-          title: 'Osobnostně sociální rozvoj - 16 hod',
+          title: 'Osobnostně sociální rozvoj - 8/16 hod',
           createPage: par => React.createElement(KurzyII),
         },
         IIMSMatematicka16: {
           id: 'IIMSMatematicka16',
-          title: 'Matematická pregramotnost - 16 hod',
+          title: 'Matematická pregramotnost - 8/16 hod',
           createPage: par => React.createElement(KurzyII),
         },
         IIMSCtenarska16: {
           id: 'IIMSCtenarska16',
-          title: 'Čtenářská pregramotnost - 16 hod',
+          title: 'Čtenářská pregramotnost - 8/16 hod',
           createPage: par => React.createElement(KurzyII),
         },
         IIMSInkluze16: {
           id: 'IIMSInkluze16',
-          title: 'Inkluze - 16 hod',
+          title: 'Inkluze - 8/16 hod',
           createPage: par => React.createElement(KurzyII),
         },
         IIMSPripravujeme: {
           id: 'IIMSPripravujeme',
-          title: 'Připravujeme',
+          title: 'ICT - 8 hod',
           createPage: par => React.createElement(KurzyII),
         },
         IIZSRozvoj8: {

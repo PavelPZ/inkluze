@@ -22,8 +22,8 @@ var ZSInkluze8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: 
         Novinky:
         <ul>
           <li>Klima třídy a vedení třídnické hodiny v rámci inkluze</li>
-          <li>Práce s problémovým žákem v rámci inkluze (od června 2018)</li>
-          <li>Práce s pedagogickým sborem-jak předejít syndromu vyhoření (od června 2018)</li>
+          <li>Práce se žákem s problémovým chováním – 8 hodin</li>
+          <li>Práce s pedagogickým sborem-jak předejít syndromu vyhoření</li>
         </ul>
       </p>
     </div>
@@ -669,7 +669,6 @@ var SSICT8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: site
   <BlockEx>
     <div className='alert alert-info' style={{ fontSize: '18px' }}>
       <p>
-        Od června 2018 bude dostupný následující kurz:
         Využití ICT ve výuce – praktická inspirace.
       </p>
     </div>
@@ -696,9 +695,9 @@ var SSInkluze8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: 
         Novinky:
         <ul>
           <li>Klima třídy a vedení třídnické hodiny v rámci inkluze</li>
-          <li>Práce s problémovým žákem SŠ v rámci inkluze (od června 2018)</li>
-          <li>Práce s pedagogickým sborem-jak předejít syndromu vyhoření (od června 2018)</li>
-          <li>Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje na SŠ (od června 2018)</li>
+          <li>Práce se žákem SŠ s problémovým chováním </li>
+          <li>Práce s pedagogickým sborem-jak předejít syndromu vyhoření</li>
+          <li>Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje na SŠ</li>
         </ul>
       </p>
     </div>
@@ -1486,7 +1485,7 @@ var ObsahInkluzeZS: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRoute
   </Row>
 </BlockEx>;
 
-var ObsahInkluzeZUS: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <BlockEx header="Kromě výše uvedených novinek nabízíme ještě dalších 8 kurzů inkluze v délce 16 hodin a 2 kurzy inkluze pro ZŠ v délce 32 hodin. Kurzy jsou seskládané z následujících témat:">
+var ObsahInkluzeZUS: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <BlockEx header="Kromě výše uvedených novinek nabízíme pro ZŠ ještě dalších 7 kurzů inkluze v délce 8 hodin. Kurzy jsou seskládané z následujících témat:">
   <Row>
     <Col md={6}>
       <ul className='fa-ul'>
@@ -1556,10 +1555,10 @@ var IIZSCtenarska8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, c
       <p>
         Nabízíme následující kurzy (jen pro ZŠ):
         <ul>
-          <li>Čtenářství-průvodce každodenním životem, cesta je vzdělání_8 (od června 2018)</li>
-          <li>Čtenářství a čtenářská gramotnost v současné škole (od června 2018)</li>
-          <li>Inspirace pro rozvíjení čtenářské gramotnosti v  ČJL na ZŠ (od června 2018)</li>
-          <li>Čtenářská a informační gramotnost na ZŠ – 8 hodin  (od června 2018)</li>
+          <li>Čtenářství-průvodce každodenním životem, cesta je vzdělání_8</li>
+          <li>Čtenářství a čtenářská gramotnost v současné škole</li>
+          <li>Inspirace pro rozvíjení čtenářské gramotnosti v  ČJL na ZŠ</li>
+          <li>Čtenářská a informační gramotnost na ZŠ – 8 hodin</li>
         </ul>
       </p>
     </div>
@@ -1624,9 +1623,9 @@ var IIZSMatematicka8: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
       <p>
         Nabízíme následující kurzy:
         <ul>
-          <li>Rozvoj matematické gramotnosti pro ZŠ 8 hodin (od června 2018, jen pro ZŠ):</li>
-          <li>GeoGebra jako nástroj rozvoje matematické gramotnosti na ZŠ (od června 2018, jen pro ZŠ)</li>
-          <li>Deskové a karetní hry pro rozvoj matematické gramotnosti (od června 2018, pro ZŠ, ŠD, ŠK)</li>
+          <li>Rozvoj matematické gramotnosti pro ZŠ 8 hodin (jen pro ZŠ):</li>
+          <li>GeoGebra jako nástroj rozvoje matematické gramotnosti na ZŠ (jen pro ZŠ)</li>
+          <li>Deskové a karetní hry pro rozvoj matematické gramotnosti (pro ZŠ, ŠD, ŠK)</li>
         </ul>
       </p>
     </div>
@@ -1680,8 +1679,8 @@ var IIZSRozvoj8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
       <p>
         Nabízíme následující kurzy:
         <ul>
-          <li>Osobnostně sociální rozvoj v oblasti komunikace (od června 2018 i pro ŠD, ŠK)</li>
-          <li>Aspekty emoční a sociální inteligence pedagoga 8 hodin (od června 2018 i pro ŠD, ŠK)</li>
+          <li>Osobnostně sociální rozvoj v oblasti komunikace (i pro ŠD, ŠK)</li>
+          <li>Aspekty emoční a sociální inteligence pedagoga 8 hodin (i pro ŠD, ŠK)</li>
           <li>Osobnostně sociální rozvoj učitele v sebepoznání (jen pro ZŠ)</li>
           <li>Osobnostní a sociální rozvoj učitele ve zvládání konfliktů  (jen pro ZŠ)</li>
         </ul>
@@ -1732,7 +1731,7 @@ var IIZSICT8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: si
   <BlockEx>
     <div className='alert alert-info' style={{ fontSize: '18px' }}>
       <p>
-        Nabízíme kurz (jen pro ZŠ):  Využití ICT ve výuce – praktická inspirace (od června 2018)
+        Nabízíme kurz (jen pro ZŠ):  Využití ICT ve výuce – praktická inspirace
       </p>
     </div>
   </BlockEx>
@@ -1756,10 +1755,10 @@ var IIZSInkluze8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
         Novinky:
         <ul>
           <li>Klima třídy a vedení třídnické hodiny v rámci inkluze-8 hod (jen pro ZŠ) </li>
-          <li>Práce s pedagogickým sborem-jak předejít syndromu vyhoření (od června 2018, jen pro ZŠ)</li>
-          <li>Práce s problémovým žákem v rámci inkluze – 8 hodin (od června 2018, pro ZŠ, ŠD, ŠK)</li>
-          <li>Podpora žáků ZŠ v rámci inkluzivního vzdělávání 8 hodin (od června 2018, pro ZŠ, ŠD, ŠK)</li>
-          <li>Připravme se na inkluzivní vzdělávání – 8 hodin (od června 2018, pro ŠD, ŠK)</li>
+          <li>Práce s pedagogickým sborem-jak předejít syndromu vyhoření (jen pro ZŠ)</li>
+          <li>Práce se žákem s problémovým chováním – 8 hodin (pro ZŠ, ŠD, ŠK)</li>
+          <li>Podpora žáků ZŠ v rámci inkluzivního vzdělávání 8 hodin (pro ZŠ, ŠD, ŠK)</li>
+          <li>Připravme se na inkluzivní vzdělávání – 8 hodin (pro ŠD, ŠK)</li>
         </ul>
       </p>
     </div>
@@ -1786,7 +1785,7 @@ var IIZSInkluze1632: React.StatelessComponent<IKurzProps> = (props: IKurzProps, 
         Novinky:
         <ul>
           <li>Klima třídy a vedení třídnické hodiny v rámci inkluze-16 hod (jen pro ZŠ) </li>
-          <li>Společné vzdělávání v teorii a praxi – 16 hodin (od června 2018, pro ZŠ, ŠD, ŠK)</li>
+          <li>Společné vzdělávání v teorii a praxi – 16 hodin (pro ZŠ, ŠD, ŠK)</li>
         </ul>
       </p>
     </div>
@@ -1814,7 +1813,7 @@ var IIZUSInkluze8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
   <BlockEx>
     <div className='alert alert-info' style={{ fontSize: '18px' }}>
       <p>
-        Nabízíme kurz:  Připravme se na inkluzivní vzdělávání (od června 2018)
+        Nabízíme kurz:  Připravme se na inkluzivní vzdělávání
       </p>
     </div>
   </BlockEx>
@@ -1832,8 +1831,8 @@ var IIZUSRozvoj8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
       <p>
         Nabízíme následující kurzy:
         <ul>
-          <li>Osobnostně sociální rozvoj v oblasti komunikace (od června 2018)</li>
-          <li>Aspekty emoční a sociální inteligence pedagoga 8 hodin (od června 2018)</li>
+          <li>Osobnostně sociální rozvoj v oblasti komunikace</li>
+          <li>Aspekty emoční a sociální inteligence pedagoga 8 hodin</li>
         </ul>
       </p>
     </div>
@@ -1855,7 +1854,7 @@ var IIZUSICT8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
   <BlockEx>
     <div className='alert alert-info' style={{ fontSize: '18px' }}>
       <p>
-        Nabízíme kurz:  Využití ICT ve výuce – praktická inspirace (od června 2018)
+        Nabízíme kurz:  Využití ICT ve výuce – praktická inspirace
       </p>
     </div>
   </BlockEx>
@@ -1873,15 +1872,23 @@ var IIZUSICT8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
 var IIMSInkluze16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
-  <ObsahInkluzeMS />
-  <BlockEx>
-    Nabízíme více 16 hodinových akreditovaných kurzů.
-          Každý kurz obsahuje část témat ze seznamu <i>Obsah kurzů</i> na této stránce.
-          Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
-        </BlockEx>
+  <BlockEx header="Nabízíme následující kurzy:">
+    <ul>
+      <li>Společné vzdělávání dětí v MŠ – 8 hodin (od září 2018)</li>
+      <li>Inkluze – společné vzdělávání pro MŠ 16 vyučovacích hodin</li>
+      <li>Inkluze v MŠ v teorii a praxi – 16 hodin</li>
+    </ul>
+  </BlockEx>
+
+  <BlockEx header="Výuka ve sborovně:">
+    <p>
+      <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve vámi zvoleném termínu.</b>
+    </p>
+  </BlockEx>
+
   <BlockEx header="Potřebné šablony: ">
     <div>
-      <p>Pro každého učitele je potřeba objednat 2x šablonu 2.I/6 Vzdělávání pedagogických pracovníků MŠ – DVPP v rozsahu 8 hodin  varianta <b>e.
+      <p>Pro každého učitele je potřeba objednat 1-2x šablonu 2.I/6 Vzdělávání pedagogických pracovníků MŠ – DVPP v rozsahu 8 hodin  varianta <b>e.
               inkluze</b>
       </p>
     </div>
@@ -1897,8 +1904,11 @@ var IIMSRozvoj16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
       <p>
         Nabízíme následující kurzy:
         <ul>
-          <li>Vybrané aspekty emoční a sociální inteligence pedagoga</li>
-          <li>Osobnostní a sociální rozvoj učitele</li>
+          <li>Aspekty emoční a sociální inteligence pedagoga v MŠ (8 hod, od září 2018)</li>
+          <li>Efektivní komunikace pro pedagogické pracovníky (8 hod, od září 2018)</li>
+          <li>Prevence syndromu vyhoření rozvojem tělesné inteligence (8 hod, od září 2018)</li>
+          <li>Vybrané aspekty emoční a sociální inteligence pedagoga (16 hod)</li>
+          <li>Osobnostní a sociální rozvoj učitele (16 hod)</li>
         </ul>
       </p>
     </div>
@@ -1909,7 +1919,7 @@ var IIMSRozvoj16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
     </p>
   </BlockEx>
   <BlockEx header="Potřebné šablony: ">
-    <p>Pro každého učitele je potřeba objednat 2x šablonu 2.I/6 Vzdělávání pedagogických pracovníků MŠ – DVPP v rozsahu 8 hodin  varianta d. osobnostně sociální rozvoj</p>
+    <p>Pro každého učitele je potřeba objednat 1-2x šablonu 2.I/6 Vzdělávání pedagogických pracovníků MŠ – DVPP v rozsahu 8 hodin  varianta d. osobnostně sociální rozvoj</p>
   </BlockEx>
   <BonusAlert />
 </Panel>
@@ -1918,27 +1928,22 @@ var IIMSRozvoj16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
 var IIMSCtenarska16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
-  <BlockEx header="Ukázka z témat:  ">
+  <BlockEx header="Nabízíme následující kurzy">
     <ul className='fa-ul'>
-      <LiFile>předškolní období a vnitřní motivace ke čtení, budování si vztahu ke knihám a porozumění čteného textu</LiFile>
-      <LiFile>předpoklady pro čtení – genetické předpoklady, percepčně-kognitivní zralost, zralost nervové soustavy, podnětné prostředí </LiFile>
-      <LiFile>činnosti a hry pro rozvoj zrakového a sluchového vnímání</LiFile>
-      <LiFile>rozvoj představivosti a fantazie z hlediska důležitosti pro rozvoj předčtenářské gramotnosti</LiFile>
-      <LiFile>rozvoj myšlení – vývoj a úrovně myšlení – předřečové myšlení, předpojmové myšlení, pojmové myšlení, analýza, syntéza, srovnávání, zobecňování</LiFile>
-      <LiFile>vývoj a rozvoj řeči a komunikačních schopností, slovní zásoba, znalost významu slov</LiFile>
-      <LiFile>obrázkové osnovy, obrázkové čtení</LiFile>
+      <LiFile>Rozvoj předčtenářské gramotnosti – 8 hodin (od září 2018)</LiFile>
+      <LiFile>Rozvoj čtenářské pregramotnosti u dětí v MŠ – 16 hodin</LiFile>
+      <LiFile>Rozvoj předčtenářské gramotnosti u dětí předškolního věku (16 hod)</LiFile>
+      <LiFile>Podpora čtenářské gramotnosti v MŠ (16 hod)</LiFile>
     </ul>
   </BlockEx>
-  <BlockEx>
+  <BlockEx header="Výuka ve sborovně:">
     <p>
-      Nabízíme několik různých 16 hodinových akreditovaných kurzů.
-      Kurzy obsahují část z témat výše + spoustu dalších.
-      Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
+      <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve vámi zvoleném termínu.</b>
     </p>
   </BlockEx>
   <BlockEx header="Potřebné šablony: ">
     <div>
-      <p>Pro každého učitele je potřeba objednat 2x šablonu 2.I/6 Vzdělávání pedagogických pracovníků MŠ – DVPP v rozsahu 8 hodin  varianta <b>a.
+      <p>Pro každého učitele je potřeba objednat 1-2x šablonu 2.I/6 Vzdělávání pedagogických pracovníků MŠ – DVPP v rozsahu 8 hodin  varianta <b>a.
               čtenářská pregramotnost</b>
       </p>
     </div>
@@ -1949,30 +1954,22 @@ var IIMSCtenarska16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, 
 var IIMSMatematicka16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
-  <BlockEx header="Ukázka z témat:  ">
+  <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
-      <LiFile>cíle předmatematické výchovy, příprava na matematiku</LiFile>
-      <LiFile>příprava dítěte na zpracování informací v zadání slovní úlohy, rozvoj řeči, komunikace,  paměti,  představ, prostorového vnímání</LiFile>
-      <LiFile>aktivity spojené s porovnáváním (porovnávání hmatem, sluchem, zrakem)</LiFile>
-      <LiFile>aktivity spojené s přiřazováním, hry, orientace v prostoru</LiFile>
-      <LiFile>typy třídění – podle druhu, barvy, velikosti, tvaru</LiFile>
-      <LiFile>řazení a uspořádání, vzájemné postavení objektů</LiFile>
-      <LiFile>počet – určování počtu, počítání po jedné, určování počtu objektů na první pohled</LiFile>
-      <LiFile>nezávislost počtu objektů na velikosti, barvě, vzájemného postavení, vzdálenosti</LiFile>
-      <LiFile>o skřítku Početníčkovi – rozvoj řeči, počítání předmětů, jednoduché slovní úlohy</LiFile>
-      <LiFile>matematika v přírodě, využití školní zahrady</LiFile>
+      <LiFile>Rozvoj předmatematické gramotnosti – 8 hodin (od září 2018)</LiFile>
+      <LiFile>Rozvoj matematické pregramotnosti u dětí v MŠ – 16 hodin</LiFile>
+      <LiFile>Rozvoj předmatematické gramotnosti u předškolních dětí (16 hod)</LiFile>
+      <LiFile>Předmatematická gramotnost nově (16 hod)</LiFile>
     </ul>
   </BlockEx>
-  <BlockEx>
+  <BlockEx header="Výuka ve sborovně:">
     <p>
-      Nabízíme několik různých 16 hodinových akreditovaných kurzů.
-      Kurzy obsahují část z témat výše + spoustu dalších.
-      Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
+      <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve vámi zvoleném termínu.</b>
     </p>
   </BlockEx>
   <BlockEx header="Potřebné šablony: ">
     <div>
-      <p>Pro každého učitele je potřeba objednat 2x šablonu 2.I/6 Vzdělávání pedagogických pracovníků MŠ – DVPP v rozsahu 8 hodin varianta <b>b.
+      <p>Pro každého učitele je potřeba objednat 1-2x šablonu 2.I/6 Vzdělávání pedagogických pracovníků MŠ – DVPP v rozsahu 8 hodin varianta <b>b.
               matematická pregramotnost</b>
       </p>
     </div>
@@ -1983,11 +1980,22 @@ var IIMSMatematicka16: React.StatelessComponent<IKurzProps> = (props: IKurzProps
 var IIMSPripravujeme: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
-  <BlockEx>
+  <BlockEx header="Nabízíme následující kurz:">
+    <ul className='fa-ul'>
+      <LiFile>Kreativní využití MS Office pro pedagogy MŠ a ZUŠ – 8 hod (od září 2018)</LiFile>
+    </ul>
+  </BlockEx>
+  <BlockEx header="Výuka ve sborovně:">
     <p>
-      Připravujeme kurzy v délce 8 hodin na následující témata:<br />
-      Inkluze, čtenářská pregramotnost, matematická pregramotnost, osobnostně sociální rozvoj, ICT<br />
-      Kurzy budou dostupné od září 2018
+      <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve vámi zvoleném termínu.</b>
     </p>
   </BlockEx>
+  <BlockEx header="Potřebné šablony: ">
+    <div>
+      <p>Pro každého učitele je potřeba objednat 1x šablonu 2.I/6 Vzdělávání pedagogických pracovníků MŠ – DVPP v rozsahu 8 hodin varianta <b>h.
+              ICT</b>
+      </p>
+    </div>
+  </BlockEx>
+  <BonusAlert />
 </Panel>;
