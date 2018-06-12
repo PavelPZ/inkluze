@@ -1585,14 +1585,14 @@ var IIZSCtenarska1632: React.StatelessComponent<IKurzProps> = (props: IKurzProps
           <LiFile>Čtenářská a informační gramotnost napříč všemi předměty (16 hod)</LiFile>
           <LiFile>Čtenářství – průvodce každodenním životem, cesta je vzdělání (16 hod)</LiFile>
           <LiFile>Metody k rozvíjení čtenářských strategií (16 hod)</LiFile>
-          <LiFile>Inspirace k rozvíjení čtenářské gramotnosti v ČJL (16 hod)</li >
-          <LiFile>Rozvoj čtenářské gramotnosti u žáků ZŠ – 16 hodin</li >
-          <LiFile>Metody a formy práce v rozvoji čtenářské gramotnosti (16 hod)</li >
-          <LiFile>Čtenářská gramotnost a její rozvoj u žáků základních škol (16 hod)</li >
-          <LiFile>Čtenářská gramotnost napříč všemi předměty (32 hod)</li >
-          <LiFile>Čtenářství, aneb jak se při vzdělávání vzájemně nenudit (32 hod)</li >
-          <LiFile>Rozvoj čtenářské gramotnosti u žáků ZŠ (32 hod)</li >
-          <LiFile>Metody a formy práce v rozvoji čtenářské gramotnosti (32 hod)</li >
+          <LiFile>Inspirace k rozvíjení čtenářské gramotnosti v ČJL (16 hod)</LiFile>
+          <LiFile>Rozvoj čtenářské gramotnosti u žáků ZŠ – 16 hodin</LiFile>
+          <LiFile>Metody a formy práce v rozvoji čtenářské gramotnosti (16 hod)</LiFile>
+          <LiFile>Čtenářská gramotnost a její rozvoj u žáků základních škol (16 hod)</LiFile>
+          <LiFile>Čtenářská gramotnost napříč všemi předměty (32 hod)</LiFile>
+          <LiFile>Čtenářství, aneb jak se při vzdělávání vzájemně nenudit (32 hod)</LiFile>
+          <LiFile>Rozvoj čtenářské gramotnosti u žáků ZŠ (32 hod)</LiFile>
+          <LiFile>Metody a formy práce v rozvoji čtenářské gramotnosti (32 hod)</LiFile>
         </ul>
   </BlockEx>
   <BlockEx header="Výuka ve sborovně:">
