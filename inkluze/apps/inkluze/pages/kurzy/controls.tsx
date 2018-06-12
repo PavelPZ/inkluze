@@ -1392,9 +1392,9 @@ var KurzyIIList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.I
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.IIZSCtenarska1632)}</LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.IIZSMatematicka8)}</LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.IIZSMatematicka1632)}</LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.IIZSRozvoj8)}</LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.IIZSRozvoj1624)}</LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.IIZSICT8)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.IIZSRozvoj81624)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.IIZSICT81624)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.IIZSKariera8)}</LiFile>
       </ul>
     </Col>
     <Col md={4}>
@@ -1417,7 +1417,7 @@ var KurzyIIList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.I
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.IIMSCtenarska16)}</LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.IIMSMatematicka16)}</LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.IIMSRozvoj16)}</LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.IIMSPripravujeme)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.IIMSIct8)}</LiFile>
       </ul>
     </Col>
   </Row>
@@ -1626,6 +1626,7 @@ var IIZSMatematicka8: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
           <li>Rozvoj matematické gramotnosti pro ZŠ 8 hodin (jen pro ZŠ):</li>
           <li>GeoGebra jako nástroj rozvoje matematické gramotnosti na ZŠ (jen pro ZŠ)</li>
           <li>Deskové a karetní hry pro rozvoj matematické gramotnosti (pro ZŠ, ŠD, ŠK)</li>
+          <li>Moderní technologie při rozvoji matematické gramotnosti na ZŠ (pro ZŠ, ŠD, ŠK, SVČ)</li>
         </ul>
       </p>
     </div>
@@ -1671,19 +1672,13 @@ var IIZSMatematicka1632: React.StatelessComponent<IKurzProps> = (props: IKurzPro
 
 </Panel>;
 
-var IIZSRozvoj8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+var IIZSKariera8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
   <BlockEx>
     <div className='alert alert-info' style={{ fontSize: '18px' }}>
       <p>
-        Nabízíme následující kurzy:
-        <ul>
-          <li>Osobnostně sociální rozvoj v oblasti komunikace (i pro ŠD, ŠK)</li>
-          <li>Aspekty emoční a sociální inteligence pedagoga 8 hodin (i pro ŠD, ŠK)</li>
-          <li>Osobnostně sociální rozvoj učitele v sebepoznání (jen pro ZŠ)</li>
-          <li>Osobnostní a sociální rozvoj učitele ve zvládání konfliktů  (jen pro ZŠ)</li>
-        </ul>
+        Nabízíme kurz (jen pro ZŠ): Individuální a skupinové kariérové vzdělávání v praxi (od září 2018)
       </p>
     </div>
   </BlockEx>
@@ -1693,12 +1688,13 @@ var IIZSRozvoj8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
     </p>
   </BlockEx>
   <BlockEx header="Potřebné šablony: ">
-    <p>Pro každého učitele je potřeba objednat šablonu 2.II/6 Vzdělávání pedagogických pracovníků ZŠ – DVPP v rozsahu 8 hodin  nebo 2.V/4 Vzdělávání pedagogických pracovníků ŠD/ŠK – DVPP v rozsahu 8 hodin  varianta d. osobnostně sociální rozvoj</p>
+    <p>Pro každého učitele je potřeba objednat šablonu 2.II/6 Vzdělávání pedagogických pracovníků ZŠ – DVPP v rozsahu 8 hodin varianta f.
+      kariérové vzdělávání</p>
   </BlockEx>
   <BonusAlert />
 </Panel>
 
-var IIZSRozvoj1624: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+var IIZSRozvoj81624: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">16</Label>&nbsp;<Label bsStyle="warning">24</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
   <BlockEx>
@@ -1706,9 +1702,16 @@ var IIZSRozvoj1624: React.StatelessComponent<IKurzProps> = (props: IKurzProps, c
       <p>
         Nabízíme následující kurzy (jen pro ZŠ):
         <ul>
-          <li>Vybrané aspekty emoční a sociální inteligence pedagoga_16</li>
+          <li>Osobnostně sociální rozvoj v oblasti komunikace (8 hod, ZŠ, ŠD, ŠK)</li>
+          <li>Aspekty emoční a sociální inteligence pedagoga 8 hodin (8 hod, ZŠ, ŠD, ŠK)</li>
+          <li>Osobnostně sociální rozvoj učitele v sebepoznání (8 hod, jen pro ZŠ)</li>
+          <li>Osobnostní a sociální rozvoj učitele ve zvládání konfliktů (8 hod, jen pro ZŠ)</li>
+          <li>Rozvoj osobnosti pedagoga a zásady efektivní komunikace (8 hod, od září 2018)</li>
+          <li>Efektivní komunikace pro pedagogické pracovníky (8 hod, od září 2018)</li>
+          <li>Prevence syndromu vyhoření rozvojem tělesné inteligence (8 hod, od září 2018)</li>
+          <li>Vybrané aspekty emoční a sociální inteligence pedagoga_16 </li>
           <li>Osobnostní a sociální rozvoj učitele (16 hod)</li>
-          <li>Vybrané aspekty emoční a sociální inteligence pedagoga_24</li>
+          <li>Vybrané aspekty emoční a sociální inteligence pedagoga_24 </li>
           <li>Profesní kompetence učitele a jeho osobnostně sociální rozvoj (24 hod)</li>
         </ul>
       </p>
@@ -1720,18 +1723,24 @@ var IIZSRozvoj1624: React.StatelessComponent<IKurzProps> = (props: IKurzProps, c
     </p>
   </BlockEx>
   <BlockEx header="Potřebné šablony: ">
-    <p>Pro každého učitele je potřeba objednat 2x-3x šablonu 2.II/6 Vzdělávání pedagogických pracovníků ZŠ – DVPP v rozsahu 8 hodin varianta d. osobnostně sociální rozvoj</p>
+    <p>Pro každého učitele je potřeba objednat 1x-3x šablonu 2.II/6 Vzdělávání pedagogických pracovníků ZŠ – DVPP v rozsahu 8 hodin varianta d. osobnostně sociální rozvoj</p>
   </BlockEx>
   <BonusAlert />
 </Panel>
 
-var IIZSICT8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">24</Label>  <span style={headerCss}>{props.title}</span></h3>
+var IIZSICT81624: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+  <h3><Label bsStyle="warning">8</Label> <Label bsStyle="warning">16</Label> <Label bsStyle="warning">24</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
   <BlockEx>
     <div className='alert alert-info' style={{ fontSize: '18px' }}>
       <p>
-        Nabízíme kurz (jen pro ZŠ):  Využití ICT ve výuce – praktická inspirace
+        Nabízíme následující kurzy:
+        <ul>
+          <li>Využití ICT ve výuce – praktická inspirace (8 hod)</li>
+          <li>Efektivní využití MS Office pro pedagogy – 8 hodin (od září 2018)</li>
+          <li>Efektivní využití MS Office pro pedagogy – 16 hodin (od září 2018)</li>
+          <li>Efektivní využití MS Office a výukových technologií–24 hod (od září 2018)</li>
+        </ul>
       </p>
     </div>
   </BlockEx>
@@ -1741,7 +1750,7 @@ var IIZSICT8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: si
     </p>
   </BlockEx>
   <BlockEx header="Potřebné šablony: ">
-    <p>Pro každého učitele je potřeba objednat šablonu 2.II/6 Vzdělávání pedagogických pracovníků ZŠ – DVPP v rozsahu 8 hodin  varianta h. ICT</p>
+    <p>Pro každého učitele je potřeba objednat 1-3x šablonu 2.II/6 Vzdělávání pedagogických pracovníků ZŠ – DVPP v rozsahu 8 hodin  varianta h. ICT</p>
   </BlockEx>
   <BonusAlert />
 </Panel>
@@ -1833,6 +1842,8 @@ var IIZUSRozvoj8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
         <ul>
           <li>Osobnostně sociální rozvoj v oblasti komunikace</li>
           <li>Aspekty emoční a sociální inteligence pedagoga 8 hodin</li>
+          <li>Efektivní komunikace pro pedagogické pracovníky (od září 2018)</li>
+          <li>Prevence syndromu vyhoření rozvojem tělesné inteligence (od září 2018)</li>
         </ul>
       </p>
     </div>
@@ -1851,12 +1862,11 @@ var IIZUSRozvoj8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
 var IIZUSICT8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">24</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
-  <BlockEx>
-    <div className='alert alert-info' style={{ fontSize: '18px' }}>
-      <p>
-        Nabízíme kurz:  Využití ICT ve výuce – praktická inspirace
-      </p>
-    </div>
+  <BlockEx header="Nabízíme následující kurzy:">
+    <ul>
+      <li>Využití ICT ve výuce – praktická inspirace</li>
+      <li>Kreativní využití MS Office pro pedagogy MŠ a ZUŠ – 8 hod (od září 2018)</li>
+    </ul>
   </BlockEx>
   <BlockEx header="Výuka ve sborovně:">
     <p>
@@ -1977,7 +1987,7 @@ var IIMSMatematicka16: React.StatelessComponent<IKurzProps> = (props: IKurzProps
   <BonusAlert />
 </Panel>;
 
-var IIMSPripravujeme: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+var IIMSIct8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
   <BlockEx header="Nabízíme následující kurz:">

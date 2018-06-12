@@ -50,15 +50,15 @@
     IIMSMatematicka16: site.INode;
     IIMSCtenarska16: site.INode;
     IIMSInkluze16: site.INode;
-    IIMSPripravujeme: site.INode;
+    IIMSIct8: site.INode;
     IIZSInkluze8: site.INode;
     IIZSInkluze1632: site.INode;
     IIZUSInkluze8: site.INode;
     IIZUSRozvoj8: site.INode;
     IIZUSICT8: site.INode;
-    IIZSICT8: site.INode;
-    IIZSRozvoj1624: site.INode;
-    IIZSRozvoj8: site.INode;
+    IIZSICT81624: site.INode;
+    IIZSRozvoj81624: site.INode;
+    IIZSKariera8: site.INode;
     IIZSCtenarska1632: site.INode;
     IIZSCtenarska8: site.INode;
     IIZSMatematicka8: site.INode;
@@ -279,24 +279,24 @@
           title: 'Inkluze - 8/16 hod',
           createPage: par => React.createElement(KurzyII),
         },
-        IIMSPripravujeme: {
-          id: 'IIMSPripravujeme',
+        IIMSIct8: {
+          id: 'IIMSIct8',
           title: 'ICT - 8 hod',
           createPage: par => React.createElement(KurzyII),
         },
-        IIZSRozvoj8: {
-          id: 'IIZSRozvoj8',
-          title: 'Osobnostně sociální rozvoj - 8 hod',
+        IIZSKariera8: {
+          id: 'IIZSKariera8',
+          title: 'Kariérové vzdělávání - 8 hod',
           createPage: par => React.createElement(KurzyII),
         },
-        IIZSRozvoj1624: {
-          id: 'IIZSRozvoj1624',
+        IIZSRozvoj81624: {
+          id: 'IIZSRozvoj81624',
           title: 'Osobnostně sociální rozvoj - 16/24 hod',
           createPage: par => React.createElement(KurzyII),
         },
-        IIZSICT8: {
-          id: 'IIZSICT8',
-          title: 'Kurz ICT - 8 hod',
+        IIZSICT81624: {
+          id: 'IIZSICT81624',
+          title: 'Kurz ICT - 8/16/24 hod',
           createPage: par => React.createElement(KurzyII),
         },
         IIZSMatematicka8: {
