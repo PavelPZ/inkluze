@@ -628,7 +628,7 @@ var SSRozvoj1624: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
 </Panel>
 
 var SSICT1624: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">24</Label>  <span style={headerCss}>{props.title}</span></h3>
+  <h3><Label bsStyle="warning">16</Label> <Label bsStyle="warning">24</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
@@ -642,14 +642,14 @@ var SSICT1624: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
     </p>
   </BlockEx>
   <BlockEx header="Potřebné šablony: ">
-    <p>Pro každého učitele je potřeba objednat šablonu  {popups.ss_16_hodin_DVPP}&nbsp;nebo {popups.vos_16_hodin_DVPP}&nbsp;nebo {popups.ss_24_hodin_DVPP}&nbsp;nebo {popups.vos_24_hodin_DVPP}&nbsp;varianta <b>i.
-              Osobnostně sociální rozvoj</b></p>
+    <p>Pro každého učitele je potřeba objednat šablonu  {popups.ss_16_hodin_DVPP}&nbsp;nebo {popups.vos_16_hodin_DVPP}&nbsp;nebo {popups.ss_24_hodin_DVPP}&nbsp;nebo {popups.vos_24_hodin_DVPP}&nbsp;varianta <b>5.
+              ICT</b></p>
   </BlockEx>
   <BonusAlert />
 </Panel>
 
 var SSICT8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">24</Label>  <span style={headerCss}>{props.title}</span></h3>
+  <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
@@ -863,7 +863,7 @@ var SSCtenarska8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
 </Panel>;
 
 var SSCtenarska1624: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
+  <h3><Label bsStyle="warning">16</Label> <Label bsStyle="warning">24</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
   <BlockEx header="Ukázky z témat:  ">
     <ul className='fa-ul'>
@@ -1077,7 +1077,7 @@ var SSMatematicka8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, c
 </Panel >;
 
 var SSMatematicka1624: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
+  <h3><Label bsStyle="warning">16</Label> <Label bsStyle="warning">24</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
   <BlockEx header="Ukázky z témat:  ">
     <ul className='fa-ul'>
@@ -1829,7 +1829,7 @@ var IIZUSRozvoj8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
 </Panel>
 
 var IIZUSICT8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">24</Label>  <span style={headerCss}>{props.title}</span></h3>
+  <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
@@ -1952,7 +1952,7 @@ var IIMSMatematicka16: React.StatelessComponent<IKurzProps> = (props: IKurzProps
 </Panel>;
 
 var IIMSIct8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
+  <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
   <BlockEx header="Nabízíme následující kurz:">
     <ul className='fa-ul'>
