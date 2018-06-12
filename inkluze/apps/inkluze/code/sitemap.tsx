@@ -30,19 +30,19 @@
 
   export interface ISiteKurzySS extends site.INode {
     SSRozvoj8: site.INode;
-    SSRozvoj16: site.INode;
-    SSRozvoj24: site.INode;
+    SSRozvoj1624: site.INode;
+    SSICT1624: site.INode;
     SSICT8: site.INode;
     SSInkluze8: site.INode;
     SSInkluze16: site.INode;
     SSInkluze24: site.INode;
     SSMentoring80: site.INode;
     SSCtenarska8: site.INode;
-    SSCtenarska16: site.INode;
+    SSCtenarska1624: site.INode;
     SSCtenarska24: site.INode;
     SSMatematicka8: site.INode;
-    SSMatematicka16: site.INode;
-    SSMatematicka24: site.INode;
+    SSMatematicka1624: site.INode;
+    SSKariera: site.INode;
   }
 
   export interface ISiteKurzyII extends site.INode {
@@ -190,14 +190,14 @@
           title: 'Osobnostně sociální rozvoj - 8 hod',
           createPage: par => React.createElement(KurzySS),
         },
-        SSRozvoj16: {
-          id: 'SSRozvoj16',
-          title: 'Osobnostně sociální rozvoj - 16 hod',
+        SSRozvoj1624: {
+          id: 'SSRozvoj1624',
+          title: 'Osobnostně sociální rozvoj - 16/24 hod',
           createPage: par => React.createElement(KurzySS),
         },
-        SSRozvoj24: {
-          id: 'SSRozvoj24',
-          title: 'Osobnostně sociální rozvoj - 24 hod',
+        SSICT1624: {
+          id: 'SSICT1624',
+          title: 'Využití ICT ve výuce - 16/24 hod',
           createPage: par => React.createElement(KurzySS),
         },
         SSICT8: {
@@ -230,9 +230,9 @@
           title: 'Čtenářská gramotnost - 8 hodinový kurz',
           createPage: par => React.createElement(KurzySS),
         },
-        SSCtenarska16: {
-          id: 'SSCtenarska16',
-          title: 'Čtenářská gramotnost - 16 hodinový kurz',
+        SSCtenarska1624: {
+          id: 'SSCtenarska1624',
+          title: 'Čtenářská gramotnost - 16/24 hodinový kurz',
           createPage: par => React.createElement(KurzySS),
         },
         SSCtenarska24: {
@@ -245,14 +245,14 @@
           title: 'Matematická gramotnost - 8 hodinový kurz',
           createPage: par => React.createElement(KurzySS),
         },
-        SSMatematicka16: {
-          id: 'SSMatematicka16',
-          title: 'Matematická gramotnost - 16 hodinový kurz',
+        SSMatematicka1624: {
+          id: 'SSMatematicka1624',
+          title: 'Matematická gramotnost - 16/24 hodinový kurz',
           createPage: par => React.createElement(KurzySS),
         },
-        SSMatematicka24: {
-          id: 'SSMatematicka24',
-          title: 'Matematická gramotnost - 24 hodinový kurz',
+        SSKariera: {
+          id: 'SSKariera',
+          title: 'Kariérové vzdělávání',
           createPage: par => React.createElement(KurzySS),
         },
       },

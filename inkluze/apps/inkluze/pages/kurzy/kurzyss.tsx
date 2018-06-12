@@ -88,17 +88,17 @@ function getSSLoaders(): Array<Array<ICourseSSLoader>> {
     ],
     [
       { id: 'SSRozvoj8', create: expanded => <SSRozvoj8 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSRozvoj8.title} /> },
-      { id: 'SSRozvoj16', create: expanded => <SSRozvoj16 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSRozvoj16.title} /> },
-      { id: 'SSRozvoj24', create: expanded => <SSRozvoj24 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSRozvoj24.title} /> },
+      { id: 'SSRozvoj1624', create: expanded => <SSRozvoj1624 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSRozvoj1624.title} /> },
+      { id: 'SSICT1624', create: expanded => <SSICT1624 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSICT1624.title} /> },
       { id: 'SSICT8', create: expanded => <SSICT8 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSICT8.title} /> },
     ],
     [
       { id: 'SSCtenarska8', create: expanded => <SSCtenarska8 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSCtenarska8.title} /> },
-      { id: 'SSCtenarska16', create: expanded => <SSCtenarska16 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSCtenarska16.title} /> },
+      { id: 'SSCtenarska1624', create: expanded => <SSCtenarska1624 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSCtenarska1624.title} /> },
       { id: 'SSCtenarska24', create: expanded => <SSCtenarska24 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSCtenarska24.title} /> },
       { id: 'SSMatematicka8', create: expanded => <SSMatematicka8 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSMatematicka8.title} /> },
-      { id: 'SSMatematicka16', create: expanded => <SSMatematicka16 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSMatematicka16.title} /> },
-      { id: 'SSMatematicka24', create: expanded => <SSMatematicka24 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSMatematicka24.title} /> },
+      { id: 'SSMatematicka1624', create: expanded => <SSMatematicka1624 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSMatematicka1624.title} /> },
+      { id: 'SSKariera', create: expanded => <SSKariera defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSKariera.title} /> },
     ]
   ];
   res.forEach(l => l.forEach(ll => ll.id = ll.id.toLowerCase()));
