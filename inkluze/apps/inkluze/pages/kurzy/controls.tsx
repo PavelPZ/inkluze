@@ -1617,7 +1617,7 @@ var IIZSMatematicka8: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
           <LiFile>Rozvoj matematické gramotnosti pro ZŠ 8 hodin (jen pro ZŠ):</LiFile>
           <LiFile>GeoGebra jako nástroj rozvoje matematické gramotnosti na ZŠ (jen pro ZŠ)</LiFile>
           <LiFile>Deskové a karetní hry pro rozvoj matematické gramotnosti (pro ZŠ, ŠD, ŠK)</LiFile>
-          <LiFile>Moderní technologie při rozvoji matematické gramotnosti na ZŠ (pro ZŠ, ŠD, ŠK, SVČ)</LiFile>
+          <LiFile>Moderní technologie při rozvoji matematické gramotnosti na ZŠ (pro ZŠ, ŠD, ŠK, SVČ – od září 2018)</LiFile>
         </ul>
   </BlockEx>
   <BlockEx header="Výuka ve sborovně:">

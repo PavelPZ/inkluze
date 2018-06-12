@@ -291,12 +291,12 @@
         },
         IIZSRozvoj81624: {
           id: 'IIZSRozvoj81624',
-          title: 'Osobnostně sociální rozvoj - 16/24 hod',
+          title: 'Osobnostně sociální rozvoj - 8/16/24 hod',
           createPage: par => React.createElement(KurzyII),
         },
         IIZSICT81624: {
           id: 'IIZSICT81624',
-          title: 'Kurz ICT - 8/16/24 hod',
+          title: 'Kurzy ICT - 8/16/24 hod',
           createPage: par => React.createElement(KurzyII),
         },
         IIZSMatematicka8: {
