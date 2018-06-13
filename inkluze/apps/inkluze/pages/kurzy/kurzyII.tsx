@@ -97,10 +97,10 @@ function getIILoaders(): Array<Array<ICourseIILoader>> {
       { id: 'IIZUSICT8', create: expanded => <IIZUSICT8 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIZUSICT8.title} /> },
     ],
     [
-      { id: 'IIMSInkluze16', create: expanded => <IIMSInkluze16 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIMSInkluze16.title} /> },
-      { id: 'IIMSCtenarska16', create: expanded => <IIMSCtenarska16 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIMSCtenarska16.title} /> },
-      { id: 'IIMSMatematicka16', create: expanded => <IIMSMatematicka16 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIMSMatematicka16.title} /> },
-      { id: 'IIMSRozvoj16', create: expanded => <IIMSRozvoj16 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIMSRozvoj16.title} /> },
+      { id: 'IIMSInkluze816', create: expanded => <IIMSInkluze816 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIMSInkluze816.title} /> },
+      { id: 'IIMSCtenarska816', create: expanded => <IIMSCtenarska816 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIMSCtenarska816.title} /> },
+      { id: 'IIMSMatematicka816', create: expanded => <IIMSMatematicka816 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIMSMatematicka816.title} /> },
+      { id: 'IIMSRozvoj816', create: expanded => <IIMSRozvoj816 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIMSRozvoj816.title} /> },
       { id: 'IIMSIct8', create: expanded => <IIMSIct8 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIMSIct8.title} /> },
     ]
   ];

@@ -22,7 +22,7 @@
     ZSMentoring32: site.INode;
     ZSMentoring56: site.INode;
     ZSMentoring80: site.INode;
-    MSInkluze16: site.INode;
+    MSInkluze816: site.INode;
     MSCtenarska: site.INode;
     MSMatematicka: site.INode;
     MSRozvoj16: site.INode;
@@ -39,17 +39,16 @@
     SSMentoring80: site.INode;
     SSCtenarska8: site.INode;
     SSCtenarska1624: site.INode;
-    SSCtenarska24: site.INode;
     SSMatematicka8: site.INode;
     SSMatematicka1624: site.INode;
     SSKariera: site.INode;
   }
 
   export interface ISiteKurzyII extends site.INode {
-    IIMSRozvoj16: site.INode;
-    IIMSMatematicka16: site.INode;
-    IIMSCtenarska16: site.INode;
-    IIMSInkluze16: site.INode;
+    IIMSRozvoj816: site.INode;
+    IIMSMatematicka816: site.INode;
+    IIMSCtenarska816: site.INode;
+    IIMSInkluze816: site.INode;
     IIMSIct8: site.INode;
     IIZSInkluze8: site.INode;
     IIZSInkluze1632: site.INode;
@@ -161,8 +160,8 @@
           createPage: par => React.createElement(Kurzy),
         },
 
-        MSInkluze16: {
-          id: 'MSInkluze16',
+        MSInkluze816: {
+          id: 'MSInkluze816',
           title: 'Inkluze - 16 hodinový kurz pro MŠ',
           createPage: par => React.createElement(Kurzy),
         },
@@ -235,11 +234,6 @@
           title: 'Čtenářská gramotnost - 16/24 hodinový kurz',
           createPage: par => React.createElement(KurzySS),
         },
-        SSCtenarska24: {
-          id: 'SSCtenarska24',
-          title: 'Čtenářská gramotnost - 24 hodinový kurz',
-          createPage: par => React.createElement(KurzySS),
-        },
         SSMatematicka8: {
           id: 'SSMatematicka8',
           title: 'Matematická gramotnost - 8 hodinový kurz',
@@ -259,23 +253,23 @@
       kurzyii: {
         id: 'kurzyii',
         createPage: par => React.createElement(KurzyII),
-        IIMSRozvoj16: {
-          id: 'IIMSRozvoj16',
+        IIMSRozvoj816: {
+          id: 'IIMSRozvoj816',
           title: 'Osobnostně sociální rozvoj - 8/16 hod',
           createPage: par => React.createElement(KurzyII),
         },
-        IIMSMatematicka16: {
-          id: 'IIMSMatematicka16',
+        IIMSMatematicka816: {
+          id: 'IIMSMatematicka816',
           title: 'Matematická pregramotnost - 8/16 hod',
           createPage: par => React.createElement(KurzyII),
         },
-        IIMSCtenarska16: {
-          id: 'IIMSCtenarska16',
+        IIMSCtenarska816: {
+          id: 'IIMSCtenarska816',
           title: 'Čtenářská pregramotnost - 8/16 hod',
           createPage: par => React.createElement(KurzyII),
         },
-        IIMSInkluze16: {
-          id: 'IIMSInkluze16',
+        IIMSInkluze816: {
+          id: 'IIMSInkluze816',
           title: 'Inkluze - 8/16 hod',
           createPage: par => React.createElement(KurzyII),
         },

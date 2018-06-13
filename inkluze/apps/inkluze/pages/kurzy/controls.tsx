@@ -466,7 +466,7 @@ var ZSMentoring80: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
   <BonusAlert />
 </Panel>;
 
-var MSInkluze16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+var MSInkluze816: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
   <ObsahInkluzeMS />
@@ -943,87 +943,6 @@ var SSCtenarska1624: React.StatelessComponent<IKurzProps> = (props: IKurzProps, 
   <BonusAlert />
 </Panel >;
 
-var SSCtenarska24: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">24</Label>  <span style={headerCss}>{props.title}</span></h3>
-</div>} eventKey={2}>
-  <BlockEx header="Ukázky z témat:  ">
-    <ul className='fa-ul'>
-      <LiFile>Čtenářská gramotnost – vyvození sedmi základních strategií čtenářské gramotnosti </LiFile>
-      <LiFile>Seznámení s principem třífázového učení E-U-R a se základními metodami a formami práce a jejich dělením </LiFile>
-      <LiFile>Metody a formy práce, které rozvíjejí nejvíce klíčových kompetencí (vyvození) </LiFile>
-      <LiFile>Pedagogická diagnostika v rámci ČG</LiFile>
-      <LiFile>Aplikace jednotlivých základních metod ve výuce – interaktivní část semináře – interaktivní zapojení účastníků
-        <ul>
-          <LiFile>Brainstorming – princip a různé způsoby využití</LiFile>
-          <LiFile>Myšlenková mapa - princip a různé způsoby využití</LiFile>
-          <LiFile>Práce s textem - princip a různé způsoby využití
-            <ul>
-              <LiFile>vyhledávání a zpracovávání informací</LiFile>
-              <LiFile>metoda I.N.S.E.R.T.</LiFile>
-              <LiFile>skládankové učení</LiFile>
-              <LiFile>párové čtení</LiFile>
-              <LiFile>pětilístek</LiFile>
-              <LiFile>volné psaní</LiFile>
-              <LiFile>třífázový rozhovor</LiFile>
-              <LiFile>další metody RWCT</LiFile>
-            </ul>
-          </LiFile>
-        </ul>
-      </LiFile>
-      <LiFile>Čtenářské strategie
-            <ul>
-          <LiFile>předvídání</LiFile>
-          <LiFile>práce s otázkami</LiFile>
-          <LiFile>hledání souvislostí (já-text, text a další text, text a okolní svět)</LiFile>
-          <LiFile>porozumění neznámému; práce s představami, fantazií</LiFile>
-          <LiFile>výběr klíčové informace</LiFile>
-          <LiFile>shrnutí a zhodnocení informace</LiFile>
-        </ul>
-      </LiFile>
-      <LiFile>Formy a metody na podporu čtenářských dovedností
-            <ul>
-          <LiFile>šifrování</LiFile>
-          <LiFile>analýza textu: metody RWCT</LiFile>
-          <LiFile>rozvoj komunikačních dovedností (kolážování, práce s fotografií a ilustracemi, expertní skupiny)</LiFile>
-          <LiFile>náměty pro tvůrčí psaní</LiFile>
-          <LiFile>drobné metody podporující soustředění se na danou věc </LiFile>
-        </ul>
-      </LiFile>
-      <LiFile>Tvůrčí činnosti na podporu čtenářských dovedností
-            <ul>
-          <LiFile>Trénink vnímání věcí</LiFile>
-          <LiFile>Interpretace/ Variace/ Falzifikace</LiFile>
-          <LiFile>Jak na nápad</LiFile>
-          <LiFile>Význam první věty</LiFile>
-          <LiFile>Kompozice textu</LiFile>
-          <LiFile>Dialog a monolog</LiFile>
-          <LiFile>Konflikt</LiFile>
-        </ul>
-      </LiFile>
-
-
-      <LiFile>Škálování - princip a různé způsoby využití</LiFile>
-      <LiFile>Projektové vyučování</LiFile>
-      <LiFile>další aktivizující metody a formy výuky vedoucí k rozvoji čtenářské gramotnosti</LiFile>
-      <LiFile>Ukázky vlastní práce učitele v rámci rozvoje čtenářské gramotnosti – interaktivní část semináře </LiFile>
-      <LiFile>Diskuse nad konkrétními problémy </LiFile>
-    </ul>
-  </BlockEx >
-  <BlockEx header="Výuka ve sborovně:">
-    <p>
-      <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve vámi zvoleném termínu.</b>
-    </p>
-  </BlockEx>
-  <BlockEx header="Potřebné šablony: ">
-    <div>
-      <p>Pro každého učitele je potřeba objednat šablonu {popups.ss_24_hodin_DVPP}&nbsp;nebo {popups.vos_24_hodin_DVPP}&nbsp;varianta <b>a.
-              čtenářská gramotnost</b>
-      </p>
-    </div>
-  </BlockEx>
-  <BonusAlert />
-</Panel >;
-
 var SSMatematicka8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
@@ -1306,7 +1225,7 @@ var KurzyList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.ICo
     <Col md={4}>
       <h4>MŠ Kurzy</h4>
       <ul className='fa-ul'>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.MSInkluze16)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.MSInkluze816)}</LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.MSCtenarska)}</LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.MSMatematicka)}</LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.MSRozvoj16)}</LiFile>
@@ -1386,10 +1305,10 @@ var KurzyIIList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.I
     <Col md={4}>
       <h4>MŠ Kurzy</h4>
       <ul className='fa-ul'>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.IIMSInkluze16)}</LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.IIMSCtenarska16)}</LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.IIMSMatematicka16)}</LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.IIMSRozvoj16)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.IIMSInkluze816)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.IIMSCtenarska816)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.IIMSMatematicka816)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.IIMSRozvoj816)}</LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.IIMSIct8)}</LiFile>
       </ul>
     </Col>
@@ -1848,8 +1767,8 @@ var IIZUSICT8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
   <BonusAlert />
 </Panel>
 
-var IIMSInkluze16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
+var IIMSInkluze816: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+  <h3><Label bsStyle="warning">8</Label> <Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
@@ -1875,8 +1794,8 @@ var IIMSInkluze16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
   <BonusAlert />
 </Panel>;
 
-var IIMSRozvoj16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
+var IIMSRozvoj816: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+  <h3><Label bsStyle="warning">8</Label> <Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy">
     <ul className='fa-ul'>
@@ -1899,8 +1818,8 @@ var IIMSRozvoj16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
 </Panel>
 
 
-var IIMSCtenarska16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
+var IIMSCtenarska816: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+  <h3><Label bsStyle="warning">8</Label> <Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
   <BlockEx header="Nabízíme následující kurzy">
     <ul className='fa-ul'>
@@ -1925,8 +1844,8 @@ var IIMSCtenarska16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, 
   <BonusAlert />
 </Panel>;
 
-var IIMSMatematicka16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
+var IIMSMatematicka816: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+  <h3><Label bsStyle="warning">8</Label> <Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>

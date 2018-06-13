@@ -95,7 +95,7 @@ function getLoaders(): Array<Array<ICourseLoader>> {
       { id: 'ZSMentoring80', create: expanded => <ZSMentoring80 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzy.ZSMentoring80.title} /> },
     ],
     [
-      { id: 'MSInkluze16', create: expanded => <MSInkluze16 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzy.MSInkluze16.title} /> },
+      { id: 'MSInkluze816', create: expanded => <MSInkluze816 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzy.MSInkluze816.title} /> },
       { id: 'MSCtenarska', create: expanded => <MSCtenarska defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzy.MSCtenarska.title} /> },
       { id: 'MSMatematicka', create: expanded => <MSMatematicka defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzy.MSMatematicka.title} /> },
       { id: 'MSRozvoj16', create: expanded => <MSRozvoj16 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzy.MSRozvoj16.title} /> },
