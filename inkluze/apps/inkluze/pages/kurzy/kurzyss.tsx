@@ -97,7 +97,6 @@ function getSSLoaders(): Array<Array<ICourseSSLoader>> {
       { id: 'SSCtenarska1624', create: expanded => <SSCtenarska1624 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSCtenarska1624.title} /> },
       { id: 'SSMatematicka8', create: expanded => <SSMatematicka8 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSMatematicka8.title} /> },
       { id: 'SSMatematicka1624', create: expanded => <SSMatematicka1624 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSMatematicka1624.title} /> },
-      { id: 'SSKariera', create: expanded => <SSKariera defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSKariera.title} /> },
     ]
   ];
   res.forEach(l => l.forEach(ll => ll.id = ll.id.toLowerCase()));
