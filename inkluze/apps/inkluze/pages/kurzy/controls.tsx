@@ -587,7 +587,7 @@ var SSRozvoj8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
           <LiFile>Osobnostně sociální rozvoj učitele v sebepoznání</LiFile>
           <LiFile>Osobnostně sociální rozvoj učitele v komunikaci</LiFile>
           <LiFile>Osobnostní a sociální rozvoj učitele ve zvládání konfliktů</LiFile>
-          <LiFile>Rozvoj osobnosti pedagoga a zásady efektivní komunikace (od září 2018)</LiFile>
+          <LiFile>Rozvoj osobnosti pedagoga a zásady efektivní komunikace</LiFile>
           {/*<LiFile>Efektivní komunikace pro pedagogické pracovníky (od září 2018)</LiFile>
           <LiFile>Prevence syndromu vyhoření rozvojem tělesné inteligence (od září 2018)</LiFile>*/}
         </ul>
