@@ -1750,7 +1750,7 @@ var IIZUSICT8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
       <LiFile>Využití ICT ve výuce – praktická inspirace</LiFile>
-      <LiFile>Kreativní využití MS Office pro pedagogy MŠ a ZUŠ – 8 hodin</LiFile>
+      <LiFile>Kreativní využití MS Office pro pedagogy – 8 hodin</LiFile>
     </ul>
   </BlockEx>
   <BlockEx header="Výuka ve sborovně:">
@@ -1870,7 +1870,7 @@ var IIMSIct8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: si
 </div>} eventKey={2}>
   <BlockEx header="Nabízíme následující kurz:">
     <ul className='fa-ul'>
-      <LiFile>Kreativní využití MS Office pro pedagogy MŠ a ZUŠ – 8 hodin</LiFile>
+      <LiFile>Kreativní využití MS Office pro pedagogy – 8 hodin</LiFile>
     </ul>
   </BlockEx>
   <BlockEx header="Výuka ve sborovně:">
