@@ -13,12 +13,12 @@
             <Col md={10}>
               <h4>Nabízíme kurzy následujícího zaměření:</h4>
               <ul className='fa-ul'>
-                <LiFile>Inkluze (46 akreditovaných kurzů, dalších 7 kurzů v procesu akreditace)</LiFile>
-                <LiFile>Čtenářská gramotnost (24 akreditovaných kurzů, další 4 kurzy v procesu akreditace)</LiFile>
-                <LiFile>Matematická gramotnost (15 akreditovaných kurzů, další 3 kurzy v procesu akreditace)</LiFile>
+                <LiFile>Inkluze (54 akreditovaných kurzů)</LiFile>
+                <LiFile>Čtenářská gramotnost (29 akreditovaných kurzů)</LiFile>
+                <LiFile>Matematická gramotnost (20 akreditovaných kurzů)</LiFile>
                 <LiFile>Mentoring (3 akreditované kurzy)</LiFile>
-                <LiFile>Osobnostně sociální rozvoj (8 akreditovaných kurzů, další 2 kurzy v procesu akreditace)</LiFile>
-                <LiFile>ICT (1 kurz v procesu akreditace)</LiFile>
+                <LiFile>Osobnostně sociální rozvoj (12 akreditovaných kurzů)</LiFile>
+                <LiFile>ICT (4 akreditované kurzy)</LiFile>
                 <LiFile>Obsah jednotlivých kurzů naleznete na stránkách <a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.kurzy, ev)}>Šablony I – ZŠ a MŠ</a>, <a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.kurzyss, ev)}>Šablony I – SŠ a VOŠ</a> a <a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.kurzyii, ev)}>Šablony II – ZŠ, MŠ, ZUŠ, ŠD, …</a></LiFile>
               </ul>
             </Col>

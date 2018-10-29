@@ -632,8 +632,8 @@ var SSICT1624: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
-      <LiFile>Efektivní využití MS Office pro pedagogy – 16 hodin (od listopadu 2018)</LiFile>
-      <LiFile>Efektivní využití MS Office a výukových technologií – 24 hod (od listopadu 2018)</LiFile>
+      <LiFile>Efektivní využití MS Office pro pedagogy – 16 hodin</LiFile>
+      <LiFile>Efektivní využití MS Office a výukových technologií – 24 hodin</LiFile>
     </ul>
   </BlockEx>
   <BlockEx header="Výuka ve sborovně:">
@@ -653,8 +653,8 @@ var SSICT8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: site
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
-          <LiFile>Využití ICT ve výuce – praktická inspirace (8 hod)</LiFile>
-          <LiFile>Efektivní využití MS Office pro pedagogy – 8 hodin (od listopadu 2018)</LiFile>
+          <LiFile>Využití ICT ve výuce – praktická inspirace – 8 hodin</LiFile>
+          <LiFile>Efektivní využití MS Office pro pedagogy – 8 hodin</LiFile>
         </ul>
   </BlockEx>
   <BlockEx header="Výuka ve sborovně:">
@@ -1628,10 +1628,10 @@ var IIZSICT81624: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
-      <LiFile>Využití ICT ve výuce – praktická inspirace (8 hod)</LiFile>
-      <LiFile>Efektivní využití MS Office pro pedagogy – 8 hodin (od listopadu 2018)</LiFile>
-      <LiFile>Efektivní využití MS Office pro pedagogy – 16 hodin (od listopadu 2018)</LiFile>
-      <LiFile>Efektivní využití MS Office a výukových technologií–24 hod (od listopadu 2018)</LiFile>
+      <LiFile>Využití ICT ve výuce – praktická inspirace - 8 hodin</LiFile>
+      <LiFile>Efektivní využití MS Office pro pedagogy – 8 hodin</LiFile>
+      <LiFile>Efektivní využití MS Office pro pedagogy – 16 hodin</LiFile>
+      <LiFile>Efektivní využití MS Office a výukových technologií – 24 hodin</LiFile>
     </ul>
   </BlockEx>
   <BlockEx header="Výuka ve sborovně:">
@@ -1750,7 +1750,7 @@ var IIZUSICT8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
       <LiFile>Využití ICT ve výuce – praktická inspirace</LiFile>
-      <LiFile>Kreativní využití MS Office pro pedagogy MŠ a ZUŠ – 8 hod (od listopadu 2018)</LiFile>
+      <LiFile>Kreativní využití MS Office pro pedagogy MŠ a ZUŠ – 8 hodin</LiFile>
     </ul>
   </BlockEx>
   <BlockEx header="Výuka ve sborovně:">
@@ -1870,7 +1870,7 @@ var IIMSIct8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: si
 </div>} eventKey={2}>
   <BlockEx header="Nabízíme následující kurz:">
     <ul className='fa-ul'>
-      <LiFile>Kreativní využití MS Office pro pedagogy MŠ a ZUŠ – 8 hod (od listopadu 2018)</LiFile>
+      <LiFile>Kreativní využití MS Office pro pedagogy MŠ a ZUŠ – 8 hodin</LiFile>
     </ul>
   </BlockEx>
   <BlockEx header="Výuka ve sborovně:">
