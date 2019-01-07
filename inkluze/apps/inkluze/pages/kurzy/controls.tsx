@@ -588,6 +588,7 @@ var SSRozvoj8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
           <LiFile>Osobnostně sociální rozvoj učitele v komunikaci</LiFile>
           <LiFile>Osobnostní a sociální rozvoj učitele ve zvládání konfliktů</LiFile>
           <LiFile>Rozvoj osobnosti pedagoga a zásady efektivní komunikace</LiFile>
+          <LiFile>Zásady asertivní a efektivní komunikace </LiFile>
           {/*<LiFile>Efektivní komunikace pro pedagogické pracovníky (od září 2018)</LiFile>
           <LiFile>Prevence syndromu vyhoření rozvojem tělesné inteligence (od září 2018)</LiFile>*/}
         </ul>
@@ -1036,15 +1037,13 @@ var SSMatematicka1624: React.StatelessComponent<IKurzProps> = (props: IKurzProps
   <BonusAlert />
 </Panel >;
 
-var SSKariera: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+var SSKariera8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
-  <BlockEx >
-    <div className='alert alert-info' style={{ fontSize: '18px' }}>
-      <p>
-        Nabízíme kurz: Individuální a skupinové kariérové vzdělávání v praxi (od září 2018)
-      </p>
-    </div>
+  <BlockEx header="Nabízíme následující kurzy:">
+    <ul className='fa-ul'>
+      <LiFile>Role pedagoga v karierovém poradenství – 8 hodin (od dubna 2019)</LiFile>
+    </ul>
   </BlockEx>
 
   <BlockEx header="Výuka ve sborovně:">
@@ -1061,6 +1060,33 @@ var SSKariera: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
   </BlockEx>
   <BonusAlert />
 </Panel>;
+
+var SSVychova8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+  <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
+</div>} eventKey={2}>
+
+  <BlockEx header="Nabízíme následující kurzy:">
+      <ul className='fa-ul'>
+        <LiFile>Rozvoj podnikavosti a zásady soukromého podnikání – 8 hodin</LiFile>
+        <LiFile>Podnikání, finanční gramotnost a manažerské dovednosti – 8 hodin (od dubna 2019)</LiFile>
+      </ul>
+    </BlockEx>
+
+  <BlockEx header="Výuka ve sborovně:">
+    <p>
+      <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve vámi zvoleném termínu.</b>
+    </p>
+  </BlockEx>
+  <BlockEx header="Potřebné šablony: ">
+    <div>
+      <p>Pro každého učitele je potřeba objednat šablonu {popups.ss_8_hodin_DVPP}&nbsp;nebo {popups.vos_8_hodin_DVPP}&nbsp;varianta <b>f.
+              výchova k podnikavosti</b>
+      </p>
+    </div>
+  </BlockEx>
+  <BonusAlert />
+</Panel>;
+
 
 interface IKuryFormFormStatus {
   email: string;
@@ -1268,7 +1294,8 @@ var KurzySSList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.I
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSCtenarska1624)}</LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSMatematicka8)}</LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSMatematicka1624)}</LiFile>
-        {/*<LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSKariera)}</LiFile>*/}
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSKariera8)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSVychova8)}</LiFile>
       </ul>
     </Col>
   </Row>
@@ -1293,6 +1320,7 @@ var KurzyIIList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.I
       <ul className='fa-ul'>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.IIZSInkluze8)}</LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.IIZSInkluze1632)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.IIZSKariera8)}</LiFile>
       </ul>
       <h4>ZUŠ – Kurzy</h4>
       <ul className='fa-ul'>
@@ -1577,12 +1605,10 @@ var IIZSMatematicka1632: React.StatelessComponent<IKurzProps> = (props: IKurzPro
 var IIZSKariera8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
-  <BlockEx>
-    <div className='alert alert-info' style={{ fontSize: '18px' }}>
-      <p>
-        Nabízíme kurz (jen pro ZŠ): Individuální a skupinové kariérové vzdělávání v praxi (od září 2018)
-      </p>
-    </div>
+  <BlockEx header="Nabízíme následující kurzy:">
+    <ul className='fa-ul'>
+      <LiFile>Role pedagoga v karierovém poradenství – 8 hodin (od dubna 2019)</LiFile>
+    </ul>
   </BlockEx>
   <BlockEx header="Výuka ve sborovně:">
     <p>
@@ -1601,15 +1627,16 @@ var IIZSRozvoj81624: React.StatelessComponent<IKurzProps> = (props: IKurzProps, 
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy (jen pro ZŠ):">
     <ul className='fa-ul'>
-          <LiFile>Osobnostně sociální rozvoj v oblasti komunikace (8 hod, ZŠ, ŠD, ŠK)</LiFile>
-          <LiFile>Aspekty emoční a sociální inteligence pedagoga 8 hodin (8 hod, ZŠ, ŠD, ŠK)</LiFile>
-          <LiFile>Osobnostně sociální rozvoj učitele v sebepoznání (8 hod, jen pro ZŠ)</LiFile>
-          <LiFile>Osobnostní a sociální rozvoj učitele ve zvládání konfliktů (8 hod, jen pro ZŠ)</LiFile>
-          <LiFile>Rozvoj osobnosti pedagoga a zásady efektivní komunikace (8 hod)</LiFile>
-          <LiFile>Vybrané aspekty emoční a sociální inteligence pedagoga_16 </LiFile>
-          <LiFile>Osobnostní a sociální rozvoj učitele (16 hod)</LiFile>
-          <LiFile>Vybrané aspekty emoční a sociální inteligence pedagoga_24 </LiFile>
-          <LiFile>Profesní kompetence učitele a jeho osobnostně sociální rozvoj (24 hod)</LiFile>
+          <LiFile>Osobnostně sociální rozvoj v oblasti komunikace (8 hodin, ZŠ, ŠD, ŠK)</LiFile>
+          <LiFile>Aspekty emoční a sociální inteligence pedagoga (8 hodin, ZŠ, ŠD, ŠK)</LiFile>
+          <LiFile>Osobnostně sociální rozvoj učitele v sebepoznání (8 hodin, jen pro ZŠ)</LiFile>
+          <LiFile>Osobnostní a sociální rozvoj učitele ve zvládání konfliktů (8 hodin, jen pro ZŠ)</LiFile>
+          <LiFile>Rozvoj osobnosti pedagoga a zásady efektivní komunikace (8 hodin)</LiFile>
+          <LiFile>Zásady asertivní a efektivní komunikace (8 hodin)</LiFile>
+          <LiFile>Vybrané aspekty emoční a sociální inteligence pedagoga (16 hodin) </LiFile>
+          <LiFile>Osobnostní a sociální rozvoj učitele (16 hodin)</LiFile>
+          <LiFile>Vybrané aspekty emoční a sociální inteligence pedagoga (24 hodin) </LiFile>
+          <LiFile>Profesní kompetence učitele a jeho osobnostně sociální rozvoj (24 hodin)</LiFile>
         </ul>
   </BlockEx>
   <BlockEx header="Výuka ve sborovně:">

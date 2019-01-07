@@ -94,6 +94,8 @@ function getIILoaders(): Array<Array<ICourseIILoader>> {
       { id: 'IIZUSInkluze8', create: expanded => <IIZUSInkluze8 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIZUSInkluze8.title} /> },
       { id: 'IIZUSRozvoj8', create: expanded => <IIZUSRozvoj8 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIZUSRozvoj8.title} /> },
       { id: 'IIZUSICT8', create: expanded => <IIZUSICT8 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIZUSICT8.title} /> },
+      { id: 'IIZSKariera8', create: expanded => <IIZSKariera8 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIZSKariera8.title} /> },
+
     ],
     [
       { id: 'IIMSInkluze816', create: expanded => <IIMSInkluze816 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIMSInkluze816.title} /> },

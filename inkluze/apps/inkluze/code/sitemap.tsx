@@ -41,7 +41,8 @@
     SSCtenarska1624: site.INode;
     SSMatematicka8: site.INode;
     SSMatematicka1624: site.INode;
-    SSKariera: site.INode;
+    SSKariera8: site.INode;
+    SSVychova8: site.INode;
   }
 
   export interface ISiteKurzyII extends site.INode {
@@ -226,27 +227,32 @@
         },
         SSCtenarska8: {
           id: 'SSCtenarska8',
-          title: 'Čtenářská gramotnost - 8 hodinový kurz',
+          title: 'Čtenářská gramotnost - 8 hod kurz',
           createPage: par => React.createElement(KurzySS),
         },
         SSCtenarska1624: {
           id: 'SSCtenarska1624',
-          title: 'Čtenářská gramotnost - 16/24 hodinový kurz',
+          title: 'Čtenářská gramotnost - 16/24 hod kurz',
           createPage: par => React.createElement(KurzySS),
         },
         SSMatematicka8: {
           id: 'SSMatematicka8',
-          title: 'Matematická gramotnost - 8 hodinový kurz',
+          title: 'Matematická gramotnost - 8 hod kurz',
           createPage: par => React.createElement(KurzySS),
         },
         SSMatematicka1624: {
           id: 'SSMatematicka1624',
-          title: 'Matematická gramotnost - 16/24 hodinový kurz',
+          title: 'Matematická gramotnost - 16/24 hod kurz',
           createPage: par => React.createElement(KurzySS),
         },
-        SSKariera: {
-          id: 'SSKariera',
-          title: 'Kariérové vzdělávání',
+        SSKariera8: {
+          id: 'SSKariera8',
+          title: 'Kariérové vzdělávání - 8 hod',
+          createPage: par => React.createElement(KurzySS),
+        },
+        SSVychova8: {
+          id: 'SSVychova8',
+          title: 'Výchova k podnikavosti 8 hod',
           createPage: par => React.createElement(KurzySS),
         },
       },
