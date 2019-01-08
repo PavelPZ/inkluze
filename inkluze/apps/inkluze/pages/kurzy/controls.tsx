@@ -588,7 +588,7 @@ var SSRozvoj8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
           <LiFile>Osobnostně sociální rozvoj učitele v komunikaci</LiFile>
           <LiFile>Osobnostní a sociální rozvoj učitele ve zvládání konfliktů</LiFile>
           <LiFile>Rozvoj osobnosti pedagoga a zásady efektivní komunikace</LiFile>
-          <LiFile>Zásady asertivní a efektivní komunikace </LiFile>
+          <LiFile>Zásady asertivní a efektivní komunikace – 8 hodin</LiFile>
           {/*<LiFile>Efektivní komunikace pro pedagogické pracovníky (od září 2018)</LiFile>
           <LiFile>Prevence syndromu vyhoření rozvojem tělesné inteligence (od září 2018)</LiFile>*/}
         </ul>
@@ -683,6 +683,10 @@ var SSInkluze8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: 
           <li>Práce se žákem SŠ s problémovým chováním </li>
           <li>Práce s pedagogickým sborem-jak předejít syndromu vyhoření</li>
           <li>Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje na SŠ</li>
+          <li>Práce s diferencovanou třídou a náměty na vzdělávání 8 hod (od dubna 2019)</li>
+          <li>Sociální klima třídy a role učitele – 8 hodin (od dubna 2019)</li>
+          <li>Specifika práce učitele v heterogenní třídě – 8 hodin (od dubna 2019)</li>
+          <li>Třídní učitel a jeho působení v běžné i inkluzivní třídě (od dubna 2019)</li>
         </ul>
       </p>
     </div>
@@ -1313,6 +1317,7 @@ var KurzyIIList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.I
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.IIZSMatematicka1632)}</LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.IIZSRozvoj81624)}</LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.IIZSICT81624)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.IIZSKariera8)}</LiFile>
       </ul>
     </Col>
     <Col md={4}>
@@ -1320,7 +1325,6 @@ var KurzyIIList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.I
       <ul className='fa-ul'>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.IIZSInkluze8)}</LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.IIZSInkluze1632)}</LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.IIZSKariera8)}</LiFile>
       </ul>
       <h4>ZUŠ – Kurzy</h4>
       <ul className='fa-ul'>
@@ -1685,6 +1689,10 @@ var IIZSInkluze8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
           <li>Práce se žákem s problémovým chováním – 8 hodin (pro ZŠ, ŠD, ŠK)</li>
           <li>Podpora žáků ZŠ v rámci inkluzivního vzdělávání 8 hodin (pro ZŠ, ŠD, ŠK)</li>
           <li>Připravme se na inkluzivní vzdělávání – 8 hodin (pro ŠD, ŠK)</li>
+          <li>Práce s diferencovanou třídou a náměty na vzdělávání 8 hod (od dubna 2019)</li>
+          <li>Sociální klima třídy a role učitele – 8 hodin (od dubna 2019)</li>
+          <li>Specifika práce učitele v heterogenní třídě – 8 hodin (od dubna 2019)</li>
+          <li>Třídní učitel a jeho působení v běžné i inkluzivní třídě (od dubna 2019)</li>
         </ul>
       </p>
     </div>
