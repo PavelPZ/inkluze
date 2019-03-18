@@ -13,13 +13,15 @@
             <Col md={10}>
               <h4>Nabízíme kurzy následujícího zaměření:</h4>
               <ul className='fa-ul'>
-                <LiFile>Inkluze (54 akreditovaných kurzů)</LiFile>
+                <LiFile>Inkluze (58 akreditovaných kurzů)</LiFile>
                 <LiFile>Čtenářská gramotnost (29 akreditovaných kurzů)</LiFile>
                 <LiFile>Matematická gramotnost (20 akreditovaných kurzů)</LiFile>
                 <LiFile>Mentoring (3 akreditované kurzy)</LiFile>
-                <LiFile>Osobnostně sociální rozvoj (12 akreditovaných kurzů)</LiFile>
-                <LiFile>ICT (4 akreditované kurzy)</LiFile>
-                <LiFile>Obsah jednotlivých kurzů naleznete na stránkách <a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.kurzy, ev)}>Šablony I – ZŠ a MŠ</a>, <a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.kurzyss, ev)}>Šablony I – SŠ a VOŠ</a> a <a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.kurzyii, ev)}>Šablony II – ZŠ, MŠ, ZUŠ, ŠD, …</a></LiFile>
+                <LiFile>Osobnostně sociální rozvoj (13 akreditovaných kurzů)</LiFile>
+                <LiFile>ICT (5 akreditovaných kurzů, dalších 7 připravujeme)</LiFile>
+                <LiFile>Kariérové vzdělávání (1 kurz)</LiFile>
+                <LiFile>Výchova k podnikavosti (2 kurzy)</LiFile>
+                <LiFile>Obsah jednotlivých kurzů naleznete na stránkách <a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.kurzy, ev)}>Šablony I – ZŠ a MŠ</a>, <a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.kurzyss, ev)}>Šablony I, II – SŠ a VOŠ</a> a <a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.kurzyii, ev)}>Šablony II – ZŠ, MŠ, ZUŠ, ŠD, …</a></LiFile>
               </ul>
             </Col>
             <Col md={1}>

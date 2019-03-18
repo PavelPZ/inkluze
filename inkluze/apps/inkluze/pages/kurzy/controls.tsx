@@ -614,7 +614,8 @@ var SSRozvoj1624: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
           <LiFile>Osobnostní a sociální rozvoj učitele (16 hod)</LiFile>
           <LiFile>Vybrané aspekty emoční a sociální inteligence pedagoga_24 </LiFile>
           <LiFile>Profesní kompetence učitele a jeho osobnostně sociální rozvoj (24 hod)</LiFile>
-        </ul>
+          <LiFile>Zásady asertivní a efektivní komunikace – 16 hodin  (od června 2019)</LiFile>
+    </ul>
   </BlockEx>
   <BlockEx header="Výuka ve sborovně:">
     <p>
@@ -635,6 +636,8 @@ var SSICT1624: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
     <ul className='fa-ul'>
       <LiFile>Efektivní využití MS Office pro pedagogy – 16 hodin</LiFile>
       <LiFile>Efektivní využití MS Office a výukových technologií – 24 hodin</LiFile>
+      <LiFile>Začlenění ICT technologií do výuky a využití internetu  (16 hod, od června 2019)</LiFile>
+      <LiFile>Začlenění ICT technologií a dotykových zařízení do výuky  (24 hod, od června 2019)</LiFile>
     </ul>
   </BlockEx>
   <BlockEx header="Výuka ve sborovně:">
@@ -656,6 +659,10 @@ var SSICT8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: site
     <ul className='fa-ul'>
           <LiFile>Využití ICT ve výuce – praktická inspirace – 8 hodin</LiFile>
           <LiFile>Efektivní využití MS Office pro pedagogy – 8 hodin</LiFile>
+          <LiFile>Různé metody pro začlenění ICT technologií do výuky (od června 2019)</LiFile>
+          <LiFile>Inspirace pro využití interaktivních tabulí při výuce (od června 2019)</LiFile>
+          <LiFile>Funkce a nástrahy internetu, kyberšikana, sociální sítě  (od června 2019)</LiFile>
+          <LiFile>Práce s dotykovými zařízeními ve výuce  (od června 2019)</LiFile>
         </ul>
   </BlockEx>
   <BlockEx header="Výuka ve sborovně:">
@@ -1265,7 +1272,7 @@ var KurzyList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.ICo
 </div>;
 
 var KurzySSList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div>
-  <h2 className='text-right'>SŠ a VOŠ akreditované kurzy DVPP MŠMT - Výzva 02_16_035 / 042</h2>
+  <h2 className='text-right'>SŠ a VOŠ akreditované kurzy DVPP MŠMT - Výzvy: 02_16_035/042, 02_18_065/066</h2>
   <Row>
     <Col md={4}>
       <h4>SŠ a VOŠ Inkluze/společné vzdělávání</h4>
@@ -1631,17 +1638,18 @@ var IIZSRozvoj81624: React.StatelessComponent<IKurzProps> = (props: IKurzProps, 
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy (jen pro ZŠ):">
     <ul className='fa-ul'>
-          <LiFile>Osobnostně sociální rozvoj v oblasti komunikace (8 hodin, ZŠ, ŠD, ŠK)</LiFile>
-          <LiFile>Aspekty emoční a sociální inteligence pedagoga (8 hodin, ZŠ, ŠD, ŠK)</LiFile>
-          <LiFile>Osobnostně sociální rozvoj učitele v sebepoznání (8 hodin, jen pro ZŠ)</LiFile>
-          <LiFile>Osobnostní a sociální rozvoj učitele ve zvládání konfliktů (8 hodin, jen pro ZŠ)</LiFile>
-          <LiFile>Rozvoj osobnosti pedagoga a zásady efektivní komunikace (8 hodin)</LiFile>
-          <LiFile>Zásady asertivní a efektivní komunikace (8 hodin)</LiFile>
-          <LiFile>Vybrané aspekty emoční a sociální inteligence pedagoga (16 hodin) </LiFile>
-          <LiFile>Osobnostní a sociální rozvoj učitele (16 hodin)</LiFile>
-          <LiFile>Vybrané aspekty emoční a sociální inteligence pedagoga (24 hodin) </LiFile>
-          <LiFile>Profesní kompetence učitele a jeho osobnostně sociální rozvoj (24 hodin)</LiFile>
-        </ul>
+      <LiFile>Osobnostně sociální rozvoj v oblasti komunikace (8 hodin, ZŠ, ŠD, ŠK)</LiFile>
+      <LiFile>Aspekty emoční a sociální inteligence pedagoga (8 hodin, ZŠ, ŠD, ŠK)</LiFile>
+      <LiFile>Osobnostně sociální rozvoj učitele v sebepoznání (8 hodin, jen pro ZŠ)</LiFile>
+      <LiFile>Osobnostní a sociální rozvoj učitele ve zvládání konfliktů (8 hodin, jen pro ZŠ)</LiFile>
+      <LiFile>Rozvoj osobnosti pedagoga a zásady efektivní komunikace (8 hodin)</LiFile>
+      <LiFile>Zásady asertivní a efektivní komunikace (8 hodin)</LiFile>
+      <LiFile>Zásady asertivní a efektivní komunikace - 16 hodin  (od června 2019)</LiFile> 
+      <LiFile>Vybrané aspekty emoční a sociální inteligence pedagoga (16 hodin) </LiFile>
+      <LiFile>Osobnostní a sociální rozvoj učitele (16 hodin)</LiFile>
+      <LiFile>Vybrané aspekty emoční a sociální inteligence pedagoga (24 hodin) </LiFile>
+      <LiFile>Profesní kompetence učitele a jeho osobnostně sociální rozvoj (24 hodin)</LiFile>
+    </ul>
   </BlockEx>
   <BlockEx header="Výuka ve sborovně:">
     <p>
@@ -1661,8 +1669,15 @@ var IIZSICT81624: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
     <ul className='fa-ul'>
       <LiFile>Využití ICT ve výuce – praktická inspirace - 8 hodin</LiFile>
       <LiFile>Efektivní využití MS Office pro pedagogy – 8 hodin</LiFile>
+      <LiFile>Různé metody pro začlenění ICT technologií do výuky (8 hod, od června 2019)</LiFile>
+      <LiFile>Základy práce s MS Office a jejich využití na školách  (8 hod, od června 2019 – i pro ŠD, ŠK)</LiFile>
+      <LiFile>Inspirace pro využití interaktivních tabulí při výuce  (8 hod, od června 2019)</LiFile>
+      <LiFile>Funkce a nástrahy internetu, kyberšikana, sociální sítě  (8 hod, od června 2019)</LiFile>
+      <LiFile>Práce s dotykovými zařízeními ve výuce  (8 hod, od června 2019)</LiFile>
       <LiFile>Efektivní využití MS Office pro pedagogy – 16 hodin</LiFile>
+      <LiFile>Začlenění ICT technologií do výuky a využití internetu  (16 hod, od června 2019)</LiFile>
       <LiFile>Efektivní využití MS Office a výukových technologií – 24 hodin</LiFile>
+      <LiFile>Začlenění ICT technologií a dotykových zařízení do výuky  (24 hod, od června 2019)</LiFile>
     </ul>
   </BlockEx>
   <BlockEx header="Výuka ve sborovně:">
@@ -1762,11 +1777,13 @@ var IIZUSRozvoj8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
-          <LiFile>Osobnostně sociální rozvoj v oblasti komunikace</LiFile>
-          <LiFile>Aspekty emoční a sociální inteligence pedagoga 8 hodin</LiFile>
-      {/*<LiFile>Efektivní komunikace pro pedagogické pracovníky (od září 2018)</LiFile>
-          <LiFile>Prevence syndromu vyhoření rozvojem tělesné inteligence (od září 2018)</LiFile>*/}
-        </ul>
+      <LiFile>Osobnostně sociální rozvoj v oblasti komunikace</LiFile>
+      <LiFile>Aspekty emoční a sociální inteligence pedagoga 8 hodin</LiFile>
+      <LiFile>Rozvoj osobnosti pedagoga v oblasti komunikace (od června 2019)</LiFile>
+      <LiFile>Rozvoj osobnosti pedagoga v oblasti sebepoznání (od června 2019)</LiFile>
+      <LiFile>Rozvoj osobnosti pedagoga ve zvládání konfliktů  (od června 2019)</LiFile>
+      <LiFile>Zásady asertivní a efektivní komunikace pro MŠ, ZŠ, ZUŠ (od června 2019)</LiFile>
+    </ul>
   </BlockEx>
   <BlockEx header="Výuka ve sborovně:">
     <p>
@@ -1786,6 +1803,8 @@ var IIZUSICT8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
     <ul className='fa-ul'>
       <LiFile>Využití ICT ve výuce – praktická inspirace</LiFile>
       <LiFile>Kreativní využití MS Office pro pedagogy – 8 hodin</LiFile>
+      <LiFile>Základy práce s MS Office a jejich využití na školách  (od června 2019)</LiFile>
+      <LiFile>Různé metody pro začlenění ICT technologií do výuky (od června 2019)</LiFile>
     </ul>
   </BlockEx>
   <BlockEx header="Výuka ve sborovně:">
@@ -1831,10 +1850,15 @@ var IIMSRozvoj816: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy">
     <ul className='fa-ul'>
-          <LiFile>Aspekty emoční a sociální inteligence pedagoga v MŠ (8 hod)</LiFile>
-          <LiFile>Vybrané aspekty emoční a sociální inteligence pedagoga (16 hod)</LiFile>
-          <LiFile>Osobnostní a sociální rozvoj učitele (16 hod)</LiFile>
-        </ul>
+      <LiFile>Aspekty emoční a sociální inteligence pedagoga v MŠ (8 hod)</LiFile>
+      <LiFile>Rozvoj osobnosti pedagoga v oblasti komunikace (od června 2019)</LiFile>
+      <LiFile>Rozvoj osobnosti pedagoga v oblasti sebepoznání (od června 2019)</LiFile>
+      <LiFile>Rozvoj osobnosti pedagoga ve zvládání konfliktů  (od června 2019)</LiFile>
+      <LiFile>Zásady asertivní a efektivní komunikace pro MŠ, ZŠ, ZUŠ  (od června 2019)</LiFile>
+      <LiFile>Zásady asertivní a efektivní komunikace - 16 hodin (od června 2019)</LiFile>
+      <LiFile>Vybrané aspekty emoční a sociální inteligence pedagoga (16 hod)</LiFile>
+      <LiFile>Osobnostní a sociální rozvoj učitele (16 hod)</LiFile>
+    </ul>
   </BlockEx>
   <BlockEx header="Výuka ve sborovně:">
     <p>
@@ -1906,6 +1930,7 @@ var IIMSIct8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: si
   <BlockEx header="Nabízíme následující kurz:">
     <ul className='fa-ul'>
       <LiFile>Kreativní využití MS Office pro pedagogy – 8 hodin</LiFile>
+      <LiFile>Základy práce s MS Office a jejich využití na školách (od června 2019)</LiFile>
     </ul>
   </BlockEx>
   <BlockEx header="Výuka ve sborovně:">

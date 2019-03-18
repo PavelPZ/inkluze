@@ -364,7 +364,7 @@
         rootNode: root.kurzy,
       },
       kurzyss: {
-        title: 'Šablony I – SŠ a VOŠ',
+        title: 'Šablony I, II – SŠ a VOŠ',
         rootNode: root.kurzyss,
       },
       kurzyii: {
