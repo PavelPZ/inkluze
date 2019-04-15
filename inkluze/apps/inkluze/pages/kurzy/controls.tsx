@@ -24,6 +24,10 @@ var ZSInkluze8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: 
           <li>Klima třídy a vedení třídnické hodiny v rámci inkluze</li>
           <li>Práce se žákem s problémovým chováním – 8 hodin</li>
           <li>Práce s pedagogickým sborem-jak předejít syndromu vyhoření</li>
+          <li>Práce s diferencovanou třídou a náměty na vzdělávání 8 hod</li>
+          <li>Sociální klima třídy a role učitele – 8 hodin</li>
+          <li>Specifika práce učitele v heterogenní třídě – 8 hodin</li>
+          <li>Třídní učitel a jeho působení v běžné i inkluzivní třídě</li>
         </ul>
       </p>
     </div>
@@ -690,10 +694,10 @@ var SSInkluze8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: 
           <li>Práce se žákem SŠ s problémovým chováním </li>
           <li>Práce s pedagogickým sborem-jak předejít syndromu vyhoření</li>
           <li>Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje na SŠ</li>
-          <li>Práce s diferencovanou třídou a náměty na vzdělávání 8 hod (od dubna 2019)</li>
-          <li>Sociální klima třídy a role učitele – 8 hodin (od dubna 2019)</li>
-          <li>Specifika práce učitele v heterogenní třídě – 8 hodin (od dubna 2019)</li>
-          <li>Třídní učitel a jeho působení v běžné i inkluzivní třídě (od dubna 2019)</li>
+          <li>Práce s diferencovanou třídou a náměty na vzdělávání 8 hod</li>
+          <li>Sociální klima třídy a role učitele – 8 hodin</li>
+          <li>Specifika práce učitele v heterogenní třídě – 8 hodin</li>
+          <li>Třídní učitel a jeho působení v běžné i inkluzivní třídě</li>
         </ul>
       </p>
     </div>
@@ -1053,7 +1057,7 @@ var SSKariera8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: 
 </div>} eventKey={2}>
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
-      <LiFile>Role pedagoga v karierovém poradenství – 8 hodin (od dubna 2019)</LiFile>
+      <LiFile>Role pedagoga v karierovém poradenství – 8 hodin</LiFile>
     </ul>
   </BlockEx>
 
@@ -1079,7 +1083,7 @@ var SSVychova8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: 
   <BlockEx header="Nabízíme následující kurzy:">
       <ul className='fa-ul'>
         <LiFile>Rozvoj podnikavosti a zásady soukromého podnikání – 8 hodin</LiFile>
-        <LiFile>Podnikání, finanční gramotnost a manažerské dovednosti – 8 hodin (od dubna 2019)</LiFile>
+        <LiFile>Podnikání, finanční gramotnost a manažerské dovednosti – 8 hodin</LiFile>
       </ul>
     </BlockEx>
 
@@ -1618,7 +1622,7 @@ var IIZSKariera8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
-      <LiFile>Role pedagoga v karierovém poradenství – 8 hodin (od dubna 2019)</LiFile>
+      <LiFile>Role pedagoga v karierovém poradenství – 8 hodin</LiFile>
     </ul>
   </BlockEx>
   <BlockEx header="Výuka ve sborovně:">
@@ -1704,10 +1708,10 @@ var IIZSInkluze8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
           <li>Práce se žákem s problémovým chováním – 8 hodin (pro ZŠ, ŠD, ŠK)</li>
           <li>Podpora žáků ZŠ v rámci inkluzivního vzdělávání 8 hodin (pro ZŠ, ŠD, ŠK)</li>
           <li>Připravme se na inkluzivní vzdělávání – 8 hodin (pro ŠD, ŠK)</li>
-          <li>Práce s diferencovanou třídou a náměty na vzdělávání 8 hod (od dubna 2019)</li>
-          <li>Sociální klima třídy a role učitele – 8 hodin (od dubna 2019)</li>
-          <li>Specifika práce učitele v heterogenní třídě – 8 hodin (od dubna 2019)</li>
-          <li>Třídní učitel a jeho působení v běžné i inkluzivní třídě (od dubna 2019)</li>
+          <li>Práce s diferencovanou třídou a náměty na vzdělávání 8 hod</li>
+          <li>Sociální klima třídy a role učitele – 8 hodin</li>
+          <li>Specifika práce učitele v heterogenní třídě – 8 hodin</li>
+          <li>Třídní učitel a jeho působení v běžné i inkluzivní třídě</li>
         </ul>
       </p>
     </div>
