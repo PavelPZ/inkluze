@@ -18,7 +18,7 @@
                 <LiFile>Matematická gramotnost (20 akreditovaných kurzů)</LiFile>
                 <LiFile>Mentoring (3 akreditované kurzy)</LiFile>
                 <LiFile>Osobnostně sociální rozvoj (13 akreditovaných kurzů)</LiFile>
-                <LiFile>ICT (5 akreditovaných kurzů, dalších 7 připravujeme)</LiFile>
+                <LiFile>ICT (12 akreditovaných kurzů)</LiFile>
                 <LiFile>Kariérové vzdělávání (1 kurz)</LiFile>
                 <LiFile>Výchova k podnikavosti (2 kurzy)</LiFile>
                 <LiFile>Obsah jednotlivých kurzů naleznete na stránkách <a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.kurzy, ev)}>Šablony I – ZŠ a MŠ</a>, <a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.kurzyss, ev)}>Šablony I, II – SŠ a VOŠ</a> a <a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.kurzyii, ev)}>Šablony II – ZŠ, MŠ, ZUŠ, ŠD, …</a></LiFile>
