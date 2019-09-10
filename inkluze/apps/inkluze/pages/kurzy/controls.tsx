@@ -690,8 +690,9 @@ var SSInkluze8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: 
       <p>
         Novinky:
         <ul>
+          <li>Podpora žáků SŠ v rámci inkluze (i pro vychovatele v DM a internátech)</li>
           <li>Klima třídy a vedení třídnické hodiny v rámci inkluze</li>
-          <li>Práce se žákem SŠ s problémovým chováním </li>
+          <li>Práce se žákem SŠ s problémovým chováním (i pro vychovatele v DM a internátech)</li>
           <li>Práce s pedagogickým sborem-jak předejít syndromu vyhoření</li>
           <li>Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje na SŠ</li>
           <li>Práce s diferencovanou třídou a náměty na vzdělávání 8 hod</li>
