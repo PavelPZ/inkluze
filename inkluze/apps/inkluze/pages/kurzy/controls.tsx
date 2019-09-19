@@ -1744,14 +1744,14 @@ var IIZSInkluze1632: React.StatelessComponent<IKurzProps> = (props: IKurzProps, 
       </p>
     </div>
   </BlockEx>
-  <ObsahInkluzeZUS8 />
+
   <BlockEx header="Výuka ve sborovně:">
     <p>
       <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve vámi zvoleném termínu.</b>
     </p>
   </BlockEx>
   <BlockEx header="Potřebné šablony: ">
-    <p>Pro každého učitele je potřeba objednat 2x – 4x některou z následujících šablon:
+    <p>Pro každého učitele je potřeba objednat 2x některou z následujících šablon:
       <ul>
         <li>2.II/6 Vzdělávání pedagogických pracovníků ZŠ – DVPP v rozsahu 8 hodin  varianta e. inkluze  </li>
         <li>2.V/4 Vzdělávání pedagogických pracovníků ŠD/ŠK – DVPP v rozsahu 8 hodin  varianta e. inkluze</li>

@@ -326,7 +326,7 @@
         },
         IIZSInkluze1632: {
           id: 'IIZSInkluze1632',
-          title: 'Inkluze - 16/32 hod',
+          title: 'Inkluze - 16 hod',
           createPage: par => React.createElement(KurzyII),
         },
         IIZUSInkluze8: {
@@ -361,7 +361,7 @@
       },
       kurzy: {
         title: 'Šablony I – ZŠ a MŠ',
-        rootNode: root.kurzy,
+        rootNode: root.kurzyii,
       },
       kurzyss: {
         title: 'Šablony I, II – SŠ a VOŠ',
