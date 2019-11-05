@@ -587,15 +587,14 @@ var SSRozvoj8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
-          <LiFile>Vybrané aspekty emoční a sociální inteligence pedagoga</LiFile>
-          <LiFile>Osobnostně sociální rozvoj učitele v sebepoznání</LiFile>
-          <LiFile>Osobnostně sociální rozvoj učitele v komunikaci</LiFile>
-          <LiFile>Osobnostní a sociální rozvoj učitele ve zvládání konfliktů</LiFile>
-          <LiFile>Rozvoj osobnosti pedagoga a zásady efektivní komunikace</LiFile>
-          <LiFile>Zásady asertivní a efektivní komunikace – 8 hodin</LiFile>
-          {/*<LiFile>Efektivní komunikace pro pedagogické pracovníky (od září 2018)</LiFile>
-          <LiFile>Prevence syndromu vyhoření rozvojem tělesné inteligence (od září 2018)</LiFile>*/}
-        </ul>
+      <LiFile>Vybrané aspekty emoční a sociální inteligence pedagoga</LiFile>
+      <LiFile>Osobnostně sociální rozvoj učitele v sebepoznání</LiFile>
+      <LiFile>Osobnostně sociální rozvoj učitele v komunikaci</LiFile>
+      <LiFile>Osobnostní a sociální rozvoj učitele ve zvládání konfliktů</LiFile>
+      <LiFile>Rozvoj osobnosti pedagoga a zásady efektivní komunikace (i pro vychovatele v DM a internátech)</LiFile>
+      <LiFile>Zásady asertivní a efektivní komunikace – 8 hodin (i pro vychovatele v DM a internátech)</LiFile>
+      <LiFile>Nauč se mluvit sám se sebou, lépe porozumíš svým žákům (i pro vychovatele v DM a internátech)</LiFile>
+    </ul>
   </BlockEx>
   <BlockEx header="Výuka ve sborovně:">
     <p>
@@ -1518,11 +1517,12 @@ var IIZSCtenarska8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, c
 </div>} eventKey={2}>
   <BlockEx header="Nabízíme následující kurzy (jen pro ZŠ):">
     <ul className='fa-ul'>
-          <LiFile>Čtenářství-průvodce každodenním životem, cesta je vzdělání_8</LiFile>
-          <LiFile>Čtenářství a čtenářská gramotnost v současné škole</LiFile>
-          <LiFile>Inspirace pro rozvíjení čtenářské gramotnosti v  ČJL na ZŠ</LiFile>
-          <LiFile>Čtenářská a informační gramotnost na ZŠ – 8 hodin</LiFile>
-        </ul>
+      <LiFile>Čtenářství-průvodce každodenním životem, cesta je vzdělání_8 (jen pro ZŠ)</LiFile>
+      <LiFile>Čtenářství a čtenářská gramotnost v současné škole (jen pro ZŠ)</LiFile>
+      <LiFile>Inspirace pro rozvíjení čtenářské gramotnosti v  ČJL na ZŠ (jen pro ZŠ)</LiFile>
+      <LiFile>Čtenářská a informační gramotnost na ZŠ – 8 hodin (jen pro ZŠ)</LiFile>
+      <LiFile>Rozvoj čtenářské gramotnosti u žáků ZŠ – 8 hodin (pro ZŠ, ŠD)</LiFile>
+    </ul>
   </BlockEx>
 
   <BlockEx header="Výuka ve sborovně:">
@@ -1576,11 +1576,12 @@ var IIZSMatematicka8: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
 </div>} eventKey={2}>
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
-          <LiFile>Rozvoj matematické gramotnosti pro ZŠ 8 hodin (jen pro ZŠ):</LiFile>
-          <LiFile>GeoGebra jako nástroj rozvoje matematické gramotnosti na ZŠ (jen pro ZŠ)</LiFile>
-          <LiFile>Deskové a karetní hry pro rozvoj matematické gramotnosti (pro ZŠ, ŠD, ŠK)</LiFile>
-          <LiFile>Moderní technologie při rozvoji matematické gramotnosti na ZŠ (pro ZŠ, ŠD, ŠK, SVČ)</LiFile>
-        </ul>
+      <LiFile>Rozvoj matematické gramotnosti pro ZŠ 8 hodin (jen pro ZŠ):</LiFile>
+      <LiFile>GeoGebra jako nástroj rozvoje matematické gramotnosti na ZŠ (jen pro ZŠ)</LiFile>
+      <LiFile>Deskové a karetní hry pro rozvoj matematické gramotnosti (pro ZŠ, ŠD, ŠK)</LiFile>
+      <LiFile>Moderní technologie při rozvoji matematické gramotnosti na ZŠ (pro ZŠ, ŠD, ŠK, SVČ)</LiFile>
+      <LiFile>Rozvoj matematické gramotnosti u žáků ZŠ – 8 hodin (pro ZŠ, ŠD)</LiFile>
+    </ul>
   </BlockEx>
   <BlockEx header="Výuka ve sborovně:">
     <p>
@@ -1649,6 +1650,7 @@ var IIZSRozvoj81624: React.StatelessComponent<IKurzProps> = (props: IKurzProps, 
       <LiFile>Rozvoj osobnosti pedagoga ve zvládání konfliktů (8 hodin, ZŠ, ŠD, ŠK, MŠ)</LiFile>
       <LiFile>Rozvoj osobnosti pedagoga v oblasti komunikace (8 hodin, ZŠ, ŠD, ŠK, MŠ)</LiFile>
       <LiFile>Zásady asertivní a efektivní komunikace pro MŠ, ZŠ, ZUŠ (8 hodin, ZŠ, ŠD, ŠK, MŠ)</LiFile>
+      <LiFile>Nauč se mluvit sám se sebou, lépe porozumíš svým žákům (8 hodin, ZŠ, ŠD)</LiFile>
       <LiFile>Zásady asertivní a efektivní komunikace - 16 hodin (ZŠ, ŠD, ŠK, MŠ)</LiFile> 
       <LiFile>Vybrané aspekty emoční a sociální inteligence pedagoga (16 hodin) </LiFile>
       <LiFile>Osobnostní a sociální rozvoj učitele (16 hodin)</LiFile>
@@ -1788,6 +1790,7 @@ var IIZUSRozvoj8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
       <LiFile>Rozvoj osobnosti pedagoga v oblasti sebepoznání</LiFile>
       <LiFile>Rozvoj osobnosti pedagoga ve zvládání konfliktů </LiFile>
       <LiFile>Zásady asertivní a efektivní komunikace pro MŠ, ZŠ, ZUŠ </LiFile>
+      <LiFile>Nauč se mluvit sám se sebou, lépe porozumíš svým žákům</LiFile>
     </ul>
   </BlockEx>
   <BlockEx header="Výuka ve sborovně:">
@@ -1810,6 +1813,7 @@ var IIZUSICT8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
       <LiFile>Kreativní využití MS Office pro pedagogy – 8 hodin</LiFile>
       <LiFile>Základy práce s MS Office a jejich využití na školách </LiFile>
       <LiFile>Různé metody pro začlenění ICT technologií do výuky </LiFile>
+      <LiFile>Začlenění interaktivních tabulí do výuky (od února 2020)</LiFile>
     </ul>
   </BlockEx>
   <BlockEx header="Výuka ve sborovně:">
@@ -1936,6 +1940,7 @@ var IIMSIct8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: si
     <ul className='fa-ul'>
       <LiFile>Kreativní využití MS Office pro pedagogy – 8 hodin</LiFile>
       <LiFile>Základy práce s MS Office a jejich využití na školách </LiFile>
+      <LiFile>Začlenění interaktivních tabulí do výuky (od února 2020)</LiFile>
     </ul>
   </BlockEx>
   <BlockEx header="Výuka ve sborovně:">
