@@ -359,10 +359,6 @@
         title: 'DVPP',
         rootNode: root,
       },
-      kurzy: {
-        title: 'Šablony I – ZŠ a MŠ',
-        rootNode: root.kurzyii,
-      },
       kurzyss: {
         title: 'Šablony I, II – SŠ a VOŠ',
         rootNode: root.kurzyss,
