@@ -1672,6 +1672,17 @@ var IIZSRozvoj81624: React.StatelessComponent<IKurzProps> = (props: IKurzProps, 
 var IIZSICT81624: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">8</Label> <Label bsStyle="warning">16</Label> <Label bsStyle="warning">24</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
+  <BlockEx>
+    <div className='alert alert-info' style={{ fontSize: '18px' }}>
+      <p>
+        Novinky:
+        <ul>
+          <li>Rozvíjení digitální gramotnosti v českém jazyce (8 hod)</li>
+          <li>Rozvoj digitálních kompetencí učitelů a digitální gramotnosti žáků (8 hod)</li>
+        </ul>
+      </p>
+    </div>
+  </BlockEx>
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
       <LiFile>Využití ICT ve výuce – praktická inspirace - 8 hodin</LiFile>
@@ -1813,7 +1824,7 @@ var IIZUSICT8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
       <LiFile>Kreativní využití MS Office pro pedagogy – 8 hodin</LiFile>
       <LiFile>Základy práce s MS Office a jejich využití na školách </LiFile>
       <LiFile>Různé metody pro začlenění ICT technologií do výuky </LiFile>
-      <LiFile>Začlenění interaktivních tabulí do výuky (od února 2020)</LiFile>
+      <LiFile>Začlenění interaktivních tabulí do výuky</LiFile>
     </ul>
   </BlockEx>
   <BlockEx header="Výuka ve sborovně:">
@@ -1940,7 +1951,7 @@ var IIMSIct8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: si
     <ul className='fa-ul'>
       <LiFile>Kreativní využití MS Office pro pedagogy – 8 hodin</LiFile>
       <LiFile>Základy práce s MS Office a jejich využití na školách </LiFile>
-      <LiFile>Začlenění interaktivních tabulí do výuky (od února 2020)</LiFile>
+      <LiFile>Začlenění interaktivních tabulí do výuky</LiFile>
     </ul>
   </BlockEx>
   <BlockEx header="Výuka ve sborovně:">
