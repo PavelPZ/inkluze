@@ -1544,16 +1544,11 @@ var IIZSCtenarska1632: React.StatelessComponent<IKurzProps> = (props: IKurzProps
 </div>} eventKey={2}>
   <BlockEx header="Nabízíme následující kurzy (jen pro ZŠ):">
     <ul className='fa-ul'>
-          <LiFile>Čtenářská a informační gramotnost napříč všemi předměty (16 hod)</LiFile>
           <LiFile>Čtenářství – průvodce každodenním životem, cesta je vzdělání (16 hod)</LiFile>
           <LiFile>Metody k rozvíjení čtenářských strategií (16 hod)</LiFile>
           <LiFile>Inspirace k rozvíjení čtenářské gramotnosti v ČJL (16 hod)</LiFile>
-          <LiFile>Rozvoj čtenářské gramotnosti u žáků ZŠ – 16 hodin</LiFile>
           <LiFile>Metody a formy práce v rozvoji čtenářské gramotnosti (16 hod)</LiFile>
-          <LiFile>Čtenářská gramotnost a její rozvoj u žáků základních škol (16 hod)</LiFile>
-          <LiFile>Čtenářská gramotnost napříč všemi předměty (32 hod)</LiFile>
           <LiFile>Čtenářství, aneb jak se při vzdělávání vzájemně nenudit (32 hod)</LiFile>
-          <LiFile>Rozvoj čtenářské gramotnosti u žáků ZŠ (32 hod)</LiFile>
           <LiFile>Metody a formy práce v rozvoji čtenářské gramotnosti (32 hod)</LiFile>
         </ul>
   </BlockEx>
@@ -1603,8 +1598,6 @@ var IIZSMatematicka1632: React.StatelessComponent<IKurzProps> = (props: IKurzPro
   <BlockEx header="Nabízíme následující kurzy (jen pro ZŠ):">
     <ul className='fa-ul'>
           <LiFile>Moderní technologie ve výuce (nejen) matematiky na ZŠ (16 hod)</LiFile>
-          <LiFile>Rozvoj matematické gramotnosti v různých předmětech ZŠ (16 hod)</LiFile>
-          <LiFile>Rozvoj matematické gramotnosti u žáků ZŠ – 16 hodin </LiFile>
           <LiFile>Inspirace pro rozvoj matematické gramotnosti na ZŠ (32 hod)</LiFile>
           <LiFile>Rozvoj matematické gramotnosti pro ZŠ (32 hod)</LiFile>
         </ul>
@@ -1844,7 +1837,6 @@ var IIMSInkluze816: React.StatelessComponent<IKurzProps> = (props: IKurzProps, c
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
       <LiFile>Společné vzdělávání dětí v MŠ – 8 hodin</LiFile>
-      <LiFile>Inkluze – společné vzdělávání pro MŠ 16 vyučovacích hodin</LiFile>
       <LiFile>Inkluze v MŠ v teorii a praxi – 16 hodin</LiFile>
     </ul>
   </BlockEx>
@@ -1899,7 +1891,6 @@ var IIMSCtenarska816: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
     <ul className='fa-ul'>
       <LiFile>Rozvoj předčtenářské gramotnosti – 8 hodin</LiFile>
       <LiFile>Rozvoj čtenářské pregramotnosti u dětí v MŠ – 16 hodin</LiFile>
-      <LiFile>Rozvoj předčtenářské gramotnosti u dětí předškolního věku (16 hod)</LiFile>
       <LiFile>Podpora čtenářské gramotnosti v MŠ (16 hod)</LiFile>
     </ul>
   </BlockEx>
@@ -1925,7 +1916,6 @@ var IIMSMatematicka816: React.StatelessComponent<IKurzProps> = (props: IKurzProp
     <ul className='fa-ul'>
       <LiFile>Rozvoj předmatematické gramotnosti – 8 hodin</LiFile>
       <LiFile>Rozvoj matematické pregramotnosti u dětí v MŠ – 16 hodin</LiFile>
-      <LiFile>Rozvoj předmatematické gramotnosti u předškolních dětí (16 hod)</LiFile>
       <LiFile>Předmatematická gramotnost nově (16 hod)</LiFile>
     </ul>
   </BlockEx>
