@@ -69,7 +69,6 @@
 
   export interface ITabs extends site.ITabs {
     home: site.ITab;
-    kurzy: site.ITab;
     kurzyss: site.ITab;
     kurzyii: site.ITab;
     lektori: site.ITab;
@@ -360,7 +359,7 @@
         rootNode: root,
       },
       kurzyss: {
-        title: 'Šablony I, II – SŠ a VOŠ',
+        title: 'Šablony II – SŠ a VOŠ',
         rootNode: root.kurzyss,
       },
       kurzyii: {

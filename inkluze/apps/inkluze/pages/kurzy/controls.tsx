@@ -601,10 +601,6 @@ var SSRozvoj8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
       <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve vámi zvoleném termínu.</b>
     </p>
   </BlockEx>
-  <BlockEx header="Potřebné šablony: ">
-    <p>Pro každého učitele je potřeba objednat šablonu {popups.ss_8_hodin_DVPP}&nbsp;nebo {popups.vos_8_hodin_DVPP}&nbsp;varianta <b>i.
-              Osobnostně sociální rozvoj</b></p>
-  </BlockEx>
   <BonusAlert />
 </Panel>
 
@@ -625,10 +621,6 @@ var SSRozvoj1624: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
       <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve vámi zvoleném termínu.</b>
     </p>
   </BlockEx>
-  <BlockEx header="Potřebné šablony: ">
-    <p>Pro každého učitele je potřeba objednat šablonu {popups.ss_16_hodin_DVPP}&nbsp;nebo {popups.vos_16_hodin_DVPP}&nbsp;nebo {popups.ss_24_hodin_DVPP}&nbsp;nebo {popups.vos_24_hodin_DVPP}&nbsp;varianta <b>i.
-              Osobnostně sociální rozvoj</b></p>
-  </BlockEx>
   <BonusAlert />
 </Panel>
 
@@ -647,10 +639,6 @@ var SSICT1624: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
     <p>
       <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve vámi zvoleném termínu.</b>
     </p>
-  </BlockEx>
-  <BlockEx header="Potřebné šablony: ">
-    <p>Pro každého učitele je potřeba objednat šablonu  {popups.ss_16_hodin_DVPP}&nbsp;nebo {popups.vos_16_hodin_DVPP}&nbsp;nebo {popups.ss_24_hodin_DVPP}&nbsp;nebo {popups.vos_24_hodin_DVPP}&nbsp;varianta <b>5.
-              ICT</b></p>
   </BlockEx>
   <BonusAlert />
 </Panel>
@@ -672,10 +660,6 @@ var SSICT8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: site
     <p>
       <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve vámi zvoleném termínu.</b>
     </p>
-  </BlockEx>
-  <BlockEx header="Potřebné šablony: ">
-    <p>Pro každého učitele je potřeba objednat šablonu {popups.ss_8_hodin_DVPP}&nbsp;nebo {popups.vos_8_hodin_DVPP}&nbsp;varianta <b>k.
-              ICT</b>.</p>
   </BlockEx>
   <BonusAlert />
 </Panel>
@@ -707,20 +691,10 @@ var SSInkluze8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: 
     Nabízíme řadu 8 hodinových akreditovaných kurzů. Každý kurz obsahuje část z těchto témat.
     Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
   </BlockEx>
-  <BlockEx>
-    <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
-      Každý účastník tohoto kurzu se musí účastnit ještě další vzdělávací akce v rozsahu minimálně 16 hodin.
-            Viz {popups.bagatelni_podpora_ss}.
-          </div>
-  </BlockEx>
   <BlockEx header="Výuka ve sborovně:">
     <p>
       <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve vámi zvoleném termínu.</b>
     </p>
-  </BlockEx>
-  <BlockEx header="Potřebné šablony: ">
-    <p>Pro každého učitele je potřeba objednat šablonu {popups.ss_8_hodin_inkluze}&nbsp;nebo {popups.ss_8_hodin_DVPP}&nbsp;nebo {popups.vos_8_hodin_DVPP}&nbsp;varianta <b>e.
-              inkluze</b></p>
   </BlockEx>
   <BonusAlert />
 </Panel>
@@ -740,23 +714,10 @@ var SSInkluze16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
     Nabízíme řadu 16 hodinových akreditovaných kurzů. Každý kurz obsahuje část z těchto témat.
     Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
   </BlockEx>
-  <BlockEx>
-    <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
-      Každý účastník tohoto kurzu se musí účastnit ještě další vzdělávací akce v rozsahu minimálně 8 hodin.
-      Viz {popups.bagatelni_podpora_ss}.
-    </div>
-  </BlockEx>
   <BlockEx header="Výuka ve sborovně:">
     <p>
       <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve vámi zvoleném termínu.</b>
     </p>
-  </BlockEx>
-  <BlockEx header="Potřebné šablony: ">
-    <div>
-      <p>Pro každého učitele je potřeba objednat šablonu {popups.ss_16_hodin_DVPP}&nbsp;nebo {popups.vos_16_hodin_DVPP}&nbsp;varianta <b>e.
-              inkluze</b>
-      </p>
-    </div>
   </BlockEx>
   <BonusAlert />
 </Panel>;
@@ -830,13 +791,6 @@ var SSMentoring80: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
     </ul>
     Součástí semináře jsou nácviky vedení rozhovorů s klientem v jednotlivých fázích mentorského procesu, rozbory pozorování, výcvik v poskytování zpětné vazby.
   </BlockEx>
-  <BlockEx header="Potřebné šablony: ">
-    <div>
-      <p>Pro každého učitele je potřeba objednat šablonu {popups.ss_80_hodin_DVPP}&nbsp;nebo {popups.vos_80_hodin_DVPP}&nbsp;varianta <b>d.
-              mentoring</b>
-      </p>
-    </div>
-  </BlockEx>
   <BonusAlert />
 </Panel>;
 
@@ -867,13 +821,6 @@ var SSCtenarska8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
     <p>
       <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve vámi zvoleném termínu.</b>
     </p>
-  </BlockEx>
-  <BlockEx header="Potřebné šablony: ">
-    <div>
-      <p>Pro každého učitele je potřeba objednat šablonu {popups.ss_8_hodin_DVPP}&nbsp;nebo {popups.vos_8_hodin_DVPP}&nbsp;varianta <b>a.
-              čtenářská gramotnost</b>
-      </p>
-    </div>
   </BlockEx>
   <BonusAlert />
 </Panel>;
@@ -949,13 +896,6 @@ var SSCtenarska1624: React.StatelessComponent<IKurzProps> = (props: IKurzProps, 
       <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve vámi zvoleném termínu.</b>
     </p>
   </BlockEx>
-  <BlockEx header="Potřebné šablony: ">
-    <div>
-      <p>Pro každého učitele je potřeba objednat šablonu {popups.ss_16_hodin_DVPP}&nbsp;nebo {popups.vos_16_hodin_DVPP}&nbsp;nebo {popups.ss_24_hodin_DVPP}&nbsp;nebo {popups.vos_24_hodin_DVPP}&nbsp;varianta <b>a.
-              čtenářská gramotnost</b>
-      </p>
-    </div>
-  </BlockEx>
   <BonusAlert />
 </Panel >;
 
@@ -1001,13 +941,6 @@ var SSMatematicka8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, c
       <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve vámi zvoleném termínu.</b>
     </p>
   </BlockEx>
-  <BlockEx header="Potřebné šablony: ">
-    <div>
-      <p>Pro každého učitele je potřeba objednat šablonu {popups.ss_8_hodin_DVPP}&nbsp;nebo {popups.vos_8_hodin_DVPP}&nbsp;varianta <b>b.
-              matematická gramotnost</b>
-      </p>
-    </div>
-  </BlockEx>
   <BonusAlert />
 </Panel >;
 
@@ -1042,13 +975,6 @@ var SSMatematicka1624: React.StatelessComponent<IKurzProps> = (props: IKurzProps
       <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve vámi zvoleném termínu.</b>
     </p>
   </BlockEx>
-  <BlockEx header="Potřebné šablony: ">
-    <div>
-      <p>Pro každého učitele je potřeba objednat šablonu {popups.ss_16_hodin_DVPP}&nbsp;nebo {popups.vos_16_hodin_DVPP}&nbsp;nebo  {popups.ss_24_hodin_DVPP}&nbsp;nebo {popups.vos_24_hodin_DVPP}&nbsp;varianta <b>b.
-              matematická gramotnost</b>
-      </p>
-    </div>
-  </BlockEx>
   <BonusAlert />
 </Panel >;
 
@@ -1065,13 +991,6 @@ var SSKariera8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: 
     <p>
       <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve vámi zvoleném termínu.</b>
     </p>
-  </BlockEx>
-  <BlockEx header="Potřebné šablony: ">
-    <div>
-      <p>Pro každého učitele je potřeba objednat šablonu {popups.ss_8_hodin_DVPP}&nbsp;nebo {popups.vos_8_hodin_DVPP}&nbsp;varianta <b>g.
-              karierové vzdělávání</b>
-      </p>
-    </div>
   </BlockEx>
   <BonusAlert />
 </Panel>;
@@ -1091,13 +1010,6 @@ var SSVychova8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: 
     <p>
       <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve vámi zvoleném termínu.</b>
     </p>
-  </BlockEx>
-  <BlockEx header="Potřebné šablony: ">
-    <div>
-      <p>Pro každého učitele je potřeba objednat šablonu {popups.ss_8_hodin_DVPP}&nbsp;nebo {popups.vos_8_hodin_DVPP}&nbsp;varianta <b>f.
-              výchova k podnikavosti</b>
-      </p>
-    </div>
   </BlockEx>
   <BonusAlert />
 </Panel>;
@@ -1247,7 +1159,6 @@ var KurzyList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.ICo
       <ul className='fa-ul'>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.ZSInkluze8)}</LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.ZSInkluze16)}</LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.ZSInkluze24)}</LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.ZSInkluze32)}</LiFile>
       </ul>
     </Col>
@@ -1306,9 +1217,7 @@ var KurzySSList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.I
       <h4>SŠ a VOŠ Ostatní</h4>
       <ul className='fa-ul'>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSCtenarska8)}</LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSCtenarska1624)}</LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSMatematicka8)}</LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSMatematicka1624)}</LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSKariera8)}</LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSVychova8)}</LiFile>
       </ul>
@@ -1323,9 +1232,7 @@ var KurzyIIList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.I
       <h4>ZŠ, ŠD, ŠK – Kurzy</h4>
       <ul className='fa-ul'>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.IIZSCtenarska8)}</LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.IIZSCtenarska1632)}</LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.IIZSMatematicka8)}</LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.IIZSMatematicka1632)}</LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.IIZSRozvoj81624)}</LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.IIZSICT81624)}</LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.IIZSKariera8)}</LiFile>
@@ -1889,9 +1796,8 @@ var IIMSCtenarska816: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
 </div>} eventKey={2}>
   <BlockEx header="Nabízíme následující kurzy">
     <ul className='fa-ul'>
-      <LiFile>Rozvoj předčtenářské gramotnosti – 8 hodin</LiFile>
+      <LiFile>Rozvoj předčt enářské gramotnosti – 8 hodin</LiFile>
       <LiFile>Rozvoj čtenářské pregramotnosti u dětí v MŠ – 16 hodin</LiFile>
-      <LiFile>Podpora čtenářské gramotnosti v MŠ (16 hod)</LiFile>
     </ul>
   </BlockEx>
   <BlockEx header="Výuka ve sborovně:">
@@ -1916,7 +1822,6 @@ var IIMSMatematicka816: React.StatelessComponent<IKurzProps> = (props: IKurzProp
     <ul className='fa-ul'>
       <LiFile>Rozvoj předmatematické gramotnosti – 8 hodin</LiFile>
       <LiFile>Rozvoj matematické pregramotnosti u dětí v MŠ – 16 hodin</LiFile>
-      <LiFile>Předmatematická gramotnost nově (16 hod)</LiFile>
     </ul>
   </BlockEx>
   <BlockEx header="Výuka ve sborovně:">
