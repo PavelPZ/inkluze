@@ -35,12 +35,11 @@
     SSICT8: site.INode;
     SSInkluze8: site.INode;
     SSInkluze16: site.INode;
-    SSInkluze24: site.INode;
     SSMentoring80: site.INode;
     SSCtenarska8: site.INode;
-    SSCtenarska1624: site.INode;
+    SSCtenarska16: site.INode;
     SSMatematicka8: site.INode;
-    SSMatematicka1624: site.INode;
+    SSMatematicka16: site.INode;
     SSKariera8: site.INode;
     SSVychova8: site.INode;
   }
@@ -59,10 +58,8 @@
     IIZSICT81624: site.INode;
     IIZSRozvoj81624: site.INode;
     IIZSKariera8: site.INode;
-    IIZSCtenarska1632: site.INode;
     IIZSCtenarska8: site.INode;
     IIZSMatematicka8: site.INode;
-    IIZSMatematicka1632: site.INode;
   }
 
   export var root: ISiteRoot;
@@ -214,11 +211,6 @@
           title: 'Inkluze - 16 hodinový kurz',
           createPage: par => React.createElement(KurzySS),
         },
-        SSInkluze24: {
-          id: 'SSInkluze24',
-          title: 'Inkluze - 24 hodinový kurz',
-          createPage: par => React.createElement(KurzySS),
-        },
         SSMentoring80: {
           id: 'SSMentoring80',
           title: 'Mentoring - 80 hodinový kurz pro SŠ',
@@ -229,9 +221,9 @@
           title: 'Čtenářská gramotnost - 8 hod kurz',
           createPage: par => React.createElement(KurzySS),
         },
-        SSCtenarska1624: {
-          id: 'SSCtenarska1624',
-          title: 'Čtenářská gramotnost - 16/24 hod kurz',
+        SSCtenarska16: {
+          id: 'SSCtenarska16',
+          title: 'Čtenářská gramotnost - 16 hod kurz',
           createPage: par => React.createElement(KurzySS),
         },
         SSMatematicka8: {
@@ -239,9 +231,9 @@
           title: 'Matematická gramotnost - 8 hod kurz',
           createPage: par => React.createElement(KurzySS),
         },
-        SSMatematicka1624: {
-          id: 'SSMatematicka1624',
-          title: 'Matematická gramotnost - 16/24 hod kurz',
+        SSMatematicka16: {
+          id: 'SSMatematicka16',
+          title: 'Matematická gramotnost - 16 hod kurz',
           createPage: par => React.createElement(KurzySS),
         },
         SSKariera8: {
@@ -303,19 +295,9 @@
           title: 'Matematická gramotnost - 8 hod',
           createPage: par => React.createElement(KurzyII),
         },
-        IIZSMatematicka1632: {
-          id: 'IIZSMatematicka1632',
-          title: 'Matematická gramotnost - 16/32 hod',
-          createPage: par => React.createElement(KurzyII),
-        },
         IIZSCtenarska8: {
           id: 'IIZSCtenarska8',
           title: 'Čtenářská gramotnost - 8 hod',
-          createPage: par => React.createElement(KurzyII),
-        },
-        IIZSCtenarska1632: {
-          id: 'IIZSCtenarska1632',
-          title: 'Čtenářská gramotnost - 16/32 hod',
           createPage: par => React.createElement(KurzyII),
         },
         IIZSInkluze8: {

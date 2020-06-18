@@ -83,7 +83,6 @@ function getSSLoaders(): Array<Array<ICourseSSLoader>> {
     [
       { id: 'SSInkluze8', create: expanded => <SSInkluze8 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSInkluze8.title} /> },
       { id: 'SSInkluze16', create: expanded => <SSInkluze16 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSInkluze16.title} /> },
-      { id: 'SSInkluze24', create: expanded => <SSInkluze24 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSInkluze24.title} /> },
       { id: 'SSMentoring80', create: expanded => <SSMentoring80 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSMentoring80.title} /> },
     ],
     [
@@ -96,9 +95,9 @@ function getSSLoaders(): Array<Array<ICourseSSLoader>> {
     ],
     [
       { id: 'SSCtenarska8', create: expanded => <SSCtenarska8 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSCtenarska8.title} /> },
-      { id: 'SSCtenarska1624', create: expanded => <SSCtenarska1624 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSCtenarska1624.title} /> },
+      { id: 'SSCtenarska16', create: expanded => <SSCtenarska16 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSCtenarska16.title} /> },
       { id: 'SSMatematicka8', create: expanded => <SSMatematicka8 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSMatematicka8.title} /> },
-      { id: 'SSMatematicka1624', create: expanded => <SSMatematicka1624 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSMatematicka1624.title} /> },
+      { id: 'SSMatematicka16', create: expanded => <SSMatematicka16 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSMatematicka16.title} /> },
     ]
   ];
   res.forEach(l => l.forEach(ll => ll.id = ll.id.toLowerCase()));

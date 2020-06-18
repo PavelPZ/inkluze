@@ -722,35 +722,6 @@ var SSInkluze16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
   <BonusAlert />
 </Panel>;
 
-var SSInkluze24: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">24</Label>  <span style={headerCss}>{props.title}</span></h3>
-</div>} eventKey={2}>
-  <ObsahInkluzeSS />
-  <BlockEx>
-    <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
-      Tento akreditovaný kurz poskytuje optimální variantu pro seznámení se s problematikou společného vzdělávání.
-      U tohoto kurzu je (oproti kratším verzím) více prostoru na:
-      <ul className='fa-ul'>
-        <LiHand>diskusi s učiteli</LiHand>
-        <LiHand>možnost řešení konkrétních problémů, týkajících se dané školy</LiHand>
-        <LiHand>praktické procvičování získaných znalostí</LiHand>
-        <LiHand>... a další</LiHand>
-      </ul>
-    </div>
-  </BlockEx>
-  <BlockEx header="Výuka ve sborovně:">
-    <p>
-      <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve vámi zvoleném termínu.</b>
-    </p>
-  </BlockEx>
-  <BlockEx header="Potřebné šablony: ">
-    <p>
-      Pro každého učitele je potřeba objednat šablonu {popups.ss_24_hodin_inkluze}&nbsp;nebo {popups.vos_24_hodin_inkluze}
-    </p>
-  </BlockEx>
-  <BonusAlert />
-</Panel>;
-
 var SSMentoring80: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">80</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
@@ -825,7 +796,7 @@ var SSCtenarska8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
   <BonusAlert />
 </Panel>;
 
-var SSCtenarska1624: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+var SSCtenarska16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">16</Label> <Label bsStyle="warning">24</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
   <BlockEx header="Ukázky z témat:  ">
@@ -944,7 +915,7 @@ var SSMatematicka8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, c
   <BonusAlert />
 </Panel >;
 
-var SSMatematicka1624: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+var SSMatematicka16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">16</Label> <Label bsStyle="warning">24</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
   <BlockEx header="Ukázky z témat:  ">
@@ -1194,7 +1165,6 @@ var KurzySSList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.I
       <ul className='fa-ul'>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSInkluze8)}</LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSInkluze16)}</LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSInkluze24)}</LiFile>
       </ul>
       <h4>SŠ a VOŠ Mentoring</h4>
       <ul className='fa-ul'>
@@ -1217,7 +1187,9 @@ var KurzySSList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.I
       <h4>SŠ a VOŠ Ostatní</h4>
       <ul className='fa-ul'>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSCtenarska8)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSCtenarska16)}</LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSMatematicka8)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSMatematicka16)}</LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSKariera8)}</LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSVychova8)}</LiFile>
       </ul>
@@ -1446,33 +1418,6 @@ var IIZSCtenarska8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, c
   <BonusAlert />
 </Panel>;
 
-var IIZSCtenarska1632: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">16</Label>&nbsp;<Label bsStyle="warning">32</Label>  <span style={headerCss}>{props.title}</span></h3>
-</div>} eventKey={2}>
-  <BlockEx header="Nabízíme následující kurzy (jen pro ZŠ):">
-    <ul className='fa-ul'>
-          <LiFile>Čtenářství – průvodce každodenním životem, cesta je vzdělání (16 hod)</LiFile>
-          <LiFile>Metody k rozvíjení čtenářských strategií (16 hod)</LiFile>
-          <LiFile>Inspirace k rozvíjení čtenářské gramotnosti v ČJL (16 hod)</LiFile>
-          <LiFile>Metody a formy práce v rozvoji čtenářské gramotnosti (16 hod)</LiFile>
-          <LiFile>Čtenářství, aneb jak se při vzdělávání vzájemně nenudit (32 hod)</LiFile>
-          <LiFile>Metody a formy práce v rozvoji čtenářské gramotnosti (32 hod)</LiFile>
-        </ul>
-  </BlockEx>
-  <BlockEx header="Výuka ve sborovně:">
-    <p>
-      <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve vámi zvoleném termínu.</b>
-    </p>
-  </BlockEx>
-  <BlockEx header="Potřebné šablony: ">
-    <div>
-      <p>Pro každého učitele je potřeba objednat 2x-4x šablonu 2.II/6 Vzdělávání pedagogických pracovníků ZŠ – DVPP v rozsahu 8 hodin varianta a. čtenářská gramotnost
-      </p>
-    </div>
-  </BlockEx>
-  <BonusAlert />
-</Panel>;
-
 var IIZSMatematicka8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
@@ -1497,26 +1442,6 @@ var IIZSMatematicka8: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
     </div>
   </BlockEx>
   <BonusAlert />
-</Panel>;
-
-var IIZSMatematicka1632: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">16</Label>&nbsp;<Label bsStyle="warning">32</Label>  <span style={headerCss}>{props.title}</span></h3>
-</div>} eventKey={2}>
-  <BlockEx header="Nabízíme následující kurzy (jen pro ZŠ):">
-    <ul className='fa-ul'>
-          <LiFile>Moderní technologie ve výuce (nejen) matematiky na ZŠ (16 hod)</LiFile>
-          <LiFile>Inspirace pro rozvoj matematické gramotnosti na ZŠ (32 hod)</LiFile>
-          <LiFile>Rozvoj matematické gramotnosti pro ZŠ (32 hod)</LiFile>
-        </ul>
-  </BlockEx>
-  <BlockEx header="Potřebné šablony: ">
-    <div>
-      <p>Pro každého učitele je potřeba objednat 2x-4x šablonu 2.II/6 Vzdělávání pedagogických pracovníků ZŠ – DVPP v rozsahu 8 hodin varianta b. matematická gramotnost
-      </p>
-    </div>
-  </BlockEx>
-  <BonusAlert />
-
 </Panel>;
 
 var IIZSKariera8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>

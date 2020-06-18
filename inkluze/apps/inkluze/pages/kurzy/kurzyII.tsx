@@ -82,9 +82,7 @@ function getIILoaders(): Array<Array<ICourseIILoader>> {
   var res = [
     [
       { id: 'IIZSCtenarska8', create: expanded => <IIZSCtenarska8 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIZSCtenarska8.title} /> },
-      { id: 'IIZSCtenarska1632', create: expanded => <IIZSCtenarska1632 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIZSCtenarska1632.title} /> },
       { id: 'IIZSMatematicka8', create: expanded => <IIZSMatematicka8 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIZSMatematicka8.title} /> },
-      { id: 'IIZSMatematicka1632', create: expanded => <IIZSMatematicka1632 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIZSMatematicka1632.title} /> },
       { id: 'IIZSRozvoj81624', create: expanded => <IIZSRozvoj81624 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIZSRozvoj81624.title} /> },
       { id: 'IIZSICT81624', create: expanded => <IIZSICT81624 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIZSICT81624.title} /> },
     ],
