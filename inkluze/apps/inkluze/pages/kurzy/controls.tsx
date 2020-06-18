@@ -646,6 +646,17 @@ var SSICT1624: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
 var SSICT8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
+  <BlockEx>
+    <div className='alert alert-info' style={{ fontSize: '18px' }}>
+      <p>
+        Novinky:
+        <ul>
+          <li>Distanční výuka – formy a metody práce s žáky on-line (od září 2020)</li>
+          <li>Jak na distanční výuku? (od září 2020)</li>
+        </ul>
+      </p>
+    </div>
+  </BlockEx>
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
           <LiFile>Využití ICT ve výuce – praktická inspirace – 8 hodin</LiFile>
@@ -682,6 +693,8 @@ var SSInkluze8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: 
           <li>Sociální klima třídy a role učitele – 8 hodin</li>
           <li>Specifika práce učitele v heterogenní třídě – 8 hodin</li>
           <li>Třídní učitel a jeho působení v běžné i inkluzivní třídě</li>
+          <li>Jak pracovat se žákem s odlišnými kulturními podmínkami-SŠ 8</li>
+          <li>Klima třídy se žáky s odlišným mateřským jazykem</li>
         </ul>
       </p>
     </div>
@@ -873,22 +886,16 @@ var SSCtenarska16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
 var SSMatematicka8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
-  <BlockEx header="Ukázky z témat:  ">
-    <ul className='fa-ul'>
-      <LiFile>Rozvíjení schopnosti řešit problémy a analýza informací - rozbor slovních úloh. </LiFile>
-      <LiFile> 	Práce s chybou. Matematizování reálných situací. </LiFile>
-      <LiFile> 	Používání správné terminologie a symboliky a praktické využití poznatků z matematiky.  </LiFile>
-      <LiFile> 	Využití matematického jazyka a symbolů ke konkrétním výstupům  podle věkové kategorie s využitím množinového pojetí rozborů textů a Vennových diagramů. </LiFile>
-      <LiFile> 	Využití výroků a logické stavby vět - komunikace a matematizace konkrétních situací.</LiFile>
-      <LiFile> 	Využití číselné osy, časové přímky. </LiFile>
-      <LiFile> 	Trojí pohled na zlomky.</LiFile>
-      <LiFile> 	Video : Fantastický výlet do makrosvěta a mikrosvěta ve světě čísel a přírodních věd.</LiFile>
-      <LiFile> 	Jak řešit matematickou úlohu – čtyři základní fáze.</LiFile>
-      <LiFile> 	Rozdíl mezi tzv. „trychtýřováním“  a správným kladením otázek učitelem. </LiFile>
-      <LiFile> 	Geometrie v rovině a v prostoru .</LiFile>
-      <LiFile> 	Představivost, Odvozování vztahů. </LiFile>
-      <LiFile> 	Využití kombinatorických pojmů ve výuce podle věkové úrovně žáků.</LiFile>
-    </ul>
+  <BlockEx>
+    <div className='alert alert-info' style={{ fontSize: '18px' }}>
+      <p>
+        Novinky:
+        <ul>
+          <li>Jak na distanční výuku matematiky? (od září 2020)</li>
+          <li>Jak na distanční výuku? (od září 2020)</li>
+        </ul>
+      </p>
+    </div>
   </BlockEx>
 
   <BlockEx header="GeoGebra jako nástroj rozvoje matematické gramotnosti na SŠ">
@@ -1421,6 +1428,16 @@ var IIZSCtenarska8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, c
 var IIZSMatematicka8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
+  <BlockEx>
+    <div className='alert alert-info' style={{ fontSize: '18px' }}>
+      <p>
+        Novinky:
+        <ul>
+          <li>Jak na distanční výuku matematiky? (od září 2020)</li>
+        </ul>
+      </p>
+    </div>
+  </BlockEx>
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
       <LiFile>Rozvoj matematické gramotnosti pro ZŠ 8 hodin (jen pro ZŠ):</LiFile>
@@ -1502,8 +1519,8 @@ var IIZSICT81624: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
       <p>
         Novinky:
         <ul>
-          <li>Rozvíjení digitální gramotnosti v českém jazyce (8 hod)</li>
-          <li>Rozvoj digitálních kompetencí učitelů a digitální gramotnosti žáků (8 hod)</li>
+          <li>Distanční výuka – formy a metody práce s žáky on-line (od září 2020)</li>
+          <li>Jak na distanční výuku? (od září 2020)</li>
         </ul>
       </p>
     </div>
@@ -1521,6 +1538,8 @@ var IIZSICT81624: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
       <LiFile>Začlenění ICT technologií do výuky a využití internetu  (16 hod)</LiFile>
       <LiFile>Efektivní využití MS Office a výukových technologií – 24 hodin</LiFile>
       <LiFile>Začlenění ICT technologií a dotykových zařízení do výuky  (24 hod)</LiFile>
+      <LiFile>Rozvíjení digitální gramotnosti v českém jazyce (8 hod)</LiFile>
+      <LiFile>Rozvoj digitálních kompetencí učitelů a digitální gramotnosti žáků (8 hod)</LiFile>
     </ul>
   </BlockEx>
   <BlockEx header="Výuka ve sborovně:">
@@ -1551,6 +1570,7 @@ var IIZSInkluze8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
           <li>Sociální klima třídy a role učitele – 8 hodin</li>
           <li>Specifika práce učitele v heterogenní třídě – 8 hodin</li>
           <li>Třídní učitel a jeho působení v běžné i inkluzivní třídě</li>
+          <li>Klima třídy se žáky s odlišným mateřským jazykem</li>
         </ul>
       </p>
     </div>
@@ -1643,6 +1663,17 @@ var IIZUSRozvoj8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
 var IIZUSICT8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
+  <BlockEx>
+    <div className='alert alert-info' style={{ fontSize: '18px' }}>
+      <p>
+        Novinky:
+        <ul>
+          <li>Distanční výuka – formy a metody práce s žáky on-line (od září 2020)</li>
+          <li>Jak na distanční výuku? (od září 2020)</li>
+        </ul>
+      </p>
+    </div>
+  </BlockEx>
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
       <LiFile>Využití ICT ve výuce – praktická inspirace</LiFile>
