@@ -684,6 +684,8 @@ var SSInkluze8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: 
       <p>
         Novinky:
         <ul>
+          <li>Jak pracovat se žákem s odlišnými kulturními podmínkami-SŠ 8</li>
+          <li>Klima třídy se žáky s odlišným mateřským jazykem</li>
           <li>Podpora žáků SŠ v rámci inkluze (i pro vychovatele v DM a internátech)</li>
           <li>Klima třídy a vedení třídnické hodiny v rámci inkluze</li>
           <li>Práce se žákem SŠ s problémovým chováním (i pro vychovatele v DM a internátech)</li>
@@ -693,8 +695,6 @@ var SSInkluze8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: 
           <li>Sociální klima třídy a role učitele – 8 hodin</li>
           <li>Specifika práce učitele v heterogenní třídě – 8 hodin</li>
           <li>Třídní učitel a jeho působení v běžné i inkluzivní třídě</li>
-          <li>Jak pracovat se žákem s odlišnými kulturními podmínkami-SŠ 8</li>
-          <li>Klima třídy se žáky s odlišným mateřským jazykem</li>
         </ul>
       </p>
     </div>
@@ -892,7 +892,6 @@ var SSMatematicka8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, c
         Novinky:
         <ul>
           <li>Jak na distanční výuku matematiky? (od září 2020)</li>
-          <li>Jak na distanční výuku? (od září 2020)</li>
         </ul>
       </p>
     </div>
@@ -1561,6 +1560,7 @@ var IIZSInkluze8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
       <p>
         Novinky:
         <ul>
+          <li>Klima třídy se žáky s odlišným mateřským jazykem</li>
           <li>Klima třídy a vedení třídnické hodiny v rámci inkluze-8 hod (jen pro ZŠ) </li>
           <li>Práce s pedagogickým sborem-jak předejít syndromu vyhoření (jen pro ZŠ)</li>
           <li>Práce se žákem s problémovým chováním – 8 hodin (pro ZŠ, ŠD, ŠK)</li>
@@ -1570,7 +1570,6 @@ var IIZSInkluze8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
           <li>Sociální klima třídy a role učitele – 8 hodin</li>
           <li>Specifika práce učitele v heterogenní třídě – 8 hodin</li>
           <li>Třídní učitel a jeho působení v běžné i inkluzivní třídě</li>
-          <li>Klima třídy se žáky s odlišným mateřským jazykem</li>
         </ul>
       </p>
     </div>

@@ -21,7 +21,7 @@
                 <LiFile>ICT (12 akreditovaných kurzů)</LiFile>
                 <LiFile>Kariérové vzdělávání (1 kurz)</LiFile>
                 <LiFile>Výchova k podnikavosti (2 kurzy)</LiFile>
-                <LiFile>Obsah jednotlivých kurzů naleznete na stránkách <a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.kurzy, ev)}>Šablony I – ZŠ a MŠ</a>, <a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.kurzyss, ev)}>Šablony I, II – SŠ a VOŠ</a> a <a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.kurzyii, ev)}>Šablony II – ZŠ, MŠ, ZUŠ, ŠD, …</a></LiFile>
+                <LiFile>Obsah jednotlivých kurzů naleznete na stránkách <a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.kurzyss, ev)}>Šablony II – SŠ a VOŠ</a> a <a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.kurzyii, ev)}>Šablony II – ZŠ, MŠ, ZUŠ, ŠD, …</a></LiFile>
               </ul>
             </Col>
             <Col md={1}>
