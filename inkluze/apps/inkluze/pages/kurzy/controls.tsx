@@ -651,8 +651,8 @@ var SSICT8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: site
       <p>
         Novinky:
         <ul>
-          <li>Distanční výuka – formy a metody práce s žáky on-line (od září 2020)</li>
-          <li>Jak na distanční výuku? (od září 2020)</li>
+          <li>Distanční výuka – formy a metody práce s žáky on-line</li>
+          <li>Jak na distanční výuku?</li>
         </ul>
       </p>
     </div>
@@ -1518,8 +1518,8 @@ var IIZSICT81624: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
       <p>
         Novinky:
         <ul>
-          <li>Distanční výuka – formy a metody práce s žáky on-line (od září 2020)</li>
-          <li>Jak na distanční výuku? (od září 2020)</li>
+          <li>Distanční výuka – formy a metody práce s žáky on-line</li>
+          <li>Jak na distanční výuku?</li>
         </ul>
       </p>
     </div>
@@ -1667,8 +1667,8 @@ var IIZUSICT8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
       <p>
         Novinky:
         <ul>
-          <li>Distanční výuka – formy a metody práce s žáky on-line (od září 2020)</li>
-          <li>Jak na distanční výuku? (od září 2020)</li>
+          <li>Distanční výuka – formy a metody práce s žáky on-line</li>
+          <li>Jak na distanční výuku?</li>
         </ul>
       </p>
     </div>
