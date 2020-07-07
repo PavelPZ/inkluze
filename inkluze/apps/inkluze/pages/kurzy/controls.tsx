@@ -891,7 +891,7 @@ var SSMatematicka8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, c
       <p>
         Novinky:
         <ul>
-          <li>Jak na distanční výuku matematiky? (od září 2020)</li>
+          <li>Jak na distanční výuku matematiky?</li>
         </ul>
       </p>
     </div>
@@ -1432,7 +1432,7 @@ var IIZSMatematicka8: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
       <p>
         Novinky:
         <ul>
-          <li>Jak na distanční výuku matematiky? (od září 2020)</li>
+          <li>Jak na distanční výuku matematiky?</li>
         </ul>
       </p>
     </div>
