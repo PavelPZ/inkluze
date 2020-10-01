@@ -2,7 +2,7 @@
   export interface ISiteRoot extends site.INode {
     q_and_a: site.INode;
     dalsi: site.INode;
-    lektori: site.INode;
+    okurzy: site.INode;
     kurzy: ISiteKurzy;
     kurzyss: ISiteKurzySS;
     kurzyii: ISiteKurzyII;
@@ -68,7 +68,7 @@
     home: site.ITab;
     kurzyss: site.ITab;
     kurzyii: site.ITab;
-    lektori: site.ITab;
+    okurzy: site.ITab;
     q_and_a: site.ITab;
     dalsi: site.ITab;
     onas: site.ITab;
@@ -326,9 +326,9 @@
           createPage: par => React.createElement(KurzyII),
         },
       },
-      lektori: {
-        id: 'lektori',
-        createPage: par => <Lektori />
+      okurzy: {
+        id: 'okurzy',
+        createPage: par => <Okurzy />
       },
       onas: {
         id: 'onas',
@@ -348,9 +348,9 @@
         title: 'Šablony II – ZŠ, MŠ, ZUŠ, ŠD, …',
         rootNode: root.kurzyii,
       },
-      lektori: {
-        title: 'Naši lektoři',
-        rootNode: root.lektori,
+      okurzy: {
+        title: 'Online kurzy',
+        rootNode: root.okurzy,
       },
       q_and_a: {
         title: 'Dotazy a odpovědi',

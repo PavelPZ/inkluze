@@ -36,9 +36,9 @@
     <TypeScriptCompile Include="apps\inkluze\pages\kurzy\controls.tsx" />
     <TypeScriptCompile Include="apps\inkluze\pages\kurzy\kurzyii.tsx" />
     <TypeScriptCompile Include="apps\inkluze\pages\kurzy\kurzyss.tsx" />
+    <TypeScriptCompile Include="apps\inkluze\pages\okurzy.tsx" />
     <TypeScriptCompile Include="apps\inkluze\pages\onas.tsx" />
     <TypeScriptCompile Include="apps\inkluze\pages\ostatni.tsx" />
-    <TypeScriptCompile Include="apps\inkluze\pages\lektori.tsx" />
     <Content Include="externals\react-dom.js" />
     <Content Include="externals\react.js" />
     <Content Include="index.html" />

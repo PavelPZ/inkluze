@@ -2,7 +2,7 @@
   <Page>
     <div>
       <Block blue style={{ paddingBottom: '10px' }}>
-        <h1 className='text-center'><a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.kurzy, ev)} >Akreditované kurzy podle šablon I a II</a><br />od <a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.lektori, ev)}>zkušených lektorů</a></h1>
+        <h1 className='text-center'><a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.kurzy, ev)} >Akreditované kurzy podle šablon I a II</a><br />od <a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.okurzy, ev)}>zkušených lektorů</a></h1>
         <h3 className='text-center'>výzvy 02_16_022/ 023, 02_16_035/ 042 a 02_18_063/ 064</h3>
         <div className="text-center">Napište nám na <a href={'mailto:' + infoEmail}>{infoEmail}</a> nebo zavolejte +420 244 460 807</div>
         <Grid style={{ marginTop: '15px' }}>
@@ -102,7 +102,7 @@
       </p>
       <p>
         Naši lektoři mají s DVPP mnohaleté zkušenosti.
-        Více viz stránka  {sitemapRouter.doNavigateTag(inkluze.root.lektori) }.
+        Více viz stránka  {sitemapRouter.doNavigateTag(inkluze.root.okurzy) }.
       </p>
       <p>
         V podmínkách pro využití dotace je stanoveno, že každý učitel, který se v rámci projektu účastní nějakého vzdělávacího kurzu, <b>musí v souhrnu absolvovat alespoň 24 hodin vzdělávání</b>.
