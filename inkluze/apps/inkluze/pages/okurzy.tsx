@@ -76,22 +76,22 @@
           <p>Akreditováno pro pro ZŠ, ŠD, MŠ, ZUŠ: MSMT- 8265/2019-1-321</p>
           <p>Cena: 1490 Kč/os, Lektor: Mgr. Jana Soukupová</p>
         </LiHand>
-        <LiHand><h4><b>19.11. 2020 Zásady asertivní a efektivní komunikace – 8 hodin</b></h4>
-          <h4><Label bsStyle="warning">osobnostně sociální rozvoj</Label></h4>
-        <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=19.11.%202020%20Z%C3%A1sady%20asertivn%C3%AD%20a%20efektivn%C3%AD%20komunikace%20%E2%80%93%208%20hodin&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>Akreditováno pro pro ZŠ, ŠŠ, VOŠ, ŠD, DM: MSMT- 32853/2018-1-914</p>
-          <p>Cena: 1490 Kč/os, Lektor: Mgr. Jana Soukupová</p>
-        </LiHand>
         <LiHand><h4><b>16. 11. Základy práce s MS Office a jejich využití na školách</b></h4>
           <h4><Label bsStyle="warning">ICT</Label></h4>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=16.%2011.%20Z%C3%A1klady%20pr%C3%A1ce%20s%20MS%20Office%20a%20jejich%20vyu%C5%BEit%C3%AD%20na%20%C5%A1kol%C3%A1ch&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>Akreditováno pro pro ZŠ, ŠD, MŠ, ZUŠ: MSMT- 8265/2019-1-321</p>
           <p>Cena: 1490 Kč/os, Lektor: Mgr. Bc. Jan Šindelář</p>
         </LiHand>
-        <LiHand><h4><b>27.11. Efektivní využití MS Office pro pedagogy – 8 hodin</b></h4>
+        <LiHand><h4><b>19.11. 2020 Zásady asertivní a efektivní komunikace – 8 hodin</b></h4>
+          <h4><Label bsStyle="warning">osobnostně sociální rozvoj</Label></h4>
+        <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=19.11.%202020%20Z%C3%A1sady%20asertivn%C3%AD%20a%20efektivn%C3%AD%20komunikace%20%E2%80%93%208%20hodin&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>Akreditováno pro pro ZŠ, ŠŠ, VOŠ, ŠD, DM: MSMT- 32853/2018-1-914</p>
+          <p>Cena: 1490 Kč/os, Lektor: Mgr. Jana Soukupová</p>
+        </LiHand>
+        <LiHand><h4><b>27.11. Různé metody pro začlenění ICT technologií do výuky</b></h4>
           <h4><Label bsStyle="warning">ICT</Label></h4>
-        <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=27.11.%20Efektivn%C3%AD%20vyu%C5%BEit%C3%AD%20MS%20Office%20pro%20pedagogy%20%E2%80%93%208%20hodin&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>Akreditováno pro pro ZŠ, SŠ, VOŠ: MSMT- 25896/2018-1-746</p>
+          <p>Pro přihlášení <a href="mailto:lektor@langmaster.cz?subject=27.11.%20R%C5%AFzn%C3%A9%20metody%20pro%20za%C4%8Dlen%C4%9Bn%C3%AD%20ICT%20technologi%C3%AD%20do%20v%C3%BDuky&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>Akreditováno pro pro ZŠ, SŠ, VOŠ, ZUŠ: MSMT- 8265/2019-1-321</p>
           <p>Cena: 1490 Kč/os, Lektor: Mgr. Bc. Jan Šindelář</p>
         </LiHand>
       </ul>
