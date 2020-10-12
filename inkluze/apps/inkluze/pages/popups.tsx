@@ -20,7 +20,7 @@
       </p>
       <div className="well well-sm">
         Škola si povinně volí minimálně jednu šablonu z oblasti, která bude vyhodnocena jako nejslabší vzhledem k celorepublikovému průměru.
-        Vzhledem k tomu, že dotazník byl koncipován šířeji pro programové období, je možné, že škola nenalezne odpovídající šablonu (např.
+        Vzhledem k tomu, že dotazník byl koncipován šířeji programové období, je možné, že škola nenalezne odpovídající šablonu (např.
         oblast digitálních technologií v případě mateřské školy), pak bude volit ze šablon zaměřených na druhou nejslaběji vyhodnocenou oblast, pro kterou jsou k dispozici šablony.
         Volba minimálně jedné šablony dle uvedeného bude předmětem kontroly přijatelnosti projektu.
         Pokud škola tuto šablonu nezvolí, bude žádost vyřazena.
