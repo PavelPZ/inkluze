@@ -10,24 +10,6 @@
     </BlockEx>
     <BlockEx>
       <ul className='fa-ul'>
-        <LiHand><h4><b>21.10.2020 Rozvoj předmatematické gramotnosti – 8 hodin</b></h4>
-          <h4><Label bsStyle="warning">  matematická gramotnost</Label></h4>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=21.10.%202020%20Rozvoj%20p%C5%99edmatematick%C3%A9%20gramotnosti%20%E2%80%93%208%20hodin&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>Akreditováno pro MŠ: MSMT- 14332/2018-1-514</p>
-          <p>Cena: 1490 Kč/os, Lektor: PaedDr. Ellen Mlátilíková</p>
-        </LiHand>
-        <LiHand><h4><b>23.10.2020 Rozvoj předčtenářské gramotnosti – 8 hodin</b></h4>
-          <h4><Label bsStyle="warning">  čtenářská gramotnost</Label></h4>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=23.10.%202020%20Rozvoj%20p%C5%99ed%C4%8Dten%C3%A1%C5%99sk%C3%A9%20gramotnosti%20%E2%80%93%208%20hodin&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>Akreditováno pro MŠ: MSMT- 14332/2018-1-514</p>
-          <p>Cena: 1490 Kč/os, Lektor: PaedDr. Ellen Mlátilíková</p>
-        </LiHand>
-        <LiHand><h4><b>23.10.2020 Role pedagoga v karierovém poradenství – 8 hodin</b></h4>
-          <h4><Label bsStyle="warning">kariérové vzdělávání</Label></h4>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=23.10.2020%20Role%20pedagoga%20v%20karierov%C3%A9m%20poradenstv%C3%AD%20%E2%80%93%208%20hodin&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>Akreditováno pro ZŠ, SŠ, VOŠ: MSMT- 823/2019-1-77</p>
-          <p>Cena: 1490 Kč/os, Lektor: Mgr. Dana Forýtková</p>
-        </LiHand>
         <LiHand><h4><b>26.10.2020 GeoGebra jako nástroj rozvoje matematické gramotnosti na ZŠ (8 hodin)</b></h4>
           <h4><Label bsStyle="warning">Matematická gramotnost</Label></h4>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=26.10.2020%20GeoGebra%20jako%20n%C3%A1stroj%20rozvoje%20matematick%C3%A9%20gramotnosti%20na%20Z%C5%A0&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
@@ -39,6 +21,18 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=29.10.%20Podpora%20%C5%BE%C3%A1k%C5%AF%20Z%C5%A0%20v%20r%C3%A1mci%20inkluzivn%C3%ADho%20vzd%C4%9Bl%C3%A1v%C3%A1n%C3%AD%208%20hodin&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>Akreditováno pro ZŠ, ŠD, ŠK: MSMT- 7071/2018-1-286</p>
           <p>Cena: 1290 Kč/os, Lektor: PaedDr. Ellen Mlátilíková</p>
+        </LiHand>
+        <LiHand><h4><b>30.10.2020 Role pedagoga v karierovém poradenství – 8 hodin</b></h4>
+          <h4><Label bsStyle="warning">kariérové vzdělávání</Label></h4>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=23.10.2020%20Role%20pedagoga%20v%20karierov%C3%A9m%20poradenstv%C3%AD%20%E2%80%93%208%20hodin&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>Akreditováno pro ZŠ, SŠ, VOŠ: MSMT- 823/2019-1-77</p>
+          <p>Cena: 1490 Kč/os, Lektor: Mgr. Dana Forýtková</p>
+        </LiHand>
+        <LiHand><h4><b>2.11.2020 Efektivní využití MS Office pro pedagogy – 8 hodin</b></h4>
+          <h4><Label bsStyle="warning">ICT</Label></h4>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=2.11.2020%20Efektivn%C3%AD%20vyu%C5%BEit%C3%AD%20MS%20Office%20pro%20pedagogy%20%E2%80%93%208%20hodin&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>Akreditováno pro ZŠ, SŠ, VOŠ: MSMT- 25896/2018-1-746</p>
+          <p>Cena: 1490 Kč/os, Lektor: Mgr. Bc. Jan Šindelář</p>
         </LiHand>
         <LiHand><h4><b>3.11.2020 Čtenářská a informační gramotnost na ZŠ – 8 hodin</b></h4>
           <h4><Label bsStyle="warning">čtenářská gramotnost</Label></h4>
@@ -122,7 +116,7 @@
           <h4><Label bsStyle="warning">čtenářská gramotnost</Label></h4>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=23.11.%20a%2024.11.%202020%20Rozvoj%20%C4%8Dten%C3%A1%C5%99sk%C3%A9%20gramotnosti%20u%20%C5%BE%C3%A1k%C5%AF%20Z%C5%A0%20%E2%80%93%208%20hodin&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>Akreditováno pro ZŠ, ŠD: MSMT- 27438/2019-1-822</p>
-          <p>Cena: 1490 Kč/os, Lektor: Mgr. et Mgr. Vendula Jašková</p>
+          <p>Cena: 1490 Kč/os, Lektor: Mgr. Dana Forýtková</p>
           <p>Poznámka: Kurz bude rozdělen do 2 dnů -  2x 4 vyučovací hodiny (odpoledne od 13 hod)</p>
         </LiHand>
         <LiHand><h4><b>26.11.2020 Zásady asertivní a efektivní komunikace pro MŠ, ZŠ, ZUŠ</b></h4>
@@ -136,6 +130,12 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=27.11.%20Funkce%20a%20n%C3%A1strahy%20internetu%2C%20kyber%C5%A1ikana%2C%20soci%C3%A1ln%C3%AD%20s%C3%ADt%C4%9B&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>Akreditováno pro pro ZŠ, SŠ, VOŠ: MSMT- 8265/2019-1-321</p>
           <p>Cena: 1490 Kč/os, Lektor: Mgr. Bc. Jan Šindelář</p>
+        </LiHand>
+        <LiHand><h4><b>30.11.2020 Rozvoj matematické gramotnosti u žáků ZŠ – 8 hodin</b></h4>
+          <h4><Label bsStyle="warning">matematická gramotnost</Label></h4>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=30.11.2020%20Rozvoj%20matematick%C3%A9%20gramotnosti%20u%20%C5%BE%C3%A1k%C5%AF%20Z%C5%A0%20%E2%80%93%208%20hodin&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>Akreditováno pro ZŠ, ŠD: MSMT- 27438/2019-1-822</p>
+          <p>Cena: 1490 Kč/os, Lektor: Mgr. et Mgr. Vendula Jašková</p>
         </LiHand>
         <LiHand><h4><b>2.12.2020 Efektivní využití MS Office pro pedagogy – 8 hodin</b></h4>
           <h4><Label bsStyle="warning">ICT</Label></h4>
