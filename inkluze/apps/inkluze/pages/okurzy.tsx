@@ -119,6 +119,12 @@
           <p>Cena: 1490 Kč/os, Lektor: Mgr. Dana Forýtková</p>
           <p>Poznámka: Kurz bude rozdělen do 2 dnů -  2x 4 vyučovací hodiny (odpoledne od 13 hod)</p>
         </LiHand>
+        <LiHand><h4><b>25.11.2020 Rozvoj čtenářské gramotnosti u žáků ZŠ – 8 hodin</b></h4>
+          <h4><Label bsStyle="warning">čtenářská gramotnost</Label></h4>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=25.11.2020%20Rozvoj%20%C4%8Dten%C3%A1%C5%99sk%C3%A9%20gramotnosti%20u%20%C5%BE%C3%A1k%C5%AF%20Z%C5%A0%20%E2%80%93%208%20hodin&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>Akreditováno pro ZŠ, ŠD: MSMT- 27438/2019-1-822</p>
+          <p>Cena: 1490 Kč/os, Lektor: Mgr. et Mgr. Vendula Jašková</p>
+        </LiHand>
         <LiHand><h4><b>26.11.2020 Zásady asertivní a efektivní komunikace pro MŠ, ZŠ, ZUŠ</b></h4>
           <h4><Label bsStyle="warning">osobnostně sociální rozvoj</Label></h4>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=26.11.2020%20Z%C3%A1sady%20asertivn%C3%AD%20a%20efektivn%C3%AD%20komunikace%20pro%20M%C5%A0%2C%20Z%C5%A0%2C%20ZU%C5%A0&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
