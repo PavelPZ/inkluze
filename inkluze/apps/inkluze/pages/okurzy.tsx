@@ -10,18 +10,6 @@
     </BlockEx>
     <BlockEx>
       <ul className='fa-ul'>
-        <LiHand><h4><b>5.11.2020 Rozvoj předmatematické gramotnosti – 8 hodin</b></h4>
-          <h4><Label bsStyle="warning">matematická gramotnost</Label></h4>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=5.11.2020%20Rozvoj%20p%C5%99edmatematick%C3%A9%20gramotnosti%20%E2%80%93%208%20hodin&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>Akreditováno pro MŠ: MSMT- 14332/2018-1-514</p>
-          <p>Cena: 1490 Kč/os, Lektor: PaedDr. Ellen Mlátilíková</p>
-        </LiHand>
-        <LiHand><h4><b>6.11.2020 Společné vzdělávání dětí v MŠ – 8 hodin</b></h4>
-          <h4><Label bsStyle="warning">inkluze</Label></h4>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=6.11.%202020%20Spole%C4%8Dn%C3%A9%20vzd%C4%9Bl%C3%A1v%C3%A1n%C3%AD%20d%C4%9Bt%C3%AD%20v%20M%C5%A0%20%E2%80%93%208%20hodin&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>Akreditováno pro MŠ: MSMT- 14332/2018-1-514</p>
-          <p>Cena: 1290 Kč/os, Lektor: PaedDr. Ellen Mlátilíková</p>
-        </LiHand>
         <LiHand><h4><b>10.11.2020 GeoGebra nástroj rozvoje matematické gramotnosti na SŠ (8 hodin)</b></h4>
           <h4><Label bsStyle="warning">Matematická gramotnost</Label></h4>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=10.11.2020%20GeoGebra%20n%C3%A1stroj%20rozvoje%20matematick%C3%A9%20gramotnosti%20na%20S%C5%A0&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
@@ -136,6 +124,12 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=9.%2012.%202020%20Jak%20na%20distan%C4%8Dn%C3%AD%20v%C3%BDuku%20matematiky%3F&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>Akreditováno pro ZŠ, SŠ a VOŠ: MSMT- 21327/2020-2-533</p>
           <p>Cena: 1490 Kč/os, Lektor: Mgr. Veronika Havelková</p>
+        </LiHand>
+        <LiHand><h4><b>9.12.2020 Společné vzdělávání dětí v MŠ – 8 hodin</b></h4>
+          <h4><Label bsStyle="warning">inkluze</Label></h4>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=9.12.%202020%20Spole%C4%8Dn%C3%A9%20vzd%C4%9Bl%C3%A1v%C3%A1n%C3%AD%20d%C4%9Bt%C3%AD%20v%20M%C5%A0%20%E2%80%93%208%20hodin&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>Akreditováno pro MŠ: MSMT- 14332/2018-1-514</p>
+          <p>Cena: 1290 Kč/os, Lektor: PaedDr. Ellen Mlátilíková</p>
         </LiHand>
         <LiHand><h4><b>6.1.2021 Čtenářská gramotnost napříč všemi předměty SŠ a VOŠ  – 8</b></h4>
           <h4><Label bsStyle="warning">ICT</Label></h4>
