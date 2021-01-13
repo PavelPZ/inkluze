@@ -112,10 +112,16 @@
           <p>Akreditováno pro ZŠ, SŠ a VOŠ: MSMT- 21327/2020-2-533</p>
           <p>Cena: 1490 Kč/os, Lektor: Mgr. Veronika Havelková</p>
         </LiHand>
-        <LiHand><h4><b>1. 3. 2021 GeoGebra jako nástroj rozvoje matematické gramotnosti na ZŠ</b></h4>
+        <LiHand><h4><b>22.2.2021 Základy práce s MS Office a jejich využití na školách (8 hod)</b></h4>
+          <h4><Label bsStyle="warning">ICT</Label></h4>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=22.2.2021%20Z%C3%A1klady%20pr%C3%A1ce%20s%20MS%20Office%20a%20jejich%20vyu%C5%BEit%C3%AD%20na%20%C5%A1kol%C3%A1ch%20(8%20hod)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>Akreditováno pro ZŠ, ŠD, MŠ, ZUŠ: MSMT- 8265/2019-1-321</p>
+          <p>Cena: 1490 Kč/os, Lektor: Mgr. Bc. Jan Šindelář</p>
+        </LiHand>
+        <LiHand><h4><b>1. 3. 2021 Jak na distanční výuku matematiky? (8 hodin)</b></h4>
           <h4><Label bsStyle="warning">Matematická gramotnost</Label></h4>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=1.%203.%202021%20GeoGebra%20jako%20n%C3%A1stroj%20rozvoje%20matematick%C3%A9%20gramotnosti%20na%20Z%C5%A0&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>Akreditováno pro ZŠ: MSMT- 7071/2018-1-286</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=1.%203.%202021%20Jak%20na%20distan%C4%8Dn%C3%AD%20v%C3%BDuku%20matematiky%3F%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>Akreditováno pro ZŠ, SŠ a VOŠ: MSMT- 21327/2020-2-533</p>
           <p>Cena: 1490 Kč/os, Lektor: Mgr. Veronika Havelková</p>
         </LiHand>
         <LiHand><h4><b>2. 3. 2021 GeoGebra nástroj rozvoje matematické gramotnosti na SŠ</b></h4>
@@ -129,6 +135,12 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=9.%203.%202021%20%C4%8Cten%C3%A1%C5%99sk%C3%A1%20gramotnost%20nap%C5%99%C3%AD%C4%8D%20v%C5%A1emi%20p%C5%99edm%C4%9Bty%20S%C5%A0%20a%20VO%C5%A0%20%E2%80%93%208&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>Akreditováno pro SŠ, VOŠ: MSMT- 11115/2020-2-287</p>
           <p>Cena: 1490 Kč/os, Lektor: Mgr. Dana Forýtková</p>
+        </LiHand>
+        <LiHand><h4><b>9. 3. 2021 GeoGebra jako nástroj rozvoje matematické gramotnosti na ZŠ</b></h4>
+          <h4><Label bsStyle="warning">Matematická gramotnost</Label></h4>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=9.%203.%202021%20GeoGebra%20jako%20n%C3%A1stroj%20rozvoje%20matematick%C3%A9%20gramotnosti%20na%20Z%C5%A0&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>Akreditováno pro ZŠ: MSMT- 7071/2018-1-286</p>
+          <p>Cena: 1490 Kč/os, Lektor: Mgr. Veronika Havelková</p>
         </LiHand>
         <LiHand><h4><b>10. 3. 2021 Rozvoj čtenářské gramotnosti u žáků ZŠ – 8 hodin  </b></h4>
           <h4><Label bsStyle="warning">Čtenářská gramotnost</Label></h4>
