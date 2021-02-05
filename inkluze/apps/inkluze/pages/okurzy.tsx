@@ -10,36 +10,6 @@
     </BlockEx>
     <BlockEx>
       <ul className='fa-ul'>
-        <LiHand><h4><b>25. 1. 2021 Jak na distanční výuku? (8 hodin)</b></h4>
-          <h4><Label bsStyle="warning">ICT</Label></h4>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=25.%201.%202021%20Jak%20na%20distan%C4%8Dn%C3%AD%20v%C3%BDuku%3F&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%0A%0APokud%20do%20jednoho%20pracovn%C3%ADho%20dne%20nedostanete%20potvrzen%C3%AD%20o%20p%C5%99ihl%C3%A1%C5%A1en%C3%AD%20na%20kurz%2C%20volejte%20pros%C3%ADm%20na%20%C4%8D%C3%ADslo%20244%20460%20807.">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>Akreditováno pro ZŠ, SŠ a VOŠ: MSMT- 21327/2020-2-533</p>
-          <p>Cena: 1490 Kč/os, Lektor: Mgr. Veronika Havelková</p>
-        </LiHand>
-        <LiHand><h4><b>26. 1. 2021 Osobnostní a sociální rozvoj učitele ve zvládání konfliktů (8 hodin)</b></h4>
-          <h4><Label bsStyle="warning">Osobnostní rozvoj</Label></h4>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=26.%201.%202021%20Osobnostn%C3%AD%20a%20soci%C3%A1ln%C3%AD%20rozvoj%20u%C4%8Ditele%20ve%20zvl%C3%A1d%C3%A1n%C3%AD%20konflikt%C5%AF&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%0A%0APokud%20do%20jednoho%20pracovn%C3%ADho%20dne%20nedostanete%20potvrzen%C3%AD%20o%20p%C5%99ihl%C3%A1%C5%A1en%C3%AD%20na%20kurz%2C%20volejte%20pros%C3%ADm%20na%20%C4%8D%C3%ADslo%20244%20460%20807.">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>Akreditováno pro ZŠ, SŠ a VOŠ: MSMT- 32248/2020-2-752</p>
-          <p>Cena: 1490 Kč/os, Lektor: Mgr. Dana Forýtková</p>
-        </LiHand>
-        <LiHand><h4><b>27. 1. 2021 Práce s diferencovanou třídou a náměty na vzdělávání 8 hod  (zahrnuje téma formativního hodnocení)</b></h4>
-          <h4><Label bsStyle="warning">inkluze</Label></h4>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=27.%201.%202021%20Pr%C3%A1ce%20s%20diferencovanou%20t%C5%99%C3%ADdou%20a%20n%C3%A1m%C4%9Bty%20na%20vzd%C4%9Bl%C3%A1v%C3%A1n%C3%AD%208%20hod%20%20(zahrnuje%20t%C3%A9ma%20formativn%C3%ADho%20hodnocen%C3%AD)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%0A%0APokud%20do%20jednoho%20pracovn%C3%ADho%20dne%20nedostanete%20potvrzen%C3%AD%20o%20p%C5%99ihl%C3%A1%C5%A1en%C3%AD%20na%20kurz%2C%20volejte%20pros%C3%ADm%20na%20%C4%8D%C3%ADslo%20244%20460%20807.">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>Akreditováno pro ZŠ, SŠ, VOŠ a asistenty pedagoga: MSMT - 823/2019-1-77</p>
-          <p>Cena: 1290 Kč/os, Lektor: PaedDr. Ellen Mlátilíková</p>
-        </LiHand>
-        <LiHand><h4><b>2. 2. 2021 Jak na distanční výuku matematiky? (8 hodin)</b></h4>
-          <h4><Label bsStyle="warning">Matematická gramotnost</Label></h4>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=2.%202.%202021%20Jak%20na%20distan%C4%8Dn%C3%AD%20v%C3%BDuku%20matematiky%3F%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%0A%0APokud%20do%20jednoho%20pracovn%C3%ADho%20dne%20nedostanete%20potvrzen%C3%AD%20o%20p%C5%99ihl%C3%A1%C5%A1en%C3%AD%20na%20kurz%2C%20volejte%20pros%C3%ADm%20na%20%C4%8D%C3%ADslo%20244%20460%20807.">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>Akreditováno pro ZŠ, SŠ a VOŠ: MSMT- 21327/2020-2-533</p>
-          <p>Cena: 1490 Kč/os, Lektor: Mgr. Veronika Havelková</p>
-        </LiHand>
-        <LiHand><h4><b>4. 2. 2021 Role pedagoga v karierovém poradenství – 8 hodin</b></h4>
-          <h4><Label bsStyle="warning">kariérové vzdělávání</Label></h4>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=4.%202.%202021%20Role%20pedagoga%20v%20karierov%C3%A9m%20poradenstv%C3%AD%20%E2%80%93%208%20hodin&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%0A%0APokud%20do%20jednoho%20pracovn%C3%ADho%20dne%20nedostanete%20potvrzen%C3%AD%20o%20p%C5%99ihl%C3%A1%C5%A1en%C3%AD%20na%20kurz%2C%20volejte%20pros%C3%ADm%20na%20%C4%8D%C3%ADslo%20244%20460%20807.">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>Akreditováno pro ZŠ, SŠ, VOŠ: MSMT - 823/2019-1-77</p>
-          <p>Cena: 1590 Kč/os, Lektor: Mgr. Dana Forýtková</p>
-        </LiHand>
         <LiHand><h4><b>8. 2. 2021 Začlenění interaktivních tabulí do výuky (8 hodin)</b></h4>
           <h4><Label bsStyle="warning">ICT</Label></h4>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=08.%202.%202021%20Za%C4%8Dlen%C4%9Bn%C3%AD%20interaktivn%C3%ADch%20tabul%C3%AD%20do%20v%C3%BDuky%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%0A%0APokud%20do%20jednoho%20pracovn%C3%ADho%20dne%20nedostanete%20potvrzen%C3%AD%20o%20p%C5%99ihl%C3%A1%C5%A1en%C3%AD%20na%20kurz%2C%20volejte%20pros%C3%ADm%20na%20%C4%8D%C3%ADslo%20244%20460%20807.">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
@@ -165,6 +135,12 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=17.%203.%202021%20Rozvoj%20p%C5%99ed%C4%8Dten%C3%A1%C5%99sk%C3%A9%20gramotnosti%20%E2%80%93%208%20hodin&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%0A%0APokud%20do%20jednoho%20pracovn%C3%ADho%20dne%20nedostanete%20potvrzen%C3%AD%20o%20p%C5%99ihl%C3%A1%C5%A1en%C3%AD%20na%20kurz%2C%20volejte%20pros%C3%ADm%20na%20%C4%8D%C3%ADslo%20244%20460%20807.">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>Akreditováno pro MŠ: MSMT- 14332/2018-1-514</p>
           <p>Cena: 1490 Kč/os, Lektor: PaedDr. Ellen Mlátilíková</p>
+        </LiHand>
+        <LiHand><h4><b>18.3. 2021 Rozvoj podnikavosti a zásady soukromého podnikání – 8 hodin</b></h4>
+          <h4><Label bsStyle="warning">Výchova k podnikavosti</Label></h4>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=18.3.%202021%20Rozvoj%20podnikavosti%20a%20z%C3%A1sady%20soukrom%C3%A9ho%20podnik%C3%A1n%C3%AD%20%E2%80%93%208%20hodin&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A%0A%0APokud%20do%20jednoho%20pracovn%C3%ADho%20dne%20nedostanete%20potvrzen%C3%AD%20o%20p%C5%99ihl%C3%A1%C5%A1en%C3%AD%20na%20kurz%2C%20volejte%20pros%C3%ADm%20na%20%C4%8D%C3%ADslo%20244%20460%20807.">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>Akreditováno pro SŠ, VOŠ: MSMT- 32853/2018-1-914</p>
+          <p>Cena: 1590 Kč/os, Lektor: Mgr. Jana Soukupová</p>
         </LiHand>
         <LiHand><h4><b>19.3.2021 Základy práce s MS Office a jejich využití na školách (8 hod)</b></h4>
           <h4><Label bsStyle="warning">ICT</Label></h4>
