@@ -112,6 +112,12 @@
           <p>Akreditováno pro ZŠ, SŠ, VOŠ, ZUŠ: MSMT- 8265/2019-1-321</p>
           <p>Cena: 1490 Kč/os, Lektor: Mgr. Bc. Jan Šindelář</p>
         </LiHand>
+        <LiHand><h4><b>7. 4. 2021 GeoGebra nástroj rozvoje matematické gramotnosti na SŠ (8 hodin)</b></h4>
+          <h4><Label bsStyle="warning">Matematická gramotnost</Label></h4>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=7.%204.%202021%20GeoGebra%20n%C3%A1stroj%20rozvoje%20matematick%C3%A9%20gramotnosti%20na%20S%C5%A0%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%20%0APokud%20do%20jednoho%20pracovn%C3%ADho%20dne%20nedostanete%20potvrzen%C3%AD%20o%20p%C5%99ihl%C3%A1%C5%A1en%C3%AD%20na%20kurz%2C%20volejte%20pros%C3%ADm%20na%20%C4%8D%C3%ADslo%20244%20460%20807.">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>Akreditováno pro SŠ a VOŠ: MSMT- 11115/2020-2-287</p>
+          <p>Cena: 1490 Kč/os, Lektor: Mgr. Veronika Havelková</p>
+        </LiHand>
         <LiHand><h4><b>14. 4. 2021 Osobnostní a sociální rozvoj učitele ve zvládání konfliktů (8 hodin)</b></h4>
           <h4><Label bsStyle="warning">Osobnostní rozvoj</Label></h4>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=14.%204.%202021%20Osobnostn%C3%AD%20a%20soci%C3%A1ln%C3%AD%20rozvoj%20u%C4%8Ditele%20ve%20zvl%C3%A1d%C3%A1n%C3%AD%20konflikt%C5%AF%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A%20%0A%0APokud%20do%20jednoho%20pracovn%C3%ADho%20dne%20nedostanete%20potvrzen%C3%AD%20o%20p%C5%99ihl%C3%A1%C5%A1en%C3%AD%20na%20kurz%2C%20volejte%20pros%C3%ADm%20na%20%C4%8D%C3%ADslo%20244%20460%20807.">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
