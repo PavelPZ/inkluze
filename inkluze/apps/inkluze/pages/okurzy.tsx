@@ -100,10 +100,22 @@
           <p>Akreditováno pro ZŠ, SŠ, VOŠ, ŠD, ŠK, DM: MSMT - 14332/2018-1-514</p>
           <p>Cena: 1490 Kč/os, Lektor: PaedDr. Ellen Mlátilíková</p>
         </LiHand>
+        <LiHand><h4><b>25. 3. 2021 Rozvoj osobnosti pedagoga ve zvládání konfliktů (8 hodin)</b></h4>
+          <h4><Label bsStyle="warning">Osobnostní rozvoj</Label></h4>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=25.%203.%202021%20Rozvoj%20osobnosti%20pedagoga%20ve%20zvl%C3%A1d%C3%A1n%C3%AD%20konflikt%C5%AF%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A%20%0A%0APokud%20do%20jednoho%20pracovn%C3%ADho%20dne%20nedostanete%20potvrzen%C3%AD%20o%20p%C5%99ihl%C3%A1%C5%A1en%C3%AD%20na%20kurz%2C%20volejte%20pros%C3%ADm%20na%20%C4%8D%C3%ADslo%20244%20460%20807.">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>Akreditováno pro ZŠ, ŠD, MŠ, ZUŠ, asistenti pedagoga: MSMT- 8265/2019-1-321</p>
+          <p>Cena: 1490 Kč/os, Lektor: Mgr. Jana Soukupová</p>
+        </LiHand>
         <LiHand><h4><b>7. 4. 2021 GeoGebra nástroj rozvoje matematické gramotnosti na SŠ (8 hodin)</b></h4>
           <h4><Label bsStyle="warning">Matematická gramotnost</Label></h4>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=7.%204.%202021%20GeoGebra%20n%C3%A1stroj%20rozvoje%20matematick%C3%A9%20gramotnosti%20na%20S%C5%A0%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%20%0APokud%20do%20jednoho%20pracovn%C3%ADho%20dne%20nedostanete%20potvrzen%C3%AD%20o%20p%C5%99ihl%C3%A1%C5%A1en%C3%AD%20na%20kurz%2C%20volejte%20pros%C3%ADm%20na%20%C4%8D%C3%ADslo%20244%20460%20807.">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>Akreditováno pro SŠ a VOŠ: MSMT- 11115/2020-2-287</p>
+          <p>Cena: 1490 Kč/os, Lektor: Mgr. Veronika Havelková</p>
+        </LiHand>
+        <LiHand><h4><b>9. 4. 2021 Využití ICT ve výuce – praktická inspirace</b></h4>
+          <h4><Label bsStyle="warning">ICT</Label></h4>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=9.%204.%202021%20Vyu%C5%BEit%C3%AD%20ICT%20ve%20v%C3%BDuce%20%E2%80%93%20praktick%C3%A1%20inspirace&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%20%0A%0APokud%20do%20jednoho%20pracovn%C3%ADho%20dne%20nedostanete%20potvrzen%C3%AD%20o%20p%C5%99ihl%C3%A1%C5%A1en%C3%AD%20na%20kurz%2C%20volejte%20pros%C3%ADm%20na%20%C4%8D%C3%ADslo%20244%20460%20807.">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>Akreditováno pro ZŠ, SŠ, VOŠ, ZUŠ: MSMT- 7071/2018-1-286</p>
           <p>Cena: 1490 Kč/os, Lektor: Mgr. Veronika Havelková</p>
         </LiHand>
         <LiHand><h4><b>12. 4. 2021 Různé metody pro začlenění ICT technologií do výuky (8 hodin)</b></h4>
@@ -152,7 +164,7 @@
           <h4><Label bsStyle="warning">kariérové vzdělávání</Label></h4>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=22.%204.%202021%20Role%20pedagoga%20v%20karierov%C3%A9m%20poradenstv%C3%AD%20%E2%80%93%208%20hodin&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A%20%0A%0APokud%20do%20jednoho%20pracovn%C3%ADho%20dne%20nedostanete%20potvrzen%C3%AD%20o%20p%C5%99ihl%C3%A1%C5%A1en%C3%AD%20na%20kurz%2C%20volejte%20pros%C3%ADm%20na%20%C4%8D%C3%ADslo%20244%20460%20807.">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>Akreditováno pro ZŠ, SŠ, VOŠ: MSMT - 823/2019-1-77</p>
-          <p>Cena: 1490 Kč/os, Lektor: Mgr. Dana Forýtková</p>
+          <p>Cena: 1590 Kč/os, Lektor: Mgr. Dana Forýtková</p>
         </LiHand>
         <LiHand><h4><b>26. 4. 2021 Inspirace pro využití interaktivních tabulí při výuce (8 hodin)</b></h4>
           <h4><Label bsStyle="warning">ICT</Label></h4>
