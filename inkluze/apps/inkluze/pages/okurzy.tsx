@@ -113,7 +113,7 @@
           <p>Cena: 1490 Kč/os, Lektor: Mgr. Veronika Havelková</p>
         </LiHand>
         <LiHand><h4><b>12. 5. 2021 GeoGebra nástroj rozvoje matematické gramotnosti na ZŠ (8 hodin)</b></h4>
-          <h4><Label bsStyle="warning">ICT</Label></h4>
+          <h4><Label bsStyle="warning">Matematická Gramotnost</Label></h4>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=12.%205.%202021%20GeoGebra%20n%C3%A1stroj%20rozvoje%20matematick%C3%A9%20gramotnosti%20na%20Z%C5%A0%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A%20%0A%20%20%0APokud%20do%20jednoho%20pracovn%C3%ADho%20dne%20nedostanete%20potvrzen%C3%AD%20o%20p%C5%99ihl%C3%A1%C5%A1en%C3%AD%20na%20kurz%2C%20volejte%20pros%C3%ADm%20na%20%C4%8D%C3%ADslo%20244%20460%20807.">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>Akreditováno pro MŠ, ZŠ, a ZUŠ: MSMT- 34098/2019-2-1056</p>
           <p>Cena: 1490 Kč/os, Lektor: Mgr. Bc. Jan Šindelář</p>
