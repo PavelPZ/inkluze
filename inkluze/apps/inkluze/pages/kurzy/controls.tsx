@@ -585,6 +585,17 @@ var MSMatematicka: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
 var SSRozvoj8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
+  <BlockEx>
+    <div className='alert alert-info' style={{ fontSize: '18px' }}>
+      <p>
+        Novinky:
+        <ul>
+          <li>Prevence k zátěžovým situacím ve škole (od července 2021)</li>
+          <li>Jak zvládat stresové situace a nedospět k vyhoření (od července 2021)</li>
+        </ul>
+      </p>
+    </div>
+  </BlockEx>
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
       <LiFile>Vybrané aspekty emoční a sociální inteligence pedagoga</LiFile>
@@ -611,8 +622,6 @@ var SSRozvoj1624: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
     <ul className='fa-ul'>
           <LiFile>Vybrané aspekty emoční a sociální inteligence pedagoga_16</LiFile>
           <LiFile>Osobnostní a sociální rozvoj učitele (16 hod)</LiFile>
-          <LiFile>Vybrané aspekty emoční a sociální inteligence pedagoga_24 </LiFile>
-          <LiFile>Profesní kompetence učitele a jeho osobnostně sociální rozvoj (24 hod)</LiFile>
           <LiFile>Zásady asertivní a efektivní komunikace – 16 hodin</LiFile>
     </ul>
   </BlockEx>
@@ -695,6 +704,7 @@ var SSInkluze8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: 
           <li>Sociální klima třídy a role učitele – 8 hodin</li>
           <li>Specifika práce učitele v heterogenní třídě – 8 hodin</li>
           <li>Třídní učitel a jeho působení v běžné i inkluzivní třídě</li>
+          <li>Formativní hodnocení a role učitele</li>
         </ul>
       </p>
     </div>
@@ -1439,7 +1449,6 @@ var IIZSMatematicka8: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
   </BlockEx>
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
-      <LiFile>Rozvoj matematické gramotnosti pro ZŠ 8 hodin (jen pro ZŠ):</LiFile>
       <LiFile>GeoGebra jako nástroj rozvoje matematické gramotnosti na ZŠ (jen pro ZŠ)</LiFile>
       <LiFile>Deskové a karetní hry pro rozvoj matematické gramotnosti (pro ZŠ, ŠD, ŠK)</LiFile>
       <LiFile>Moderní technologie při rozvoji matematické gramotnosti na ZŠ (pro ZŠ, ŠD, ŠK, SVČ)</LiFile>
@@ -1483,7 +1492,18 @@ var IIZSKariera8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
 var IIZSRozvoj81624: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">8</Label>&nbsp;<Label bsStyle="warning">16</Label>&nbsp;<Label bsStyle="warning">24</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
-  <BlockEx header="Nabízíme následující kurzy (jen pro ZŠ):">
+  <BlockEx>
+    <div className='alert alert-info' style={{ fontSize: '18px' }}>
+      <p>
+        Novinky:
+        <ul>
+          <li>Prevence k zátěžovým situacím ve škole (od července 2021 - 8 hodin, ZŠ, ŠD)</li>
+          <li>Jak zvládat stresové situace a nedospět k vyhoření (od července 2021 - 8 hodin, ZŠ, ŠD)</li>
+        </ul>
+      </p>
+    </div>
+  </BlockEx>
+  <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
       <LiFile>Osobnostně sociální rozvoj v oblasti komunikace (8 hodin, ZŠ, ŠD, ŠK)</LiFile>
       <LiFile>Aspekty emoční a sociální inteligence pedagoga (8 hodin, ZŠ, ŠD, ŠK)</LiFile>
@@ -1495,8 +1515,6 @@ var IIZSRozvoj81624: React.StatelessComponent<IKurzProps> = (props: IKurzProps, 
       <LiFile>Zásady asertivní a efektivní komunikace - 16 hodin (ZŠ, ŠD, ŠK, MŠ)</LiFile> 
       <LiFile>Vybrané aspekty emoční a sociální inteligence pedagoga (16 hodin) </LiFile>
       <LiFile>Osobnostní a sociální rozvoj učitele (16 hodin)</LiFile>
-      <LiFile>Vybrané aspekty emoční a sociální inteligence pedagoga (24 hodin) </LiFile>
-      <LiFile>Profesní kompetence učitele a jeho osobnostně sociální rozvoj (24 hodin)</LiFile>
     </ul>
   </BlockEx>
   <BlockEx header="Výuka ve sborovně:">
@@ -1570,6 +1588,7 @@ var IIZSInkluze8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
           <li>Sociální klima třídy a role učitele – 8 hodin</li>
           <li>Specifika práce učitele v heterogenní třídě – 8 hodin</li>
           <li>Třídní učitel a jeho působení v běžné i inkluzivní třídě</li>
+          <li>Formativní hodnocení a role učitele</li>
         </ul>
       </p>
     </div>
@@ -1637,6 +1656,17 @@ var IIZUSInkluze8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
 var IIZUSRozvoj8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
+  <BlockEx>
+    <div className='alert alert-info' style={{ fontSize: '18px' }}>
+      <p>
+        Novinky:
+        <ul>
+          <li>Prevence k zátěžovým situacím ve škole (od července 2021)</li>
+          <li>Jak zvládat stresové situace a nedospět k vyhoření (od července 2021)</li>
+        </ul>
+      </p>
+    </div>
+  </BlockEx>
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
       <LiFile>Osobnostně sociální rozvoj v oblasti komunikace</LiFile>
@@ -1722,6 +1752,17 @@ var IIMSInkluze816: React.StatelessComponent<IKurzProps> = (props: IKurzProps, c
 var IIMSRozvoj816: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">8</Label> <Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
+  <BlockEx>
+    <div className='alert alert-info' style={{ fontSize: '18px' }}>
+      <p>
+        Novinky:
+        <ul>
+          <li>Prevence k zátěžovým situacím ve škole (od července 2021)</li>
+          <li>Jak zvládat stresové situace a nedospět k vyhoření (od července 2021)</li>
+        </ul>
+      </p>
+    </div>
+  </BlockEx>
   <BlockEx header="Nabízíme následující kurzy">
     <ul className='fa-ul'>
       <LiFile>Aspekty emoční a sociální inteligence pedagoga v MŠ (8 hod)</LiFile>

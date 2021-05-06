@@ -188,7 +188,7 @@
         },
         SSRozvoj1624: {
           id: 'SSRozvoj1624',
-          title: 'Osobnostně sociální rozvoj - 16/24 hod',
+          title: 'Osobnostně sociální rozvoj - 16 hod',
           createPage: par => React.createElement(KurzySS),
         },
         SSICT1624: {
