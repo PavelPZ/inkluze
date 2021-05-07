@@ -693,6 +693,7 @@ var SSInkluze8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: 
       <p>
         Novinky:
         <ul>
+          <li>Formativní hodnocení a role učitele</li>
           <li>Jak pracovat se žákem s odlišnými kulturními podmínkami-SŠ 8</li>
           <li>Klima třídy se žáky s odlišným mateřským jazykem</li>
           <li>Podpora žáků SŠ v rámci inkluze (i pro vychovatele v DM a internátech)</li>
@@ -704,7 +705,6 @@ var SSInkluze8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: 
           <li>Sociální klima třídy a role učitele – 8 hodin</li>
           <li>Specifika práce učitele v heterogenní třídě – 8 hodin</li>
           <li>Třídní učitel a jeho působení v běžné i inkluzivní třídě</li>
-          <li>Formativní hodnocení a role učitele</li>
         </ul>
       </p>
     </div>
@@ -811,6 +811,14 @@ var SSCtenarska8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
       <LiFile>Diskuse nad konkrétními problémy.</LiFile>
     </ul>
   </BlockEx>
+
+  <BlockEx header="Nabízíme následující kurzy:">
+    <ul className='fa-ul'>
+      <LiFile>Čtenářská gramotnost napříč všemi předměty SŠ a VOŠ – 8</LiFile>
+      <LiFile>Čtenářství napříč výukou SŠ – 8 hodin</LiFile>
+    </ul>
+  </BlockEx>
+
   <BlockEx header="Výuka ve sborovně:">
     <p>
       <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve vámi zvoleném termínu.</b>
@@ -885,6 +893,13 @@ var SSCtenarska16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
       <LiFile>Diskuse nad konkrétními problémy </LiFile>
     </ul>
   </BlockEx >
+
+  <BlockEx header="Nabízíme následující kurzy:">
+    <ul className='fa-ul'>
+      <LiFile>Čtenářská gramotnost napříč všemi předměty SŠ a VOŠ – 16</LiFile>
+    </ul>
+  </BlockEx>
+
   <BlockEx header="Výuka ve sborovně:">
     <p>
       <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve vámi zvoleném termínu.</b>
@@ -934,6 +949,7 @@ var SSMatematicka8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, c
 var SSMatematicka16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">16</Label> <Label bsStyle="warning">24</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
+
   <BlockEx header="Ukázky z témat:  ">
     <ul className='fa-ul'>
       <LiFile>Rozvíjení schopnosti řešit problémy. Správné kladení otázek. Analýza informací. Rozbor slovních úloh. Práce s chybou. Matematizování reálných situací. Používání správné terminologie a symboliky. Praktické využití poznatků z matematiky. Budování vztahu k matematice.</LiFile>
@@ -954,8 +970,10 @@ var SSMatematicka16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, 
       <LiFile> 	Programy a aplikace pro jednoduché vytváření zábavných kvízů </LiFile>
     </ul>
   </BlockEx>
-  <BlockEx>
-    Nabízíme více 16/24 hodinových akreditovaných kurzů. Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
+  <BlockEx header="Nabízíme následující kurzy:">
+    <ul className='fa-ul'>
+      <LiFile>Moderní technologie ve výuce (nejen) matematiky na SŠ a VOŠ</LiFile>
+    </ul>
   </BlockEx>
   <BlockEx header="Výuka ve sborovně:">
     <p>
@@ -1490,7 +1508,7 @@ var IIZSKariera8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
 </Panel>
 
 var IIZSRozvoj81624: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">8</Label>&nbsp;<Label bsStyle="warning">16</Label>&nbsp;<Label bsStyle="warning">24</Label>  <span style={headerCss}>{props.title}</span></h3>
+  <h3><Label bsStyle="warning">8</Label>&nbsp;<Label bsStyle="warning">16</Label> <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
   <BlockEx>
     <div className='alert alert-info' style={{ fontSize: '18px' }}>
@@ -1578,6 +1596,7 @@ var IIZSInkluze8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
       <p>
         Novinky:
         <ul>
+          <li>Formativní hodnocení a role učitele</li>
           <li>Klima třídy se žáky s odlišným mateřským jazykem</li>
           <li>Klima třídy a vedení třídnické hodiny v rámci inkluze-8 hod (jen pro ZŠ) </li>
           <li>Práce s pedagogickým sborem-jak předejít syndromu vyhoření (jen pro ZŠ)</li>
@@ -1588,7 +1607,6 @@ var IIZSInkluze8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
           <li>Sociální klima třídy a role učitele – 8 hodin</li>
           <li>Specifika práce učitele v heterogenní třídě – 8 hodin</li>
           <li>Třídní učitel a jeho působení v běžné i inkluzivní třídě</li>
-          <li>Formativní hodnocení a role učitele</li>
         </ul>
       </p>
     </div>

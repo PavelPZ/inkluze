@@ -282,7 +282,7 @@
         },
         IIZSRozvoj81624: {
           id: 'IIZSRozvoj81624',
-          title: 'Osobnostně sociální rozvoj - 8/16/24 hod',
+          title: 'Osobnostně sociální rozvoj - 8/16 hod',
           createPage: par => React.createElement(KurzyII),
         },
         IIZSICT81624: {
