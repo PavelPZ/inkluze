@@ -791,27 +791,6 @@ var SSMentoring80: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
 var SSCtenarska8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
-  <BlockEx header="Ukázky z témat:  ">
-    <ul className='fa-ul'>
-      <LiFile>Seznámení s principem třífázového učení E-U-R a se základními metodami a formami práce a jejich dělením </LiFile>
-      <LiFile>Aplikace jednotlivých základních metod ve výuce:
-        <ul>
-          <LiFile>Brainstorming – princip a různé způsoby využití</LiFile>
-          <LiFile>Myšlenková mapa - princip a různé způsoby využití</LiFile>
-          <LiFile>Práce s textem - princip a různé způsoby využití</LiFile>
-          <LiFile>Škálování - princip a různé způsoby využití</LiFile>
-          <LiFile>Šifrování</LiFile>
-          <LiFile>Analýza textu: metody RWCT</LiFile>
-          <LiFile>Rozvoj komunikačních dovedností (kolážování, práce s fotografií a ilustracemi, expertní skupiny)</LiFile>
-          <LiFile>Náměty pro tvůrčí psaní</LiFile>
-          <LiFile>Drobné metody podporující soustředění se na danou věc </LiFile>
-          <LiFile>další aktivizující metody a formy výuky</LiFile>
-        </ul>
-      </LiFile>
-      <LiFile>Diskuse nad konkrétními problémy.</LiFile>
-    </ul>
-  </BlockEx>
-
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
       <LiFile>Čtenářská gramotnost napříč všemi předměty SŠ a VOŠ – 8</LiFile>
@@ -830,69 +809,6 @@ var SSCtenarska8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
 var SSCtenarska16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">16</Label> <Label bsStyle="warning">24</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
-  <BlockEx header="Ukázky z témat:  ">
-    <ul className='fa-ul'>
-      <LiFile>Čtenářská gramotnost – vyvození sedmi základních strategií čtenářské gramotnosti </LiFile>
-      <LiFile>Seznámení s principem třífázového učení E-U-R a se základními metodami a formami práce a jejich dělením </LiFile>
-      <LiFile>Metody a formy práce, které rozvíjejí nejvíce klíčových kompetencí (vyvození) </LiFile>
-      <LiFile>Pedagogická diagnostika v rámci ČG</LiFile>
-      <LiFile>Aplikace jednotlivých základních metod ve výuce – interaktivní část semináře – interaktivní zapojení účastníků
-        <ul>
-          <LiFile>Brainstorming – princip a různé způsoby využití</LiFile>
-          <LiFile>Myšlenková mapa - princip a různé způsoby využití</LiFile>
-          <LiFile>Práce s textem - princip a různé způsoby využití
-            <ul>
-              <LiFile>vyhledávání a zpracovávání informací</LiFile>
-              <LiFile>metoda I.N.S.E.R.T.</LiFile>
-              <LiFile>skládankové učení</LiFile>
-              <LiFile>párové čtení</LiFile>
-              <LiFile>pětilístek</LiFile>
-              <LiFile>volné psaní</LiFile>
-              <LiFile>třífázový rozhovor</LiFile>
-              <LiFile>další metody RWCT</LiFile>
-            </ul>
-          </LiFile>
-        </ul>
-      </LiFile>
-      <LiFile>Čtenářské strategie
-            <ul>
-          <LiFile>předvídání</LiFile>
-          <LiFile>práce s otázkami</LiFile>
-          <LiFile>hledání souvislostí (já-text, text a další text, text a okolní svět)</LiFile>
-          <LiFile>porozumění neznámému; práce s představami, fantazií</LiFile>
-          <LiFile>výběr klíčové informace</LiFile>
-          <LiFile>shrnutí a zhodnocení informace</LiFile>
-        </ul>
-      </LiFile>
-      <LiFile>Formy a metody na podporu čtenářských dovedností
-            <ul>
-          <LiFile>šifrování</LiFile>
-          <LiFile>analýza textu: metody RWCT</LiFile>
-          <LiFile>rozvoj komunikačních dovedností (kolážování, práce s fotografií a ilustracemi, expertní skupiny)</LiFile>
-          <LiFile>náměty pro tvůrčí psaní</LiFile>
-          <LiFile>drobné metody podporující soustředění se na danou věc </LiFile>
-        </ul>
-      </LiFile>
-      <LiFile>Tvůrčí činnosti na podporu čtenářských dovedností
-            <ul>
-          <LiFile>Trénink vnímání věcí</LiFile>
-          <LiFile>Interpretace/ Variace/ Falzifikace</LiFile>
-          <LiFile>Jak na nápad</LiFile>
-          <LiFile>Význam první věty</LiFile>
-          <LiFile>Kompozice textu</LiFile>
-          <LiFile>Dialog a monolog</LiFile>
-          <LiFile>Konflikt</LiFile>
-        </ul>
-      </LiFile>
-
-
-      <LiFile>Škálování - princip a různé způsoby využití</LiFile>
-      <LiFile>Projektové vyučování</LiFile>
-      <LiFile>další aktivizující metody a formy výuky vedoucí k rozvoji čtenářské gramotnosti</LiFile>
-      <LiFile>Ukázky vlastní práce učitele v rámci rozvoje čtenářské gramotnosti – interaktivní část semináře </LiFile>
-      <LiFile>Diskuse nad konkrétními problémy </LiFile>
-    </ul>
-  </BlockEx >
 
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
@@ -950,26 +866,6 @@ var SSMatematicka16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, 
   <h3><Label bsStyle="warning">16</Label> <Label bsStyle="warning">24</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
 
-  <BlockEx header="Ukázky z témat:  ">
-    <ul className='fa-ul'>
-      <LiFile>Rozvíjení schopnosti řešit problémy. Správné kladení otázek. Analýza informací. Rozbor slovních úloh. Práce s chybou. Matematizování reálných situací. Používání správné terminologie a symboliky. Praktické využití poznatků z matematiky. Budování vztahu k matematice.</LiFile>
-      <LiFile> 	Využití matematického jazyka a symbolů ke konkrétním výstupům podle věkové kategorie, s využitím množinového pojetí rozborů textů a Vennových diagramů. </LiFile>
-      <LiFile> 	Využití základních vlastností tělesa reálných čísel, výroků a logické stavby vět, při vzájemné komunikaci a matematizaci konkrétních situací.</LiFile>
-      <LiFile> 	Využití číselné osy, časové přímky, řády celých čísel(popř. desetinných čísel), typů zápisů čísel, prvočísel, dekadického rozvoje čísel. Trojí pohled na zlomky.</LiFile>
-      <LiFile> 	Video : Fantastický výlet do makrosvěta a mikrosvěta ve světě čísel a přírodních věd.</LiFile>
-      <LiFile> 	Jak řešit matematickou úlohu – čtyři základní fáze. Rozdíl mezi tzv. „trychtýřováním“ a správným kladením otázek učitelem. Postupy pozpátku.</LiFile>
-      <LiFile> 	Geometrie v rovině a v prostoru – představivost, odvozování vztahů, množiny určitých vlastností. </LiFile>
-      <LiFile> 	Využití výroků, složených výroků, jejich pravdivosti i negace (logická stavba vět a komunikace).</LiFile>
-      <LiFile> 	Využití kombinatorických pojmů ve výuce podle věku studentů.</LiFile>
-      <LiFile> 	Metoda Prof. Hejného. Pět zásad výuky.Desatero pro učitele. Desatero pro rodiče. Příklady (popř.názorné video).</LiFile>
-      <LiFile> 	Seznámení s úložišti již hotových materiálů, které je možno rovnou využít ve výuce (bez vlastní tvorby) a různými webovými stránkami s videi, texty i jinými materiály, které je možné vhodně využít nejen k podpoře rozvoje matematické gramotnosti </LiFile>
-      <LiFile> 	Příklady her a prostředí na internetu pro podporu matematické gramotnosti </LiFile>
-      <LiFile> 	Seznámení programy a aplikacemi, které oživí každou prezentaci </LiFile>
-      <LiFile> 	Využití programů a aplikací pro komunikaci mezi žáky, studenty, učiteli a rodiči </LiFile>
-      <LiFile> 	Rozšířená realita jako nástroj motivace i rozvoje nejen matematické gramotnosti </LiFile>
-      <LiFile> 	Programy a aplikace pro jednoduché vytváření zábavných kvízů </LiFile>
-    </ul>
-  </BlockEx>
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
       <LiFile>Moderní technologie ve výuce (nejen) matematiky na SŠ a VOŠ</LiFile>
