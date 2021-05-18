@@ -58,6 +58,12 @@
           <p>Akreditováno pro MŠ, ZŠ, a ZUŠ: MSMT- 34098/2019-2-1056</p>
           <p>Cena: 1490 Kč/os, Lektor: Mgr. Bc. Jan Šindelář</p>
         </LiHand>
+        <LiHand><h4><b>8.6. a 10.6. 2021 (odpoledne) Rozvoj předmatematické gramotnosti – 8 hodin</b></h4>
+          <h4><Label bsStyle="warning">matematická gramotnost</Label></h4>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=8.6.%20a%2010.6.%202021%20(odpoledne)%20Rozvoj%20p%C5%99edmatematick%C3%A9%20gramotnosti%20%E2%80%93%208%20hodin&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A%20%0A%20%20%0APokud%20do%20jednoho%20pracovn%C3%ADho%20dne%20nedostanete%20potvrzen%C3%AD%20o%20p%C5%99ihl%C3%A1%C5%A1en%C3%AD%20na%20kurz%2C%20volejte%20pros%C3%ADm%20na%20%C4%8D%C3%ADslo%20244%20460%20807.">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>Akreditováno pro MŠ: MSMT- 14332/2018-1-514</p>
+          <p>Cena: 1490 Kč/os, Lektor: PaedDr. Ellen Mlátilíková</p>
+        </LiHand>
         <LiHand><h4><b>14. 6. 2021 Distanční výuka – formy a metody práce s žáky online (8 hodin)</b></h4>
           <h4><Label bsStyle="warning">ICT</Label></h4>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=14.%206.%202021%20Distan%C4%8Dn%C3%AD%20v%C3%BDuka%20%E2%80%93%20formy%20a%20metody%20pr%C3%A1ce%20s%20%C5%BE%C3%A1ky%20online%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A%20%0A%20%20%0APokud%20do%20jednoho%20pracovn%C3%ADho%20dne%20nedostanete%20potvrzen%C3%AD%20o%20p%C5%99ihl%C3%A1%C5%A1en%C3%AD%20na%20kurz%2C%20volejte%20pros%C3%ADm%20na%20%C4%8D%C3%ADslo%20244%20460%20807.">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
