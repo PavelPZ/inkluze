@@ -590,8 +590,8 @@ var SSRozvoj8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
       <p>
         Novinky:
         <ul>
-          <li>Prevence k zátěžovým situacím ve škole (od července 2021)</li>
-          <li>Jak zvládat stresové situace a nedospět k vyhoření (od července 2021)</li>
+          <li>Prevence k zátěžovým situacím ve škole </li>
+          <li>Jak zvládat stresové situace a nedospět k vyhoření</li>
         </ul>
       </p>
     </div>
@@ -1411,8 +1411,8 @@ var IIZSRozvoj81624: React.StatelessComponent<IKurzProps> = (props: IKurzProps, 
       <p>
         Novinky:
         <ul>
-          <li>Prevence k zátěžovým situacím ve škole (od července 2021 - 8 hodin, ZŠ, ŠD)</li>
-          <li>Jak zvládat stresové situace a nedospět k vyhoření (od července 2021 - 8 hodin, ZŠ, ŠD)</li>
+          <li>Prevence k zátěžovým situacím ve škole </li>
+          <li>Jak zvládat stresové situace a nedospět k vyhoření</li>
         </ul>
       </p>
     </div>
@@ -1575,8 +1575,8 @@ var IIZUSRozvoj8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
       <p>
         Novinky:
         <ul>
-          <li>Prevence k zátěžovým situacím ve škole (od července 2021)</li>
-          <li>Jak zvládat stresové situace a nedospět k vyhoření (od července 2021)</li>
+          <li>Prevence k zátěžovým situacím ve škole </li>
+          <li>Jak zvládat stresové situace a nedospět k vyhoření</li>
         </ul>
       </p>
     </div>
@@ -1671,8 +1671,8 @@ var IIMSRozvoj816: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
       <p>
         Novinky:
         <ul>
-          <li>Prevence k zátěžovým situacím ve škole (od července 2021)</li>
-          <li>Jak zvládat stresové situace a nedospět k vyhoření (od července 2021)</li>
+          <li>Prevence k zátěžovým situacím ve škole </li>
+          <li>Jak zvládat stresové situace a nedospět k vyhoření</li>
         </ul>
       </p>
     </div>
