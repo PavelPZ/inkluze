@@ -1,7 +1,7 @@
 ﻿namespace inkluze {
   export interface ISiteRoot extends site.INode {
-    q_and_a: site.INode;
-    dalsi: site.INode;
+    //q_and_a: site.INode;
+    //dalsi: site.INode;
     okurzy: site.INode;
     kurzy: ISiteKurzy;
     kurzyss: ISiteKurzySS;
@@ -69,8 +69,8 @@
     kurzyss: site.ITab;
     kurzyii: site.ITab;
     okurzy: site.ITab;
-    q_and_a: site.ITab;
-    dalsi: site.ITab;
+    //q_and_a: site.ITab;
+    //dalsi: site.ITab;
     onas: site.ITab;
     //slovnicek: site.ITab;
   }
@@ -85,10 +85,10 @@
       largeLogo: true,
       createPage: routePar => <Home />, //sitemapRouter.createElement<IHomePar>(Home, routePar, { subTitle: 'SubTitle Default' }),
       noTitle: true,
-      q_and_a: {
-        id: 'q_and_a',
-        createPage: par => <Q_and_a />,
-      },
+      //q_and_a: {
+      //  id: 'q_and_a',
+      //  createPage: par => <Q_and_a />,
+      //},
       dalsi: {
         id: 'dalsi',
         createPage: par => <Ostatni />,
@@ -340,6 +340,10 @@
         title: 'DVPP',
         rootNode: root,
       },
+      okurzy: {
+        title: 'Termíny kurzů',
+        rootNode: root.okurzy,
+      },
       kurzyss: {
         title: 'Šablony II – SŠ a VOŠ',
         rootNode: root.kurzyss,
@@ -348,18 +352,14 @@
         title: 'Šablony II – ZŠ, MŠ, ZUŠ, ŠD, …',
         rootNode: root.kurzyii,
       },
-      okurzy: {
-        title: 'Online kurzy',
-        rootNode: root.okurzy,
-      },
-      q_and_a: {
-        title: 'Dotazy a odpovědi',
-        rootNode: root.q_and_a,
-      },
-      dalsi: {
-        title: 'Služby',
-        rootNode: root.dalsi,
-      },
+      //q_and_a: {
+      //  title: 'Dotazy a odpovědi',
+      //  rootNode: root.q_and_a,
+      //},
+      //dalsi: {
+      //  title: 'Služby',
+      //  rootNode: root.dalsi,
+      //},
       onas: {
         title: 'O nás',
         rootNode: root.onas,
