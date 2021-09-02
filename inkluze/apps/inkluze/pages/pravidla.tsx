@@ -81,10 +81,6 @@
         Výjimkou je případ, kdy bude vaše žádost o dotaci zamítnuta (z formálních či obsahových důvodů).
         Pak je možné podat novou, opravnou žádost.
       </Alert>
-      <h4>Pomoc s vyplněním žádosti</h4>
-      <p>
-        Tuto pomoc nabízíme na stránce {sitemapRouter.doNavigateTag(inkluze.root.dalsi)}
-      </p>
     </BlockEx>
     <BlockEx header="Povinná šablona, související s vyplněním dotazníku MAP" gray>
       <p>

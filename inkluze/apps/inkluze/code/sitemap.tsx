@@ -89,10 +89,10 @@
       //  id: 'q_and_a',
       //  createPage: par => <Q_and_a />,
       //},
-      dalsi: {
-        id: 'dalsi',
-        createPage: par => <Ostatni />,
-      },
+      //dalsi: {
+      //  id: 'dalsi',
+      //  createPage: par => <Ostatni />,
+      //},
       //slovnicek: {
       //  id: 'slovnicek',
       //  createPage: par => <Slovnicek/>,
@@ -193,12 +193,12 @@
         },
         SSICT1624: {
           id: 'SSICT1624',
-          title: 'Využití ICT ve výuce - 16/24 hod',
+          title: 'Kurz ICT - 16/24 hod',
           createPage: par => React.createElement(KurzySS),
         },
         SSICT8: {
           id: 'SSICT8',
-          title: 'Využití ICT ve výuce - 8 hod',
+          title: 'Kurz ICT - 8 hod',
           createPage: par => React.createElement(KurzySS),
         },
         SSInkluze8: {

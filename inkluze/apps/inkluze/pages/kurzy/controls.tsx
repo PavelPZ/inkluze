@@ -660,14 +660,16 @@ var SSICT8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: site
       <p>
         Novinky:
         <ul>
-          <li>Distanční výuka – formy a metody práce s žáky on-line</li>
-          <li>Jak na distanční výuku?</li>
+          <li>Efektivní využití LibreOffice ve škole</li>
+          <li>Efektivní využití Google dokumentů ve škole</li>
         </ul>
       </p>
     </div>
   </BlockEx>
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
+          <LiFile>Distanční výuka – formy a metody práce s žáky on-line</LiFile>
+          <LiFile>Jak na distanční výuku?</LiFile>
           <LiFile>Využití ICT ve výuce – praktická inspirace – 8 hodin</LiFile>
           <LiFile>Efektivní využití MS Office pro pedagogy – 8 hodin</LiFile>
           <LiFile>Různé metody pro začlenění ICT technologií do výuky </LiFile>
@@ -1450,21 +1452,23 @@ var IIZSICT81624: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
       <p>
         Novinky:
         <ul>
-          <li>Distanční výuka – formy a metody práce s žáky on-line</li>
-          <li>Jak na distanční výuku?</li>
+          <li>Efektivní využití LibreOffice ve škole (i pro ŠD)</li>
+          <li>Efektivní využití Google dokumentů ve škole (i pro ŠD)</li>
         </ul>
       </p>
     </div>
   </BlockEx>
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
-      <LiFile>Využití ICT ve výuce – praktická inspirace - 8 hodin</LiFile>
+      <LiFile>Využití ICT ve škole (i pro ŠD)</LiFile>
       <LiFile>Efektivní využití MS Office pro pedagogy – 8 hodin</LiFile>
-      <LiFile>Různé metody pro začlenění ICT technologií do výuky (8 hod)</LiFile>
+      <LiFile>Různé metody pro využití ICT technologií ve škole (8 hod – i pro ŠD)</LiFile>
       <LiFile>Základy práce s MS Office a jejich využití na školách  (8 hod – i pro ŠD, ŠK)</LiFile>
-      <LiFile>Inspirace pro využití interaktivních tabulí při výuce  (8 hod)</LiFile>
-      <LiFile>Funkce a nástrahy internetu, kyberšikana, sociální sítě  (8 hod)</LiFile>
-      <LiFile>Práce s dotykovými zařízeními ve výuce  (8 hod)</LiFile>
+      <LiFile>Inspirace pro využití interaktivních tabulí ve škole (8 hod – i pro ŠD)</LiFile>
+      <LiFile>Funkce a nástrahy internetu, kyberšikana a sociální sítě (8 hod – i pro ŠD)</LiFile>
+      <LiFile>Práce s dotykovými zařízeními ve škole (8 hod – i pro ŠD)</LiFile>
+      <LiFile>Distanční výuka – formy a metody práce s žáky on-line</LiFile>
+      <LiFile>Jak na distanční výuku?</LiFile>
       <LiFile>Efektivní využití MS Office pro pedagogy – 16 hodin</LiFile>
       <LiFile>Začlenění ICT technologií do výuky a využití internetu  (16 hod)</LiFile>
       <LiFile>Efektivní využití MS Office a výukových technologií – 24 hodin</LiFile>
@@ -1611,19 +1615,23 @@ var IIZUSICT8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
       <p>
         Novinky:
         <ul>
-          <li>Distanční výuka – formy a metody práce s žáky on-line</li>
-          <li>Jak na distanční výuku?</li>
+          <li>Efektivní využití LibreOffice ve škole</li>
+          <li>Efektivní využití Google dokumentů ve škole</li>
+          <li>Funkce a nástrahy internetu, kyberšikana a sociální sítě</li>
+          <li>Práce s dotykovými zařízeními ve škole</li>
         </ul>
       </p>
     </div>
   </BlockEx>
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
-      <LiFile>Využití ICT ve výuce – praktická inspirace</LiFile>
+      <LiFile>Distanční výuka – formy a metody práce s žáky on-line</LiFile>
+      <LiFile>Jak na distanční výuku?</LiFile>
+      <LiFile>Využití ICT ve škole</LiFile>
       <LiFile>Kreativní využití MS Office pro pedagogy – 8 hodin</LiFile>
       <LiFile>Základy práce s MS Office a jejich využití na školách </LiFile>
-      <LiFile>Různé metody pro začlenění ICT technologií do výuky </LiFile>
-      <LiFile>Začlenění interaktivních tabulí do výuky</LiFile>
+      <LiFile>Různé metody pro využití ICT technologií ve škole</LiFile>
+      <LiFile>Inspirace pro využití interaktivních tabulí ve škole</LiFile>
     </ul>
   </BlockEx>
   <BlockEx header="Výuka ve sborovně:">
@@ -1757,6 +1765,13 @@ var IIMSIct8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: si
       <LiFile>Kreativní využití MS Office pro pedagogy – 8 hodin</LiFile>
       <LiFile>Základy práce s MS Office a jejich využití na školách </LiFile>
       <LiFile>Začlenění interaktivních tabulí do výuky</LiFile>
+      <LiFile>Inspirace pro využití interaktivních tabulí ve škole</LiFile>
+      <LiFile>Různé metody pro využití ICT technologií ve škole</LiFile>
+      <LiFile>Využití ICT ve škole</LiFile>
+      <LiFile>Efektivní využití LibreOffice ve škole </LiFile>
+      <LiFile>Efektivní využití Google dokumentů ve škole </LiFile>
+      <LiFile>Funkce a nástrahy internetu, kyberšikana a sociální sítě</LiFile>
+      <LiFile>Práce s dotykovými zařízeními ve škole</LiFile>
     </ul>
   </BlockEx>
   <BlockEx header="Výuka ve sborovně:">
