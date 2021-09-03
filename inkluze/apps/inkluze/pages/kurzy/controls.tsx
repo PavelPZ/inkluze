@@ -1760,11 +1760,10 @@ var IIMSMatematicka816: React.StatelessComponent<IKurzProps> = (props: IKurzProp
 var IIMSIct8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
-  <BlockEx header="Nabízíme následující kurz:">
+  <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
       <LiFile>Kreativní využití MS Office pro pedagogy – 8 hodin</LiFile>
       <LiFile>Základy práce s MS Office a jejich využití na školách </LiFile>
-      <LiFile>Začlenění interaktivních tabulí do výuky</LiFile>
       <LiFile>Inspirace pro využití interaktivních tabulí ve škole</LiFile>
       <LiFile>Různé metody pro využití ICT technologií ve škole</LiFile>
       <LiFile>Využití ICT ve škole</LiFile>
