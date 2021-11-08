@@ -341,7 +341,7 @@
         rootNode: root,
       },
       okurzy: {
-        title: 'Termíny kurzů',
+        title: 'Termíny online kurzů',
         rootNode: root.okurzy,
       },
       kurzyss: {
