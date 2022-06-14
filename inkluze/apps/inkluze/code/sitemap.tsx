@@ -46,21 +46,20 @@
   }
 
   export interface ISiteKurzyII extends site.INode {
-    IIMSRozvoj816: site.INode;
-    IIMSMatematicka816: site.INode;
-    IIMSCtenarska816: site.INode;
-    IIMSInkluze816: site.INode;
-    IIMSIct8: site.INode;
-    IIZSInkluze8: site.INode;
-    IIZSInkluze1632: site.INode;
-    IIZUSInkluze8: site.INode;
-    IIZUSRozvoj8: site.INode;
-    IIZUSICT8: site.INode;
-    IIZSICT81624: site.INode;
-    IIZSRozvoj81624: site.INode;
-    IIZSKariera8: site.INode;
-    IIZSCtenarska8: site.INode;
-    IIZSMatematicka8: site.INode;
+    ZSInkluzeCizinci: site.INode;
+    ZSVyukaCestiny: site.INode;
+    ZSMedialniGramotnost: site.INode;
+    ZSNoveTechnologie: site.INode;
+    ZSWellBeing: site.INode;
+    ZSDiagnostika: site.INode;
+    ZSInovace: site.INode;
+    ZSInkluze: site.INode;
+    ZSPodpora: site.INode;
+    ZSRozvojPodnikavosti: site.INode;
+    ZSMatematickaGramotnost: site.INode;
+    ZSCtenarskaGramotnost: site.INode;
+    ZSFormativniHodnoceni: site.INode;
+    ZSKarierovePoradenstvi: site.INode;
   }
 
   export var root: ISiteRoot;
@@ -81,7 +80,7 @@
   export function bootApp() {
     site.root = root = {
       id: 'home',
-      title: 'DVPP kurzy pro Výzvy 02_16_022/ 023, 02_16_035/ 042 a 02_18_063/ 064',
+      title: 'DVPP kurzy pro Výzvy 02_22_002 a 02_22_003',
       brTitle: 'DVPP',
       largeLogo: true,
       createPage: routePar => <Home />, //sitemapRouter.createElement<IHomePar>(Home, routePar, { subTitle: 'SubTitle Default' }),
@@ -256,79 +255,74 @@
       kurzyii: {
         id: 'kurzyii',
         createPage: par => React.createElement(KurzyII),
-        IIMSRozvoj816: {
-          id: 'IIMSRozvoj816',
-          title: 'Osobnostně sociální rozvoj - 8/16 hod',
+        ZSInkluzeCizinci: {
+          id: 'ZSInkluzeCizinci',
+          title: 'Inkluze zaměřená na cizince (ukrajince)',
           createPage: par => React.createElement(KurzyII),
         },
-        IIMSMatematicka816: {
-          id: 'IIMSMatematicka816',
-          title: 'Matematická pregramotnost - 8/16 hod',
+        ZSVyukaCestiny: {
+          id: 'ZSVyukaCestiny',
+          title: 'Výuka češtiny jako druhého jazyka',
           createPage: par => React.createElement(KurzyII),
         },
-        IIMSCtenarska816: {
-          id: 'IIMSCtenarska816',
-          title: 'Čtenářská pregramotnost - 8/16 hod',
+        ZSMedialniGramotnost: {
+          id: 'ZSMedialniGramotnost',
+          title: 'Mediální gramotnost, prevence kyberšikany, chování na sociálních sítích',
           createPage: par => React.createElement(KurzyII),
         },
-        IIMSInkluze816: {
-          id: 'IIMSInkluze816',
-          title: 'Inkluze - 8/16 hod',
+        ZSNoveTechnologie: {
+          id: 'ZSNoveTechnologie',
+          title: 'Vzděláváni s využitím nových technologií',
           createPage: par => React.createElement(KurzyII),
         },
-        IIMSIct8: {
-          id: 'IIMSIct8',
-          title: 'ICT - 8 hod',
+        ZSWellBeing: {
+          id: 'ZSWellBeing',
+          title: 'Well-being a psychohygiena',
           createPage: par => React.createElement(KurzyII),
         },
-        IIZSKariera8: {
-          id: 'IIZSKariera8',
-          title: 'Kariérové vzdělávání - 8 hod',
+        ZSCtenarskaGramotnost: {
+          id: 'ZSCtenarskaGramotnost',
+          title: 'Čtenářská gramotnost',
           createPage: par => React.createElement(KurzyII),
         },
-        IIZSRozvoj81624: {
-          id: 'IIZSRozvoj81624',
-          title: 'Osobnostně sociální rozvoj - 8/16 hod',
+        ZSMatematickaGramotnost: {
+          id: 'ZSMatematickaGramotnost',
+          title: 'Matematická gramotnost',
           createPage: par => React.createElement(KurzyII),
         },
-        IIZSICT81624: {
-          id: 'IIZSICT81624',
-          title: 'Kurzy ICT - 8/16/24 hod',
+        ZSRozvojPodnikavosti: {
+          id: 'ZSRozvojPodnikavosti',
+          title: 'Rozvoj podnikavosti a kreativity',
           createPage: par => React.createElement(KurzyII),
         },
-        IIZSMatematicka8: {
-          id: 'IIZSMatematicka8',
-          title: 'Matematická gramotnost - 8 hod',
+        ZSKarierovePoradenstvi: {
+          id: 'ZSKarierovePoradenstvi',
+          title: 'Kariérové poradenství včetně identifikace a rozvoje nadání',
           createPage: par => React.createElement(KurzyII),
         },
-        IIZSCtenarska8: {
-          id: 'IIZSCtenarska8',
-          title: 'Čtenářská gramotnost - 8 hod',
+        ZSFormativniHodnoceni: {
+          id: 'ZSFormativniHodnoceni',
+          title: 'Formativní hodnocení',
           createPage: par => React.createElement(KurzyII),
         },
-        IIZSInkluze8: {
-          id: 'IIZSInkluze8',
-          title: 'Inkluze - 8 hod',
+        ZSDiagnostika: {
+          id: 'ZSDiagnostika',
+          title: 'Pedagogická diagnostika',
           createPage: par => React.createElement(KurzyII),
         },
-        IIZSInkluze1632: {
-          id: 'IIZSInkluze1632',
-          title: 'Inkluze - 16 hod',
+        ZSInovace: {
+          id: 'ZSInovace',
+          title: 'Inovace ŠVP/koncepce rozvoje školy/školského zařízení',
           createPage: par => React.createElement(KurzyII),
         },
-        IIZUSInkluze8: {
-          id: 'IIZUSInkluze8',
-          title: 'Inkluze - 8 hod',
+        ZSInkluze: {
+          id: 'ZSInkluze',
+          title: 'Ostatní Inkluze',
           createPage: par => React.createElement(KurzyII),
         },
-        IIZUSRozvoj8: {
-          id: 'IIZUSRozvoj8',
-          title: 'Osobnostně sociální rozvoj - 8 hod',
-          createPage: par => React.createElement(KurzyII),
-        },
-        IIZUSICT8: {
-          id: 'IIZUSICT8',
-          title: 'Kurz ICT - 8 hod',
+        ZSPodpora: {
+          id: 'ZSPodpora',
+          title: 'Podpora uvádějících/provázejících učitelů',
           createPage: par => React.createElement(KurzyII),
         },
       },

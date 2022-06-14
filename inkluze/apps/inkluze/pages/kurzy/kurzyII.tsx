@@ -81,26 +81,25 @@ function coursesIILoader(getIILoaders: () => Array<ICoursesIILoader>, allLoaders
 function getIILoaders(): Array<Array<ICourseIILoader>> {
   var res = [
     [
-      { id: 'IIZSCtenarska8', create: expanded => <IIZSCtenarska8 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIZSCtenarska8.title} /> },
-      { id: 'IIZSMatematicka8', create: expanded => <IIZSMatematicka8 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIZSMatematicka8.title} /> },
-      { id: 'IIZSRozvoj81624', create: expanded => <IIZSRozvoj81624 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIZSRozvoj81624.title} /> },
-      { id: 'IIZSICT81624', create: expanded => <IIZSICT81624 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIZSICT81624.title} /> },
+      { id: 'ZSFormativniHodnoceni', create: expanded => <ZSFormativniHodnoceni defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSFormativniHodnoceni.title} /> },
+      { id: 'ZSKarierovePoradenstvi', create: expanded => <ZSKarierovePoradenstvi defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSKarierovePoradenstvi.title} /> },
+      { id: 'ZSMatematickaGramotnost', create: expanded => <ZSMatematickaGramotnost defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSMatematickaGramotnost.title} /> },
+      { id: 'ZSRozvojPodnikavosti', create: expanded => <ZSRozvojPodnikavosti defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSRozvojPodnikavosti.title} /> },
     ],
     [
-      { id: 'IIZSInkluze8', create: expanded => <IIZSInkluze8 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIZSInkluze8.title} /> },
-      { id: 'IIZSInkluze1632', create: expanded => <IIZSInkluze1632 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIZSInkluze1632.title} /> },
-      { id: 'IIZUSInkluze8', create: expanded => <IIZUSInkluze8 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIZUSInkluze8.title} /> },
-      { id: 'IIZUSRozvoj8', create: expanded => <IIZUSRozvoj8 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIZUSRozvoj8.title} /> },
-      { id: 'IIZUSICT8', create: expanded => <IIZUSICT8 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIZUSICT8.title} /> },
-      { id: 'IIZSKariera8', create: expanded => <IIZSKariera8 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIZSKariera8.title} /> },
+      { id: 'ZSDiagnostika', create: expanded => <ZSDiagnostika defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSDiagnostika.title} /> },
+      { id: 'ZSInovace', create: expanded => <ZSInovace defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSInovace.title} /> },
+      { id: 'ZSInkluze', create: expanded => <ZSInkluze defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSInkluze.title} /> },
+      { id: 'ZSPodpora', create: expanded => <ZSPodpora defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSPodpora.title} /> },
+      { id: 'ZSCtenarskaGramotnost', create: expanded => <ZSCtenarskaGramotnost defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSCtenarskaGramotnost.title} /> },
 
     ],
     [
-      { id: 'IIMSInkluze816', create: expanded => <IIMSInkluze816 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIMSInkluze816.title} /> },
-      { id: 'IIMSCtenarska816', create: expanded => <IIMSCtenarska816 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIMSCtenarska816.title} /> },
-      { id: 'IIMSMatematicka816', create: expanded => <IIMSMatematicka816 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIMSMatematicka816.title} /> },
-      { id: 'IIMSRozvoj816', create: expanded => <IIMSRozvoj816 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIMSRozvoj816.title} /> },
-      { id: 'IIMSIct8', create: expanded => <IIMSIct8 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.IIMSIct8.title} /> },
+      { id: 'ZSNoveTechnologie', create: expanded => <ZSNoveTechnologie defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSNoveTechnologie.title} /> },
+      { id: 'ZSMedialniGramotnost', create: expanded => <ZSMedialniGramotnost defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSMedialniGramotnost.title} /> },
+      { id: 'ZSVyukaCestiny', create: expanded => <ZSVyukaCestiny defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSVyukaCestiny.title} /> },
+      { id: 'ZSInkluzeCizinci', create: expanded => <ZSInkluzeCizinci defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSInkluzeCizinci.title} /> },
+      { id: 'ZSWellBeing', create: expanded => <ZSWellBeing defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSWellBeing.title} /> },
     ]
   ];
   res.forEach(l => l.forEach(ll => ll.id = ll.id.toLowerCase()));
