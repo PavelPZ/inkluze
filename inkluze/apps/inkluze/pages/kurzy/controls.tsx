@@ -582,7 +582,7 @@ var MSMatematicka: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
   <BonusAlert />
 </Panel>;
 
-var SSRozvoj8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+var SSPedagogickaDiagnostika: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
   <BlockEx>
@@ -615,7 +615,7 @@ var SSRozvoj8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
   <BonusAlert />
 </Panel>
 
-var SSRozvoj1624: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+var SSInovace: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">16</Label> <Label bsStyle="warning">24</Label> <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy:">
@@ -633,7 +633,7 @@ var SSRozvoj1624: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
   <BonusAlert />
 </Panel>
 
-var SSICT1624: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+var SSCtenarskaGramotnost: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">16</Label> <Label bsStyle="warning">24</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy:">
@@ -652,7 +652,7 @@ var SSICT1624: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
   <BonusAlert />
 </Panel>
 
-var SSICT8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+var SSMatematickaGramotnost: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
   <BlockEx>
@@ -686,8 +686,7 @@ var SSICT8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: site
   <BonusAlert />
 </Panel>
 
-
-var SSInkluze8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+var SSPodporaUcitelu: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
   <BlockEx>
@@ -695,26 +694,23 @@ var SSInkluze8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: 
       <p>
         Novinky:
         <ul>
-          <li>Formativní hodnocení a role učitele</li>
-          <li>Jak pracovat se žákem s odlišnými kulturními podmínkami-SŠ 8</li>
-          <li>Klima třídy se žáky s odlišným mateřským jazykem</li>
-          <li>Podpora žáků SŠ v rámci inkluze (i pro vychovatele v DM a internátech)</li>
-          <li>Klima třídy a vedení třídnické hodiny v rámci inkluze</li>
-          <li>Práce se žákem SŠ s problémovým chováním (i pro vychovatele v DM a internátech)</li>
-          <li>Práce s pedagogickým sborem-jak předejít syndromu vyhoření</li>
-          <li>Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje na SŠ</li>
-          <li>Práce s diferencovanou třídou a náměty na vzdělávání 8 hod</li>
-          <li>Sociální klima třídy a role učitele – 8 hodin</li>
-          <li>Specifika práce učitele v heterogenní třídě – 8 hodin</li>
-          <li>Třídní učitel a jeho působení v běžné i inkluzivní třídě</li>
+          <li>Efektivní využití LibreOffice ve škole</li>
+          <li>Efektivní využití Google dokumentů ve škole</li>
         </ul>
       </p>
     </div>
   </BlockEx>
-  <ObsahInkluzeSS />
-  <BlockEx>
-    Nabízíme řadu 8 hodinových akreditovaných kurzů. Každý kurz obsahuje část z těchto témat.
-    Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
+  <BlockEx header="Nabízíme následující kurzy:">
+    <ul className='fa-ul'>
+      <LiFile>Distanční výuka – formy a metody práce s žáky on-line</LiFile>
+      <LiFile>Jak na distanční výuku?</LiFile>
+      <LiFile>Využití ICT ve výuce – praktická inspirace – 8 hodin</LiFile>
+      <LiFile>Efektivní využití MS Office pro pedagogy – 8 hodin</LiFile>
+      <LiFile>Různé metody pro začlenění ICT technologií do výuky </LiFile>
+      <LiFile>Inspirace pro využití interaktivních tabulí při výuce </LiFile>
+      <LiFile>Funkce a nástrahy internetu, kyberšikana, sociální sítě </LiFile>
+      <LiFile>Práce s dotykovými zařízeními ve výuce </LiFile>
+    </ul>
   </BlockEx>
   <BlockEx header="Výuka ve sborovně:">
     <p>
@@ -724,7 +720,17 @@ var SSInkluze8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: 
   <BonusAlert />
 </Panel>
 
-var SSInkluze16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+var SSMedGramotnost: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+  <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
+</div>} eventKey={1}>
+  <BlockEx header="Nabízíme následující kurzy:">
+    <ul className='fa-ul'>
+      <LiFile>Funkce a nástrahy internetu, kyberšikana a sociální sítě - (8 hod kurz, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ZUŠ, asistenti)</LiFile>
+    </ul>
+  </BlockEx>
+</Panel>
+
+var SSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
   <BlockEx>
@@ -747,7 +753,7 @@ var SSInkluze16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
   <BonusAlert />
 </Panel>;
 
-var SSMentoring80: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+var SSRozvojPodnikavosti: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">80</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
   <BlockEx>
@@ -790,7 +796,7 @@ var SSMentoring80: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
   <BonusAlert />
 </Panel>;
 
-var SSCtenarska8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+var SSKarierovePoradenstvi: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
   <BlockEx header="Nabízíme následující kurzy:">
@@ -808,7 +814,7 @@ var SSCtenarska8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
   <BonusAlert />
 </Panel>;
 
-var SSCtenarska16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+var SSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">16</Label> <Label bsStyle="warning">24</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
 
@@ -826,7 +832,7 @@ var SSCtenarska16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
   <BonusAlert />
 </Panel >;
 
-var SSMatematicka8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+var SSVyukaCestiny: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
   <BlockEx>
@@ -864,7 +870,7 @@ var SSMatematicka8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, c
   <BonusAlert />
 </Panel >;
 
-var SSMatematicka16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+var SSInkluzeCizinci: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">16</Label> <Label bsStyle="warning">24</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
 
@@ -881,7 +887,7 @@ var SSMatematicka16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, 
   <BonusAlert />
 </Panel >;
 
-var SSKariera8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+var SSOstatniInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
   <BlockEx header="Nabízíme následující kurzy:">
@@ -898,7 +904,7 @@ var SSKariera8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: 
   <BonusAlert />
 </Panel>;
 
-var SSVychova8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+var SSFormativniHodnoceni: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
 
@@ -1090,47 +1096,42 @@ var KurzyList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.ICo
 </div>;
 
 var KurzySSList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div>
-  <h2 className='text-right'>SŠ a VOŠ akreditované kurzy DVPP MŠMT - Výzvy: 02_16_035/042, 02_18_065/066</h2>
+  <h2 className='text-right'>SŠ a VOŠ akreditované kurzy DVPP MŠMT - Výzva: 02_22_003</h2>
   <Row>
     <Col md={4}>
-      <h4>SŠ a VOŠ Inkluze/společné vzdělávání</h4>
+      <h4>1.</h4>
       <ul className='fa-ul'>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSInkluze8)}</LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSInkluze16)}</LiFile>
-      </ul>
-      <h4>SŠ a VOŠ Mentoring</h4>
-      <ul className='fa-ul'>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSMentoring80)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSMedGramotnost)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSNoveTechnologie)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSRozvojPodnikavosti)}</LiFile>
       </ul>
     </Col>
     <Col md={4}>
-      <h4>SŠ a VOŠ Osobnostně sociální rozvoj</h4>
+      <h4>2.</h4>
       <ul className='fa-ul'>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSRozvoj8)}</LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSRozvoj1624)}</LiFile>
-      </ul>
-      <h4>SŠ a VOŠ ICT</h4>
-      <ul className='fa-ul'>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSICT8)}</LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSICT1624)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSPedagogickaDiagnostika)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSInovace)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSMatematickaGramotnost)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSCtenarskaGramotnost)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSPodporaUcitelu)}</LiFile>
       </ul>
     </Col>
     <Col md={4}>
-      <h4>SŠ a VOŠ Ostatní</h4>
+      <h4>3.</h4>
       <ul className='fa-ul'>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSCtenarska8)}</LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSCtenarska16)}</LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSMatematicka8)}</LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSMatematicka16)}</LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSKariera8)}</LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSVychova8)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSKarierovePoradenstvi)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSWellBeing)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSVyukaCestiny)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSInkluzeCizinci)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSOstatniInkluze)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSFormativniHodnoceni)}</LiFile>
       </ul>
     </Col>
   </Row>
 </div>;
 
 var KurzyIIList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div>
-  <h2 className='text-right'>ZŠ, MŠ, ZUŠ, ŠD akreditované kurzy DVPP MŠMT - Výzva 02_18_063/ 064</h2>
+  <h2 className='text-right'>ZŠ, MŠ, ZUŠ, ŠD akreditované kurzy DVPP MŠMT - Výzva 02_22_002</h2>
   <Row>
     <Col md={4}>
       <h4>ZŠ, ŠD, ŠK – Kurzy</h4>

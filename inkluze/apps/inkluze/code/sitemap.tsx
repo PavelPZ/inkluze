@@ -29,19 +29,20 @@
   }
 
   export interface ISiteKurzySS extends site.INode {
-    SSRozvoj8: site.INode;
-    SSRozvoj1624: site.INode;
-    SSICT1624: site.INode;
-    SSICT8: site.INode;
-    SSInkluze8: site.INode;
-    SSInkluze16: site.INode;
-    SSMentoring80: site.INode;
-    SSCtenarska8: site.INode;
-    SSCtenarska16: site.INode;
-    SSMatematicka8: site.INode;
-    SSMatematicka16: site.INode;
-    SSKariera8: site.INode;
-    SSVychova8: site.INode;
+    SSPedagogickaDiagnostika: site.INode;
+    SSInovace: site.INode;
+    SSCtenarskaGramotnost: site.INode;
+    SSMatematickaGramotnost: site.INode;
+    SSPodporaUcitelu: site.INode;
+    SSMedGramotnost: site.INode;
+    SSNoveTechnologie: site.INode;
+    SSRozvojPodnikavosti: site.INode;
+    SSKarierovePoradenstvi: site.INode;
+    SSWellBeing: site.INode;
+    SSVyukaCestiny: site.INode;
+    SSInkluzeCizinci: site.INode;
+    SSOstatniInkluze: site.INode;
+    SSFormativniHodnoceni: site.INode;
   }
 
   export interface ISiteKurzyII extends site.INode {
@@ -181,69 +182,74 @@
       kurzyss: {
         id: 'kurzyss',
         createPage: par => React.createElement(KurzySS),
-        SSRozvoj8: {
-          id: 'SSRozvoj8',
-          title: 'Osobnostně sociální rozvoj - 8 hod',
+        SSPedagogickaDiagnostika: {
+          id: 'SSPedagogickaDiagnostika',
+          title: 'Pedagogická diagnostika',
           createPage: par => React.createElement(KurzySS),
         },
-        SSRozvoj1624: {
-          id: 'SSRozvoj1624',
-          title: 'Osobnostně sociální rozvoj - 16 hod',
+        SSInovace: {
+          id: 'SSInovace',
+          title: 'Inovace ŠVP/koncepce rozvoje školy/školského zařízení',
           createPage: par => React.createElement(KurzySS),
         },
-        SSICT1624: {
-          id: 'SSICT1624',
-          title: 'Kurz ICT - 16/24 hod',
+        SSCtenarskaGramotnost: {
+          id: 'SSCtenarskaGramotnost',
+          title: 'Čtenářská gramotnost',
           createPage: par => React.createElement(KurzySS),
         },
-        SSICT8: {
-          id: 'SSICT8',
-          title: 'Kurz ICT - 8 hod',
+        SSMatematickaGramotnost: {
+          id: 'SSMatematickaGramotnost',
+          title: 'Matematická gramotnost',
           createPage: par => React.createElement(KurzySS),
         },
-        SSInkluze8: {
-          id: 'SSInkluze8',
-          title: 'Inkluze - 8 hodinový kurz',
+        SSPodporaUcitelu: {
+          id: 'SSPodporaUcitelu',
+          title: 'Podpora uvádějících/provázejících učitelů',
           createPage: par => React.createElement(KurzySS),
         },
-        SSInkluze16: {
-          id: 'SSInkluze16',
-          title: 'Inkluze - 16 hodinový kurz',
+        SSMedGramotnost: {
+          id: 'SSMedGramotnost',
+          title: 'Mediální gramotnost, prevence kyberšikany, chování na sociálních sítích',
           createPage: par => React.createElement(KurzySS),
         },
-        SSMentoring80: {
-          id: 'SSMentoring80',
-          title: 'Mentoring - 80 hodinový kurz pro SŠ',
+        SSNoveTechnologie: {
+          id: 'SSNoveTechnologie',
+          title: 'Vzděláváni s využitím nových technologií',
           createPage: par => React.createElement(KurzySS),
         },
-        SSCtenarska8: {
-          id: 'SSCtenarska8',
-          title: 'Čtenářská gramotnost - 8 hod kurz',
+        SSRozvojPodnikavosti: {
+          id: 'SSRozvojPodnikavosti',
+          title: 'Rozvoj podnikavosti a kreativity',
           createPage: par => React.createElement(KurzySS),
         },
-        SSCtenarska16: {
-          id: 'SSCtenarska16',
-          title: 'Čtenářská gramotnost - 16 hod kurz',
+        SSKarierovePoradenstvi: {
+          id: 'SSKarierovePoradenstvi',
+          title: 'Kariérové poradenství včetně identifikace a rozvoje nadání',
           createPage: par => React.createElement(KurzySS),
         },
-        SSMatematicka8: {
-          id: 'SSMatematicka8',
-          title: 'Matematická gramotnost - 8 hod kurz',
+        SSWellBeing: {
+          id: 'SSWellBeing',
+          title: 'Well-being a psychohygiena',
           createPage: par => React.createElement(KurzySS),
         },
-        SSMatematicka16: {
-          id: 'SSMatematicka16',
-          title: 'Matematická gramotnost - 16 hod kurz',
+        SSVyukaCestiny: {
+          id: 'SSVyukaCestiny',
+          title: 'Výuka češtiny jako druhého jazyka',
           createPage: par => React.createElement(KurzySS),
         },
-        SSKariera8: {
-          id: 'SSKariera8',
-          title: 'Kariérové vzdělávání - 8 hod',
+        SSInkluzeCizinci: {
+          id: 'SSInkluzeCizinci',
+          title: 'Inkluze zaměřená na cizince (ukrajince)',
           createPage: par => React.createElement(KurzySS),
         },
-        SSVychova8: {
-          id: 'SSVychova8',
-          title: 'Výchova k podnikavosti 8 hod',
+        SSOstatniInkluze: {
+          id: 'SSOstatniInkluze',
+          title: 'Ostatní Inkluze',
+          createPage: par => React.createElement(KurzySS),
+        },
+        SSFormativniHodnoceni: {
+          id: 'SSFormativniHodnoceni',
+          title: 'Formativní hodnocení',
           createPage: par => React.createElement(KurzySS),
         },
       },
@@ -345,11 +351,11 @@
         rootNode: root.okurzy,
       },
       kurzyss: {
-        title: 'Šablony II – SŠ a VOŠ',
+        title: 'Šablony pro SŠ a VOŠ I - OP JAK',
         rootNode: root.kurzyss,
       },
       kurzyii: {
-        title: 'Šablony II – ZŠ, MŠ, ZUŠ, ŠD, …',
+        title: 'Šablony pro ZŠ a MŠ I - OP JAK',
         rootNode: root.kurzyii,
       },
       //q_and_a: {
