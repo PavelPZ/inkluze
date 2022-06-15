@@ -587,76 +587,76 @@ var SSPedagogickaDiagnostika: React.StatelessComponent<IKurzProps> = (props: IKu
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
-      <LiFile>Sociální klima třídy a pedagogická diagnostika učitele
-(8 hod kurz, akreditováno pro SŠ, VOŠ, MŠ, ZŠ, asistenti, od srpna 2022)</LiFile>
-      <LiFile>Sociální klima třídy a pedagogická diagnostika učitele - webinář
-(8 hod kurz, akreditováno pro SŠ, VOŠ, MŠ, ZŠ, asistenti, od srpna 2022)
+      <LiFile><b>Sociální klima třídy a pedagogická diagnostika učitele
+</b>(8 hod, akreditováno pro SŠ, VOŠ, MŠ, ZŠ, asistenti, od srpna 2022)</LiFile>
+      <LiFile><b>Sociální klima třídy a pedagogická diagnostika učitele - webinář
+</b>(8 hod, akreditováno pro SŠ, VOŠ, MŠ, ZŠ, asistenti, od srpna 2022)
 </LiFile>
     </ul>
   </BlockEx>
 </Panel>
 
 var SSInovace: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">16</Label> <Label bsStyle="warning">24</Label> <span style={headerCss}>{props.title}</span></h3>
+  <h3><Label bsStyle="warning">8</Label> <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
-      <LiFile>Změny v RVP a úpravy ŠVP
-(8 hod kurz, akreditováno pro SŠ, VOŠ, MŠ, ZŠ, ZUŠ, od srpna 2022)</LiFile>
-      <LiFile>Změny v RVP a úpravy ŠVP - webinář
-(8 hod kurz, akreditováno pro SŠ, VOŠ, MŠ, ZŠ, ZUŠ, od srpna 2022)</LiFile>
-      <LiFile>Úpravy ŠVP v rámci programu InspIS ŠVP
-(8 hod kurz, akreditováno pro SŠ, VOŠ, MŠ, ZŠ, ZUŠ, od srpna 2022)</LiFile>
-      <LiFile>Úpravy ŠVP v rámci programu InspIS ŠVP - webinář
-(8 hod kurz, akreditováno pro SŠ, VOŠ, MŠ, ZŠ, ZUŠ, od srpna 2022)
+      <LiFile><b>Změny v RVP a úpravy ŠVP
+</b>(8 hod, akreditováno pro SŠ, VOŠ, MŠ, ZŠ, ZUŠ, od srpna 2022)</LiFile>
+      <LiFile><b>Změny v RVP a úpravy ŠVP - webinář
+</b>(8 hod, akreditováno pro SŠ, VOŠ, MŠ, ZŠ, ZUŠ, od srpna 2022)</LiFile>
+      <LiFile><b>Úpravy ŠVP v rámci programu InspIS ŠVP
+</b>(8 hod, akreditováno pro SŠ, VOŠ, MŠ, ZŠ, ZUŠ, od srpna 2022)</LiFile>
+      <LiFile><b>Úpravy ŠVP v rámci programu InspIS ŠVP - webinář
+</b>(8 hod, akreditováno pro SŠ, VOŠ, MŠ, ZŠ, ZUŠ, od srpna 2022)
 </LiFile>
     </ul>
   </BlockEx>
 </Panel>
 
 var SSCtenarskaGramotnost: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">16</Label> <Label bsStyle="warning">24</Label>  <span style={headerCss}>{props.title}</span></h3>
+  <h3><Label bsStyle="warning">8</Label> <Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
-      <LiFile>Čtenářská gramotnost napříč všemi předměty SŠ a VOŠ  – 8 hod  
-(8 hod kurz, akreditováno pro SŠ, VOŠ)</LiFile>
-      <LiFile>Čtenářská gramotnost napříč všemi předměty SŠ a VOŠ – 16 
-(16 hod kurz, akreditováno pro SŠ, VOŠ)</LiFile>
-      <LiFile>Čtenářství napříč výukou SŠ – 8 hodin
-(8 hod kurz, akreditováno pro SŠ, VOŠ)
+      <LiFile><b>Čtenářská gramotnost napříč všemi předměty SŠ a VOŠ  – 8 hod  
+</b>(8 hod, akreditováno pro SŠ, VOŠ)</LiFile>
+      <LiFile><b>Čtenářská gramotnost napříč všemi předměty SŠ a VOŠ – 16 
+</b>(16 hod, akreditováno pro SŠ, VOŠ)</LiFile>
+      <LiFile><b>Čtenářství napříč výukou SŠ – 8 hodin
+</b>(8 hod, akreditováno pro SŠ, VOŠ)
 </LiFile>
     </ul>
   </BlockEx>
 </Panel>
 
 var SSMatematickaGramotnost: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
+  <h3><Label bsStyle="warning">8</Label>  <Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
-      <LiFile>GeoGebra - nástroj rozvoje matematické gramotnosti na SŠ
-(8 hod kurz, akreditováno pro SŠ, VOŠ)</LiFile>
-      <LiFile>Moderní technologie ve výuce (nejen) matematiky na SŠ a VOŠ 
-(16 hod kurz, akreditováno pro SŠ, VOŠ)</LiFile>
-      <LiFile>Jak na distanční výuku matematiky?
-(8 hod kurz, akreditováno pro SŠ, VOŠ, ZŠ)
+      <LiFile><b>GeoGebra - nástroj rozvoje matematické gramotnosti na SŠ
+</b>(8 hod, akreditováno pro SŠ, VOŠ)</LiFile>
+      <LiFile><b>Moderní technologie ve výuce (nejen) matematiky na SŠ a VOŠ 
+</b>(16 hod, akreditováno pro SŠ, VOŠ)</LiFile>
+      <LiFile><b>Jak na distanční výuku matematiky?
+</b>(8 hod, akreditováno pro SŠ, VOŠ, ZŠ)
 </LiFile>
     </ul>
   </BlockEx>
 </Panel>
 
 var SSPodporaUcitelu: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
+  <h3><Label bsStyle="warning">8</Label> <Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
-      <LiFile>Mentorské dovednosti–úvod do problematiky principů mentoringu
-(8 hod kurz, akreditováno pro SŠ, MŠ, ZŠ, ZUŠ, ředitelé, zástupci, management)</LiFile>
-      <LiFile>Mentorské dovednosti učitele
-(16 hod kurz, akreditováno pro SŠ, MŠ, ZŠ, ZUŠ, ředitelé, zástupci, management)</LiFile>
-      <LiFile>Moderní trendy ve vedení lidí – Mentoring
-(24 hod kurz, akreditováno pro SŠ, MŠ, ZŠ, ZUŠ, ředitelé, zástupci, management)
+      <LiFile><b>Mentorské dovednosti–úvod do problematiky principů mentoringu
+</b>(8 hod, akreditováno pro SŠ, MŠ, ZŠ, ZUŠ, ředitelé, zástupci, management)</LiFile>
+      <LiFile><b>Mentorské dovednosti učitele
+</b>(16 hod, akreditováno pro SŠ, MŠ, ZŠ, ZUŠ, ředitelé, zástupci, management)</LiFile>
+      <LiFile><b>Moderní trendy ve vedení lidí – Mentoring
+</b>(24 hod, akreditováno pro SŠ, MŠ, ZŠ, ZUŠ, ředitelé, zástupci, management)
 </LiFile>
     </ul>
   </BlockEx>
@@ -667,43 +667,46 @@ var SSMedGramotnost: React.StatelessComponent<IKurzProps> = (props: IKurzProps, 
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
-      <LiFile>Funkce a nástrahy internetu, kyberšikana a sociální sítě - (8 hod kurz, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ZUŠ, asistenti)</LiFile>
+      <LiFile><b>Funkce a nástrahy internetu, kyberšikana a sociální sítě
+</b>        (8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ZUŠ, asistenti)</LiFile>
     </ul>
   </BlockEx>
 </Panel>
 
 var SSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
+  <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
-      <LiFile>Efektivní využití MS Office pro pedagogy – 8 hodin (8 hod kurz, akreditováno pro SŠ, VOŠ, ZŠ)</LiFile>
-      <LiFile>Různé metody pro využití ICT technologií ve škole
-        (8 hod kurz, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ZUŠ, asistenti)</LiFile>
-      <LiFile>Inspirace pro využití interaktivních tabulí ve škole
-           (8 hod kurz, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ZUŠ, asistenti)</LiFile>
-      <LiFile>Práce s dotykovými zařízeními ve škole
-(8 hod kurz, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ZUŠ, asistenti)</LiFile>
-      <LiFile>Využití ICT ve škole
-(8 hod kurz, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ZUŠ, asistenti)</LiFile>
-      <LiFile>Efektivní využití LibreOffice ve škole
-(8 hod kurz, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ZUŠ, asistenti)</LiFile>
-      <LiFile>Efektivní využití Google dokumentů ve škole
-(8 hod kurz, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ZUŠ, asistenti)</LiFile>
+      <LiFile><b>Efektivní využití MS Office pro pedagogy – 8 hodin
+</b>        (8 hod, akreditováno pro SŠ, VOŠ, ZŠ)</LiFile>
+      <LiFile><b>Různé metody pro využití ICT technologií ve škole
+</b>        (8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ZUŠ, asistenti)</LiFile>
+      <LiFile><b>Inspirace pro využití interaktivních tabulí ve škole
+</b>           (8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ZUŠ, asistenti)</LiFile>
+      <LiFile><b>Práce s dotykovými zařízeními ve škole
+</b>(8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ZUŠ, asistenti)</LiFile>
+      <LiFile><b>Využití ICT ve škole
+</b>(8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ZUŠ, asistenti)</LiFile>
+      <LiFile><b>Efektivní využití LibreOffice ve škole
+</b>(8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ZUŠ, asistenti)</LiFile>
+      <LiFile><b>Efektivní využití Google dokumentů ve škole
+</b>(8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ZUŠ, asistenti)</LiFile>
 
     </ul>
   </BlockEx>
 </Panel>;
 
 var SSRozvojPodnikavosti: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">80</Label>  <span style={headerCss}>{props.title}</span></h3>
+  <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
-      <LiFile>Rozvoj podnikavosti a zásady soukromého podnikání – 8 hodin (8 hod kurz, akreditováno pro SŠ, VOŠ)
+      <LiFile><b>Rozvoj podnikavosti a zásady soukromého podnikání 
+</b>        8 hodin (8 hod, akreditováno pro SŠ, VOŠ)
 </LiFile>
-      <LiFile>Podnikání, finanční gramotnost a manažerské dovednosti – 8 hodin
-(8 hod kurz, akreditováno pro SŠ, VOŠ)
+      <LiFile><b>Podnikání, finanční gramotnost a manažerské dovednosti – 8 hodin
+</b>(8 hod, akreditováno pro SŠ, VOŠ)
 </LiFile>
     </ul>
   </BlockEx>
@@ -714,15 +717,15 @@ var SSKarierovePoradenstvi: React.StatelessComponent<IKurzProps> = (props: IKurz
 </div>} eventKey={2}>
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
-      <LiFile>Role pedagoga v karierovém poradenství – 8 hodin
-(8 hod kurz, akreditováno pro SŠ, VOŠ, ZŠ)
+      <LiFile><b>Role pedagoga v karierovém poradenství – 8 hodin
+</b>(8 hod, akreditováno pro SŠ, VOŠ, ZŠ)
 
 </LiFile>
-      <LiFile>Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje na SŠ
-(8 hod kurz, akreditováno pro SŠ, VOŠ)
+      <LiFile><b>Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje na SŠ
+</b>(8 hod, akreditováno pro SŠ, VOŠ)
       </LiFile>
-      <LiFile>Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje-webinář
-(8 hod kurz, akreditováno pro SŠ, VOŠ, ZŠ, od srpna 2022)
+      <LiFile><b>Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje-webinář
+</b>(8 hod, akreditováno pro SŠ, VOŠ, ZŠ, od srpna 2022)
 
 </LiFile>
     </ul>
@@ -730,15 +733,15 @@ var SSKarierovePoradenstvi: React.StatelessComponent<IKurzProps> = (props: IKurz
 </Panel>;
 
 var SSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">16</Label> <Label bsStyle="warning">24</Label>  <span style={headerCss}>{props.title}</span></h3>
+  <h3><Label bsStyle="warning">8</Label> <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
 
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
-      <LiFile>Wellbeing, cesta k harmonizaci vztahů ve škole
-(8 hod kurz, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, asistenti, od srpna 2022)</LiFile>
-      <LiFile>Wellbeing, cesta k harmonizaci vztahů ve škole - webinář
-(8 hod kurz, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, asistenti, od srpna 2022)
+      <LiFile><b>Wellbeing, cesta k harmonizaci vztahů ve škole
+</b>(8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, asistenti, od srpna 2022)</LiFile>
+      <LiFile><b>Wellbeing, cesta k harmonizaci vztahů ve škole - webinář
+</b>(8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, asistenti, od srpna 2022)
       </LiFile>
 
     </ul>
@@ -750,11 +753,11 @@ var SSVyukaCestiny: React.StatelessComponent<IKurzProps> = (props: IKurzProps, c
 </div>} eventKey={2}>
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
-      <LiFile>Specifika výuky češtiny jako druhého jazyka
-(8 hod kurz, akreditováno pro SŠ, ZŠ, asistenti, výchovní poradci, od srpna 2022)
+      <LiFile><b>Specifika výuky češtiny jako druhého jazyka
+</b>(8 hod, akreditováno pro SŠ, ZŠ, asistenti, výchovní poradci, od srpna 2022)
 </LiFile>
-      <LiFile>Specifika výuky češtiny jako druhého jazyka - webinář
-(8 hod kurz, akreditováno pro SŠ, ZŠ, asistenti, výchovní poradci, od srpna 2022)
+      <LiFile><b>Specifika výuky češtiny jako druhého jazyka - webinář
+</b>(8 hod, akreditováno pro SŠ, ZŠ, asistenti, výchovní poradci, od srpna 2022)
 
       </LiFile>
 
@@ -763,26 +766,26 @@ var SSVyukaCestiny: React.StatelessComponent<IKurzProps> = (props: IKurzProps, c
 </Panel >;
 
 var SSInkluzeCizinci: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">16</Label> <Label bsStyle="warning">24</Label>  <span style={headerCss}>{props.title}</span></h3>
+  <h3><Label bsStyle="warning">8</Label> <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
 
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
            
-      <LiFile>Klima třídy se žáky s odlišným mateřským jazykem  
-(8 hod kurz, akreditováno pro SŠ, VOŠ, ZŠ, asistenti)</LiFile>
-      <LiFile>Klima třídy se žáky s odlišným mateřským jazykem -webinář
-(8 hod kurz, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, asistenti, od srpna 2022)</LiFile>
-      <LiFile>Jak pracovat se žákem s odlišnými kulturními podmínkami–SŠ 8
-(8 hod kurz, akreditováno pro SŠ, VOŠ, asistenti)</LiFile>
-      <LiFile>Jak ve škole pracovat se žáky cizinci
-(8 hod kurz, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, asistenti, od srpna 2022)</LiFile>
-      <LiFile>Jak ve škole pracovat se žáky cizinci - webinář
-  (8 hod kurz, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, asistenti, od srpna 2022)</LiFile >
-      <LiFile>Začlenění žáka cizince do třídního kolektivu
-  (8 hod kurz, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, asistenti, od srpna 2022)</LiFile >
-      <LiFile>Začlenění žáka cizince do třídního kolektivu – webinář
-  (8 hod kurz, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, asistenti, od srpna 2022)</LiFile >
+      <LiFile><b>Klima třídy se žáky s odlišným mateřským jazykem  
+</b>(8 hod, akreditováno pro SŠ, VOŠ, ZŠ, asistenti)</LiFile>
+      <LiFile><b>Klima třídy se žáky s odlišným mateřským jazykem -webinář
+</b>(8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, asistenti, od srpna 2022)</LiFile>
+      <LiFile><b>Jak pracovat se žákem s odlišnými kulturními podmínkami–SŠ 8
+</b>(8 hod, akreditováno pro SŠ, VOŠ, asistenti)</LiFile>
+      <LiFile><b>Jak ve škole pracovat se žáky cizinci
+</b>(8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, asistenti, od srpna 2022)</LiFile>
+      <LiFile><b>Jak ve škole pracovat se žáky cizinci - webinář
+</b>  (8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, asistenti, od srpna 2022)</LiFile >
+      <LiFile><b>Začlenění žáka cizince do třídního kolektivu
+</b>  (8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, asistenti, od srpna 2022)</LiFile >
+      <LiFile><b>Začlenění žáka cizince do třídního kolektivu – webinář
+</b>  (8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, asistenti, od srpna 2022)</LiFile >
 
     </ul>
   </BlockEx>
@@ -793,24 +796,24 @@ var SSOstatniInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
 </div>} eventKey={2}>
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
-      <LiFile>Práce s diferencovanou třídou a náměty na vzdělávání 8 hod
-(8 hod kurz, akreditováno pro SŠ, VOŠ, ZŠ, asistenti)</LiFile>
-      <LiFile>Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje na SŠ 
-(8 hod kurz, akreditováno pro SŠ, VOŠ)</LiFile>
-      <LiFile>Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje na SŠ – webinář
-(8 hod kurz, akreditováno pro SŠ, VOŠ, ZŠ, od srpna 2022)</LiFile>
-      <LiFile>Klima třídy a vedení třídnické hodiny v rámci inkluze - SŠ 
-(8 hod kurz, akreditováno pro SŠ, VOŠ)</LiFile>
-      <LiFile>Podpora žáků SŠ v rámci inkluze
-  (8 hod kurz, akreditováno pro SŠ, VOŠ, DM, asistenti)</LiFile >
-      <LiFile>Práce se žákem SŠ s problémovým chováním 
-  (8 hod kurz, akreditováno pro SŠ, DM, asistenti)</LiFile >
-      <LiFile>Sociální klima třídy a role učitele – 8 hodin
-  (8 hod kurz, akreditováno pro SŠ, VOŠ, ZŠ, asistenti)</LiFile >
-      <LiFile>Práce s pedagogickým sborem-jak předejít syndromu vyhoření  
-  (8 hod kurz, akreditováno pro SŠ, VOŠ, ZŠ)</LiFile >
-      <LiFile>Základní kurz společného vzdělávání pro střední školy  
-  (8 hod kurz, akreditováno pro SŠ, VOŠ)</LiFile >
+      <LiFile><b>Práce s diferencovanou třídou a náměty na vzdělávání 8 hod
+</b>(8 hod, akreditováno pro SŠ, VOŠ, ZŠ, asistenti)</LiFile>
+      <LiFile><b>Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje na SŠ 
+</b>(8 hod, akreditováno pro SŠ, VOŠ)</LiFile>
+      <LiFile><b>Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje – webinář
+</b>(8 hod, akreditováno pro SŠ, VOŠ, ZŠ, od srpna 2022)</LiFile>
+      <LiFile><b>Klima třídy a vedení třídnické hodiny v rámci inkluze - SŠ 
+</b>(8 hod, akreditováno pro SŠ, VOŠ)</LiFile>
+      <LiFile><b>Podpora žáků SŠ v rámci inkluze
+</b>  (8 hod, akreditováno pro SŠ, VOŠ, DM, asistenti)</LiFile >
+      <LiFile><b>Práce se žákem SŠ s problémovým chováním 
+</b>  (8 hod, akreditováno pro SŠ, DM, asistenti)</LiFile >
+      <LiFile><b>Sociální klima třídy a role učitele – 8 hodin
+</b>  (8 hod, akreditováno pro SŠ, VOŠ, ZŠ, asistenti)</LiFile >
+      <LiFile><b>Práce s pedagogickým sborem-jak předejít syndromu vyhoření  
+</b>  (8 hod, akreditováno pro SŠ, VOŠ, ZŠ)</LiFile >
+      <LiFile><b>Základní kurz společného vzdělávání pro střední školy  
+</b>  (8 hod, akreditováno pro SŠ, VOŠ)</LiFile >
     </ul>
   </BlockEx>
 </Panel>;
@@ -821,12 +824,12 @@ var SSFormativniHodnoceni: React.StatelessComponent<IKurzProps> = (props: IKurzP
 
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
-      <LiFile>Formativní hodnocení a role učitele
-(8 hod kurz, akreditováno pro SŠ, VOŠ, DM, ZŠ, ŠD, asistenti)</LiFile >
-      <LiFile>Formativní hodnocení v praxi
-(8 hod kurz, akreditováno pro SŠ, ZŠ,, asistenti, od srpna 2022)</LiFile >
-      <LiFile>Formativní hodnocení v praxi - webinář
-(8 hod kurz, akreditováno pro SŠ, ZŠ, asistenti, od srpna 2022)</LiFile >
+      <LiFile><b>Formativní hodnocení a role učitele
+</b>(8 hod, akreditováno pro SŠ, VOŠ, DM, ZŠ, ŠD, asistenti)</LiFile >
+      <LiFile><b>Formativní hodnocení v praxi
+</b>(8 hod, akreditováno pro SŠ, ZŠ,, asistenti, od srpna 2022)</LiFile >
+      <LiFile><b>Formativní hodnocení v praxi - webinář
+</b>(8 hod, akreditováno pro SŠ, ZŠ, asistenti, od srpna 2022)</LiFile >
 
     </ul>
   </BlockEx>
@@ -1005,70 +1008,68 @@ var KurzyList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.ICo
 </div>;
 
 var KurzySSList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div>
-  <h2 className='text-right'>Nabízíme akreditované kurzy pokrývající následující témata </h2>
+  <h2 className='text-right'>SŠ a VOŠ akreditované kurzy DVPP MŠMT - Výzva: 02_22_003</h2>
+  <h3>Nabízíme akreditované kurzy pokrývající následující témata </h3>
   <Row>
     <Col md={4}>
-      <h4>1.</h4>
       <ul className='fa-ul'>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSMedGramotnost)}</LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSNoveTechnologie)}</LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSRozvojPodnikavosti)}</LiFile>
-      </ul>
-    </Col>
-    <Col md={4}>
-      <h4>2.</h4>
-      <ul className='fa-ul'>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSPedagogickaDiagnostika)}</LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSInovace)}</LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSMatematickaGramotnost)}</LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSCtenarskaGramotnost)}</LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSPodporaUcitelu)}</LiFile>
-      </ul>
-    </Col>
-    <Col md={4}>
-      <h4>3.</h4>
-      <ul className='fa-ul'>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSKarierovePoradenstvi)}</LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSWellBeing)}</LiFile>
+      </ul>
+    </Col>
+    <Col md={4}>
+      <ul className='fa-ul'>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSVyukaCestiny)}</LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSInkluzeCizinci)}</LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSOstatniInkluze)}</LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSFormativniHodnoceni)}</LiFile>
       </ul>
     </Col>
+    <Col md={4}>
+      <ul className='fa-ul'>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSPedagogickaDiagnostika)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSInovace)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSCtenarskaGramotnost)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSMatematickaGramotnost)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSPodporaUcitelu)}</LiFile>
+
+
+      </ul>
+    </Col>
   </Row>
 </div>;
 
 var KurzyIIList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div>
-  <h2 className='text-right'>Nabízíme akreditované kurzy pokrývající následující témata </h2>
+  <h2 className='text-right'>ZŠ, MŠ, ZUŠ, ŠD akreditované kurzy DVPP MŠMT - Výzva 02_22_002</h2>
+  <h3>Nabízíme akreditované kurzy pokrývající následující témata </h3>
   <Row>
     <Col md={4}>
-      <h4>1.</h4>
       <ul className='fa-ul'>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSFormativniHodnoceni)}</LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSKarierovePoradenstvi)}</LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSMatematickaGramotnost)}</LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSRozvojPodnikavosti)}</LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSCtenarskaGramotnost)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSInkluzeCizinci)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSVyukaCestiny)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSMedialniGramotnost)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSNoveTechnologie)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSWellBeing)}</LiFile>
       </ul>
     </Col>
     <Col md={4}>
-      <h4>2.</h4>
       <ul className='fa-ul'>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSCtenarskaGramotnost)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSMatematickaGramotnost)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSRozvojPodnikavosti)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSKarierovePoradenstvi)}</LiFile>
+      </ul>
+    </Col>
+    <Col md={4}>
+      <ul className='fa-ul'>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSFormativniHodnoceni)}</LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSDiagnostika)}</LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSInovace)}</LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSInkluze)}</LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSPodpora)}</LiFile>
-      </ul>
-    </Col>
-    <Col md={4}>
-      <h4>3.</h4>
-      <ul className='fa-ul'>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSNoveTechnologie)}</LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSMedialniGramotnost)}</LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSVyukaCestiny)}</LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSInkluzeCizinci)}</LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSWellBeing)}</LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSPodpora)}</LiFile>        
       </ul>
     </Col>
   </Row>
@@ -1267,7 +1268,7 @@ var ZSCtenarskaGramotnost: React.StatelessComponent<IKurzProps> = (props: IKurzP
 </Panel>
 
 var ZSMatematickaGramotnost: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">8</Label>&nbsp;<Label bsStyle="warning">16</Label> <span style={headerCss}>{props.title}</span></h3>
+  <h3><Label bsStyle="warning">8</Label> <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
@@ -1279,7 +1280,7 @@ var ZSMatematickaGramotnost: React.StatelessComponent<IKurzProps> = (props: IKur
 </Panel>
 
 var ZSRozvojPodnikavosti: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">8</Label> <Label bsStyle="warning">16</Label> <Label bsStyle="warning">24</Label>  <span style={headerCss}>{props.title}</span></h3>
+  <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
@@ -1303,7 +1304,7 @@ var ZSDiagnostika: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
 </Panel>
 
 var ZSInovace: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">16</Label>&nbsp;<Label bsStyle="warning">32</Label>  <span style={headerCss}>{props.title}</span></h3>
+  <h3><Label bsStyle="warning">8</Label> <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
@@ -1327,7 +1328,7 @@ var ZSInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
 </Panel>
 
 var ZSPodpora: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
+  <h3><Label bsStyle="warning">8</Label> <Label bsStyle="warning">16</Label> <Label bsStyle="warning">24</Label>   <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
@@ -1340,7 +1341,7 @@ var ZSPodpora: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
 
 
 var ZSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">8</Label> <Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
+  <h3><Label bsStyle="warning">8</Label> <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
@@ -1352,7 +1353,7 @@ var ZSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
 </Panel>;
 
 var ZSInkluzeCizinci: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">8</Label> <Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
+  <h3><Label bsStyle="warning">8</Label> <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
@@ -1365,7 +1366,7 @@ var ZSInkluzeCizinci: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
 
 
 var ZSMedialniGramotnost: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">8</Label> <Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
+  <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
@@ -1377,7 +1378,7 @@ var ZSMedialniGramotnost: React.StatelessComponent<IKurzProps> = (props: IKurzPr
 </Panel>;
 
 var ZSVyukaCestiny: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">8</Label> <Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
+  <h3><Label bsStyle="warning">8</Label> <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>

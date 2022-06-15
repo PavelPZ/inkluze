@@ -2,8 +2,8 @@
   <Page>
     <div>
       <Block blue style={{ paddingBottom: '10px' }}>
-        <h1 className='text-center'><a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.kurzy, ev)} >Akreditované kurzy</a><br />od <a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.okurzy, ev)}>zkušených lektorů</a></h1>
-        <h3 className='text-center'>výzvy 02_22_002 a 02_22_003</h3>
+        <h1 className='text-center'><a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.kurzy, ev)} >Akreditované kurzy pro šablony OP JAK </a><br />od zkušených lektorů</h1>
+        <h3 className='text-center'>Výzvy 02_22_002 a 02_22_003</h3>
         <div className="text-center">Napište nám na <a href={'mailto:' + infoEmail}>{infoEmail}</a> nebo zavolejte +420 244 460 807</div>
         <Grid style={{ marginTop: '15px' }}>
           <Row>
@@ -21,7 +21,7 @@
                 <LiFile>ICT (12 akreditovaných kurzů)</LiFile>
                 <LiFile>Kariérové vzdělávání (1 kurz)</LiFile>
                 <LiFile>Výchova k podnikavosti (2 kurzy)</LiFile>
-                <LiFile>Obsah jednotlivých kurzů naleznete na stránkách <a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.kurzyss, ev)}>Šablony II – SŠ a VOŠ</a> a <a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.kurzyii, ev)}>Šablony II – ZŠ, MŠ, ZUŠ, ŠD, …</a></LiFile>
+                <LiFile>Obsah jednotlivých kurzů naleznete na stránkách <a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.kurzyss, ev)}>Šablony pro SŠ a VOŠ I - OP JAK</a> a <a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.kurzyii, ev)}>Šablony pro ZŠ a MŠ I - OP JAK</a></LiFile>
               </ul>
             </Col>
             <Col md={1}>

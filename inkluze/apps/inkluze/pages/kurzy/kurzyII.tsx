@@ -30,7 +30,6 @@ interface IKurzyIIBlockProps {
 
 var KurzyIIZSKurzy: React.StatelessComponent<IKurzyIIBlockProps> = (props: IKurzyIIBlockProps, ctx: sitemapRouter.IContext) => {
   return <Block gray={props.gray}>
-    <h2 className='text-right'>ZŠ Kurzy</h2>
     {courseIILoader(props.iiloaders, props.actId)}
   </Block>
 };
@@ -38,7 +37,6 @@ KurzyIIZSKurzy.contextTypes = sitemapRouter.childContextTypes;
 
 var KurzyIIInkluzeZUS: React.StatelessComponent<IKurzyIIBlockProps> = (props: IKurzyIIBlockProps, ctx: sitemapRouter.IContext) => {
   return <Block gray={props.gray}>
-    <h2 className='text-right'>ZŠ Inkluze a ZUŠ</h2>
     {courseIILoader(props.iiloaders, props.actId)}
   </Block>;
 }
@@ -46,7 +44,6 @@ KurzyIIInkluzeZUS.contextTypes = sitemapRouter.childContextTypes;
 
 var KurzyIIMSKurzy: React.StatelessComponent<IKurzyIIBlockProps> = (props: IKurzyIIBlockProps, ctx: sitemapRouter.IContext) => {
   return <Block gray={props.gray}>
-    <h2 className='text-right'>MŠ Kurzy</h2>
     {courseIILoader(props.iiloaders, props.actId)}
   </Block>;
 }

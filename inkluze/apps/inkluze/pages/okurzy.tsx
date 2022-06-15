@@ -2,7 +2,7 @@
   <Page>
     <BlockEx header="Termíny akreditovaných kurzů pro Šablony I OP JAK budeme vypisovat v září 2022">
       <p>
-        Kurzy budou probíhat formou videokoference v prostředí ZOOM
+        Kurzy pro jednotlivce budou probíhat formou videokoference v prostředí ZOOM.
       </p>
  
     </BlockEx>

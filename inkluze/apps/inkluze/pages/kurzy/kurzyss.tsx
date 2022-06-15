@@ -30,7 +30,6 @@ interface IKurzySSBlockProps {
 
 var KurzySSInkluze: React.StatelessComponent<IKurzySSBlockProps> = (props: IKurzySSBlockProps, ctx: sitemapRouter.IContext) => {
   return <Block gray={props.gray}>
-    <h2 className='text-right'>SŠ Inkluze</h2>
     {courseSSLoader(props.ssloaders, props.actId)}
   </Block>
 };
@@ -38,7 +37,6 @@ KurzySSInkluze.contextTypes = sitemapRouter.childContextTypes;
 
 var KurzySSOstatni: React.StatelessComponent<IKurzySSBlockProps> = (props: IKurzySSBlockProps, ctx: sitemapRouter.IContext) => {
   return <Block gray={props.gray}>
-    <h2 className='text-right'>SŠ Ostatní</h2>
     {courseSSLoader(props.ssloaders, props.actId)}
   </Block>;
 }
@@ -46,7 +44,6 @@ KurzySSOstatni.contextTypes = sitemapRouter.childContextTypes;
 
 var KurzySSDalsi: React.StatelessComponent<IKurzySSBlockProps> = (props: IKurzySSBlockProps, ctx: sitemapRouter.IContext) => {
   return <Block gray={props.gray}>
-    <h2 className='text-right'>SŠ Kurzy</h2>
     {courseSSLoader(props.ssloaders, props.actId)}
   </Block>;
 }
