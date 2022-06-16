@@ -81,22 +81,22 @@ function getSSLoaders(): Array<Array<ICourseSSLoader>> {
       { id: 'SSMedGramotnost', create: expanded => <SSMedGramotnost defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSMedGramotnost.title} /> },
       { id: 'SSNoveTechnologie', create: expanded => <SSNoveTechnologie defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSNoveTechnologie.title} /> },
       { id: 'SSRozvojPodnikavosti', create: expanded => <SSRozvojPodnikavosti defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSRozvojPodnikavosti.title} /> },
+      { id: 'SSKarierovePoradenstvi', create: expanded => <SSKarierovePoradenstvi defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSKarierovePoradenstvi.title} /> },
+      { id: 'SSWellBeing', create: expanded => <SSWellBeing defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSWellBeing.title} /> },
+    ],
+    [
+      { id: 'SSGenderovaTematika', create: expanded => <SSGenderovaTematika defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSGenderovaTematika.title} /> },
+      { id: 'SSVyukaCestiny', create: expanded => <SSVyukaCestiny defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSVyukaCestiny.title} /> },
+      { id: 'SSInkluzeCizinci', create: expanded => <SSInkluzeCizinci defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSInkluzeCizinci.title} /> },
+      { id: 'SSOstatniInkluze', create: expanded => <SSOstatniInkluze defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSOstatniInkluze.title} /> },
+      { id: 'SSFormativniHodnoceni', create: expanded => <SSFormativniHodnoceni defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSFormativniHodnoceni.title} /> },
     ],
     [
       { id: 'SSPedagogickaDiagnostika', create: expanded => <SSPedagogickaDiagnostika defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSPedagogickaDiagnostika.title} /> },
       { id: 'SSInovace', create: expanded => <SSInovace defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSInovace.title} /> },
       { id: 'SSCtenarskaGramotnost', create: expanded => <SSCtenarskaGramotnost defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSCtenarskaGramotnost.title} /> },
       { id: 'SSMatematickaGramotnost', create: expanded => <SSMatematickaGramotnost defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSMatematickaGramotnost.title} /> },
-      { id: 'SSPodporaUcitelu', create: expanded => <SSPodporaUcitelu defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSPodporaUcitelu.title} /> },
-      { id: 'SSOstatniInkluze', create: expanded => <SSOstatniInkluze defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSOstatniInkluze.title} /> },
-      { id: 'SSFormativniHodnoceni', create: expanded => <SSFormativniHodnoceni defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSFormativniHodnoceni.title} /> },
-      { id: 'SSGenderovaTematika', create: expanded => <SSGenderovaTematika defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSGenderovaTematika.title} /> },
-    ],
-    [
-      { id: 'SSKarierovePoradenstvi', create: expanded => <SSKarierovePoradenstvi defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSKarierovePoradenstvi.title} /> },
-      { id: 'SSWellBeing', create: expanded => <SSWellBeing defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSWellBeing.title} /> },
-      { id: 'SSVyukaCestiny', create: expanded => <SSVyukaCestiny defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSVyukaCestiny.title} /> },
-      { id: 'SSInkluzeCizinci', create: expanded => <SSInkluzeCizinci defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSInkluzeCizinci.title} /> },
+      { id: 'SSPodporaUcitelu', create: expanded => <SSPodporaUcitelu defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSPodporaUcitelu.title} /> },      
     ]
   ];
   res.forEach(l => l.forEach(ll => ll.id = ll.id.toLowerCase()));

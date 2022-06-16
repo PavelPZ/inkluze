@@ -58,6 +58,7 @@
     ZSPodpora: site.INode;
     ZSRozvojPodnikavosti: site.INode;
     ZSMatematickaGramotnost: site.INode;
+    ZSGenderova: site.INode;
     ZSCtenarskaGramotnost: site.INode;
     ZSFormativniHodnoceni: site.INode;
     ZSKarierovePoradenstvi: site.INode;
@@ -284,6 +285,11 @@
         ZSWellBeing: {
           id: 'ZSWellBeing',
           title: 'Well-being a psychohygiena',
+          createPage: par => React.createElement(KurzyII),
+        },
+        ZSGenderova: {
+          id: 'ZSGenderova',
+          title: 'Genderová tematika v obsahu vzdělávání',
           createPage: par => React.createElement(KurzyII),
         },
         ZSCtenarskaGramotnost: {

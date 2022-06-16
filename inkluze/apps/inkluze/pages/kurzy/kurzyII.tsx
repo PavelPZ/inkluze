@@ -78,25 +78,25 @@ function coursesIILoader(getIILoaders: () => Array<ICoursesIILoader>, allLoaders
 function getIILoaders(): Array<Array<ICourseIILoader>> {
   var res = [
     [
-      { id: 'ZSFormativniHodnoceni', create: expanded => <ZSFormativniHodnoceni defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSFormativniHodnoceni.title} /> },
-      { id: 'ZSKarierovePoradenstvi', create: expanded => <ZSKarierovePoradenstvi defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSKarierovePoradenstvi.title} /> },
+      { id: 'ZSInkluzeCizinci', create: expanded => <ZSInkluzeCizinci defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSInkluzeCizinci.title} /> },
+      { id: 'ZSVyukaCestiny', create: expanded => <ZSVyukaCestiny defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSVyukaCestiny.title} /> },
+      { id: 'ZSMedialniGramotnost', create: expanded => <ZSMedialniGramotnost defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSMedialniGramotnost.title} /> },
+      { id: 'ZSNoveTechnologie', create: expanded => <ZSNoveTechnologie defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSNoveTechnologie.title} /> },
+      { id: 'ZSWellBeing', create: expanded => <ZSWellBeing defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSWellBeing.title} /> },
+    ],
+    [
+      { id: 'ZSGenderova', create: expanded => <ZSGenderova defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSGenderova.title} /> },
+      { id: 'ZSCtenarskaGramotnost', create: expanded => <ZSCtenarskaGramotnost defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSCtenarskaGramotnost.title} /> },
       { id: 'ZSMatematickaGramotnost', create: expanded => <ZSMatematickaGramotnost defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSMatematickaGramotnost.title} /> },
+      { id: 'ZSKarierovePoradenstvi', create: expanded => <ZSKarierovePoradenstvi defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSKarierovePoradenstvi.title} /> },
       { id: 'ZSRozvojPodnikavosti', create: expanded => <ZSRozvojPodnikavosti defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSRozvojPodnikavosti.title} /> },
     ],
     [
+      { id: 'ZSFormativniHodnoceni', create: expanded => <ZSFormativniHodnoceni defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSFormativniHodnoceni.title} /> },
       { id: 'ZSDiagnostika', create: expanded => <ZSDiagnostika defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSDiagnostika.title} /> },
       { id: 'ZSInovace', create: expanded => <ZSInovace defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSInovace.title} /> },
       { id: 'ZSInkluze', create: expanded => <ZSInkluze defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSInkluze.title} /> },
       { id: 'ZSPodpora', create: expanded => <ZSPodpora defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSPodpora.title} /> },
-      { id: 'ZSCtenarskaGramotnost', create: expanded => <ZSCtenarskaGramotnost defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSCtenarskaGramotnost.title} /> },
-
-    ],
-    [
-      { id: 'ZSNoveTechnologie', create: expanded => <ZSNoveTechnologie defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSNoveTechnologie.title} /> },
-      { id: 'ZSMedialniGramotnost', create: expanded => <ZSMedialniGramotnost defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSMedialniGramotnost.title} /> },
-      { id: 'ZSVyukaCestiny', create: expanded => <ZSVyukaCestiny defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSVyukaCestiny.title} /> },
-      { id: 'ZSInkluzeCizinci', create: expanded => <ZSInkluzeCizinci defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSInkluzeCizinci.title} /> },
-      { id: 'ZSWellBeing', create: expanded => <ZSWellBeing defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSWellBeing.title} /> },
     ]
   ];
   res.forEach(l => l.forEach(ll => ll.id = ll.id.toLowerCase()));
