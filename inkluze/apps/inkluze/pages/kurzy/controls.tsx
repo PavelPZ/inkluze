@@ -692,7 +692,10 @@ var SSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
 </b>(8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ZUŠ, asistenti)</LiFile>
       <LiFile><b>Efektivní využití Google dokumentů ve škole
 </b>(8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ZUŠ, asistenti)</LiFile>
-
+      <LiFile><b>Distanční výuka – formy a metody práce s žáky on-line 
+      </b>(8 hod, akreditováno pro SŠ, VOŠ, ZŠ, ZUŠ)</LiFile>
+      <LiFile><b>Jak na distanční výuku? 
+      </b>(8 hod, akreditováno pro SŠ, VOŠ, ZŠ, ZUŠ)</LiFile>
     </ul>
   </BlockEx>
 </Panel>;
@@ -705,7 +708,7 @@ var SSRozvojPodnikavosti: React.StatelessComponent<IKurzProps> = (props: IKurzPr
       <LiFile><b>Rozvoj podnikavosti a zásady soukromého podnikání 
 </b>        8 hodin (8 hod, akreditováno pro SŠ, VOŠ)
 </LiFile>
-      <LiFile><b>Podnikání, finanční gramotnost a manažerské dovednosti – 8 hodin
+      <LiFile><b>Výchova k podnikavosti a manažerské dovednosti – 8 hod 
 </b>(8 hod, akreditováno pro SŠ, VOŠ)
 </LiFile>
     </ul>
@@ -724,10 +727,10 @@ var SSKarierovePoradenstvi: React.StatelessComponent<IKurzProps> = (props: IKurz
       <LiFile><b>Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje na SŠ
 </b>(8 hod, akreditováno pro SŠ, VOŠ)
       </LiFile>
+      <LiFile><b>Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje na SŠ
+      </b>(8 hod kurz, akreditováno pro SŠ, VOŠ)</LiFile>
       <LiFile><b>Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje-webinář
-</b>(8 hod, akreditováno pro SŠ, VOŠ, ZŠ, od srpna 2022)
-
-</LiFile>
+      </b>(8 hod, akreditováno pro SŠ, VOŠ, ZŠ, od srpna 2022)</LiFile>
     </ul>
   </BlockEx>
 </Panel>;
@@ -835,6 +838,18 @@ var SSFormativniHodnoceni: React.StatelessComponent<IKurzProps> = (props: IKurzP
   </BlockEx>
 </Panel>;
 
+var SSGenderovaTematika: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+  <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
+</div>} eventKey={2}>
+
+  <BlockEx header="Nabízíme následující kurzy:">
+    <ul className='fa-ul'>
+      <LiFile><b>Genderová tematika na školách 
+      </b>(8 hod, připravujeme k akreditaci pro SŠ, VOŠ, DM, ZŠ, ŠD, ŠK, SVČ, ZUŠ, asistenti)</LiFile >
+
+    </ul>
+  </BlockEx>
+</Panel>;
 
 interface IKuryFormFormStatus {
   email: string;
@@ -929,10 +944,10 @@ class KurzyForm extends React.Component<{}, IKuryFormFormStatus> {
 var KurzyAlert: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div className='alert alert-warning' style={{ fontSize: '18px' }}>
   <p style={{ marginTop: '0' }}><i className='fa fa-lightbulb-o'></i> Tip: &nbsp;</p>
   <p>
-    Pro více informací klikněte na název kurzu dole na stránce.
+    Pro více informací klikněte na vybrané téma nahoře na stránce.
   </p>
   <p>
-    Pro získání podrobnějších informací o našich akreditovaných kurzech vyplňte a odešlete nezávazný poptávkový formulář.
+    Pro získání podrobnějších informací o našich akreditovaných kurzech vyplňte a odešlete nezávazný poptávkový formulář nebo napište email na projekt@langmaster.cz.
   </p>
 </div>;
 
@@ -947,20 +962,20 @@ var BonusAlert: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IC
 var KurzySSAlert: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div className='alert alert-warning' style={{ fontSize: '18px' }}>
   <p style={{ marginTop: '0' }}><i className='fa fa-lightbulb-o'></i> Tip: &nbsp;</p>
   <p>
-    Pro více informací klikněte na název kurzu dole na stránce.
+    Pro více informací klikněte na vybrané téma nahoře na stránce.
   </p>
   <p>
-    Pro získání podrobnějších informací o našich akreditovaných kurzech vyplňte a odešlete nezávazný poptávkový formulář.
+    Pro získání podrobnějších informací o našich akreditovaných kurzech vyplňte a odešlete nezávazný poptávkový formulář nebo napište email na projekt@langmaster.cz.
   </p>
 </div>;
 
 var KurzyIIAlert: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div className='alert alert-warning' style={{ fontSize: '18px' }}>
   <p style={{ marginTop: '0' }}><i className='fa fa-lightbulb-o'></i> Tip: &nbsp;</p>
   <p>
-    Pro více informací klikněte na název kurzu dole na stránce.
+    Pro více informací klikněte na vybrané téma nahoře na stránce.
   </p>
   <p>
-    Pro získání podrobnějších informací o našich akreditovaných kurzech vyplňte a odešlete nezávazný poptávkový formulář.
+    Pro získání podrobnějších informací o našich akreditovaných kurzech vyplňte a odešlete nezávazný poptávkový formulář nebo napište email na projekt@langmaster.cz.
   </p>
 </div>;
 
@@ -1022,6 +1037,7 @@ var KurzySSList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.I
     </Col>
     <Col md={4}>
       <ul className='fa-ul'>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSGenderovaTematika)}</LiFile>       
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSVyukaCestiny)}</LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSInkluzeCizinci)}</LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSOstatniInkluze)}</LiFile>
@@ -1237,7 +1253,9 @@ var ZSFormativniHodnoceni: React.StatelessComponent<IKurzProps> = (props: IKurzP
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
 
-      <LiFile>...</LiFile >
+      <LiFile><b>Formativní hodnocení a role učitele </b> (8 hod, akreditováno pro ZŠ, ŠD, SŠ, VOŠ, DM, asistenti)</LiFile >
+      <LiFile><b>Formativní hodnocení v praxi </b> (8 hod, akreditováno pro ZŠ, SŠ, asistenti, od srpna 2022)</LiFile >
+      <LiFile><b>Formativní hodnocení v praxi – webinář </b> (8 hod, akreditováno pro ZŠ, SŠ, asistenti, od srpna 2022)</LiFile >
 
     </ul>
   </BlockEx>
@@ -1249,7 +1267,9 @@ var ZSKarierovePoradenstvi: React.StatelessComponent<IKurzProps> = (props: IKurz
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
 
-      <LiFile>...</LiFile >
+      <LiFile><b>Role pedagoga v karierovém poradenství – 8 hodin </b> (8 hod, akreditováno pro ZŠ, SŠ, VOŠ)</LiFile >
+      <LiFile><b>Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje – webinář </b> (8 hod, akreditováno pro ZŠ, SŠ, VOŠ, od srpna 2022)</LiFile >
+
 
     </ul>
   </BlockEx>
@@ -1261,7 +1281,10 @@ var ZSCtenarskaGramotnost: React.StatelessComponent<IKurzProps> = (props: IKurzP
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
 
-      <LiFile>...</LiFile >
+      <LiFile><b>Čtenářská a informační gramotnost na ZŠ – 8 hodin </b> (8 hod, akreditováno pro ZŠ)</LiFile >
+      <LiFile><b>Rozvoj čtenářské gramotnosti u žáků ZŠ – 8 hodin </b> (8 hod, akreditováno pro ZŠ, ŠD, asistenti)</LiFile >
+      <LiFile><b>Čtenářství-průvodce každodenním životem, cesta je vzdělání_8 </b> (8 hod, akreditováno pro ZŠ)</LiFile >
+      <LiFile><b>Čtenářství a čtenářská gramotnost v současné škole </b> (8 hod, akreditováno pro ZŠ)</LiFile >
 
     </ul>
   </BlockEx>
@@ -1273,8 +1296,11 @@ var ZSMatematickaGramotnost: React.StatelessComponent<IKurzProps> = (props: IKur
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
 
-      <LiFile>...</LiFile >
-
+      <LiFile><b>GeoGebra jako nástroj rozvoje matematické gramotnosti na ZŠ </b> (8 hod, akreditováno pro ZŠ)</LiFile >
+      <LiFile><b>Moderní technologie při rozvoji matematické gramotnosti na ZŠ </b> (8 hod, akreditováno pro ZŠ, ŠD, ŠK, asistenti)</LiFile >
+      <LiFile><b>Deskové a karetní hry pro rozvoj matematické gramotnosti </b> (8 hod, akreditováno pro ZŠ, ŠD, ŠK, asistenti)</LiFile >
+      <LiFile><b>Rozvoj matematické gramotnosti u žáků ZŠ – 8 hodin </b> (8 hod, akreditováno pro ZŠ, ŠD, asistenti)</LiFile >
+      <LiFile><b>Jak na distanční výuku matematiky? </b> (8 hod, akreditováno pro ZŠ, SŠ, VOŠ)</LiFile >
     </ul>
   </BlockEx>
 </Panel>
@@ -1285,7 +1311,9 @@ var ZSRozvojPodnikavosti: React.StatelessComponent<IKurzProps> = (props: IKurzPr
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
 
-      <LiFile>...</LiFile >
+      <LiFile><b>Rozvoj podnikavosti a zásady soukromého podnikání – 8 hodin </b> (8 hod, akreditováno pro SŠ, VOŠ, pro ZŠ od listopadu)</LiFile >
+      <LiFile><b>Podnikání, finanční gramotnost a manažerské dovednosti – 8 hodin </b> (8 hod, akreditováno pro SŠ, VOŠ, pro ZŠ od listopadu)</LiFile >
+
 
     </ul>
   </BlockEx>
@@ -1297,7 +1325,9 @@ var ZSDiagnostika: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
 
-      <LiFile>...</LiFile >
+      <LiFile><b>Sociální klima třídy a pedagogická diagnostika učitele </b> (8 hod, akreditováno pro MŠ, ZŠ, SŠ, VOŠ, asistenti, od srpna 2022)</LiFile >
+      <LiFile><b>Sociální klima třídy a pedagogická diagnostika učitele – webinář </b> (8 hod, akreditováno pro MŠ, ZŠ, SŠ, VOŠ, asistenti, od srpna 2022)</LiFile >
+
 
     </ul>
   </BlockEx>
@@ -1309,8 +1339,11 @@ var ZSInovace: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
 
-      <LiFile>...</LiFile >
-
+      <LiFile><b>Změny v RVP a úpravy ŠVP </b> (8 hod, akreditováno pro MŠ, ZŠ, ZUŠ, SŠ, VOŠ, od srpna 2022)</LiFile >
+      <LiFile><b>Změny v RVP a úpravy ŠVP – webinář </b> (8 hod, akreditováno pro MŠ, ZŠ, ZUŠ, SŠ, VOŠ, od srpna 2022)</LiFile >
+      <LiFile><b>Úpravy ŠVP v rámci programu InspIS ŠVP </b> (8 hod, akreditováno pro MŠ, ZŠ, ZUŠ, SŠ, VOŠ, od srpna 2022)</LiFile >
+      <LiFile><b>Úpravy ŠVP v rámci programu InspIS ŠVP – webinář </b> (8 hod, akreditováno pro MŠ, ZŠ, ZUŠ, SŠ, VOŠ, od srpna 2022)</LiFile >
+ 
     </ul>
   </BlockEx>
 </Panel>;
@@ -1321,7 +1354,14 @@ var ZSInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
 
-      <LiFile>...</LiFile >
+      <LiFile><b>Práce s diferencovanou třídou a náměty na vzdělávání 8 hod </b> (8 hod, akreditováno pro ZŠ, SŠ, VOŠ, asistenti)</LiFile >
+      <LiFile><b>Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje – webinář  </b> (8 hod, akreditováno pro ZŠ, SŠ, VOŠ, od srpna 2022)</LiFile >
+          <LiFile><b>Klima třídy a vedení třídnické hodiny v rámci inkluze-8 hod </b> (8 hod, akreditováno pro ZŠ, asistenti)</LiFile >
+            <LiFile><b>Podpora žáků ZŠ v rámci inkluzivního vzdělávání 8 hodin </b> (8 hod, akreditováno pro ZŠ, ŠD, ŠK, asistenti)</LiFile >
+      <LiFile><b>Práce se žákem s problémovým chováním – 8 hodin  </b> (8 hod, akreditováno pro ZŠ, ŠD, ŠK, asistenti)</LiFile >
+                <LiFile><b>Sociální klima třídy a role učitele – 8 hodin </b> (8 hod, akreditováno pro ZŠ, SŠ, VOŠ, asistenti)</LiFile >
+      <LiFile><b>Práce s pedagogickým sborem-jak předejít syndromu vyhoření  </b> (8 hod, akreditováno pro ZŠ, SŠ, VOŠ, asistenti)</LiFile >
+
 
     </ul>
   </BlockEx>
@@ -1333,7 +1373,10 @@ var ZSPodpora: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
 
-      <LiFile>...</LiFile >
+      <LiFile><b>Mentorské dovednosti–úvod do problematiky principů mentoringu </b> (8 hod, akreditováno pro MŠ, ZŠ, ZUŠ, SŠ, ředitelé, zástupci, management)</LiFile >
+      <LiFile><b>Mentorské dovednosti učitele </b> (16 hod, akreditováno pro MŠ, ZŠ, ZUŠ, SŠ, ředitelé, zástupci, management)</LiFile >
+      <LiFile><b>Moderní trendy ve vedení lidí – Mentoring </b> (24 hod, akreditováno pro MŠ, ZŠ, ZUŠ, SŠ, ředitelé, zástupci, management)</LiFile >
+
 
     </ul>
   </BlockEx>
@@ -1346,7 +1389,15 @@ var ZSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
 
-      <LiFile>...</LiFile >
+      <LiFile><b>Efektivní využití MS Office pro pedagogy – 8 hodin </b> (8 hod, akreditováno pro ZŠ, SŠ, VOŠ)</LiFile >
+      <LiFile><b>Různé metody pro využití ICT technologií ve škole </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)</LiFile >
+      <LiFile><b>Inspirace pro využití interaktivních tabulí ve škole </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)</LiFile >
+      <LiFile><b>Práce s dotykovými zařízeními ve škole </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)</LiFile >
+      <LiFile><b>Využití ICT ve škole </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)</LiFile >
+      <LiFile><b>Efektivní využití LibreOffice ve škole </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)</LiFile >
+      <LiFile><b>Efektivní využití Google dokumentů ve škole </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)</LiFile >
+      <LiFile><b>Distanční výuka – formy a metody práce s žáky on-line </b> (8 hod, akreditováno pro ZŠ, ZUŠ, SŠ, VOŠ)</LiFile >
+      <LiFile><b>Jak na distanční výuku? </b> (8 hod, akreditováno pro ZŠ, ZUŠ, SŠ, VOŠ)</LiFile >
 
     </ul>
   </BlockEx>
@@ -1357,9 +1408,12 @@ var ZSInkluzeCizinci: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
-
-      <LiFile>...</LiFile >
-
+      <LiFile><b>Klima třídy se žáky s odlišným mateřským jazykem </b> (8 hod, akreditováno pro ZŠ, SŠ, VOŠ, asistenti)</LiFile >
+      <LiFile><b>Klima třídy se žáky s odlišným mateřským jazykem -webinář </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, SŠ, VOŠ, DM, asistenti, od srpna 2022)</LiFile >
+      <LiFile><b>Jak ve škole pracovat se žáky cizinci </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, SŠ, VOŠ, DM, asistenti, od srpna 2022)</LiFile >
+      <LiFile><b>Jak ve škole pracovat se žáky cizinci – webinář </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, SŠ, VOŠ, DM, asistenti, od srpna 2022)</LiFile >
+      <LiFile><b>Začlenění žáka cizince do třídního kolektivu </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, SŠ, VOŠ, DM, asistenti, od srpna 2022)</LiFile >
+      <LiFile><b>Začlenění žáka cizince do třídního kolektivu – webinář </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, SŠ, VOŠ, DM, asistenti, od srpna 2022)</LiFile >
     </ul>
   </BlockEx>
 </Panel>
@@ -1371,7 +1425,7 @@ var ZSMedialniGramotnost: React.StatelessComponent<IKurzProps> = (props: IKurzPr
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
 
-      <LiFile>...</LiFile >
+      <LiFile><b>Funkce a nástrahy internetu, kyberšikana a sociální sítě </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)</LiFile >
 
     </ul>
   </BlockEx>
@@ -1382,9 +1436,8 @@ var ZSVyukaCestiny: React.StatelessComponent<IKurzProps> = (props: IKurzProps, c
 </div>} eventKey={2}>
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
-
-      <LiFile>...</LiFile >
-
+      <LiFile><b>Specifika výuky češtiny jako druhého jazyka </b> (8 hod, akreditováno pro ZŠ, SŠ, asistenti, výchovní poradci, od srpna 2022)</LiFile >
+      <LiFile><b>Specifika výuky češtiny jako druhého jazyka - webinář </b> (8 hod, akreditováno pro ZŠ, SŠ, asistenti, výchovní poradci, od srpna 2022)</LiFile >
     </ul>
   </BlockEx>
 </Panel>;
@@ -1395,7 +1448,16 @@ var ZSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
 
-      <LiFile>...</LiFile >
+      <LiFile><b>Wellbeing, cesta k harmonizaci vztahů ve škole </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, SŠ, VOŠ, DM, asistenti, od srpna 2022)</LiFile >
+        <LiFile><b>Wellbeing, cesta k harmonizaci vztahů ve škole – webinář </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, SŠ, VOŠ, DM, asistenti, od srpna 2022)</LiFile >
+      <LiFile><b>Prevence k zátěžovým situacím ve škole </b> (8 hod, akreditováno pro MŠ, ZŠ, ZUŠ, ŠD, SŠ, VOŠ, DM, asistenti)</LiFile >
+            <LiFile><b>Jak zvládat stresové situace a nedospět k vyhoření </b> (8 hod, akreditováno pro MŠ, ZŠ, ZUŠ, ŠD, SŠ, VOŠ, DM, asistenti)</LiFile >
+              <LiFile><b>Aspekty emoční a sociální inteligence pedagoga 8 hodin </b> (8 hod, akreditováno pro ZŠ, ZUŠ, ŠD, ŠK)</LiFile >
+                <LiFile><b>Aspekty emoční a sociální inteligence pedagoga v MŠ </b> (8 hod, akreditováno pro MŠ)</LiFile >
+                  <LiFile><b>Rozvoj osobnosti pedagoga v oblasti komunikace </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, asistenti)</LiFile >
+                    <LiFile><b>Rozvoj osobnosti pedagoga v oblasti sebepoznání </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, asistenti)</LiFile >
+                      <LiFile><b>Rozvoj osobnosti pedagoga ve zvládání konfliktů  </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, asistenti)</LiFile >
+                        <LiFile><b>Zásady asertivní a efektivní komunikace pro MŠ, ZŠ, ZUŠ </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, asistenti)</LiFile >
 
     </ul>
   </BlockEx>

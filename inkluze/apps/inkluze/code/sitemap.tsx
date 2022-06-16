@@ -43,6 +43,7 @@
     SSInkluzeCizinci: site.INode;
     SSOstatniInkluze: site.INode;
     SSFormativniHodnoceni: site.INode;
+    SSGenderovaTematika: site.INode;
   }
 
   export interface ISiteKurzyII extends site.INode {
@@ -249,6 +250,11 @@
         SSFormativniHodnoceni: {
           id: 'SSFormativniHodnoceni',
           title: 'Formativní hodnocení',
+          createPage: par => React.createElement(KurzySS),
+        },
+        SSGenderovaTematika: {
+          id: 'SSGenderovaTematika',
+          title: 'Genderová tematika v obsahu vzdělávání',
           createPage: par => React.createElement(KurzySS),
         },
       },

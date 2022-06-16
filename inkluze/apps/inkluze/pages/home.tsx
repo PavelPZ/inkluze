@@ -13,14 +13,21 @@
             <Col md={10}>
               <h4>Nabízíme kurzy následujícího zaměření:</h4>
               <ul className='fa-ul'>
-                <LiFile>Inkluze (58 akreditovaných kurzů)</LiFile>
-                <LiFile>Čtenářská gramotnost (29 akreditovaných kurzů)</LiFile>
-                <LiFile>Matematická gramotnost (20 akreditovaných kurzů)</LiFile>
-                <LiFile>Mentoring (3 akreditované kurzy)</LiFile>
-                <LiFile>Osobnostně sociální rozvoj (13 akreditovaných kurzů)</LiFile>
-                <LiFile>ICT (12 akreditovaných kurzů)</LiFile>
-                <LiFile>Kariérové vzdělávání (1 kurz)</LiFile>
-                <LiFile>Výchova k podnikavosti (2 kurzy)</LiFile>
+                <LiFile>Čtenářská gramotnost (9 akreditovaných kurzů)</LiFile>
+                <LiFile>Matematická gramotnost (10 akreditovaných kurzů)</LiFile>
+                <LiFile>Inkluze zaměřená na cizince (7 akreditovaných kurzů)</LiFile>
+                <LiFile>Ostatní Inkluze (15 akreditovaných kurzů)</LiFile>
+                <LiFile>Vzděláváni s využitím nových technologií (9 akreditovaných kurzů)</LiFile>
+                <LiFile>Formativní hodnocení (3 akreditované kurzy)</LiFile>
+                <LiFile>Rozvoj podnikavosti a kreativity (2 akreditované kurzy)</LiFile>
+                <LiFile>Well-being a psychohygiena (15 akreditovaných kurzů)</LiFile>
+                <LiFile>Pedagogická diagnostika (2 akreditované kurzy)</LiFile>
+                <LiFile>Kariérové poradenství včetně identifikace a rozvoje nadání (3 akreditované kurzy)</LiFile>
+                <LiFile>Genderová tematika v obsahu vzdělávání (1 akreditovaný kurz – připravujeme)</LiFile>
+                <LiFile>Mediální gramotnost, prevence kyberšikany, chování na sociálních sítích (1 akreditovaný kurz)</LiFile>
+                <LiFile>Inovace ŠVP/koncepce rozvoje školy/školského zařízení (4 akreditované kurzy)</LiFile>
+                <LiFile>Výuka češtiny jako druhého jazyka (2 akreditované kurzy)</LiFile>
+                <LiFile>Podpora uvádějících/provázejících učitelů (3 akreditované kurzy)</LiFile>
                 <LiFile>Obsah jednotlivých kurzů naleznete na stránkách <a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.kurzyss, ev)}>Šablony pro SŠ a VOŠ I - OP JAK</a> a <a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.kurzyii, ev)}>Šablony pro ZŠ a MŠ I - OP JAK</a></LiFile>
               </ul>
             </Col>
