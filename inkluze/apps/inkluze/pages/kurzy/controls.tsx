@@ -727,8 +727,6 @@ var SSKarierovePoradenstvi: React.StatelessComponent<IKurzProps> = (props: IKurz
       <LiFile><b>Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje na SŠ
 </b>(8 hod, akreditováno pro SŠ, VOŠ)
       </LiFile>
-      <LiFile><b>Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje na SŠ
-      </b>(8 hod kurz, akreditováno pro SŠ, VOŠ)</LiFile>
       <LiFile><b>Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje-webinář
       </b>(8 hod, akreditováno pro SŠ, VOŠ, ZŠ, od srpna 2022)</LiFile>
     </ul>
@@ -1284,7 +1282,7 @@ var ZSKarierovePoradenstvi: React.StatelessComponent<IKurzProps> = (props: IKurz
 </Panel>;
 
 var ZSGenderova: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">8</Label> <Label bsStyle="warning">16</Label> <span style={headerCss}>{props.title}</span></h3>
+  <h3><Label bsStyle="warning">8</Label> <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
