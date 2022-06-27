@@ -667,8 +667,9 @@ var SSMedGramotnost: React.StatelessComponent<IKurzProps> = (props: IKurzProps, 
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
-      <LiFile><b>Funkce a nástrahy internetu, kyberšikana a sociální sítě
-</b>        (8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ZUŠ, asistenti)</LiFile>
+      <LiFile><b>Funkce a nástrahy internetu, kyberšikana a sociální sítě</b> (8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ZUŠ, asistenti)
+
+        </LiFile>
     </ul>
   </BlockEx>
 </Panel>

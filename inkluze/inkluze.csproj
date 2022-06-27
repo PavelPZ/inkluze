@@ -27,6 +27,7 @@
     <Content Include="apps\inkluze\css\img\lm-logo-black.png" />
     <Content Include="apps\inkluze\css\img\lm-logo.png" />
     <Content Include="apps\inkluze\css\styles.css" />
+    <Content Include="apps\inkluze\pages\kurzy\obsahy.html" />
     <Content Include="externals\bootstrap.css" />
     <Content Include="externals\classnames.js" />
     <Content Include="externals\es6-shim.js" />
