@@ -79,6 +79,7 @@ declare namespace ReactBootstrap {
         bsStyle?: string;
         bsSize?: Sizes;
         componentClass?: React.ReactType;
+        className?: string;
     }
     type Button = React.ClassicComponent<ButtonProps, {}>;
     var Button: React.ClassicComponentClass<ButtonProps>;

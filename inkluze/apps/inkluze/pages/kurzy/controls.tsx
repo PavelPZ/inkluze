@@ -679,8 +679,14 @@ var SSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
 </div>} eventKey={2}>
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
-      <LiFile><b>Efektivní využití MS Office pro pedagogy – 8 hodin
-</b>        (8 hod, akreditováno pro SŠ, VOŠ, ZŠ)</LiFile>
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Efektivní využití MS Office pro pedagogy – 8 hodin</b>        (8 hod, akreditováno pro SŠ, VOŠ, ZŠ)
+        <p className="collapse" id="collapseExample">
+          <p className="card card-body">
+            Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+          </p>
+        </p>
+
+      </LiFile>
       <LiFile><b>Různé metody pro využití ICT technologií ve škole
 </b>        (8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ZUŠ, asistenti)</LiFile>
       <LiFile><b>Inspirace pro využití interaktivních tabulí ve škole
