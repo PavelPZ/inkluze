@@ -14,7 +14,7 @@
     </BlockEx>
     <BlockEx>
       <ul className='fa-ul'>
-        <LiHand><h4><b>27.9. 2022 Funkce a nástrahy internetu, kyberšikana a sociální sítě  </b></h4>
+        <LiHand><h4><b>27.9. 2022 <a href="/index.html?home|kurzyss|ssmedgramotnost">Funkce a nástrahy internetu, kyberšikana a sociální sítě</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Mediální gramotnostCT, prevence kyberšikany, chování na sociálních sítích</Label></h4>
           <p>Akreditace: MSMT- 13854/2021-2-500</p>
           <p>Cena: 1590 Kč/os, Lektor: Mgr. Bc. Jan Šindelář</p>

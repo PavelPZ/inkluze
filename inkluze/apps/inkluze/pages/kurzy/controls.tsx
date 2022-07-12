@@ -477,7 +477,7 @@ var MSInkluze816: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
   <BlockEx>
     Nabízíme více 16 hodinových akreditovaných kurzů.
           Každý kurz obsahuje část témat ze seznamu <i>Obsah kurzů</i> na této stránce.
-          Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
+    Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
         </BlockEx>
   <BlockEx>
     <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
@@ -500,9 +500,9 @@ var MSRozvoj16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: 
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
-          <LiFile>Vybrané aspekty emoční a sociální inteligence pedagoga</LiFile>
-          <LiFile>Osobnostní a sociální rozvoj učitele</LiFile>
-        </ul>
+      <LiFile>Vybrané aspekty emoční a sociální inteligence pedagoga</LiFile>
+      <LiFile>Osobnostní a sociální rozvoj učitele</LiFile>
+    </ul>
   </BlockEx>
   <BlockEx header="Výuka ve sborovně:">
     <p>
@@ -619,9 +619,9 @@ var SSCtenarskaGramotnost: React.StatelessComponent<IKurzProps> = (props: IKurzP
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
-      <LiFile><b>Čtenářská gramotnost napříč všemi předměty SŠ a VOŠ  – 8 hod  
+      <LiFile><b>Čtenářská gramotnost napříč všemi předměty SŠ a VOŠ  – 8 hod
 </b>(8 hod, akreditováno pro SŠ, VOŠ)</LiFile>
-      <LiFile><b>Čtenářská gramotnost napříč všemi předměty SŠ a VOŠ – 16 
+      <LiFile><b>Čtenářská gramotnost napříč všemi předměty SŠ a VOŠ – 16
 </b>(16 hod, akreditováno pro SŠ, VOŠ)</LiFile>
       <LiFile><b>Čtenářství napříč výukou SŠ – 8 hodin
 </b>(8 hod, akreditováno pro SŠ, VOŠ)
@@ -637,7 +637,7 @@ var SSMatematickaGramotnost: React.StatelessComponent<IKurzProps> = (props: IKur
     <ul className='fa-ul'>
       <LiFile><b>GeoGebra - nástroj rozvoje matematické gramotnosti na SŠ
 </b>(8 hod, akreditováno pro SŠ, VOŠ)</LiFile>
-      <LiFile><b>Moderní technologie ve výuce (nejen) matematiky na SŠ a VOŠ 
+      <LiFile><b>Moderní technologie ve výuce (nejen) matematiky na SŠ a VOŠ
 </b>(16 hod, akreditováno pro SŠ, VOŠ)</LiFile>
       <LiFile><b>Jak na distanční výuku matematiky?
 </b>(8 hod, akreditováno pro SŠ, VOŠ, ZŠ)
@@ -678,12 +678,17 @@ var SSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
   <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
   <BlockEx header="Nabízíme následující kurzy:">
-    <ul className='fa-ul'>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Efektivní využití MS Office pro pedagogy – 8 hodin</b>        (8 hod, akreditováno pro SŠ, VOŠ, ZŠ)
-        <div className="collapse" id="collapseExample">
-          <div className="card card-body">
-            Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-          </div>
+    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>
+      <ul className='fa-ul' data-bs-toggle="tooltip" title="Pro zobrazení obsahu kurzu klikněte na jeho název">
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">Efektivní využití MS Office pro pedagogy – 8 hodin</b>        (8 hod, akreditováno pro SŠ, VOŠ, ZŠ)
+        <div className="collapse " id="collapse1">
+          <ul className="list-group">
+            <li className="list-group-item">•	<b>Vznik a funkce internetu</b> – vznik internetu, fungování internetu, vyhledávání na internetu, rozdíl mezi internetovým vyhledavačem a prohlížečem, nástrahy internetu a bezpečné chování na internetu (2,5 hod)</li>
+            <li className="list-group-item">•	<b>Kyberšikana</b> – identifikace problémů, řešení problémů, rozdíl mezi klasickou šikanou a kyberšikanou (2 hod)</li>
+            <li className="list-group-item">•	<b>Sociální sítě a práce s nimi</b> – obecné informace o sociálních sítích, funkce sociálních sítí, bezpečné chování na sociální síti, klady a zápory využití sociálních sítí, vybrané sociální sítě a informace k nim (2 hod)</li>
+            <li className="list-group-item">•	<b>Autorství a kopírování obrázků a informací</b> (0,5 hod)</li>
+            <li className="list-group-item">•	<b>E-mail</b> – práce v prostředí MS Outlook a v některých e-mailových schránkách (1 hod)</li>
+          </ul>
         </div>
 
       </LiFile>
@@ -699,12 +704,12 @@ var SSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
 </b>(8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ZUŠ, asistenti)</LiFile>
       <LiFile><b>Efektivní využití Google dokumentů ve škole
 </b>(8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ZUŠ, asistenti)</LiFile>
-      <LiFile><b>Distanční výuka – formy a metody práce s žáky on-line 
+      <LiFile><b>Distanční výuka – formy a metody práce s žáky on-line
       </b>(8 hod, akreditováno pro SŠ, VOŠ, ZŠ, ZUŠ)</LiFile>
-      <LiFile><b>Jak na distanční výuku? 
+      <LiFile><b>Jak na distanční výuku?
       </b>(8 hod, akreditováno pro SŠ, VOŠ, ZŠ, ZUŠ)</LiFile>
     </ul>
-  </BlockEx>
+    </BlockEx>
 </Panel>;
 
 var SSRozvojPodnikavosti: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
@@ -712,10 +717,10 @@ var SSRozvojPodnikavosti: React.StatelessComponent<IKurzProps> = (props: IKurzPr
 </div>} eventKey={2}>
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
-      <LiFile><b>Rozvoj podnikavosti a zásady soukromého podnikání 
+      <LiFile><b>Rozvoj podnikavosti a zásady soukromého podnikání
 </b>        8 hodin (8 hod, akreditováno pro SŠ, VOŠ)
 </LiFile>
-      <LiFile><b>Výchova k podnikavosti a manažerské dovednosti – 8 hod 
+      <LiFile><b>Výchova k podnikavosti a manažerské dovednosti – 8 hod
 </b>(8 hod, akreditováno pro SŠ, VOŠ)
 </LiFile>
     </ul>
@@ -729,7 +734,7 @@ var SSKarierovePoradenstvi: React.StatelessComponent<IKurzProps> = (props: IKurz
     <ul className='fa-ul'>
       <LiFile><b>Role pedagoga v karierovém poradenství – 8 hodin
 </b>(8 hod, akreditováno pro SŠ, VOŠ, ZŠ)
-
+        
 </LiFile>
       <LiFile><b>Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje na SŠ
 </b>(8 hod, akreditováno pro SŠ, VOŠ)
@@ -773,7 +778,7 @@ var SSVyukaCestiny: React.StatelessComponent<IKurzProps> = (props: IKurzProps, c
 </LiFile>
       <LiFile><b>Specifika výuky češtiny jako druhého jazyka - webinář
 </b>(8 hod, akreditováno pro SŠ, ZŠ, asistenti, výchovní poradci, od srpna 2022)
-
+        
       </LiFile>
 
     </ul>
@@ -786,8 +791,8 @@ var SSInkluzeCizinci: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
 
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
-           
-      <LiFile><b>Klima třídy se žáky s odlišným mateřským jazykem  
+
+      <LiFile><b>Klima třídy se žáky s odlišným mateřským jazykem
 </b>(8 hod, akreditováno pro SŠ, VOŠ, ZŠ, asistenti)</LiFile>
       <LiFile><b>Klima třídy se žáky s odlišným mateřským jazykem -webinář
 </b>(8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, asistenti, od srpna 2022)</LiFile>
@@ -813,21 +818,21 @@ var SSOstatniInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
     <ul className='fa-ul'>
       <LiFile><b>Práce s diferencovanou třídou a náměty na vzdělávání 8 hod
 </b>(8 hod, akreditováno pro SŠ, VOŠ, ZŠ, asistenti)</LiFile>
-      <LiFile><b>Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje na SŠ 
+      <LiFile><b>Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje na SŠ
 </b>(8 hod, akreditováno pro SŠ, VOŠ)</LiFile>
       <LiFile><b>Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje – webinář
 </b>(8 hod, akreditováno pro SŠ, VOŠ, ZŠ, od srpna 2022)</LiFile>
-      <LiFile><b>Klima třídy a vedení třídnické hodiny v rámci inkluze - SŠ 
+      <LiFile><b>Klima třídy a vedení třídnické hodiny v rámci inkluze - SŠ
 </b>(8 hod, akreditováno pro SŠ, VOŠ)</LiFile>
       <LiFile><b>Podpora žáků SŠ v rámci inkluze
 </b>  (8 hod, akreditováno pro SŠ, VOŠ, DM, asistenti)</LiFile >
-      <LiFile><b>Práce se žákem SŠ s problémovým chováním 
+      <LiFile><b>Práce se žákem SŠ s problémovým chováním
 </b>  (8 hod, akreditováno pro SŠ, DM, asistenti)</LiFile >
       <LiFile><b>Sociální klima třídy a role učitele – 8 hodin
 </b>  (8 hod, akreditováno pro SŠ, VOŠ, ZŠ, asistenti)</LiFile >
-      <LiFile><b>Práce s pedagogickým sborem-jak předejít syndromu vyhoření  
+      <LiFile><b>Práce s pedagogickým sborem-jak předejít syndromu vyhoření
 </b>  (8 hod, akreditováno pro SŠ, VOŠ, ZŠ)</LiFile >
-      <LiFile><b>Základní kurz společného vzdělávání pro střední školy  
+      <LiFile><b>Základní kurz společného vzdělávání pro střední školy
 </b>  (8 hod, akreditováno pro SŠ, VOŠ)</LiFile >
     </ul>
   </BlockEx>
@@ -856,7 +861,7 @@ var SSGenderovaTematika: React.StatelessComponent<IKurzProps> = (props: IKurzPro
 
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
-      <LiFile><b>Genderová tematika na školách 
+      <LiFile><b>Genderová tematika na školách
       </b>(8 hod, připravujeme k akreditaci pro SŠ, VOŠ, DM, ZŠ, ŠD, ŠK, SVČ, ZUŠ, asistenti)</LiFile >
 
     </ul>
@@ -892,7 +897,7 @@ class KurzyForm extends React.Component<{}, IKuryFormFormStatus> {
             <FormGroup controlId="email" validationState={this.getValidationState()} >
 
               <ControlLabel>Vyplňte buďto váš email...</ControlLabel>
-              <FormControl value={this.state.email} placeholder="Napište váš email" onChange={(e: any) => { this.state.email = e.target.value; this.forceUpdate(); } } />
+              <FormControl value={this.state.email} placeholder="Napište váš email" onChange={(e: any) => { this.state.email = e.target.value; this.forceUpdate(); }} />
             </FormGroup>
             <hr />
             {/*
@@ -905,7 +910,7 @@ class KurzyForm extends React.Component<{}, IKuryFormFormStatus> {
           <Col md={6}>
             <FormGroup controlId="tel" validationState={this.getValidationState()} >
               <ControlLabel>...nebo vaše telefonní číslo</ControlLabel>
-              <FormControl value={this.state.phone} placeholder="Napište vaše telefonní číslo" onChange={(e: any) => { this.state.phone = e.target.value; this.forceUpdate(); } } />
+              <FormControl value={this.state.phone} placeholder="Napište vaše telefonní číslo" onChange={(e: any) => { this.state.phone = e.target.value; this.forceUpdate(); }} />
             </FormGroup>
             <hr />
             {/*
@@ -935,13 +940,13 @@ class KurzyForm extends React.Component<{}, IKuryFormFormStatus> {
           <Col md={3}>
             <FormGroup controlId="teachers" validationState={this.getValidationState()} >
               <ControlLabel>Počet učitelů v kurzu: </ControlLabel>
-              <FormControl value={this.state.teachers} placeholder="Napište počet učitelů" onChange={(e: any) => { this.state.teachers = e.target.value; this.forceUpdate(); } } />
+              <FormControl value={this.state.teachers} placeholder="Napište počet učitelů" onChange={(e: any) => { this.state.teachers = e.target.value; this.forceUpdate(); }} />
             </FormGroup>
           </Col>
           <Col md={9}>
             <FormGroup controlId="teachers" validationState={this.getValidationState()} >
               <ControlLabel>Upřesnění poptávky nebo dotaz</ControlLabel>
-              <FormControl componentClass="textarea" rows={3} value={this.state.poznamka} placeholder="Napište upřesnění poptávky nebo dotaz" onChange={(e: any) => { this.state.poznamka = e.target.value; this.forceUpdate(); } } />
+              <FormControl componentClass="textarea" rows={3} value={this.state.poznamka} placeholder="Napište upřesnění poptávky nebo dotaz" onChange={(e: any) => { this.state.poznamka = e.target.value; this.forceUpdate(); }} />
             </FormGroup>
           </Col>
         </Row>
@@ -1049,7 +1054,7 @@ var KurzySSList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.I
     </Col>
     <Col md={4}>
       <ul className='fa-ul'>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSGenderovaTematika)}</LiFile>       
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSGenderovaTematika)}</LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSVyukaCestiny)}</LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSInkluzeCizinci)}</LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSOstatniInkluze)}</LiFile>
@@ -1098,7 +1103,7 @@ var KurzyIIList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.I
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSDiagnostika)}</LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSInovace)}</LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSInkluze)}</LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSPodpora)}</LiFile>        
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSPodpora)}</LiFile>
       </ul>
     </Col>
   </Row>
@@ -1370,7 +1375,7 @@ var ZSInovace: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
       <LiFile><b>Změny v RVP a úpravy ŠVP – webinář </b> (8 hod, akreditováno pro MŠ, ZŠ, ZUŠ, SŠ, VOŠ, od srpna 2022)</LiFile >
       <LiFile><b>Úpravy ŠVP v rámci programu InspIS ŠVP </b> (8 hod, akreditováno pro MŠ, ZŠ, ZUŠ, SŠ, VOŠ, od srpna 2022)</LiFile >
       <LiFile><b>Úpravy ŠVP v rámci programu InspIS ŠVP – webinář </b> (8 hod, akreditováno pro MŠ, ZŠ, ZUŠ, SŠ, VOŠ, od srpna 2022)</LiFile >
- 
+
     </ul>
   </BlockEx>
 </Panel>;
@@ -1478,15 +1483,15 @@ var ZSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
     <ul className='fa-ul'>
 
       <LiFile><b>Wellbeing, cesta k harmonizaci vztahů ve škole </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, SŠ, VOŠ, DM, asistenti, od srpna 2022)</LiFile >
-        <LiFile><b>Wellbeing, cesta k harmonizaci vztahů ve škole – webinář </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, SŠ, VOŠ, DM, asistenti, od srpna 2022)</LiFile >
+      <LiFile><b>Wellbeing, cesta k harmonizaci vztahů ve škole – webinář </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, SŠ, VOŠ, DM, asistenti, od srpna 2022)</LiFile >
       <LiFile><b>Prevence k zátěžovým situacím ve škole </b> (8 hod, akreditováno pro MŠ, ZŠ, ZUŠ, ŠD, SŠ, VOŠ, DM, asistenti)</LiFile >
-            <LiFile><b>Jak zvládat stresové situace a nedospět k vyhoření </b> (8 hod, akreditováno pro MŠ, ZŠ, ZUŠ, ŠD, SŠ, VOŠ, DM, asistenti)</LiFile >
-              <LiFile><b>Aspekty emoční a sociální inteligence pedagoga 8 hodin </b> (8 hod, akreditováno pro ZŠ, ZUŠ, ŠD, ŠK)</LiFile >
-                <LiFile><b>Aspekty emoční a sociální inteligence pedagoga v MŠ </b> (8 hod, akreditováno pro MŠ)</LiFile >
-                  <LiFile><b>Rozvoj osobnosti pedagoga v oblasti komunikace </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, asistenti)</LiFile >
-                    <LiFile><b>Rozvoj osobnosti pedagoga v oblasti sebepoznání </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, asistenti)</LiFile >
-                      <LiFile><b>Rozvoj osobnosti pedagoga ve zvládání konfliktů  </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, asistenti)</LiFile >
-                        <LiFile><b>Zásady asertivní a efektivní komunikace pro MŠ, ZŠ, ZUŠ </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, asistenti)</LiFile >
+      <LiFile><b>Jak zvládat stresové situace a nedospět k vyhoření </b> (8 hod, akreditováno pro MŠ, ZŠ, ZUŠ, ŠD, SŠ, VOŠ, DM, asistenti)</LiFile >
+      <LiFile><b>Aspekty emoční a sociální inteligence pedagoga 8 hodin </b> (8 hod, akreditováno pro ZŠ, ZUŠ, ŠD, ŠK)</LiFile >
+      <LiFile><b>Aspekty emoční a sociální inteligence pedagoga v MŠ </b> (8 hod, akreditováno pro MŠ)</LiFile >
+      <LiFile><b>Rozvoj osobnosti pedagoga v oblasti komunikace </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, asistenti)</LiFile >
+      <LiFile><b>Rozvoj osobnosti pedagoga v oblasti sebepoznání </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, asistenti)</LiFile >
+      <LiFile><b>Rozvoj osobnosti pedagoga ve zvládání konfliktů  </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, asistenti)</LiFile >
+      <LiFile><b>Zásady asertivní a efektivní komunikace pro MŠ, ZŠ, ZUŠ </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, asistenti)</LiFile >
 
     </ul>
   </BlockEx>
