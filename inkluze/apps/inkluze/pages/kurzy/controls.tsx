@@ -745,9 +745,9 @@ var SSPedagogickaDiagnostika: React.StatelessComponent<IKurzProps> = (props: IKu
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy:">
     <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Sociální klima třídy a pedagogická diagnostika učitele
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesped1" aria-expanded="false" aria-controls="collapsesped1">Sociální klima třídy a pedagogická diagnostika učitele
       </b>(8 hod, akreditováno pro SŠ, VOŠ, MŠ, ZŠ, asistenti, od srpna 2022)
-        <div className="collapse " id="collapsesnt1"><ul className="list-group">
+        <div className="collapse " id="collapsesped1"><ul className="list-group">
           <b>Teoretická část  (4 vyučovací hodiny)</b><br />
           •	Objasnění základních pojmů - klima třídy, sociální klima třídy, spolutvůrci třídního klimatu,<br />
           •	Pedagogická diagnostika školní třídy – vymezení základních pojmů a metod pedagogické diagnostiky (diagnóza, prognóza, dispozice, proces – cíl, oblasti, diagnostický postup, chyby při diagnostikování ze strany pedagoga, charakteristické rysy, typy, mechanismy, které toto klima ovlivňují, prevence vztahů, pozice a role žáka ve školní třídě)<br />
@@ -767,9 +767,9 @@ var SSPedagogickaDiagnostika: React.StatelessComponent<IKurzProps> = (props: IKu
 
         </ul></div>
       </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Sociální klima třídy a pedagogická diagnostika učitele - webinář
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesped2" aria-expanded="false" aria-controls="collapsesped2">Sociální klima třídy a pedagogická diagnostika učitele - webinář
 </b>(8 hod, akreditováno pro SŠ, VOŠ, MŠ, ZŠ, asistenti, od srpna 2022)
-         <div className="collapse " id="collapsesnt1"><ul className="list-group">
+         <div className="collapse " id="collapsesped2"><ul className="list-group">
           <b>Blok 1 (2 vyučovací hodiny - 90 minut)</b><br />
           <b>Teoretická část 1 – základní pojmy a pedagogická diagnostika</b><br />
           •	Objasnění základních pojmů - klima třídy, sociální klima třídy, spolutvůrci třídního klimatu,<br />
@@ -812,19 +812,73 @@ var SSInovace: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy:">
     <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Změny v RVP a úpravy ŠVP
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesin1" aria-expanded="false" aria-controls="collapsesin1">Změny v RVP a úpravy ŠVP
+      </b>(8 hod, akreditováno pro SŠ, VOŠ, MŠ, ZŠ, ZUŠ, od srpna 2022)
+        <div className="collapse " id="collapsesin1"><ul className="list-group"><li className="list-group-item">•	Aktuální legislativní rámec školského zákona, který souvisí s tvorbou, úpravou a efektivním využíváním školních vzdělávacích programů  – (2 hod)</li>
+          <li className="list-group-item">•	Změny vyvolané revizí RVP (MŠMT)  - (2 hod)</li>
+          <li className="list-group-item">•	Aktuální úpravy ŠVP související s revizemi a úpravami v RVP  – (1 hod)</li>
+          <li className="list-group-item">•	ŠVP a nová strategie vzdělávání  - (2 hod)</li>
+          <li className="list-group-item">•	modifikace vzdělávacího obsahu, rozsahu a zaměření výuky, metod práce na základě provedených revizí RVP,</li>
+          <li className="list-group-item">•	Vzájemná výměna zkušeností, diskuse  – (1 hod)</li>
+        </ul></div>
+      </LiFile>
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesin2" aria-expanded="false" aria-controls="collapsesin2">Změny v RVP a úpravy ŠVP - webinář
+      </b>(8 hod, akreditováno pro SŠ, VOŠ, MŠ, ZŠ, ZUŠ, od srpna 2022)
+        <div className="collapse " id="collapsesin2"><ul className="list-group">
+          <b>Blok 1 (2 vyučovací hodiny – 90 minut)</b><br />
+          Aktuální legislativní rámec školského zákona, který souvisí s tvorbou, úpravou a efektivním využíváním školních vzdělávacích programů<br />
+          <b>Blok 2 (2 vyučovací hodiny – 90 minut)</b><br />
+          Změny vyvolané revizí RVP (MŠMT)<br />
+          <b>Blok 3 (1 vyučovací hodina – 45 minut)</b><br />
+          Aktuální úpravy ŠVP související s revizemi a úpravami v RVP<br />
+          <b>Blok 4 (2 vyučovací hodiny – 90 minut)</b><br />
+          ŠVP a nová strategie vzdělávání, modifikace vzdělávacího obsahu, rozsahu a zaměření výuky, metod práce na základě provedených revizí RVP<br />
+          <b>Blok 5 (1 vyučovací hodina – 45 minut)</b><br />
+          Vzájemná výměna zkušeností, diskuse<br />
+        </ul></div>
+      </LiFile>
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesin3" aria-expanded="false" aria-controls="collapsesin3">Úpravy ŠVP v rámci programu InspIS ŠVP
+      </b>(8 hod, akreditováno pro SŠ, VOŠ, MŠ, ZŠ, ZUŠ, od srpna 2022)
+       <div className="collapse " id="collapsesin3"><ul className="list-group">
+          1.	Aktuální legislativní rámec školského zákona, který souvisí s tvorbou, úpravou a efektivním využíváním školních vzdělávacích programů – (0,5 hod)<br />
+          2.	Aktuální úpravy ŠVP související se změnami kapitol jednotlivých typů RVP – (1 hod)<br />
+          3.	Význam a možnosti využití elektronického systému InspIS (0,5 hod)<br />
+          4.	Práce v systému InspIS ŠVP (6 hod)<br />
+          •	přihlášení do systému podání základních informací  a založení ŠVP<br />
+          •	tvorba učebního plánu, poznámek, přehledu týdnů<br />
+          •	forma vzdělávání - vzdělávací obsah, strategie naplňování KK, vazby mezi výstupy RVP, ŠVP, učivem, …..<br />
+          •	popisné informace k systému InspIS ŠVP – formulář ŠVP – vyplnění, konkrétní informace<br />
+          •	kontrola a schválení ŠVP<br />
+          •	Diskuse, dořešení konkrétních dotazů účastníků<br />
+
+        </ul></div>
+      </LiFile>
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesin4" aria-expanded="false" aria-controls="collapsesin4">Úpravy ŠVP v rámci programu InspIS ŠVP - webinář
 </b>(8 hod, akreditováno pro SŠ, VOŠ, MŠ, ZŠ, ZUŠ, od srpna 2022)
-</LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Změny v RVP a úpravy ŠVP - webinář
-</b>(8 hod, akreditováno pro SŠ, VOŠ, MŠ, ZŠ, ZUŠ, od srpna 2022)
-</LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Úpravy ŠVP v rámci programu InspIS ŠVP
-</b>(8 hod, akreditováno pro SŠ, VOŠ, MŠ, ZŠ, ZUŠ, od srpna 2022)
-</LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Úpravy ŠVP v rámci programu InspIS ŠVP - webinář
-</b>(8 hod, akreditováno pro SŠ, VOŠ, MŠ, ZŠ, ZUŠ, od srpna 2022)
-                                                                                                                                                                                                                                                                                                                                                     
-</LiFile>
+         <div className="collapse " id="collapsesin4"><ul className="list-group">
+          <b>Blok 1 (2 vyučovací hodiny – 90 minut)</b><br />
+          <b>Teoretická část</b><br />
+          •	Aktuální legislativní rámec školského zákona, který souvisí s tvorbou, úpravou a efektivním využíváním školních vzdělávacích programů<br />
+          •	Aktuální úpravy ŠVP související se změnami kapitol jednotlivých typů RVP<br />
+          •	Význam a možnosti využití elektronického systému InspIS<br />
+          <br />
+          <b>Blok 2 (2 vyučovací hodiny – 90 minut)</b><br />
+          <b>Práce v systému InspIS ŠVP, 1. část</b><br />
+          •	přihlášení do systému, podání základních informací a založení ŠVP<br />
+          •	tvorba učebního plánu, poznámek, přehledu týdnů<br />
+          <br />
+          <b>Blok 3 (2 vyučovací hodiny – 90 minut)</b><br />
+          <b>Práce v systému InspIS ŠVP, 2. část</b><br />
+          •	forma vzdělávání - vzdělávací obsah, strategie naplňování KK, vazby mezi výstupy RVP, ŠVP, učivem, …..<br />
+          <br />
+          <b>Blok 4 (2 vyučovací hodiny – 90 minut)</b><br />
+          <b>Práce v systému InspIS ŠVP, 3. část</b><br />
+          •	popisné informace k systému InspIS ŠVP – formulář ŠVP – vyplnění, konkrétní informace<br />
+          •	kontrola a schválení ŠVP<br />
+          •	diskuse, dořešení konkrétních dotazů účastníků<br />
+
+        </ul></div>
+      </LiFile>
     </ul>
   </BlockEx>
 </Panel>
@@ -834,16 +888,56 @@ var SSCtenarskaGramotnost: React.StatelessComponent<IKurzProps> = (props: IKurzP
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy:">
     <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Čtenářská gramotnost napříč všemi předměty SŠ a VOŠ  – 8 hod
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsescg1" aria-expanded="false" aria-controls="collapsescg1">Čtenářská gramotnost napříč všemi předměty SŠ a VOŠ  – 8 hod
+      </b>(8 hod, akreditováno pro SŠ, VOŠ)
+        <div className="collapse " id="collapsescg1"><ul className="list-group">
+          <b>Teoretický obsah kurzu:</b><br />
+          1.	Seznámení s principem třífázového učení E-U-R a se základními metodami a formami práce a jejich dělením – (2 hod)<br />
+          <b>Praktická část kurzu:</b><br />
+          2.	Aplikace jednotlivých základních metod ve výuce – interaktivní část semináře – interaktivní zapojení účastníků – (6 hod)<br />
+          •	Brainstorming – princip a různé způsoby využití<br />
+          •	Myšlenková mapa - princip a různé způsoby využití<br />
+          •	Práce s textem - princip a různé způsoby využití<br />
+          •	Škálování - princip a různé způsoby využití<br />
+          •	další aktivizující metody a formy výuky<br />
+          Diskuse nad konkrétními problémy.<br />
+        </ul></div>
+      </LiFile>
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsescg2" aria-expanded="false" aria-controls="collapsescg2">Čtenářská gramotnost napříč všemi předměty SŠ a VOŠ – 16
+      </b>(16 hod, akreditováno pro SŠ, VOŠ)
+         <div className="collapse " id="collapsescg2"><ul className="list-group">
+          <b>Teoretický obsah kurzu: 4 hodiny</b><br />
+          3.	Čtenářská gramotnost – vyvození sedmi základních strategií čtenářské gramotnosti – (1 hod)<br />
+          4.	Seznámení s principem třífázového učení E-U-R a se základními metodami a formami práce a jejich dělením – (2 hod)<br />
+          5.	Metody a formy práce, které rozvíjejí nejvíce klíčových kompetencí (vyvození) – (1 hod)<br />
+          <br />
+          <b>Praktická část kurzu: 12 hodin</b><br />
+          1.	Aplikace jednotlivých základních metod ve výuce – interaktivní část semináře – interaktivní zapojení účastníků – (10 hod)<br />
+          a.	Brainstorming – princip a různé způsoby využití<br />
+          b.	Myšlenková mapa - princip a různé způsoby využití<br />
+          c.	Práce s textem - princip a různé způsoby využití<br />
+          •	vyhledávání a zpracovávání informací<br />
+          •	metoda I.N.S.E.R.T.<br />
+          •	skládankové učení<br />
+          •	párové čtení<br />
+          •	pětilístek<br />
+          •	volné psaní<br />
+          •	 třífázový rozhovoru…<br />
+          d.	Škálování - princip a různé způsoby využití<br />
+          e.	další aktivizující metody a formy výuky<br />
+
+        </ul></div>
+      </LiFile>
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsescg3" aria-expanded="false" aria-controls="collapsescg3">Čtenářství napříč výukou SŠ – 8 hodin
 </b>(8 hod, akreditováno pro SŠ, VOŠ)
-</LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Čtenářská gramotnost napříč všemi předměty SŠ a VOŠ – 16
-</b>(16 hod, akreditováno pro SŠ, VOŠ)
-</LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Čtenářství napříč výukou SŠ – 8 hodin
-</b>(8 hod, akreditováno pro SŠ, VOŠ)
-                                                                                                                                                                                                                                                                                                                                                       
-</LiFile>
+        <div className="collapse " id="collapsescg3"><ul className="list-group">
+          <li className="list-group-item">•	Šifrování (1 hod)</li>
+          <li className="list-group-item">•	analýza textu: metody RWCT (3 hod)</li>
+          <li className="list-group-item">•	rozvoj komunikačních dovedností (kolážování, práce s fotografií a ilustracemi, expertní skupiny) (2 hod)</li>
+          <li className="list-group-item">•	náměty pro tvůrčí psaní (1 hod)</li>
+          <li className="list-group-item">•	drobné metody podporující soustředění se na danou věc (1 hod)</li>
+        </ul></div>
+      </LiFile>
     </ul>
   </BlockEx>
 </Panel>
@@ -853,16 +947,55 @@ var SSMatematickaGramotnost: React.StatelessComponent<IKurzProps> = (props: IKur
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy:">
     <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">GeoGebra - nástroj rozvoje matematické gramotnosti na SŠ
-</b>(8 hod, akreditováno pro SŠ, VOŠ)
-</LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Moderní technologie ve výuce (nejen) matematiky na SŠ a VOŠ
-</b>(16 hod, akreditováno pro SŠ, VOŠ)
-</LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Jak na distanční výuku matematiky?
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesmg1" aria-expanded="false" aria-controls="collapsesmg1">GeoGebra - nástroj rozvoje matematické gramotnosti na SŠ
+      </b>(8 hod, akreditováno pro SŠ, VOŠ)
+        <div className="collapse " id="collapsesmg1"><ul className="list-group">
+          <b>Teoretický obsah kurzu (1,5 hodiny):</b><br />
+          •	Seznámení s problematikou nasazení programu GeoGebra do hodin matematiky (principy použití, pozitiva, negativa a rizika nasazení programu) (0,5 hodin)<br />
+          •	Instalace programu GeoGebra – odlišení jednotlivých instalačních balíčků (0,5 hodin)<br />
+          •	Seznámení s webovou podporou programu a úložištěm již hotových materiálů, které je možno rovnou využít ve výuce (bez vlastní tvorby) (0,5 hodin)<br />
+          <b>Praktická část kurzu (6,5 hodin):</b><br />
+          •	Pracovní prostředí programu GeoGebra (panel nástrojů, algebraické okno, tabulka, nákresny, vstupní panel) (0,5 hodin)<br />
+          •	Změny vlastnosti objektů včetně pokročilého nastavení (0,5 hodin)<br />
+          •	GeoGebra jako nástroj pro tvorbu vlastního didaktického materiálů (např. ukládání vytvořených souborů, export do různých typů souborů včetně exportu do interaktivní webové stránky) (0,5 hodin)<br />
+          •	Aplikace programu do výuky geometrie, algebry a matematické analýzy (1,5 hodiny)<br />
+          •	Využití programu jako nástroje rozvoje matematické gramotnosti, propojování geometrických a algebraických interpretací v matematice prostřednictvím programu (1,5 hodiny)<br />
+          •	Základní ovládání prostředí 3D (1 hodina)<br />
+          •	Diskuse nad konkrétními problémy (1 hodina)<br />
+
+        </ul></div>
+      </LiFile>
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesmg2" aria-expanded="false" aria-controls="collapsesmg2">Moderní technologie ve výuce (nejen) matematiky na SŠ a VOŠ
+      </b>(16 hod, akreditováno pro SŠ, VOŠ)
+        <div className="collapse " id="collapsesmg2"><ul className="list-group"><li className="list-group-item">•	Principy využití moderních technologií; seznámení s problematikou nasazení výukových technologií do výuky (pozitiva, negativa a rizika nasazení) (1 hodina)</li>
+          <li className="list-group-item">•	Seznámení s úložišti již hotových materiálů, které je možno rovnou využít ve výuce (bez vlastní tvorby) a různými webovými stránkami s videi, texty i jinými materiály, které je možné vhodně využít nejen k podpoře rozvoje matematické gramotnosti (0, 5 hodin)</li>
+          <li className="list-group-item">•	Příklady her a prostředí na internetu pro podporu matematické gramotnosti (0, 5 hodin)</li>
+          <li className="list-group-item">•	Seznámení programy a aplikacemi, které oživí každou prezentaci (2 hodiny)</li>
+          <li className="list-group-item">•	Využití pojmových map, sdílených poznámek a dokumentů ve výuce (1 hodina)</li>
+          <li className="list-group-item">•	Využití programů a aplikací pro komunikaci mezi žáky, studenty, učiteli a rodiči (1 hodina)</li>
+          <li className="list-group-item">•	Rozšířená realita jako nástroj motivace i rozvoje nejen matematické gramotnosti (1 hodina)</li>
+          <li className="list-group-item">•	Programy a aplikace pro jednoduché vytváření zábavných kvízů (1 hodina)</li>
+          <li className="list-group-item">•	Použití programu Formulator Tarsia pro tvorbu domin, triomin a jiných her vhodných k oživení procvičovaného učiva (1 hodina)</li>
+          <li className="list-group-item">•	Seznámení s problematikou nasazení programu GeoGebra do hodin matematiky (principy použití, pozitiva, negativa a rizika nasazení programu) (0,5 hodin)</li>
+          <li className="list-group-item">•	Instalace programu GeoGebra  – odlišení jednotlivých instalačních balíčků (0,5 hodin)</li>
+          <li className="list-group-item">•	Seznámení s webovou podporou programu a úložištěm již hotových materiálů, které je možno rovnou využít ve výuce (bez vlastní tvorby) (0,5 hodin)</li>
+          <li className="list-group-item">•	Pracovní prostředí programu GeoGebra (panel nástrojů, algebraické okno, tabulka, nákresny, vstupní panel) (0,5 hodin)</li>
+          <li className="list-group-item">•	Změny vlastnosti objektů včetně pokročilého nastavení (0,5 hodin)</li>
+          <li className="list-group-item">•	Aplikace programu do výuky geometrie, algebry a matematické analýzy (1,5 hodin)</li>
+          <li className="list-group-item">•	Využití programu jako nástroje rozvoje matematické gramotnosti, propojování geometrických a algebraických interpretací v matematice prostřednictvím programu (1 hodina)</li>
+          <li className="list-group-item">•	Základní ovládání prostředí 3D (1 hodina)</li>
+          <li className="list-group-item">•	Diskuse nad konkrétními problémy v nasazení technologií na SŠ (1 hodina)</li>
+        </ul></div>
+      </LiFile>
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesmg3" aria-expanded="false" aria-controls="collapsesmg3">Jak na distanční výuku matematiky?
 </b>(8 hod, akreditováno pro SŠ, VOŠ, ZŠ)
-                                                                                                                                                                                                                                                                                                                                                         
-</LiFile>
+          <div className="collapse " id="collapsesmg3"><ul className="list-group"><li className="list-group-item">•	Software využitelný při on-line výuce (2 hodiny)</li>
+          <li className="list-group-item">•	Využití webových stránek sloužící k výuce on-line (1 hodina)</li>
+          <li className="list-group-item">•	GeoGebra  – tvorba materiálů online, využívání již vytvořených dostupných materiálů, tvorba vlastních materiálů a jejich sdílení (2 hodiny)</li>
+          <li className="list-group-item">•	Jak komunikovat s žáky on-line (1 hodina)</li>
+          <li className="list-group-item">•	Praktická cvičení  – praktické využití jednotlivých nástrojů k distančnímu učení matematiky (2 hodiny)</li>
+        </ul></div>
+      </LiFile>
     </ul>
   </BlockEx>
 </Panel>
@@ -872,778 +1005,864 @@ var SSPodporaUcitelu: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy:">
     <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Mentorské dovednosti–úvod do problematiky principů mentoringu
-</b>(8 hod, akreditováno pro SŠ, MŠ, ZŠ, ZUŠ, ředitelé, zástupci, management)
-</LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Mentorské dovednosti učitele
-</b>(16 hod, akreditováno pro SŠ, MŠ, ZŠ, ZUŠ, ředitelé, zástupci, management)
-</LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Moderní trendy ve vedení lidí – Mentoring
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsespu1" aria-expanded="false" aria-controls="collapsespu1">Mentorské dovednosti–úvod do problematiky principů mentoringu
+      </b>(8 hod, akreditováno pro SŠ, MŠ, ZŠ, ZUŠ, ředitelé, zástupci, management)
+        <div className="collapse " id="collapsespu1"><ul className="list-group">
+          <b>1.	část: vysvětlení principů mentoringu (3 hodiny)</b><br />
+          •	mentoring a definování role mentora<br />
+          •	interní mentoring a externí mentoring<br />
+          •	potřebné předpoklady pro roli mentora - poradce<br />
+          •	mentor jako „kritický přítel“ – co je a co není součásti práce mentora<br />
+          •	oblasti, v nichž mentor spolupracuje se svým svěřencem – institucionální, oblast vlastní výuky a oblast osobnostní podpory<br />
+          •	náměty pro reflexní činnost ve škole<br />
+          <b>2.	část (4 hodiny)</b><br />
+          •	praktický nácvik – modelové situace, hry v rolích, sebereflexe pro roli mentora<br />
+          <b>3.	část: (1 hodina)</b><br />
+          •	obavy – rady a doporučení pro učitele připravující se pro pozici poradce<br />
+          •	diskuse, rady a doporučení, příklady z praxe<br />
+          Na základě získaných informaci a po absolvování praktického bloku semináře, který je zaměřen na sebereflexi účastníka, se budou moci absolventi rozhodnout, zda se pro práci poradce = mentora cítí. Současně získají zpětnou vazbu pro oblasti, ve kterých by se měli, v rámci přípravy pro tuto pozici vzdělávat.<br />
+
+        </ul></div>
+      </LiFile>
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsespu2" aria-expanded="false" aria-controls="collapsespu2">Mentorské dovednosti učitele
+      </b>(16 hod, akreditováno pro SŠ, MŠ, ZŠ, ZUŠ, ředitelé, zástupci, management)
+        <div className="collapse " id="collapsespu2">
+          <b>1.	část -teoretická: (2 hodiny)</b><br />
+          •	mentoring a definování role mentora<br />
+          •	potřebné předpoklady (kompetence) pro roli mentora – poradce<br />
+          •	interní a externí mentoring<br />
+          •	oblasti – institucionální, vlastní výuky a osobnostní podpory – v nichž mentor spolupracuje se svým svěřencem<br />
+          <b>2.	část -teoretická (6 hodin)</b><br />
+          •	náměty pro reflexní činnost ve škole<br />
+          •	seznámení s jednotlivými fázemi mentoringu<br />
+          •	kompetenční rámec<br />
+          •	vytýčení cílů a nastavení strategií k dosažení cílů<br />
+          •	zásady mentorského rozhovoru před pozorováním<br />
+          •	pozorování ve výuce a zápis<br />
+          •	zásady mentorského rozhovoru nad výstupy z pozorování<br />
+          •	porovnávání výsledků a vzájemná zpětná vazba<br />
+          <br />
+          <b>3.	část - praktická: (6 hodin)</b><br />
+          praktický nácvik – modelové situace, hry v rolích, sebereflexe pro roli mentora<br />
+          •	nastavení základních pravidel pro úspěšný začátek rozhovoru<br />
+          •	navázání vztahu na principu mentoringu<br />
+          •	vedení rozhovoru na principu mentorského rozhovoru ke kompetenčnímu rámci<br />
+          •	mentorský rozhovor nad výstupy z pozorování<br />
+          •	zpracování výsledků<br />
+          •	nácvik podávání zpětné vazby<br />
+          <b>4.	část - praktická (2 hodiny)</b><br />
+          •	vyhodnocení procesu mentorské pomoci a stanovení dalších kroků v profesním rozvoji<br />
+          •	obavy – rady a doporučení pro učitele připravující se pro pozici poradce<br />
+          diskuse, rady a doporučení, příklady z praxe<br />
+          Na základě získaných informaci a po absolvování praktických bloků semináře, které jsou zaměřeny na sebereflexi účastníka v roli mentora, se budou moci absolventi rozhodnout, zda se pro práci poradce = mentora hodí. Současně získají zpětnou vazbu pro oblasti, ve kterých by se měli, v rámci přípravy pro tuto pozici dále vzdělávat.<br />
+        </div>
+      </LiFile>
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsespu3" aria-expanded="false" aria-controls="collapsespu3">Moderní trendy ve vedení lidí – Mentoring
 </b>(24 hod, akreditováno pro SŠ, MŠ, ZŠ, ZUŠ, ředitelé, zástupci, management)
-                                                                                                                                                                                                                                                                                                                                                           
+         <div className="collapse " id="collapsespu3">
+          <b>I. SETKÁNÍ (8hod)</b><br/>
+          <br />
+          <b>1. MODUL  - Úvod do mentoringu – (3 hod.)</b><br />
+          Obsahem modulu je vymezení pojmů mentoring, proces, cíl, zásady mentoringu; mentorování v prostředí školy, cíle, principy, přínos; typy mentoringu, stručný popis jednotlivých fází mentoringu<br />
+          <br />
+          <b>2. MODUL  - Osobnost mentora, poradce, experta,… – (5 hod.)</b><br />
+          Obsahem modulu je pozitivní hodnocení sebe i druhých<br />
+          Hodnocení sebe: - úcta k lidské osobnosti – sebepojetí - sebepoznání, sebehodnocení, sebepřijetí, sebeprezentace, sebeovládání, sebeoceňování;<br />
+          Hodnocení druhých – vyjádření uznání, ocenění, pochvala a její účinnost, připisování pozitivních vlastností druhým, přijetí pochvaly a akceptace druhého, konstruktivní kritika, řešení konfliktu<br />
+          <br />
+          Součástí semináře je praktický nácvik – práce jednotlivců i ve skupinách – modelové situace, hry v rolích<br />
+          <br />
+          <b>II. SETKÁNÍ (8hod)</b><br />
+          <br />
+          <b>3. MODUL – Role mentora, poradce, experta,… – ( 5 hod.)</b><br />
+          Obsahem modulu je definování role mentora, jeho poradenské schopnosti projevujející se ve verbálních a neverbálních formách komunikace.<br />
+          Verbální komunikace – tj. principy a zásady verbální komunikace, komunikační chyby; dialog, komunikace ve ztížených podmínkách; aktivní naslouchání – cíle, výhody, zásady, způsob a nácvik, poskytování zpětné vazby, … .<br />
+          Neverbální komunikace - řeč těla - porozumění druhým podle gest rukou, postoje nohou, obličejové mimiky, výrazu očí, …. .<br />
+          Obrana před manipulací - asertivní techniky – manipulace, vysvětlení a nácvik jednotlivých asertivních technik<br />
+          <br />
+          <b>4. MODUL – Fáze poradenského procesu  - I. II.– (3 hod.)</b><br />
+          Obsahem modulu je seznámit s jednotlivými kroky poradenského procesu:<br />
+          Přípravná fáze mentoringu: - zajištění potřebných informací k zahájení mentoringu<br />
+          Zahájení mentoringu: struktura úvodního setkání mentora a mentee; popis jednotlivých kroků úvodního setkání; základní pravidla pro navázání vztahu s mentorovaným a pro úspěšný začátek mentoringu; nastavení cílů podle kritéria SMART, nastavení strategie k dosažení cílů<br />
+          <br />
+          Součástí semináře je praktický nácvik – práce jednotlivců i ve skupinách – modelové situace, hry v rolích<br />
+          <br />
+          <b>III. SETKÁNÍ (8hod)</b><br />
+          <br />
+          <b>5. MODUL – Fáze poradenského procesu  - III. IV.– (4 hod.)</b><br />
+          Obsahem modulu je seznámit s jednotlivými kroky poradenského procesu:<br />
+          Realizace strategie k cíli - Zásady vedení poradenského rozhovoru, pravidla kladení otázek, typy otázek; základní teorie motivace, tipy pro překonání pasivity mentorovaného: negativní naladění, námitky, konflikt a dalších obtíže<br />
+          Ukončení mentoringu - Ověření úspěšnosti dosažení cílů, nastavení akčního plánu pro další rozvoj mentorovaného, motivace mentorovaného k dalšímu rozvoji,<br />
+          Zpětná vazba - umět podat závěrečnou zpětnou vazbu, respektovat etiku ve zpětné vazbě, zásady poradenských dovedností, schopnost reagovat na negativní zpětnou vazbu;<br />
+          Organizace mentorské schůzky společný rozbor situace<br />
+          <br />
+          <b>6. MODUL – Praktický nácvik– (4 hod.)</b><br />
+          Obsahem modulu je praktický nácvik – práce jednotlivců i ve skupinách – modelové situace - navázání pracovního vztahu, plánování společné schůzky, analýza vzdělávacích potřeb, plánování cílů a ověřování pokroku, evaluace, rozbor, porovnávání výsledků a vzájemná zpětná vazba<br />
+            
+</div>                                                                                                                                                                                                                                                                                                                                                                                                                               
 </LiFile>
     </ul>
   </BlockEx>
 </Panel>
 
-var SSMedGramotnost: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
-</div>} eventKey={1}>
-  <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsessm1" aria-expanded="false" aria-controls="collapsessm1">Funkce a nástrahy internetu, kyberšikana a sociální sítě</b> (8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ZUŠ, asistenti)
+    var SSMedGramotnost: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+      <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
+    </div>} eventKey={1}>
+      <BlockEx header="Nabízíme následující kurzy:">
+        <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+          <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsessm1" aria-expanded="false" aria-controls="collapsessm1">Funkce a nástrahy internetu, kyberšikana a sociální sítě</b> (8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ZUŠ, asistenti)
         <div className="collapse.show" id="collapsessm1">
-          <ul className="list-group">
-            <li className="list-group-item">•	<b>Vznik a funkce internetu</b> – vznik internetu, fungování internetu, vyhledávání na internetu, rozdíl mezi internetovým vyhledavačem a prohlížečem, nástrahy internetu a bezpečné chování na internetu (2,5 hod)</li>
-            <li className="list-group-item">•	<b>Kyberšikana</b> – identifikace problémů, řešení problémů, rozdíl mezi klasickou šikanou a kyberšikanou (2 hod)</li>
-            <li className="list-group-item">•	<b>Sociální sítě a práce s nimi</b> – obecné informace o sociálních sítích, funkce sociálních sítí, bezpečné chování na sociální síti, klady a zápory využití sociálních sítí, vybrané sociální sítě a informace k nim (2 hod)</li>
-            <li className="list-group-item">•	<b>Autorství a kopírování obrázků a informací</b> (0,5 hod)</li>
-            <li className="list-group-item">•	<b>E-mail</b> – práce v prostředí MS Outlook a v některých e-mailových schránkách (1 hod)</li>
-          </ul>
-        </div>
+              <ul className="list-group">
+                <li className="list-group-item">•	<b>Vznik a funkce internetu</b> – vznik internetu, fungování internetu, vyhledávání na internetu, rozdíl mezi internetovým vyhledavačem a prohlížečem, nástrahy internetu a bezpečné chování na internetu (2,5 hod)</li>
+                <li className="list-group-item">•	<b>Kyberšikana</b> – identifikace problémů, řešení problémů, rozdíl mezi klasickou šikanou a kyberšikanou (2 hod)</li>
+                <li className="list-group-item">•	<b>Sociální sítě a práce s nimi</b> – obecné informace o sociálních sítích, funkce sociálních sítí, bezpečné chování na sociální síti, klady a zápory využití sociálních sítí, vybrané sociální sítě a informace k nim (2 hod)</li>
+                <li className="list-group-item">•	<b>Autorství a kopírování obrázků a informací</b> (0,5 hod)</li>
+                <li className="list-group-item">•	<b>E-mail</b> – práce v prostředí MS Outlook a v některých e-mailových schránkách (1 hod)</li>
+              </ul>
+            </div>
 
-      </LiFile>
-    </ul>
-  </BlockEx>
-</Panel>
+          </LiFile>
+        </ul>
+      </BlockEx>
+    </Panel>
 
-var SSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
-</div>} eventKey={2}>
-  <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>
-    <ul className='fa-ul'>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Efektivní využití MS Office pro pedagogy – 8 hodin</b>        (8 hod, akreditováno pro SŠ, VOŠ, ZŠ)
+      var SSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+        <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
+      </div>} eventKey={2}>
+        <BlockEx header="Nabízíme následující kurzy:">
+          <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>
+          <ul className='fa-ul'>
+            <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Efektivní využití MS Office pro pedagogy – 8 hodin</b>        (8 hod, akreditováno pro SŠ, VOŠ, ZŠ)
         <div className="collapse " id="collapsesnt1">
-          <ul className="list-group">
-            <li className="list-group-item">•	<b>Seznámení s programem – demonstrace úpravy prostředí Windows</b> - přizpůsobení pracovní plochy, nastavení hlavního panelu, možnosti zobrazení ikon a představení prostřední MS Office z pohledu zefektivnění práce s jednotlivými programy, využití panelu rychlých nástrojů, přizpůsobení pásu karet, nastavení stavového řádku, karta zobrazení (0, 5 hod)</li>
-            <li className="list-group-item">•	<b>MS Office Word</b> – formátování písma, odstavců, textu, vícestránkové dokumenty, vkládání a úprava textů z internetu, záhlaví, zápatí, styly, vkládání a úprava obrázků do textu, práce s obrazci, symboly, rozšíření znalostí klávesových zkratek (2,5 hod)</li>
-            <li className="list-group-item">•	<b>MS Office Excel</b> – seznámení s prostředím Microsoft Excel, formátování buněk, tabulek, vytváření vlastních řad, vzorce a funkce v Excelu se zaměřením na praktické využití při používání Excelu při evidenci dat i při výuce (2,5 hod)</li>
-            <li className="list-group-item">•	<b>MS Office PowerPoint</b> – pravidla prezentace, práce se snímky, textovými poli, vkládání obrázků, objektů, využití šablon, motivů, možnosti efektů, příprava pro tisk (2,5 hod)</li>
-          </ul>
-        </div>
+                <ul className="list-group">
+                  <li className="list-group-item">•	<b>Seznámení s programem – demonstrace úpravy prostředí Windows</b> - přizpůsobení pracovní plochy, nastavení hlavního panelu, možnosti zobrazení ikon a představení prostřední MS Office z pohledu zefektivnění práce s jednotlivými programy, využití panelu rychlých nástrojů, přizpůsobení pásu karet, nastavení stavového řádku, karta zobrazení (0, 5 hod)</li>
+                  <li className="list-group-item">•	<b>MS Office Word</b> – formátování písma, odstavců, textu, vícestránkové dokumenty, vkládání a úprava textů z internetu, záhlaví, zápatí, styly, vkládání a úprava obrázků do textu, práce s obrazci, symboly, rozšíření znalostí klávesových zkratek (2,5 hod)</li>
+                  <li className="list-group-item">•	<b>MS Office Excel</b> – seznámení s prostředím Microsoft Excel, formátování buněk, tabulek, vytváření vlastních řad, vzorce a funkce v Excelu se zaměřením na praktické využití při používání Excelu při evidenci dat i při výuce (2,5 hod)</li>
+                  <li className="list-group-item">•	<b>MS Office PowerPoint</b> – pravidla prezentace, práce se snímky, textovými poli, vkládání obrázků, objektů, využití šablon, motivů, možnosti efektů, příprava pro tisk (2,5 hod)</li>
+                </ul>
+              </div>
 
 
-      </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt2" aria-expanded="false" aria-controls="collapsesnt2">Různé metody pro využití ICT technologií ve škole
+            </LiFile>
+            <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt2" aria-expanded="false" aria-controls="collapsesnt2">Různé metody pro využití ICT technologií ve škole
       </b>        (8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ZUŠ, asistenti)
         <div className="collapse " id="collapsesnt2">
-          <ul className="list-group">
-            <li className="list-group-item">•	<b>Vliv ICT na žáka</b> v každodenním životě (1 hod)</li>
-            <li className="list-group-item">•	<b>Počítačová gramotnost</b> – Čeho se týká, jaká by měla být role učitele/vychovatele, co je funkční a informační gramotnost, jaká je pozice žáka… (1 hod)</li>
-            <li className="list-group-item">•	<b>Moderní technologie a jejich implementace do edukačního procesu</b> – učitel, vychovatel, žák, škola, PC a dataprojektor, interaktivní tabule, laptopové třídy, LMS a e-learning, mezinárodní kooperace, e- Twinning (2,5 hod)</li>
-            <li className="list-group-item">•	<b>Ukázka možností využití některých programů a internetových stránek k podpoře výuky</b> (týmová výuka – Toglic, různé webové portály, se kterými může pedagog výuku oživit).</li>
-            <li className="list-group-item">•	<b>Ukázka práce s dotykovým zařízením.</b> Práce s on – line aplikacemi, využití vhodných aplikací na dotykových zařízeních (3,5 hod)</li>
-          </ul>
-        </div>
+                <ul className="list-group">
+                  <li className="list-group-item">•	<b>Vliv ICT na žáka</b> v každodenním životě (1 hod)</li>
+                  <li className="list-group-item">•	<b>Počítačová gramotnost</b> – Čeho se týká, jaká by měla být role učitele/vychovatele, co je funkční a informační gramotnost, jaká je pozice žáka… (1 hod)</li>
+                  <li className="list-group-item">•	<b>Moderní technologie a jejich implementace do edukačního procesu</b> – učitel, vychovatel, žák, škola, PC a dataprojektor, interaktivní tabule, laptopové třídy, LMS a e-learning, mezinárodní kooperace, e- Twinning (2,5 hod)</li>
+                  <li className="list-group-item">•	<b>Ukázka možností využití některých programů a internetových stránek k podpoře výuky</b> (týmová výuka – Toglic, různé webové portály, se kterými může pedagog výuku oživit).</li>
+                  <li className="list-group-item">•	<b>Ukázka práce s dotykovým zařízením.</b> Práce s on – line aplikacemi, využití vhodných aplikací na dotykových zařízeních (3,5 hod)</li>
+                </ul>
+              </div>
 
-      </LiFile>
-      <LiFile>
-        <b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt3" aria-expanded="false" aria-controls="collapsesnt3">Inspirace pro využití interaktivních tabulí ve škole</b> (8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ZUŠ, asistenti)
+            </LiFile>
+            <LiFile>
+              <b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt3" aria-expanded="false" aria-controls="collapsesnt3">Inspirace pro využití interaktivních tabulí ve škole</b> (8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ZUŠ, asistenti)
          <div className="collapse " id="collapsesnt3">
-          <ul className="list-group">
-            <li className="list-group-item">•	<b>Interaktivní tabule a její využití</b>  - využití interaktivních učebnic, on-line cvičení, webové portály vhodné k práci na interaktivní tabuli (1 hod)</li>
-            <li className="list-group-item">•	<b>Program Active Inspire</b> a jeho využití (1,5 hod)</li>
-            <li className="list-group-item">•	<b>MS PowerPoint</b> - pravidla prezentace, práce se snímky, textovými poli, vkládání obrázků, objektů, využití šablon, motivů, možnosti efektů, příprava pro tisk, dodržování autorství – obrázky s volnou licencí (2 hod)</li>
-            <li className="list-group-item">•	<b>Základy dodržování správného prezentování</b> (1 hod)</li>
-            <li className="list-group-item">•	<b>Praktická cvičení</b> – tvorba prezentací účastníků s jednotlivými prvky prezentace a samotné prezentování připravených materiálů; následná diskuse a rozbor prezentací (2,5 hod)</li>
-          </ul>
-        </div>
+                <ul className="list-group">
+                  <li className="list-group-item">•	<b>Interaktivní tabule a její využití</b>  - využití interaktivních učebnic, on-line cvičení, webové portály vhodné k práci na interaktivní tabuli (1 hod)</li>
+                  <li className="list-group-item">•	<b>Program Active Inspire</b> a jeho využití (1,5 hod)</li>
+                  <li className="list-group-item">•	<b>MS PowerPoint</b> - pravidla prezentace, práce se snímky, textovými poli, vkládání obrázků, objektů, využití šablon, motivů, možnosti efektů, příprava pro tisk, dodržování autorství – obrázky s volnou licencí (2 hod)</li>
+                  <li className="list-group-item">•	<b>Základy dodržování správného prezentování</b> (1 hod)</li>
+                  <li className="list-group-item">•	<b>Praktická cvičení</b> – tvorba prezentací účastníků s jednotlivými prvky prezentace a samotné prezentování připravených materiálů; následná diskuse a rozbor prezentací (2,5 hod)</li>
+                </ul>
+              </div>
 
-      </LiFile>
-      <LiFile>
-        <b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt4" aria-expanded="false" aria-controls="collapsesnt4">Práce s dotykovými zařízeními ve škole </b>(8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ZUŠ, asistenti)
+            </LiFile>
+            <LiFile>
+              <b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt4" aria-expanded="false" aria-controls="collapsesnt4">Práce s dotykovými zařízeními ve škole </b>(8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ZUŠ, asistenti)
          <div className="collapse " id="collapsesnt4">
-          <ul className="list-group">
-            <li className="list-group-item">•	<b>Seznámení s dotykovými zařízeními</b> – obecné prvky práce s dotykovými zařízeními, rozdělení dotykových zařízení, různé platformy dotykových zařízení (android, Windows, iOS…) (2 hod)</li>
-            <li className="list-group-item">•	<b>Vhodné aplikace do škol - představení vhodných aplikací k práci na školách; online prostředí</b> – vyhledávání informací, práce s online aplikacemi (2 hod)</li>
-            <li className="list-group-item">•	<b>Praktické využití dotykových zařízení</b> – týmová práce v aplikaci Toglic ; program OneNote (2 hod)</li>
-            <li className="list-group-item">•	<b>Ukázka práce s dotykovými zařízeními</b> - uchazeč se v posledním bloku aktivně zapojí do práce s dotykovým zařízením. Využije získané teoretické poznatky k sestavení ukázkové hodiny, ve které využije dotyková zařízení (2 hod)</li>
-          </ul></div>
+                <ul className="list-group">
+                  <li className="list-group-item">•	<b>Seznámení s dotykovými zařízeními</b> – obecné prvky práce s dotykovými zařízeními, rozdělení dotykových zařízení, různé platformy dotykových zařízení (android, Windows, iOS…) (2 hod)</li>
+                  <li className="list-group-item">•	<b>Vhodné aplikace do škol - představení vhodných aplikací k práci na školách; online prostředí</b> – vyhledávání informací, práce s online aplikacemi (2 hod)</li>
+                  <li className="list-group-item">•	<b>Praktické využití dotykových zařízení</b> – týmová práce v aplikaci Toglic ; program OneNote (2 hod)</li>
+                  <li className="list-group-item">•	<b>Ukázka práce s dotykovými zařízeními</b> - uchazeč se v posledním bloku aktivně zapojí do práce s dotykovým zařízením. Využije získané teoretické poznatky k sestavení ukázkové hodiny, ve které využije dotyková zařízení (2 hod)</li>
+                </ul></div>
 
-      </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt5" aria-expanded="false" aria-controls="collapsesnt5">Využití ICT ve škole
+            </LiFile>
+            <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt5" aria-expanded="false" aria-controls="collapsesnt5">Využití ICT ve škole
       </b>(8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ZUŠ, asistenti)
          <div className="collapse " id="collapsesnt5"><ul className="list-group"><li className="list-group-item">•	Seznámení s problematikou nasazení výukových technologií školního prostředí (pozitiva, negativa a rizika nasazení se kterými je třeba počítat) (1 hodina)</li>
-          <li className="list-group-item">•	Rozbor dosavadně používaných programů a aplikací účastníků (1 hodina)</li>
-          <li className="list-group-item">•	Vybrané nástroje Microsoft Office, které usnadňují práci pedagoga (např. hromadná korespondence, fonty psacích písem) (2 hodiny)</li>
-          <li className="list-group-item">•	Google Apps EDU - speciální balík aplikací Google pro školy a jak jej efektivně využít (2 hodiny)</li>
-          <li className="list-group-item">•	Vybrané předinstalované aplikace operačního systému Windows vhodné pro práci pedagoga (např. Výstřižky, Panel pro matematický zápis) (1 hodina)</li>
-          <li className="list-group-item">•	Typy pro vyhledávání materiálů na internetu (1 hodina)</li>
-        </ul></div>
+                <li className="list-group-item">•	Rozbor dosavadně používaných programů a aplikací účastníků (1 hodina)</li>
+                <li className="list-group-item">•	Vybrané nástroje Microsoft Office, které usnadňují práci pedagoga (např. hromadná korespondence, fonty psacích písem) (2 hodiny)</li>
+                <li className="list-group-item">•	Google Apps EDU - speciální balík aplikací Google pro školy a jak jej efektivně využít (2 hodiny)</li>
+                <li className="list-group-item">•	Vybrané předinstalované aplikace operačního systému Windows vhodné pro práci pedagoga (např. Výstřižky, Panel pro matematický zápis) (1 hodina)</li>
+                <li className="list-group-item">•	Typy pro vyhledávání materiálů na internetu (1 hodina)</li>
+              </ul></div>
 
-      </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt6" aria-expanded="false" aria-controls="collapsesnt6">Efektivní využití LibreOffice ve škole
+            </LiFile>
+            <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt6" aria-expanded="false" aria-controls="collapsesnt6">Efektivní využití LibreOffice ve škole
       </b>(8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ZUŠ, asistenti)
         <div className="collapse " id="collapsesnt6"><ul className="list-group"><li className="list-group-item">•	<b>Dokumenty </b> – formátování písma, odstavců, textu, vícestránkové dokumenty, vkládání a úprava textů z internetu, záhlaví, zápatí, styly, vkládání obrázků a nákresů do textu, práce s tabulkou, speciálními znaky, hlasové zadávání, rozšíření znalostí klávesových zkratek (3 hodiny)</li>
-          <li className="list-group-item">•	<b>Tabulky </b> – seznámení s prostředím tabulek, formátování buněk, tabulek, vytváření vlastních řad, vzorce a funkce se zaměřením na praktické využití při evidenci dat i při výuce (2 hodiny)</li>
-          <li className="list-group-item">•	<b>Prezentace </b> – pravidla prezentace, práce se snímky, vkládání různých typů objektů (obrázky, diagramy aj.), využití motivů, příprava pro tisk (2 hodiny)</li>
-          <li className="list-group-item">•	<b>Formuláře </b> – vytváření online formulářů a kvízů (1 hodina)</li>
-        </ul></div>
+                <li className="list-group-item">•	<b>Tabulky </b> – seznámení s prostředím tabulek, formátování buněk, tabulek, vytváření vlastních řad, vzorce a funkce se zaměřením na praktické využití při evidenci dat i při výuce (2 hodiny)</li>
+                <li className="list-group-item">•	<b>Prezentace </b> – pravidla prezentace, práce se snímky, vkládání různých typů objektů (obrázky, diagramy aj.), využití motivů, příprava pro tisk (2 hodiny)</li>
+                <li className="list-group-item">•	<b>Formuláře </b> – vytváření online formulářů a kvízů (1 hodina)</li>
+              </ul></div>
 
-      </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt7" aria-expanded="false" aria-controls="collapsesnt7">Efektivní využití Google dokumentů ve škole
+            </LiFile>
+            <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt7" aria-expanded="false" aria-controls="collapsesnt7">Efektivní využití Google dokumentů ve škole
       </b>(8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ZUŠ, asistenti)
            <div className="collapse " id="collapsesnt7"><ul className="list-group"><li className="list-group-item">•	<b>Dokumenty </b> – formátování písma, odstavců, textu, vícestránkové dokumenty, vkládání a úprava textů z internetu, záhlaví, zápatí, styly, vkládání obrázků a nákresů do textu, práce s tabulkou, speciálními znaky, hlasové zadávání, rozšíření znalostí klávesových zkratek (3 hodiny)</li>
-          <li className="list-group-item">•	<b>Tabulky </b> – seznámení s prostředím tabulek, formátování buněk, tabulek, vytváření vlastních řad, vzorce a funkce se zaměřením na praktické využití při evidenci dat i při výuce (2 hodiny)</li>
-          <li className="list-group-item">•	<b>Prezentace </b> – pravidla prezentace, práce se snímky, vkládání různých typů objektů (obrázky, diagramy aj.), využití motivů, příprava pro tisk (2 hodiny)</li>
-          <li className="list-group-item">•	<b>Formuláře </b> – vytváření online formulářů a kvízů (1 hodina)</li>
-        </ul></div>
+                <li className="list-group-item">•	<b>Tabulky </b> – seznámení s prostředím tabulek, formátování buněk, tabulek, vytváření vlastních řad, vzorce a funkce se zaměřením na praktické využití při evidenci dat i při výuce (2 hodiny)</li>
+                <li className="list-group-item">•	<b>Prezentace </b> – pravidla prezentace, práce se snímky, vkládání různých typů objektů (obrázky, diagramy aj.), využití motivů, příprava pro tisk (2 hodiny)</li>
+                <li className="list-group-item">•	<b>Formuláře </b> – vytváření online formulářů a kvízů (1 hodina)</li>
+              </ul></div>
 
-      </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt8" aria-expanded="false" aria-controls="collapsesnt8">Distanční výuka – formy a metody práce s žáky on-line
+            </LiFile>
+            <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt8" aria-expanded="false" aria-controls="collapsesnt8">Distanční výuka – formy a metody práce s žáky on-line
       </b>(8 hod, akreditováno pro SŠ, VOŠ, ZŠ, ZUŠ)
          <div className="collapse " id="collapsesnt8"><ul className="list-group">
-          <li className="list-group-item">•	<b>Programy využitelné při on-line výuce </b> - Skype, Jitsi Meet, Zoom, MS Teams a další (2 hod)</li>
-          <li className="list-group-item">•	<b>Využití webových stránek sloužící k výuce on-line</b> (1 hod)</li>
-          <li className="list-group-item">•	<b>MS PowerPoint </b> - pravidla prezentace, práce se snímky, textovými poli, vkládání obrázků, objektů, využití šablon, motivů, možnosti efektů, příprava pro tisk, dodržování autorství – obrázky s volnou licencí (2 hod)</li>
-          <li className="list-group-item">•	<b>Jak komunikovat s žáky on-line</b> (1 hod)</li>
-          <li className="list-group-item">•	<b>Praktická cvičení </b> – tvorba prezentací účastníků s jednotlivými prvky prezentace a praktické využití jednotlivých nástrojů k distančnímu učení (2 hod)</li>
-        </ul></div>
+                <li className="list-group-item">•	<b>Programy využitelné při on-line výuce </b> - Skype, Jitsi Meet, Zoom, MS Teams a další (2 hod)</li>
+                <li className="list-group-item">•	<b>Využití webových stránek sloužící k výuce on-line</b> (1 hod)</li>
+                <li className="list-group-item">•	<b>MS PowerPoint </b> - pravidla prezentace, práce se snímky, textovými poli, vkládání obrázků, objektů, využití šablon, motivů, možnosti efektů, příprava pro tisk, dodržování autorství – obrázky s volnou licencí (2 hod)</li>
+                <li className="list-group-item">•	<b>Jak komunikovat s žáky on-line</b> (1 hod)</li>
+                <li className="list-group-item">•	<b>Praktická cvičení </b> – tvorba prezentací účastníků s jednotlivými prvky prezentace a praktické využití jednotlivých nástrojů k distančnímu učení (2 hod)</li>
+              </ul></div>
 
-      </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt9" aria-expanded="false" aria-controls="collapsesnt9">Jak na distanční výuku?
+            </LiFile>
+            <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt9" aria-expanded="false" aria-controls="collapsesnt9">Jak na distanční výuku?
       </b>(8 hod, akreditováno pro SŠ, VOŠ, ZŠ, ZUŠ)
         <div className="collapse " id="collapsesnt9"><ul className="list-group"><li className="list-group-item">•	Software využitelný při on-line výuce (2 hodiny)</li>
-          <li className="list-group-item">•	Využití webových stránek sloužící k výuce on-line (1 hodina)</li>
-          <li className="list-group-item">•	Prezi - pravidla prezentace, práce se snímky, textovými poli, vkládání obrázků, objektů, využití šablon, motivů, možnosti efektů, sdílení (2 hodiny)</li>
-          <li className="list-group-item">•	Jak komunikovat s žáky on-line (1 hodina)</li>
-          <li className="list-group-item">•	Praktická cvičení  – tvorba prezentací účastníků s jednotlivými prvky prezentace, praktické využití jednotlivých nástrojů k distančnímu učení (2 hodiny)</li>
-        </ul></div>
+                <li className="list-group-item">•	Využití webových stránek sloužící k výuce on-line (1 hodina)</li>
+                <li className="list-group-item">•	Prezi - pravidla prezentace, práce se snímky, textovými poli, vkládání obrázků, objektů, využití šablon, motivů, možnosti efektů, sdílení (2 hodiny)</li>
+                <li className="list-group-item">•	Jak komunikovat s žáky on-line (1 hodina)</li>
+                <li className="list-group-item">•	Praktická cvičení  – tvorba prezentací účastníků s jednotlivými prvky prezentace, praktické využití jednotlivých nástrojů k distančnímu učení (2 hodiny)</li>
+              </ul></div>
 
-      </LiFile>
-    </ul>
-  </BlockEx>
-</Panel >;
-
+            </LiFile>
+          </ul>
+        </BlockEx>
+      </Panel >;
+        
 var SSRozvojPodnikavosti: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
-</div>} eventKey={2}>
-  <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
-      <LiFile>
-        <b type="button" data-bs-toggle="collapse" data-bs-target="#collapsessrp1" aria-expanded="false" aria-controls="collapsessrp1">Rozvoj podnikavosti a zásady soukromého podnikání
+          <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
+        </div>} eventKey={2}>
+          <BlockEx header="Nabízíme následující kurzy:">
+            <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+              <LiFile>
+                <b type="button" data-bs-toggle="collapse" data-bs-target="#collapsessrp1" aria-expanded="false" aria-controls="collapsessrp1">Rozvoj podnikavosti a zásady soukromého podnikání
 </b>        8 hodin (8 hod, akreditováno pro SŠ, VOŠ)
         <div className="collapse " id="collapsessrp1"><ul className="list-group"><li className="list-group-item">•	<b>Seznámení se se smyslem a obsahem podnikavosti a soukromého podnikání.</b> Osobnostní předpoklady, schopnosti a dovednosti. Etika. Pozitiva i rizika podnikání. (1 hodina)</li>
-          <li className="list-group-item">•	<b>Cesta od vize k dosažení cíle (prakticá cvičení)</b>: motivace k podnikavosti, stanovení reálných cílů, plánování, podnikatelský záměr, navržení produktu, kreativita, kritické myšlení, SMART technika, změny jako součást podnikání, analýza situace, organizace, hodnocení situace, udržení podnikání, konkurenční prostředí, zpětná vazba (3 hodiny)</li>
-          <li className="list-group-item">•	<b>Finanční gramotnost</b>: základní terminologie, účetnictví, cash flow, finanční produkty, marketingové nástrahy (1 hodina)</li>
-          <li className="list-group-item">•	<b>Práce s časem</b>: sebeřízení, třídění informací dle matice důležité/naléhavé, plánování z pohledu časových možností  (1 hodina)</li>
-          <li className="list-group-item">•	<b>Manažerské dovednosti</b>: navazování kontaktů a spolupráce, komunikační dovednosti, organizace práce a vedení týmu, leadership, prezentace firmy, projektu  (1 hodina)</li>
-          <li className="list-group-item">•	Fiktivní firmy a projektové vyučování, tvorba projektů  (1 hodina)</li>
-        </ul></div>
-      </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsessrp2" aria-expanded="false" aria-controls="collapsessrp2">Výchova k podnikavosti a manažerské dovednosti – 8 hod
+                  <li className="list-group-item">•	<b>Cesta od vize k dosažení cíle (prakticá cvičení)</b>: motivace k podnikavosti, stanovení reálných cílů, plánování, podnikatelský záměr, navržení produktu, kreativita, kritické myšlení, SMART technika, změny jako součást podnikání, analýza situace, organizace, hodnocení situace, udržení podnikání, konkurenční prostředí, zpětná vazba (3 hodiny)</li>
+                  <li className="list-group-item">•	<b>Finanční gramotnost</b>: základní terminologie, účetnictví, cash flow, finanční produkty, marketingové nástrahy (1 hodina)</li>
+                  <li className="list-group-item">•	<b>Práce s časem</b>: sebeřízení, třídění informací dle matice důležité/naléhavé, plánování z pohledu časových možností  (1 hodina)</li>
+                  <li className="list-group-item">•	<b>Manažerské dovednosti</b>: navazování kontaktů a spolupráce, komunikační dovednosti, organizace práce a vedení týmu, leadership, prezentace firmy, projektu  (1 hodina)</li>
+                  <li className="list-group-item">•	Fiktivní firmy a projektové vyučování, tvorba projektů  (1 hodina)</li>
+                </ul></div>
+              </LiFile>
+              <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsessrp2" aria-expanded="false" aria-controls="collapsessrp2">Výchova k podnikavosti a manažerské dovednosti – 8 hod
 </b>(8 hod, akreditováno pro SŠ, VOŠ)
         <div className="collapse " id="collapsessrp2"><ul className="list-group"><li className="list-group-item">•	<b>Úvod do tématu podnikavosti a výchově v podnikání.</b> Etika v podnikání. Fiktivní firma jako projekt. (provázáno celým seminářem) (2 hodiny)</li>
-          <li className="list-group-item">•	<b>Stanovení si cíle, oblast podnikání</b>: dobrá vize jako základ, stanovení si reálných cílů a plánování, podnikatelský záměr, SMART technika, změny jako součást podnikání, konkurenční prostředí a udržení podnikání (3 hodiny)</li>
-          <li className="list-group-item">•	<b>Manažerské dovednosti</b>: osobnost manažera, navazování kontaktů a spolupráce, komunikační dovednosti, organizace práce a vedení týmu, leadership, týmové role nejen zaměstnanců prezentace firmy, projektu (3 hodiny)</li>
-        </ul></div>
-      </LiFile>
-    </ul>
-  </BlockEx>
-</Panel>;
-
+                  <li className="list-group-item">•	<b>Stanovení si cíle, oblast podnikání</b>: dobrá vize jako základ, stanovení si reálných cílů a plánování, podnikatelský záměr, SMART technika, změny jako součást podnikání, konkurenční prostředí a udržení podnikání (3 hodiny)</li>
+                  <li className="list-group-item">•	<b>Manažerské dovednosti</b>: osobnost manažera, navazování kontaktů a spolupráce, komunikační dovednosti, organizace práce a vedení týmu, leadership, týmové role nejen zaměstnanců prezentace firmy, projektu (3 hodiny)</li>
+                </ul></div>
+              </LiFile>
+            </ul>
+          </BlockEx>
+        </Panel>;
+          
 var SSKarierovePoradenstvi: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
-</div>} eventKey={2}>
-  <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesskp1" aria-expanded="false" aria-controls="collapsesskp1">Role pedagoga v karierovém poradenství – 8 hodin
+            <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
+          </div>} eventKey={2}>
+            <BlockEx header="Nabízíme následující kurzy:">
+              <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+                <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesskp1" aria-expanded="false" aria-controls="collapsesskp1">Role pedagoga v karierovém poradenství – 8 hodin
 </b>(8 hod, akreditováno pro SŠ, VOŠ, ZŠ)
                 <div className="collapse " id="collapsesskp1">
-          <b>Teoretická část</b>   (2 vyučovací hodiny)<br />
-          a)	Základní principy a postupy karierního poradenství<br />
-          b)	Přehled moderních technik vedení rozhovorů  <br />
-          <br />
-          <b>Praktická část</b> (6 vyučovacích hodin)<br />
-          Komunikační dovednosti pedagoga potřebné k vedení koučovacího rozhovoru s možností následné aplikace ve výuce či poradenském rozhovoru.<br />
-          Jedná se o aktivity zaměřené na:<br />
-          •	sebepoznávací techniky pro ujasnění silných stránek a prostoru pro rozvoj žáka/studenta;<br />
-          •	rozvoj individuálních komunikačních dovedností pedagoga s důrazem na využití vnitřní motivace v praxi;<br />
-          •	vedení motivačních rozhovorů, aktivního naslouchání, poskytování a přijímání pozitivní zpětné vazby i konstruktivní kritiky;<br />
-        </div>
-      </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesskp2" aria-expanded="false" aria-controls="collapsesskp2">Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje na SŠ
+                    <b>Teoretická část</b>   (2 vyučovací hodiny)<br />
+                    a)	Základní principy a postupy karierního poradenství<br />
+                    b)	Přehled moderních technik vedení rozhovorů  <br />
+                    <br />
+                    <b>Praktická část</b> (6 vyučovacích hodin)<br />
+                    Komunikační dovednosti pedagoga potřebné k vedení koučovacího rozhovoru s možností následné aplikace ve výuce či poradenském rozhovoru.<br />
+                    Jedná se o aktivity zaměřené na:<br />
+                    •	sebepoznávací techniky pro ujasnění silných stránek a prostoru pro rozvoj žáka/studenta;<br />
+                    •	rozvoj individuálních komunikačních dovedností pedagoga s důrazem na využití vnitřní motivace v praxi;<br />
+                    •	vedení motivačních rozhovorů, aktivního naslouchání, poskytování a přijímání pozitivní zpětné vazby i konstruktivní kritiky;<br />
+                  </div>
+                </LiFile>
+                <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesskp2" aria-expanded="false" aria-controls="collapsesskp2">Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje na SŠ
       </b>(8 hod, akreditováno pro SŠ, VOŠ)
                         <div className="collapse " id="collapsesskp2">
-          <b>LEGISLATIVNÍ RÁMEC</b><br />
-          •	Nová legislativa - Školský zákon a Vyhláška 27/2016 k rozvoji nadaných a mimořádně nadaných žáků. Vymezení základních pojmů nadání. RVP pro gymnázia a daný typ střední školy v kontextu s rozvoje nadání. (1 hodina)<br />
-          <b>ZÁKLADNÍ POJMY</b><br />
-          •	Základní pojmy z hlediska psychologické diagnostiky. Typologie nadání z hlediska psychologie. Typologie nadaných z hlediska projevů chování (1 hodina)<br />
-          •	Možnosti a význam pedagogické diagnostiky, ukázka diagnostických metod. (1 hodina)<br />
-          <b>PRINCIPY PRÁCE S NADANÝM A MIMOŘÁDNĚ NADANÝM ŽÁKEM</b><br />
-          •	Charakteristické znaky osobitosti nadaných a mimořádně nadaných žáků. Odlišnosti ve vnímání a zpracování podnětů, v myšlení a prožívání.  Seznámení s různými přístupy k rozvoji nadání (1 hodina)<br />
-          •	Základní principy v práci s nadanými a mimořádně nadanými žáky, případně s žáky s dvojí výjimečností. Možnosti jejich dalšího rozvoje rozumových schopností jako i jejich sociálně emočních kompetencí v rámci daného stupně vzdělávání. (1 hodina)<br />
-          •	IVP, úpravy vzdělávacích obsahů a výstupů. Možnosti hodnocení žáků nadaných a mimořádně nadaných. Seznámení s terminologií, její aplikace v praxi. Sumativní, formativní hodnocení, autonomní, heteronomní hodnocení (2 hodiny)<br />
-          <b>Téma –  UKÁZKA INPIRATIVNÍCH ÚLOH</b><br />
-          •	Možnosti obohacení učiva, inspirativní úlohy vhodné pro rozvoj rozumového nadání. (1 hodina)<br />
-        </div>
-      </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesskp3" aria-expanded="false" aria-controls="collapsesskp3">Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje-webinář
+                    <b>LEGISLATIVNÍ RÁMEC</b><br />
+                    •	Nová legislativa - Školský zákon a Vyhláška 27/2016 k rozvoji nadaných a mimořádně nadaných žáků. Vymezení základních pojmů nadání. RVP pro gymnázia a daný typ střední školy v kontextu s rozvoje nadání. (1 hodina)<br />
+                    <b>ZÁKLADNÍ POJMY</b><br />
+                    •	Základní pojmy z hlediska psychologické diagnostiky. Typologie nadání z hlediska psychologie. Typologie nadaných z hlediska projevů chování (1 hodina)<br />
+                    •	Možnosti a význam pedagogické diagnostiky, ukázka diagnostických metod. (1 hodina)<br />
+                    <b>PRINCIPY PRÁCE S NADANÝM A MIMOŘÁDNĚ NADANÝM ŽÁKEM</b><br />
+                    •	Charakteristické znaky osobitosti nadaných a mimořádně nadaných žáků. Odlišnosti ve vnímání a zpracování podnětů, v myšlení a prožívání.  Seznámení s různými přístupy k rozvoji nadání (1 hodina)<br />
+                    •	Základní principy v práci s nadanými a mimořádně nadanými žáky, případně s žáky s dvojí výjimečností. Možnosti jejich dalšího rozvoje rozumových schopností jako i jejich sociálně emočních kompetencí v rámci daného stupně vzdělávání. (1 hodina)<br />
+                    •	IVP, úpravy vzdělávacích obsahů a výstupů. Možnosti hodnocení žáků nadaných a mimořádně nadaných. Seznámení s terminologií, její aplikace v praxi. Sumativní, formativní hodnocení, autonomní, heteronomní hodnocení (2 hodiny)<br />
+                    <b>Téma –  UKÁZKA INPIRATIVNÍCH ÚLOH</b><br />
+                    •	Možnosti obohacení učiva, inspirativní úlohy vhodné pro rozvoj rozumového nadání. (1 hodina)<br />
+                  </div>
+                </LiFile>
+                <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesskp3" aria-expanded="false" aria-controls="collapsesskp3">Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje-webinář
       </b>(8 hod, akreditováno pro SŠ, VOŠ, ZŠ, od srpna 2022)
         <div className="collapse " id="collapsesskp3">
-          <b>Blok 1 (1 vyučovací hodina – 45 minut)</b><br />
-          Téma – Legislativní rámec <br />
-          Nová legislativa - Školský zákon a Vyhláška 27/2016 k rozvoji nadaných a mimořádně nadaných žáků. Vymezení základních pojmů nadání.<br />
-          RVP pro daný typ školy v kontextu s rozvoje nadání.<br />
+                    <b>Blok 1 (1 vyučovací hodina – 45 minut)</b><br />
+                    Téma – Legislativní rámec <br />
+                    Nová legislativa - Školský zákon a Vyhláška 27/2016 k rozvoji nadaných a mimořádně nadaných žáků. Vymezení základních pojmů nadání.<br />
+                    RVP pro daný typ školy v kontextu s rozvoje nadání.<br />
 
-          <b>Blok 2 (2 vyučovací hodiny – 90 minut)</b><br />
-          Téma – Základní pojmy<br />
-          Základní pojmy z hlediska psychologické diagnostiky. <br />
-          Typologie nadání z hlediska psychologie. Typologie nadaných z hlediska projevů chování.<br />
-          Možnosti a význam pedagogické diagnostiky, ukázka diagnostických metod.<br />
+                    <b>Blok 2 (2 vyučovací hodiny – 90 minut)</b><br />
+                    Téma – Základní pojmy<br />
+                    Základní pojmy z hlediska psychologické diagnostiky. <br />
+                    Typologie nadání z hlediska psychologie. Typologie nadaných z hlediska projevů chování.<br />
+                    Možnosti a význam pedagogické diagnostiky, ukázka diagnostických metod.<br />
 
-          <b>Blok 3 (2 vyučovací hodiny – 90 minut)</b><br />
-          Téma – Principy práce s nadaným a mimořádně nadaným žákem 1. část<br />
-          -	Charakteristické znaky osobitosti nadaných a mimořádně nadaných žáků. Odlišnosti ve vnímání a zpracování podnětů, v myšlení a prožívání. <br />
-          -	Seznámení s různými přístupy k rozvoji nadání <br />
-          -	Základní principy v práci s nadanými a mimořádně nadanými žáky, případně s žáky s dvojí výjimečností. Možnosti jejich dalšího rozvoje rozumových schopností jako i jejich sociálně emočních kompetencí v rámci daného stupně vzdělávání.<br />
+                    <b>Blok 3 (2 vyučovací hodiny – 90 minut)</b><br />
+                    Téma – Principy práce s nadaným a mimořádně nadaným žákem 1. část<br />
+                    -	Charakteristické znaky osobitosti nadaných a mimořádně nadaných žáků. Odlišnosti ve vnímání a zpracování podnětů, v myšlení a prožívání. <br />
+                    -	Seznámení s různými přístupy k rozvoji nadání <br />
+                    -	Základní principy v práci s nadanými a mimořádně nadanými žáky, případně s žáky s dvojí výjimečností. Možnosti jejich dalšího rozvoje rozumových schopností jako i jejich sociálně emočních kompetencí v rámci daného stupně vzdělávání.<br />
 
-          <b>Blok 4 (2 vyučovací hodiny – 90 minut)</b><br />
-          Téma – Principy práce s nadaným a mimořádně nadaným žákem 2. část<br />
-          IVP, úpravy vzdělávacích obsahů a výstupů. <br />
-          Možnosti hodnocení žáků nadaných a mimořádně nadaných. Seznámení s terminologií, její aplikace v praxi. <br />
-          Sumativní, formativní hodnocení, autonomní, heteronomní hodnocení.<br />
+                    <b>Blok 4 (2 vyučovací hodiny – 90 minut)</b><br />
+                    Téma – Principy práce s nadaným a mimořádně nadaným žákem 2. část<br />
+                    IVP, úpravy vzdělávacích obsahů a výstupů. <br />
+                    Možnosti hodnocení žáků nadaných a mimořádně nadaných. Seznámení s terminologií, její aplikace v praxi. <br />
+                    Sumativní, formativní hodnocení, autonomní, heteronomní hodnocení.<br />
 
-          <b>Blok 5 (1 vyučovací hodina – 45 minut)</b><br />
-          Téma – Ukázka inspirativních úloh<br />
-          Možnosti obohacení učiva, inspirativní úlohy vhodné pro rozvoj rozumového nadání. (1 hodina)<br />
+                    <b>Blok 5 (1 vyučovací hodina – 45 minut)</b><br />
+                    Téma – Ukázka inspirativních úloh<br />
+                    Možnosti obohacení učiva, inspirativní úlohy vhodné pro rozvoj rozumového nadání. (1 hodina)<br />
 
-        </div>
-      </LiFile>
-    </ul>
-  </BlockEx>
-</Panel>;
-
+                  </div>
+                </LiFile>
+              </ul>
+            </BlockEx>
+          </Panel>;
+            
 var SSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">8</Label> <span style={headerCss}>{props.title}</span></h3>
-</div>} eventKey={2}>
+              <h3><Label bsStyle="warning">8</Label> <span style={headerCss}>{props.title}</span></h3>
+            </div>} eventKey={2}>
 
-  <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb1" aria-expanded="false" aria-controls="collapseswb1">Wellbeing, cesta k harmonizaci vztahů ve škole
+              <BlockEx header="Nabízíme následující kurzy:">
+                <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+                  <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb1" aria-expanded="false" aria-controls="collapseswb1">Wellbeing, cesta k harmonizaci vztahů ve škole
       </b>(8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, asistenti, od srpna 2022)
         <div className="collapse " id="collapseswb1"><ul className="list-group"><li className="list-group-item">•	<b>Co je wellbeing </b> – klíčové aspekty tvoření „zdravé školy“ (0,5 hod)</li>
-          <li className="list-group-item">•	<b>Jaká je situace v naší škole? </b> – analýza současného prostředí a klíčové očekávané změny – projektivní technika, týmový workshop - analýza výstupů – návrhy změn (1,5 hod)</li>
-          <li className="list-group-item">•	<b>Kognitivní zkreslení </b> – kognitivně behaviorální model člověka v pedagogické praxi – realita vs. její vidění (1 hod)</li>
-          <li className="list-group-item">•	<b>Osobnostní diagnostika </b> – Jak zacházím se svými emocemi – sebepoznávací dotazník, vyhodnocení – souvislosti do reality mé role ve škole (1 hod)</li>
-          <li className="list-group-item">•	<b>Aspekty vytváření wellbeingu v prostředí školy</b> a role jednotlivých typů pedagogických pracovníků (1 hod)</li>
-          <li className="list-group-item">•	<b>7 zdravých vstupů do našeho těla a mysli </b> – osobní analýza a mapování – diskuse (1 hod)</li>
-          <li className="list-group-item">•	<b>Náš pedagogický sbor a společné vytváření „Wellbeing prostředí“ </b> – osobní zodpovědnost vs. iluze týmové (ne)zodpovědnosti – od představ k realitě, jak to udělat v naší škole (1, 5 hod)</li >
-          <li className="list-group-item">•	<b>Závěr programu </b> – diskuse, sdílení, otázky a odpovědi (0,5 hod)</li>
-        </ul ></div >
-      </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb11" aria-expanded="false" aria-controls="collapseswb11">Wellbeing, cesta k harmonizaci vztahů ve škole - webinář
+                      <li className="list-group-item">•	<b>Jaká je situace v naší škole? </b> – analýza současného prostředí a klíčové očekávané změny – projektivní technika, týmový workshop - analýza výstupů – návrhy změn (1,5 hod)</li>
+                      <li className="list-group-item">•	<b>Kognitivní zkreslení </b> – kognitivně behaviorální model člověka v pedagogické praxi – realita vs. její vidění (1 hod)</li>
+                      <li className="list-group-item">•	<b>Osobnostní diagnostika </b> – Jak zacházím se svými emocemi – sebepoznávací dotazník, vyhodnocení – souvislosti do reality mé role ve škole (1 hod)</li>
+                      <li className="list-group-item">•	<b>Aspekty vytváření wellbeingu v prostředí školy</b> a role jednotlivých typů pedagogických pracovníků (1 hod)</li>
+                      <li className="list-group-item">•	<b>7 zdravých vstupů do našeho těla a mysli </b> – osobní analýza a mapování – diskuse (1 hod)</li>
+                      <li className="list-group-item">•	<b>Náš pedagogický sbor a společné vytváření „Wellbeing prostředí“ </b> – osobní zodpovědnost vs. iluze týmové (ne)zodpovědnosti – od představ k realitě, jak to udělat v naší škole (1, 5 hod)</li >
+                      <li className="list-group-item">•	<b>Závěr programu </b> – diskuse, sdílení, otázky a odpovědi (0,5 hod)</li>
+                    </ul ></div >
+                  </LiFile >
+                  <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb11" aria-expanded="false" aria-controls="collapseswb11">Wellbeing, cesta k harmonizaci vztahů ve škole - webinář
 </b>(8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, asistenti, od srpna 2022)
         <div className="collapse " id="collapseswb11">
-          <b>Blok 1 (2 vyučovací hodiny – 90 minut)</b><br />
-          •	Co je wellbeing – klíčové aspekty tvoření „zdravé školy“ (0,5 hod)<br />
-          •	Jaká je situace v naší škole? – analýza současného prostředí a klíčové očekávané změny – projektivní technika, týmový workshop - analýza výstupů – návrhy změn (1,5 hod)<br />
-          <b>Blok 2 (2 vyučovací hodiny – 90 minut)</b><br />
-          •	Kognitivní zkreslení – kognitivně behaviorální model člověka v pedagogické praxi – realita vs. její vidění (1 hod)<br />
-          •	Osobnostní diagnostika – Jak zacházím se svými emocemi – sebepoznávací dotazník, vyhodnocení – souvislosti do reality mé role ve škole (1 hod)<br />
-          <b>Blok 3 (2 vyučovací hodiny – 90 minut)</b><br />
-          •	Aspekty vytváření wellbeingu v prostředí školy a role jednotlivých typů pedagogických pracovníků (1 hod)<br />
-          •	7 zdravých vstupů do našeho těla a mysli – osobní analýza a mapování – diskuse (1 hod)<br />
-          <b>Blok 4 (2 vyučovací hodiny – 90 minut)</b><br />
-          •	Náš pedagogický sbor a společné vytváření „Wellbeing prostředí“ – osobní zodpovědnost vs. iluze týmové (ne)zodpovědnosti – od představ k realitě, jak to udělat v naší škole (1,5 hod)<br />
-          •	Závěr programu – diskuse, sdílení, otázky a odpovědi (0,5 hod)<br />
-        </div >
-      </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb0" aria-expanded="false" aria-controls="collapseswb0">Prevence k zátěžovým situacím ve škole </b> (8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ZUŠ, ŠD, asistenti)
+                      <b>Blok 1 (2 vyučovací hodiny – 90 minut)</b><br />
+                      •	Co je wellbeing – klíčové aspekty tvoření „zdravé školy“ (0,5 hod)<br />
+                      •	Jaká je situace v naší škole? – analýza současného prostředí a klíčové očekávané změny – projektivní technika, týmový workshop - analýza výstupů – návrhy změn (1,5 hod)<br />
+                      <b>Blok 2 (2 vyučovací hodiny – 90 minut)</b><br />
+                      •	Kognitivní zkreslení – kognitivně behaviorální model člověka v pedagogické praxi – realita vs. její vidění (1 hod)<br />
+                      •	Osobnostní diagnostika – Jak zacházím se svými emocemi – sebepoznávací dotazník, vyhodnocení – souvislosti do reality mé role ve škole (1 hod)<br />
+                      <b>Blok 3 (2 vyučovací hodiny – 90 minut)</b><br />
+                      •	Aspekty vytváření wellbeingu v prostředí školy a role jednotlivých typů pedagogických pracovníků (1 hod)<br />
+                      •	7 zdravých vstupů do našeho těla a mysli – osobní analýza a mapování – diskuse (1 hod)<br />
+                      <b>Blok 4 (2 vyučovací hodiny – 90 minut)</b><br />
+                      •	Náš pedagogický sbor a společné vytváření „Wellbeing prostředí“ – osobní zodpovědnost vs. iluze týmové (ne)zodpovědnosti – od představ k realitě, jak to udělat v naší škole (1,5 hod)<br />
+                      •	Závěr programu – diskuse, sdílení, otázky a odpovědi (0,5 hod)<br />
+                    </div >
+                  </LiFile>
+                  <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb0" aria-expanded="false" aria-controls="collapseswb0">Prevence k zátěžovým situacím ve škole </b> (8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ZUŠ, ŠD, asistenti)
         <div className="collapse " id="collapseswb0"><ul className="list-group"><li className="list-group-item">•	<b>Teoretický úvod do oblasti psychohygieny učitele </b> – zmapování zátěžových situací u pedagogických pracovníků, které vedou k jejich přepracovanosti – teorie + práce skupin (1 hod.)</li>
-          <li className="list-group-item">•	<b>Preventivní doporučení </b> - úprava životního stylu, efektivní organizace času, stanovení priorit, schopnost delegování úkolů (komunikace), spánková hygiena, (3 hod.) </li>
-          <li className="list-group-item">•	<b>Preventivní doporučení </b> – důležitost aktivního pohybu, relaxace, odpočinku, včetně nácviku jednoduchých relaxačních technik (jednoduché relaxace k uvolnění stresu: a) cviky k uvolnění svalového napětí, b) cviky k uvolnění po práci u počítače, c) cviky uvolňující při napětí v zádech a bolestech hlavy a zad. (3 hod.)</li>
-          <li className="list-group-item">•	<b>Regulace dalších zátěžových situací</b> přímo při výkonu práce (1hod) </li>
-        </ul></div>
-      </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb2" aria-expanded="false" aria-controls="collapseswb2">Jak zvládat stresové situace a nedospět k vyhoření </b> (8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ZUŠ, ŠD, asistenti)
+                      <li className="list-group-item">•	<b>Preventivní doporučení </b> - úprava životního stylu, efektivní organizace času, stanovení priorit, schopnost delegování úkolů (komunikace), spánková hygiena, (3 hod.) </li>
+                      <li className="list-group-item">•	<b>Preventivní doporučení </b> – důležitost aktivního pohybu, relaxace, odpočinku, včetně nácviku jednoduchých relaxačních technik (jednoduché relaxace k uvolnění stresu: a) cviky k uvolnění svalového napětí, b) cviky k uvolnění po práci u počítače, c) cviky uvolňující při napětí v zádech a bolestech hlavy a zad. (3 hod.)</li>
+                      <li className="list-group-item">•	<b>Regulace dalších zátěžových situací</b> přímo při výkonu práce (1hod) </li>
+                    </ul></div>
+                  </LiFile>
+                  <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb2" aria-expanded="false" aria-controls="collapseswb2">Jak zvládat stresové situace a nedospět k vyhoření </b> (8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ZUŠ, ŠD, asistenti)
         <div className="collapse " id="collapseswb2"><ul className="list-group"><li className="list-group-item">•	Jak psychický stres ovlivňuje náš výkon, Bournout podle Maslachové, Stres management jako pojem (2 hodiny)</li>
-          <li className="list-group-item">•	Vytváření mapy zvládání každodenního stresu (1 hodina)</li>
-          <li className="list-group-item">•	Zjištění vlastního přístupu k práci, k sobě i k druhým (praktické cvičení) – (1 hodina)</li>
-          <li className="list-group-item">•	Strategie snížení hladiny stresu: zvědomění hodnotového žebříčku, přerámování, změna v plánování, afirmace , relaxace aj. (praktické cvičení ve skupinách) – (2 hodiny)</li>
-          <li className="list-group-item">•	Představení asertivního chování jako dobrého způsobu zvládání každodenních stresů (1 hodina)</li>
-          <li className="list-group-item">•	Jak nastavit změny, které podporují nevyhoření, sdílení, závěrečné shrnutí (1 hodina)</li>
-        </ul></div>
-      </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb3" aria-expanded="false" aria-controls="collapseswb3">Vybrané aspekty emoční a sociální inteligence pedagoga_8 </b> (8 hod, akreditováno pro SŠ, VOŠ, ZŠ)
+                      <li className="list-group-item">•	Vytváření mapy zvládání každodenního stresu (1 hodina)</li>
+                      <li className="list-group-item">•	Zjištění vlastního přístupu k práci, k sobě i k druhým (praktické cvičení) – (1 hodina)</li>
+                      <li className="list-group-item">•	Strategie snížení hladiny stresu: zvědomění hodnotového žebříčku, přerámování, změna v plánování, afirmace , relaxace aj. (praktické cvičení ve skupinách) – (2 hodiny)</li>
+                      <li className="list-group-item">•	Představení asertivního chování jako dobrého způsobu zvládání každodenních stresů (1 hodina)</li>
+                      <li className="list-group-item">•	Jak nastavit změny, které podporují nevyhoření, sdílení, závěrečné shrnutí (1 hodina)</li>
+                    </ul></div>
+                  </LiFile>
+                  <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb3" aria-expanded="false" aria-controls="collapseswb3">Vybrané aspekty emoční a sociální inteligence pedagoga_8 </b> (8 hod, akreditováno pro SŠ, VOŠ, ZŠ)
         <div className="collapse " id="collapseswb3"><ul className="list-group"><li className="list-group-item">•	Teoretické ukotvení tématu emoční inteligence. Vysvětlení jednotlivých aspektů emoční inteligence, EI z pohledu klasicky pojímané inteligence a její role v uplatnění rozumových schopností, Objasnění možností rozvíjet emoční inteligenci: práce a rozhodování pod časových stresem, zvládání negativních emocí, získávání větší odolnosti, resilience vůči zátěži (2 hodiny)</li>
-          <li className="list-group-item">•	Teoretické ukotvení tématu sociální inteligence a jejich jednotlivých aspektů. Praktické procvičení vybraných sociálních dovedností, trénink organizačních dovedností, možnosti řešení konfliktních situací, jak rozvíjet sociální inteligenci žáků (1 hodina)</li>
-          <li className="list-group-item">•	Teoretické ukotvení tématu sebepoznání, obeznámení s různými přístupy k sebepoznání, vysvětlení opodstatnění a role sebepoznání v každodenním životě a praxi, vysvětlení pojmů a podstaty uvědomování si vlastních předpokladů, pohnutek, myšlenek a následně schopnosti jejich verbalizace a manipulace s nimi. ( 1 hodina)</li>
-          <li className="list-group-item">•	Probrání jednotlivých technik sebepoznání a možnosti jejich využití, odhalení užívaní stereotypů ve vlastním prožívání, myšlení a možnosti jejich nahrazení funkčními a efektivnějšími způsoby. Sebehodnocení, sebevědomí, asertivní jednání vůči vlastní osobě, zaměření na cíl a monitorování vlastních sil, energie a motivace ke stanoveným cílům, využití poznatků pozitivní psychologie a práce s vlastním nastavením k hodnocení sebe a jiných, práce s kritikou, zhodnocení jejich negativ a pozitiv (1 hodina)</li>
-          <li className="list-group-item">•	Sebekoučink, sebemotivace, analýza vlastních strategií k dosahování cílů, nové možnosti k překonávání překážek, včetně zvládání negativních emocí,  technika GROW (1 hodina)</li>
-          <li className="list-group-item">•	Efektivní komunikace se sebou, v rámci rodiny a posléze také v kontextu pedagogické praxe, Jak jinak komunikovat, analýza základních komunikačních chyb, alternativní možnosti komunikace se žáky, možnosti, jak vést žáky k odpovědnosti za své prožívání a jednání (1 hodina)</li>
-          <li className="list-group-item">•	Nové možnosti komunikace ve třídě. Řešení emočně vypjatých situací, tvorba repertoáru strategií k řešení složitých a neobvyklých sociálních situací (1 hodina)</li>
-        </ul></div>
-      </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb4" aria-expanded="false" aria-controls="collapseswb4">Rozvoj osobnosti pedagoga a zásady efektivní komunikace </b> (8 hod, akreditováno pro SŠ, VOŠ, DM, ZŠ, ŠD, ŠK)
+                      <li className="list-group-item">•	Teoretické ukotvení tématu sociální inteligence a jejich jednotlivých aspektů. Praktické procvičení vybraných sociálních dovedností, trénink organizačních dovedností, možnosti řešení konfliktních situací, jak rozvíjet sociální inteligenci žáků (1 hodina)</li>
+                      <li className="list-group-item">•	Teoretické ukotvení tématu sebepoznání, obeznámení s různými přístupy k sebepoznání, vysvětlení opodstatnění a role sebepoznání v každodenním životě a praxi, vysvětlení pojmů a podstaty uvědomování si vlastních předpokladů, pohnutek, myšlenek a následně schopnosti jejich verbalizace a manipulace s nimi. ( 1 hodina)</li>
+                      <li className="list-group-item">•	Probrání jednotlivých technik sebepoznání a možnosti jejich využití, odhalení užívaní stereotypů ve vlastním prožívání, myšlení a možnosti jejich nahrazení funkčními a efektivnějšími způsoby. Sebehodnocení, sebevědomí, asertivní jednání vůči vlastní osobě, zaměření na cíl a monitorování vlastních sil, energie a motivace ke stanoveným cílům, využití poznatků pozitivní psychologie a práce s vlastním nastavením k hodnocení sebe a jiných, práce s kritikou, zhodnocení jejich negativ a pozitiv (1 hodina)</li>
+                      <li className="list-group-item">•	Sebekoučink, sebemotivace, analýza vlastních strategií k dosahování cílů, nové možnosti k překonávání překážek, včetně zvládání negativních emocí,  technika GROW (1 hodina)</li>
+                      <li className="list-group-item">•	Efektivní komunikace se sebou, v rámci rodiny a posléze také v kontextu pedagogické praxe, Jak jinak komunikovat, analýza základních komunikačních chyb, alternativní možnosti komunikace se žáky, možnosti, jak vést žáky k odpovědnosti za své prožívání a jednání (1 hodina)</li>
+                      <li className="list-group-item">•	Nové možnosti komunikace ve třídě. Řešení emočně vypjatých situací, tvorba repertoáru strategií k řešení složitých a neobvyklých sociálních situací (1 hodina)</li>
+                    </ul></div>
+                  </LiFile>
+                  <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb4" aria-expanded="false" aria-controls="collapseswb4">Rozvoj osobnosti pedagoga a zásady efektivní komunikace </b> (8 hod, akreditováno pro SŠ, VOŠ, DM, ZŠ, ŠD, ŠK)
         <div className="collapse " id="collapseswb4"><ul className="list-group"><li className="list-group-item">•	Efektivní komunikace se sebou, v rámci rodiny a posléze také v kontextu pedagogické praxe (3 hodiny)</li>
-          <li className="list-group-item">•	Jak jinak komunikovat, analýza základních komunikačních chyb, alternativní možnosti komunikace se žáky, možnosti, jak vést žáky k odpovědnosti za své prožívání a jednání (1 hodina)</li>
-          <li className="list-group-item">•	Nové možnosti komunikace ve třídě (1 hodina)</li>
-          <li className="list-group-item">•	Řešení emočně vypjatých situací, možnosti řešení, tvorba repertoáru strategií k řešení složitých a neobvyklých sociálních situací. (1 hodina)</li>
-          <li className="list-group-item">•	Principy komunikace v souladu s nejnovějšími poznatky psychologie o fungování mozku ( 1 hodina)</li>
-          <li className="list-group-item">•	Základy asertivního jednání (1 hodina)</li>
-        </ul></div>
-      </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb5" aria-expanded="false" aria-controls="collapseswb5">Osobnostně sociální rozvoj učitele v sebepoznání </b> (8 hod, akreditováno pro SŠ, VOŠ, ZŠ)
+                      <li className="list-group-item">•	Jak jinak komunikovat, analýza základních komunikačních chyb, alternativní možnosti komunikace se žáky, možnosti, jak vést žáky k odpovědnosti za své prožívání a jednání (1 hodina)</li>
+                      <li className="list-group-item">•	Nové možnosti komunikace ve třídě (1 hodina)</li>
+                      <li className="list-group-item">•	Řešení emočně vypjatých situací, možnosti řešení, tvorba repertoáru strategií k řešení složitých a neobvyklých sociálních situací. (1 hodina)</li>
+                      <li className="list-group-item">•	Principy komunikace v souladu s nejnovějšími poznatky psychologie o fungování mozku ( 1 hodina)</li>
+                      <li className="list-group-item">•	Základy asertivního jednání (1 hodina)</li>
+                    </ul></div>
+                  </LiFile>
+                  <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb5" aria-expanded="false" aria-controls="collapseswb5">Osobnostně sociální rozvoj učitele v sebepoznání </b> (8 hod, akreditováno pro SŠ, VOŠ, ZŠ)
         <div className="collapse " id="collapseswb5"><ul className="list-group"><li className="list-group-item">•	Seznámení s principem OSR  – (0,5 hod)</li>
-          <li className="list-group-item">•	Rozvoj schopností poznávání . Aktivity zaměřené na sebepoznání vlastního já (já v pohledu pozitivity, negativity…). Já z pohledu vlastností pozitivních i negativních (pohled empatie ve vyjádření 10ti odpovědí - jak se vnímám já, a jak mě vidí ostatní), mé silné a slabé stránky, vlastní způsob jednání a chování, přetvářka, sebereflexe (2 hodiny)</li>
-          <li className="list-group-item">•	Sebepoznání a sebepojetí. Aktivity zaměřené na sebepoznání, moje přednosti, představy, schopnosti  - prostor pro hlubší seznámení nejenom se sebou samým v rámci sebepozorování, ale i s ostatními účastníky, a to při vzájemném sdílení tématu (sestavování žebříčku osobního rozvoje) a dovednosti poskytovat druhým konstruktivním způsobem zpětnou vazbu, naslouchat jim a vcítit se do potřeb druhého/druhých. (2 hodiny)</li>
-          <li className="list-group-item">•	Seberegulace a sebeorganizace. Aktivity zaměřené na sebepoznání odvíjející se od představ, schopností  - schopností  – kontrola a regulace vlastního chování v situacích „tady a teď“ (cvičení sebekontroly, sebeovládání, rychlého rozhodování – regulace vlastního jednání i prožívání, vůle), schopnosti vlastní seberealizace – uvědomění si vlastní hierarchie hodnot. (2 hodiny)</li >
-          <li className="list-group-item">•	Psychohygiena. Aktivity zaměřené na jednoduché relaxační techniky  – a) cviky k uvolnění svalového napětí, b) cviky k uvolnění po práci u počítače, c) cviky uvolňující při napětí v zádech a bolestech hlavy a zad(1, 5 hodiny).</li >
-        </ul ></div >
-      </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb6" aria-expanded="false" aria-controls="collapseswb6">Osobnostní a sociální rozvoj učitele ve zvládání konfliktů </b> (8 hod, akreditováno pro SŠ, VOŠ, ZŠ)
+                      <li className="list-group-item">•	Rozvoj schopností poznávání . Aktivity zaměřené na sebepoznání vlastního já (já v pohledu pozitivity, negativity…). Já z pohledu vlastností pozitivních i negativních (pohled empatie ve vyjádření 10ti odpovědí - jak se vnímám já, a jak mě vidí ostatní), mé silné a slabé stránky, vlastní způsob jednání a chování, přetvářka, sebereflexe (2 hodiny)</li>
+                      <li className="list-group-item">•	Sebepoznání a sebepojetí. Aktivity zaměřené na sebepoznání, moje přednosti, představy, schopnosti  - prostor pro hlubší seznámení nejenom se sebou samým v rámci sebepozorování, ale i s ostatními účastníky, a to při vzájemném sdílení tématu (sestavování žebříčku osobního rozvoje) a dovednosti poskytovat druhým konstruktivním způsobem zpětnou vazbu, naslouchat jim a vcítit se do potřeb druhého/druhých. (2 hodiny)</li>
+                      <li className="list-group-item">•	Seberegulace a sebeorganizace. Aktivity zaměřené na sebepoznání odvíjející se od představ, schopností  - schopností  – kontrola a regulace vlastního chování v situacích „tady a teď“ (cvičení sebekontroly, sebeovládání, rychlého rozhodování – regulace vlastního jednání i prožívání, vůle), schopnosti vlastní seberealizace – uvědomění si vlastní hierarchie hodnot. (2 hodiny)</li >
+                      <li className="list-group-item">•	Psychohygiena. Aktivity zaměřené na jednoduché relaxační techniky  – a) cviky k uvolnění svalového napětí, b) cviky k uvolnění po práci u počítače, c) cviky uvolňující při napětí v zádech a bolestech hlavy a zad(1, 5 hodiny).</li >
+                    </ul ></div >
+                  </LiFile >
+                  <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb6" aria-expanded="false" aria-controls="collapseswb6">Osobnostní a sociální rozvoj učitele ve zvládání konfliktů </b> (8 hod, akreditováno pro SŠ, VOŠ, ZŠ)
         <div className="collapse " id="collapseswb6"><ul className="list-group"><li className="list-group-item">•	Seznámení s principem OSR (0,5 hodiny)</li>
-          <li className="list-group-item">•	Poznávání lidí, mezilidské vztahy. Metody zaměřené na vhodné způsoby komunikace v různých životních situacích, případné řešení neshod či konfliktů s druhými lidmi nenásilným způsobem. Tj. na reakce na základě postojů již získaných; na očekávání, která jsou formována na základě životních zkušeností; na zvládání dovednosti přijímat a poskytovat konstruktivní kritiku, na poznávání typu osobnosti pro úspěšné řešení konfliktu (2 hodiny)</li>
-          <li className="list-group-item">•	Řešení problémů a rozhodovací dovednosti. Aktivity zaměřené na mapování vlastních postojů v rámci schématu konfliktu, na způsoby jednání v zátěžových situacích a přístupy ke zvládání konfliktu (kooperace, konfrontace, řešitelský přístup atd.), dovednosti pro řešení problémů a rozhodování z hlediska různých typů konfliktních situací, včetně zvládání krizové komunikace při jednání se žáky i s rodiči/zákonnými zástupci. (5,5 hodiny)</li>
-        </ul></div>
-      </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb7" aria-expanded="false" aria-controls="collapseswb7">Zásady asertivní a efektivní komunikace – 8 hodin </b> (8 hod, akreditováno pro SŠ, VOŠ, DM, ZŠ, ŠD, ŠK)
+                      <li className="list-group-item">•	Poznávání lidí, mezilidské vztahy. Metody zaměřené na vhodné způsoby komunikace v různých životních situacích, případné řešení neshod či konfliktů s druhými lidmi nenásilným způsobem. Tj. na reakce na základě postojů již získaných; na očekávání, která jsou formována na základě životních zkušeností; na zvládání dovednosti přijímat a poskytovat konstruktivní kritiku, na poznávání typu osobnosti pro úspěšné řešení konfliktu (2 hodiny)</li>
+                      <li className="list-group-item">•	Řešení problémů a rozhodovací dovednosti. Aktivity zaměřené na mapování vlastních postojů v rámci schématu konfliktu, na způsoby jednání v zátěžových situacích a přístupy ke zvládání konfliktu (kooperace, konfrontace, řešitelský přístup atd.), dovednosti pro řešení problémů a rozhodování z hlediska různých typů konfliktních situací, včetně zvládání krizové komunikace při jednání se žáky i s rodiči/zákonnými zástupci. (5,5 hodiny)</li>
+                    </ul></div>
+                  </LiFile>
+                  <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb7" aria-expanded="false" aria-controls="collapseswb7">Zásady asertivní a efektivní komunikace – 8 hodin </b> (8 hod, akreditováno pro SŠ, VOŠ, DM, ZŠ, ŠD, ŠK)
         <div className="collapse " id="collapseswb7"><ul className="list-group"><li className="list-group-item">•	Seznámení se s pravidly a technikami komunikace osobní i profesní: cíl, základní stanovisko, kladení otázek a jejich typologie, aktivní naslouchání, změkčovadla, sdělování názoru (2 hodiny)</li>
-          <li className="list-group-item">•	Praktická typologie v komunikaci podle D. Forbese Leye (možné cvičení). Námitky a jak na ně vhodně reagovat. (1 hodina)</li>
-          <li className="list-group-item">•	Asertivita jako dovednost prosazovat své názory a požadavky při zachování respektu k okolí, možnosti vedení žákům k asertivnímu nenásilnému chování. Asertivní práva a techniky -možný nácvik. (1 hodina)</li>
-          <li className="list-group-item">•	Zvládání emocí, zvládání vlastních emocí v komunikaci při emočně náročných situacích nejen ve školním prostředí. (1 hodina)</li>
-          <li className="list-group-item">•	Jak rozpoznat manipulaci, druhy manipulací, techniky na zvládání manipulací  - možný nácvik (1 hodina)</li>
-          <li className="list-group-item">•	Vedení rozhovoru  – příprava a struktura (1 hodina)</li>
-          <li className="list-group-item">•	Neverbální komunikace  – gesta a výrazy s jejich významem. Základy psycholingvistiky a rizikové výrazy. (1 hodina)</li>
-        </ul></div>
-      </LiFile>
-    </ul >
-  </BlockEx >
-</Panel >;
-
+                      <li className="list-group-item">•	Praktická typologie v komunikaci podle D. Forbese Leye (možné cvičení). Námitky a jak na ně vhodně reagovat. (1 hodina)</li>
+                      <li className="list-group-item">•	Asertivita jako dovednost prosazovat své názory a požadavky při zachování respektu k okolí, možnosti vedení žákům k asertivnímu nenásilnému chování. Asertivní práva a techniky -možný nácvik. (1 hodina)</li>
+                      <li className="list-group-item">•	Zvládání emocí, zvládání vlastních emocí v komunikaci při emočně náročných situacích nejen ve školním prostředí. (1 hodina)</li>
+                      <li className="list-group-item">•	Jak rozpoznat manipulaci, druhy manipulací, techniky na zvládání manipulací  - možný nácvik (1 hodina)</li>
+                      <li className="list-group-item">•	Vedení rozhovoru  – příprava a struktura (1 hodina)</li>
+                      <li className="list-group-item">•	Neverbální komunikace  – gesta a výrazy s jejich významem. Základy psycholingvistiky a rizikové výrazy. (1 hodina)</li>
+                    </ul></div>
+                  </LiFile>
+                </ul >
+              </BlockEx >
+            </Panel >;
+              
 var SSVyukaCestiny: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
-</div>} eventKey={2}>
-  <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesvc1" aria-expanded="false" aria-controls="collapsesvc1">Specifika výuky češtiny jako druhého jazyka
+                <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
+              </div>} eventKey={2}>
+                <BlockEx header="Nabízíme následující kurzy:">
+                  <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+                    <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesvc1" aria-expanded="false" aria-controls="collapsesvc1">Specifika výuky češtiny jako druhého jazyka
 </b>(8 hod, akreditováno pro SŠ, ZŠ, asistenti, výchovní poradci, od srpna 2022)
         <div className="collapse " id="collapsesvc1"><ul className="list-group">
-          <li className="list-group-item">•	<b>vymezení teoretických východisek a terminologického rámce ČJDJ</b>, shod, rozdílů a specifik procesu výuky českého jazyka, českého jazyka jako cizího jazyka a ČJDJ, přesah do výuky všeobecně vzdělávacích a ostatních předmětů ve vyučovacím procesu, provázanost s oblastí mimoškolních aktivit a zájmových činností (nejen) pro žáky cizince (1 hodina);</li>
-          <li className="list-group-item">•	<b>uplatňování postkomunikačního přístupu ve výuce ČJDJ</b>, využívání vhodných strategií a didaktických postupů, rozvoj základních řečových dovedností a jazykových kompetencí žáka cizince v procesu jeho přijímání, začleňování a vzdělávání, tj. v prvních dnech a týdnech po zahájení školní docházky v běžné české škole (1,5 hodiny); </li>
-          <li className="list-group-item">•	<b>diagnostika jazykové úrovně jedince</b>, postupy pro určení jazykové úrovně žáka cizince (1 hodina);</li>
-          <li className="list-group-item">•	<b>komunikace se žákem cizincem</b>, tj. role zvukového plánu jazyka, význam osvojení si správné zvukové podoby češtiny a výslovnosti jako nezbytné podmínky úspěšné komunikace; základní instrukce, fráze a kolokace „pro přežití“ a jejich následné rozšiřování a posilování, rozvoj slovní zásoby; zásady komunikace a vedení výuky bez zprostředkovacího jazyka, vhodné didaktické postupy a pomůcky a postupy (1 hodina);</li>
-          <li className="list-group-item">•	<b>práce s kurikulem ČJDJ, tj. jak a co učit </b> – témata vhodná pro začátečníky a mírně pokročilé, konkrétní situace, rozvoj základní slovní zásoby v kontextu interakce, osvojování jazykových dovedností a posilování jazykových kompetencí, stanovení základního cíle a efektivní realizace triády téma – cíl – dovednost; příklady vhodných aktivit (1 hodina)</li>
-          <li className="list-group-item">•	<b>význam osvojování si vhodných kompetencí a jazykových prostředků</b>, význam procvičování a správné fixace osvojených jazykových dovedností a kompetencí jako např. osvojování čtení a nácvik psaní u žáků, kteří přicházejí bez dovednosti číst latinku a psát latinkou, spolu s fixací správných pracovních návyků pro čtení a psaní, osvojování a procvičování lexika, gramatiky, pravopisu a komunikačních modelů  v ČJDJ (1 hodina);</li>
-          <li className="list-group-item">•	<b>role ČJDJ a její význam ve škole i mimo ni a spolupráce s pedagogickými pracovníky školy</b>, tj. spolupráce s učiteli ostatních předmětů u žáků s na začátku nulovou a v průběhu adaptačního období – prvních týdnů školní docházky s počáteční úrovní znalosti jazyka; doporučení vhodných výukových materiálů v klasické i online podobě se zohledněním věku, konkrétní jazykové úrovně ČJDJ u žáka cizince, zohledňování dalších faktorů; možnosti podpory stran státních institucí, krajských úřadů a zřizovatelů, nestátních neziskových organizací; diskuse a sdílení vlastní praxe lektora a účastníků vzdělávacího programu (1,5 hodiny). </li>
-        </ul></div>
-      </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesvc2" aria-expanded="false" aria-controls="collapsesvc2">Specifika výuky češtiny jako druhého jazyka - webinář
+                        <li className="list-group-item">•	<b>vymezení teoretických východisek a terminologického rámce ČJDJ</b>, shod, rozdílů a specifik procesu výuky českého jazyka, českého jazyka jako cizího jazyka a ČJDJ, přesah do výuky všeobecně vzdělávacích a ostatních předmětů ve vyučovacím procesu, provázanost s oblastí mimoškolních aktivit a zájmových činností (nejen) pro žáky cizince (1 hodina);</li>
+                        <li className="list-group-item">•	<b>uplatňování postkomunikačního přístupu ve výuce ČJDJ</b>, využívání vhodných strategií a didaktických postupů, rozvoj základních řečových dovedností a jazykových kompetencí žáka cizince v procesu jeho přijímání, začleňování a vzdělávání, tj. v prvních dnech a týdnech po zahájení školní docházky v běžné české škole (1,5 hodiny); </li>
+                        <li className="list-group-item">•	<b>diagnostika jazykové úrovně jedince</b>, postupy pro určení jazykové úrovně žáka cizince (1 hodina);</li>
+                        <li className="list-group-item">•	<b>komunikace se žákem cizincem</b>, tj. role zvukového plánu jazyka, význam osvojení si správné zvukové podoby češtiny a výslovnosti jako nezbytné podmínky úspěšné komunikace; základní instrukce, fráze a kolokace „pro přežití“ a jejich následné rozšiřování a posilování, rozvoj slovní zásoby; zásady komunikace a vedení výuky bez zprostředkovacího jazyka, vhodné didaktické postupy a pomůcky a postupy (1 hodina);</li>
+                        <li className="list-group-item">•	<b>práce s kurikulem ČJDJ, tj. jak a co učit </b> – témata vhodná pro začátečníky a mírně pokročilé, konkrétní situace, rozvoj základní slovní zásoby v kontextu interakce, osvojování jazykových dovedností a posilování jazykových kompetencí, stanovení základního cíle a efektivní realizace triády téma – cíl – dovednost; příklady vhodných aktivit (1 hodina)</li>
+                        <li className="list-group-item">•	<b>význam osvojování si vhodných kompetencí a jazykových prostředků</b>, význam procvičování a správné fixace osvojených jazykových dovedností a kompetencí jako např. osvojování čtení a nácvik psaní u žáků, kteří přicházejí bez dovednosti číst latinku a psát latinkou, spolu s fixací správných pracovních návyků pro čtení a psaní, osvojování a procvičování lexika, gramatiky, pravopisu a komunikačních modelů  v ČJDJ (1 hodina);</li>
+                        <li className="list-group-item">•	<b>role ČJDJ a její význam ve škole i mimo ni a spolupráce s pedagogickými pracovníky školy</b>, tj. spolupráce s učiteli ostatních předmětů u žáků s na začátku nulovou a v průběhu adaptačního období – prvních týdnů školní docházky s počáteční úrovní znalosti jazyka; doporučení vhodných výukových materiálů v klasické i online podobě se zohledněním věku, konkrétní jazykové úrovně ČJDJ u žáka cizince, zohledňování dalších faktorů; možnosti podpory stran státních institucí, krajských úřadů a zřizovatelů, nestátních neziskových organizací; diskuse a sdílení vlastní praxe lektora a účastníků vzdělávacího programu (1,5 hodiny). </li>
+                      </ul></div>
+                    </LiFile>
+                    <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesvc2" aria-expanded="false" aria-controls="collapsesvc2">Specifika výuky češtiny jako druhého jazyka - webinář
 </b>(8 hod, akreditováno pro SŠ, ZŠ, asistenti, výchovní poradci, od srpna 2022)
                    <div className="collapse " id="collapsesvc2"><ul className="list-group">
-          <b>Blok 1 (1 vyučovací hodina)</b><br />
-          •	vymezení teoretických východisek a terminologického rámce ČJDJ, shod, rozdílů a specifik procesu výuky českého jazyka, českého jazyka jako cizího jazyka a ČJDJ, přesah do výuky všeobecně vzdělávacích a ostatních předmětů ve vyučovacím procesu, provázanost s oblastí mimoškolních aktivit a zájmových činností (nejen) pro žáky cizince – (1 hodina)<br />
-          <b>Blok 2 (1,5 vyučovací hodiny)</b><br />
-          •	uplatňování postkomunikačního přístupu ve výuce ČJDJ, využívání vhodných strategií a didaktických postupů, rozvoj základních řečových dovedností a jazykových kompetencí žáka cizince v procesu jeho přijímání, začleňování a vzdělávání, tj. v prvních dnech a týdnech po zahájení školní docházky v běžné české škole – (1,5 hodiny)<br />
-          <b>Blok 3 (2 vyučovací hodiny – 90 minut)</b><br />
-          •	diagnostika jazykové úrovně jedince, postupy pro určení jazykové úrovně žáka cizince – (1 hodina)<br />
-          •	komunikace se žákem cizincem, tj. role zvukového plánu jazyka, význam osvojení si správné zvukové podoby češtiny a výslovnosti jako nezbytné podmínky úspěšné komunikace; základní instrukce, fráze a kolokace „pro přežití“ a jejich následné rozšiřování a posilování, rozvoj slovní zásoby; zásady komunikace a vedení výuky bez zprostředkovacího jazyka, vhodné didaktické postupy a pomůcky a postupy (1 hodina)<br />
-          <b>Blok 4 (2 vyučovací hodiny – 90 minut)</b><br />
-          •	práce s kurikulem ČJDJ, tj. jak a co učit – témata vhodná pro začátečníky a mírně pokročilé, konkrétní situace, rozvoj základní slovní zásoby v kontextu interakce, osvojování jazykových dovedností a posilování jazykových kompetencí, stanovení základního cíle a efektivní realizace triády téma – cíl – dovednost; příklady vhodných aktivit –( 1hodina)<br />
-          •	význam osvojování si vhodných kompetencí a jazykových prostředků, význam procvičování a správné fixace osvojených jazykových dovedností a kompetencí jako např. osvojování čtení a nácvik psaní u žáků, kteří přicházejí bez dovednosti číst latinku a psát latinkou, spolu s fixací správných pracovních návyků pro čtení a psaní, osvojování a procvičování lexika, gramatiky, pravopisu a komunikačních modelů  v ČJDJ – (1 hodina)<br />
-          <b>Blok 5 (1,5 vyučovací hodiny)</b><br />
-          •	role ČJDJ a její význam ve škole i mimo ni – spolupráce s pedagogickými pracovníky školy, tj. spolupráce s učiteli ostatních předmětů u žáků s na začátku nulovou a v průběhu adaptačního období – prvních týdnů školní docházky s počáteční úrovní znalosti jazyka; doporučení vhodných výukových materiálů v klasické i online podobě se zohledněním věku, konkrétní jazykové úrovně ČJDJ u žáka cizince, zohledňování dalších faktorů; možnosti podpory stran státních institucí, krajských úřadů a zřizovatelů, nestátních neziskových organizací; diskuse a sdílení vlastní praxe lektora a účastníků vzdělávacího programu – (1,5 hodiny)
+                        <b>Blok 1 (1 vyučovací hodina)</b><br />
+                        •	vymezení teoretických východisek a terminologického rámce ČJDJ, shod, rozdílů a specifik procesu výuky českého jazyka, českého jazyka jako cizího jazyka a ČJDJ, přesah do výuky všeobecně vzdělávacích a ostatních předmětů ve vyučovacím procesu, provázanost s oblastí mimoškolních aktivit a zájmových činností (nejen) pro žáky cizince – (1 hodina)<br />
+                        <b>Blok 2 (1,5 vyučovací hodiny)</b><br />
+                        •	uplatňování postkomunikačního přístupu ve výuce ČJDJ, využívání vhodných strategií a didaktických postupů, rozvoj základních řečových dovedností a jazykových kompetencí žáka cizince v procesu jeho přijímání, začleňování a vzdělávání, tj. v prvních dnech a týdnech po zahájení školní docházky v běžné české škole – (1,5 hodiny)<br />
+                        <b>Blok 3 (2 vyučovací hodiny – 90 minut)</b><br />
+                        •	diagnostika jazykové úrovně jedince, postupy pro určení jazykové úrovně žáka cizince – (1 hodina)<br />
+                        •	komunikace se žákem cizincem, tj. role zvukového plánu jazyka, význam osvojení si správné zvukové podoby češtiny a výslovnosti jako nezbytné podmínky úspěšné komunikace; základní instrukce, fráze a kolokace „pro přežití“ a jejich následné rozšiřování a posilování, rozvoj slovní zásoby; zásady komunikace a vedení výuky bez zprostředkovacího jazyka, vhodné didaktické postupy a pomůcky a postupy (1 hodina)<br />
+                        <b>Blok 4 (2 vyučovací hodiny – 90 minut)</b><br />
+                        •	práce s kurikulem ČJDJ, tj. jak a co učit – témata vhodná pro začátečníky a mírně pokročilé, konkrétní situace, rozvoj základní slovní zásoby v kontextu interakce, osvojování jazykových dovedností a posilování jazykových kompetencí, stanovení základního cíle a efektivní realizace triády téma – cíl – dovednost; příklady vhodných aktivit –( 1hodina)<br />
+                        •	význam osvojování si vhodných kompetencí a jazykových prostředků, význam procvičování a správné fixace osvojených jazykových dovedností a kompetencí jako např. osvojování čtení a nácvik psaní u žáků, kteří přicházejí bez dovednosti číst latinku a psát latinkou, spolu s fixací správných pracovních návyků pro čtení a psaní, osvojování a procvičování lexika, gramatiky, pravopisu a komunikačních modelů  v ČJDJ – (1 hodina)<br />
+                        <b>Blok 5 (1,5 vyučovací hodiny)</b><br />
+                        •	role ČJDJ a její význam ve škole i mimo ni – spolupráce s pedagogickými pracovníky školy, tj. spolupráce s učiteli ostatních předmětů u žáků s na začátku nulovou a v průběhu adaptačního období – prvních týdnů školní docházky s počáteční úrovní znalosti jazyka; doporučení vhodných výukových materiálů v klasické i online podobě se zohledněním věku, konkrétní jazykové úrovně ČJDJ u žáka cizince, zohledňování dalších faktorů; možnosti podpory stran státních institucí, krajských úřadů a zřizovatelů, nestátních neziskových organizací; diskuse a sdílení vlastní praxe lektora a účastníků vzdělávacího programu – (1,5 hodiny)
 </ul></div>
 
-      </LiFile>
+                    </LiFile>
 
-    </ul >
-  </BlockEx >
-</Panel >;
-
+                  </ul >
+                </BlockEx >
+              </Panel >;
+                
 var SSInkluzeCizinci: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">8</Label> <span style={headerCss}>{props.title}</span></h3>
-</div>} eventKey={2}>
+                  <h3><Label bsStyle="warning">8</Label> <span style={headerCss}>{props.title}</span></h3>
+                </div>} eventKey={2}>
 
-  <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+                  <BlockEx header="Nabízíme následující kurzy:">
+                    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
 
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesic1" aria-expanded="false" aria-controls="collapsesic1">Klima třídy se žáky s odlišným mateřským jazykem
+                      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesic1" aria-expanded="false" aria-controls="collapsesic1">Klima třídy se žáky s odlišným mateřským jazykem
       </b>(8 hod, akreditováno pro SŠ, VOŠ, ZŠ, asistenti)
         <div className="collapse " id="collapsesic1"><ul className="list-group">
-          <li className="list-group-item">•	<b>Téma – Základní sociální potřeby žáků s OMJ, jinými životními a kulturními potřebami</b>  Základní sociální potřeby: Potřeba místa, bezpečí, podnětu, potřeba péče, výživy, dále potřeby podpory a sociálních limitů. Důsledky nenaplňování potřeb a jejich vliv na chování žáků v rámci dané třídy, školy. Dopady procesu psychického a fyzického vývoje a spojené se změnou životních podmínek a jejich vliv na chování žáka v podmínkách školy, přístup k pravidlům, normám a jejich respektování. (2 hodiny)</li>
-          <li className="list-group-item">•	<b>Téma – žák s OMJ a jinými životními a kulturními podmínkami, vliv na klima třídy.</b>  Pravidla a zásady vedení třídního kolektivu. Práce s tvarem třídy – konformita a normy konkrétního třídního kolektivu – příprava, hranice, rizika a zdroje. Role žáka ve třídě, zapojení žáka s OMJ do třídního kolektivu. Posilování pozitivních vazeb. Regulace chování ve skupině. (2 hodiny)</li>
-          <li className="list-group-item">•	<b>Téma – Práce s pocity žáků s OMJ a jako prevence kázeňských problémů.</b>  Možnosti diferencovaného vzdělávání. Školní prostředí a střídání rolí. Možnosti chování, projevy žáků, zapojení do školního kolektivu, řešení projevu „odlišnosti“ s respektováním odlišných projevů, norem, postojů s cílem adaptace na nové podmínky školy. (2 hodiny).</li>
-          <li className="list-group-item">•	<b>Téma – praktické ukázky, práce s třídním kolektivem, kaziustikami.</b>  Komunikace se žákem s OMJ. Pro praktické ukázky bude využita metoda hraní rolí, vedení rozhovoru a další interaktivní techniky a zásady práce v rámci třídního kolektivu za účelem zapojení žáků s OMJ a jinými životními a kulturními podmínkami. Osvědčené strategie pro vytvoření prostředí podporujícího všechny žáky, zaměření na jednotlivé situace, problémy, vlastní kazuistiky. (2 hodiny)</li>
-        </ul></div>
-      </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesic1" aria-expanded="false" aria-controls="collapsesic1">Klima třídy se žáky s odlišným mateřským jazykem -webinář
+                          <li className="list-group-item">•	<b>Téma – Základní sociální potřeby žáků s OMJ, jinými životními a kulturními potřebami</b>  Základní sociální potřeby: Potřeba místa, bezpečí, podnětu, potřeba péče, výživy, dále potřeby podpory a sociálních limitů. Důsledky nenaplňování potřeb a jejich vliv na chování žáků v rámci dané třídy, školy. Dopady procesu psychického a fyzického vývoje a spojené se změnou životních podmínek a jejich vliv na chování žáka v podmínkách školy, přístup k pravidlům, normám a jejich respektování. (2 hodiny)</li>
+                          <li className="list-group-item">•	<b>Téma – žák s OMJ a jinými životními a kulturními podmínkami, vliv na klima třídy.</b>  Pravidla a zásady vedení třídního kolektivu. Práce s tvarem třídy – konformita a normy konkrétního třídního kolektivu – příprava, hranice, rizika a zdroje. Role žáka ve třídě, zapojení žáka s OMJ do třídního kolektivu. Posilování pozitivních vazeb. Regulace chování ve skupině. (2 hodiny)</li>
+                          <li className="list-group-item">•	<b>Téma – Práce s pocity žáků s OMJ a jako prevence kázeňských problémů.</b>  Možnosti diferencovaného vzdělávání. Školní prostředí a střídání rolí. Možnosti chování, projevy žáků, zapojení do školního kolektivu, řešení projevu „odlišnosti“ s respektováním odlišných projevů, norem, postojů s cílem adaptace na nové podmínky školy. (2 hodiny).</li>
+                          <li className="list-group-item">•	<b>Téma – praktické ukázky, práce s třídním kolektivem, kaziustikami.</b>  Komunikace se žákem s OMJ. Pro praktické ukázky bude využita metoda hraní rolí, vedení rozhovoru a další interaktivní techniky a zásady práce v rámci třídního kolektivu za účelem zapojení žáků s OMJ a jinými životními a kulturními podmínkami. Osvědčené strategie pro vytvoření prostředí podporujícího všechny žáky, zaměření na jednotlivé situace, problémy, vlastní kazuistiky. (2 hodiny)</li>
+                        </ul></div>
+                      </LiFile>
+                      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesic1" aria-expanded="false" aria-controls="collapsesic1">Klima třídy se žáky s odlišným mateřským jazykem -webinář
       </b>(8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, asistenti, od srpna 2022)
         <div className="collapse " id="collapsesic1"><ul className="list-group">
-          <b>Blok 1 (2 vyučovací hodiny – 90 minut)</b><br />
-          Téma – Základní sociální potřeby žáků s OMJ, jinými životními a kulturními potřebami<br />
-          Základní sociální potřeby:<br />
-          Potřeba místa, bezpečí, podnětu,<br />
-          potřeba péče, výživy, dále potřeby podpory a sociálních limitů.<br />
-          Důsledky nenaplňování potřeb a jejich vliv na chování žáků v rámci dané třídy, školy.<br />
-          Dopady procesu psychického a fyzického vývoje a spojené se změnou životních podmínek a jejich vliv na chování žáka v podmínkách školy, přístup k pravidlům, normám a jejich respektování.<br />
-          <br />
-          <b>Blok 2 (2 vyučovací hodiny – 90 minut)</b><br />
-          Téma – žák s OMJ a jinými životními a kulturními podmínkami, vliv na klima třídy.<br />
-          Pravidla a zásady vedení třídního kolektivu.<br />
-          Práce s tvarem třídy – konformita a normy konkrétního třídního kolektivu – příprava, hranice, rizika a zdroje.<br />
-          Role žáka ve třídě, zapojení žáka s OMJ do třídního kolektivu. Posilování pozitivních vazeb.<br />
-          Regulace chování ve skupině.<br />
-          <br />
-          <b>Blok 3 (2 vyučovací hodiny – 90 minut)</b><br />
-          Téma – Práce s pocity žáků s OMJ a jako prevence kázeňských problémů.<br />
-          Možnosti diferencovaného vzdělávání<br />
-          Školní prostředí a střídání rolí.<br />
-          Možnosti chování, projevy žáků, zapojení do školního kolektivu, řešení projevu „odlišnosti“ s respektováním odlišných projevů, norem, postojů s cílem adaptace na nové podmínky školy.<br />
-          <br />
-          <b>Blok 4 (2 vyučovací hodiny – 90 minut)</b><br />
-          Téma – praktické ukázky, práce s třídním kolektivem, kaziustikami<br />
-          Komunikace se žákem s OMJ.<br />
-          Pro praktické ukázky bude využita metoda hraní rolí, vedení rozhovoru a další interaktivní techniky a zásady práce v rámci třídního kolektivu za účelem zapojení žáků s OMJ a jinými životními a kulturními podmínkami.<br />
-          Osvědčené strategie pro vytvoření prostředí podporujícího všechny žáky, zaměření na jednotlivé situace, problémy, vlastní kazuistiky.<br />
+                          <b>Blok 1 (2 vyučovací hodiny – 90 minut)</b><br />
+                          Téma – Základní sociální potřeby žáků s OMJ, jinými životními a kulturními potřebami<br />
+                          Základní sociální potřeby:<br />
+                          Potřeba místa, bezpečí, podnětu,<br />
+                          potřeba péče, výživy, dále potřeby podpory a sociálních limitů.<br />
+                          Důsledky nenaplňování potřeb a jejich vliv na chování žáků v rámci dané třídy, školy.<br />
+                          Dopady procesu psychického a fyzického vývoje a spojené se změnou životních podmínek a jejich vliv na chování žáka v podmínkách školy, přístup k pravidlům, normám a jejich respektování.<br />
+                          <br />
+                          <b>Blok 2 (2 vyučovací hodiny – 90 minut)</b><br />
+                          Téma – žák s OMJ a jinými životními a kulturními podmínkami, vliv na klima třídy.<br />
+                          Pravidla a zásady vedení třídního kolektivu.<br />
+                          Práce s tvarem třídy – konformita a normy konkrétního třídního kolektivu – příprava, hranice, rizika a zdroje.<br />
+                          Role žáka ve třídě, zapojení žáka s OMJ do třídního kolektivu. Posilování pozitivních vazeb.<br />
+                          Regulace chování ve skupině.<br />
+                          <br />
+                          <b>Blok 3 (2 vyučovací hodiny – 90 minut)</b><br />
+                          Téma – Práce s pocity žáků s OMJ a jako prevence kázeňských problémů.<br />
+                          Možnosti diferencovaného vzdělávání<br />
+                          Školní prostředí a střídání rolí.<br />
+                          Možnosti chování, projevy žáků, zapojení do školního kolektivu, řešení projevu „odlišnosti“ s respektováním odlišných projevů, norem, postojů s cílem adaptace na nové podmínky školy.<br />
+                          <br />
+                          <b>Blok 4 (2 vyučovací hodiny – 90 minut)</b><br />
+                          Téma – praktické ukázky, práce s třídním kolektivem, kaziustikami<br />
+                          Komunikace se žákem s OMJ.<br />
+                          Pro praktické ukázky bude využita metoda hraní rolí, vedení rozhovoru a další interaktivní techniky a zásady práce v rámci třídního kolektivu za účelem zapojení žáků s OMJ a jinými životními a kulturními podmínkami.<br />
+                          Osvědčené strategie pro vytvoření prostředí podporujícího všechny žáky, zaměření na jednotlivé situace, problémy, vlastní kazuistiky.<br />
 
-        </ul></div>
-      </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesic1" aria-expanded="false" aria-controls="collapsesic1">Jak pracovat se žákem s odlišnými kulturními podmínkami–SŠ 8
+                        </ul></div>
+                      </LiFile>
+                      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesic1" aria-expanded="false" aria-controls="collapsesic1">Jak pracovat se žákem s odlišnými kulturními podmínkami–SŠ 8
       </b>(8 hod, akreditováno pro SŠ, VOŠ, asistenti)
         <div className="collapse " id="collapsesic1"><ul className="list-group">
-          <li className="list-group-item">•	Téma - teoretická část. Společné vzdělávání na středních školách a možnosti vzdělávání žáků s OMJ na těchto školách v souladu s platnými přepisy-Vyhláška 27/2016 Sb., ve znění pozdějších předpisů. Vymezení pojmů: odlišné kulturní a jiných životní podmínky: vymezení pojetí „kultura“ a „životní“, hledání terminologických ekvivalentů. Struktura podpůrných opatření, možnosti podpůrných opatření se zaměřením na žáky s OMJ a jinými životními a kulturními podmínkami. (2 hodiny)</li>
-          <li className="list-group-item">•	Téma - možnosti pedagogické diagnostiky. terminologie „vzdělání“ a „vzdělávání „ kompetence pedagogického pracovníka v procesu vzdělávání.  sociální a společenské otázky v procesu školního vzdělávání žáků s OMJ, charakteristika žáka, vývoj základních schopností a dovedností, specifika daného věku, principy a příčiny chování žáků v závislosti na prostředí, ve kterém žák vyrůstal a ovlivnilo jeho chování ve školním prostředí, základní možnosti pedagogické diagnostiky, vhodnost pro stanovení cílů, metod a forem práce v rámci prvního stupně podpůrného opatření, stanovení cílů, způsob konkretizace cílů s dopadem na využití potenciálů žáka s OMJ, komunikace a porozumění žáku s OMJ, / respekt, komunikace, hodnotový systém, individualita, empatie, stres a reakce na něj, úcta, budování pravidel osobních i skupinových a jejich dodržování, …/ (2 hodiny).</li>
-          <li className="list-group-item">•	Téma - práce s PLPP, případně IVP, hodnocení žáka, metody a formy práce. Využití pedagogické diagnostiky ve školním prostředí, úprava právních předpisů  - v souvislosti s využitím podpůrného opatření, analýza získaných poznatků, východiska pro nastavení práce se žákem s OMJ, tvoření výchovného plánu, PLPP, IVP, práce s doporučením pro žáka se speciálně vzdělávacími potřebami a OMJ. Metodická východiska v práci učitele: zásady v edukačním procesu - stereotyp, rutinní činnosti, opakování, rozvoj paměti, přiměřenost, od konkretizace po abstrakci, zpětná vazba atd. (2 hodiny)</li>
-          <li className="list-group-item">•	Téma - práce s metodickým materiálem. Příklady dobré praxe  – kazuistiky. Metodický materiál pro zjištění porozumění českému jazyku (aktivní a pasivní znalosti jazyka). Ukázka metodického materiálu, pomůcek, odkazy na doporučenou literaturu. (2 hodiny)</li>
-        </ul></div>
-      </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesic2" aria-expanded="false" aria-controls="collapsesic2">Jak ve škole pracovat se žáky cizinci
+                          <li className="list-group-item">•	Téma - teoretická část. Společné vzdělávání na středních školách a možnosti vzdělávání žáků s OMJ na těchto školách v souladu s platnými přepisy-Vyhláška 27/2016 Sb., ve znění pozdějších předpisů. Vymezení pojmů: odlišné kulturní a jiných životní podmínky: vymezení pojetí „kultura“ a „životní“, hledání terminologických ekvivalentů. Struktura podpůrných opatření, možnosti podpůrných opatření se zaměřením na žáky s OMJ a jinými životními a kulturními podmínkami. (2 hodiny)</li>
+                          <li className="list-group-item">•	Téma - možnosti pedagogické diagnostiky. terminologie „vzdělání“ a „vzdělávání „ kompetence pedagogického pracovníka v procesu vzdělávání.  sociální a společenské otázky v procesu školního vzdělávání žáků s OMJ, charakteristika žáka, vývoj základních schopností a dovedností, specifika daného věku, principy a příčiny chování žáků v závislosti na prostředí, ve kterém žák vyrůstal a ovlivnilo jeho chování ve školním prostředí, základní možnosti pedagogické diagnostiky, vhodnost pro stanovení cílů, metod a forem práce v rámci prvního stupně podpůrného opatření, stanovení cílů, způsob konkretizace cílů s dopadem na využití potenciálů žáka s OMJ, komunikace a porozumění žáku s OMJ, / respekt, komunikace, hodnotový systém, individualita, empatie, stres a reakce na něj, úcta, budování pravidel osobních i skupinových a jejich dodržování, …/ (2 hodiny).</li>
+                          <li className="list-group-item">•	Téma - práce s PLPP, případně IVP, hodnocení žáka, metody a formy práce. Využití pedagogické diagnostiky ve školním prostředí, úprava právních předpisů  - v souvislosti s využitím podpůrného opatření, analýza získaných poznatků, východiska pro nastavení práce se žákem s OMJ, tvoření výchovného plánu, PLPP, IVP, práce s doporučením pro žáka se speciálně vzdělávacími potřebami a OMJ. Metodická východiska v práci učitele: zásady v edukačním procesu - stereotyp, rutinní činnosti, opakování, rozvoj paměti, přiměřenost, od konkretizace po abstrakci, zpětná vazba atd. (2 hodiny)</li>
+                          <li className="list-group-item">•	Téma - práce s metodickým materiálem. Příklady dobré praxe  – kazuistiky. Metodický materiál pro zjištění porozumění českému jazyku (aktivní a pasivní znalosti jazyka). Ukázka metodického materiálu, pomůcek, odkazy na doporučenou literaturu. (2 hodiny)</li>
+                        </ul></div>
+                      </LiFile>
+                      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesic2" aria-expanded="false" aria-controls="collapsesic2">Jak ve škole pracovat se žáky cizinci
       </b>(8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, asistenti, od srpna 2022)
         <div className="collapse " id="collapsesic2"><ul className="list-group">
-          <b>1.	část – Asertivní chování – 3 hodiny</b><br />
-          a)	asertivní techniky–vysvětlení a nácvik jednotlivých asertivních technik v rámci komunikace s rodičem cizincem, způsoby jednání, zvládání  emocí<br />
-          b)	obrana před manipulací ze strany rodičů cizinců, přijatelný kompromis mezi oběma stranami, přijetí a poskytování konstruktivní kritiky, přijetí a poskytování pochvaly a vyjádření uznání, účinnost pochvaly<br />
-          <br />
-          <b>2.	část – Žák cizinec – 5 hod</b><br />
-          a)	úvod do problematiky vzdělávání žáků s OMJ – typy žáků, vzorce chování, obtíže při osvojování českého jazyka, …<br />
-          b)	vzdělávání cizinců z pohledu právního rámce – Školský zákon, Vyhláška č.27/2016 Sb, Metodické doporučení MŠMT, ..<br />
-          c)	metodická podpora při vzdělávání žáků cizinců - zaměření na inkluzi žáka cizince do školního prostředí<br />
-        </ul></div>
-      </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesic3" aria-expanded="false" aria-controls="collapsesic3">Jak ve škole pracovat se žáky cizinci - webinář
+                          <b>1.	část – Asertivní chování – 3 hodiny</b><br />
+                          a)	asertivní techniky–vysvětlení a nácvik jednotlivých asertivních technik v rámci komunikace s rodičem cizincem, způsoby jednání, zvládání  emocí<br />
+                          b)	obrana před manipulací ze strany rodičů cizinců, přijatelný kompromis mezi oběma stranami, přijetí a poskytování konstruktivní kritiky, přijetí a poskytování pochvaly a vyjádření uznání, účinnost pochvaly<br />
+                          <br />
+                          <b>2.	část – Žák cizinec – 5 hod</b><br />
+                          a)	úvod do problematiky vzdělávání žáků s OMJ – typy žáků, vzorce chování, obtíže při osvojování českého jazyka, …<br />
+                          b)	vzdělávání cizinců z pohledu právního rámce – Školský zákon, Vyhláška č.27/2016 Sb, Metodické doporučení MŠMT, ..<br />
+                          c)	metodická podpora při vzdělávání žáků cizinců - zaměření na inkluzi žáka cizince do školního prostředí<br />
+                        </ul></div>
+                      </LiFile>
+                      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesic3" aria-expanded="false" aria-controls="collapsesic3">Jak ve škole pracovat se žáky cizinci - webinář
       </b>  (8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, asistenti, od srpna 2022)
         <div className="collapse " id="collapsesic3">
-          <b>Blok 1 (2 vyučovací hodiny – 90 minut)</b><br />
-          Téma – Asertivní chování, 1. část<br />
-          Asertivní techniky–vysvětlení a nácvik jednotlivých asertivních technik v rámci komunikace s rodičem cizincem, způsoby jednání, zvládání  emocí<br />
-          <br />
-          <b>Blok 2 (2 vyučovací hodiny – 90 minut)</b><br />
-          Téma – Asertivní chování, 2. část<br />
-          Obrana před manipulací ze strany rodičů cizinců, přijatelný kompromis mezi oběma stranami, přijetí a poskytování konstruktivní kritiky, přijetí a poskytování pochvaly a vyjádření uznání, účinnost pochvaly.<br />
-          <br />
-          <b>Blok 3 (2 vyučovací hodiny – 90 minut)</b><br />
-          Téma – Žák cizinec, 1. část<br />
-          Úvod do problematiky vzdělávání žáků s OMJ – typy žáků, vzorce chování, obtíže při osvojování českého jazyka, … <br />
-          Vzdělávání cizinců z pohledu právního rámce – Školský zákon, Vyhláška č.27/2016 Sb, Metodické doporučení MŠMT, ..<br />
-          <br />
-          <b>Blok 4 (2 vyučovací hodiny – 90 minut)</b><br />
-          Téma – Žák cizinec, 2. část<br />
-          Metodická podpora při vzdělávání žáků cizinců - zaměření na inkluzi žáka cizince do školního prostředí<br />
-        </div>
-      </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesic4" aria-expanded="false" aria-controls="collapsesic4">Začlenění žáka cizince do třídního kolektivu
+                          <b>Blok 1 (2 vyučovací hodiny – 90 minut)</b><br />
+                          Téma – Asertivní chování, 1. část<br />
+                          Asertivní techniky–vysvětlení a nácvik jednotlivých asertivních technik v rámci komunikace s rodičem cizincem, způsoby jednání, zvládání  emocí<br />
+                          <br />
+                          <b>Blok 2 (2 vyučovací hodiny – 90 minut)</b><br />
+                          Téma – Asertivní chování, 2. část<br />
+                          Obrana před manipulací ze strany rodičů cizinců, přijatelný kompromis mezi oběma stranami, přijetí a poskytování konstruktivní kritiky, přijetí a poskytování pochvaly a vyjádření uznání, účinnost pochvaly.<br />
+                          <br />
+                          <b>Blok 3 (2 vyučovací hodiny – 90 minut)</b><br />
+                          Téma – Žák cizinec, 1. část<br />
+                          Úvod do problematiky vzdělávání žáků s OMJ – typy žáků, vzorce chování, obtíže při osvojování českého jazyka, … <br />
+                          Vzdělávání cizinců z pohledu právního rámce – Školský zákon, Vyhláška č.27/2016 Sb, Metodické doporučení MŠMT, ..<br />
+                          <br />
+                          <b>Blok 4 (2 vyučovací hodiny – 90 minut)</b><br />
+                          Téma – Žák cizinec, 2. část<br />
+                          Metodická podpora při vzdělávání žáků cizinců - zaměření na inkluzi žáka cizince do školního prostředí<br />
+                        </div>
+                      </LiFile >
+                      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesic4" aria-expanded="false" aria-controls="collapsesic4">Začlenění žáka cizince do třídního kolektivu
       </b>  (8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, asistenti, od srpna 2022)
         <div className="collapse " id="collapsesic4"><ul className="list-group">
-          <b>Teoretická část</b>   (3 vyučovací hodiny)<br />
-          a)  Principy práce třídního učitele (TU) se třídou (2h) –<br />
-          •	klima třídy, její sociální struktura, vztah atmosféry a klimatu školní třídy<br />
-          •	pedagogická diagnostika pro utváření pozitivního klimatu třídy, mapování vztahů<br />
-          b)  Třídnické práce(1h)<br />
-          •	struktura a obsah třídnických hodin (TH)<br />
-          •	význam skupinové a týmové spolupráce<br />
-          <b>Praktická část</b> (5 vyučovacíh hodin)<br />
-          Metody osobností a sociální výchovy k rozvoji etických a sociálních dovedností žáků, které jsou cíleně zaměřené na začleňování žáků cizinců do třídního kolektivu<br />
-          Nabídka aktivit je z vlastního zkušenostního dvouletého výcviku či z doporučených publikací - doc. PhDr. Soni Hermochové, CSc., doc. PhDr. Josefa Valenty, CSc., Doc. PhDr. Hany Kasíkové, CSc., Mgr. Petra Kříže a dalších):<br />
-          •	aktivity seznamovací a "rozehřívací" (ledolamky)<br />
-          •	aktivity pro rozvoj vzájemné důvěry, podpory a pomoci, empatie a návazně vytváření bezpečného prostředí<br />
-          •	aktivity vedoucí k sebepoznání, hodnocení a sebehodnocení<br />
-          •	aktivity rozvíjející komunikaci (verbální i neverbální)<br />
-          •	interaktivní hry založené na spolupráci ve skupině<br />
-          •	techniky při řešení interpersonálních konfliktů – rolové hry, dramatika<br />
-        </ul></div>
-      </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesic5" aria-expanded="false" aria-controls="collapsesic5">Začlenění žáka cizince do třídního kolektivu – webinář
+                          <b>Teoretická část</b>   (3 vyučovací hodiny)<br />
+                          a)  Principy práce třídního učitele (TU) se třídou (2h) –<br />
+                          •	klima třídy, její sociální struktura, vztah atmosféry a klimatu školní třídy<br />
+                          •	pedagogická diagnostika pro utváření pozitivního klimatu třídy, mapování vztahů<br />
+                          b)  Třídnické práce(1h)<br />
+                          •	struktura a obsah třídnických hodin (TH)<br />
+                          •	význam skupinové a týmové spolupráce<br />
+                          <b>Praktická část</b> (5 vyučovacíh hodin)<br />
+                          Metody osobností a sociální výchovy k rozvoji etických a sociálních dovedností žáků, které jsou cíleně zaměřené na začleňování žáků cizinců do třídního kolektivu<br />
+                          Nabídka aktivit je z vlastního zkušenostního dvouletého výcviku či z doporučených publikací - doc. PhDr. Soni Hermochové, CSc., doc. PhDr. Josefa Valenty, CSc., Doc. PhDr. Hany Kasíkové, CSc., Mgr. Petra Kříže a dalších):<br />
+                          •	aktivity seznamovací a "rozehřívací" (ledolamky)<br />
+                          •	aktivity pro rozvoj vzájemné důvěry, podpory a pomoci, empatie a návazně vytváření bezpečného prostředí<br />
+                          •	aktivity vedoucí k sebepoznání, hodnocení a sebehodnocení<br />
+                          •	aktivity rozvíjející komunikaci (verbální i neverbální)<br />
+                          •	interaktivní hry založené na spolupráci ve skupině<br />
+                          •	techniky při řešení interpersonálních konfliktů – rolové hry, dramatika<br />
+                        </ul></div>
+                      </LiFile >
+                      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesic5" aria-expanded="false" aria-controls="collapsesic5">Začlenění žáka cizince do třídního kolektivu – webinář
       </b>  (8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, asistenti, od srpna 2022)
         <div className="collapse " id="collapsesic5"><ul className="list-group">
-          <b>Blok 1 (2 vyučovací hodiny – 90 minut)</b><br />
-          Téma: Principy práce třídního učitele (TU) se třídou<br />
-          •	klima třídy, její sociální struktura, vztah atmosféry a klimatu školní třídy<br />
-          •	pedagogická diagnostika pro utváření pozitivního klimatu třídy, mapování vztahů<br />
-          <br />
-          <b>Blok 2 (1 vyučovací hodina – 45 minut)</b><br />
-          Téma:   Třídnické práce<br />
-          •	struktura a obsah třídnických hodin (TH)<br />
-          •	význam skupinové a týmové spolupráce<br />
-          <br />
-          Následují metody osobností a sociální výchovy k rozvoji etických a sociálních dovedností žáků, které jsou cíleně zaměřené na začleňování žáků cizinců do třídního kolektivu<br />
-          Nabídka námětů aktivit, které budou účastníkům prezentovány na webináři jsou vybrány z vlastního zkušenostního dvouletého výcviku či z doporučených publikací - doc. PhDr. Soni Hermochové, CSc., doc. PhDr. Josefa Valenty, CSc., Doc. PhDr. Hany Kasíkové, CSc., Mgr. Petra Kříže a dalších):<br />
-          Všechny aktivity jsou volené a zaměřené pro vytvoření pozitivní atmosféry ve třídě.<br />
-          U každé aktivity proběhne nejen podrobné vysvětlení cíle, obsahu, reflexe, ale důraz bude kladen i na reflexi s účastníky.<br />
-          <br />
-          <b>Blok 3 (1 vyučovací hodina – 45 minut)</b><br />
-          Téma:   praktická část 1<br />
-          •	aktivity seznamovací a "rozehřívací" (ledolamky)<br />
-          •	aktivity pro rozvoj vzájemné důvěry, podpory a pomoci, empatie a návazně vytváření bezpečného prostředí<br />
-          <br />
-          <b>Blok 4 (2 vyučovací hodiny – 90 minut)</b><br />
-          Téma:   praktická část 2<br />
-          •	aktivity vedoucí k sebepoznání, hodnocení a sebehodnocení<br />
-          •	aktivity rozvíjející komunikaci (verbální i neverbální)<br />
-          <br />
-          <b>Blok 5 (2 vyučovací hodiny – 90 minut)</b><br />
-          Téma:   praktická část 3<br />
-          •	interaktivní hry založené na spolupráci ve skupině<br />
-          •	techniky při řešení interpersonálních konfliktů – rolové hry, dramatika<br />
+                          <b>Blok 1 (2 vyučovací hodiny – 90 minut)</b><br />
+                          Téma: Principy práce třídního učitele (TU) se třídou<br />
+                          •	klima třídy, její sociální struktura, vztah atmosféry a klimatu školní třídy<br />
+                          •	pedagogická diagnostika pro utváření pozitivního klimatu třídy, mapování vztahů<br />
+                          <br />
+                          <b>Blok 2 (1 vyučovací hodina – 45 minut)</b><br />
+                          Téma:   Třídnické práce<br />
+                          •	struktura a obsah třídnických hodin (TH)<br />
+                          •	význam skupinové a týmové spolupráce<br />
+                          <br />
+                          Následují metody osobností a sociální výchovy k rozvoji etických a sociálních dovedností žáků, které jsou cíleně zaměřené na začleňování žáků cizinců do třídního kolektivu<br />
+                          Nabídka námětů aktivit, které budou účastníkům prezentovány na webináři jsou vybrány z vlastního zkušenostního dvouletého výcviku či z doporučených publikací - doc. PhDr. Soni Hermochové, CSc., doc. PhDr. Josefa Valenty, CSc., Doc. PhDr. Hany Kasíkové, CSc., Mgr. Petra Kříže a dalších):<br />
+                          Všechny aktivity jsou volené a zaměřené pro vytvoření pozitivní atmosféry ve třídě.<br />
+                          U každé aktivity proběhne nejen podrobné vysvětlení cíle, obsahu, reflexe, ale důraz bude kladen i na reflexi s účastníky.<br />
+                          <br />
+                          <b>Blok 3 (1 vyučovací hodina – 45 minut)</b><br />
+                          Téma:   praktická část 1<br />
+                          •	aktivity seznamovací a "rozehřívací" (ledolamky)<br />
+                          •	aktivity pro rozvoj vzájemné důvěry, podpory a pomoci, empatie a návazně vytváření bezpečného prostředí<br />
+                          <br />
+                          <b>Blok 4 (2 vyučovací hodiny – 90 minut)</b><br />
+                          Téma:   praktická část 2<br />
+                          •	aktivity vedoucí k sebepoznání, hodnocení a sebehodnocení<br />
+                          •	aktivity rozvíjející komunikaci (verbální i neverbální)<br />
+                          <br />
+                          <b>Blok 5 (2 vyučovací hodiny – 90 minut)</b><br />
+                          Téma:   praktická část 3<br />
+                          •	interaktivní hry založené na spolupráci ve skupině<br />
+                          •	techniky při řešení interpersonálních konfliktů – rolové hry, dramatika<br />
 
-        </ul></div>
-      </LiFile >
+                        </ul></div>
+                      </LiFile >
 
-    </ul>
-  </BlockEx>
-</Panel >;
-
+                    </ul>
+                  </BlockEx>
+                </Panel >;
+                  
 var SSOstatniInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
-</div>} eventKey={2}>
-  <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Práce s diferencovanou třídou a náměty na vzdělávání 8 hod
+                    <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
+                  </div>} eventKey={2}>
+                    <BlockEx header="Nabízíme následující kurzy:">
+                      <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+                        <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Práce s diferencovanou třídou a náměty na vzdělávání 8 hod
       </b>(8 hod, akreditováno pro SŠ, VOŠ, ZŠ, asistenti)
         <div className="collapse " id="collapsesnt1"><ul className="list-group"><li className="list-group-item">•	<b>Téma </b> – Legislativní rámec. Školský zákon a Vyhláška 27/2016. Podpůrné opatření, možnosti úpravy obsahu a výstupů v souladu s legislativou.  Vymezení základních pojmů nadání. RVP pro základní školy, kompetence, výstupy, učivo v kontextu s prací s žáka s potřebou podpůrných opatření. (1 hodina)</li>
-          <li className="list-group-item">•	<b>Téma Základní pojmy 1. část.</b> Základní pojmy: Heterogenní skupina, diverzita. Diferencované vzdělávání podle kritérii a možností žáka. (1 hodina)</li>
-          <li className="list-group-item">•	<b>Téma Základní pojmy 2. část.</b> Možnosti diferencovaného vyučování, pedagogická diagnostika jako součást volby vhodných metod a forem práce s diferencovanou skupinou.  Ukázka diagnostických metod. (1 hodina) </li>
-          <li className="list-group-item">•	<b>Téma – Principy práce s diferencovanou třídou</b>, 1. část. Teoretické ukotvení tématu. Možnosti diferenciace - navýšení času.  Ukázka možností efektivního času. Ukázka pracovních listů a práce s diferencovanou skupinou od žáků mimořádně nadaných, přes žáky se speciálně vzdělávacími potřebami /dále jen SVP/ (1 hodina)</li>
-          <li className="list-group-item">•	<b>Téma – Principy práce s diferencovanou třídou</b>, 2. část. Možnosti diferenciace - rozsah práce, obtížnost úkolů. Ukázka možností procvičování podle možností a schopností žáků, možnosti ověřování učiva a úrovně, rozsahu, četnosti úkolů stejného typu. Ukázka práce, nabídka metodických materiálů. Práce s pracovním materiálem. Možnosti zařazování obtížnější úrovně základního učiva. (1 hodina)</li>
-          <li className="list-group-item">•	<b>Téma – Principy práce s diferencovanou třídou</b>, 3. část. Další způsoby práce s diferencovanou skupinou. Ukázka diferencovaných pracovních listů např. diferencované čtení, ukázka pracovních listů z matematiky - základní a zkrácená verze, diferencovaný diktát, upravené texty, bonusové a prémiové úkoly pro žáky nadané, mimořádně nadané. Skupinová práce s homogenní a heterogenní skupinou. Organizace diferencovaného vyučování ve vyučovací hodině. Hodnocení žáků a motivace žáků k diferencované práci. Sumativní a formativní hodnocení, autonomní, heteronomní hodnocení. (2 hodiny)</li>
-          <li className="list-group-item">•	<b>Téma – Ukázka inspirativních úloh</b>.  Možnosti obohacení učiva, inspirativní úlohy vhodné pro rozvoj rozumového nadání. (1 hodina)</li>
-        </ul></div>
-      </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesskp2" aria-expanded="false" aria-controls="collapsesskp2">Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje na SŠ
+                            <li className="list-group-item">•	<b>Téma Základní pojmy 1. část.</b> Základní pojmy: Heterogenní skupina, diverzita. Diferencované vzdělávání podle kritérii a možností žáka. (1 hodina)</li>
+                            <li className="list-group-item">•	<b>Téma Základní pojmy 2. část.</b> Možnosti diferencovaného vyučování, pedagogická diagnostika jako součást volby vhodných metod a forem práce s diferencovanou skupinou.  Ukázka diagnostických metod. (1 hodina) </li>
+                            <li className="list-group-item">•	<b>Téma – Principy práce s diferencovanou třídou</b>, 1. část. Teoretické ukotvení tématu. Možnosti diferenciace - navýšení času.  Ukázka možností efektivního času. Ukázka pracovních listů a práce s diferencovanou skupinou od žáků mimořádně nadaných, přes žáky se speciálně vzdělávacími potřebami /dále jen SVP/ (1 hodina)</li>
+                            <li className="list-group-item">•	<b>Téma – Principy práce s diferencovanou třídou</b>, 2. část. Možnosti diferenciace - rozsah práce, obtížnost úkolů. Ukázka možností procvičování podle možností a schopností žáků, možnosti ověřování učiva a úrovně, rozsahu, četnosti úkolů stejného typu. Ukázka práce, nabídka metodických materiálů. Práce s pracovním materiálem. Možnosti zařazování obtížnější úrovně základního učiva. (1 hodina)</li>
+                            <li className="list-group-item">•	<b>Téma – Principy práce s diferencovanou třídou</b>, 3. část. Další způsoby práce s diferencovanou skupinou. Ukázka diferencovaných pracovních listů např. diferencované čtení, ukázka pracovních listů z matematiky - základní a zkrácená verze, diferencovaný diktát, upravené texty, bonusové a prémiové úkoly pro žáky nadané, mimořádně nadané. Skupinová práce s homogenní a heterogenní skupinou. Organizace diferencovaného vyučování ve vyučovací hodině. Hodnocení žáků a motivace žáků k diferencované práci. Sumativní a formativní hodnocení, autonomní, heteronomní hodnocení. (2 hodiny)</li>
+                            <li className="list-group-item">•	<b>Téma – Ukázka inspirativních úloh</b>.  Možnosti obohacení učiva, inspirativní úlohy vhodné pro rozvoj rozumového nadání. (1 hodina)</li>
+                          </ul></div>
+                        </LiFile>
+                        <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesskp2" aria-expanded="false" aria-controls="collapsesskp2">Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje na SŠ
       </b>(8 hod, akreditováno pro SŠ, VOŠ)
                         <div className="collapse " id="collapsesskp2">
-          <b>LEGISLATIVNÍ RÁMEC</b><br />
-          •	Nová legislativa - Školský zákon a Vyhláška 27/2016 k rozvoji nadaných a mimořádně nadaných žáků. Vymezení základních pojmů nadání. RVP pro gymnázia a daný typ střední školy v kontextu s rozvoje nadání. (1 hodina)<br />
-          <b>ZÁKLADNÍ POJMY</b><br />
-          •	Základní pojmy z hlediska psychologické diagnostiky. Typologie nadání z hlediska psychologie. Typologie nadaných z hlediska projevů chování (1 hodina)<br />
-          •	Možnosti a význam pedagogické diagnostiky, ukázka diagnostických metod. (1 hodina)<br />
-          <b>PRINCIPY PRÁCE S NADANÝM A MIMOŘÁDNĚ NADANÝM ŽÁKEM</b><br />
-          •	Charakteristické znaky osobitosti nadaných a mimořádně nadaných žáků. Odlišnosti ve vnímání a zpracování podnětů, v myšlení a prožívání.  Seznámení s různými přístupy k rozvoji nadání (1 hodina)<br />
-          •	Základní principy v práci s nadanými a mimořádně nadanými žáky, případně s žáky s dvojí výjimečností. Možnosti jejich dalšího rozvoje rozumových schopností jako i jejich sociálně emočních kompetencí v rámci daného stupně vzdělávání. (1 hodina)<br />
-          •	IVP, úpravy vzdělávacích obsahů a výstupů. Možnosti hodnocení žáků nadaných a mimořádně nadaných. Seznámení s terminologií, její aplikace v praxi. Sumativní, formativní hodnocení, autonomní, heteronomní hodnocení (2 hodiny)<br />
-          <b>Téma –  UKÁZKA INPIRATIVNÍCH ÚLOH</b><br />
-          •	Možnosti obohacení učiva, inspirativní úlohy vhodné pro rozvoj rozumového nadání. (1 hodina)<br />
-        </div>
-      </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesskp3" aria-expanded="false" aria-controls="collapsesskp3">Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje-webinář
+                            <b>LEGISLATIVNÍ RÁMEC</b><br />
+                            •	Nová legislativa - Školský zákon a Vyhláška 27/2016 k rozvoji nadaných a mimořádně nadaných žáků. Vymezení základních pojmů nadání. RVP pro gymnázia a daný typ střední školy v kontextu s rozvoje nadání. (1 hodina)<br />
+                            <b>ZÁKLADNÍ POJMY</b><br />
+                            •	Základní pojmy z hlediska psychologické diagnostiky. Typologie nadání z hlediska psychologie. Typologie nadaných z hlediska projevů chování (1 hodina)<br />
+                            •	Možnosti a význam pedagogické diagnostiky, ukázka diagnostických metod. (1 hodina)<br />
+                            <b>PRINCIPY PRÁCE S NADANÝM A MIMOŘÁDNĚ NADANÝM ŽÁKEM</b><br />
+                            •	Charakteristické znaky osobitosti nadaných a mimořádně nadaných žáků. Odlišnosti ve vnímání a zpracování podnětů, v myšlení a prožívání.  Seznámení s různými přístupy k rozvoji nadání (1 hodina)<br />
+                            •	Základní principy v práci s nadanými a mimořádně nadanými žáky, případně s žáky s dvojí výjimečností. Možnosti jejich dalšího rozvoje rozumových schopností jako i jejich sociálně emočních kompetencí v rámci daného stupně vzdělávání. (1 hodina)<br />
+                            •	IVP, úpravy vzdělávacích obsahů a výstupů. Možnosti hodnocení žáků nadaných a mimořádně nadaných. Seznámení s terminologií, její aplikace v praxi. Sumativní, formativní hodnocení, autonomní, heteronomní hodnocení (2 hodiny)<br />
+                            <b>Téma –  UKÁZKA INPIRATIVNÍCH ÚLOH</b><br />
+                            •	Možnosti obohacení učiva, inspirativní úlohy vhodné pro rozvoj rozumového nadání. (1 hodina)<br />
+                          </div>
+                        </LiFile>
+                        <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesskp3" aria-expanded="false" aria-controls="collapsesskp3">Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje-webinář
       </b>(8 hod, akreditováno pro SŠ, VOŠ, ZŠ, od srpna 2022)
         <div className="collapse " id="collapsesskp3">
-          <b>Blok 1 (1 vyučovací hodina – 45 minut)</b><br />
-          Téma – Legislativní rámec <br />
-          Nová legislativa - Školský zákon a Vyhláška 27/2016 k rozvoji nadaných a mimořádně nadaných žáků. Vymezení základních pojmů nadání.<br />
-          RVP pro daný typ školy v kontextu s rozvoje nadání.<br />
+                            <b>Blok 1 (1 vyučovací hodina – 45 minut)</b><br />
+                            Téma – Legislativní rámec <br />
+                            Nová legislativa - Školský zákon a Vyhláška 27/2016 k rozvoji nadaných a mimořádně nadaných žáků. Vymezení základních pojmů nadání.<br />
+                            RVP pro daný typ školy v kontextu s rozvoje nadání.<br />
 
-          <b>Blok 2 (2 vyučovací hodiny – 90 minut)</b><br />
-          Téma – Základní pojmy<br />
-          Základní pojmy z hlediska psychologické diagnostiky. <br />
-          Typologie nadání z hlediska psychologie. Typologie nadaných z hlediska projevů chování.<br />
-          Možnosti a význam pedagogické diagnostiky, ukázka diagnostických metod.<br />
+                            <b>Blok 2 (2 vyučovací hodiny – 90 minut)</b><br />
+                            Téma – Základní pojmy<br />
+                            Základní pojmy z hlediska psychologické diagnostiky. <br />
+                            Typologie nadání z hlediska psychologie. Typologie nadaných z hlediska projevů chování.<br />
+                            Možnosti a význam pedagogické diagnostiky, ukázka diagnostických metod.<br />
 
-          <b>Blok 3 (2 vyučovací hodiny – 90 minut)</b><br />
-          Téma – Principy práce s nadaným a mimořádně nadaným žákem 1. část<br />
-          -	Charakteristické znaky osobitosti nadaných a mimořádně nadaných žáků. Odlišnosti ve vnímání a zpracování podnětů, v myšlení a prožívání. <br />
-          -	Seznámení s různými přístupy k rozvoji nadání <br />
-          -	Základní principy v práci s nadanými a mimořádně nadanými žáky, případně s žáky s dvojí výjimečností. Možnosti jejich dalšího rozvoje rozumových schopností jako i jejich sociálně emočních kompetencí v rámci daného stupně vzdělávání.<br />
+                            <b>Blok 3 (2 vyučovací hodiny – 90 minut)</b><br />
+                            Téma – Principy práce s nadaným a mimořádně nadaným žákem 1. část<br />
+                            -	Charakteristické znaky osobitosti nadaných a mimořádně nadaných žáků. Odlišnosti ve vnímání a zpracování podnětů, v myšlení a prožívání. <br />
+                            -	Seznámení s různými přístupy k rozvoji nadání <br />
+                            -	Základní principy v práci s nadanými a mimořádně nadanými žáky, případně s žáky s dvojí výjimečností. Možnosti jejich dalšího rozvoje rozumových schopností jako i jejich sociálně emočních kompetencí v rámci daného stupně vzdělávání.<br />
 
-          <b>Blok 4 (2 vyučovací hodiny – 90 minut)</b><br />
-          Téma – Principy práce s nadaným a mimořádně nadaným žákem 2. část<br />
-          IVP, úpravy vzdělávacích obsahů a výstupů. <br />
-          Možnosti hodnocení žáků nadaných a mimořádně nadaných. Seznámení s terminologií, její aplikace v praxi. <br />
-          Sumativní, formativní hodnocení, autonomní, heteronomní hodnocení.<br />
+                            <b>Blok 4 (2 vyučovací hodiny – 90 minut)</b><br />
+                            Téma – Principy práce s nadaným a mimořádně nadaným žákem 2. část<br />
+                            IVP, úpravy vzdělávacích obsahů a výstupů. <br />
+                            Možnosti hodnocení žáků nadaných a mimořádně nadaných. Seznámení s terminologií, její aplikace v praxi. <br />
+                            Sumativní, formativní hodnocení, autonomní, heteronomní hodnocení.<br />
 
-          <b>Blok 5 (1 vyučovací hodina – 45 minut)</b><br />
-          Téma – Ukázka inspirativních úloh<br />
-          Možnosti obohacení učiva, inspirativní úlohy vhodné pro rozvoj rozumového nadání. (1 hodina)<br />
+                            <b>Blok 5 (1 vyučovací hodina – 45 minut)</b><br />
+                            Téma – Ukázka inspirativních úloh<br />
+                            Možnosti obohacení učiva, inspirativní úlohy vhodné pro rozvoj rozumového nadání. (1 hodina)<br />
 
-        </div>
-      </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Klima třídy a vedení třídnické hodiny v rámci inkluze - SŠ
+                          </div>
+                        </LiFile>
+                        <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Klima třídy a vedení třídnické hodiny v rámci inkluze - SŠ
       </b>(8 hod, akreditováno pro SŠ, VOŠ)
         <div className="collapse " id="collapsesnt1"><ul className="list-group"><li className="list-group-item">•	<b>Téma – Vedení třídního kolektivu v souladu s podpůrným opatřením a doporučením ke vzdělávání žáků</b> . Společné vzdělávání na středních školách, typy středních škol a odborných učilišť a možnosti vzdělávání žáků na těchto školách v souladu s platnými přepisy-Vyhláška 27/2016 Sb. - Struktura podpůrných opatření a jejich členění do pěti stupňů se zaměřením na podporu klimatu třídy. (1 hodina)</li>
-          <li className="list-group-item">•	<b>Téma - Třídní kolektiv, možnosti vedení třídního kolektivu</b> . Základní pravidla pro fungující třídní kolektiv: Cíle práce se třídou, jak najít cíl a proč?, Třídnické hodiny / jejich nastavení, struktura, co je a není vhodné/, Práce s tvarem třídy /skupiny, dvojice, jednotlivci/, Témata na třídnické hodiny / komunikace, empatie, úcta, respekt…/, Regulace chování ve skupině (3 hodiny)</li>
-          <li className="list-group-item">•	<b>Téma - Autenticita pedagoga, sebereflexe pedagoga, sebehodnocení. Kategorie a formy diagnostiky ve školním prostředí </b> - souvislost s úpravou právních předpisů - jak v souvislosti s využitím podpůrného opatření . Pozorování žáků a jeho zaznamenání: analýza získaných poznatků, další nástroje pedagogické diagnostiky, východiska pro nastavení práce s třídním kolektivem, možnosti nastavení podmínek v rámci třídního kolektivu (2 hodiny)</li>
-          <li className="list-group-item">•	<b>Téma – supervize, její význam a cíl</b> . Východiska pro hodnocení : kultura vysokých očekávání, Osvědčené strategie pro vytvoření prostředí podporujícího všechny žáky, Sebezkušenostní část vzdělávacího programu. / zaměření na jednotlivé situace, problémy, kauzistiky/ (2 hodiny)</li>
-        </ul></div>
-      </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Podpora žáků SŠ v rámci inkluze
+                            <li className="list-group-item">•	<b>Téma - Třídní kolektiv, možnosti vedení třídního kolektivu</b> . Základní pravidla pro fungující třídní kolektiv: Cíle práce se třídou, jak najít cíl a proč?, Třídnické hodiny / jejich nastavení, struktura, co je a není vhodné/, Práce s tvarem třídy /skupiny, dvojice, jednotlivci/, Témata na třídnické hodiny / komunikace, empatie, úcta, respekt…/, Regulace chování ve skupině (3 hodiny)</li>
+                            <li className="list-group-item">•	<b>Téma - Autenticita pedagoga, sebereflexe pedagoga, sebehodnocení. Kategorie a formy diagnostiky ve školním prostředí </b> - souvislost s úpravou právních předpisů - jak v souvislosti s využitím podpůrného opatření . Pozorování žáků a jeho zaznamenání: analýza získaných poznatků, další nástroje pedagogické diagnostiky, východiska pro nastavení práce s třídním kolektivem, možnosti nastavení podmínek v rámci třídního kolektivu (2 hodiny)</li>
+                            <li className="list-group-item">•	<b>Téma – supervize, její význam a cíl</b> . Východiska pro hodnocení : kultura vysokých očekávání, Osvědčené strategie pro vytvoření prostředí podporujícího všechny žáky, Sebezkušenostní část vzdělávacího programu. / zaměření na jednotlivé situace, problémy, kauzistiky/ (2 hodiny)</li>
+                          </ul></div>
+                        </LiFile>
+                        <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Podpora žáků SŠ v rámci inkluze
       </b>  (8 hod, akreditováno pro SŠ, VOŠ, DM, asistenti)
          <div className="collapse " id="collapsesnt1"><ul className="list-group">
-          <li className="list-group-item">•	<b>Téma - Struktura podpůrných opatření a práce se zaměřením na PO 1. stupně /individualizace - PLPP/</b>. Společné vzdělávání na středních školách, typy středních škol, odborných učilišť a možnosti vzdělávání žáků na těchto školách v souladu s platnými přepisy, vyhláška 27/2016 Sb. o vzdělávání žáků se speciálními vzdělávacími potřebami a žáků nadaných, školský zákon, RVP pro daný typ střední školy, Struktura podpůrných opatření a jejich členění do pěti stupňů, podpůrná opatření prvního stupně (příloha č. 1 vyhlášky č. 27/2016 Sb.), úpravy ŠVP a jeho charakteristika v souvislosti s vytvářením, realizací a vyhodnocováním PLPP (1 hodina)</li>
-          <li className="list-group-item">•	<b>PO 1. stupně  - individualizace x  PLPP: možnosti  PO 1. stupně na ŠŠ, charakteristika PO 1. stupně, </b> - prostředky PO 1.stupně, příklady individualizace výuky, příklady diferenciace výuky, účel PLPP, struktura daná právními předpisy a porozumění jednotlivým částem v souvislostech, jak pracovat s formulářem při tvorbě PLPP, jak získávat podklady pro vytváření PLPP a pro jeho vyhodnocování , interaktivní formuláře jako pomoc pedagogům a jejich využití (2 hodiny)</li>
-          <li className="list-group-item">•	<b>Pedagogická diagnostika jako prostředek pro nastavení PLPP, příp. IVP</b>: kategorie a formy diagnostiky ve školním prostředí, souvislosti s úpravou právních předpisů - jak v souvislosti s využitím podpůrného opatření PLPP, příp. IVP. Pozorování žáků a jeho zaznamenání: analýza získaných poznatků, další nástroje pedagogické diagnostiky, východiska pro nastavení PO, možnosti nastavení podmínek v rámci vyučovací hodiny (2 hodiny)</li>
-          <li className="list-group-item">•	<b>Tvorba IVP, PLPP</b>. Formulář podle přílohy vyhlášky č. 27/2016 Sb. Stanovení cílů, možné úpravy obsahů a výstupů vzdělávání, využití PLPP při spolupráci se školským poradenským zařízením v případě nutnosti využít vyšších stupňů podpory. Zpětná vazba, vyhodnocení (1 hodina)</li>
-          <li className="list-group-item">•	<b>Téma  - hodnocení žáků ve společném vzdělávání.</b> Východiska pro hodnocení: kultura vysokých očekávání, modifikace obsahů, výstupů vzdělávání a dopad do hodnocení, hodnocení a jeho dopad na žáka, hodnocení jako zpětná vazba pro učitele, sumativní a formativní způsoby hodnocení, Autonomní a heteronomní hodnocení, Osvědčené strategie pro vytvoření prostředí podporujícího všechny žáky. Úprava forem a způsobů hodnocení jako podpůrné opatření a jeho uplatňování v různých stupních podpory. (2 hodiny)</li>
-        </ul></div>
-      </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Práce se žákem SŠ s problémovým chováním
+                            <li className="list-group-item">•	<b>Téma - Struktura podpůrných opatření a práce se zaměřením na PO 1. stupně /individualizace - PLPP/</b>. Společné vzdělávání na středních školách, typy středních škol, odborných učilišť a možnosti vzdělávání žáků na těchto školách v souladu s platnými přepisy, vyhláška 27/2016 Sb. o vzdělávání žáků se speciálními vzdělávacími potřebami a žáků nadaných, školský zákon, RVP pro daný typ střední školy, Struktura podpůrných opatření a jejich členění do pěti stupňů, podpůrná opatření prvního stupně (příloha č. 1 vyhlášky č. 27/2016 Sb.), úpravy ŠVP a jeho charakteristika v souvislosti s vytvářením, realizací a vyhodnocováním PLPP (1 hodina)</li>
+                            <li className="list-group-item">•	<b>PO 1. stupně  - individualizace x  PLPP: možnosti  PO 1. stupně na ŠŠ, charakteristika PO 1. stupně, </b> - prostředky PO 1.stupně, příklady individualizace výuky, příklady diferenciace výuky, účel PLPP, struktura daná právními předpisy a porozumění jednotlivým částem v souvislostech, jak pracovat s formulářem při tvorbě PLPP, jak získávat podklady pro vytváření PLPP a pro jeho vyhodnocování , interaktivní formuláře jako pomoc pedagogům a jejich využití (2 hodiny)</li>
+                            <li className="list-group-item">•	<b>Pedagogická diagnostika jako prostředek pro nastavení PLPP, příp. IVP</b>: kategorie a formy diagnostiky ve školním prostředí, souvislosti s úpravou právních předpisů - jak v souvislosti s využitím podpůrného opatření PLPP, příp. IVP. Pozorování žáků a jeho zaznamenání: analýza získaných poznatků, další nástroje pedagogické diagnostiky, východiska pro nastavení PO, možnosti nastavení podmínek v rámci vyučovací hodiny (2 hodiny)</li>
+                            <li className="list-group-item">•	<b>Tvorba IVP, PLPP</b>. Formulář podle přílohy vyhlášky č. 27/2016 Sb. Stanovení cílů, možné úpravy obsahů a výstupů vzdělávání, využití PLPP při spolupráci se školským poradenským zařízením v případě nutnosti využít vyšších stupňů podpory. Zpětná vazba, vyhodnocení (1 hodina)</li>
+                            <li className="list-group-item">•	<b>Téma  - hodnocení žáků ve společném vzdělávání.</b> Východiska pro hodnocení: kultura vysokých očekávání, modifikace obsahů, výstupů vzdělávání a dopad do hodnocení, hodnocení a jeho dopad na žáka, hodnocení jako zpětná vazba pro učitele, sumativní a formativní způsoby hodnocení, Autonomní a heteronomní hodnocení, Osvědčené strategie pro vytvoření prostředí podporujícího všechny žáky. Úprava forem a způsobů hodnocení jako podpůrné opatření a jeho uplatňování v různých stupních podpory. (2 hodiny)</li>
+                          </ul></div>
+                        </LiFile >
+                        <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Práce se žákem SŠ s problémovým chováním
       </b>  (8 hod, akreditováno pro SŠ, DM, asistenti)
         <div className="collapse " id="collapsesnt1"><ul className="list-group">
-          <li className="list-group-item">•	<b>Téma – Základní sociální potřeby žáků střední školy.</b> Základní sociální potřeby: Potřeba místa, bezpečí, podnětu, potřeba péče, výživy, dále potřeby podpory a sociálních limitů. Důsledky nenaplňování potřeb a jejich vliv na chování žáků střední školy. Dopady procesu psychického a fyzického vývoje na chování žáka v podmínkách střední školy (2 hodiny)</li>
-          <li className="list-group-item">•	<b>Téma – žák s problémovým chováním ve třídě, projevy chování žáků s poruchami chování, vliv na klima třídy</b>. Etické vedení dialogu se žákem. Pravidla a zásady vedení třídniho kolektivu Práce s tvarem třídy - konformita a normy konkrétního třídního kolektivu - příprava, hranice, rizika a zdroje. Výhody a nevýhody nepsaných norem třídního kolektivu. Role žáka ve třídě. Posilování pozitivních vazeb. Regulace chování ve skupině. (2 hodiny)</li>
-          <li className="list-group-item">•	<b>Téma – Práce s pocity žáků jako prevence kázeňských problémů</b>. Školní prostředí a střídání rolí. Typy kázeňských přestupů a možnosti řešení kázeňských přestupků ve školní třídě v součinnosti se školním řádem a platnou legislativou. Komunikace s problémovým rodičem a jeho specifika - vhodné a nevhodné komunikační kanály. (2 hodiny)</li>
-          <li className="list-group-item">•	<b>Téma – praktické ukázky řešení přestupků. Komunikace s verbálně agresivním žákem</b>. Zákonité fáze, postupy, změny. Šikana, její vyhledávání a řešení. Konkrétní práce se žákem s problémovým chováním, ukázka možných řešení. Osvědčené strategie pro vytvoření prostředí podporujícího všechny žáky. Sebezkušenostní část vzdělávacího programu. / zaměření na jednotlivé situace, problémy, vlastní kazuistiky/ (2 hodiny)</li>
-        </ul></div>
-      </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Sociální klima třídy a role učitele – 8 hodin
+                            <li className="list-group-item">•	<b>Téma – Základní sociální potřeby žáků střední školy.</b> Základní sociální potřeby: Potřeba místa, bezpečí, podnětu, potřeba péče, výživy, dále potřeby podpory a sociálních limitů. Důsledky nenaplňování potřeb a jejich vliv na chování žáků střední školy. Dopady procesu psychického a fyzického vývoje na chování žáka v podmínkách střední školy (2 hodiny)</li>
+                            <li className="list-group-item">•	<b>Téma – žák s problémovým chováním ve třídě, projevy chování žáků s poruchami chování, vliv na klima třídy</b>. Etické vedení dialogu se žákem. Pravidla a zásady vedení třídniho kolektivu Práce s tvarem třídy - konformita a normy konkrétního třídního kolektivu - příprava, hranice, rizika a zdroje. Výhody a nevýhody nepsaných norem třídního kolektivu. Role žáka ve třídě. Posilování pozitivních vazeb. Regulace chování ve skupině. (2 hodiny)</li>
+                            <li className="list-group-item">•	<b>Téma – Práce s pocity žáků jako prevence kázeňských problémů</b>. Školní prostředí a střídání rolí. Typy kázeňských přestupů a možnosti řešení kázeňských přestupků ve školní třídě v součinnosti se školním řádem a platnou legislativou. Komunikace s problémovým rodičem a jeho specifika - vhodné a nevhodné komunikační kanály. (2 hodiny)</li>
+                            <li className="list-group-item">•	<b>Téma – praktické ukázky řešení přestupků. Komunikace s verbálně agresivním žákem</b>. Zákonité fáze, postupy, změny. Šikana, její vyhledávání a řešení. Konkrétní práce se žákem s problémovým chováním, ukázka možných řešení. Osvědčené strategie pro vytvoření prostředí podporujícího všechny žáky. Sebezkušenostní část vzdělávacího programu. / zaměření na jednotlivé situace, problémy, vlastní kazuistiky/ (2 hodiny)</li>
+                          </ul></div>
+                        </LiFile >
+                        <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Sociální klima třídy a role učitele – 8 hodin
       </b>  (8 hod, akreditováno pro SŠ, VOŠ, ZŠ, asistenti)
         <div className="collapse " id="collapsesnt1"><ul className="list-group">
-          <b>Teoretická část  (4 vyučovací hodiny)</b><br />
-          •	Objasnění základních pojmů - klima třídy, sociální klima třídy, spolutvůrci třídního klimatu,<br />
-          •	Pedagogická diagnostika školní třídy – mechanismy, které toto klima ovlivňují, prevence vztahů, sociálně-psychologické aspekty vedení třídy, pozice a role žáka ve školní třídě<br />
-          •	Sociální klima třídy a pedagogická diagnostika<br />
-          - sběr dat, vyhodnocování, interpretace a práce s nimi<br />
-          - nejčastější chyby v sociální percepci<br />
-          <b>Praktická část (4 vyučovací hodiny)</b><br />
-          •	Nabídka činností zaměřených na podporu utváření pozitivního sociálního klimatu ve třídě<br />
-          -	účastník si prakticky ověří získané poznatky<br />
-          •	Poslední část bude věnována i dotazům a řízené diskuzi z vlastní praxe zúčastněných ped. pracovníků.<br />
-        </ul></div>
-      </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Práce s pedagogickým sborem-jak předejít syndromu vyhoření
+                            <b>Teoretická část  (4 vyučovací hodiny)</b><br />
+                            •	Objasnění základních pojmů - klima třídy, sociální klima třídy, spolutvůrci třídního klimatu,<br />
+                            •	Pedagogická diagnostika školní třídy – mechanismy, které toto klima ovlivňují, prevence vztahů, sociálně-psychologické aspekty vedení třídy, pozice a role žáka ve školní třídě<br />
+                            •	Sociální klima třídy a pedagogická diagnostika<br />
+                            - sběr dat, vyhodnocování, interpretace a práce s nimi<br />
+                            - nejčastější chyby v sociální percepci<br />
+                            <b>Praktická část (4 vyučovací hodiny)</b><br />
+                            •	Nabídka činností zaměřených na podporu utváření pozitivního sociálního klimatu ve třídě<br />
+                            -	účastník si prakticky ověří získané poznatky<br />
+                            •	Poslední část bude věnována i dotazům a řízené diskuzi z vlastní praxe zúčastněných ped. pracovníků.<br />
+                          </ul></div>
+                        </LiFile >
+                        <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Práce s pedagogickým sborem-jak předejít syndromu vyhoření
       </b>  (8 hod, akreditováno pro SŠ, VOŠ, ZŠ)
         <div className="collapse " id="collapsesnt1"><ul className="list-group">
-          <li className="list-group-item">•	<b>Téma – Práce s pedagogickým sborem - jak předejít syndromu vyhoření</b> . Klima ve škole a sborovně: Klima z hlediska - emocionálního, sociálního, pracovního. Faktory ovlivňující klima školy - přístup učitele, komunikace, metody a strategie. (2 hodiny)</li>
-          <li className="list-group-item">•	<b>Téma – Pravidla ve sborovně, pravidla ve třídě, komunikace</b> : Pravidla a zásady fungujícího kolektivu ve sborovně, vedení a zásady třídnického kolektivu. Práce se sborovnou - příprava, hranice, rizika a zdroje. Výhody a nevýhody nepsaných norem pedagogického sboru a třídního kolektivu. Role učitele ve sborovně. Posilování pozitivních vazeb. Regulace chování ve skupině. Komunikace ve sborovně. (2 hodiny)</li>
-          <li className="list-group-item">•	<b>Téma – Jak na syndrom vyhoření, antistresové a relaxační techniky</b> : Antistresové techniky využitelné pro jednotlivce i pro skupinu. Relaxační metody různých druhů. Uvědomění si sám sebe, práce na pozitivním myšlení u jednotlivce i skupiny. (1 hodina)</li>
-          <li className="list-group-item">•	<b>Téma – praktické ukázky práce se skupinou a antistresové relaxační metody</b> . Sebezkušenostní část vzdělávacího programu. Využití relaxačních metod v praxi. Ukázky jak pracovat v pedagogickém sboru či v jiném kolektivu, případně ve třídě žáků. Zapojení sebereflexe a reflexe od skupiny. (3 hodiny)</li>
-        </ul></div>
-      </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Základní kurz společného vzdělávání pro střední školy
+                            <li className="list-group-item">•	<b>Téma – Práce s pedagogickým sborem - jak předejít syndromu vyhoření</b> . Klima ve škole a sborovně: Klima z hlediska - emocionálního, sociálního, pracovního. Faktory ovlivňující klima školy - přístup učitele, komunikace, metody a strategie. (2 hodiny)</li>
+                            <li className="list-group-item">•	<b>Téma – Pravidla ve sborovně, pravidla ve třídě, komunikace</b> : Pravidla a zásady fungujícího kolektivu ve sborovně, vedení a zásady třídnického kolektivu. Práce se sborovnou - příprava, hranice, rizika a zdroje. Výhody a nevýhody nepsaných norem pedagogického sboru a třídního kolektivu. Role učitele ve sborovně. Posilování pozitivních vazeb. Regulace chování ve skupině. Komunikace ve sborovně. (2 hodiny)</li>
+                            <li className="list-group-item">•	<b>Téma – Jak na syndrom vyhoření, antistresové a relaxační techniky</b> : Antistresové techniky využitelné pro jednotlivce i pro skupinu. Relaxační metody různých druhů. Uvědomění si sám sebe, práce na pozitivním myšlení u jednotlivce i skupiny. (1 hodina)</li>
+                            <li className="list-group-item">•	<b>Téma – praktické ukázky práce se skupinou a antistresové relaxační metody</b> . Sebezkušenostní část vzdělávacího programu. Využití relaxačních metod v praxi. Ukázky jak pracovat v pedagogickém sboru či v jiném kolektivu, případně ve třídě žáků. Zapojení sebereflexe a reflexe od skupiny. (3 hodiny)</li>
+                          </ul></div>
+                        </LiFile >
+                        <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Základní kurz společného vzdělávání pro střední školy
       </b>  (8 hod, akreditováno pro SŠ, VOŠ)
      <div className="collapse " id="collapsesnt1"><ul className="list-group">
-          <li className="list-group-item">•	Úvod do společného vzdělávání, filozofie společného vzdělávání, anglický model P. Farrella, porovnání integrace a inkluze (1 hodina )</li>
-          <li className="list-group-item">•	Seznámení s § 16, 17, 18, 19 novely Školského zákona č. 82/2015 Sb., podrobný rozbor § 16, definice žáků se speciálními vzdělávacími potřebami,  vymezení pojmu nadaný žák a mimořádně nadaný žák (1 hodina)</li>
-          <li className="list-group-item">•	Podrobný rozbor textové části vyhlášky 27/2016 Sb. o vzdělávání žáků se speciálními vzdělávacími potřebami a žáků nadaných, odlišnosti pro střední školy  – (2 hodiny)</li>
-          <li className="list-group-item">•	Úprava v pojetí žáka se speciálními vzdělávacími potřebami, struktura a přehled podpůrných opatření, specifika pro střední školy (2 hodiny)</li>
-          <li className="list-group-item">•	Vzdělávání žáků podle § 16, odst. 9, možnosti vzdělávání žáků s LMP (1 hodina)</li>
-          <li className="list-group-item">•	Závěrečné shrnutí a diskuze (1 hodina)</li>
-        </ul></div>
-      </LiFile >
-    </ul >
-  </BlockEx >
-</Panel >;
-
+                            <li className="list-group-item">•	Úvod do společného vzdělávání, filozofie společného vzdělávání, anglický model P. Farrella, porovnání integrace a inkluze (1 hodina )</li>
+                            <li className="list-group-item">•	Seznámení s § 16, 17, 18, 19 novely Školského zákona č. 82/2015 Sb., podrobný rozbor § 16, definice žáků se speciálními vzdělávacími potřebami,  vymezení pojmu nadaný žák a mimořádně nadaný žák (1 hodina)</li>
+                            <li className="list-group-item">•	Podrobný rozbor textové části vyhlášky 27/2016 Sb. o vzdělávání žáků se speciálními vzdělávacími potřebami a žáků nadaných, odlišnosti pro střední školy  – (2 hodiny)</li>
+                            <li className="list-group-item">•	Úprava v pojetí žáka se speciálními vzdělávacími potřebami, struktura a přehled podpůrných opatření, specifika pro střední školy (2 hodiny)</li>
+                            <li className="list-group-item">•	Vzdělávání žáků podle § 16, odst. 9, možnosti vzdělávání žáků s LMP (1 hodina)</li>
+                            <li className="list-group-item">•	Závěrečné shrnutí a diskuze (1 hodina)</li>
+                          </ul></div>
+                        </LiFile >
+                      </ul >
+                    </BlockEx >
+                  </Panel >;
+                    
 var SSFormativniHodnoceni: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
-</div>} eventKey={2}>
+                      <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
+                    </div>} eventKey={2}>
 
-  <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Formativní hodnocení a role učitele
+                      <BlockEx header="Nabízíme následující kurzy:">
+                        <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+                          <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Formativní hodnocení a role učitele
       </b>(8 hod, akreditováno pro SŠ, VOŠ, DM, ZŠ, ŠD, asistenti)
-                                         
+                                                                         
         </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Formativní hodnocení v praxi
+                          <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Formativní hodnocení v praxi
       </b>(8 hod, akreditováno pro SŠ, ZŠ,, asistenti, od srpna 2022)
         <div className="collapse " id="collapsesnt1"><ul className="list-group"><li className="list-group-item">•	Formativní hodnocení a jeho principy (1 hod)</li>
-          <li className="list-group-item">•	Strategie formativního hodnocení, pravidla a podmínky pro poskytování formativního hodnocení (1 hod)</li>
-          <li className="list-group-item">•	Cíle učení a kritéria úspěchu a jejich tvorba (1 hod)</li>
-          <li className="list-group-item">•	Moderování třídní diskuse, komunikace, klíčové otázky, porozumění třídou (1 hod)</li>
-          <li className="list-group-item">•	Vrstevnické hodnocení a sebehodnocení, přijetí hodnocení (2 hod)</li>
-          <li className="list-group-item">•	Zásady podávání zpětné vazby ústní a písemné (1 hod)</li>
-          <li className="list-group-item">•	Přesah formativního hodnocení do osobnostního rozvoje žáka (0,5 hod)</li>
-          <li className="list-group-item">•	Diskuse účastníků, sdílení typů z praxe (0,5 hod)</li>
-        </ul></div>
-      </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Formativní hodnocení v praxi - webinář
+                              <li className="list-group-item">•	Strategie formativního hodnocení, pravidla a podmínky pro poskytování formativního hodnocení (1 hod)</li>
+                              <li className="list-group-item">•	Cíle učení a kritéria úspěchu a jejich tvorba (1 hod)</li>
+                              <li className="list-group-item">•	Moderování třídní diskuse, komunikace, klíčové otázky, porozumění třídou (1 hod)</li>
+                              <li className="list-group-item">•	Vrstevnické hodnocení a sebehodnocení, přijetí hodnocení (2 hod)</li>
+                              <li className="list-group-item">•	Zásady podávání zpětné vazby ústní a písemné (1 hod)</li>
+                              <li className="list-group-item">•	Přesah formativního hodnocení do osobnostního rozvoje žáka (0,5 hod)</li>
+                              <li className="list-group-item">•	Diskuse účastníků, sdílení typů z praxe (0,5 hod)</li>
+                            </ul></div>
+                          </LiFile >
+                          <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Formativní hodnocení v praxi - webinář
       </b>(8 hod, akreditováno pro SŠ, ZŠ, asistenti, od srpna 2022)
          <div className="collapse " id="collapsesnt1"><ul className="list-group">
-          <b>Blok 1 (2 vyučovací hodiny – 90 minut)</b><br />
-          •	Formativní hodnocení a jeho principy (1 hod)<br />
-          •	Strategie formativního hodnocení, pravidla a podmínky pro poskytování formativního hodnocení (1 hod)<br />
-          <b>Blok 2 (2 vyučovací hodiny – 90 minut)</b><br />
-          •	Cíle učení a kritéria úspěchu a jejich tvorba (1 hod)<br />
-          •	Moderování třídní diskuse, komunikace, klíčové otázky, porozumění třídou (1 hod)<br />
-          <b>Blok 3 (2 vyučovací hodiny – 90 minut)</b><br />
-          •	Vrstevnické hodnocení a sebehodnocení, přijetí hodnocení (2 hod)<br />
-          <b>Blok 4 (2 vyučovací hodiny – 90 minut)</b><br />
-          •	Zásady podávání zpětné vazby ústní a písemné (1 hod)<br />
-          •	Přesah formativního hodnocení do osobnostního rozvoje žáka (0,5 hod)<br />
-          •	Diskuse účastníků, sdílení typů z praxe (0,5 hod)<br />
-        </ul></div>
-      </LiFile >
+                              <b>Blok 1 (2 vyučovací hodiny – 90 minut)</b><br />
+                              •	Formativní hodnocení a jeho principy (1 hod)<br />
+                              •	Strategie formativního hodnocení, pravidla a podmínky pro poskytování formativního hodnocení (1 hod)<br />
+                              <b>Blok 2 (2 vyučovací hodiny – 90 minut)</b><br />
+                              •	Cíle učení a kritéria úspěchu a jejich tvorba (1 hod)<br />
+                              •	Moderování třídní diskuse, komunikace, klíčové otázky, porozumění třídou (1 hod)<br />
+                              <b>Blok 3 (2 vyučovací hodiny – 90 minut)</b><br />
+                              •	Vrstevnické hodnocení a sebehodnocení, přijetí hodnocení (2 hod)<br />
+                              <b>Blok 4 (2 vyučovací hodiny – 90 minut)</b><br />
+                              •	Zásady podávání zpětné vazby ústní a písemné (1 hod)<br />
+                              •	Přesah formativního hodnocení do osobnostního rozvoje žáka (0,5 hod)<br />
+                              •	Diskuse účastníků, sdílení typů z praxe (0,5 hod)<br />
+                            </ul></div>
+                          </LiFile >
 
-    </ul>
-  </BlockEx>
-</Panel>;
-
+                        </ul>
+                      </BlockEx>
+                    </Panel>;
+                      
 var SSGenderovaTematika: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
-</div>} eventKey={2}>
+                        <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
+                      </div>} eventKey={2}>
 
-  <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Genderová tematika na školách
+                        <BlockEx header="Nabízíme následující kurzy:">
+                          <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+                            <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Genderová tematika na školách
       </b>(8 hod, připravujeme k akreditaci pro SŠ, VOŠ, DM, ZŠ, ŠD, ŠK, SVČ, ZUŠ, asistenti)</LiFile >
 
-    </ul>
-  </BlockEx>
-</Panel>;
-
+                          </ul>
+                        </BlockEx>
+                      </Panel>;
+                        
 interface IKuryFormFormStatus {
-  email: string;
-  phone: string;
-  teachers: string;
-  //ICO: string; //e.g. 49625918
-  //RED_IZO: string; //e.g. 600000206
-  poznamka: string; //e.g. 600000206
-  //course: string;
-}
-
+                          email: string;
+                        phone: string;
+                        teachers: string;
+                        //ICO: string; //e.g. 49625918
+                        //RED_IZO: string; //e.g. 600000206
+                        poznamka: string; //e.g. 600000206
+                        //course: string;
+                      }
+                      
 class KurzyForm extends React.Component<{}, IKuryFormFormStatus> {
-  constructor(p, c) {
-    super(p, c);
-    this.state = { email: '', phone: '', teachers: '', poznamka: '' };//ICO: '', RED_IZO: '',  , course: undefined };
-  }
+                          constructor(p, c) {
+                        super(p, c);
+    this.state = {email: '', phone: '', teachers: '', poznamka: '' };//ICO: '', RED_IZO: '',  , course: undefined };
+                      }
   getValidationState(): any {
     return (this.state.email || this.state.phone) && !Number.isNaN(parseInt(this.state.teachers)) /*&& this.state.course !== undefined && (!Number.isNaN(parseInt(this.state.ICO)) || !Number.isNaN(parseInt(this.state.RED_IZO))*/ ? 'success' : 'error';
-  }
+                      }
   render(): JSX.Element {
     var th = this;
     return <div>
-      <Panel collapsible style={{ marginTop: '15px' }} bsStyle='info' header={<div className='course-header'>
-        <h2 style={{ marginTop: '0' }}><i className='fa fa-bars'></i> <span style={headerCss}>Nezávazný poptávkový formulář</span></h2>
-      </div>}>
-        <Row>
-          <Col md={6}>
-            <FormGroup controlId="email" validationState={this.getValidationState()} >
+                          <Panel collapsible style={{ marginTop: '15px' }} bsStyle='info' header={<div className='course-header'>
+                            <h2 style={{ marginTop: '0' }}><i className='fa fa-bars'></i> <span style={headerCss}>Nezávazný poptávkový formulář</span></h2>
+                          </div>}>
+                            <Row>
+                              <Col md={6}>
+                                <FormGroup controlId="email" validationState={this.getValidationState()} >
 
-              <ControlLabel>Vyplňte buďto váš email...</ControlLabel>
-              <FormControl value={this.state.email} placeholder="Napište váš email" onChange={(e: any) => { this.state.email = e.target.value; this.forceUpdate(); }} />
-            </FormGroup>
-            <hr />
-            {/*
+                                  <ControlLabel>Vyplňte buďto váš email...</ControlLabel>
+                                  <FormControl value={this.state.email} placeholder="Napište váš email" onChange={(e: any) => { this.state.email = e.target.value; this.forceUpdate(); }} />
+                                </FormGroup>
+                                <hr />
+                                {/*
             <FormGroup controlId="teachers" validationState={this.getValidationState() } >
               <ControlLabel>Vyplňte buďto vaše IČO...</ControlLabel>
               <FormControl value={this.state.ICO} placeholder="Napište IČO" onChange={(e: any) => { this.state.ICO = e.target.value; this.forceUpdate(); } } />
             </FormGroup>
             <hr/>*/}
-          </Col>
-          <Col md={6}>
-            <FormGroup controlId="tel" validationState={this.getValidationState()} >
-              <ControlLabel>...nebo vaše telefonní číslo</ControlLabel>
-              <FormControl value={this.state.phone} placeholder="Napište vaše telefonní číslo" onChange={(e: any) => { this.state.phone = e.target.value; this.forceUpdate(); }} />
-            </FormGroup>
-            <hr />
-            {/*
+                              </Col>
+                              <Col md={6}>
+                                <FormGroup controlId="tel" validationState={this.getValidationState()} >
+                                  <ControlLabel>...nebo vaše telefonní číslo</ControlLabel>
+                                  <FormControl value={this.state.phone} placeholder="Napište vaše telefonní číslo" onChange={(e: any) => { this.state.phone = e.target.value; this.forceUpdate(); }} />
+                                </FormGroup>
+                                <hr />
+                                {/*
             <FormGroup controlId="teachers" validationState={this.getValidationState() } >
               <ControlLabel>...nebo vaše RED-IZO</ControlLabel>
               <FormControl value={this.state.RED_IZO} placeholder="Napište RED-IZO" onChange={(e: any) => { this.state.RED_IZO = e.target.value; this.forceUpdate(); } } />
             </FormGroup>
             <hr/>*/}
-            {/*<FormGroup controlId="kurz" validationState={this.getValidationState() }>
+                                {/*<FormGroup controlId="kurz" validationState={this.getValidationState() }>
               <ControlLabel>Typ kurzu: </ControlLabel><br/>
               <Radio inline name="kurz" value="32" checked={this.state.course == '32'} onChange={() => { this.state.course = '32'; this.forceUpdate(); } }>
                 <b>Kurz 32 hodin</b>
@@ -1658,694 +1877,694 @@ class KurzyForm extends React.Component<{}, IKuryFormFormStatus> {
                 Kurz 16 hodin
               </Radio>
             </FormGroup>*/}
-          </Col>
-        </Row>
-        <Row>
-          <Col md={3}>
-            <FormGroup controlId="teachers" validationState={this.getValidationState()} >
-              <ControlLabel>Počet učitelů v kurzu: </ControlLabel>
-              <FormControl value={this.state.teachers} placeholder="Napište počet učitelů" onChange={(e: any) => { this.state.teachers = e.target.value; this.forceUpdate(); }} />
-            </FormGroup>
-          </Col>
-          <Col md={9}>
-            <FormGroup controlId="teachers" validationState={this.getValidationState()} >
-              <ControlLabel>Upřesnění poptávky nebo dotaz</ControlLabel>
-              <FormControl componentClass="textarea" rows={3} value={this.state.poznamka} placeholder="Napište upřesnění poptávky nebo dotaz" onChange={(e: any) => { this.state.poznamka = e.target.value; this.forceUpdate(); }} />
-            </FormGroup>
-          </Col>
-        </Row>
-        <hr />
-        <Button bsStyle='success' onClick={() => services.emailer.sendEMail({ from: '"DVPP poptávka"<poptavka@langmaster.cz>', to: 'projekt@langmaster.cz', subject: 'DVPP poptávka', body: React.createElement<IKuryFormFormStatus>(emailTemplate, this.state) }, () => alert('Děkujeme za zaslání poptávky'))}>Poslat poptávku</Button>
-      </Panel>
-    </div>;
-  }
-}
-
-
+                              </Col>
+                            </Row>
+                            <Row>
+                              <Col md={3}>
+                                <FormGroup controlId="teachers" validationState={this.getValidationState()} >
+                                  <ControlLabel>Počet učitelů v kurzu: </ControlLabel>
+                                  <FormControl value={this.state.teachers} placeholder="Napište počet učitelů" onChange={(e: any) => { this.state.teachers = e.target.value; this.forceUpdate(); }} />
+                                </FormGroup>
+                              </Col>
+                              <Col md={9}>
+                                <FormGroup controlId="teachers" validationState={this.getValidationState()} >
+                                  <ControlLabel>Upřesnění poptávky nebo dotaz</ControlLabel>
+                                  <FormControl componentClass="textarea" rows={3} value={this.state.poznamka} placeholder="Napište upřesnění poptávky nebo dotaz" onChange={(e: any) => { this.state.poznamka = e.target.value; this.forceUpdate(); }} />
+                                </FormGroup>
+                              </Col>
+                            </Row>
+                            <hr />
+                            <Button bsStyle='success' onClick={() => services.emailer.sendEMail({ from: '"DVPP poptávka"<poptavka@langmaster.cz>', to: 'projekt@langmaster.cz', subject: 'DVPP poptávka', body: React.createElement<IKuryFormFormStatus>(emailTemplate, this.state) }, () => alert('Děkujeme za zaslání poptávky'))}>Poslat poptávku</Button>
+                          </Panel>
+                        </div>;
+                      }
+                    }
+                    
+                    
 var KurzyAlert: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div className='alert alert-warning' style={{ fontSize: '18px' }}>
-  <p style={{ marginTop: '0' }}><i className='fa fa-lightbulb-o'></i> Tip: &nbsp;</p>
-  <p>
-    Pro více informací klikněte na vybrané téma nahoře na stránce.
+                          <p style={{ marginTop: '0' }}><i className='fa fa-lightbulb-o'></i> Tip: &nbsp;</p>
+                          <p>
+                            Pro více informací klikněte na vybrané téma nahoře na stránce.
   </p>
-  <p>
-    Pro získání podrobnějších informací o našich akreditovaných kurzech vyplňte a odešlete nezávazný poptávkový formulář nebo napište email na projekt@langmaster.cz.
+                          <p>
+                            Pro získání podrobnějších informací o našich akreditovaných kurzech vyplňte a odešlete nezávazný poptávkový formulář nebo napište email na projekt@langmaster.cz.
   </p>
-</div>;
-
+                        </div>;
+                          
 var BonusAlert: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div className='alert alert-warning' style={{ fontSize: '18px' }}>
-  <p style={{ marginTop: '0' }}><i className='fa fa-lightbulb-o'></i> Bonus - jazykové kurzy zdarma:</p>
-  <p>
-    Pro každého učitele je připraven bonus v podobě interaktivního jazykového kurzu zdarma.
-    V případě zájmu Vám rádi poskytneme podrobnější informace.
+                            <p style={{ marginTop: '0' }}><i className='fa fa-lightbulb-o'></i> Bonus - jazykové kurzy zdarma:</p>
+                            <p>
+                              Pro každého učitele je připraven bonus v podobě interaktivního jazykového kurzu zdarma.
+                              V případě zájmu Vám rádi poskytneme podrobnější informace.
   </p>
-</div>;
-
+                          </div>;
+                            
 var KurzySSAlert: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div className='alert alert-warning' style={{ fontSize: '18px' }}>
-  <p style={{ marginTop: '0' }}><i className='fa fa-lightbulb-o'></i> Tip: &nbsp;</p>
-  <p>
-    Pro více informací klikněte na vybrané téma nahoře na stránce.
+                              <p style={{ marginTop: '0' }}><i className='fa fa-lightbulb-o'></i> Tip: &nbsp;</p>
+                              <p>
+                                Pro více informací klikněte na vybrané téma nahoře na stránce.
   </p>
-  <p>
-    Pro získání podrobnějších informací o našich akreditovaných kurzech vyplňte a odešlete nezávazný poptávkový formulář nebo napište email na projekt@langmaster.cz.
+                              <p>
+                                Pro získání podrobnějších informací o našich akreditovaných kurzech vyplňte a odešlete nezávazný poptávkový formulář nebo napište email na projekt@langmaster.cz.
   </p>
-</div>;
-
+                            </div>;
+                              
 var KurzyIIAlert: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div className='alert alert-warning' style={{ fontSize: '18px' }}>
-  <p style={{ marginTop: '0' }}><i className='fa fa-lightbulb-o'></i> Tip: &nbsp;</p>
-  <p>
-    Pro více informací klikněte na vybrané téma nahoře na stránce.
+                                <p style={{ marginTop: '0' }}><i className='fa fa-lightbulb-o'></i> Tip: &nbsp;</p>
+                                <p>
+                                  Pro více informací klikněte na vybrané téma nahoře na stránce.
   </p>
-  <p>
-    Pro získání podrobnějších informací o našich akreditovaných kurzech vyplňte a odešlete nezávazný poptávkový formulář nebo napište email na projekt@langmaster.cz.
+                                <p>
+                                  Pro získání podrobnějších informací o našich akreditovaných kurzech vyplňte a odešlete nezávazný poptávkový formulář nebo napište email na projekt@langmaster.cz.
   </p>
-</div>;
-
+                              </div>;
+                                
 var BonusAlert: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div className='alert alert-warning' style={{ fontSize: '18px' }}>
-  <p style={{ marginTop: '0' }}><i className='fa fa-lightbulb-o'></i> Bonus - jazykové kurzy zdarma:</p>
-  <p>
-    Pro každého učitele je připraven bonus v podobě interaktivního jazykového kurzu zdarma.
-    V případě zájmu Vám rádi poskytneme podrobnější informace.
+                                  <p style={{ marginTop: '0' }}><i className='fa fa-lightbulb-o'></i> Bonus - jazykové kurzy zdarma:</p>
+                                  <p>
+                                    Pro každého učitele je připraven bonus v podobě interaktivního jazykového kurzu zdarma.
+                                    V případě zájmu Vám rádi poskytneme podrobnější informace.
   </p>
-</div>;
-
+                                </div>;
+                                  
 var KurzyList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div>
-  <h2 className='text-right'>ZŠ a MŠ akreditované kurzy DVPP MŠMT - Výzva 02_16_022 / 023</h2>
-  <Row>
-    <Col md={4}>
-      <h4>ZŠ Inkluze/společné vzdělávání</h4>
-      <ul className='fa-ul'>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.ZSInkluze8)}
-        </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.ZSInkluze16)}
-        </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.ZSInkluze32)}
-        </LiFile>
-      </ul>
-    </Col>
-    <Col md={4}>
-      <h4>ZŠ Ostatní</h4>
-      <ul className='fa-ul'>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.ZSCtenarska16)}
-        </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.ZSCtenarska32)}
-        </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.ZSMatematicka16)}
-        </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.ZSMatematicka32)}
-        </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.ZSMentoring32)}
-        </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.ZSMentoring56)}
-        </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.ZSMentoring80)}
-        </LiFile>
-      </ul>
-    </Col>
-    <Col md={4}>
-      <h4>MŠ Kurzy</h4>
-      <ul className='fa-ul'>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.MSInkluze816)}
-        </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.MSCtenarska)}
-        </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.MSMatematicka)}
-        </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.MSRozvoj16)}
-        </LiFile>
-      </ul>
-    </Col>
-  </Row>
-</div>;
-
+                                    <h2 className='text-right'>ZŠ a MŠ akreditované kurzy DVPP MŠMT - Výzva 02_16_022 / 023</h2>
+                                    <Row>
+                                      <Col md={4}>
+                                        <h4>ZŠ Inkluze/společné vzdělávání</h4>
+                                        <ul className='fa-ul'>
+                                          <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.ZSInkluze8)}
+                                          </LiFile>
+                                          <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.ZSInkluze16)}
+                                          </LiFile>
+                                          <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.ZSInkluze32)}
+                                          </LiFile>
+                                        </ul>
+                                      </Col>
+                                      <Col md={4}>
+                                        <h4>ZŠ Ostatní</h4>
+                                        <ul className='fa-ul'>
+                                          <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.ZSCtenarska16)}
+                                          </LiFile>
+                                          <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.ZSCtenarska32)}
+                                          </LiFile>
+                                          <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.ZSMatematicka16)}
+                                          </LiFile>
+                                          <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.ZSMatematicka32)}
+                                          </LiFile>
+                                          <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.ZSMentoring32)}
+                                          </LiFile>
+                                          <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.ZSMentoring56)}
+                                          </LiFile>
+                                          <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.ZSMentoring80)}
+                                          </LiFile>
+                                        </ul>
+                                      </Col>
+                                      <Col md={4}>
+                                        <h4>MŠ Kurzy</h4>
+                                        <ul className='fa-ul'>
+                                          <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.MSInkluze816)}
+                                          </LiFile>
+                                          <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.MSCtenarska)}
+                                          </LiFile>
+                                          <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.MSMatematicka)}
+                                          </LiFile>
+                                          <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.MSRozvoj16)}
+                                          </LiFile>
+                                        </ul>
+                                      </Col>
+                                    </Row>
+                                  </div>;
+                                    
 var KurzySSList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div>
-  <h2 className='text-right'>SŠ a VOŠ akreditované kurzy DVPP MŠMT - Výzva: 02_22_003</h2>
-  <h3>Nabízíme akreditované kurzy pokrývající následující témata </h3>
-  <Row>
-    <Col md={4}>
-      <ul className='fa-ul'>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSMedGramotnost)}
-        </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSNoveTechnologie)}
-        </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSRozvojPodnikavosti)}
-        </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSKarierovePoradenstvi)}
-        </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSWellBeing)}
-        </LiFile>
-      </ul>
-    </Col>
-    <Col md={4}>
-      <ul className='fa-ul'>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSGenderovaTematika)}
-        </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSVyukaCestiny)}
-        </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSInkluzeCizinci)}
-        </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSOstatniInkluze)}
-        </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSFormativniHodnoceni)}
-        </LiFile>
-      </ul>
-    </Col>
-    <Col md={4}>
-      <ul className='fa-ul'>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSPedagogickaDiagnostika)}
-        </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSInovace)}
-        </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSCtenarskaGramotnost)}
-        </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSMatematickaGramotnost)}
-        </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSPodporaUcitelu)}
-        </LiFile>
+                                      <h2 className='text-right'>SŠ a VOŠ akreditované kurzy DVPP MŠMT - Výzva: 02_22_003</h2>
+                                      <h3>Nabízíme akreditované kurzy pokrývající následující témata </h3>
+                                      <Row>
+                                        <Col md={4}>
+                                          <ul className='fa-ul'>
+                                            <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSMedGramotnost)}
+                                            </LiFile>
+                                            <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSNoveTechnologie)}
+                                            </LiFile>
+                                            <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSRozvojPodnikavosti)}
+                                            </LiFile>
+                                            <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSKarierovePoradenstvi)}
+                                            </LiFile>
+                                            <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSWellBeing)}
+                                            </LiFile>
+                                          </ul>
+                                        </Col>
+                                        <Col md={4}>
+                                          <ul className='fa-ul'>
+                                            <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSGenderovaTematika)}
+                                            </LiFile>
+                                            <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSVyukaCestiny)}
+                                            </LiFile>
+                                            <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSInkluzeCizinci)}
+                                            </LiFile>
+                                            <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSOstatniInkluze)}
+                                            </LiFile>
+                                            <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSFormativniHodnoceni)}
+                                            </LiFile>
+                                          </ul>
+                                        </Col>
+                                        <Col md={4}>
+                                          <ul className='fa-ul'>
+                                            <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSPedagogickaDiagnostika)}
+                                            </LiFile>
+                                            <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSInovace)}
+                                            </LiFile>
+                                            <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSCtenarskaGramotnost)}
+                                            </LiFile>
+                                            <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSMatematickaGramotnost)}
+                                            </LiFile>
+                                            <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSPodporaUcitelu)}
+                                            </LiFile>
 
 
-      </ul>
-    </Col>
-  </Row>
-</div>;
-
+                                          </ul>
+                                        </Col>
+                                      </Row>
+                                    </div>;
+                                      
 var KurzyIIList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div>
-  <h2 className='text-right'>ZŠ, MŠ, ZUŠ, ŠD akreditované kurzy DVPP MŠMT - Výzva 02_22_002</h2>
-  <h3>Nabízíme akreditované kurzy pokrývající následující témata </h3>
-  <Row>
-    <Col md={4}>
-      <ul className='fa-ul'>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSInkluzeCizinci)}
-        </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSVyukaCestiny)}
-        </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSMedialniGramotnost)}
-        </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSNoveTechnologie)}
-        </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSWellBeing)}
-        </LiFile>
-      </ul>
-    </Col>
-    <Col md={4}>
-      <ul className='fa-ul'>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSGenderova)}
-        </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSCtenarskaGramotnost)}
-        </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSMatematickaGramotnost)}
-        </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSKarierovePoradenstvi)}
-        </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSRozvojPodnikavosti)}
-        </LiFile>
-      </ul>
-    </Col>
-    <Col md={4}>
-      <ul className='fa-ul'>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSFormativniHodnoceni)}
-        </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSDiagnostika)}
-        </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSInovace)}
-        </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSInkluze)}
-        </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSPodpora)}
-        </LiFile>
-      </ul>
-    </Col>
-  </Row>
-</div>;
-
+                                        <h2 className='text-right'>ZŠ, MŠ, ZUŠ, ŠD akreditované kurzy DVPP MŠMT - Výzva 02_22_002</h2>
+                                        <h3>Nabízíme akreditované kurzy pokrývající následující témata </h3>
+                                        <Row>
+                                          <Col md={4}>
+                                            <ul className='fa-ul'>
+                                              <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSInkluzeCizinci)}
+                                              </LiFile>
+                                              <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSVyukaCestiny)}
+                                              </LiFile>
+                                              <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSMedialniGramotnost)}
+                                              </LiFile>
+                                              <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSNoveTechnologie)}
+                                              </LiFile>
+                                              <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSWellBeing)}
+                                              </LiFile>
+                                            </ul>
+                                          </Col>
+                                          <Col md={4}>
+                                            <ul className='fa-ul'>
+                                              <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSGenderova)}
+                                              </LiFile>
+                                              <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSCtenarskaGramotnost)}
+                                              </LiFile>
+                                              <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSMatematickaGramotnost)}
+                                              </LiFile>
+                                              <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSKarierovePoradenstvi)}
+                                              </LiFile>
+                                              <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSRozvojPodnikavosti)}
+                                              </LiFile>
+                                            </ul>
+                                          </Col>
+                                          <Col md={4}>
+                                            <ul className='fa-ul'>
+                                              <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSFormativniHodnoceni)}
+                                              </LiFile>
+                                              <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSDiagnostika)}
+                                              </LiFile>
+                                              <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSInovace)}
+                                              </LiFile>
+                                              <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSInkluze)}
+                                              </LiFile>
+                                              <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSPodpora)}
+                                              </LiFile>
+                                            </ul>
+                                          </Col>
+                                        </Row>
+                                      </div>;
+                                        
 var ObsahInkluzeMS: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <BlockEx header="Ukázky z témat:">
-  <Row>
-    <Col md={6}>
-      <ul className='fa-ul'>
-        <LiFile>Základní právní předpisy, legislativní změny
+                                          <Row>
+                                            <Col md={6}>
+                                              <ul className='fa-ul'>
+                                                <LiFile>Základní právní předpisy, legislativní změny
 </LiFile>
-        <LiFile>Dítě se speciálními vzdělávacími potřebami
+                                                <LiFile>Dítě se speciálními vzdělávacími potřebami
 </LiFile>
-        <LiFile>Struktura podpůrných opatření a jejich členění do pěti stupňů
+                                                <LiFile>Struktura podpůrných opatření a jejich členění do pěti stupňů
 </LiFile>
-        <LiFile>Podpůrná opatření prvního stupně
+                                                <LiFile>Podpůrná opatření prvního stupně
 </LiFile>
-        <LiFile>Podpůrná opatření 2. - 5. stupně
+                                                <LiFile>Podpůrná opatření 2. - 5. stupně
 </LiFile>
-        <LiFile>Struktura a obsah Plánu pedagogické podpory
+                                                <LiFile>Struktura a obsah Plánu pedagogické podpory
 </LiFile>
-        <LiFile>Zpracování ukázkového Plánu pedagogické podpory
+                                                <LiFile>Zpracování ukázkového Plánu pedagogické podpory
 </LiFile>
-        <LiFile>Výukové metody a jejich role při motivaci k učení
+                                                <LiFile>Výukové metody a jejich role při motivaci k učení
 </LiFile>
-        <LiFile>Individuální vzdělávací plán a pedagogická diagnostika
+                                                <LiFile>Individuální vzdělávací plán a pedagogická diagnostika
 </LiFile>
-      </ul>
-    </Col>
-    <Col md={6}>
-      <ul className='fa-ul'>
+                                              </ul>
+                                            </Col>
+                                            <Col md={6}>
+                                              <ul className='fa-ul'>
 
-        <LiFile>Hodnocení dětí ve společném vzdělávání
+                                                <LiFile>Hodnocení dětí ve společném vzdělávání
 </LiFile>
-        <LiFile>Spolupráce pedagoga s asistentem pedagoga
+                                                <LiFile>Spolupráce pedagoga s asistentem pedagoga
 </LiFile>
-        <LiFile>Komunikace s rodiči
+                                                <LiFile>Komunikace s rodiči
 </LiFile>
-        <LiFile>Spolupráce s poradenskými zařízeními
+                                                <LiFile>Spolupráce s poradenskými zařízeními
 </LiFile>
-        <LiFile>Plán pedagogické podpory a Individuální vzdělávací plán
+                                                <LiFile>Plán pedagogické podpory a Individuální vzdělávací plán
 </LiFile>
-        <LiFile>Efektivní hodnocení dětí a specifičnost hodnocení dětí se SVP
+                                                <LiFile>Efektivní hodnocení dětí a specifičnost hodnocení dětí se SVP
 </LiFile>
-        <LiFile>Pedagogická diagnostika dítěte na základní škole
+                                                <LiFile>Pedagogická diagnostika dítěte na základní škole
 </LiFile>
-        <LiFile>Vzdělávání dětí nadaných a mimořádně nadaných
+                                                <LiFile>Vzdělávání dětí nadaných a mimořádně nadaných
 </LiFile>
-      </ul>
-    </Col>
-  </Row>
-</BlockEx>;
-
+                                              </ul>
+                                            </Col>
+                                          </Row>
+                                        </BlockEx>;
+                                          
 var ObsahInkluzeZS: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <BlockEx header="Ukázky z dalších témat:">
-  <Row>
-    <Col md={6}>
-      <ul className='fa-ul'>
-        <LiFile>Základní právní předpisy, legislativní změny
+                                            <Row>
+                                              <Col md={6}>
+                                                <ul className='fa-ul'>
+                                                  <LiFile>Základní právní předpisy, legislativní změny
 </LiFile>
-        <LiFile>Žák se speciálními vzdělávacími potřebami
+                                                  <LiFile>Žák se speciálními vzdělávacími potřebami
 </LiFile>
-        <LiFile>Struktura podpůrných opatření a jejich členění do pěti stupňů
+                                                  <LiFile>Struktura podpůrných opatření a jejich členění do pěti stupňů
 </LiFile>
-        <LiFile>Podpůrná opatření prvního stupně
+                                                  <LiFile>Podpůrná opatření prvního stupně
 </LiFile>
-        <LiFile>Podpůrná opatření 2. - 5. stupně
+                                                  <LiFile>Podpůrná opatření 2. - 5. stupně
 </LiFile>
-        <LiFile>Struktura a obsah Plánu pedagogické podpory
+                                                  <LiFile>Struktura a obsah Plánu pedagogické podpory
 </LiFile>
-        <LiFile>Zpracování ukázkového Plánu pedagogické podpory
+                                                  <LiFile>Zpracování ukázkového Plánu pedagogické podpory
 </LiFile>
-        <LiFile>Výukové metody a jejich role při motivaci k učení
+                                                  <LiFile>Výukové metody a jejich role při motivaci k učení
 </LiFile>
-        <LiFile>Individuální vzdělávací plán a pedagogická diagnostika
+                                                  <LiFile>Individuální vzdělávací plán a pedagogická diagnostika
 </LiFile>
-      </ul>
-    </Col>
-    <Col md={6}>
-      <ul className='fa-ul'>
+                                                </ul>
+                                              </Col>
+                                              <Col md={6}>
+                                                <ul className='fa-ul'>
 
-        <LiFile>Hodnocení žáků ve společném vzdělávání
+                                                  <LiFile>Hodnocení žáků ve společném vzdělávání
 </LiFile>
-        <LiFile>Spolupráce pedagoga s asistentem pedagoga
+                                                  <LiFile>Spolupráce pedagoga s asistentem pedagoga
 </LiFile>
-        <LiFile>Komunikace s rodiči
+                                                  <LiFile>Komunikace s rodiči
 </LiFile>
-        <LiFile>Spolupráce s poradenskými zařízeními
+                                                  <LiFile>Spolupráce s poradenskými zařízeními
 </LiFile>
-        <LiFile>Plán pedagogické podpory a Individuální vzdělávací plán
+                                                  <LiFile>Plán pedagogické podpory a Individuální vzdělávací plán
 </LiFile>
-        <LiFile>Efektivní hodnocení žáků a specifičnost hodnocení žáků se SVP
+                                                  <LiFile>Efektivní hodnocení žáků a specifičnost hodnocení žáků se SVP
 </LiFile>
-        <LiFile>Pedagogická diagnostika žáka na základní škole
+                                                  <LiFile>Pedagogická diagnostika žáka na základní škole
 </LiFile>
-        <LiFile>Vzdělávání žáků nadaných a mimořádně nadaných
+                                                  <LiFile>Vzdělávání žáků nadaných a mimořádně nadaných
 </LiFile>
-      </ul>
-    </Col>
-  </Row>
-</BlockEx>;
-
+                                                </ul>
+                                              </Col>
+                                            </Row>
+                                          </BlockEx>;
+                                            
 var ObsahInkluzeZUS7: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <BlockEx header="Kromě výše uvedených novinek nabízíme pro ZŠ ještě dalších 7 kurzů inkluze v délce 8 hodin. Kurzy jsou seskládané z následujících témat:">
-  <Row>
-    <Col md={6}>
-      <ul className='fa-ul'>
-        <LiFile>Základní právní předpisy, legislativní změny
+                                              <Row>
+                                                <Col md={6}>
+                                                  <ul className='fa-ul'>
+                                                    <LiFile>Základní právní předpisy, legislativní změny
 </LiFile>
-        <LiFile>Žák se speciálními vzdělávacími potřebami
+                                                    <LiFile>Žák se speciálními vzdělávacími potřebami
 </LiFile>
-        <LiFile>Struktura podpůrných opatření a jejich členění do pěti stupňů
+                                                    <LiFile>Struktura podpůrných opatření a jejich členění do pěti stupňů
 </LiFile>
-        <LiFile>Podpůrná opatření prvního stupně
+                                                    <LiFile>Podpůrná opatření prvního stupně
 </LiFile>
-        <LiFile>Podpůrná opatření 2. - 5. stupně
+                                                    <LiFile>Podpůrná opatření 2. - 5. stupně
 </LiFile>
-        <LiFile>Struktura a obsah Plánu pedagogické podpory
+                                                    <LiFile>Struktura a obsah Plánu pedagogické podpory
 </LiFile>
-        <LiFile>Zpracování ukázkového Plánu pedagogické podpory
+                                                    <LiFile>Zpracování ukázkového Plánu pedagogické podpory
 </LiFile>
-        <LiFile>Výukové metody a jejich role při motivaci k učení
+                                                    <LiFile>Výukové metody a jejich role při motivaci k učení
 </LiFile>
-        <LiFile>Individuální vzdělávací plán a pedagogická diagnostika
+                                                    <LiFile>Individuální vzdělávací plán a pedagogická diagnostika
 </LiFile>
-      </ul>
-    </Col>
-    <Col md={6}>
-      <ul className='fa-ul'>
+                                                  </ul>
+                                                </Col>
+                                                <Col md={6}>
+                                                  <ul className='fa-ul'>
 
-        <LiFile>Hodnocení žáků ve společném vzdělávání
+                                                    <LiFile>Hodnocení žáků ve společném vzdělávání
 </LiFile>
-        <LiFile>Spolupráce pedagoga s asistentem pedagoga
+                                                    <LiFile>Spolupráce pedagoga s asistentem pedagoga
 </LiFile>
-        <LiFile>Komunikace s rodiči
+                                                    <LiFile>Komunikace s rodiči
 </LiFile>
-        <LiFile>Spolupráce s poradenskými zařízeními
+                                                    <LiFile>Spolupráce s poradenskými zařízeními
 </LiFile>
-        <LiFile>Plán pedagogické podpory a Individuální vzdělávací plán
+                                                    <LiFile>Plán pedagogické podpory a Individuální vzdělávací plán
 </LiFile>
-        <LiFile>Efektivní hodnocení žáků a specifičnost hodnocení žáků se SVP
+                                                    <LiFile>Efektivní hodnocení žáků a specifičnost hodnocení žáků se SVP
 </LiFile>
-        <LiFile>Pedagogická diagnostika žáka na základní škole
+                                                    <LiFile>Pedagogická diagnostika žáka na základní škole
 </LiFile>
-        <LiFile>Vzdělávání žáků nadaných a mimořádně nadaných
+                                                    <LiFile>Vzdělávání žáků nadaných a mimořádně nadaných
 </LiFile>
-      </ul>
-    </Col>
-  </Row>
-</BlockEx>;
-
+                                                  </ul>
+                                                </Col>
+                                              </Row>
+                                            </BlockEx>;
+                                              
 var ObsahInkluzeZUS8: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <BlockEx header="Kromě výše uvedených novinek nabízíme ještě dalších 8 kurzů inkluze v délce 16 hodin a 2 kurzy inkluze pro ZŠ v délce 32 hodin. Kurzy jsou seskládané z následujících témat:">
-  <Row>
-    <Col md={6}>
-      <ul className='fa-ul'>
-        <LiFile>Základní právní předpisy, legislativní změny
+                                                <Row>
+                                                  <Col md={6}>
+                                                    <ul className='fa-ul'>
+                                                      <LiFile>Základní právní předpisy, legislativní změny
 </LiFile>
-        <LiFile>Žák se speciálními vzdělávacími potřebami
+                                                      <LiFile>Žák se speciálními vzdělávacími potřebami
 </LiFile>
-        <LiFile>Struktura podpůrných opatření a jejich členění do pěti stupňů
+                                                      <LiFile>Struktura podpůrných opatření a jejich členění do pěti stupňů
 </LiFile>
-        <LiFile>Podpůrná opatření prvního stupně
+                                                      <LiFile>Podpůrná opatření prvního stupně
 </LiFile>
-        <LiFile>Podpůrná opatření 2. - 5. stupně
+                                                      <LiFile>Podpůrná opatření 2. - 5. stupně
 </LiFile>
-        <LiFile>Struktura a obsah Plánu pedagogické podpory
+                                                      <LiFile>Struktura a obsah Plánu pedagogické podpory
 </LiFile>
-        <LiFile>Zpracování ukázkového Plánu pedagogické podpory
+                                                      <LiFile>Zpracování ukázkového Plánu pedagogické podpory
 </LiFile>
-        <LiFile>Výukové metody a jejich role při motivaci k učení
+                                                      <LiFile>Výukové metody a jejich role při motivaci k učení
 </LiFile>
-        <LiFile>Individuální vzdělávací plán a pedagogická diagnostika
+                                                      <LiFile>Individuální vzdělávací plán a pedagogická diagnostika
 </LiFile>
-      </ul>
-    </Col>
-    <Col md={6}>
-      <ul className='fa-ul'>
+                                                    </ul>
+                                                  </Col>
+                                                  <Col md={6}>
+                                                    <ul className='fa-ul'>
 
-        <LiFile>Hodnocení žáků ve společném vzdělávání
+                                                      <LiFile>Hodnocení žáků ve společném vzdělávání
 </LiFile>
-        <LiFile>Spolupráce pedagoga s asistentem pedagoga
+                                                      <LiFile>Spolupráce pedagoga s asistentem pedagoga
 </LiFile>
-        <LiFile>Komunikace s rodiči
+                                                      <LiFile>Komunikace s rodiči
 </LiFile>
-        <LiFile>Spolupráce s poradenskými zařízeními
+                                                      <LiFile>Spolupráce s poradenskými zařízeními
 </LiFile>
-        <LiFile>Plán pedagogické podpory a Individuální vzdělávací plán
+                                                      <LiFile>Plán pedagogické podpory a Individuální vzdělávací plán
 </LiFile>
-        <LiFile>Efektivní hodnocení žáků a specifičnost hodnocení žáků se SVP
+                                                      <LiFile>Efektivní hodnocení žáků a specifičnost hodnocení žáků se SVP
 </LiFile>
-        <LiFile>Pedagogická diagnostika žáka na základní škole
+                                                      <LiFile>Pedagogická diagnostika žáka na základní škole
 </LiFile>
-        <LiFile>Vzdělávání žáků nadaných a mimořádně nadaných
+                                                      <LiFile>Vzdělávání žáků nadaných a mimořádně nadaných
 </LiFile>
-      </ul>
-    </Col>
-  </Row>
-</BlockEx>;
-
+                                                    </ul>
+                                                  </Col>
+                                                </Row>
+                                              </BlockEx>;
+                                                
 var ObsahInkluzeSS: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <BlockEx header="Ukázky z dalších témat:">
-  <Row>
-    <Col md={6}>
-      <ul className='fa-ul'>
-        <LiFile>Základní právní předpisy, legislativní změny
+                                                  <Row>
+                                                    <Col md={6}>
+                                                      <ul className='fa-ul'>
+                                                        <LiFile>Základní právní předpisy, legislativní změny
 </LiFile>
-        <LiFile>Student se speciálními vzdělávacími potřebami
+                                                        <LiFile>Student se speciálními vzdělávacími potřebami
 </LiFile>
-        <LiFile>Struktura podpůrných opatření a jejich členění do pěti stupňů
+                                                        <LiFile>Struktura podpůrných opatření a jejich členění do pěti stupňů
 </LiFile>
-        <LiFile>Podpůrná opatření prvního stupně
+                                                        <LiFile>Podpůrná opatření prvního stupně
 </LiFile>
-        <LiFile>Podpůrná opatření 2. - 5. stupně
+                                                        <LiFile>Podpůrná opatření 2. - 5. stupně
 </LiFile>
-        <LiFile>Struktura a obsah Plánu pedagogické podpory
+                                                        <LiFile>Struktura a obsah Plánu pedagogické podpory
 </LiFile>
-        <LiFile>Zpracování ukázkového Plánu pedagogické podpory
+                                                        <LiFile>Zpracování ukázkového Plánu pedagogické podpory
 </LiFile>
-        <LiFile>Výukové metody a jejich role při motivaci k učení
+                                                        <LiFile>Výukové metody a jejich role při motivaci k učení
 </LiFile>
-        <LiFile>Individuální vzdělávací plán a pedagogická diagnostika
+                                                        <LiFile>Individuální vzdělávací plán a pedagogická diagnostika
 </LiFile>
-      </ul>
-    </Col>
-    <Col md={6}>
-      <ul className='fa-ul'>
+                                                      </ul>
+                                                    </Col>
+                                                    <Col md={6}>
+                                                      <ul className='fa-ul'>
 
-        <LiFile>Hodnocení studentů ve společném vzdělávání
+                                                        <LiFile>Hodnocení studentů ve společném vzdělávání
 </LiFile>
-        <LiFile>Spolupráce pedagoga s asistentem pedagoga
+                                                        <LiFile>Spolupráce pedagoga s asistentem pedagoga
 </LiFile>
-        <LiFile>Komunikace s rodiči
+                                                        <LiFile>Komunikace s rodiči
 </LiFile>
-        <LiFile>Spolupráce s poradenskými zařízeními
+                                                        <LiFile>Spolupráce s poradenskými zařízeními
 </LiFile>
-        <LiFile>Plán pedagogické podpory a Individuální vzdělávací plán
+                                                        <LiFile>Plán pedagogické podpory a Individuální vzdělávací plán
 </LiFile>
-        <LiFile>Efektivní hodnocení studentů a specifičnost hodnocení studenta se SVP
+                                                        <LiFile>Efektivní hodnocení studentů a specifičnost hodnocení studenta se SVP
 </LiFile>
-        <LiFile>Pedagogická diagnostika studenta na základní škole
+                                                        <LiFile>Pedagogická diagnostika studenta na základní škole
 </LiFile>
-        <LiFile>Vzdělávání studentů nadaných a mimořádně nadaných
+                                                        <LiFile>Vzdělávání studentů nadaných a mimořádně nadaných
 </LiFile>
-      </ul>
-    </Col>
-  </Row>
-</BlockEx>;
-
+                                                      </ul>
+                                                    </Col>
+                                                  </Row>
+                                                </BlockEx>;
+                                                  
 var ZSFormativniHodnoceni: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
-</div>} eventKey={2}>
+                                                    <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
+                                                  </div>} eventKey={2}>
 
-  <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+                                                    <BlockEx header="Nabízíme následující kurzy:">
+                                                      <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
 
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Formativní hodnocení a role učitele </b> (8 hod, akreditováno pro ZŠ, ŠD, SŠ, VOŠ, DM, asistenti)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Formativní hodnocení v praxi </b> (8 hod, akreditováno pro ZŠ, SŠ, asistenti, od srpna 2022)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Formativní hodnocení v praxi – webinář </b> (8 hod, akreditováno pro ZŠ, SŠ, asistenti, od srpna 2022)</LiFile >
+                                                        <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Formativní hodnocení a role učitele </b> (8 hod, akreditováno pro ZŠ, ŠD, SŠ, VOŠ, DM, asistenti)</LiFile >
+                                                        <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Formativní hodnocení v praxi </b> (8 hod, akreditováno pro ZŠ, SŠ, asistenti, od srpna 2022)</LiFile >
+                                                        <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Formativní hodnocení v praxi – webinář </b> (8 hod, akreditováno pro ZŠ, SŠ, asistenti, od srpna 2022)</LiFile >
 
-    </ul>
-  </BlockEx>
-</Panel>;
-
+                                                      </ul>
+                                                    </BlockEx>
+                                                  </Panel>;
+                                                    
 var ZSKarierovePoradenstvi: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
-</div>} eventKey={2}>
-  <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+                                                      <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
+                                                    </div>} eventKey={2}>
+                                                      <BlockEx header="Nabízíme následující kurzy:">
+                                                        <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
 
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Role pedagoga v karierovém poradenství – 8 hodin </b> (8 hod, akreditováno pro ZŠ, SŠ, VOŠ)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje – webinář </b> (8 hod, akreditováno pro ZŠ, SŠ, VOŠ, od srpna 2022)</LiFile >
+                                                          <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Role pedagoga v karierovém poradenství – 8 hodin </b> (8 hod, akreditováno pro ZŠ, SŠ, VOŠ)</LiFile >
+                                                          <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje – webinář </b> (8 hod, akreditováno pro ZŠ, SŠ, VOŠ, od srpna 2022)</LiFile >
 
 
-    </ul>
-  </BlockEx>
-</Panel>;
-
+                                                        </ul>
+                                                      </BlockEx>
+                                                    </Panel>;
+                                                      
 var ZSGenderova: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">8</Label> <span style={headerCss}>{props.title}</span></h3>
-</div>} eventKey={1}>
-  <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Genderová tematika na školách </b> (8 hod, připravujeme k akreditaci pro ZŠ, ŠD, ŠK, SVČ, ZUŠ, SŠ, VOŠ, DM, asistenti)</LiFile >
-    </ul>
-  </BlockEx>
-</Panel>
+                                                        <h3><Label bsStyle="warning">8</Label> <span style={headerCss}>{props.title}</span></h3>
+                                                      </div>} eventKey={1}>
+                                                        <BlockEx header="Nabízíme následující kurzy:">
+                                                          <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+                                                            <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Genderová tematika na školách </b> (8 hod, připravujeme k akreditaci pro ZŠ, ŠD, ŠK, SVČ, ZUŠ, SŠ, VOŠ, DM, asistenti)</LiFile >
+                                                          </ul>
+                                                        </BlockEx>
+                                                      </Panel>
 
-var ZSCtenarskaGramotnost: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">8</Label> <Label bsStyle="warning">16</Label> <span style={headerCss}>{props.title}</span></h3>
-</div>} eventKey={1}>
-  <BlockEx header="Nabízíme následující kurzy:">
-    <ul className='fa-ul'>
+                                                        var ZSCtenarskaGramotnost: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+                                                          <h3><Label bsStyle="warning">8</Label> <Label bsStyle="warning">16</Label> <span style={headerCss}>{props.title}</span></h3>
+                                                        </div>} eventKey={1}>
+                                                          <BlockEx header="Nabízíme následující kurzy:">
+                                                            <ul className='fa-ul'>
 
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Čtenářská a informační gramotnost na ZŠ – 8 hodin </b> (8 hod, akreditováno pro ZŠ)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Rozvoj čtenářské gramotnosti u žáků ZŠ – 8 hodin </b> (8 hod, akreditováno pro ZŠ, ŠD, asistenti)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Čtenářství-průvodce každodenním životem, cesta je vzdělání_8 </b> (8 hod, akreditováno pro ZŠ)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Čtenářství a čtenářská gramotnost v současné škole </b> (8 hod, akreditováno pro ZŠ)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Rozvoj předčtenářské gramotnosti – 8 hodin  </b> (8 hod, akreditováno pro MŠ)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Rozvoj čtenářské pregramotnosti u dětí v MŠ – 16 hodin  </b> (16 hod, akreditováno pro MŠ)</LiFile >
-    </ul>
-  </BlockEx>
-</Panel>
+                                                              <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Čtenářská a informační gramotnost na ZŠ – 8 hodin </b> (8 hod, akreditováno pro ZŠ)</LiFile >
+                                                              <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Rozvoj čtenářské gramotnosti u žáků ZŠ – 8 hodin </b> (8 hod, akreditováno pro ZŠ, ŠD, asistenti)</LiFile >
+                                                              <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Čtenářství-průvodce každodenním životem, cesta je vzdělání_8 </b> (8 hod, akreditováno pro ZŠ)</LiFile >
+                                                              <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Čtenářství a čtenářská gramotnost v současné škole </b> (8 hod, akreditováno pro ZŠ)</LiFile >
+                                                              <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Rozvoj předčtenářské gramotnosti – 8 hodin  </b> (8 hod, akreditováno pro MŠ)</LiFile >
+                                                              <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Rozvoj čtenářské pregramotnosti u dětí v MŠ – 16 hodin  </b> (16 hod, akreditováno pro MŠ)</LiFile >
+                                                            </ul>
+                                                          </BlockEx>
+                                                        </Panel>
 
-var ZSMatematickaGramotnost: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">8</Label>  <Label bsStyle="warning">16</Label> <span style={headerCss}>{props.title}</span></h3>
-</div>} eventKey={1}>
-  <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+                                                          var ZSMatematickaGramotnost: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+                                                            <h3><Label bsStyle="warning">8</Label>  <Label bsStyle="warning">16</Label> <span style={headerCss}>{props.title}</span></h3>
+                                                          </div>} eventKey={1}>
+                                                            <BlockEx header="Nabízíme následující kurzy:">
+                                                              <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
 
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">GeoGebra jako nástroj rozvoje matematické gramotnosti na ZŠ </b> (8 hod, akreditováno pro ZŠ)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Moderní technologie při rozvoji matematické gramotnosti na ZŠ </b> (8 hod, akreditováno pro ZŠ, ŠD, ŠK, asistenti)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Deskové a karetní hry pro rozvoj matematické gramotnosti </b> (8 hod, akreditováno pro ZŠ, ŠD, ŠK, asistenti)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Rozvoj matematické gramotnosti u žáků ZŠ – 8 hodin </b> (8 hod, akreditováno pro ZŠ, ŠD, asistenti)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Jak na distanční výuku matematiky? </b> (8 hod, akreditováno pro ZŠ, SŠ, VOŠ)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Rozvoj předmatematické gramotnosti – 8 hodin  </b> (8 hod, akreditováno pro MŠ)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Rozvoj matematické pregramotnosti u dětí v MŠ – 16 hodin  </b> (16 hod, akreditováno pro MŠ)</LiFile >
+                                                                <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">GeoGebra jako nástroj rozvoje matematické gramotnosti na ZŠ </b> (8 hod, akreditováno pro ZŠ)</LiFile >
+                                                                <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Moderní technologie při rozvoji matematické gramotnosti na ZŠ </b> (8 hod, akreditováno pro ZŠ, ŠD, ŠK, asistenti)</LiFile >
+                                                                <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Deskové a karetní hry pro rozvoj matematické gramotnosti </b> (8 hod, akreditováno pro ZŠ, ŠD, ŠK, asistenti)</LiFile >
+                                                                <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Rozvoj matematické gramotnosti u žáků ZŠ – 8 hodin </b> (8 hod, akreditováno pro ZŠ, ŠD, asistenti)</LiFile >
+                                                                <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Jak na distanční výuku matematiky? </b> (8 hod, akreditováno pro ZŠ, SŠ, VOŠ)</LiFile >
+                                                                <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Rozvoj předmatematické gramotnosti – 8 hodin  </b> (8 hod, akreditováno pro MŠ)</LiFile >
+                                                                <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Rozvoj matematické pregramotnosti u dětí v MŠ – 16 hodin  </b> (16 hod, akreditováno pro MŠ)</LiFile >
 
-    </ul>
-  </BlockEx>
-</Panel>
+                                                              </ul>
+                                                            </BlockEx>
+                                                          </Panel>
 
-var ZSRozvojPodnikavosti: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
-</div>} eventKey={1}>
-  <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+                                                            var ZSRozvojPodnikavosti: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+                                                              <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
+                                                            </div>} eventKey={1}>
+                                                              <BlockEx header="Nabízíme následující kurzy:">
+                                                                <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
 
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Rozvoj podnikavosti a zásady soukromého podnikání – 8 hodin </b> (8 hod, akreditováno pro SŠ, VOŠ, pro ZŠ od listopadu)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Podnikání, finanční gramotnost a manažerské dovednosti – 8 hodin </b> (8 hod, akreditováno pro SŠ, VOŠ, pro ZŠ od listopadu)</LiFile >
-
-
-    </ul>
-  </BlockEx>
-</Panel>
-
-var ZSDiagnostika: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
-</div>} eventKey={1}>
-  <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
-
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Sociální klima třídy a pedagogická diagnostika učitele </b> (8 hod, akreditováno pro MŠ, ZŠ, SŠ, VOŠ, asistenti, od srpna 2022)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Sociální klima třídy a pedagogická diagnostika učitele – webinář </b> (8 hod, akreditováno pro MŠ, ZŠ, SŠ, VOŠ, asistenti, od srpna 2022)</LiFile >
+                                                                  <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Rozvoj podnikavosti a zásady soukromého podnikání – 8 hodin </b> (8 hod, akreditováno pro SŠ, VOŠ, pro ZŠ od listopadu)</LiFile >
+                                                                  <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Podnikání, finanční gramotnost a manažerské dovednosti – 8 hodin </b> (8 hod, akreditováno pro SŠ, VOŠ, pro ZŠ od listopadu)</LiFile >
 
 
-    </ul>
-  </BlockEx>
-</Panel>
+                                                                </ul>
+                                                              </BlockEx>
+                                                            </Panel>
 
-var ZSInovace: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">8</Label> <span style={headerCss}>{props.title}</span></h3>
-</div>} eventKey={1}>
-  <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+                                                              var ZSDiagnostika: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+                                                                <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
+                                                              </div>} eventKey={1}>
+                                                                <BlockEx header="Nabízíme následující kurzy:">
+                                                                  <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
 
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Změny v RVP a úpravy ŠVP </b> (8 hod, akreditováno pro MŠ, ZŠ, ZUŠ, SŠ, VOŠ, od srpna 2022)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Změny v RVP a úpravy ŠVP – webinář </b> (8 hod, akreditováno pro MŠ, ZŠ, ZUŠ, SŠ, VOŠ, od srpna 2022)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Úpravy ŠVP v rámci programu InspIS ŠVP </b> (8 hod, akreditováno pro MŠ, ZŠ, ZUŠ, SŠ, VOŠ, od srpna 2022)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Úpravy ŠVP v rámci programu InspIS ŠVP – webinář </b> (8 hod, akreditováno pro MŠ, ZŠ, ZUŠ, SŠ, VOŠ, od srpna 2022)</LiFile >
+                                                                    <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Sociální klima třídy a pedagogická diagnostika učitele </b> (8 hod, akreditováno pro MŠ, ZŠ, SŠ, VOŠ, asistenti, od srpna 2022)</LiFile >
+                                                                    <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Sociální klima třídy a pedagogická diagnostika učitele – webinář </b> (8 hod, akreditováno pro MŠ, ZŠ, SŠ, VOŠ, asistenti, od srpna 2022)</LiFile >
 
-    </ul>
-  </BlockEx>
-</Panel>;
 
+                                                                  </ul>
+                                                                </BlockEx>
+                                                              </Panel>
+
+                                                                var ZSInovace: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+                                                                  <h3><Label bsStyle="warning">8</Label> <span style={headerCss}>{props.title}</span></h3>
+                                                                </div>} eventKey={1}>
+                                                                  <BlockEx header="Nabízíme následující kurzy:">
+                                                                    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+
+                                                                      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Změny v RVP a úpravy ŠVP </b> (8 hod, akreditováno pro MŠ, ZŠ, ZUŠ, SŠ, VOŠ, od srpna 2022)</LiFile >
+                                                                      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Změny v RVP a úpravy ŠVP – webinář </b> (8 hod, akreditováno pro MŠ, ZŠ, ZUŠ, SŠ, VOŠ, od srpna 2022)</LiFile >
+                                                                      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Úpravy ŠVP v rámci programu InspIS ŠVP </b> (8 hod, akreditováno pro MŠ, ZŠ, ZUŠ, SŠ, VOŠ, od srpna 2022)</LiFile >
+                                                                      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Úpravy ŠVP v rámci programu InspIS ŠVP – webinář </b> (8 hod, akreditováno pro MŠ, ZŠ, ZUŠ, SŠ, VOŠ, od srpna 2022)</LiFile >
+
+                                                                    </ul>
+                                                                  </BlockEx>
+                                                                </Panel>;
+                                                                  
 var ZSInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">8</Label>  <Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
-</div>} eventKey={1}>
-  <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+                                                                    <h3><Label bsStyle="warning">8</Label>  <Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
+                                                                  </div>} eventKey={1}>
+                                                                    <BlockEx header="Nabízíme následující kurzy:">
+                                                                      <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
 
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Práce s diferencovanou třídou a náměty na vzdělávání 8 hod </b> (8 hod, akreditováno pro ZŠ, SŠ, VOŠ, asistenti)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje – webinář  </b> (8 hod, akreditováno pro ZŠ, SŠ, VOŠ, od srpna 2022)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Klima třídy a vedení třídnické hodiny v rámci inkluze-8 hod </b> (8 hod, akreditováno pro ZŠ, asistenti)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Podpora žáků ZŠ v rámci inkluzivního vzdělávání 8 hodin </b> (8 hod, akreditováno pro ZŠ, ŠD, ŠK, asistenti)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Práce se žákem s problémovým chováním – 8 hodin  </b> (8 hod, akreditováno pro ZŠ, ŠD, ŠK, asistenti)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Sociální klima třídy a role učitele – 8 hodin </b> (8 hod, akreditováno pro ZŠ, SŠ, VOŠ, asistenti)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Práce s pedagogickým sborem-jak předejít syndromu vyhoření  </b> (8 hod, akreditováno pro ZŠ, SŠ, VOŠ, asistenti)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Společné vzdělávání dětí v MŠ – 8 hodin </b> (8 hod, akreditováno pro MŠ)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Inkluze v MŠ v teorii a praxi – 16 hodin </b> (16 hod, akreditováno pro MŠ)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Připravme se na inkluzivní vzdělávání </b> 8 hodin – (8 hod, akreditováno pro ZUŠ)</LiFile >
+                                                                        <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Práce s diferencovanou třídou a náměty na vzdělávání 8 hod </b> (8 hod, akreditováno pro ZŠ, SŠ, VOŠ, asistenti)</LiFile >
+                                                                        <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje – webinář  </b> (8 hod, akreditováno pro ZŠ, SŠ, VOŠ, od srpna 2022)</LiFile >
+                                                                        <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Klima třídy a vedení třídnické hodiny v rámci inkluze-8 hod </b> (8 hod, akreditováno pro ZŠ, asistenti)</LiFile >
+                                                                        <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Podpora žáků ZŠ v rámci inkluzivního vzdělávání 8 hodin </b> (8 hod, akreditováno pro ZŠ, ŠD, ŠK, asistenti)</LiFile >
+                                                                        <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Práce se žákem s problémovým chováním – 8 hodin  </b> (8 hod, akreditováno pro ZŠ, ŠD, ŠK, asistenti)</LiFile >
+                                                                        <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Sociální klima třídy a role učitele – 8 hodin </b> (8 hod, akreditováno pro ZŠ, SŠ, VOŠ, asistenti)</LiFile >
+                                                                        <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Práce s pedagogickým sborem-jak předejít syndromu vyhoření  </b> (8 hod, akreditováno pro ZŠ, SŠ, VOŠ, asistenti)</LiFile >
+                                                                        <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Společné vzdělávání dětí v MŠ – 8 hodin </b> (8 hod, akreditováno pro MŠ)</LiFile >
+                                                                        <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Inkluze v MŠ v teorii a praxi – 16 hodin </b> (16 hod, akreditováno pro MŠ)</LiFile >
+                                                                        <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Připravme se na inkluzivní vzdělávání </b> 8 hodin – (8 hod, akreditováno pro ZUŠ)</LiFile >
 
-    </ul>
-  </BlockEx>
-</Panel>
+                                                                      </ul>
+                                                                    </BlockEx>
+                                                                  </Panel>
 
-var ZSPodpora: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">8</Label> <Label bsStyle="warning">16</Label> <Label bsStyle="warning">24</Label>   <span style={headerCss}>{props.title}</span></h3>
-</div>} eventKey={1}>
-  <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+                                                                    var ZSPodpora: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+                                                                      <h3><Label bsStyle="warning">8</Label> <Label bsStyle="warning">16</Label> <Label bsStyle="warning">24</Label>   <span style={headerCss}>{props.title}</span></h3>
+                                                                    </div>} eventKey={1}>
+                                                                      <BlockEx header="Nabízíme následující kurzy:">
+                                                                        <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
 
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Mentorské dovednosti–úvod do problematiky principů mentoringu </b> (8 hod, akreditováno pro MŠ, ZŠ, ZUŠ, SŠ, ředitelé, zástupci, management)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Mentorské dovednosti učitele </b> (16 hod, akreditováno pro MŠ, ZŠ, ZUŠ, SŠ, ředitelé, zástupci, management)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Moderní trendy ve vedení lidí – Mentoring </b> (24 hod, akreditováno pro MŠ, ZŠ, ZUŠ, SŠ, ředitelé, zástupci, management)</LiFile >
-
-
-    </ul>
-  </BlockEx>
-</Panel>
+                                                                          <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Mentorské dovednosti–úvod do problematiky principů mentoringu </b> (8 hod, akreditováno pro MŠ, ZŠ, ZUŠ, SŠ, ředitelé, zástupci, management)</LiFile >
+                                                                          <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Mentorské dovednosti učitele </b> (16 hod, akreditováno pro MŠ, ZŠ, ZUŠ, SŠ, ředitelé, zástupci, management)</LiFile >
+                                                                          <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Moderní trendy ve vedení lidí – Mentoring </b> (24 hod, akreditováno pro MŠ, ZŠ, ZUŠ, SŠ, ředitelé, zástupci, management)</LiFile >
 
 
-var ZSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">8</Label> <span style={headerCss}>{props.title}</span></h3>
-</div>} eventKey={2}>
-  <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+                                                                        </ul>
+                                                                      </BlockEx>
+                                                                    </Panel>
 
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Efektivní využití MS Office pro pedagogy – 8 hodin </b> (8 hod, akreditováno pro ZŠ, SŠ, VOŠ)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Různé metody pro využití ICT technologií ve škole </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Inspirace pro využití interaktivních tabulí ve škole </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Práce s dotykovými zařízeními ve škole </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Využití ICT ve škole </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Efektivní využití LibreOffice ve škole </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Efektivní využití Google dokumentů ve škole </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Distanční výuka – formy a metody práce s žáky on-line </b> (8 hod, akreditováno pro ZŠ, ZUŠ, SŠ, VOŠ)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Jak na distanční výuku? </b> (8 hod, akreditováno pro ZŠ, ZUŠ, SŠ, VOŠ)</LiFile >
 
-    </ul>
-  </BlockEx>
-</Panel>;
+                                                                      var ZSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+                                                                        <h3><Label bsStyle="warning">8</Label> <span style={headerCss}>{props.title}</span></h3>
+                                                                      </div>} eventKey={2}>
+                                                                        <BlockEx header="Nabízíme následující kurzy:">
+                                                                          <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
 
+                                                                            <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Efektivní využití MS Office pro pedagogy – 8 hodin </b> (8 hod, akreditováno pro ZŠ, SŠ, VOŠ)</LiFile >
+                                                                            <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Různé metody pro využití ICT technologií ve škole </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)</LiFile >
+                                                                            <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Inspirace pro využití interaktivních tabulí ve škole </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)</LiFile >
+                                                                            <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Práce s dotykovými zařízeními ve škole </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)</LiFile >
+                                                                            <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Využití ICT ve škole </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)</LiFile >
+                                                                            <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Efektivní využití LibreOffice ve škole </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)</LiFile >
+                                                                            <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Efektivní využití Google dokumentů ve škole </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)</LiFile >
+                                                                            <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Distanční výuka – formy a metody práce s žáky on-line </b> (8 hod, akreditováno pro ZŠ, ZUŠ, SŠ, VOŠ)</LiFile >
+                                                                            <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Jak na distanční výuku? </b> (8 hod, akreditováno pro ZŠ, ZUŠ, SŠ, VOŠ)</LiFile >
+
+                                                                          </ul>
+                                                                        </BlockEx>
+                                                                      </Panel>;
+                                                                        
 var ZSInkluzeCizinci: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">8</Label> <span style={headerCss}>{props.title}</span></h3>
-</div>} eventKey={1}>
-  <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Klima třídy se žáky s odlišným mateřským jazykem </b> (8 hod, akreditováno pro ZŠ, SŠ, VOŠ, asistenti)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Klima třídy se žáky s odlišným mateřským jazykem -webinář </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, SŠ, VOŠ, DM, asistenti, od srpna 2022)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Jak ve škole pracovat se žáky cizinci </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, SŠ, VOŠ, DM, asistenti, od srpna 2022)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Jak ve škole pracovat se žáky cizinci – webinář </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, SŠ, VOŠ, DM, asistenti, od srpna 2022)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Začlenění žáka cizince do třídního kolektivu </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, SŠ, VOŠ, DM, asistenti, od srpna 2022)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Začlenění žáka cizince do třídního kolektivu – webinář </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, SŠ, VOŠ, DM, asistenti, od srpna 2022)</LiFile >
-    </ul>
-  </BlockEx>
-</Panel>
+                                                                          <h3><Label bsStyle="warning">8</Label> <span style={headerCss}>{props.title}</span></h3>
+                                                                        </div>} eventKey={1}>
+                                                                          <BlockEx header="Nabízíme následující kurzy:">
+                                                                            <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+                                                                              <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Klima třídy se žáky s odlišným mateřským jazykem </b> (8 hod, akreditováno pro ZŠ, SŠ, VOŠ, asistenti)</LiFile >
+                                                                              <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Klima třídy se žáky s odlišným mateřským jazykem -webinář </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, SŠ, VOŠ, DM, asistenti, od srpna 2022)</LiFile >
+                                                                              <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Jak ve škole pracovat se žáky cizinci </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, SŠ, VOŠ, DM, asistenti, od srpna 2022)</LiFile >
+                                                                              <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Jak ve škole pracovat se žáky cizinci – webinář </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, SŠ, VOŠ, DM, asistenti, od srpna 2022)</LiFile >
+                                                                              <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Začlenění žáka cizince do třídního kolektivu </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, SŠ, VOŠ, DM, asistenti, od srpna 2022)</LiFile >
+                                                                              <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Začlenění žáka cizince do třídního kolektivu – webinář </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, SŠ, VOŠ, DM, asistenti, od srpna 2022)</LiFile >
+                                                                            </ul>
+                                                                          </BlockEx>
+                                                                        </Panel>
 
 
-var ZSMedialniGramotnost: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
-</div>} eventKey={2}>
-  <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+                                                                          var ZSMedialniGramotnost: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+                                                                            <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
+                                                                          </div>} eventKey={2}>
+                                                                            <BlockEx header="Nabízíme následující kurzy:">
+                                                                              <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
 
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Funkce a nástrahy internetu, kyberšikana a sociální sítě </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)</LiFile >
+                                                                                <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Funkce a nástrahy internetu, kyberšikana a sociální sítě </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)</LiFile >
 
-    </ul>
-  </BlockEx>
-</Panel>;
-
+                                                                              </ul>
+                                                                            </BlockEx>
+                                                                          </Panel>;
+                                                                            
 var ZSVyukaCestiny: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">8</Label> <span style={headerCss}>{props.title}</span></h3>
-</div>} eventKey={2}>
-  <BlockEx header="Nabízíme následující kurzy:">
-    <ul className='fa-ul'>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Specifika výuky češtiny jako druhého jazyka </b> (8 hod, akreditováno pro ZŠ, SŠ, asistenti, výchovní poradci, od srpna 2022)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Specifika výuky češtiny jako druhého jazyka - webinář </b> (8 hod, akreditováno pro ZŠ, SŠ, asistenti, výchovní poradci, od srpna 2022)</LiFile >
-    </ul>
-  </BlockEx>
-</Panel>;
-
+                                                                              <h3><Label bsStyle="warning">8</Label> <span style={headerCss}>{props.title}</span></h3>
+                                                                            </div>} eventKey={2}>
+                                                                              <BlockEx header="Nabízíme následující kurzy:">
+                                                                                <ul className='fa-ul'>
+                                                                                  <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Specifika výuky češtiny jako druhého jazyka </b> (8 hod, akreditováno pro ZŠ, SŠ, asistenti, výchovní poradci, od srpna 2022)</LiFile >
+                                                                                  <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Specifika výuky češtiny jako druhého jazyka - webinář </b> (8 hod, akreditováno pro ZŠ, SŠ, asistenti, výchovní poradci, od srpna 2022)</LiFile >
+                                                                                </ul>
+                                                                              </BlockEx>
+                                                                            </Panel>;
+                                                                              
 var ZSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
-</div>} eventKey={2}>
-  <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+                                                                                <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
+                                                                              </div>} eventKey={2}>
+                                                                                <BlockEx header="Nabízíme následující kurzy:">
+                                                                                  <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
 
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Wellbeing, cesta k harmonizaci vztahů ve škole </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, SŠ, VOŠ, DM, asistenti, od srpna 2022)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Wellbeing, cesta k harmonizaci vztahů ve škole – webinář </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, SŠ, VOŠ, DM, asistenti, od srpna 2022)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Prevence k zátěžovým situacím ve škole </b> (8 hod, akreditováno pro MŠ, ZŠ, ZUŠ, ŠD, SŠ, VOŠ, DM, asistenti)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Jak zvládat stresové situace a nedospět k vyhoření </b> (8 hod, akreditováno pro MŠ, ZŠ, ZUŠ, ŠD, SŠ, VOŠ, DM, asistenti)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Aspekty emoční a sociální inteligence pedagoga 8 hodin </b> (8 hod, akreditováno pro ZŠ, ZUŠ, ŠD, ŠK)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Aspekty emoční a sociální inteligence pedagoga v MŠ </b> (8 hod, akreditováno pro MŠ)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Rozvoj osobnosti pedagoga v oblasti komunikace </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, asistenti)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Rozvoj osobnosti pedagoga v oblasti sebepoznání </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, asistenti)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Rozvoj osobnosti pedagoga ve zvládání konfliktů  </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, asistenti)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Zásady asertivní a efektivní komunikace pro MŠ, ZŠ, ZUŠ </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, asistenti)</LiFile >
+                                                                                    <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Wellbeing, cesta k harmonizaci vztahů ve škole </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, SŠ, VOŠ, DM, asistenti, od srpna 2022)</LiFile >
+                                                                                    <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Wellbeing, cesta k harmonizaci vztahů ve škole – webinář </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, SŠ, VOŠ, DM, asistenti, od srpna 2022)</LiFile >
+                                                                                    <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Prevence k zátěžovým situacím ve škole </b> (8 hod, akreditováno pro MŠ, ZŠ, ZUŠ, ŠD, SŠ, VOŠ, DM, asistenti)</LiFile >
+                                                                                    <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Jak zvládat stresové situace a nedospět k vyhoření </b> (8 hod, akreditováno pro MŠ, ZŠ, ZUŠ, ŠD, SŠ, VOŠ, DM, asistenti)</LiFile >
+                                                                                    <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Aspekty emoční a sociální inteligence pedagoga 8 hodin </b> (8 hod, akreditováno pro ZŠ, ZUŠ, ŠD, ŠK)</LiFile >
+                                                                                    <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Aspekty emoční a sociální inteligence pedagoga v MŠ </b> (8 hod, akreditováno pro MŠ)</LiFile >
+                                                                                    <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Rozvoj osobnosti pedagoga v oblasti komunikace </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, asistenti)</LiFile >
+                                                                                    <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Rozvoj osobnosti pedagoga v oblasti sebepoznání </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, asistenti)</LiFile >
+                                                                                    <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Rozvoj osobnosti pedagoga ve zvládání konfliktů  </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, asistenti)</LiFile >
+                                                                                    <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Zásady asertivní a efektivní komunikace pro MŠ, ZŠ, ZUŠ </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, asistenti)</LiFile >
 
-    </ul>
-  </BlockEx>
-</Panel>;
+                                                                                  </ul>
+                                                                                </BlockEx>
+                                                                              </Panel>;
