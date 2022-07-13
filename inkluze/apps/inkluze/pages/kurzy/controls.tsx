@@ -746,12 +746,63 @@ var SSPedagogickaDiagnostika: React.StatelessComponent<IKurzProps> = (props: IKu
   <BlockEx header="Nabízíme následující kurzy:">
     <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Sociální klima třídy a pedagogická diagnostika učitele
-</b>(8 hod, akreditováno pro SŠ, VOŠ, MŠ, ZŠ, asistenti, od srpna 2022)
-</LiFile>
+      </b>(8 hod, akreditováno pro SŠ, VOŠ, MŠ, ZŠ, asistenti, od srpna 2022)
+        <div className="collapse " id="collapsesnt1"><ul className="list-group">
+          <b>Teoretická část  (4 vyučovací hodiny)</b><br />
+          •	Objasnění základních pojmů - klima třídy, sociální klima třídy, spolutvůrci třídního klimatu,<br />
+          •	Pedagogická diagnostika školní třídy – vymezení základních pojmů a metod pedagogické diagnostiky (diagnóza, prognóza, dispozice, proces – cíl, oblasti, diagnostický postup, chyby při diagnostikování ze strany pedagoga, charakteristické rysy, typy, mechanismy, které toto klima ovlivňují, prevence vztahů, pozice a role žáka ve školní třídě)<br />
+          •	Sociální klima třídy a pedagogická diagnostika<br />
+          -	Diagnostické kompetence učitele – metody, nástroje<br />
+          a)	Pozorování – obecné principy, průběh, zápis<br />
+          b)	Rozhovor – princip, vedení rozhovoru, typy, techniky kladení otázek<br />
+          c)	Dotazníky – typy, sestavování<br />
+          d)	Sociometrické metody<br />
+          - sběr dat, vyhodnocování, interpretace a práce s nimi<br />
+          - nejčastější chyby v sociální percepci<br />
+          <br />
+          <b>Praktická část (4 vyučovací hodiny)</b><br />
+          •	Nabídka činností zaměřených na podporu utváření pozitivního sociálního klimatu ve třídě a transformace na konkrétní činnosti spojené s nástroji pedagogické diagnostiky (např. účastník si prakticky ověří získané poznatky na základě nabídky konkrétních aktivit průřezového tématu OSV, zacíleného na věk). Nabídky aktivit z vlastního zkušenostního dvouletého výcviku u citovaných osobností a také nabídky jejich publikací - doc. PhDr. Soni Hermochové, CSc., doc. PhDr. Josefa Valenty, CSc., Doc. PhDr. Hany Kasíkové, CSc., Mgr. Petra Kříže a dalších osobností<br />
+          •	Poslední část bude věnována i dotazům a řízené diskuzi z vlastní praxe zúčastněných ped. pracovníků.<br />
+          •	způsoby vedení poradenského rozhovoru koučovacím způsobem - práce se škálou, kladení otázek, model GROW, atd.<br />
+
+        </ul></div>
+      </LiFile>
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Sociální klima třídy a pedagogická diagnostika učitele - webinář
 </b>(8 hod, akreditováno pro SŠ, VOŠ, MŠ, ZŠ, asistenti, od srpna 2022)
-                                                                                                                                                                                                                   
-</LiFile>
+         <div className="collapse " id="collapsesnt1"><ul className="list-group">
+          <b>Blok 1 (2 vyučovací hodiny - 90 minut)</b><br />
+          <b>Teoretická část 1 – základní pojmy a pedagogická diagnostika</b><br />
+          •	Objasnění základních pojmů - klima třídy, sociální klima třídy, spolutvůrci třídního klimatu,<br />
+          •	Pedagogická diagnostika školní třídy – vymezení základních pojmů a metod pedagogické diagnostiky (diagnóza, prognóza, dispozice, proces – cíl, oblasti, diagnostický postup, chyby při diagnostikování ze strany pedagoga, charakteristické rysy, typy, mechanismy, které toto klima ovlivňují, prevence vztahů, pozice a role žáka ve školní třídě)<br />
+          <br />
+          <b>Blok 2 ( 2 vyučovací hodiny – 90 minut)</b><br />
+          <b>Teoretická část 2 - Sociální klima třídy a pedagogická diagnostika</b><br />
+          -	Diagnostické kompetence učitele – metody, nástroje<br />
+          a)	Pozorování – obecné principy, průběh, zápis<br />
+          b)	Rozhovor – princip, vedení rozhovoru, typy, techniky kladení otázek<br />
+          c)	Dotazníky – typy, sestavování<br />
+          d)	Sociometrické metody<br />
+          - sběr dat, vyhodnocování, interpretace<br />
+          - nejčastější chyby v sociální percepci<br />
+          <br />
+          <b>Blok 3 ( 2 vyučovací hodiny – 90 minut)</b><br />
+          <b>Praktická část 1</b><br />
+          Nabídka činností zaměřených na podporu utváření pozitivního sociálního klimatu ve třídě a transformace na konkrétní činnosti spojené s nástroji pedagogické diagnostiky<br />
+          a) Rozhovor – nácvik vedení rozhovoru<br />
+          b) Dotazníky – nácvik tvorby<br />
+          c) Pozorování – nácvik struktury tvorby předlohy<br />
+          <br />
+          <b>Blok 4 ( 2 vyučovací hodiny – 90 minut)</b><br />
+          <b>Praktická část 2</b><br />
+          Nestandardizované nástroje diagnostiky tříd:<br />
+          Např:<br />
+          a) pohybové hry (např. aktivity – Dotkni se toho, kdo…, Místo vedle mě je prázdné…,Místa si vymění ti, kteří ...,   Sociometrie tělem.. a další)<br />
+          b) techniky tužka – papír (např. aktivity Technika deseti situací, Erb, Pyramida, Obláčky..)<br />
+          Nabídka námětů aktivit, které budou účastníkům prezentovány na webináři jsou vybrány z vlastního zkušenostního dvouletého výcviku u citovaných osobností a také nabídky jejich publikací - doc. PhDr. Soni Hermochové, CSc., doc. PhDr. Josefa Valenty, CSc., Doc. PhDr. Hany Kasíkové, CSc., Mgr. Petra Kříže a dalších osobností<br />
+          Tato část bude věnována i dotazům a řízené diskuzi z vlastní praxe zúčastněných ped. pracovníků.<br />
+          <br />
+        </ul></div>
+      </LiFile>
     </ul>
   </BlockEx>
 </Panel>
@@ -772,7 +823,7 @@ var SSInovace: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
 </LiFile>
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Úpravy ŠVP v rámci programu InspIS ŠVP - webinář
 </b>(8 hod, akreditováno pro SŠ, VOŠ, MŠ, ZŠ, ZUŠ, od srpna 2022)
-                                                                                                                                                                                                                   
+                                                                                                                                                                                                                                                                                                                                                     
 </LiFile>
     </ul>
   </BlockEx>
@@ -791,7 +842,7 @@ var SSCtenarskaGramotnost: React.StatelessComponent<IKurzProps> = (props: IKurzP
 </LiFile>
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Čtenářství napříč výukou SŠ – 8 hodin
 </b>(8 hod, akreditováno pro SŠ, VOŠ)
-                                                                                                                                                                                                                   
+                                                                                                                                                                                                                                                                                                                                                       
 </LiFile>
     </ul>
   </BlockEx>
@@ -810,7 +861,7 @@ var SSMatematickaGramotnost: React.StatelessComponent<IKurzProps> = (props: IKur
 </LiFile>
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Jak na distanční výuku matematiky?
 </b>(8 hod, akreditováno pro SŠ, VOŠ, ZŠ)
-                                                                                                                                                                                                                   
+                                                                                                                                                                                                                                                                                                                                                         
 </LiFile>
     </ul>
   </BlockEx>
@@ -829,7 +880,7 @@ var SSPodporaUcitelu: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
 </LiFile>
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Moderní trendy ve vedení lidí – Mentoring
 </b>(24 hod, akreditováno pro SŠ, MŠ, ZŠ, ZUŠ, ředitelé, zástupci, management)
-                                                                                                                                                                                                                   
+                                                                                                                                                                                                                                                                                                                                                           
 </LiFile>
     </ul>
   </BlockEx>
@@ -1360,30 +1411,129 @@ var SSOstatniInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
   <BlockEx header="Nabízíme následující kurzy:">
     <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Práce s diferencovanou třídou a náměty na vzdělávání 8 hod
-</b>(8 hod, akreditováno pro SŠ, VOŠ, ZŠ, asistenti)
-</LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje na SŠ
-</b>(8 hod, akreditováno pro SŠ, VOŠ)
-</LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje – webinář
-</b>(8 hod, akreditováno pro SŠ, VOŠ, ZŠ, od srpna 2022)
-</LiFile>
+      </b>(8 hod, akreditováno pro SŠ, VOŠ, ZŠ, asistenti)
+        <div className="collapse " id="collapsesnt1"><ul className="list-group"><li className="list-group-item">•	<b>Téma </b> – Legislativní rámec. Školský zákon a Vyhláška 27/2016. Podpůrné opatření, možnosti úpravy obsahu a výstupů v souladu s legislativou.  Vymezení základních pojmů nadání. RVP pro základní školy, kompetence, výstupy, učivo v kontextu s prací s žáka s potřebou podpůrných opatření. (1 hodina)</li>
+          <li className="list-group-item">•	<b>Téma Základní pojmy 1. část.</b> Základní pojmy: Heterogenní skupina, diverzita. Diferencované vzdělávání podle kritérii a možností žáka. (1 hodina)</li>
+          <li className="list-group-item">•	<b>Téma Základní pojmy 2. část.</b> Možnosti diferencovaného vyučování, pedagogická diagnostika jako součást volby vhodných metod a forem práce s diferencovanou skupinou.  Ukázka diagnostických metod. (1 hodina) </li>
+          <li className="list-group-item">•	<b>Téma – Principy práce s diferencovanou třídou</b>, 1. část. Teoretické ukotvení tématu. Možnosti diferenciace - navýšení času.  Ukázka možností efektivního času. Ukázka pracovních listů a práce s diferencovanou skupinou od žáků mimořádně nadaných, přes žáky se speciálně vzdělávacími potřebami /dále jen SVP/ (1 hodina)</li>
+          <li className="list-group-item">•	<b>Téma – Principy práce s diferencovanou třídou</b>, 2. část. Možnosti diferenciace - rozsah práce, obtížnost úkolů. Ukázka možností procvičování podle možností a schopností žáků, možnosti ověřování učiva a úrovně, rozsahu, četnosti úkolů stejného typu. Ukázka práce, nabídka metodických materiálů. Práce s pracovním materiálem. Možnosti zařazování obtížnější úrovně základního učiva. (1 hodina)</li>
+          <li className="list-group-item">•	<b>Téma – Principy práce s diferencovanou třídou</b>, 3. část. Další způsoby práce s diferencovanou skupinou. Ukázka diferencovaných pracovních listů např. diferencované čtení, ukázka pracovních listů z matematiky - základní a zkrácená verze, diferencovaný diktát, upravené texty, bonusové a prémiové úkoly pro žáky nadané, mimořádně nadané. Skupinová práce s homogenní a heterogenní skupinou. Organizace diferencovaného vyučování ve vyučovací hodině. Hodnocení žáků a motivace žáků k diferencované práci. Sumativní a formativní hodnocení, autonomní, heteronomní hodnocení. (2 hodiny)</li>
+          <li className="list-group-item">•	<b>Téma – Ukázka inspirativních úloh</b>.  Možnosti obohacení učiva, inspirativní úlohy vhodné pro rozvoj rozumového nadání. (1 hodina)</li>
+        </ul></div>
+      </LiFile>
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesskp2" aria-expanded="false" aria-controls="collapsesskp2">Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje na SŠ
+      </b>(8 hod, akreditováno pro SŠ, VOŠ)
+                        <div className="collapse " id="collapsesskp2">
+          <b>LEGISLATIVNÍ RÁMEC</b><br />
+          •	Nová legislativa - Školský zákon a Vyhláška 27/2016 k rozvoji nadaných a mimořádně nadaných žáků. Vymezení základních pojmů nadání. RVP pro gymnázia a daný typ střední školy v kontextu s rozvoje nadání. (1 hodina)<br />
+          <b>ZÁKLADNÍ POJMY</b><br />
+          •	Základní pojmy z hlediska psychologické diagnostiky. Typologie nadání z hlediska psychologie. Typologie nadaných z hlediska projevů chování (1 hodina)<br />
+          •	Možnosti a význam pedagogické diagnostiky, ukázka diagnostických metod. (1 hodina)<br />
+          <b>PRINCIPY PRÁCE S NADANÝM A MIMOŘÁDNĚ NADANÝM ŽÁKEM</b><br />
+          •	Charakteristické znaky osobitosti nadaných a mimořádně nadaných žáků. Odlišnosti ve vnímání a zpracování podnětů, v myšlení a prožívání.  Seznámení s různými přístupy k rozvoji nadání (1 hodina)<br />
+          •	Základní principy v práci s nadanými a mimořádně nadanými žáky, případně s žáky s dvojí výjimečností. Možnosti jejich dalšího rozvoje rozumových schopností jako i jejich sociálně emočních kompetencí v rámci daného stupně vzdělávání. (1 hodina)<br />
+          •	IVP, úpravy vzdělávacích obsahů a výstupů. Možnosti hodnocení žáků nadaných a mimořádně nadaných. Seznámení s terminologií, její aplikace v praxi. Sumativní, formativní hodnocení, autonomní, heteronomní hodnocení (2 hodiny)<br />
+          <b>Téma –  UKÁZKA INPIRATIVNÍCH ÚLOH</b><br />
+          •	Možnosti obohacení učiva, inspirativní úlohy vhodné pro rozvoj rozumového nadání. (1 hodina)<br />
+        </div>
+      </LiFile>
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesskp3" aria-expanded="false" aria-controls="collapsesskp3">Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje-webinář
+      </b>(8 hod, akreditováno pro SŠ, VOŠ, ZŠ, od srpna 2022)
+        <div className="collapse " id="collapsesskp3">
+          <b>Blok 1 (1 vyučovací hodina – 45 minut)</b><br />
+          Téma – Legislativní rámec <br />
+          Nová legislativa - Školský zákon a Vyhláška 27/2016 k rozvoji nadaných a mimořádně nadaných žáků. Vymezení základních pojmů nadání.<br />
+          RVP pro daný typ školy v kontextu s rozvoje nadání.<br />
+
+          <b>Blok 2 (2 vyučovací hodiny – 90 minut)</b><br />
+          Téma – Základní pojmy<br />
+          Základní pojmy z hlediska psychologické diagnostiky. <br />
+          Typologie nadání z hlediska psychologie. Typologie nadaných z hlediska projevů chování.<br />
+          Možnosti a význam pedagogické diagnostiky, ukázka diagnostických metod.<br />
+
+          <b>Blok 3 (2 vyučovací hodiny – 90 minut)</b><br />
+          Téma – Principy práce s nadaným a mimořádně nadaným žákem 1. část<br />
+          -	Charakteristické znaky osobitosti nadaných a mimořádně nadaných žáků. Odlišnosti ve vnímání a zpracování podnětů, v myšlení a prožívání. <br />
+          -	Seznámení s různými přístupy k rozvoji nadání <br />
+          -	Základní principy v práci s nadanými a mimořádně nadanými žáky, případně s žáky s dvojí výjimečností. Možnosti jejich dalšího rozvoje rozumových schopností jako i jejich sociálně emočních kompetencí v rámci daného stupně vzdělávání.<br />
+
+          <b>Blok 4 (2 vyučovací hodiny – 90 minut)</b><br />
+          Téma – Principy práce s nadaným a mimořádně nadaným žákem 2. část<br />
+          IVP, úpravy vzdělávacích obsahů a výstupů. <br />
+          Možnosti hodnocení žáků nadaných a mimořádně nadaných. Seznámení s terminologií, její aplikace v praxi. <br />
+          Sumativní, formativní hodnocení, autonomní, heteronomní hodnocení.<br />
+
+          <b>Blok 5 (1 vyučovací hodina – 45 minut)</b><br />
+          Téma – Ukázka inspirativních úloh<br />
+          Možnosti obohacení učiva, inspirativní úlohy vhodné pro rozvoj rozumového nadání. (1 hodina)<br />
+
+        </div>
+      </LiFile>
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Klima třídy a vedení třídnické hodiny v rámci inkluze - SŠ
-</b>(8 hod, akreditováno pro SŠ, VOŠ)
-</LiFile>
+      </b>(8 hod, akreditováno pro SŠ, VOŠ)
+        <div className="collapse " id="collapsesnt1"><ul className="list-group"><li className="list-group-item">•	<b>Téma – Vedení třídního kolektivu v souladu s podpůrným opatřením a doporučením ke vzdělávání žáků</b> . Společné vzdělávání na středních školách, typy středních škol a odborných učilišť a možnosti vzdělávání žáků na těchto školách v souladu s platnými přepisy-Vyhláška 27/2016 Sb. - Struktura podpůrných opatření a jejich členění do pěti stupňů se zaměřením na podporu klimatu třídy. (1 hodina)</li>
+          <li className="list-group-item">•	<b>Téma - Třídní kolektiv, možnosti vedení třídního kolektivu</b> . Základní pravidla pro fungující třídní kolektiv: Cíle práce se třídou, jak najít cíl a proč?, Třídnické hodiny / jejich nastavení, struktura, co je a není vhodné/, Práce s tvarem třídy /skupiny, dvojice, jednotlivci/, Témata na třídnické hodiny / komunikace, empatie, úcta, respekt…/, Regulace chování ve skupině (3 hodiny)</li>
+          <li className="list-group-item">•	<b>Téma - Autenticita pedagoga, sebereflexe pedagoga, sebehodnocení. Kategorie a formy diagnostiky ve školním prostředí </b> - souvislost s úpravou právních předpisů - jak v souvislosti s využitím podpůrného opatření . Pozorování žáků a jeho zaznamenání: analýza získaných poznatků, další nástroje pedagogické diagnostiky, východiska pro nastavení práce s třídním kolektivem, možnosti nastavení podmínek v rámci třídního kolektivu (2 hodiny)</li>
+          <li className="list-group-item">•	<b>Téma – supervize, její význam a cíl</b> . Východiska pro hodnocení : kultura vysokých očekávání, Osvědčené strategie pro vytvoření prostředí podporujícího všechny žáky, Sebezkušenostní část vzdělávacího programu. / zaměření na jednotlivé situace, problémy, kauzistiky/ (2 hodiny)</li>
+        </ul></div>
+      </LiFile>
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Podpora žáků SŠ v rámci inkluze
-</b>  (8 hod, akreditováno pro SŠ, VOŠ, DM, asistenti)</LiFile >
+      </b>  (8 hod, akreditováno pro SŠ, VOŠ, DM, asistenti)
+         <div className="collapse " id="collapsesnt1"><ul className="list-group">
+          <li className="list-group-item">•	<b>Téma - Struktura podpůrných opatření a práce se zaměřením na PO 1. stupně /individualizace - PLPP/</b>. Společné vzdělávání na středních školách, typy středních škol, odborných učilišť a možnosti vzdělávání žáků na těchto školách v souladu s platnými přepisy, vyhláška 27/2016 Sb. o vzdělávání žáků se speciálními vzdělávacími potřebami a žáků nadaných, školský zákon, RVP pro daný typ střední školy, Struktura podpůrných opatření a jejich členění do pěti stupňů, podpůrná opatření prvního stupně (příloha č. 1 vyhlášky č. 27/2016 Sb.), úpravy ŠVP a jeho charakteristika v souvislosti s vytvářením, realizací a vyhodnocováním PLPP (1 hodina)</li>
+          <li className="list-group-item">•	<b>PO 1. stupně  - individualizace x  PLPP: možnosti  PO 1. stupně na ŠŠ, charakteristika PO 1. stupně, </b> - prostředky PO 1.stupně, příklady individualizace výuky, příklady diferenciace výuky, účel PLPP, struktura daná právními předpisy a porozumění jednotlivým částem v souvislostech, jak pracovat s formulářem při tvorbě PLPP, jak získávat podklady pro vytváření PLPP a pro jeho vyhodnocování , interaktivní formuláře jako pomoc pedagogům a jejich využití (2 hodiny)</li>
+          <li className="list-group-item">•	<b>Pedagogická diagnostika jako prostředek pro nastavení PLPP, příp. IVP</b>: kategorie a formy diagnostiky ve školním prostředí, souvislosti s úpravou právních předpisů - jak v souvislosti s využitím podpůrného opatření PLPP, příp. IVP. Pozorování žáků a jeho zaznamenání: analýza získaných poznatků, další nástroje pedagogické diagnostiky, východiska pro nastavení PO, možnosti nastavení podmínek v rámci vyučovací hodiny (2 hodiny)</li>
+          <li className="list-group-item">•	<b>Tvorba IVP, PLPP</b>. Formulář podle přílohy vyhlášky č. 27/2016 Sb. Stanovení cílů, možné úpravy obsahů a výstupů vzdělávání, využití PLPP při spolupráci se školským poradenským zařízením v případě nutnosti využít vyšších stupňů podpory. Zpětná vazba, vyhodnocení (1 hodina)</li>
+          <li className="list-group-item">•	<b>Téma  - hodnocení žáků ve společném vzdělávání.</b> Východiska pro hodnocení: kultura vysokých očekávání, modifikace obsahů, výstupů vzdělávání a dopad do hodnocení, hodnocení a jeho dopad na žáka, hodnocení jako zpětná vazba pro učitele, sumativní a formativní způsoby hodnocení, Autonomní a heteronomní hodnocení, Osvědčené strategie pro vytvoření prostředí podporujícího všechny žáky. Úprava forem a způsobů hodnocení jako podpůrné opatření a jeho uplatňování v různých stupních podpory. (2 hodiny)</li>
+        </ul></div>
+      </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Práce se žákem SŠ s problémovým chováním
-</b>  (8 hod, akreditováno pro SŠ, DM, asistenti)</LiFile >
+      </b>  (8 hod, akreditováno pro SŠ, DM, asistenti)
+        <div className="collapse " id="collapsesnt1"><ul className="list-group">
+          <li className="list-group-item">•	<b>Téma – Základní sociální potřeby žáků střední školy.</b> Základní sociální potřeby: Potřeba místa, bezpečí, podnětu, potřeba péče, výživy, dále potřeby podpory a sociálních limitů. Důsledky nenaplňování potřeb a jejich vliv na chování žáků střední školy. Dopady procesu psychického a fyzického vývoje na chování žáka v podmínkách střední školy (2 hodiny)</li>
+          <li className="list-group-item">•	<b>Téma – žák s problémovým chováním ve třídě, projevy chování žáků s poruchami chování, vliv na klima třídy</b>. Etické vedení dialogu se žákem. Pravidla a zásady vedení třídniho kolektivu Práce s tvarem třídy - konformita a normy konkrétního třídního kolektivu - příprava, hranice, rizika a zdroje. Výhody a nevýhody nepsaných norem třídního kolektivu. Role žáka ve třídě. Posilování pozitivních vazeb. Regulace chování ve skupině. (2 hodiny)</li>
+          <li className="list-group-item">•	<b>Téma – Práce s pocity žáků jako prevence kázeňských problémů</b>. Školní prostředí a střídání rolí. Typy kázeňských přestupů a možnosti řešení kázeňských přestupků ve školní třídě v součinnosti se školním řádem a platnou legislativou. Komunikace s problémovým rodičem a jeho specifika - vhodné a nevhodné komunikační kanály. (2 hodiny)</li>
+          <li className="list-group-item">•	<b>Téma – praktické ukázky řešení přestupků. Komunikace s verbálně agresivním žákem</b>. Zákonité fáze, postupy, změny. Šikana, její vyhledávání a řešení. Konkrétní práce se žákem s problémovým chováním, ukázka možných řešení. Osvědčené strategie pro vytvoření prostředí podporujícího všechny žáky. Sebezkušenostní část vzdělávacího programu. / zaměření na jednotlivé situace, problémy, vlastní kazuistiky/ (2 hodiny)</li>
+        </ul></div>
+      </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Sociální klima třídy a role učitele – 8 hodin
-</b>  (8 hod, akreditováno pro SŠ, VOŠ, ZŠ, asistenti)</LiFile >
+      </b>  (8 hod, akreditováno pro SŠ, VOŠ, ZŠ, asistenti)
+        <div className="collapse " id="collapsesnt1"><ul className="list-group">
+          <b>Teoretická část  (4 vyučovací hodiny)</b><br />
+          •	Objasnění základních pojmů - klima třídy, sociální klima třídy, spolutvůrci třídního klimatu,<br />
+          •	Pedagogická diagnostika školní třídy – mechanismy, které toto klima ovlivňují, prevence vztahů, sociálně-psychologické aspekty vedení třídy, pozice a role žáka ve školní třídě<br />
+          •	Sociální klima třídy a pedagogická diagnostika<br />
+          - sběr dat, vyhodnocování, interpretace a práce s nimi<br />
+          - nejčastější chyby v sociální percepci<br />
+          <b>Praktická část (4 vyučovací hodiny)</b><br />
+          •	Nabídka činností zaměřených na podporu utváření pozitivního sociálního klimatu ve třídě<br />
+          -	účastník si prakticky ověří získané poznatky<br />
+          •	Poslední část bude věnována i dotazům a řízené diskuzi z vlastní praxe zúčastněných ped. pracovníků.<br />
+        </ul></div>
+      </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Práce s pedagogickým sborem-jak předejít syndromu vyhoření
-</b>  (8 hod, akreditováno pro SŠ, VOŠ, ZŠ)</LiFile >
+      </b>  (8 hod, akreditováno pro SŠ, VOŠ, ZŠ)
+        <div className="collapse " id="collapsesnt1"><ul className="list-group">
+          <li className="list-group-item">•	<b>Téma – Práce s pedagogickým sborem - jak předejít syndromu vyhoření</b> . Klima ve škole a sborovně: Klima z hlediska - emocionálního, sociálního, pracovního. Faktory ovlivňující klima školy - přístup učitele, komunikace, metody a strategie. (2 hodiny)</li>
+          <li className="list-group-item">•	<b>Téma – Pravidla ve sborovně, pravidla ve třídě, komunikace</b> : Pravidla a zásady fungujícího kolektivu ve sborovně, vedení a zásady třídnického kolektivu. Práce se sborovnou - příprava, hranice, rizika a zdroje. Výhody a nevýhody nepsaných norem pedagogického sboru a třídního kolektivu. Role učitele ve sborovně. Posilování pozitivních vazeb. Regulace chování ve skupině. Komunikace ve sborovně. (2 hodiny)</li>
+          <li className="list-group-item">•	<b>Téma – Jak na syndrom vyhoření, antistresové a relaxační techniky</b> : Antistresové techniky využitelné pro jednotlivce i pro skupinu. Relaxační metody různých druhů. Uvědomění si sám sebe, práce na pozitivním myšlení u jednotlivce i skupiny. (1 hodina)</li>
+          <li className="list-group-item">•	<b>Téma – praktické ukázky práce se skupinou a antistresové relaxační metody</b> . Sebezkušenostní část vzdělávacího programu. Využití relaxačních metod v praxi. Ukázky jak pracovat v pedagogickém sboru či v jiném kolektivu, případně ve třídě žáků. Zapojení sebereflexe a reflexe od skupiny. (3 hodiny)</li>
+        </ul></div>
+      </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Základní kurz společného vzdělávání pro střední školy
-</b>  (8 hod, akreditováno pro SŠ, VOŠ)</LiFile >
-    </ul>
-  </BlockEx>
-</Panel>;
+      </b>  (8 hod, akreditováno pro SŠ, VOŠ)
+     <div className="collapse " id="collapsesnt1"><ul className="list-group">
+          <li className="list-group-item">•	Úvod do společného vzdělávání, filozofie společného vzdělávání, anglický model P. Farrella, porovnání integrace a inkluze (1 hodina )</li>
+          <li className="list-group-item">•	Seznámení s § 16, 17, 18, 19 novely Školského zákona č. 82/2015 Sb., podrobný rozbor § 16, definice žáků se speciálními vzdělávacími potřebami,  vymezení pojmu nadaný žák a mimořádně nadaný žák (1 hodina)</li>
+          <li className="list-group-item">•	Podrobný rozbor textové části vyhlášky 27/2016 Sb. o vzdělávání žáků se speciálními vzdělávacími potřebami a žáků nadaných, odlišnosti pro střední školy  – (2 hodiny)</li>
+          <li className="list-group-item">•	Úprava v pojetí žáka se speciálními vzdělávacími potřebami, struktura a přehled podpůrných opatření, specifika pro střední školy (2 hodiny)</li>
+          <li className="list-group-item">•	Vzdělávání žáků podle § 16, odst. 9, možnosti vzdělávání žáků s LMP (1 hodina)</li>
+          <li className="list-group-item">•	Závěrečné shrnutí a diskuze (1 hodina)</li>
+        </ul></div>
+      </LiFile >
+    </ul >
+  </BlockEx >
+</Panel >;
 
 var SSFormativniHodnoceni: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
@@ -1392,11 +1542,38 @@ var SSFormativniHodnoceni: React.StatelessComponent<IKurzProps> = (props: IKurzP
   <BlockEx header="Nabízíme následující kurzy:">
     <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Formativní hodnocení a role učitele
-</b>(8 hod, akreditováno pro SŠ, VOŠ, DM, ZŠ, ŠD, asistenti)</LiFile >
+      </b>(8 hod, akreditováno pro SŠ, VOŠ, DM, ZŠ, ŠD, asistenti)
+                                         
+        </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Formativní hodnocení v praxi
-</b>(8 hod, akreditováno pro SŠ, ZŠ,, asistenti, od srpna 2022)</LiFile >
+      </b>(8 hod, akreditováno pro SŠ, ZŠ,, asistenti, od srpna 2022)
+        <div className="collapse " id="collapsesnt1"><ul className="list-group"><li className="list-group-item">•	Formativní hodnocení a jeho principy (1 hod)</li>
+          <li className="list-group-item">•	Strategie formativního hodnocení, pravidla a podmínky pro poskytování formativního hodnocení (1 hod)</li>
+          <li className="list-group-item">•	Cíle učení a kritéria úspěchu a jejich tvorba (1 hod)</li>
+          <li className="list-group-item">•	Moderování třídní diskuse, komunikace, klíčové otázky, porozumění třídou (1 hod)</li>
+          <li className="list-group-item">•	Vrstevnické hodnocení a sebehodnocení, přijetí hodnocení (2 hod)</li>
+          <li className="list-group-item">•	Zásady podávání zpětné vazby ústní a písemné (1 hod)</li>
+          <li className="list-group-item">•	Přesah formativního hodnocení do osobnostního rozvoje žáka (0,5 hod)</li>
+          <li className="list-group-item">•	Diskuse účastníků, sdílení typů z praxe (0,5 hod)</li>
+        </ul></div>
+      </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Formativní hodnocení v praxi - webinář
-</b>(8 hod, akreditováno pro SŠ, ZŠ, asistenti, od srpna 2022)</LiFile >
+      </b>(8 hod, akreditováno pro SŠ, ZŠ, asistenti, od srpna 2022)
+         <div className="collapse " id="collapsesnt1"><ul className="list-group">
+          <b>Blok 1 (2 vyučovací hodiny – 90 minut)</b><br />
+          •	Formativní hodnocení a jeho principy (1 hod)<br />
+          •	Strategie formativního hodnocení, pravidla a podmínky pro poskytování formativního hodnocení (1 hod)<br />
+          <b>Blok 2 (2 vyučovací hodiny – 90 minut)</b><br />
+          •	Cíle učení a kritéria úspěchu a jejich tvorba (1 hod)<br />
+          •	Moderování třídní diskuse, komunikace, klíčové otázky, porozumění třídou (1 hod)<br />
+          <b>Blok 3 (2 vyučovací hodiny – 90 minut)</b><br />
+          •	Vrstevnické hodnocení a sebehodnocení, přijetí hodnocení (2 hod)<br />
+          <b>Blok 4 (2 vyučovací hodiny – 90 minut)</b><br />
+          •	Zásady podávání zpětné vazby ústní a písemné (1 hod)<br />
+          •	Přesah formativního hodnocení do osobnostního rozvoje žáka (0,5 hod)<br />
+          •	Diskuse účastníků, sdílení typů z praxe (0,5 hod)<br />
+        </ul></div>
+      </LiFile >
 
     </ul>
   </BlockEx>
