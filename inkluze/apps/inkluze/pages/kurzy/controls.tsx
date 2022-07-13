@@ -750,7 +750,7 @@ var SSPedagogickaDiagnostika: React.StatelessComponent<IKurzProps> = (props: IKu
 </LiFile>
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Sociální klima třídy a pedagogická diagnostika učitele - webinář
 </b>(8 hod, akreditováno pro SŠ, VOŠ, MŠ, ZŠ, asistenti, od srpna 2022)
-        
+                                                                                                                                                                                                                   
 </LiFile>
     </ul>
   </BlockEx>
@@ -772,7 +772,7 @@ var SSInovace: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
 </LiFile>
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Úpravy ŠVP v rámci programu InspIS ŠVP - webinář
 </b>(8 hod, akreditováno pro SŠ, VOŠ, MŠ, ZŠ, ZUŠ, od srpna 2022)
-        
+                                                                                                                                                                                                                   
 </LiFile>
     </ul>
   </BlockEx>
@@ -791,7 +791,7 @@ var SSCtenarskaGramotnost: React.StatelessComponent<IKurzProps> = (props: IKurzP
 </LiFile>
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Čtenářství napříč výukou SŠ – 8 hodin
 </b>(8 hod, akreditováno pro SŠ, VOŠ)
-        
+                                                                                                                                                                                                                   
 </LiFile>
     </ul>
   </BlockEx>
@@ -810,7 +810,7 @@ var SSMatematickaGramotnost: React.StatelessComponent<IKurzProps> = (props: IKur
 </LiFile>
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Jak na distanční výuku matematiky?
 </b>(8 hod, akreditováno pro SŠ, VOŠ, ZŠ)
-        
+                                                                                                                                                                                                                   
 </LiFile>
     </ul>
   </BlockEx>
@@ -829,7 +829,7 @@ var SSPodporaUcitelu: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
 </LiFile>
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Moderní trendy ve vedení lidí – Mentoring
 </b>(24 hod, akreditováno pro SŠ, MŠ, ZŠ, ZUŠ, ředitelé, zástupci, management)
-        
+                                                                                                                                                                                                                   
 </LiFile>
     </ul>
   </BlockEx>
@@ -1015,51 +1015,51 @@ var SSKarierovePoradenstvi: React.StatelessComponent<IKurzProps> = (props: IKurz
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesskp2" aria-expanded="false" aria-controls="collapsesskp2">Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje na SŠ
       </b>(8 hod, akreditováno pro SŠ, VOŠ)
                         <div className="collapse " id="collapsesskp2">
-          <b>LEGISLATIVNÍ RÁMEC</b>
-          •	Nová legislativa - Školský zákon a Vyhláška 27/2016 k rozvoji nadaných a mimořádně nadaných žáků. Vymezení základních pojmů nadání. RVP pro gymnázia a daný typ střední školy v kontextu s rozvoje nadání. (1 hodina)
-          <b>ZÁKLADNÍ POJMY</b>
-          •	Základní pojmy z hlediska psychologické diagnostiky. Typologie nadání z hlediska psychologie. Typologie nadaných z hlediska projevů chování (1 hodina)
-                  •	Možnosti a význam pedagogické diagnostiky, ukázka diagnostických metod. (1 hodina)
-            <b>PRINCIPY PRÁCE S NADANÝM A MIMOŘÁDNĚ NADANÝM ŽÁKEM</b>
-          •	Charakteristické znaky osobitosti nadaných a mimořádně nadaných žáků. Odlišnosti ve vnímání a zpracování podnětů, v myšlení a prožívání.  Seznámení s různými přístupy k rozvoji nadání (1 hodina)
-                  •	Základní principy v práci s nadanými a mimořádně nadanými žáky, případně s žáky s dvojí výjimečností. Možnosti jejich dalšího rozvoje rozumových schopností jako i jejich sociálně emočních kompetencí v rámci daného stupně vzdělávání. (1 hodina)
-                  •	IVP, úpravy vzdělávacích obsahů a výstupů. Možnosti hodnocení žáků nadaných a mimořádně nadaných. Seznámení s terminologií, její aplikace v praxi. Sumativní, formativní hodnocení, autonomní, heteronomní hodnocení (2 hodiny)
-              <b>Téma –  UKÁZKA INPIRATIVNÍCH ÚLOH</b>
-          •	Možnosti obohacení učiva, inspirativní úlohy vhodné pro rozvoj rozumového nadání. (1 hodina)
-          </div>
+          <b>LEGISLATIVNÍ RÁMEC</b><br />
+          •	Nová legislativa - Školský zákon a Vyhláška 27/2016 k rozvoji nadaných a mimořádně nadaných žáků. Vymezení základních pojmů nadání. RVP pro gymnázia a daný typ střední školy v kontextu s rozvoje nadání. (1 hodina)<br />
+          <b>ZÁKLADNÍ POJMY</b><br />
+          •	Základní pojmy z hlediska psychologické diagnostiky. Typologie nadání z hlediska psychologie. Typologie nadaných z hlediska projevů chování (1 hodina)<br />
+          •	Možnosti a význam pedagogické diagnostiky, ukázka diagnostických metod. (1 hodina)<br />
+          <b>PRINCIPY PRÁCE S NADANÝM A MIMOŘÁDNĚ NADANÝM ŽÁKEM</b><br />
+          •	Charakteristické znaky osobitosti nadaných a mimořádně nadaných žáků. Odlišnosti ve vnímání a zpracování podnětů, v myšlení a prožívání.  Seznámení s různými přístupy k rozvoji nadání (1 hodina)<br />
+          •	Základní principy v práci s nadanými a mimořádně nadanými žáky, případně s žáky s dvojí výjimečností. Možnosti jejich dalšího rozvoje rozumových schopností jako i jejich sociálně emočních kompetencí v rámci daného stupně vzdělávání. (1 hodina)<br />
+          •	IVP, úpravy vzdělávacích obsahů a výstupů. Možnosti hodnocení žáků nadaných a mimořádně nadaných. Seznámení s terminologií, její aplikace v praxi. Sumativní, formativní hodnocení, autonomní, heteronomní hodnocení (2 hodiny)<br />
+          <b>Téma –  UKÁZKA INPIRATIVNÍCH ÚLOH</b><br />
+          •	Možnosti obohacení učiva, inspirativní úlohy vhodné pro rozvoj rozumového nadání. (1 hodina)<br />
+        </div>
       </LiFile>
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesskp3" aria-expanded="false" aria-controls="collapsesskp3">Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje-webinář
       </b>(8 hod, akreditováno pro SŠ, VOŠ, ZŠ, od srpna 2022)
         <div className="collapse " id="collapsesskp3">
-          Blok 1 (1 vyučovací hodina – 45 minut)
-Téma – Legislativní rámec 
-Nová legislativa - Školský zákon a Vyhláška 27/2016 k rozvoji nadaných a mimořádně nadaných žáků. Vymezení základních pojmů nadání.
-RVP pro daný typ školy v kontextu s rozvoje nadání.
+          <b>Blok 1 (1 vyučovací hodina – 45 minut)</b><br />
+          Téma – Legislativní rámec <br />
+          Nová legislativa - Školský zákon a Vyhláška 27/2016 k rozvoji nadaných a mimořádně nadaných žáků. Vymezení základních pojmů nadání.<br />
+          RVP pro daný typ školy v kontextu s rozvoje nadání.<br />
 
-Blok 2 (2 vyučovací hodiny – 90 minut)
-Téma – Základní pojmy
-Základní pojmy z hlediska psychologické diagnostiky. 
-Typologie nadání z hlediska psychologie. Typologie nadaných z hlediska projevů chování.
-Možnosti a význam pedagogické diagnostiky, ukázka diagnostických metod.
+          <b>Blok 2 (2 vyučovací hodiny – 90 minut)</b><br />
+          Téma – Základní pojmy<br />
+          Základní pojmy z hlediska psychologické diagnostiky. <br />
+          Typologie nadání z hlediska psychologie. Typologie nadaných z hlediska projevů chování.<br />
+          Možnosti a význam pedagogické diagnostiky, ukázka diagnostických metod.<br />
 
-Blok 3 (2 vyučovací hodiny – 90 minut)
-Téma – Principy práce s nadaným a mimořádně nadaným žákem 1. část
--	Charakteristické znaky osobitosti nadaných a mimořádně nadaných žáků. Odlišnosti ve vnímání a zpracování podnětů, v myšlení a prožívání. 
--	Seznámení s různými přístupy k rozvoji nadání 
--	Základní principy v práci s nadanými a mimořádně nadanými žáky, případně s žáky s dvojí výjimečností. Možnosti jejich dalšího rozvoje rozumových schopností jako i jejich sociálně emočních kompetencí v rámci daného stupně vzdělávání.
+          <b>Blok 3 (2 vyučovací hodiny – 90 minut)</b><br />
+          Téma – Principy práce s nadaným a mimořádně nadaným žákem 1. část<br />
+          -	Charakteristické znaky osobitosti nadaných a mimořádně nadaných žáků. Odlišnosti ve vnímání a zpracování podnětů, v myšlení a prožívání. <br />
+          -	Seznámení s různými přístupy k rozvoji nadání <br />
+          -	Základní principy v práci s nadanými a mimořádně nadanými žáky, případně s žáky s dvojí výjimečností. Možnosti jejich dalšího rozvoje rozumových schopností jako i jejich sociálně emočních kompetencí v rámci daného stupně vzdělávání.<br />
 
-Blok 4 (2 vyučovací hodiny – 90 minut)
-Téma – Principy práce s nadaným a mimořádně nadaným žákem 2. část
-IVP, úpravy vzdělávacích obsahů a výstupů. 
-Možnosti hodnocení žáků nadaných a mimořádně nadaných. Seznámení s terminologií, její aplikace v praxi. 
-Sumativní, formativní hodnocení, autonomní, heteronomní hodnocení.
+          <b>Blok 4 (2 vyučovací hodiny – 90 minut)</b><br />
+          Téma – Principy práce s nadaným a mimořádně nadaným žákem 2. část<br />
+          IVP, úpravy vzdělávacích obsahů a výstupů. <br />
+          Možnosti hodnocení žáků nadaných a mimořádně nadaných. Seznámení s terminologií, její aplikace v praxi. <br />
+          Sumativní, formativní hodnocení, autonomní, heteronomní hodnocení.<br />
 
-Blok 5 (1 vyučovací hodina – 45 minut)
-Téma – Ukázka inspirativních úloh
-Možnosti obohacení učiva, inspirativní úlohy vhodné pro rozvoj rozumového nadání. (1 hodina)
+          <b>Blok 5 (1 vyučovací hodina – 45 minut)</b><br />
+          Téma – Ukázka inspirativních úloh<br />
+          Možnosti obohacení učiva, inspirativní úlohy vhodné pro rozvoj rozumového nadání. (1 hodina)<br />
 
         </div>
-</LiFile>
+      </LiFile>
     </ul>
   </BlockEx>
 </Panel>;
@@ -1070,30 +1070,96 @@ var SSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
 
   <BlockEx header="Nabízíme následující kurzy:">
     <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Wellbeing, cesta k harmonizaci vztahů ve škole
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb1" aria-expanded="false" aria-controls="collapseswb1">Wellbeing, cesta k harmonizaci vztahů ve škole
+      </b>(8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, asistenti, od srpna 2022)
+        <div className="collapse " id="collapseswb1"><ul className="list-group"><li className="list-group-item">•	<b>Co je wellbeing </b> – klíčové aspekty tvoření „zdravé školy“ (0,5 hod)</li>
+          <li className="list-group-item">•	<b>Jaká je situace v naší škole? </b> – analýza současného prostředí a klíčové očekávané změny – projektivní technika, týmový workshop - analýza výstupů – návrhy změn (1,5 hod)</li>
+          <li className="list-group-item">•	<b>Kognitivní zkreslení </b> – kognitivně behaviorální model člověka v pedagogické praxi – realita vs. její vidění (1 hod)</li>
+          <li className="list-group-item">•	<b>Osobnostní diagnostika </b> – Jak zacházím se svými emocemi – sebepoznávací dotazník, vyhodnocení – souvislosti do reality mé role ve škole (1 hod)</li>
+          <li className="list-group-item">•	<b>Aspekty vytváření wellbeingu v prostředí školy</b> a role jednotlivých typů pedagogických pracovníků (1 hod)</li>
+          <li className="list-group-item">•	<b>7 zdravých vstupů do našeho těla a mysli </b> – osobní analýza a mapování – diskuse (1 hod)</li>
+          <li className="list-group-item">•	<b>Náš pedagogický sbor a společné vytváření „Wellbeing prostředí“ </b> – osobní zodpovědnost vs. iluze týmové (ne)zodpovědnosti – od představ k realitě, jak to udělat v naší škole (1, 5 hod)</li >
+          <li className="list-group-item">•	<b>Závěr programu </b> – diskuse, sdílení, otázky a odpovědi (0,5 hod)</li>
+        </ul ></div >
+      </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb11" aria-expanded="false" aria-controls="collapseswb11">Wellbeing, cesta k harmonizaci vztahů ve škole - webinář
 </b>(8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, asistenti, od srpna 2022)
-</LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Wellbeing, cesta k harmonizaci vztahů ve škole - webinář
-</b>(8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, asistenti, od srpna 2022)
-             
-</LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Prevence k zátěžovým situacím ve škole </b> (8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ZUŠ, ŠD, asistenti)
-</LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Jak zvládat stresové situace a nedospět k vyhoření </b> (8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ZUŠ, ŠD, asistenti)
-</LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Vybrané aspekty emoční a sociální inteligence pedagoga_8 </b> (8 hod, akreditováno pro SŠ, VOŠ, ZŠ)
-</LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Rozvoj osobnosti pedagoga a zásady efektivní komunikace </b> (8 hod, akreditováno pro SŠ, VOŠ, DM, ZŠ, ŠD, ŠK)
-</LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Osobnostně sociální rozvoj učitele v sebepoznání </b> (8 hod, akreditováno pro SŠ, VOŠ, ZŠ)
-</LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Osobnostní a sociální rozvoj učitele ve zvládání konfliktů </b> (8 hod, akreditováno pro SŠ, VOŠ, ZŠ)
-</LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Zásady asertivní a efektivní komunikace – 8 hodin </b> (8 hod, akreditováno pro SŠ, VOŠ, DM, ZŠ, ŠD, ŠK)
-</LiFile>
-
-    </ul>
-  </BlockEx>
+        <div className="collapse " id="collapseswb11">
+          <b>Blok 1 (2 vyučovací hodiny – 90 minut)</b><br />
+          •	Co je wellbeing – klíčové aspekty tvoření „zdravé školy“ (0,5 hod)<br />
+          •	Jaká je situace v naší škole? – analýza současného prostředí a klíčové očekávané změny – projektivní technika, týmový workshop - analýza výstupů – návrhy změn (1,5 hod)<br />
+          <b>Blok 2 (2 vyučovací hodiny – 90 minut)</b><br />
+          •	Kognitivní zkreslení – kognitivně behaviorální model člověka v pedagogické praxi – realita vs. její vidění (1 hod)<br />
+          •	Osobnostní diagnostika – Jak zacházím se svými emocemi – sebepoznávací dotazník, vyhodnocení – souvislosti do reality mé role ve škole (1 hod)<br />
+          <b>Blok 3 (2 vyučovací hodiny – 90 minut)</b><br />
+          •	Aspekty vytváření wellbeingu v prostředí školy a role jednotlivých typů pedagogických pracovníků (1 hod)<br />
+          •	7 zdravých vstupů do našeho těla a mysli – osobní analýza a mapování – diskuse (1 hod)<br />
+          <b>Blok 4 (2 vyučovací hodiny – 90 minut)</b><br />
+          •	Náš pedagogický sbor a společné vytváření „Wellbeing prostředí“ – osobní zodpovědnost vs. iluze týmové (ne)zodpovědnosti – od představ k realitě, jak to udělat v naší škole (1,5 hod)<br />
+          •	Závěr programu – diskuse, sdílení, otázky a odpovědi (0,5 hod)<br />
+        </div >
+      </LiFile>
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb0" aria-expanded="false" aria-controls="collapseswb0">Prevence k zátěžovým situacím ve škole </b> (8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ZUŠ, ŠD, asistenti)
+        <div className="collapse " id="collapseswb0"><ul className="list-group"><li className="list-group-item">•	<b>Teoretický úvod do oblasti psychohygieny učitele </b> – zmapování zátěžových situací u pedagogických pracovníků, které vedou k jejich přepracovanosti – teorie + práce skupin (1 hod.)</li>
+          <li className="list-group-item">•	<b>Preventivní doporučení </b> - úprava životního stylu, efektivní organizace času, stanovení priorit, schopnost delegování úkolů (komunikace), spánková hygiena, (3 hod.) </li>
+          <li className="list-group-item">•	<b>Preventivní doporučení </b> – důležitost aktivního pohybu, relaxace, odpočinku, včetně nácviku jednoduchých relaxačních technik (jednoduché relaxace k uvolnění stresu: a) cviky k uvolnění svalového napětí, b) cviky k uvolnění po práci u počítače, c) cviky uvolňující při napětí v zádech a bolestech hlavy a zad. (3 hod.)</li>
+          <li className="list-group-item">•	<b>Regulace dalších zátěžových situací</b> přímo při výkonu práce (1hod) </li>
+        </ul></div>
+      </LiFile>
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb2" aria-expanded="false" aria-controls="collapseswb2">Jak zvládat stresové situace a nedospět k vyhoření </b> (8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ZUŠ, ŠD, asistenti)
+        <div className="collapse " id="collapseswb2"><ul className="list-group"><li className="list-group-item">•	Jak psychický stres ovlivňuje náš výkon, Bournout podle Maslachové, Stres management jako pojem (2 hodiny)</li>
+          <li className="list-group-item">•	Vytváření mapy zvládání každodenního stresu (1 hodina)</li>
+          <li className="list-group-item">•	Zjištění vlastního přístupu k práci, k sobě i k druhým (praktické cvičení) – (1 hodina)</li>
+          <li className="list-group-item">•	Strategie snížení hladiny stresu: zvědomění hodnotového žebříčku, přerámování, změna v plánování, afirmace , relaxace aj. (praktické cvičení ve skupinách) – (2 hodiny)</li>
+          <li className="list-group-item">•	Představení asertivního chování jako dobrého způsobu zvládání každodenních stresů (1 hodina)</li>
+          <li className="list-group-item">•	Jak nastavit změny, které podporují nevyhoření, sdílení, závěrečné shrnutí (1 hodina)</li>
+        </ul></div>
+      </LiFile>
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb3" aria-expanded="false" aria-controls="collapseswb3">Vybrané aspekty emoční a sociální inteligence pedagoga_8 </b> (8 hod, akreditováno pro SŠ, VOŠ, ZŠ)
+        <div className="collapse " id="collapseswb3"><ul className="list-group"><li className="list-group-item">•	Teoretické ukotvení tématu emoční inteligence. Vysvětlení jednotlivých aspektů emoční inteligence, EI z pohledu klasicky pojímané inteligence a její role v uplatnění rozumových schopností, Objasnění možností rozvíjet emoční inteligenci: práce a rozhodování pod časových stresem, zvládání negativních emocí, získávání větší odolnosti, resilience vůči zátěži (2 hodiny)</li>
+          <li className="list-group-item">•	Teoretické ukotvení tématu sociální inteligence a jejich jednotlivých aspektů. Praktické procvičení vybraných sociálních dovedností, trénink organizačních dovedností, možnosti řešení konfliktních situací, jak rozvíjet sociální inteligenci žáků (1 hodina)</li>
+          <li className="list-group-item">•	Teoretické ukotvení tématu sebepoznání, obeznámení s různými přístupy k sebepoznání, vysvětlení opodstatnění a role sebepoznání v každodenním životě a praxi, vysvětlení pojmů a podstaty uvědomování si vlastních předpokladů, pohnutek, myšlenek a následně schopnosti jejich verbalizace a manipulace s nimi. ( 1 hodina)</li>
+          <li className="list-group-item">•	Probrání jednotlivých technik sebepoznání a možnosti jejich využití, odhalení užívaní stereotypů ve vlastním prožívání, myšlení a možnosti jejich nahrazení funkčními a efektivnějšími způsoby. Sebehodnocení, sebevědomí, asertivní jednání vůči vlastní osobě, zaměření na cíl a monitorování vlastních sil, energie a motivace ke stanoveným cílům, využití poznatků pozitivní psychologie a práce s vlastním nastavením k hodnocení sebe a jiných, práce s kritikou, zhodnocení jejich negativ a pozitiv (1 hodina)</li>
+          <li className="list-group-item">•	Sebekoučink, sebemotivace, analýza vlastních strategií k dosahování cílů, nové možnosti k překonávání překážek, včetně zvládání negativních emocí,  technika GROW (1 hodina)</li>
+          <li className="list-group-item">•	Efektivní komunikace se sebou, v rámci rodiny a posléze také v kontextu pedagogické praxe, Jak jinak komunikovat, analýza základních komunikačních chyb, alternativní možnosti komunikace se žáky, možnosti, jak vést žáky k odpovědnosti za své prožívání a jednání (1 hodina)</li>
+          <li className="list-group-item">•	Nové možnosti komunikace ve třídě. Řešení emočně vypjatých situací, tvorba repertoáru strategií k řešení složitých a neobvyklých sociálních situací (1 hodina)</li>
+        </ul></div>
+      </LiFile>
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb4" aria-expanded="false" aria-controls="collapseswb4">Rozvoj osobnosti pedagoga a zásady efektivní komunikace </b> (8 hod, akreditováno pro SŠ, VOŠ, DM, ZŠ, ŠD, ŠK)
+        <div className="collapse " id="collapseswb4"><ul className="list-group"><li className="list-group-item">•	Efektivní komunikace se sebou, v rámci rodiny a posléze také v kontextu pedagogické praxe (3 hodiny)</li>
+          <li className="list-group-item">•	Jak jinak komunikovat, analýza základních komunikačních chyb, alternativní možnosti komunikace se žáky, možnosti, jak vést žáky k odpovědnosti za své prožívání a jednání (1 hodina)</li>
+          <li className="list-group-item">•	Nové možnosti komunikace ve třídě (1 hodina)</li>
+          <li className="list-group-item">•	Řešení emočně vypjatých situací, možnosti řešení, tvorba repertoáru strategií k řešení složitých a neobvyklých sociálních situací. (1 hodina)</li>
+          <li className="list-group-item">•	Principy komunikace v souladu s nejnovějšími poznatky psychologie o fungování mozku ( 1 hodina)</li>
+          <li className="list-group-item">•	Základy asertivního jednání (1 hodina)</li>
+        </ul></div>
+      </LiFile>
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb5" aria-expanded="false" aria-controls="collapseswb5">Osobnostně sociální rozvoj učitele v sebepoznání </b> (8 hod, akreditováno pro SŠ, VOŠ, ZŠ)
+        <div className="collapse " id="collapseswb5"><ul className="list-group"><li className="list-group-item">•	Seznámení s principem OSR  – (0,5 hod)</li>
+          <li className="list-group-item">•	Rozvoj schopností poznávání . Aktivity zaměřené na sebepoznání vlastního já (já v pohledu pozitivity, negativity…). Já z pohledu vlastností pozitivních i negativních (pohled empatie ve vyjádření 10ti odpovědí - jak se vnímám já, a jak mě vidí ostatní), mé silné a slabé stránky, vlastní způsob jednání a chování, přetvářka, sebereflexe (2 hodiny)</li>
+          <li className="list-group-item">•	Sebepoznání a sebepojetí. Aktivity zaměřené na sebepoznání, moje přednosti, představy, schopnosti  - prostor pro hlubší seznámení nejenom se sebou samým v rámci sebepozorování, ale i s ostatními účastníky, a to při vzájemném sdílení tématu (sestavování žebříčku osobního rozvoje) a dovednosti poskytovat druhým konstruktivním způsobem zpětnou vazbu, naslouchat jim a vcítit se do potřeb druhého/druhých. (2 hodiny)</li>
+          <li className="list-group-item">•	Seberegulace a sebeorganizace. Aktivity zaměřené na sebepoznání odvíjející se od představ, schopností  - schopností  – kontrola a regulace vlastního chování v situacích „tady a teď“ (cvičení sebekontroly, sebeovládání, rychlého rozhodování – regulace vlastního jednání i prožívání, vůle), schopnosti vlastní seberealizace – uvědomění si vlastní hierarchie hodnot. (2 hodiny)</li >
+          <li className="list-group-item">•	Psychohygiena. Aktivity zaměřené na jednoduché relaxační techniky  – a) cviky k uvolnění svalového napětí, b) cviky k uvolnění po práci u počítače, c) cviky uvolňující při napětí v zádech a bolestech hlavy a zad(1, 5 hodiny).</li >
+        </ul ></div >
+      </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb6" aria-expanded="false" aria-controls="collapseswb6">Osobnostní a sociální rozvoj učitele ve zvládání konfliktů </b> (8 hod, akreditováno pro SŠ, VOŠ, ZŠ)
+        <div className="collapse " id="collapseswb6"><ul className="list-group"><li className="list-group-item">•	Seznámení s principem OSR (0,5 hodiny)</li>
+          <li className="list-group-item">•	Poznávání lidí, mezilidské vztahy. Metody zaměřené na vhodné způsoby komunikace v různých životních situacích, případné řešení neshod či konfliktů s druhými lidmi nenásilným způsobem. Tj. na reakce na základě postojů již získaných; na očekávání, která jsou formována na základě životních zkušeností; na zvládání dovednosti přijímat a poskytovat konstruktivní kritiku, na poznávání typu osobnosti pro úspěšné řešení konfliktu (2 hodiny)</li>
+          <li className="list-group-item">•	Řešení problémů a rozhodovací dovednosti. Aktivity zaměřené na mapování vlastních postojů v rámci schématu konfliktu, na způsoby jednání v zátěžových situacích a přístupy ke zvládání konfliktu (kooperace, konfrontace, řešitelský přístup atd.), dovednosti pro řešení problémů a rozhodování z hlediska různých typů konfliktních situací, včetně zvládání krizové komunikace při jednání se žáky i s rodiči/zákonnými zástupci. (5,5 hodiny)</li>
+        </ul></div>
+      </LiFile>
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb7" aria-expanded="false" aria-controls="collapseswb7">Zásady asertivní a efektivní komunikace – 8 hodin </b> (8 hod, akreditováno pro SŠ, VOŠ, DM, ZŠ, ŠD, ŠK)
+        <div className="collapse " id="collapseswb7"><ul className="list-group"><li className="list-group-item">•	Seznámení se s pravidly a technikami komunikace osobní i profesní: cíl, základní stanovisko, kladení otázek a jejich typologie, aktivní naslouchání, změkčovadla, sdělování názoru (2 hodiny)</li>
+          <li className="list-group-item">•	Praktická typologie v komunikaci podle D. Forbese Leye (možné cvičení). Námitky a jak na ně vhodně reagovat. (1 hodina)</li>
+          <li className="list-group-item">•	Asertivita jako dovednost prosazovat své názory a požadavky při zachování respektu k okolí, možnosti vedení žákům k asertivnímu nenásilnému chování. Asertivní práva a techniky -možný nácvik. (1 hodina)</li>
+          <li className="list-group-item">•	Zvládání emocí, zvládání vlastních emocí v komunikaci při emočně náročných situacích nejen ve školním prostředí. (1 hodina)</li>
+          <li className="list-group-item">•	Jak rozpoznat manipulaci, druhy manipulací, techniky na zvládání manipulací  - možný nácvik (1 hodina)</li>
+          <li className="list-group-item">•	Vedení rozhovoru  – příprava a struktura (1 hodina)</li>
+          <li className="list-group-item">•	Neverbální komunikace  – gesta a výrazy s jejich významem. Základy psycholingvistiky a rizikové výrazy. (1 hodina)</li>
+        </ul></div>
+      </LiFile>
+    </ul >
+  </BlockEx >
 </Panel >;
 
 var SSVyukaCestiny: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
@@ -1101,18 +1167,39 @@ var SSVyukaCestiny: React.StatelessComponent<IKurzProps> = (props: IKurzProps, c
 </div>} eventKey={2}>
   <BlockEx header="Nabízíme následující kurzy:">
     <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Specifika výuky češtiny jako druhého jazyka
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesvc1" aria-expanded="false" aria-controls="collapsesvc1">Specifika výuky češtiny jako druhého jazyka
 </b>(8 hod, akreditováno pro SŠ, ZŠ, asistenti, výchovní poradci, od srpna 2022)
-        
-</LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Specifika výuky češtiny jako druhého jazyka - webinář
+        <div className="collapse " id="collapsesvc1"><ul className="list-group">
+          <li className="list-group-item">•	<b>vymezení teoretických východisek a terminologického rámce ČJDJ</b>, shod, rozdílů a specifik procesu výuky českého jazyka, českého jazyka jako cizího jazyka a ČJDJ, přesah do výuky všeobecně vzdělávacích a ostatních předmětů ve vyučovacím procesu, provázanost s oblastí mimoškolních aktivit a zájmových činností (nejen) pro žáky cizince (1 hodina);</li>
+          <li className="list-group-item">•	<b>uplatňování postkomunikačního přístupu ve výuce ČJDJ</b>, využívání vhodných strategií a didaktických postupů, rozvoj základních řečových dovedností a jazykových kompetencí žáka cizince v procesu jeho přijímání, začleňování a vzdělávání, tj. v prvních dnech a týdnech po zahájení školní docházky v běžné české škole (1,5 hodiny); </li>
+          <li className="list-group-item">•	<b>diagnostika jazykové úrovně jedince</b>, postupy pro určení jazykové úrovně žáka cizince (1 hodina);</li>
+          <li className="list-group-item">•	<b>komunikace se žákem cizincem</b>, tj. role zvukového plánu jazyka, význam osvojení si správné zvukové podoby češtiny a výslovnosti jako nezbytné podmínky úspěšné komunikace; základní instrukce, fráze a kolokace „pro přežití“ a jejich následné rozšiřování a posilování, rozvoj slovní zásoby; zásady komunikace a vedení výuky bez zprostředkovacího jazyka, vhodné didaktické postupy a pomůcky a postupy (1 hodina);</li>
+          <li className="list-group-item">•	<b>práce s kurikulem ČJDJ, tj. jak a co učit </b> – témata vhodná pro začátečníky a mírně pokročilé, konkrétní situace, rozvoj základní slovní zásoby v kontextu interakce, osvojování jazykových dovedností a posilování jazykových kompetencí, stanovení základního cíle a efektivní realizace triády téma – cíl – dovednost; příklady vhodných aktivit (1 hodina)</li>
+          <li className="list-group-item">•	<b>význam osvojování si vhodných kompetencí a jazykových prostředků</b>, význam procvičování a správné fixace osvojených jazykových dovedností a kompetencí jako např. osvojování čtení a nácvik psaní u žáků, kteří přicházejí bez dovednosti číst latinku a psát latinkou, spolu s fixací správných pracovních návyků pro čtení a psaní, osvojování a procvičování lexika, gramatiky, pravopisu a komunikačních modelů  v ČJDJ (1 hodina);</li>
+          <li className="list-group-item">•	<b>role ČJDJ a její význam ve škole i mimo ni a spolupráce s pedagogickými pracovníky školy</b>, tj. spolupráce s učiteli ostatních předmětů u žáků s na začátku nulovou a v průběhu adaptačního období – prvních týdnů školní docházky s počáteční úrovní znalosti jazyka; doporučení vhodných výukových materiálů v klasické i online podobě se zohledněním věku, konkrétní jazykové úrovně ČJDJ u žáka cizince, zohledňování dalších faktorů; možnosti podpory stran státních institucí, krajských úřadů a zřizovatelů, nestátních neziskových organizací; diskuse a sdílení vlastní praxe lektora a účastníků vzdělávacího programu (1,5 hodiny). </li>
+        </ul></div>
+      </LiFile>
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesvc2" aria-expanded="false" aria-controls="collapsesvc2">Specifika výuky češtiny jako druhého jazyka - webinář
 </b>(8 hod, akreditováno pro SŠ, ZŠ, asistenti, výchovní poradci, od srpna 2022)
-                                           
-             
-</LiFile>
+                   <div className="collapse " id="collapsesvc2"><ul className="list-group">
+          <b>Blok 1 (1 vyučovací hodina)</b><br />
+          •	vymezení teoretických východisek a terminologického rámce ČJDJ, shod, rozdílů a specifik procesu výuky českého jazyka, českého jazyka jako cizího jazyka a ČJDJ, přesah do výuky všeobecně vzdělávacích a ostatních předmětů ve vyučovacím procesu, provázanost s oblastí mimoškolních aktivit a zájmových činností (nejen) pro žáky cizince – (1 hodina)<br />
+          <b>Blok 2 (1,5 vyučovací hodiny)</b><br />
+          •	uplatňování postkomunikačního přístupu ve výuce ČJDJ, využívání vhodných strategií a didaktických postupů, rozvoj základních řečových dovedností a jazykových kompetencí žáka cizince v procesu jeho přijímání, začleňování a vzdělávání, tj. v prvních dnech a týdnech po zahájení školní docházky v běžné české škole – (1,5 hodiny)<br />
+          <b>Blok 3 (2 vyučovací hodiny – 90 minut)</b><br />
+          •	diagnostika jazykové úrovně jedince, postupy pro určení jazykové úrovně žáka cizince – (1 hodina)<br />
+          •	komunikace se žákem cizincem, tj. role zvukového plánu jazyka, význam osvojení si správné zvukové podoby češtiny a výslovnosti jako nezbytné podmínky úspěšné komunikace; základní instrukce, fráze a kolokace „pro přežití“ a jejich následné rozšiřování a posilování, rozvoj slovní zásoby; zásady komunikace a vedení výuky bez zprostředkovacího jazyka, vhodné didaktické postupy a pomůcky a postupy (1 hodina)<br />
+          <b>Blok 4 (2 vyučovací hodiny – 90 minut)</b><br />
+          •	práce s kurikulem ČJDJ, tj. jak a co učit – témata vhodná pro začátečníky a mírně pokročilé, konkrétní situace, rozvoj základní slovní zásoby v kontextu interakce, osvojování jazykových dovedností a posilování jazykových kompetencí, stanovení základního cíle a efektivní realizace triády téma – cíl – dovednost; příklady vhodných aktivit –( 1hodina)<br />
+          •	význam osvojování si vhodných kompetencí a jazykových prostředků, význam procvičování a správné fixace osvojených jazykových dovedností a kompetencí jako např. osvojování čtení a nácvik psaní u žáků, kteří přicházejí bez dovednosti číst latinku a psát latinkou, spolu s fixací správných pracovních návyků pro čtení a psaní, osvojování a procvičování lexika, gramatiky, pravopisu a komunikačních modelů  v ČJDJ – (1 hodina)<br />
+          <b>Blok 5 (1,5 vyučovací hodiny)</b><br />
+          •	role ČJDJ a její význam ve škole i mimo ni – spolupráce s pedagogickými pracovníky školy, tj. spolupráce s učiteli ostatních předmětů u žáků s na začátku nulovou a v průběhu adaptačního období – prvních týdnů školní docházky s počáteční úrovní znalosti jazyka; doporučení vhodných výukových materiálů v klasické i online podobě se zohledněním věku, konkrétní jazykové úrovně ČJDJ u žáka cizince, zohledňování dalších faktorů; možnosti podpory stran státních institucí, krajských úřadů a zřizovatelů, nestátních neziskových organizací; diskuse a sdílení vlastní praxe lektora a účastníků vzdělávacího programu – (1,5 hodiny)
+</ul></div>
 
-    </ul>
-  </BlockEx>
+      </LiFile>
+
+    </ul >
+  </BlockEx >
 </Panel >;
 
 var SSInkluzeCizinci: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
@@ -1122,24 +1209,146 @@ var SSInkluzeCizinci: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
   <BlockEx header="Nabízíme následující kurzy:">
     <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
 
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Klima třídy se žáky s odlišným mateřským jazykem
-</b>(8 hod, akreditováno pro SŠ, VOŠ, ZŠ, asistenti)
-</LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Klima třídy se žáky s odlišným mateřským jazykem -webinář
-</b>(8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, asistenti, od srpna 2022)
-</LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Jak pracovat se žákem s odlišnými kulturními podmínkami–SŠ 8
-</b>(8 hod, akreditováno pro SŠ, VOŠ, asistenti)
-</LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Jak ve škole pracovat se žáky cizinci
-</b>(8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, asistenti, od srpna 2022)
-</LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Jak ve škole pracovat se žáky cizinci - webinář
-</b>  (8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, asistenti, od srpna 2022)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Začlenění žáka cizince do třídního kolektivu
-</b>  (8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, asistenti, od srpna 2022)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Začlenění žáka cizince do třídního kolektivu – webinář
-</b>  (8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, asistenti, od srpna 2022)</LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesic1" aria-expanded="false" aria-controls="collapsesic1">Klima třídy se žáky s odlišným mateřským jazykem
+      </b>(8 hod, akreditováno pro SŠ, VOŠ, ZŠ, asistenti)
+        <div className="collapse " id="collapsesic1"><ul className="list-group">
+          <li className="list-group-item">•	<b>Téma – Základní sociální potřeby žáků s OMJ, jinými životními a kulturními potřebami</b>  Základní sociální potřeby: Potřeba místa, bezpečí, podnětu, potřeba péče, výživy, dále potřeby podpory a sociálních limitů. Důsledky nenaplňování potřeb a jejich vliv na chování žáků v rámci dané třídy, školy. Dopady procesu psychického a fyzického vývoje a spojené se změnou životních podmínek a jejich vliv na chování žáka v podmínkách školy, přístup k pravidlům, normám a jejich respektování. (2 hodiny)</li>
+          <li className="list-group-item">•	<b>Téma – žák s OMJ a jinými životními a kulturními podmínkami, vliv na klima třídy.</b>  Pravidla a zásady vedení třídního kolektivu. Práce s tvarem třídy – konformita a normy konkrétního třídního kolektivu – příprava, hranice, rizika a zdroje. Role žáka ve třídě, zapojení žáka s OMJ do třídního kolektivu. Posilování pozitivních vazeb. Regulace chování ve skupině. (2 hodiny)</li>
+          <li className="list-group-item">•	<b>Téma – Práce s pocity žáků s OMJ a jako prevence kázeňských problémů.</b>  Možnosti diferencovaného vzdělávání. Školní prostředí a střídání rolí. Možnosti chování, projevy žáků, zapojení do školního kolektivu, řešení projevu „odlišnosti“ s respektováním odlišných projevů, norem, postojů s cílem adaptace na nové podmínky školy. (2 hodiny).</li>
+          <li className="list-group-item">•	<b>Téma – praktické ukázky, práce s třídním kolektivem, kaziustikami.</b>  Komunikace se žákem s OMJ. Pro praktické ukázky bude využita metoda hraní rolí, vedení rozhovoru a další interaktivní techniky a zásady práce v rámci třídního kolektivu za účelem zapojení žáků s OMJ a jinými životními a kulturními podmínkami. Osvědčené strategie pro vytvoření prostředí podporujícího všechny žáky, zaměření na jednotlivé situace, problémy, vlastní kazuistiky. (2 hodiny)</li>
+        </ul></div>
+      </LiFile>
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesic1" aria-expanded="false" aria-controls="collapsesic1">Klima třídy se žáky s odlišným mateřským jazykem -webinář
+      </b>(8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, asistenti, od srpna 2022)
+        <div className="collapse " id="collapsesic1"><ul className="list-group">
+          <b>Blok 1 (2 vyučovací hodiny – 90 minut)</b><br />
+          Téma – Základní sociální potřeby žáků s OMJ, jinými životními a kulturními potřebami<br />
+          Základní sociální potřeby:<br />
+          Potřeba místa, bezpečí, podnětu,<br />
+          potřeba péče, výživy, dále potřeby podpory a sociálních limitů.<br />
+          Důsledky nenaplňování potřeb a jejich vliv na chování žáků v rámci dané třídy, školy.<br />
+          Dopady procesu psychického a fyzického vývoje a spojené se změnou životních podmínek a jejich vliv na chování žáka v podmínkách školy, přístup k pravidlům, normám a jejich respektování.<br />
+          <br />
+          <b>Blok 2 (2 vyučovací hodiny – 90 minut)</b><br />
+          Téma – žák s OMJ a jinými životními a kulturními podmínkami, vliv na klima třídy.<br />
+          Pravidla a zásady vedení třídního kolektivu.<br />
+          Práce s tvarem třídy – konformita a normy konkrétního třídního kolektivu – příprava, hranice, rizika a zdroje.<br />
+          Role žáka ve třídě, zapojení žáka s OMJ do třídního kolektivu. Posilování pozitivních vazeb.<br />
+          Regulace chování ve skupině.<br />
+          <br />
+          <b>Blok 3 (2 vyučovací hodiny – 90 minut)</b><br />
+          Téma – Práce s pocity žáků s OMJ a jako prevence kázeňských problémů.<br />
+          Možnosti diferencovaného vzdělávání<br />
+          Školní prostředí a střídání rolí.<br />
+          Možnosti chování, projevy žáků, zapojení do školního kolektivu, řešení projevu „odlišnosti“ s respektováním odlišných projevů, norem, postojů s cílem adaptace na nové podmínky školy.<br />
+          <br />
+          <b>Blok 4 (2 vyučovací hodiny – 90 minut)</b><br />
+          Téma – praktické ukázky, práce s třídním kolektivem, kaziustikami<br />
+          Komunikace se žákem s OMJ.<br />
+          Pro praktické ukázky bude využita metoda hraní rolí, vedení rozhovoru a další interaktivní techniky a zásady práce v rámci třídního kolektivu za účelem zapojení žáků s OMJ a jinými životními a kulturními podmínkami.<br />
+          Osvědčené strategie pro vytvoření prostředí podporujícího všechny žáky, zaměření na jednotlivé situace, problémy, vlastní kazuistiky.<br />
+
+        </ul></div>
+      </LiFile>
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesic1" aria-expanded="false" aria-controls="collapsesic1">Jak pracovat se žákem s odlišnými kulturními podmínkami–SŠ 8
+      </b>(8 hod, akreditováno pro SŠ, VOŠ, asistenti)
+        <div className="collapse " id="collapsesic1"><ul className="list-group">
+          <li className="list-group-item">•	Téma - teoretická část. Společné vzdělávání na středních školách a možnosti vzdělávání žáků s OMJ na těchto školách v souladu s platnými přepisy-Vyhláška 27/2016 Sb., ve znění pozdějších předpisů. Vymezení pojmů: odlišné kulturní a jiných životní podmínky: vymezení pojetí „kultura“ a „životní“, hledání terminologických ekvivalentů. Struktura podpůrných opatření, možnosti podpůrných opatření se zaměřením na žáky s OMJ a jinými životními a kulturními podmínkami. (2 hodiny)</li>
+          <li className="list-group-item">•	Téma - možnosti pedagogické diagnostiky. terminologie „vzdělání“ a „vzdělávání „ kompetence pedagogického pracovníka v procesu vzdělávání.  sociální a společenské otázky v procesu školního vzdělávání žáků s OMJ, charakteristika žáka, vývoj základních schopností a dovedností, specifika daného věku, principy a příčiny chování žáků v závislosti na prostředí, ve kterém žák vyrůstal a ovlivnilo jeho chování ve školním prostředí, základní možnosti pedagogické diagnostiky, vhodnost pro stanovení cílů, metod a forem práce v rámci prvního stupně podpůrného opatření, stanovení cílů, způsob konkretizace cílů s dopadem na využití potenciálů žáka s OMJ, komunikace a porozumění žáku s OMJ, / respekt, komunikace, hodnotový systém, individualita, empatie, stres a reakce na něj, úcta, budování pravidel osobních i skupinových a jejich dodržování, …/ (2 hodiny).</li>
+          <li className="list-group-item">•	Téma - práce s PLPP, případně IVP, hodnocení žáka, metody a formy práce. Využití pedagogické diagnostiky ve školním prostředí, úprava právních předpisů  - v souvislosti s využitím podpůrného opatření, analýza získaných poznatků, východiska pro nastavení práce se žákem s OMJ, tvoření výchovného plánu, PLPP, IVP, práce s doporučením pro žáka se speciálně vzdělávacími potřebami a OMJ. Metodická východiska v práci učitele: zásady v edukačním procesu - stereotyp, rutinní činnosti, opakování, rozvoj paměti, přiměřenost, od konkretizace po abstrakci, zpětná vazba atd. (2 hodiny)</li>
+          <li className="list-group-item">•	Téma - práce s metodickým materiálem. Příklady dobré praxe  – kazuistiky. Metodický materiál pro zjištění porozumění českému jazyku (aktivní a pasivní znalosti jazyka). Ukázka metodického materiálu, pomůcek, odkazy na doporučenou literaturu. (2 hodiny)</li>
+        </ul></div>
+      </LiFile>
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesic2" aria-expanded="false" aria-controls="collapsesic2">Jak ve škole pracovat se žáky cizinci
+      </b>(8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, asistenti, od srpna 2022)
+        <div className="collapse " id="collapsesic2"><ul className="list-group">
+          <b>1.	část – Asertivní chování – 3 hodiny</b><br />
+          a)	asertivní techniky–vysvětlení a nácvik jednotlivých asertivních technik v rámci komunikace s rodičem cizincem, způsoby jednání, zvládání  emocí<br />
+          b)	obrana před manipulací ze strany rodičů cizinců, přijatelný kompromis mezi oběma stranami, přijetí a poskytování konstruktivní kritiky, přijetí a poskytování pochvaly a vyjádření uznání, účinnost pochvaly<br />
+          <br />
+          <b>2.	část – Žák cizinec – 5 hod</b><br />
+          a)	úvod do problematiky vzdělávání žáků s OMJ – typy žáků, vzorce chování, obtíže při osvojování českého jazyka, …<br />
+          b)	vzdělávání cizinců z pohledu právního rámce – Školský zákon, Vyhláška č.27/2016 Sb, Metodické doporučení MŠMT, ..<br />
+          c)	metodická podpora při vzdělávání žáků cizinců - zaměření na inkluzi žáka cizince do školního prostředí<br />
+        </ul></div>
+      </LiFile>
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesic3" aria-expanded="false" aria-controls="collapsesic3">Jak ve škole pracovat se žáky cizinci - webinář
+      </b>  (8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, asistenti, od srpna 2022)
+        <div className="collapse " id="collapsesic3">
+          <b>Blok 1 (2 vyučovací hodiny – 90 minut)</b><br />
+          Téma – Asertivní chování, 1. část<br />
+          Asertivní techniky–vysvětlení a nácvik jednotlivých asertivních technik v rámci komunikace s rodičem cizincem, způsoby jednání, zvládání  emocí<br />
+          <br />
+          <b>Blok 2 (2 vyučovací hodiny – 90 minut)</b><br />
+          Téma – Asertivní chování, 2. část<br />
+          Obrana před manipulací ze strany rodičů cizinců, přijatelný kompromis mezi oběma stranami, přijetí a poskytování konstruktivní kritiky, přijetí a poskytování pochvaly a vyjádření uznání, účinnost pochvaly.<br />
+          <br />
+          <b>Blok 3 (2 vyučovací hodiny – 90 minut)</b><br />
+          Téma – Žák cizinec, 1. část<br />
+          Úvod do problematiky vzdělávání žáků s OMJ – typy žáků, vzorce chování, obtíže při osvojování českého jazyka, … <br />
+          Vzdělávání cizinců z pohledu právního rámce – Školský zákon, Vyhláška č.27/2016 Sb, Metodické doporučení MŠMT, ..<br />
+          <br />
+          <b>Blok 4 (2 vyučovací hodiny – 90 minut)</b><br />
+          Téma – Žák cizinec, 2. část<br />
+          Metodická podpora při vzdělávání žáků cizinců - zaměření na inkluzi žáka cizince do školního prostředí<br />
+        </div>
+      </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesic4" aria-expanded="false" aria-controls="collapsesic4">Začlenění žáka cizince do třídního kolektivu
+      </b>  (8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, asistenti, od srpna 2022)
+        <div className="collapse " id="collapsesic4"><ul className="list-group">
+          <b>Teoretická část</b>   (3 vyučovací hodiny)<br />
+          a)  Principy práce třídního učitele (TU) se třídou (2h) –<br />
+          •	klima třídy, její sociální struktura, vztah atmosféry a klimatu školní třídy<br />
+          •	pedagogická diagnostika pro utváření pozitivního klimatu třídy, mapování vztahů<br />
+          b)  Třídnické práce(1h)<br />
+          •	struktura a obsah třídnických hodin (TH)<br />
+          •	význam skupinové a týmové spolupráce<br />
+          <b>Praktická část</b> (5 vyučovacíh hodin)<br />
+          Metody osobností a sociální výchovy k rozvoji etických a sociálních dovedností žáků, které jsou cíleně zaměřené na začleňování žáků cizinců do třídního kolektivu<br />
+          Nabídka aktivit je z vlastního zkušenostního dvouletého výcviku či z doporučených publikací - doc. PhDr. Soni Hermochové, CSc., doc. PhDr. Josefa Valenty, CSc., Doc. PhDr. Hany Kasíkové, CSc., Mgr. Petra Kříže a dalších):<br />
+          •	aktivity seznamovací a "rozehřívací" (ledolamky)<br />
+          •	aktivity pro rozvoj vzájemné důvěry, podpory a pomoci, empatie a návazně vytváření bezpečného prostředí<br />
+          •	aktivity vedoucí k sebepoznání, hodnocení a sebehodnocení<br />
+          •	aktivity rozvíjející komunikaci (verbální i neverbální)<br />
+          •	interaktivní hry založené na spolupráci ve skupině<br />
+          •	techniky při řešení interpersonálních konfliktů – rolové hry, dramatika<br />
+        </ul></div>
+      </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesic5" aria-expanded="false" aria-controls="collapsesic5">Začlenění žáka cizince do třídního kolektivu – webinář
+      </b>  (8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, asistenti, od srpna 2022)
+        <div className="collapse " id="collapsesic5"><ul className="list-group">
+          <b>Blok 1 (2 vyučovací hodiny – 90 minut)</b><br />
+          Téma: Principy práce třídního učitele (TU) se třídou<br />
+          •	klima třídy, její sociální struktura, vztah atmosféry a klimatu školní třídy<br />
+          •	pedagogická diagnostika pro utváření pozitivního klimatu třídy, mapování vztahů<br />
+          <br />
+          <b>Blok 2 (1 vyučovací hodina – 45 minut)</b><br />
+          Téma:   Třídnické práce<br />
+          •	struktura a obsah třídnických hodin (TH)<br />
+          •	význam skupinové a týmové spolupráce<br />
+          <br />
+          Následují metody osobností a sociální výchovy k rozvoji etických a sociálních dovedností žáků, které jsou cíleně zaměřené na začleňování žáků cizinců do třídního kolektivu<br />
+          Nabídka námětů aktivit, které budou účastníkům prezentovány na webináři jsou vybrány z vlastního zkušenostního dvouletého výcviku či z doporučených publikací - doc. PhDr. Soni Hermochové, CSc., doc. PhDr. Josefa Valenty, CSc., Doc. PhDr. Hany Kasíkové, CSc., Mgr. Petra Kříže a dalších):<br />
+          Všechny aktivity jsou volené a zaměřené pro vytvoření pozitivní atmosféry ve třídě.<br />
+          U každé aktivity proběhne nejen podrobné vysvětlení cíle, obsahu, reflexe, ale důraz bude kladen i na reflexi s účastníky.<br />
+          <br />
+          <b>Blok 3 (1 vyučovací hodina – 45 minut)</b><br />
+          Téma:   praktická část 1<br />
+          •	aktivity seznamovací a "rozehřívací" (ledolamky)<br />
+          •	aktivity pro rozvoj vzájemné důvěry, podpory a pomoci, empatie a návazně vytváření bezpečného prostředí<br />
+          <br />
+          <b>Blok 4 (2 vyučovací hodiny – 90 minut)</b><br />
+          Téma:   praktická část 2<br />
+          •	aktivity vedoucí k sebepoznání, hodnocení a sebehodnocení<br />
+          •	aktivity rozvíjející komunikaci (verbální i neverbální)<br />
+          <br />
+          <b>Blok 5 (2 vyučovací hodiny – 90 minut)</b><br />
+          Téma:   praktická část 3<br />
+          •	interaktivní hry založené na spolupráci ve skupině<br />
+          •	techniky při řešení interpersonálních konfliktů – rolové hry, dramatika<br />
+
+        </ul></div>
+      </LiFile >
 
     </ul>
   </BlockEx>
