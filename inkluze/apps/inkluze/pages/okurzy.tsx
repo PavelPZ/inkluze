@@ -24,7 +24,7 @@
         <LiHand><h4><b>3.10. 2022  <a href="/index.html?home|kurzyss|SSVyukaCestiny">Specifika výuky češtiny jako druhého jazyka</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Výuka češtiny jako druhého jazyka</Label></h4>
           <p>Akreditace: v procesu akreditace</p>
-          <p>Cena: 1590 Kč/os, Lektor: PaedDr. Renée Grenarová, Ph.</p>
+          <p>Cena: 1590 Kč/os, Lektor: PaedDr. Renée Grenarová, Ph.D</p>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=3.10.%202022%20Specifika%20v%C3%BDuky%20%C4%8De%C5%A1tiny%20jako%20druh%C3%A9ho%20jazyka&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
@@ -50,14 +50,14 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=13.10.%202022%20Vyu%C5%BEit%C3%AD%20ICT%20ve%20%C5%A1kole&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
-        <LiHand><h4><b>14.10. 2022  <a href="/index.html?home|kurzyss|SSOstatniInkluze"> Sociální klima třídy a pedagogická diagnostika učitele</a></b></h4>
+        <LiHand><h4><b>14.10. 2022  <a href="/index.html?home|kurzyss|SSPedagogickaDiagnostika"> Sociální klima třídy a pedagogická diagnostika učitele</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Pedagogická diagnostika</Label></h4>
           <p>Akreditace: v procesu akreditace</p>
           <p>Cena: 1590 Kč/os, Lektor: Mgr. Dana Forýtková</p>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=14.10.%202022%20Soci%C3%A1ln%C3%AD%20klima%20t%C5%99%C3%ADdy%20a%20pedagogick%C3%A1%20diagnostika%20u%C4%8Ditele&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
-        <LiHand><h4><b>19.10. 2022  <a href="/index.html?home|kurzyss|SSOstatniInkluze"> Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje-webinář</a></b></h4>
+        <LiHand><h4><b>19.10. 2022  <a href="/index.html?home|kurzyss|SSKarierovePoradenstvi"> Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje-webinář</a></b></h4>
           <h4><Label bsStyle="warning">Oblasti: Kariérové poradneství včetně identifikace a rozvoje nadání, Inkluze</Label></h4>
           <p>Akreditace: v procesu akreditace</p>
           <p>Cena: 1590 Kč/os, Lektor: PaedDr. Ellen Mlátilíková</p>
