@@ -127,11 +127,18 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=24.11.%202022%20GeoGebra%20jako%20n%C3%A1stroj%20rozvoje%20matematick%C3%A9%20gramotnosti%20na%20Z%C5%A0&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
-        <LiHand><h4><b>8.12. 2022 <a href="/index.html?home|kurzyss|SSGenderovaTematika"> Genderová tematika na školách</a></b></h4>
+        <LiHand><h4><b>7.12. 2022 <a href="/index.html?home|kurzyss|SSOstatniInkluze"> Kázeňské přestupky a možnosti jejich řešení v rámci třídy.</a></b></h4>
+          <h4><Label bsStyle="warning">Oblasti: pedagogická diagnostika, Inkluze</Label></h4>
+          <p>Akreditace: v procesu akreditace</p>
+          <p>Cena: 1590 Kč/os, Lektor: PaedDr. Ellen Mlátilíková</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=7.12.%202022%20K%C3%A1ze%C5%88sk%C3%A9%20p%C5%99estupky%20a%20mo%C5%BEnosti%20jejich%20%C5%99e%C5%A1en%C3%AD%20v%20r%C3%A1mci%20t%C5%99%C3%ADdy.&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+        </LiHand>
+        <LiHand><h4><b>8.12. 2022 <a href="/index.html?home|kurzyss|SSGenderovaTematika"> Gender a genderová tematika na školách</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Genderová tematika v obsahu vzdělávání</Label></h4>
           <p>Akreditace: v procesu akreditace</p>
           <p>Cena: 1590 Kč/os, Lektor: Mgr. Jana Soukupová</p>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=8.12.%202022%20Genderov%C3%A1%20tematika%20na%20%C5%A1kol%C3%A1ch&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=8.12.%202022%20Gender%20a%20genderov%C3%A1%20tematika%20na%20%C5%A1kol%C3%A1ch&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
       </ul>

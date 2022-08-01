@@ -1152,8 +1152,6 @@ var SSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
             <li className="list-group-item">•	<b>MS Office PowerPoint</b> – pravidla prezentace, práce se snímky, textovými poli, vkládání obrázků, objektů, využití šablon, motivů, možnosti efektů, příprava pro tisk (2,5 hod)</li>
           </ul>
         </div>
-
-
       </LiFile>
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt2" aria-expanded="false" aria-controls="collapsesnt2">Různé metody pro využití ICT technologií ve škole
       </b>        (8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ZUŠ, asistenti)
@@ -1243,6 +1241,16 @@ var SSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
           <li className="list-group-item">•	Praktická cvičení  – tvorba prezentací účastníků s jednotlivými prvky prezentace, praktické využití jednotlivých nástrojů k distančnímu učení (2 hodiny)</li>
         </ul></div>
 
+      </LiFile>
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt10" aria-expanded="false" aria-controls="collapsesnt10">Základy práce s MS Office a jejich využití na školách
+      </b>(8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ZUŠ, asistenti, od listopadu 2022)
+        <div className="collapse " id="collapsesnt10">
+          <ul className="list-group"><li className="list-group-item">•	<b>MS Office 365 </b> – představení prostřední MS Office 365 z pohledu zefektivnění práce (1,5 hod)</li>
+            <li className="list-group-item">•	<b>MS Office Word </b> – formátování písma, odstavců, textu, vícestránkové dokumenty, vkládání a úprava textů z internetu, záhlaví, zápatí, styly, vkládání a úprava obrázků do textu, práce s obrazci, symboly, rozšíření znalostí klávesových zkratek, úprava dlouhých strukturovaných textů, správná citace textů podle normy ISO (2,5 hod)</li>
+            <li className="list-group-item">•	<b>MS Office Excel </b> – seznámení s prostředím Microsoft Excel, formátování buněk, tabulek, vytváření vlastních řad, vzorce a funkce v Excelu se zaměřením na praktické využití při používání Excelu při evidenci dat i při výuce (1,5 hod)</li>
+            <li className="list-group-item">•	<b>MS Office PowerPoint </b> – pravidla prezentace, práce se snímky, textovými poli, vkládání obrázků, objektů, využití šablon, motivů, možnosti efektů, příprava pro tisk, základy správné prezentace, dodržování autorství – obrázky s volnou licencí (2,5 hod)</li>
+          </ul>
+        </div>
       </LiFile>
     </ul>
   </BlockEx>
@@ -1716,17 +1724,27 @@ var SSOstatniInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
 
           </div></div>
       </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Klima třídy a vedení třídnické hodiny v rámci inkluze - SŠ
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesskp31" aria-expanded="false" aria-controls="collapsesskp31">Kázeňské přestupky a možnosti jejich řešení v rámci třídy
+      </b>(8 hod, akreditováno pro SŠ, DM, MŠ, ZŠ, ŠD, asistenti, výchovní poradci, speciální pedagogové, psychologové, od listopadu 2022)
+        <div className="collapse " id="collapsesskp31">
+          <ul className="list-group">
+            <li className="list-group-item">•	Pedagogická diagnostika orientovaná na žáka, učitele a edukační proces (1 hod)</li>
+            <li className="list-group-item">•	Možnosti diferencovaného vzdělávání jako prevence problémového chování (1 hod)</li>
+            <li className="list-group-item">•	Příčiny problémového chování u žáků, Diagnostická kritéria ADHD, Příčiny poruch chování žáků, Formy rizikového chování – zneužívání návykových látek, kriminalita, šikana, hostilita, agrese, agresivita, vrstevnické vztahy, školní problémy, přestupky a ostatní rizikové formy chování (4 hod)</li>
+            <li className="list-group-item">•	Praktická část: Ukázka práce s třídním kolektivem, ukázka práce v rámci třídnických hodin, ukázka práce- nabídka metodických materiálů. Diskuze, práce s kazuistikami (2 hod)</li>
+          </ul></div>
+      </LiFile>
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt01" aria-expanded="false" aria-controls="collapsesnt01">Klima třídy a vedení třídnické hodiny v rámci inkluze - SŠ
       </b>(8 hod, akreditováno pro SŠ, VOŠ)
-        <div className="collapse " id="collapsesnt1"><ul className="list-group"><li className="list-group-item">•	<b>Téma – Vedení třídního kolektivu v souladu s podpůrným opatřením a doporučením ke vzdělávání žáků</b> . Společné vzdělávání na středních školách, typy středních škol a odborných učilišť a možnosti vzdělávání žáků na těchto školách v souladu s platnými přepisy-Vyhláška 27/2016 Sb. - Struktura podpůrných opatření a jejich členění do pěti stupňů se zaměřením na podporu klimatu třídy. (1 hodina)</li>
+        <div className="collapse " id="collapsesnt01"><ul className="list-group"><li className="list-group-item">•	<b>Téma – Vedení třídního kolektivu v souladu s podpůrným opatřením a doporučením ke vzdělávání žáků</b> . Společné vzdělávání na středních školách, typy středních škol a odborných učilišť a možnosti vzdělávání žáků na těchto školách v souladu s platnými přepisy-Vyhláška 27/2016 Sb. - Struktura podpůrných opatření a jejich členění do pěti stupňů se zaměřením na podporu klimatu třídy. (1 hodina)</li>
           <li className="list-group-item">•	<b>Téma - Třídní kolektiv, možnosti vedení třídního kolektivu</b> . Základní pravidla pro fungující třídní kolektiv: Cíle práce se třídou, jak najít cíl a proč?, Třídnické hodiny / jejich nastavení, struktura, co je a není vhodné/, Práce s tvarem třídy /skupiny, dvojice, jednotlivci/, Témata na třídnické hodiny / komunikace, empatie, úcta, respekt…/, Regulace chování ve skupině (3 hodiny)</li>
           <li className="list-group-item">•	<b>Téma - Autenticita pedagoga, sebereflexe pedagoga, sebehodnocení. Kategorie a formy diagnostiky ve školním prostředí </b> - souvislost s úpravou právních předpisů - jak v souvislosti s využitím podpůrného opatření . Pozorování žáků a jeho zaznamenání: analýza získaných poznatků, další nástroje pedagogické diagnostiky, východiska pro nastavení práce s třídním kolektivem, možnosti nastavení podmínek v rámci třídního kolektivu (2 hodiny)</li>
           <li className="list-group-item">•	<b>Téma – supervize, její význam a cíl</b> . Východiska pro hodnocení : kultura vysokých očekávání, Osvědčené strategie pro vytvoření prostředí podporujícího všechny žáky, Sebezkušenostní část vzdělávacího programu. / zaměření na jednotlivé situace, problémy, kauzistiky/ (2 hodiny)</li>
         </ul></div>
       </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Podpora žáků SŠ v rámci inkluze
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt11" aria-expanded="false" aria-controls="collapsesnt11">Podpora žáků SŠ v rámci inkluze
       </b>  (8 hod, akreditováno pro SŠ, VOŠ, DM, asistenti)
-         <div className="collapse " id="collapsesnt1"><ul className="list-group">
+         <div className="collapse " id="collapsesnt11"><ul className="list-group">
           <li className="list-group-item">•	<b>Téma - Struktura podpůrných opatření a práce se zaměřením na PO 1. stupně /individualizace - PLPP/</b>. Společné vzdělávání na středních školách, typy středních škol, odborných učilišť a možnosti vzdělávání žáků na těchto školách v souladu s platnými přepisy, vyhláška 27/2016 Sb. o vzdělávání žáků se speciálními vzdělávacími potřebami a žáků nadaných, školský zákon, RVP pro daný typ střední školy, Struktura podpůrných opatření a jejich členění do pěti stupňů, podpůrná opatření prvního stupně (příloha č. 1 vyhlášky č. 27/2016 Sb.), úpravy ŠVP a jeho charakteristika v souvislosti s vytvářením, realizací a vyhodnocováním PLPP (1 hodina)</li>
           <li className="list-group-item">•	<b>PO 1. stupně  - individualizace x  PLPP: možnosti  PO 1. stupně na ŠŠ, charakteristika PO 1. stupně, </b> - prostředky PO 1.stupně, příklady individualizace výuky, příklady diferenciace výuky, účel PLPP, struktura daná právními předpisy a porozumění jednotlivým částem v souvislostech, jak pracovat s formulářem při tvorbě PLPP, jak získávat podklady pro vytváření PLPP a pro jeho vyhodnocování , interaktivní formuláře jako pomoc pedagogům a jejich využití (2 hodiny)</li>
           <li className="list-group-item">•	<b>Pedagogická diagnostika jako prostředek pro nastavení PLPP, příp. IVP</b>: kategorie a formy diagnostiky ve školním prostředí, souvislosti s úpravou právních předpisů - jak v souvislosti s využitím podpůrného opatření PLPP, příp. IVP. Pozorování žáků a jeho zaznamenání: analýza získaných poznatků, další nástroje pedagogické diagnostiky, východiska pro nastavení PO, možnosti nastavení podmínek v rámci vyučovací hodiny (2 hodiny)</li>
@@ -1734,18 +1752,18 @@ var SSOstatniInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
           <li className="list-group-item">•	<b>Téma  - hodnocení žáků ve společném vzdělávání.</b> Východiska pro hodnocení: kultura vysokých očekávání, modifikace obsahů, výstupů vzdělávání a dopad do hodnocení, hodnocení a jeho dopad na žáka, hodnocení jako zpětná vazba pro učitele, sumativní a formativní způsoby hodnocení, Autonomní a heteronomní hodnocení, Osvědčené strategie pro vytvoření prostředí podporujícího všechny žáky. Úprava forem a způsobů hodnocení jako podpůrné opatření a jeho uplatňování v různých stupních podpory. (2 hodiny)</li>
         </ul></div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Práce se žákem SŠ s problémovým chováním
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt12" aria-expanded="false" aria-controls="collapsesnt12">Práce se žákem SŠ s problémovým chováním
       </b>  (8 hod, akreditováno pro SŠ, DM, asistenti)
-        <div className="collapse " id="collapsesnt1"><ul className="list-group">
+        <div className="collapse " id="collapsesnt12"><ul className="list-group">
           <li className="list-group-item">•	<b>Téma – Základní sociální potřeby žáků střední školy.</b> Základní sociální potřeby: Potřeba místa, bezpečí, podnětu, potřeba péče, výživy, dále potřeby podpory a sociálních limitů. Důsledky nenaplňování potřeb a jejich vliv na chování žáků střední školy. Dopady procesu psychického a fyzického vývoje na chování žáka v podmínkách střední školy (2 hodiny)</li>
           <li className="list-group-item">•	<b>Téma – žák s problémovým chováním ve třídě, projevy chování žáků s poruchami chování, vliv na klima třídy</b>. Etické vedení dialogu se žákem. Pravidla a zásady vedení třídniho kolektivu Práce s tvarem třídy - konformita a normy konkrétního třídního kolektivu - příprava, hranice, rizika a zdroje. Výhody a nevýhody nepsaných norem třídního kolektivu. Role žáka ve třídě. Posilování pozitivních vazeb. Regulace chování ve skupině. (2 hodiny)</li>
           <li className="list-group-item">•	<b>Téma – Práce s pocity žáků jako prevence kázeňských problémů</b>. Školní prostředí a střídání rolí. Typy kázeňských přestupů a možnosti řešení kázeňských přestupků ve školní třídě v součinnosti se školním řádem a platnou legislativou. Komunikace s problémovým rodičem a jeho specifika - vhodné a nevhodné komunikační kanály. (2 hodiny)</li>
           <li className="list-group-item">•	<b>Téma – praktické ukázky řešení přestupků. Komunikace s verbálně agresivním žákem</b>. Zákonité fáze, postupy, změny. Šikana, její vyhledávání a řešení. Konkrétní práce se žákem s problémovým chováním, ukázka možných řešení. Osvědčené strategie pro vytvoření prostředí podporujícího všechny žáky. Sebezkušenostní část vzdělávacího programu. / zaměření na jednotlivé situace, problémy, vlastní kazuistiky/ (2 hodiny)</li>
         </ul></div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Sociální klima třídy a role učitele – 8 hodin
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt13" aria-expanded="false" aria-controls="collapsesnt13">Sociální klima třídy a role učitele – 8 hodin
       </b>  (8 hod, akreditováno pro SŠ, VOŠ, ZŠ, asistenti)
-        <div className="collapse border rounded " id="collapsesnt1">
+        <div className="collapse border rounded " id="collapsesnt13">
           <div className="m-3">
             <b>Teoretická část  (4 vyučovací hodiny)</b><br />
             •	Objasnění základních pojmů - klima třídy, sociální klima třídy, spolutvůrci třídního klimatu,<br />
@@ -1759,18 +1777,18 @@ var SSOstatniInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
             •	Poslední část bude věnována i dotazům a řízené diskuzi z vlastní praxe zúčastněných ped. pracovníků.<br />
           </div></div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Práce s pedagogickým sborem-jak předejít syndromu vyhoření
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt14" aria-expanded="false" aria-controls="collapsesnt14">Práce s pedagogickým sborem-jak předejít syndromu vyhoření
       </b>  (8 hod, akreditováno pro SŠ, VOŠ, ZŠ)
-        <div className="collapse " id="collapsesnt1"><ul className="list-group">
+        <div className="collapse " id="collapsesnt14"><ul className="list-group">
           <li className="list-group-item">•	<b>Téma – Práce s pedagogickým sborem - jak předejít syndromu vyhoření</b> . Klima ve škole a sborovně: Klima z hlediska - emocionálního, sociálního, pracovního. Faktory ovlivňující klima školy - přístup učitele, komunikace, metody a strategie. (2 hodiny)</li>
           <li className="list-group-item">•	<b>Téma – Pravidla ve sborovně, pravidla ve třídě, komunikace</b> : Pravidla a zásady fungujícího kolektivu ve sborovně, vedení a zásady třídnického kolektivu. Práce se sborovnou - příprava, hranice, rizika a zdroje. Výhody a nevýhody nepsaných norem pedagogického sboru a třídního kolektivu. Role učitele ve sborovně. Posilování pozitivních vazeb. Regulace chování ve skupině. Komunikace ve sborovně. (2 hodiny)</li>
           <li className="list-group-item">•	<b>Téma – Jak na syndrom vyhoření, antistresové a relaxační techniky</b> : Antistresové techniky využitelné pro jednotlivce i pro skupinu. Relaxační metody různých druhů. Uvědomění si sám sebe, práce na pozitivním myšlení u jednotlivce i skupiny. (1 hodina)</li>
           <li className="list-group-item">•	<b>Téma – praktické ukázky práce se skupinou a antistresové relaxační metody</b> . Sebezkušenostní část vzdělávacího programu. Využití relaxačních metod v praxi. Ukázky jak pracovat v pedagogickém sboru či v jiném kolektivu, případně ve třídě žáků. Zapojení sebereflexe a reflexe od skupiny. (3 hodiny)</li>
         </ul></div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Základní kurz společného vzdělávání pro střední školy
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt15" aria-expanded="false" aria-controls="collapsesnt15">Základní kurz společného vzdělávání pro střední školy
       </b>  (8 hod, akreditováno pro SŠ, VOŠ)
-     <div className="collapse " id="collapsesnt1"><ul className="list-group">
+     <div className="collapse " id="collapsesnt15"><ul className="list-group">
           <li className="list-group-item">•	Úvod do společného vzdělávání, filozofie společného vzdělávání, anglický model P. Farrella, porovnání integrace a inkluze (1 hodina )</li>
           <li className="list-group-item">•	Seznámení s § 16, 17, 18, 19 novely Školského zákona č. 82/2015 Sb., podrobný rozbor § 16, definice žáků se speciálními vzdělávacími potřebami,  vymezení pojmu nadaný žák a mimořádně nadaný žák (1 hodina)</li>
           <li className="list-group-item">•	Podrobný rozbor textové části vyhlášky 27/2016 Sb. o vzdělávání žáků se speciálními vzdělávacími potřebami a žáků nadaných, odlišnosti pro střední školy  – (2 hodiny)</li>
@@ -1840,8 +1858,21 @@ var SSGenderovaTematika: React.StatelessComponent<IKurzProps> = (props: IKurzPro
 
   <BlockEx header="Nabízíme následující kurzy:">
     <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Genderová tematika na školách
-      </b>(8 hod, připravujeme k akreditaci pro SŠ, VOŠ, DM, ZŠ, ŠD, ŠK, SVČ, ZUŠ, asistenti)</LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesgt1" aria-expanded="false" aria-controls="collapsesgt1">Gender a genderová tematika na školách
+      </b>(8 hod, připravujeme k akreditaci pro SŠ, VOŠ, DM, ZŠ, ŠD, ŠK, SVČ, ZUŠ, asistenti)
+         <div className="collapse " id="collapsesgt1">
+          <ul className="list-group">
+            <li className="list-group-item">•	Co je gender – klíčové pojmy a definice (0,5 hod).</li>
+            <li className="list-group-item">•	Gender a výzkum – seznámení se s výzkumy a nejnovějšími poznatky (0,5 hod).</li>
+            <li className="list-group-item">•	Genderová identita/skupiny – fyziologické a sociologické aspekty pohlaví – „co to jsou za novoty?“ Transgender, cisgender, fluid/nebinární aj. (1 hod).</li>
+            <li className="list-group-item">•	Genderové stereotypy v našem školství – jaká je situace v naší škole, mapování a návrhy možných změn – týmový workshop (2 hod).</li>
+            <li className="list-group-item">•	Kde se vzala a proč genderová ideologie (0,5 hod).</li>
+            <li className="list-group-item">•	Mikroagrese ve školním prostředí – dopady na vzdělávání a osobnost žáka – sebezkušenostní cvičení, sdílení prožitků, kroky pro změny v naší škole (1,5 hod).</li>
+            <li className="list-group-item">•	Síť podpory v ČR – jak můžeme být oporou studentům v řešení náročných situacích, využití podpory pro pedagogy (1 hod).</li>
+            <li className="list-group-item">•	Průběžné diskuse a sdílení, průběžná zpětná vazba, otázky a odpovědi (1 hod).</li>
+            <li className="list-group-item">•	Závěr programu.</li>
+          </ul></div>
+      </LiFile >
 
     </ul>
   </BlockEx>
