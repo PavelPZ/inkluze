@@ -2629,16 +2629,99 @@ var ZSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
   <BlockEx header="Nabízíme následující kurzy:">
     <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
 
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Efektivní využití MS Office pro pedagogy – 8 hodin </b> (8 hod, akreditováno pro ZŠ, SŠ, VOŠ)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Různé metody pro využití ICT technologií ve škole </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Inspirace pro využití interaktivních tabulí ve škole </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Práce s dotykovými zařízeními ve škole </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Využití ICT ve škole </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Efektivní využití LibreOffice ve škole </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Efektivní využití Google dokumentů ve škole </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Distanční výuka – formy a metody práce s žáky on-line </b> (8 hod, akreditováno pro ZŠ, ZUŠ, SŠ, VOŠ)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Jak na distanční výuku? </b> (8 hod, akreditováno pro ZŠ, ZUŠ, SŠ, VOŠ)</LiFile >
-
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseznt1" aria-expanded="false" aria-controls="collapseznt1">Efektivní využití MS Office pro pedagogy – 8 hodin </b> (8 hod, akreditováno pro ZŠ, SŠ, VOŠ)
+                <div className="collapse " id="collapseznt1">
+          <ul className="list-group">
+            <li className="list-group-item">•	<b>Seznámení s programem – demonstrace úpravy prostředí Windows</b> - přizpůsobení pracovní plochy, nastavení hlavního panelu, možnosti zobrazení ikon a představení prostřední MS Office z pohledu zefektivnění práce s jednotlivými programy, využití panelu rychlých nástrojů, přizpůsobení pásu karet, nastavení stavového řádku, karta zobrazení (0, 5 hod)</li>
+            <li className="list-group-item">•	<b>MS Office Word</b> – formátování písma, odstavců, textu, vícestránkové dokumenty, vkládání a úprava textů z internetu, záhlaví, zápatí, styly, vkládání a úprava obrázků do textu, práce s obrazci, symboly, rozšíření znalostí klávesových zkratek (2,5 hod)</li>
+            <li className="list-group-item">•	<b>MS Office Excel</b> – seznámení s prostředím Microsoft Excel, formátování buněk, tabulek, vytváření vlastních řad, vzorce a funkce v Excelu se zaměřením na praktické využití při používání Excelu při evidenci dat i při výuce (2,5 hod)</li>
+            <li className="list-group-item">•	<b>MS Office PowerPoint</b> – pravidla prezentace, práce se snímky, textovými poli, vkládání obrázků, objektů, využití šablon, motivů, možnosti efektů, příprava pro tisk (2,5 hod)</li>
+          </ul>
+        </div>
+        </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseznt2" aria-expanded="false" aria-controls="collapseznt2">Různé metody pro využití ICT technologií ve škole </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)
+                <div className="collapse " id="collapseznt2">
+          <ul className="list-group">
+            <li className="list-group-item">•	<b>Vliv ICT na žáka</b> v každodenním životě (1 hod)</li>
+            <li className="list-group-item">•	<b>Počítačová gramotnost</b> – Čeho se týká, jaká by měla být role učitele/vychovatele, co je funkční a informační gramotnost, jaká je pozice žáka… (1 hod)</li>
+            <li className="list-group-item">•	<b>Moderní technologie a jejich implementace do edukačního procesu</b> – učitel, vychovatel, žák, škola, PC a dataprojektor, interaktivní tabule, laptopové třídy, LMS a e-learning, mezinárodní kooperace, e- Twinning (2,5 hod)</li>
+            <li className="list-group-item">•	<b>Ukázka možností využití některých programů a internetových stránek k podpoře výuky</b> (týmová výuka – Toglic, různé webové portály, se kterými může pedagog výuku oživit). (1,5 hod)</li>
+            <li className="list-group-item">•	<b>Ukázka práce s dotykovým zařízením.</b> Práce s on – line aplikacemi, využití vhodných aplikací na dotykových zařízeních (2 hod)</li>
+          </ul>
+        </div>
+        </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseznt3" aria-expanded="false" aria-controls="collapseznt3">Inspirace pro využití interaktivních tabulí ve škole </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)
+                 <div className="collapse " id="collapseznt3">
+          <ul className="list-group">
+            <li className="list-group-item">•	<b>Interaktivní tabule a její využití</b>  - využití interaktivních učebnic, on-line cvičení, webové portály vhodné k práci na interaktivní tabuli (1 hod)</li>
+            <li className="list-group-item">•	<b>Program Active Inspire</b> a jeho využití (1,5 hod)</li>
+            <li className="list-group-item">•	<b>MS PowerPoint</b> - pravidla prezentace, práce se snímky, textovými poli, vkládání obrázků, objektů, využití šablon, motivů, možnosti efektů, příprava pro tisk, dodržování autorství – obrázky s volnou licencí (2 hod)</li>
+            <li className="list-group-item">•	<b>Základy dodržování správného prezentování</b> (1 hod)</li>
+            <li className="list-group-item">•	<b>Praktická cvičení</b> – tvorba prezentací účastníků s jednotlivými prvky prezentace a samotné prezentování připravených materiálů; následná diskuse a rozbor prezentací (2,5 hod)</li>
+          </ul>
+        </div>
+        </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseznt4" aria-expanded="false" aria-controls="collapseznt4">Práce s dotykovými zařízeními ve škole </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)
+                 <div className="collapse " id="collapseznt4">
+          <ul className="list-group">
+            <li className="list-group-item">•	<b>Seznámení s dotykovými zařízeními</b> – obecné prvky práce s dotykovými zařízeními, rozdělení dotykových zařízení, různé platformy dotykových zařízení (android, Windows, iOS…) (2 hod)</li>
+            <li className="list-group-item">•	<b>Vhodné aplikace do škol - představení vhodných aplikací k práci na školách; online prostředí</b> – vyhledávání informací, práce s online aplikacemi (2 hod)</li>
+            <li className="list-group-item">•	<b>Praktické využití dotykových zařízení</b> – týmová práce v aplikaci Toglic ; program OneNote (2 hod)</li>
+            <li className="list-group-item">•	<b>Ukázka práce s dotykovými zařízeními</b> - uchazeč se v posledním bloku aktivně zapojí do práce s dotykovým zařízením. Využije získané teoretické poznatky k sestavení ukázkové hodiny, ve které využije dotyková zařízení (2 hod)</li>
+          </ul></div>
+        </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseznt5" aria-expanded="false" aria-controls="collapseznt5">Využití ICT ve škole </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)
+                 <div className="collapse " id="collapseznt5"><ul className="list-group"><li className="list-group-item">•	Seznámení s problematikou nasazení výukových technologií školního prostředí (pozitiva, negativa a rizika nasazení se kterými je třeba počítat) (1 hodina)</li>
+          <li className="list-group-item">•	Rozbor dosavadně používaných programů a aplikací účastníků (1 hodina)</li>
+          <li className="list-group-item">•	Vybrané nástroje Microsoft Office, které usnadňují práci pedagoga (např. hromadná korespondence, fonty psacích písem) (2 hodiny)</li>
+          <li className="list-group-item">•	Google Apps EDU - speciální balík aplikací Google pro školy a jak jej efektivně využít (2 hodiny)</li>
+          <li className="list-group-item">•	Vybrané předinstalované aplikace operačního systému Windows vhodné pro práci pedagoga (např. Výstřižky, Panel pro matematický zápis) (1 hodina)</li>
+          <li className="list-group-item">•	Typy pro vyhledávání materiálů na internetu (1 hodina)</li>
+        </ul></div>
+        </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseznt6" aria-expanded="false" aria-controls="collapseznt6">Efektivní využití LibreOffice ve škole </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)
+                <div className="collapse " id="collapseznt6">
+          <ul className="list-group">
+            <li className="list-group-item">•	<b>Writer </b> – formátování písma, odstavců, textu, vícestránkové dokumenty, vkládání a úprava textů z internetu, záhlaví, zápatí, styly, vkládání a úprava obrázků do textu, práce s obrazci, symboly, rozšíření znalostí klávesových zkratek (3 hodiny)</li>
+            <li className="list-group-item">•	<b>Calc </b> – seznámení s prostředím Calc, formátování buněk, tabulek, vytváření vlastních řad, vzorce a funkce v Calcu se zaměřením na praktické využití při používání Calcu při evidenci dat i při výuce (2 hodiny)</li>
+            <li className="list-group-item">•	<b>Impress </b> – pravidla prezentace, práce se snímky, vkládání obrázků, objektů, využití šablon, motivů, příprava pro tisk (2 hodiny)</li>
+            <li className="list-group-item">•	<b>Draw </b> – seznámení s prostředím pro tvorbu náčrtů, plakátů a mnoha dalších typů dokumentu, manipulace s objekty, ořezávání objektů, seskupování objektů (1 hodina)</li>
+          </ul></div>
+        </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseznt7" aria-expanded="false" aria-controls="collapseznt7">Efektivní využití Google dokumentů ve škole </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)
+                   <div className="collapse " id="collapseznt7"><ul className="list-group"><li className="list-group-item">•	<b>Dokumenty </b> – formátování písma, odstavců, textu, vícestránkové dokumenty, vkládání a úprava textů z internetu, záhlaví, zápatí, styly, vkládání obrázků a nákresů do textu, práce s tabulkou, speciálními znaky, hlasové zadávání, rozšíření znalostí klávesových zkratek (3 hodiny)</li>
+          <li className="list-group-item">•	<b>Tabulky </b> – seznámení s prostředím tabulek, formátování buněk, tabulek, vytváření vlastních řad, vzorce a funkce se zaměřením na praktické využití při evidenci dat i při výuce (2 hodiny)</li>
+          <li className="list-group-item">•	<b>Prezentace </b> – pravidla prezentace, práce se snímky, vkládání různých typů objektů (obrázky, diagramy aj.), využití motivů, příprava pro tisk (2 hodiny)</li>
+          <li className="list-group-item">•	<b>Formuláře </b> – vytváření online formulářů a kvízů (1 hodina)</li>
+        </ul></div>
+        </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseznt8" aria-expanded="false" aria-controls="collapseznt8">Distanční výuka – formy a metody práce s žáky on-line </b> (8 hod, akreditováno pro ZŠ, ZUŠ, SŠ, VOŠ)
+                 <div className="collapse " id="collapseznt8"><ul className="list-group">
+          <li className="list-group-item">•	<b>Programy využitelné při on-line výuce </b> - Skype, Jitsi Meet, Zoom, MS Teams a další (2 hod)</li>
+          <li className="list-group-item">•	<b>Využití webových stránek sloužící k výuce on-line</b> (1 hod)</li>
+          <li className="list-group-item">•	<b>MS PowerPoint </b> - pravidla prezentace, práce se snímky, textovými poli, vkládání obrázků, objektů, využití šablon, motivů, možnosti efektů, příprava pro tisk, dodržování autorství – obrázky s volnou licencí (2 hod)</li>
+          <li className="list-group-item">•	<b>Jak komunikovat s žáky on-line</b> (1 hod)</li>
+          <li className="list-group-item">•	<b>Praktická cvičení </b> – tvorba prezentací účastníků s jednotlivými prvky prezentace a praktické využití jednotlivých nástrojů k distančnímu učení (2 hod)</li>
+        </ul></div>
+        </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseznt9" aria-expanded="false" aria-controls="collapseznt9">Jak na distanční výuku? </b> (8 hod, akreditováno pro ZŠ, ZUŠ, SŠ, VOŠ)
+                <div className="collapse " id="collapseznt9"><ul className="list-group"><li className="list-group-item">•	Software využitelný při on-line výuce (2 hodiny)</li>
+          <li className="list-group-item">•	Využití webových stránek sloužící k výuce on-line (1 hodina)</li>
+          <li className="list-group-item">•	Prezi - pravidla prezentace, práce se snímky, textovými poli, vkládání obrázků, objektů, využití šablon, motivů, možnosti efektů, sdílení (2 hodiny)</li>
+          <li className="list-group-item">•	Jak komunikovat s žáky on-line (1 hodina)</li>
+          <li className="list-group-item">•	Praktická cvičení  – tvorba prezentací účastníků s jednotlivými prvky prezentace, praktické využití jednotlivých nástrojů k distančnímu učení (2 hodiny)</li>
+        </ul></div>
+        </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseznt10" aria-expanded="false" aria-controls="collapseznt10">Základy práce s MS Office a jejich využití na školách
+      </b>(8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ZUŠ, asistenti, od listopadu 2022)
+        <div className="collapse " id="collapseznt10">
+          <ul className="list-group"><li className="list-group-item">•	<b>MS Office 365 </b> – představení prostřední MS Office 365 z pohledu zefektivnění práce (1,5 hod)</li>
+            <li className="list-group-item">•	<b>MS Office Word </b> – formátování písma, odstavců, textu, vícestránkové dokumenty, vkládání a úprava textů z internetu, záhlaví, zápatí, styly, vkládání a úprava obrázků do textu, práce s obrazci, symboly, rozšíření znalostí klávesových zkratek, úprava dlouhých strukturovaných textů, správná citace textů podle normy ISO (2,5 hod)</li>
+            <li className="list-group-item">•	<b>MS Office Excel </b> – seznámení s prostředím Microsoft Excel, formátování buněk, tabulek, vytváření vlastních řad, vzorce a funkce v Excelu se zaměřením na praktické využití při používání Excelu při evidenci dat i při výuce (1,5 hod)</li>
+            <li className="list-group-item">•	<b>MS Office PowerPoint </b> – pravidla prezentace, práce se snímky, textovými poli, vkládání obrázků, objektů, využití šablon, motivů, možnosti efektů, příprava pro tisk, základy správné prezentace, dodržování autorství – obrázky s volnou licencí (2,5 hod)</li>
+          </ul>
+        </div>
+      </LiFile>
     </ul>
   </BlockEx>
 </Panel>;
@@ -2821,16 +2904,105 @@ var ZSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
   <BlockEx header="Nabízíme následující kurzy:">
     <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
 
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Wellbeing, cesta k harmonizaci vztahů ve škole </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, SŠ, VOŠ, DM, asistenti, od srpna 2022)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Wellbeing, cesta k harmonizaci vztahů ve škole – webinář </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, SŠ, VOŠ, DM, asistenti, od srpna 2022)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Prevence k zátěžovým situacím ve škole </b> (8 hod, akreditováno pro MŠ, ZŠ, ZUŠ, ŠD, SŠ, VOŠ, DM, asistenti)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Jak zvládat stresové situace a nedospět k vyhoření </b> (8 hod, akreditováno pro MŠ, ZŠ, ZUŠ, ŠD, SŠ, VOŠ, DM, asistenti)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Aspekty emoční a sociální inteligence pedagoga 8 hodin </b> (8 hod, akreditováno pro ZŠ, ZUŠ, ŠD, ŠK)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Aspekty emoční a sociální inteligence pedagoga v MŠ </b> (8 hod, akreditováno pro MŠ)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Rozvoj osobnosti pedagoga v oblasti komunikace </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, asistenti)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Rozvoj osobnosti pedagoga v oblasti sebepoznání </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, asistenti)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Rozvoj osobnosti pedagoga ve zvládání konfliktů  </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, asistenti)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Zásady asertivní a efektivní komunikace pro MŠ, ZŠ, ZUŠ </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, asistenti)</LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb1" aria-expanded="false" aria-controls="collapsezwb1">Wellbeing, cesta k harmonizaci vztahů ve škole </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, SŠ, VOŠ, DM, asistenti, od srpna 2022)
+                <div className="collapse " id="collapsezwb1"><ul className="list-group"><li className="list-group-item">•	<b>Co je wellbeing </b> – klíčové aspekty tvoření „zdravé školy“ (0,5 hod)</li>
+          <li className="list-group-item">•	<b>Jaká je situace v naší škole? </b> – analýza současného prostředí a klíčové očekávané změny – projektivní technika, týmový workshop - analýza výstupů – návrhy změn (1,5 hod)</li>
+          <li className="list-group-item">•	<b>Kognitivní zkreslení </b> – kognitivně behaviorální model člověka v pedagogické praxi – realita vs. její vidění (1 hod)</li>
+          <li className="list-group-item">•	<b>Osobnostní diagnostika </b> – Jak zacházím se svými emocemi – sebepoznávací dotazník, vyhodnocení – souvislosti do reality mé role ve škole (1 hod)</li>
+          <li className="list-group-item">•	<b>Aspekty vytváření wellbeingu v prostředí školy</b> a role jednotlivých typů pedagogických pracovníků (1 hod)</li>
+          <li className="list-group-item">•	<b>7 zdravých vstupů do našeho těla a mysli </b> – osobní analýza a mapování – diskuse (1 hod)</li>
+          <li className="list-group-item">•	<b>Náš pedagogický sbor a společné vytváření „Wellbeing prostředí“ </b> – osobní zodpovědnost vs. iluze týmové (ne)zodpovědnosti – od představ k realitě, jak to udělat v naší škole (1, 5 hod)</li >
+          <li className="list-group-item">•	<b>Závěr programu </b> – diskuse, sdílení, otázky a odpovědi (0,5 hod)</li>
+        </ul ></div >
+        </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb2" aria-expanded="false" aria-controls="collapsezwb2">Wellbeing, cesta k harmonizaci vztahů ve škole – webinář </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, SŠ, VOŠ, DM, asistenti, od srpna 2022)
+                <div className="collapse border rounded " id="collapsezwb2">
+          <div className="m-3">
+            <b>Blok 1 (2 vyučovací hodiny – 90 minut)</b><br />
+            •	Co je wellbeing – klíčové aspekty tvoření „zdravé školy“ (0,5 hod)<br />
+            •	Jaká je situace v naší škole? – analýza současného prostředí a klíčové očekávané změny – projektivní technika, týmový workshop - analýza výstupů – návrhy změn (1,5 hod)<br />
+            <b>Blok 2 (2 vyučovací hodiny – 90 minut)</b><br />
+            •	Kognitivní zkreslení – kognitivně behaviorální model člověka v pedagogické praxi – realita vs. její vidění (1 hod)<br />
+            •	Osobnostní diagnostika – Jak zacházím se svými emocemi – sebepoznávací dotazník, vyhodnocení – souvislosti do reality mé role ve škole (1 hod)<br />
+            <b>Blok 3 (2 vyučovací hodiny – 90 minut)</b><br />
+            •	Aspekty vytváření wellbeingu v prostředí školy a role jednotlivých typů pedagogických pracovníků (1 hod)<br />
+            •	7 zdravých vstupů do našeho těla a mysli – osobní analýza a mapování – diskuse (1 hod)<br />
+            <b>Blok 4 (2 vyučovací hodiny – 90 minut)</b><br />
+            •	Náš pedagogický sbor a společné vytváření „Wellbeing prostředí“ – osobní zodpovědnost vs. iluze týmové (ne)zodpovědnosti – od představ k realitě, jak to udělat v naší škole (1,5 hod)<br />
+            •	Závěr programu – diskuse, sdílení, otázky a odpovědi (0,5 hod)<br />
+          </div >
+        </div >
+        </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb3" aria-expanded="false" aria-controls="collapsezwb3">Prevence k zátěžovým situacím ve škole </b> (8 hod, akreditováno pro MŠ, ZŠ, ZUŠ, ŠD, SŠ, VOŠ, DM, asistenti)
+                <div className="collapse " id="collapsezwb3"><ul className="list-group"><li className="list-group-item">•	<b>Teoretický úvod do oblasti psychohygieny učitele </b> – zmapování zátěžových situací u pedagogických pracovníků, které vedou k jejich přepracovanosti – teorie + práce skupin (1 hod.)</li>
+          <li className="list-group-item">•	<b>Preventivní doporučení </b> - úprava životního stylu, efektivní organizace času, stanovení priorit, schopnost delegování úkolů (komunikace), spánková hygiena, (3 hod.) </li>
+          <li className="list-group-item">•	<b>Preventivní doporučení </b> – důležitost aktivního pohybu, relaxace, odpočinku, včetně nácviku jednoduchých relaxačních technik (jednoduché relaxace k uvolnění stresu: a) cviky k uvolnění svalového napětí, b) cviky k uvolnění po práci u počítače, c) cviky uvolňující při napětí v zádech a bolestech hlavy a zad. (3 hod.)</li>
+          <li className="list-group-item">•	<b>Regulace dalších zátěžových situací</b> přímo při výkonu práce (1hod) </li>
+        </ul></div>
+        </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb4" aria-expanded="false" aria-controls="collapsezwb4">Jak zvládat stresové situace a nedospět k vyhoření </b> (8 hod, akreditováno pro MŠ, ZŠ, ZUŠ, ŠD, SŠ, VOŠ, DM, asistenti)
+                <div className="collapse " id="collapsezwb4"><ul className="list-group"><li className="list-group-item">•	Jak psychický stres ovlivňuje náš výkon, Bournout podle Maslachové, Stres management jako pojem (2 hodiny)</li>
+          <li className="list-group-item">•	Vytváření mapy zvládání každodenního stresu (1 hodina)</li>
+          <li className="list-group-item">•	Zjištění vlastního přístupu k práci, k sobě i k druhým (praktické cvičení) – (1 hodina)</li>
+          <li className="list-group-item">•	Strategie snížení hladiny stresu: zvědomění hodnotového žebříčku, přerámování, změna v plánování, afirmace , relaxace aj. (praktické cvičení ve skupinách) – (2 hodiny)</li>
+          <li className="list-group-item">•	Představení asertivního chování jako dobrého způsobu zvládání každodenních stresů (1 hodina)</li>
+          <li className="list-group-item">•	Jak nastavit změny, které podporují nevyhoření, sdílení, závěrečné shrnutí (1 hodina)</li>
+        </ul></div>
+        </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb5" aria-expanded="false" aria-controls="collapsezwb5">Aspekty emoční a sociální inteligence pedagoga 8 hodin </b> (8 hod, akreditováno pro ZŠ, ZUŠ, ŠD, ŠK)
+                <div className="collapse " id="collapsezwb5"><ul className="list-group"><li className="list-group-item">•	Teoretické ukotvení tématu emoční inteligence. Vysvětlení jednotlivých aspektů emoční inteligence, EI z pohledu klasicky pojímané inteligence a její role v uplatnění rozumových schopností, Objasnění možností rozvíjet emoční inteligenci: práce a rozhodování pod časových stresem, zvládání negativních emocí, získávání větší odolnosti, resilience vůči zátěži (2 hodiny)</li>
+          <li className="list-group-item">•	Teoretické ukotvení tématu sociální inteligence a jejich jednotlivých aspektů. Praktické procvičení vybraných sociálních dovedností, trénink organizačních dovedností, možnosti řešení konfliktních situací, jak rozvíjet sociální inteligenci žáků (1 hodina)</li>
+          <li className="list-group-item">•	Teoretické ukotvení tématu sebepoznání, obeznámení s různými přístupy k sebepoznání, vysvětlení opodstatnění a role sebepoznání v každodenním životě a praxi, vysvětlení pojmů a podstaty uvědomování si vlastních předpokladů, pohnutek, myšlenek a následně schopnosti jejich verbalizace a manipulace s nimi. ( 1 hodina)</li>
+          <li className="list-group-item">•	Probrání jednotlivých technik sebepoznání a možnosti jejich využití, odhalení užívaní stereotypů ve vlastním prožívání, myšlení a možnosti jejich nahrazení funkčními a efektivnějšími způsoby. Sebehodnocení, sebevědomí, asertivní jednání vůči vlastní osobě, zaměření na cíl a monitorování vlastních sil, energie a motivace ke stanoveným cílům, využití poznatků pozitivní psychologie a práce s vlastním nastavením k hodnocení sebe a jiných, práce s kritikou, zhodnocení jejich negativ a pozitiv (1 hodina)</li>
+          <li className="list-group-item">•	Sebekoučink, sebemotivace, analýza vlastních strategií k dosahování cílů, nové možnosti k překonávání překážek, včetně zvládání negativních emocí,  technika GROW (1 hodina)</li>
+          <li className="list-group-item">•	Efektivní komunikace se sebou, v rámci rodiny a posléze také v kontextu pedagogické praxe, Jak jinak komunikovat, analýza základních komunikačních chyb, alternativní možnosti komunikace se žáky, možnosti, jak vést žáky k odpovědnosti za své prožívání a jednání (1 hodina)</li>
+          <li className="list-group-item">•	Nové možnosti komunikace ve třídě. Řešení emočně vypjatých situací, tvorba repertoáru strategií k řešení složitých a neobvyklých sociálních situací (1 hodina)</li>
+        </ul></div>
+        </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb6" aria-expanded="false" aria-controls="collapsezwb6">Aspekty emoční a sociální inteligence pedagoga v MŠ </b> (8 hod, akreditováno pro MŠ)
+                <div className="collapse " id="collapsezwb6"><ul className="list-group"><li className="list-group-item">•	Teoretické ukotvení tématu emoční inteligence. Vysvětlení jednotlivých aspektů emoční inteligence, EI z pohledu klasicky pojímané inteligence a její role v uplatnění rozumových schopností, Objasnění možností rozvíjet emoční inteligenci: práce a rozhodování pod časových stresem, zvládání negativních emocí, získávání větší odolnosti, resilience vůči zátěži (2 hodiny)</li>
+          <li className="list-group-item">•	Teoretické ukotvení tématu sociální inteligence a jejich jednotlivých aspektů. Praktické procvičení vybraných sociálních dovedností, trénink organizačních dovedností, možnosti řešení konfliktních situací, jak rozvíjet sociální inteligenci žáků (1 hodina)</li>
+          <li className="list-group-item">•	Teoretické ukotvení tématu sebepoznání, obeznámení s různými přístupy k sebepoznání, vysvětlení opodstatnění a role sebepoznání v každodenním životě a praxi, vysvětlení pojmů a podstaty uvědomování si vlastních předpokladů, pohnutek, myšlenek a následně schopnosti jejich verbalizace a manipulace s nimi. ( 1 hodina)</li>
+          <li className="list-group-item">•	Probrání jednotlivých technik sebepoznání a možnosti jejich využití, odhalení užívaní stereotypů ve vlastním prožívání, myšlení a možnosti jejich nahrazení funkčními a efektivnějšími způsoby. Sebehodnocení, sebevědomí, asertivní jednání vůči vlastní osobě, zaměření na cíl a monitorování vlastních sil, energie a motivace ke stanoveným cílům, využití poznatků pozitivní psychologie a práce s vlastním nastavením k hodnocení sebe a jiných, práce s kritikou, zhodnocení jejich negativ a pozitiv (1 hodina)</li>
+          <li className="list-group-item">•	Sebekoučink, sebemotivace, analýza vlastních strategií k dosahování cílů, nové možnosti k překonávání překážek, včetně zvládání negativních emocí,  technika GROW (1 hodina)</li>
+          <li className="list-group-item">•	Efektivní komunikace se sebou, v rámci rodiny a posléze také v kontextu pedagogické praxe, Jak jinak komunikovat, analýza základních komunikačních chyb, alternativní možnosti komunikace se žáky, možnosti, jak vést žáky k odpovědnosti za své prožívání a jednání (1 hodina)</li>
+          <li className="list-group-item">•	Nové možnosti komunikace ve třídě. Řešení emočně vypjatých situací, tvorba repertoáru strategií k řešení složitých a neobvyklých sociálních situací (1 hodina)</li>
+        </ul></div>
+        </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb7" aria-expanded="false" aria-controls="collapsezwb7">Rozvoj osobnosti pedagoga v oblasti komunikace </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, asistenti)
+        <div className="collapse " id="collapsezwb7"><ul className="list-group"><li className="list-group-item">•	Efektivní komunikace se sebou, v rámci rodiny a posléze také v kontextu pedagogické praxe (3 hodiny)</li>
+          <li className="list-group-item">•	Jak jinak komunikovat, analýza základních komunikačních chyb, alternativní možnosti komunikace se žáky, možnosti, jak vést žáky k odpovědnosti za své prožívání a jednání (1 hodina)</li>
+          <li className="list-group-item">•	Nové možnosti komunikace ve třídě (1 hodina)</li>
+          <li className="list-group-item">•	Řešení emočně vypjatých situací, možnosti řešení, tvorba repertoáru strategií k řešení složitých a neobvyklých sociálních situací. (1 hodina)</li>
+          <li className="list-group-item">•	Principy komunikace v souladu s nejnovějšími poznatky psychologie o fungování mozku ( 1 hodina)</li>
+          <li className="list-group-item">•	Základy asertivního jednání (1 hodina)</li>
+        </ul></div>
+        </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb8" aria-expanded="false" aria-controls="collapsezwb8">Rozvoj osobnosti pedagoga v oblasti sebepoznání </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, asistenti)
+                <div className="collapse " id="collapsezwb8"><ul className="list-group"><li className="list-group-item">•	Seznámení s principem OSR  – (0,5 hod)</li>
+          <li className="list-group-item">•	Rozvoj schopností poznávání . Aktivity zaměřené na sebepoznání vlastního já (já v pohledu pozitivity, negativity…). Já z pohledu vlastností pozitivních i negativních (pohled empatie ve vyjádření 10ti odpovědí - jak se vnímám já, a jak mě vidí ostatní), mé silné a slabé stránky, vlastní způsob jednání a chování, přetvářka, sebereflexe (2 hodiny)</li>
+          <li className="list-group-item">•	Sebepoznání a sebepojetí. Aktivity zaměřené na sebepoznání, moje přednosti, představy, schopnosti  - prostor pro hlubší seznámení nejenom se sebou samým v rámci sebepozorování, ale i s ostatními účastníky, a to při vzájemném sdílení tématu (sestavování žebříčku osobního rozvoje) a dovednosti poskytovat druhým konstruktivním způsobem zpětnou vazbu, naslouchat jim a vcítit se do potřeb druhého/druhých. (2 hodiny)</li>
+          <li className="list-group-item">•	Seberegulace a sebeorganizace. Aktivity zaměřené na sebepoznání odvíjející se od představ, schopností  - schopností  – kontrola a regulace vlastního chování v situacích „tady a teď“ (cvičení sebekontroly, sebeovládání, rychlého rozhodování – regulace vlastního jednání i prožívání, vůle), schopnosti vlastní seberealizace – uvědomění si vlastní hierarchie hodnot. (2 hodiny)</li >
+          <li className="list-group-item">•	Psychohygiena. Aktivity zaměřené na jednoduché relaxační techniky  – a) cviky k uvolnění svalového napětí, b) cviky k uvolnění po práci u počítače, c) cviky uvolňující při napětí v zádech a bolestech hlavy a zad(1, 5 hodiny).</li >
+        </ul ></div >
+        </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb9" aria-expanded="false" aria-controls="collapsezwb9">Rozvoj osobnosti pedagoga ve zvládání konfliktů  </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, asistenti)
+                <div className="collapse " id="collapsezwb9"><ul className="list-group"><li className="list-group-item">•	Seznámení s principem OSR (0,5 hodiny)</li>
+          <li className="list-group-item">•	Poznávání lidí, mezilidské vztahy. Metody zaměřené na vhodné způsoby komunikace v různých životních situacích, případné řešení neshod či konfliktů s druhými lidmi nenásilným způsobem. Tj. na reakce na základě postojů již získaných; na očekávání, která jsou formována na základě životních zkušeností; na zvládání dovednosti přijímat a poskytovat konstruktivní kritiku, na poznávání typu osobnosti pro úspěšné řešení konfliktu (2 hodiny)</li>
+          <li className="list-group-item">•	Řešení problémů a rozhodovací dovednosti. Aktivity zaměřené na mapování vlastních postojů v rámci schématu konfliktu, na způsoby jednání v zátěžových situacích a přístupy ke zvládání konfliktu (kooperace, konfrontace, řešitelský přístup atd.), dovednosti pro řešení problémů a rozhodování z hlediska různých typů konfliktních situací, včetně zvládání krizové komunikace při jednání se žáky i s rodiči/zákonnými zástupci. (5,5 hodiny)</li>
+        </ul></div>
+        </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb10" aria-expanded="false" aria-controls="collapsezwb10">Zásady asertivní a efektivní komunikace pro MŠ, ZŠ, ZUŠ </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, asistenti)
+               <div className="collapse " id="collapsezwb10"><ul className="list-group"><li className="list-group-item">•	Seznámení se s pravidly a technikami komunikace osobní i profesní: cíl, základní stanovisko, kladení otázek a jejich typologie, aktivní naslouchání, změkčovadla, sdělování názoru (2 hodiny)</li>
+          <li className="list-group-item">•	Praktická typologie v komunikaci podle D. Forbese Leye (možné cvičení). Námitky a jak na ně vhodně reagovat. (1 hodina)</li>
+          <li className="list-group-item">•	Asertivita jako dovednost prosazovat své názory a požadavky při zachování respektu k okolí, možnosti vedení žákům k asertivnímu nenásilnému chování. Asertivní práva a techniky -možný nácvik. (1 hodina)</li>
+          <li className="list-group-item">•	Zvládání emocí, zvládání vlastních emocí v komunikaci při emočně náročných situacích nejen ve školním prostředí. (1 hodina)</li>
+          <li className="list-group-item">•	Jak rozpoznat manipulaci, druhy manipulací, techniky na zvládání manipulací  - možný nácvik (1 hodina)</li>
+          <li className="list-group-item">•	Vedení rozhovoru  – příprava a struktura (1 hodina)</li>
+          <li className="list-group-item">•	Neverbální komunikace  – gesta a výrazy s jejich významem. Základy psycholingvistiky a rizikové výrazy. (1 hodina)</li>
+        </ul></div> 
+
+        </LiFile >
 
     </ul>
   </BlockEx>
