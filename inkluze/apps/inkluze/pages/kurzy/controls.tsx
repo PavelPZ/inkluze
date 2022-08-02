@@ -2648,12 +2648,109 @@ var ZSInkluzeCizinci: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy:">
     <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Klima třídy se žáky s odlišným mateřským jazykem </b> (8 hod, akreditováno pro ZŠ, SŠ, VOŠ, asistenti)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Klima třídy se žáky s odlišným mateřským jazykem -webinář </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, SŠ, VOŠ, DM, asistenti, od srpna 2022)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Jak ve škole pracovat se žáky cizinci </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, SŠ, VOŠ, DM, asistenti, od srpna 2022)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Jak ve škole pracovat se žáky cizinci – webinář </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, SŠ, VOŠ, DM, asistenti, od srpna 2022)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Začlenění žáka cizince do třídního kolektivu </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, SŠ, VOŠ, DM, asistenti, od srpna 2022)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Začlenění žáka cizince do třídního kolektivu – webinář </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, SŠ, VOŠ, DM, asistenti, od srpna 2022)</LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezic1" aria-expanded="false" aria-controls="collapsezic1">Klima třídy se žáky s odlišným mateřským jazykem </b> (8 hod, akreditováno pro ZŠ, SŠ, VOŠ, asistenti)
+        <div className="collapse " id="collapsezic1"><ul className="list-group">
+          <li className="list-group-item">•	<b>Téma – Základní sociální potřeby žáků s OMJ, jinými životními a kulturními potřebami</b>  Základní sociální potřeby: Potřeba místa, bezpečí, podnětu, potřeba péče, výživy, dále potřeby podpory a sociálních limitů. Důsledky nenaplňování potřeb a jejich vliv na chování žáků v rámci dané třídy, školy. Dopady procesu psychického a fyzického vývoje a spojené se změnou životních podmínek a jejich vliv na chování žáka v podmínkách školy, přístup k pravidlům, normám a jejich respektování. (2 hodiny)</li>
+          <li className="list-group-item">•	<b>Téma – žák s OMJ a jinými životními a kulturními podmínkami, vliv na klima třídy.</b>  Pravidla a zásady vedení třídního kolektivu. Práce s tvarem třídy – konformita a normy konkrétního třídního kolektivu – příprava, hranice, rizika a zdroje. Role žáka ve třídě, zapojení žáka s OMJ do třídního kolektivu. Posilování pozitivních vazeb. Regulace chování ve skupině. (2 hodiny)</li>
+          <li className="list-group-item">•	<b>Téma – Práce s pocity žáků s OMJ a jako prevence kázeňských problémů.</b>  Možnosti diferencovaného vzdělávání. Školní prostředí a střídání rolí. Možnosti chování, projevy žáků, zapojení do školního kolektivu, řešení projevu „odlišnosti“ s respektováním odlišných projevů, norem, postojů s cílem adaptace na nové podmínky školy. (2 hodiny).</li>
+          <li className="list-group-item">•	<b>Téma – praktické ukázky, práce s třídním kolektivem, kaziustikami.</b>  Komunikace se žákem s OMJ. Pro praktické ukázky bude využita metoda hraní rolí, vedení rozhovoru a další interaktivní techniky a zásady práce v rámci třídního kolektivu za účelem zapojení žáků s OMJ a jinými životními a kulturními podmínkami. Osvědčené strategie pro vytvoření prostředí podporujícího všechny žáky, zaměření na jednotlivé situace, problémy, vlastní kazuistiky. (2 hodiny)</li>
+        </ul></div>
+      </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezic2" aria-expanded="false" aria-controls="collapsezic2">Klima třídy se žáky s odlišným mateřským jazykem -webinář </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, SŠ, VOŠ, DM, asistenti, od srpna 2022)
+                <div className="collapse border rounded " id="collapsezic2">
+          <div className="m-3">
+            <b>Blok 1 (2 vyučovací hodiny – 90 minut)</b><br />
+            Téma – Základní sociální potřeby žáků s OMJ, jinými životními a kulturními potřebami<br />
+            Základní sociální potřeby:<br />
+            Potřeba místa, bezpečí, podnětu,<br />
+            potřeba péče, výživy, dále potřeby podpory a sociálních limitů.<br />
+            Důsledky nenaplňování potřeb a jejich vliv na chování žáků v rámci dané třídy, školy.<br />
+            Dopady procesu psychického a fyzického vývoje a spojené se změnou životních podmínek a jejich vliv na chování žáka v podmínkách školy, přístup k pravidlům, normám a jejich respektování.<br />
+            <br />
+            <b>Blok 2 (2 vyučovací hodiny – 90 minut)</b><br />
+            Téma – žák s OMJ a jinými životními a kulturními podmínkami, vliv na klima třídy.<br />
+            Pravidla a zásady vedení třídního kolektivu.<br />
+            Práce s tvarem třídy – konformita a normy konkrétního třídního kolektivu – příprava, hranice, rizika a zdroje.<br />
+            Role žáka ve třídě, zapojení žáka s OMJ do třídního kolektivu. Posilování pozitivních vazeb.<br />
+            Regulace chování ve skupině.<br />
+            <br />
+            <b>Blok 3 (2 vyučovací hodiny – 90 minut)</b><br />
+            Téma – Práce s pocity žáků s OMJ a jako prevence kázeňských problémů.<br />
+            Možnosti diferencovaného vzdělávání<br />
+            Školní prostředí a střídání rolí.<br />
+            Možnosti chování, projevy žáků, zapojení do školního kolektivu, řešení projevu „odlišnosti“ s respektováním odlišných projevů, norem, postojů s cílem adaptace na nové podmínky školy.<br />
+            <br />
+            <b>Blok 4 (2 vyučovací hodiny – 90 minut)</b><br />
+            Téma – praktické ukázky, práce s třídním kolektivem, kaziustikami<br />
+            Komunikace se žákem s OMJ.<br />
+            Pro praktické ukázky bude využita metoda hraní rolí, vedení rozhovoru a další interaktivní techniky a zásady práce v rámci třídního kolektivu za účelem zapojení žáků s OMJ a jinými životními a kulturními podmínkami.<br />
+            Osvědčené strategie pro vytvoření prostředí podporujícího všechny žáky, zaměření na jednotlivé situace, problémy, vlastní kazuistiky.<br />
+          </div>
+        </div>
+      </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezic3" aria-expanded="false" aria-controls="collapsezic3">Jak ve škole pracovat se žáky cizinci </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, SŠ, VOŠ, DM, asistenti, od srpna 2022)
+                <div className="collapse " id="collapsezic3"><ul className="list-group">
+          <li className="list-group-item">•	Téma - teoretická část. Společné vzdělávání na středních školách a možnosti vzdělávání žáků s OMJ na těchto školách v souladu s platnými přepisy-Vyhláška 27/2016 Sb., ve znění pozdějších předpisů. Vymezení pojmů: odlišné kulturní a jiných životní podmínky: vymezení pojetí „kultura“ a „životní“, hledání terminologických ekvivalentů. Struktura podpůrných opatření, možnosti podpůrných opatření se zaměřením na žáky s OMJ a jinými životními a kulturními podmínkami. (2 hodiny)</li>
+          <li className="list-group-item">•	Téma - možnosti pedagogické diagnostiky. terminologie „vzdělání“ a „vzdělávání „ kompetence pedagogického pracovníka v procesu vzdělávání.  sociální a společenské otázky v procesu školního vzdělávání žáků s OMJ, charakteristika žáka, vývoj základních schopností a dovedností, specifika daného věku, principy a příčiny chování žáků v závislosti na prostředí, ve kterém žák vyrůstal a ovlivnilo jeho chování ve školním prostředí, základní možnosti pedagogické diagnostiky, vhodnost pro stanovení cílů, metod a forem práce v rámci prvního stupně podpůrného opatření, stanovení cílů, způsob konkretizace cílů s dopadem na využití potenciálů žáka s OMJ, komunikace a porozumění žáku s OMJ, / respekt, komunikace, hodnotový systém, individualita, empatie, stres a reakce na něj, úcta, budování pravidel osobních i skupinových a jejich dodržování, …/ (2 hodiny).</li>
+          <li className="list-group-item">•	Téma - práce s PLPP, případně IVP, hodnocení žáka, metody a formy práce. Využití pedagogické diagnostiky ve školním prostředí, úprava právních předpisů  - v souvislosti s využitím podpůrného opatření, analýza získaných poznatků, východiska pro nastavení práce se žákem s OMJ, tvoření výchovného plánu, PLPP, IVP, práce s doporučením pro žáka se speciálně vzdělávacími potřebami a OMJ. Metodická východiska v práci učitele: zásady v edukačním procesu - stereotyp, rutinní činnosti, opakování, rozvoj paměti, přiměřenost, od konkretizace po abstrakci, zpětná vazba atd. (2 hodiny)</li>
+          <li className="list-group-item">•	Téma - práce s metodickým materiálem. Příklady dobré praxe  – kazuistiky. Metodický materiál pro zjištění porozumění českému jazyku (aktivní a pasivní znalosti jazyka). Ukázka metodického materiálu, pomůcek, odkazy na doporučenou literaturu. (2 hodiny)</li>
+        </ul></div>
+      </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezic4" aria-expanded="false" aria-controls="collapsezic4">Jak ve škole pracovat se žáky cizinci – webinář </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, SŠ, VOŠ, DM, asistenti, od srpna 2022)
+                <div className="collapse border rounded " id="collapsezic4">
+          <div className="m-3">
+            <b>1.	část – Asertivní chování – 3 hodiny</b><br />
+            a)	asertivní techniky–vysvětlení a nácvik jednotlivých asertivních technik v rámci komunikace s rodičem cizincem, způsoby jednání, zvládání  emocí<br />
+            b)	obrana před manipulací ze strany rodičů cizinců, přijatelný kompromis mezi oběma stranami, přijetí a poskytování konstruktivní kritiky, přijetí a poskytování pochvaly a vyjádření uznání, účinnost pochvaly<br />
+            <br />
+            <b>2.	část – Žák cizinec – 5 hod</b><br />
+            a)	úvod do problematiky vzdělávání žáků s OMJ – typy žáků, vzorce chování, obtíže při osvojování českého jazyka, …<br />
+            b)	vzdělávání cizinců z pohledu právního rámce – Školský zákon, Vyhláška č.27/2016 Sb, Metodické doporučení MŠMT, ..<br />
+            c)	metodická podpora při vzdělávání žáků cizinců - zaměření na inkluzi žáka cizince do školního prostředí<br />
+          </div></div>
+      </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezic5" aria-expanded="false" aria-controls="collapsezic5">Začlenění žáka cizince do třídního kolektivu </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, SŠ, VOŠ, DM, asistenti, od srpna 2022)
+                <div className="collapse border rounded " id="collapsezic5">
+          <div className="m-3">
+            <b>Blok 1 (2 vyučovací hodiny – 90 minut)</b><br />
+            Téma – Asertivní chování, 1. část<br />
+            Asertivní techniky–vysvětlení a nácvik jednotlivých asertivních technik v rámci komunikace s rodičem cizincem, způsoby jednání, zvládání  emocí<br />
+            <br />
+            <b>Blok 2 (2 vyučovací hodiny – 90 minut)</b><br />
+            Téma – Asertivní chování, 2. část<br />
+            Obrana před manipulací ze strany rodičů cizinců, přijatelný kompromis mezi oběma stranami, přijetí a poskytování konstruktivní kritiky, přijetí a poskytování pochvaly a vyjádření uznání, účinnost pochvaly.<br />
+            <br />
+            <b>Blok 3 (2 vyučovací hodiny – 90 minut)</b><br />
+            Téma – Žák cizinec, 1. část<br />
+            Úvod do problematiky vzdělávání žáků s OMJ – typy žáků, vzorce chování, obtíže při osvojování českého jazyka, … <br />
+            Vzdělávání cizinců z pohledu právního rámce – Školský zákon, Vyhláška č.27/2016 Sb, Metodické doporučení MŠMT, ..<br />
+            <br />
+            <b>Blok 4 (2 vyučovací hodiny – 90 minut)</b><br />
+            Téma – Žák cizinec, 2. část<br />
+            Metodická podpora při vzdělávání žáků cizinců - zaměření na inkluzi žáka cizince do školního prostředí<br />
+          </div></div>
+      </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezic6" aria-expanded="false" aria-controls="collapsezic6">Začlenění žáka cizince do třídního kolektivu – webinář </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, SŠ, VOŠ, DM, asistenti, od srpna 2022)
+                <div className="collapse border rounded " id="collapsezic6">
+          <div className="m-3">
+            <b>Teoretická část</b>   (3 vyučovací hodiny)<br />
+            a)  Principy práce třídního učitele (TU) se třídou (2h) –<br />
+            •	klima třídy, její sociální struktura, vztah atmosféry a klimatu školní třídy<br />
+            •	pedagogická diagnostika pro utváření pozitivního klimatu třídy, mapování vztahů<br />
+            b)  Třídnické práce(1h)<br />
+            •	struktura a obsah třídnických hodin (TH)<br />
+            •	význam skupinové a týmové spolupráce<br />
+            <b>Praktická část</b> (5 vyučovacíh hodin)<br />
+            Metody osobností a sociální výchovy k rozvoji etických a sociálních dovedností žáků, které jsou cíleně zaměřené na začleňování žáků cizinců do třídního kolektivu<br />
+            Nabídka aktivit je z vlastního zkušenostního dvouletého výcviku či z doporučených publikací - doc. PhDr. Soni Hermochové, CSc., doc. PhDr. Josefa Valenty, CSc., Doc. PhDr. Hany Kasíkové, CSc., Mgr. Petra Kříže a dalších):<br />
+            •	aktivity seznamovací a "rozehřívací" (ledolamky)<br />
+            •	aktivity pro rozvoj vzájemné důvěry, podpory a pomoci, empatie a návazně vytváření bezpečného prostředí<br />
+            •	aktivity vedoucí k sebepoznání, hodnocení a sebehodnocení<br />
+            •	aktivity rozvíjející komunikaci (verbální i neverbální)<br />
+            •	interaktivní hry založené na spolupráci ve skupině<br />
+            •	techniky při řešení interpersonálních konfliktů – rolové hry, dramatika<br />
+          </div></div>
+      </LiFile >
     </ul>
   </BlockEx>
 </Panel>
@@ -2665,7 +2762,17 @@ var ZSMedialniGramotnost: React.StatelessComponent<IKurzProps> = (props: IKurzPr
   <BlockEx header="Nabízíme následující kurzy:">
     <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
 
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Funkce a nástrahy internetu, kyberšikana a sociální sítě </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)</LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezmg1" aria-expanded="false" aria-controls="collapsezmg1">Funkce a nástrahy internetu, kyberšikana a sociální sítě </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)
+                <div className="collapse.show" id="collapsezmg1">
+          <ul className="list-group">
+            <li className="list-group-item">•	<b>Vznik a funkce internetu</b> – vznik internetu, fungování internetu, vyhledávání na internetu, rozdíl mezi internetovým vyhledavačem a prohlížečem, nástrahy internetu a bezpečné chování na internetu (2,5 hod)</li>
+            <li className="list-group-item">•	<b>Kyberšikana</b> – identifikace problémů, řešení problémů, rozdíl mezi klasickou šikanou a kyberšikanou (2 hod)</li>
+            <li className="list-group-item">•	<b>Sociální sítě a práce s nimi</b> – obecné informace o sociálních sítích, funkce sociálních sítí, bezpečné chování na sociální síti, klady a zápory využití sociálních sítí, vybrané sociální sítě a informace k nim (2 hod)</li>
+            <li className="list-group-item">•	<b>Autorství a kopírování obrázků a informací</b> (0,5 hod)</li>
+            <li className="list-group-item">•	<b>E-mail</b> – práce v prostředí MS Outlook a v některých e-mailových schránkách (1 hod)</li>
+          </ul>
+        </div>
+      </LiFile >
 
     </ul>
   </BlockEx>
@@ -2676,8 +2783,34 @@ var ZSVyukaCestiny: React.StatelessComponent<IKurzProps> = (props: IKurzProps, c
 </div>} eventKey={2}>
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Specifika výuky češtiny jako druhého jazyka </b> (8 hod, akreditováno pro ZŠ, SŠ, asistenti, výchovní poradci, od srpna 2022)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Specifika výuky češtiny jako druhého jazyka - webinář </b> (8 hod, akreditováno pro ZŠ, SŠ, asistenti, výchovní poradci, od srpna 2022)</LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezvc1" aria-expanded="false" aria-controls="collapsezvc1">Specifika výuky češtiny jako druhého jazyka </b> (8 hod, akreditováno pro ZŠ, SŠ, asistenti, výchovní poradci, od srpna 2022)
+                <div className="collapse " id="collapsezvc1"><ul className="list-group">
+          <li className="list-group-item">•	<b>vymezení teoretických východisek a terminologického rámce ČJDJ</b>, shod, rozdílů a specifik procesu výuky českého jazyka, českého jazyka jako cizího jazyka a ČJDJ, přesah do výuky všeobecně vzdělávacích a ostatních předmětů ve vyučovacím procesu, provázanost s oblastí mimoškolních aktivit a zájmových činností (nejen) pro žáky cizince (1 hodina);</li>
+          <li className="list-group-item">•	<b>uplatňování postkomunikačního přístupu ve výuce ČJDJ</b>, využívání vhodných strategií a didaktických postupů, rozvoj základních řečových dovedností a jazykových kompetencí žáka cizince v procesu jeho přijímání, začleňování a vzdělávání, tj. v prvních dnech a týdnech po zahájení školní docházky v běžné české škole (1,5 hodiny); </li>
+          <li className="list-group-item">•	<b>diagnostika jazykové úrovně jedince</b>, postupy pro určení jazykové úrovně žáka cizince (1 hodina);</li>
+          <li className="list-group-item">•	<b>komunikace se žákem cizincem</b>, tj. role zvukového plánu jazyka, význam osvojení si správné zvukové podoby češtiny a výslovnosti jako nezbytné podmínky úspěšné komunikace; základní instrukce, fráze a kolokace „pro přežití“ a jejich následné rozšiřování a posilování, rozvoj slovní zásoby; zásady komunikace a vedení výuky bez zprostředkovacího jazyka, vhodné didaktické postupy a pomůcky a postupy (1 hodina);</li>
+          <li className="list-group-item">•	<b>práce s kurikulem ČJDJ, tj. jak a co učit </b> – témata vhodná pro začátečníky a mírně pokročilé, konkrétní situace, rozvoj základní slovní zásoby v kontextu interakce, osvojování jazykových dovedností a posilování jazykových kompetencí, stanovení základního cíle a efektivní realizace triády téma – cíl – dovednost; příklady vhodných aktivit (1 hodina)</li>
+          <li className="list-group-item">•	<b>význam osvojování si vhodných kompetencí a jazykových prostředků</b>, význam procvičování a správné fixace osvojených jazykových dovedností a kompetencí jako např. osvojování čtení a nácvik psaní u žáků, kteří přicházejí bez dovednosti číst latinku a psát latinkou, spolu s fixací správných pracovních návyků pro čtení a psaní, osvojování a procvičování lexika, gramatiky, pravopisu a komunikačních modelů  v ČJDJ (1 hodina);</li>
+          <li className="list-group-item">•	<b>role ČJDJ a její význam ve škole i mimo ni a spolupráce s pedagogickými pracovníky školy</b>, tj. spolupráce s učiteli ostatních předmětů u žáků s na začátku nulovou a v průběhu adaptačního období – prvních týdnů školní docházky s počáteční úrovní znalosti jazyka; doporučení vhodných výukových materiálů v klasické i online podobě se zohledněním věku, konkrétní jazykové úrovně ČJDJ u žáka cizince, zohledňování dalších faktorů; možnosti podpory stran státních institucí, krajských úřadů a zřizovatelů, nestátních neziskových organizací; diskuse a sdílení vlastní praxe lektora a účastníků vzdělávacího programu (1,5 hodiny). </li>
+        </ul></div>
+      </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezvc2" aria-expanded="false" aria-controls="collapsezvc2">Specifika výuky češtiny jako druhého jazyka - webinář </b> (8 hod, akreditováno pro ZŠ, SŠ, asistenti, výchovní poradci, od srpna 2022)
+                           <div className="collapse border rounded " id="collapsezvc2">
+          <div className="m-3">
+            <b>Blok 1 (1 vyučovací hodina)</b><br />
+            •	vymezení teoretických východisek a terminologického rámce ČJDJ, shod, rozdílů a specifik procesu výuky českého jazyka, českého jazyka jako cizího jazyka a ČJDJ, přesah do výuky všeobecně vzdělávacích a ostatních předmětů ve vyučovacím procesu, provázanost s oblastí mimoškolních aktivit a zájmových činností (nejen) pro žáky cizince – (1 hodina)<br />
+            <b>Blok 2 (1,5 vyučovací hodiny)</b><br />
+            •	uplatňování postkomunikačního přístupu ve výuce ČJDJ, využívání vhodných strategií a didaktických postupů, rozvoj základních řečových dovedností a jazykových kompetencí žáka cizince v procesu jeho přijímání, začleňování a vzdělávání, tj. v prvních dnech a týdnech po zahájení školní docházky v běžné české škole – (1,5 hodiny)<br />
+            <b>Blok 3 (2 vyučovací hodiny – 90 minut)</b><br />
+            •	diagnostika jazykové úrovně jedince, postupy pro určení jazykové úrovně žáka cizince – (1 hodina)<br />
+            •	komunikace se žákem cizincem, tj. role zvukového plánu jazyka, význam osvojení si správné zvukové podoby češtiny a výslovnosti jako nezbytné podmínky úspěšné komunikace; základní instrukce, fráze a kolokace „pro přežití“ a jejich následné rozšiřování a posilování, rozvoj slovní zásoby; zásady komunikace a vedení výuky bez zprostředkovacího jazyka, vhodné didaktické postupy a pomůcky a postupy (1 hodina)<br />
+            <b>Blok 4 (2 vyučovací hodiny – 90 minut)</b><br />
+            •	práce s kurikulem ČJDJ, tj. jak a co učit – témata vhodná pro začátečníky a mírně pokročilé, konkrétní situace, rozvoj základní slovní zásoby v kontextu interakce, osvojování jazykových dovedností a posilování jazykových kompetencí, stanovení základního cíle a efektivní realizace triády téma – cíl – dovednost; příklady vhodných aktivit –( 1hodina)<br />
+            •	význam osvojování si vhodných kompetencí a jazykových prostředků, význam procvičování a správné fixace osvojených jazykových dovedností a kompetencí jako např. osvojování čtení a nácvik psaní u žáků, kteří přicházejí bez dovednosti číst latinku a psát latinkou, spolu s fixací správných pracovních návyků pro čtení a psaní, osvojování a procvičování lexika, gramatiky, pravopisu a komunikačních modelů  v ČJDJ – (1 hodina)<br />
+            <b>Blok 5 (1,5 vyučovací hodiny)</b><br />
+            •	role ČJDJ a její význam ve škole i mimo ni – spolupráce s pedagogickými pracovníky školy, tj. spolupráce s učiteli ostatních předmětů u žáků s na začátku nulovou a v průběhu adaptačního období – prvních týdnů školní docházky s počáteční úrovní znalosti jazyka; doporučení vhodných výukových materiálů v klasické i online podobě se zohledněním věku, konkrétní jazykové úrovně ČJDJ u žáka cizince, zohledňování dalších faktorů; možnosti podpory stran státních institucí, krajských úřadů a zřizovatelů, nestátních neziskových organizací; diskuse a sdílení vlastní praxe lektora a účastníků vzdělávacího programu – (1,5 hodiny)
+</div></div>
+      </LiFile >
     </ul>
   </BlockEx>
 </Panel>;
