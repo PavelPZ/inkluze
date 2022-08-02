@@ -2515,15 +2515,69 @@ var ZSCtenarskaGramotnost: React.StatelessComponent<IKurzProps> = (props: IKurzP
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
 
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Čtenářská a informační gramotnost na ZŠ – 8 hodin </b> (8 hod, akreditováno pro ZŠ)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Rozvoj čtenářské gramotnosti u žáků ZŠ – 8 hodin </b> (8 hod, akreditováno pro ZŠ, ŠD, asistenti)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Čtenářství-průvodce každodenním životem, cesta je vzdělání_8 </b> (8 hod, akreditováno pro ZŠ)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Čtenářství a čtenářská gramotnost v současné škole </b> (8 hod, akreditováno pro ZŠ)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Rozvoj předčtenářské gramotnosti – 8 hodin  </b> (8 hod, akreditováno pro MŠ)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Rozvoj čtenářské pregramotnosti u dětí v MŠ – 16 hodin  </b> (16 hod, akreditováno pro MŠ)</LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseszcg1" aria-expanded="false" aria-controls="collapseszcg1">Čtenářská a informační gramotnost na ZŠ – 8 hodin </b> (8 hod, akreditováno pro ZŠ)
+        <div className="collapse " id="collapseszcg1">
+          Teoretický obsah kurzu:<br />
+          1.	Seznámení s principem třífázového učení E-U-R a se základními metodami a formami práce a jejich dělením – (2 hod)<br />
+          Praktická část kurzu:<br />
+          2.	Aplikace jednotlivých základních metod ve výuce – interaktivní část semináře – interaktivní zapojení účastníků – (6 hod)<br />
+          •	Brainstorming – princip metody a různé způsoby jeho využití<br />
+          •	Myšlenková mapa – princip metody a různé způsoby využití v jednotlivých částech hodiny<br />
+          •	Práce s textem  – princip metody a různé způsoby využití (I.N.S.E.R.T., skládankové učení, .<br />
+          •	Škálování - princip metody a různé způsoby využití ve výuce<br />
+          •	další aktivizující metody a formy výuky vedoucí k rozvoji čtenářské gramotnosti<br />
+          Diskuse nad konkrétními problémy.<br />
+        </div>
+      </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseszcg2" aria-expanded="false" aria-controls="collapseszcg2">Rozvoj čtenářské gramotnosti u žáků ZŠ – 8 hodin </b> (8 hod, akreditováno pro ZŠ, ŠD, asistenti)
+        <div className="collapse " id="collapseszcg2"><ul className="list-group">
+          <li className="list-group-item">•	Čtenářská gramotnost  – charakteristika a základní aspekty (1 hod)</li>
+          <li className="list-group-item">•	Čtenářské dílny (2 hod)</li>
+          <li className="list-group-item">•	Jak budovat kladný vztah ke čtení  - Předpokladem pro rozvíjení čtenářské gramotnosti je potěšení z četby a vnitřní potřeba číst. (1 hod)</li>
+          <li className="list-group-item">•	Doslovné porozumění textu ve všech předmětech, čtení s porozuměním  - Čtenářská gramotnost staví na dovednosti dekódovat psané texty a budovat porozumění na doslovné úrovni se zapojením dosavadních znalostí a zkušeností. (2 hod)</li>
+          <li className="list-group-item">•	Kritické myšlení, metakognice, vysuzování, hodnocení (2 hod)</li>
+        </ul></div>
+      </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseszcg3" aria-expanded="false" aria-controls="collapseszcg3">Čtenářství-průvodce každodenním životem, cesta je vzdělání_8 </b> (8 hod, akreditováno pro ZŠ)
+        <div className="collapse " id="collapseszcg3"><ul className="list-group"><li className="list-group-item">•	seznámení, očekávání, ledolamka  – funkční proces (0,5 hod)</li>
+          <li className="list-group-item">•	pojem čtenářská gramotnost, třífázový model učení:  - dílna čtení a čtenářská lekce,  - metody vedoucí k reflexi čtenáře  - grafické organizéry, záznamy (2 hod)</li>
+          <li className="list-group-item">•	čtenářské strategie:  - předvídání, vyjasňování, shrnování, kladení otázek (1,5 hod)</li>
+          <li className="list-group-item">•	oborové čtení  - vlastivěda / dějepis  - práce s populárně naučným textem mimo učebnice (2 hod)</li>
+          <li className="list-group-item">•	prožitkové čtení  - jak na beletristický text (1,5 hod)</li>
+          <li className="list-group-item">•	reflexe dne (0,5 hod)</li>
+        </ul></div>
+      </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseszcg4" aria-expanded="false" aria-controls="collapseszcg4">Čtenářství a čtenářská gramotnost v současné škole </b> (8 hod, akreditováno pro ZŠ)
+        <div className="collapse " id="collapseszcg4"><ul className="list-group"><li className="list-group-item">•	Seznámení se základními pojmy: čtenářská gramotnost, čtenářství, čtenářské kontinuum, metakognice, různé přístupy k rozvoji ČG (1 hodina)</li>
+          <li className="list-group-item">•	Čtenářství  - rozvoj čtenářského klimatu ve škole, metody a možnosti (2 hodiny)</li>
+          <li className="list-group-item">•	Dílna čtení : její varianty, organizace dílny, otázky a úkoly, organizéry, minilekce se čtenářskými strategiemi (2 hodiny)</li>
+          <li className="list-group-item">•	Čtenářské strategie  - metody a postupy pro rozvíjení jednotlivých dovedností, ukázky práce s textem beletristickým a naučným, skládačkové varianty metod, vliv technologií na změnu pohledu na čtenářství (3 hodiny)</li>
+        </ul></div>
+      </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseszcg5" aria-expanded="false" aria-controls="collapseszcg5">Rozvoj předčtenářské gramotnosti – 8 hodin  </b> (8 hod, akreditováno pro MŠ)
+        <div className="collapse " id="collapseszcg5"><ul className="list-group"><li className="list-group-item">•	Vymezení pojmu čtenářská gramotnost a pregramotnost, Předškolní období a vnitřní motivace ke čtení, budování si vztahu ke knihám a porozumění čtenému textu (1 hodina)</li>
+          <li className="list-group-item">•	Percepční a motorická oslabení a jejich náprava v předškolním věku jako prevence školní neúspěšnosti. Rozvoj smyslového vnímání  – zrakové vnímání, Činnosti a hry pro rozvoj zrakového vnímání, Rozvoj fonematického sluchu jako základ pro čtení a psaní. (2 hodiny)</li>
+          <li className="list-group-item">•	Rozvoj grafomotoritky jako základ pro správný rozvoj písemného projevu., Fáze a metodický postup v nácviku grafomotoriky, Nácvik grafomotoriky, využití ergonomických pomůcek pro správný rozvoj grafomotoriky. (2 hodiny)</li>
+          <li className="list-group-item">•	Orientace v prostoru a vnímání času, Činnosti a hry rozvíjející orientaci v prostoru  – pohybové hry, Problémy způsobující oslabené prostorové vnímání a vnímání času (1 hodina)</li>
+          <li className="list-group-item">•	Rozvoj představivosti a fantazie z hlediska důležitosti pro rozvoj předčtenářské gramotnosti, Rozvoj sluchové a zrakové paměti jako základ pro čtení s porozuměním (1 hodina)</li>
+          <li className="list-group-item">•	Úrovně myšlení  – názorně činnostní, názorně obrazné, slovně-logické, Hry a činnosti pro rozvoj myšlení dětí předškolního věku, Úloha rodiny v souvislosti se čtením a ve vztahu k předčtenářské gramotnosti, Vývoj a rozvoj řeči a komunikačních schopností, slovní zásoba, znalost významu slov, Činnosti a hry pro rozvoj řeči, slovní zásoby a komunikace z hlediska rozvoje čtenářské gramotnosti (1 hodina)</li>
+
+        </ul>
+          Součástí školení je i ukázka pracovních listů, ukázky jednotlivých činností a metod pro rozvoj předčtenářské gramotnosti
+      </div>
+      </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseszcg6" aria-expanded="false" aria-controls="collapseszcg6">Rozvoj čtenářské pregramotnosti u dětí v MŠ – 16 hodin  </b> (16 hod, akreditováno pro MŠ)
+  <div className="collapse " id="collapseszcg6"><ul className="list-group"><li className="list-group-item">•	Čtenářská pregramotnost  – charakteristika a základní aspekty, orientace v knize, klíčové kompetence dítěte vztahující se k rozvoji čtenářské pregramotnosti, motivace dětí ke kladnému vztahu ke knize, jak spolupracovat s rodinou, kde všude je čtenářšká pregramotnost potřebná.    (2 hod)</li>
+          <li className="list-group-item">•	Orientace při čtení  – orientace dítěte v prostoru, čase, vztazích, (2 hod)</li>
+          <li className="list-group-item">•	Obrázkové osnovy, obrázkové čtení  – jak vytvářet obrázkové osnovy, vhodné knihy a autoři pro rozvoj gramotnosti, vlastní vytváření obrázkových osnov, jak správně pracovat s osnovou.  (4 hod)</li>
+          <li className="list-group-item">•	Kritické myšlení, metakognice, vysuzování, hodnocení  – poznávání věcí z okolí v širším kontextu, důležitost rozvoje obsahu slov, které děti používají, což jim usnadňuje lepší myšlení, hodnocení a analyzování situací. Kritický pohled dítěte na to, co poslouchá a jak to vyhodnocuje, které informace jsou pro něj důležité.  (2 hod) </li>
+          <li className="list-group-item">•	Zkušenost zprostředkovaného učení a instrumentální obohacování R. Feuersteina  – seznámení se základními principy metody FIE a zkušenosti zprostředkovaného učení R. Feuersteina, která je vhodná pro rozvoj předčtenářské gramotnosti.  (4 hod) </li>
+          <li className="list-group-item">•	Příklady dobré praxe, analýza vlastní práce  – pedagogové samy přinesou vlastní příklady dobé praxe, které používají. A seznámí s klady i zápory metod.  (2 hod) </li>
+        </ul></div>
+      </LiFile >
     </ul>
   </BlockEx>
-</Panel>
+</Panel >
 
 var ZSMatematickaGramotnost: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">8</Label>  <Label bsStyle="warning">16</Label> <span style={headerCss}>{props.title}</span></h3>
@@ -2638,7 +2692,7 @@ var ZSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
             <li className="list-group-item">•	<b>MS Office PowerPoint</b> – pravidla prezentace, práce se snímky, textovými poli, vkládání obrázků, objektů, využití šablon, motivů, možnosti efektů, příprava pro tisk (2,5 hod)</li>
           </ul>
         </div>
-        </LiFile >
+      </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseznt2" aria-expanded="false" aria-controls="collapseznt2">Různé metody pro využití ICT technologií ve škole </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)
                 <div className="collapse " id="collapseznt2">
           <ul className="list-group">
@@ -2649,7 +2703,7 @@ var ZSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
             <li className="list-group-item">•	<b>Ukázka práce s dotykovým zařízením.</b> Práce s on – line aplikacemi, využití vhodných aplikací na dotykových zařízeních (2 hod)</li>
           </ul>
         </div>
-        </LiFile >
+      </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseznt3" aria-expanded="false" aria-controls="collapseznt3">Inspirace pro využití interaktivních tabulí ve škole </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)
                  <div className="collapse " id="collapseznt3">
           <ul className="list-group">
@@ -2660,7 +2714,7 @@ var ZSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
             <li className="list-group-item">•	<b>Praktická cvičení</b> – tvorba prezentací účastníků s jednotlivými prvky prezentace a samotné prezentování připravených materiálů; následná diskuse a rozbor prezentací (2,5 hod)</li>
           </ul>
         </div>
-        </LiFile >
+      </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseznt4" aria-expanded="false" aria-controls="collapseznt4">Práce s dotykovými zařízeními ve škole </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)
                  <div className="collapse " id="collapseznt4">
           <ul className="list-group">
@@ -2669,7 +2723,7 @@ var ZSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
             <li className="list-group-item">•	<b>Praktické využití dotykových zařízení</b> – týmová práce v aplikaci Toglic ; program OneNote (2 hod)</li>
             <li className="list-group-item">•	<b>Ukázka práce s dotykovými zařízeními</b> - uchazeč se v posledním bloku aktivně zapojí do práce s dotykovým zařízením. Využije získané teoretické poznatky k sestavení ukázkové hodiny, ve které využije dotyková zařízení (2 hod)</li>
           </ul></div>
-        </LiFile >
+      </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseznt5" aria-expanded="false" aria-controls="collapseznt5">Využití ICT ve škole </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)
                  <div className="collapse " id="collapseznt5"><ul className="list-group"><li className="list-group-item">•	Seznámení s problematikou nasazení výukových technologií školního prostředí (pozitiva, negativa a rizika nasazení se kterými je třeba počítat) (1 hodina)</li>
           <li className="list-group-item">•	Rozbor dosavadně používaných programů a aplikací účastníků (1 hodina)</li>
@@ -2678,7 +2732,7 @@ var ZSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
           <li className="list-group-item">•	Vybrané předinstalované aplikace operačního systému Windows vhodné pro práci pedagoga (např. Výstřižky, Panel pro matematický zápis) (1 hodina)</li>
           <li className="list-group-item">•	Typy pro vyhledávání materiálů na internetu (1 hodina)</li>
         </ul></div>
-        </LiFile >
+      </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseznt6" aria-expanded="false" aria-controls="collapseznt6">Efektivní využití LibreOffice ve škole </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)
                 <div className="collapse " id="collapseznt6">
           <ul className="list-group">
@@ -2687,14 +2741,14 @@ var ZSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
             <li className="list-group-item">•	<b>Impress </b> – pravidla prezentace, práce se snímky, vkládání obrázků, objektů, využití šablon, motivů, příprava pro tisk (2 hodiny)</li>
             <li className="list-group-item">•	<b>Draw </b> – seznámení s prostředím pro tvorbu náčrtů, plakátů a mnoha dalších typů dokumentu, manipulace s objekty, ořezávání objektů, seskupování objektů (1 hodina)</li>
           </ul></div>
-        </LiFile >
+      </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseznt7" aria-expanded="false" aria-controls="collapseznt7">Efektivní využití Google dokumentů ve škole </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)
                    <div className="collapse " id="collapseznt7"><ul className="list-group"><li className="list-group-item">•	<b>Dokumenty </b> – formátování písma, odstavců, textu, vícestránkové dokumenty, vkládání a úprava textů z internetu, záhlaví, zápatí, styly, vkládání obrázků a nákresů do textu, práce s tabulkou, speciálními znaky, hlasové zadávání, rozšíření znalostí klávesových zkratek (3 hodiny)</li>
           <li className="list-group-item">•	<b>Tabulky </b> – seznámení s prostředím tabulek, formátování buněk, tabulek, vytváření vlastních řad, vzorce a funkce se zaměřením na praktické využití při evidenci dat i při výuce (2 hodiny)</li>
           <li className="list-group-item">•	<b>Prezentace </b> – pravidla prezentace, práce se snímky, vkládání různých typů objektů (obrázky, diagramy aj.), využití motivů, příprava pro tisk (2 hodiny)</li>
           <li className="list-group-item">•	<b>Formuláře </b> – vytváření online formulářů a kvízů (1 hodina)</li>
         </ul></div>
-        </LiFile >
+      </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseznt8" aria-expanded="false" aria-controls="collapseznt8">Distanční výuka – formy a metody práce s žáky on-line </b> (8 hod, akreditováno pro ZŠ, ZUŠ, SŠ, VOŠ)
                  <div className="collapse " id="collapseznt8"><ul className="list-group">
           <li className="list-group-item">•	<b>Programy využitelné při on-line výuce </b> - Skype, Jitsi Meet, Zoom, MS Teams a další (2 hod)</li>
@@ -2703,7 +2757,7 @@ var ZSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
           <li className="list-group-item">•	<b>Jak komunikovat s žáky on-line</b> (1 hod)</li>
           <li className="list-group-item">•	<b>Praktická cvičení </b> – tvorba prezentací účastníků s jednotlivými prvky prezentace a praktické využití jednotlivých nástrojů k distančnímu učení (2 hod)</li>
         </ul></div>
-        </LiFile >
+      </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseznt9" aria-expanded="false" aria-controls="collapseznt9">Jak na distanční výuku? </b> (8 hod, akreditováno pro ZŠ, ZUŠ, SŠ, VOŠ)
                 <div className="collapse " id="collapseznt9"><ul className="list-group"><li className="list-group-item">•	Software využitelný při on-line výuce (2 hodiny)</li>
           <li className="list-group-item">•	Využití webových stránek sloužící k výuce on-line (1 hodina)</li>
@@ -2711,7 +2765,7 @@ var ZSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
           <li className="list-group-item">•	Jak komunikovat s žáky on-line (1 hodina)</li>
           <li className="list-group-item">•	Praktická cvičení  – tvorba prezentací účastníků s jednotlivými prvky prezentace, praktické využití jednotlivých nástrojů k distančnímu učení (2 hodiny)</li>
         </ul></div>
-        </LiFile >
+      </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseznt10" aria-expanded="false" aria-controls="collapseznt10">Základy práce s MS Office a jejich využití na školách
       </b>(8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ZUŠ, asistenti, od listopadu 2022)
         <div className="collapse " id="collapseznt10">
@@ -2914,7 +2968,7 @@ var ZSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
           <li className="list-group-item">•	<b>Náš pedagogický sbor a společné vytváření „Wellbeing prostředí“ </b> – osobní zodpovědnost vs. iluze týmové (ne)zodpovědnosti – od představ k realitě, jak to udělat v naší škole (1, 5 hod)</li >
           <li className="list-group-item">•	<b>Závěr programu </b> – diskuse, sdílení, otázky a odpovědi (0,5 hod)</li>
         </ul ></div >
-        </LiFile >
+      </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb2" aria-expanded="false" aria-controls="collapsezwb2">Wellbeing, cesta k harmonizaci vztahů ve škole – webinář </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, SŠ, VOŠ, DM, asistenti, od srpna 2022)
                 <div className="collapse border rounded " id="collapsezwb2">
           <div className="m-3">
@@ -2932,14 +2986,14 @@ var ZSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
             •	Závěr programu – diskuse, sdílení, otázky a odpovědi (0,5 hod)<br />
           </div >
         </div >
-        </LiFile >
+      </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb3" aria-expanded="false" aria-controls="collapsezwb3">Prevence k zátěžovým situacím ve škole </b> (8 hod, akreditováno pro MŠ, ZŠ, ZUŠ, ŠD, SŠ, VOŠ, DM, asistenti)
                 <div className="collapse " id="collapsezwb3"><ul className="list-group"><li className="list-group-item">•	<b>Teoretický úvod do oblasti psychohygieny učitele </b> – zmapování zátěžových situací u pedagogických pracovníků, které vedou k jejich přepracovanosti – teorie + práce skupin (1 hod.)</li>
           <li className="list-group-item">•	<b>Preventivní doporučení </b> - úprava životního stylu, efektivní organizace času, stanovení priorit, schopnost delegování úkolů (komunikace), spánková hygiena, (3 hod.) </li>
           <li className="list-group-item">•	<b>Preventivní doporučení </b> – důležitost aktivního pohybu, relaxace, odpočinku, včetně nácviku jednoduchých relaxačních technik (jednoduché relaxace k uvolnění stresu: a) cviky k uvolnění svalového napětí, b) cviky k uvolnění po práci u počítače, c) cviky uvolňující při napětí v zádech a bolestech hlavy a zad. (3 hod.)</li>
           <li className="list-group-item">•	<b>Regulace dalších zátěžových situací</b> přímo při výkonu práce (1hod) </li>
         </ul></div>
-        </LiFile >
+      </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb4" aria-expanded="false" aria-controls="collapsezwb4">Jak zvládat stresové situace a nedospět k vyhoření </b> (8 hod, akreditováno pro MŠ, ZŠ, ZUŠ, ŠD, SŠ, VOŠ, DM, asistenti)
                 <div className="collapse " id="collapsezwb4"><ul className="list-group"><li className="list-group-item">•	Jak psychický stres ovlivňuje náš výkon, Bournout podle Maslachové, Stres management jako pojem (2 hodiny)</li>
           <li className="list-group-item">•	Vytváření mapy zvládání každodenního stresu (1 hodina)</li>
@@ -2948,7 +3002,7 @@ var ZSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
           <li className="list-group-item">•	Představení asertivního chování jako dobrého způsobu zvládání každodenních stresů (1 hodina)</li>
           <li className="list-group-item">•	Jak nastavit změny, které podporují nevyhoření, sdílení, závěrečné shrnutí (1 hodina)</li>
         </ul></div>
-        </LiFile >
+      </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb5" aria-expanded="false" aria-controls="collapsezwb5">Aspekty emoční a sociální inteligence pedagoga 8 hodin </b> (8 hod, akreditováno pro ZŠ, ZUŠ, ŠD, ŠK)
                 <div className="collapse " id="collapsezwb5"><ul className="list-group"><li className="list-group-item">•	Teoretické ukotvení tématu emoční inteligence. Vysvětlení jednotlivých aspektů emoční inteligence, EI z pohledu klasicky pojímané inteligence a její role v uplatnění rozumových schopností, Objasnění možností rozvíjet emoční inteligenci: práce a rozhodování pod časových stresem, zvládání negativních emocí, získávání větší odolnosti, resilience vůči zátěži (2 hodiny)</li>
           <li className="list-group-item">•	Teoretické ukotvení tématu sociální inteligence a jejich jednotlivých aspektů. Praktické procvičení vybraných sociálních dovedností, trénink organizačních dovedností, možnosti řešení konfliktních situací, jak rozvíjet sociální inteligenci žáků (1 hodina)</li>
@@ -2958,7 +3012,7 @@ var ZSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
           <li className="list-group-item">•	Efektivní komunikace se sebou, v rámci rodiny a posléze také v kontextu pedagogické praxe, Jak jinak komunikovat, analýza základních komunikačních chyb, alternativní možnosti komunikace se žáky, možnosti, jak vést žáky k odpovědnosti za své prožívání a jednání (1 hodina)</li>
           <li className="list-group-item">•	Nové možnosti komunikace ve třídě. Řešení emočně vypjatých situací, tvorba repertoáru strategií k řešení složitých a neobvyklých sociálních situací (1 hodina)</li>
         </ul></div>
-        </LiFile >
+      </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb6" aria-expanded="false" aria-controls="collapsezwb6">Aspekty emoční a sociální inteligence pedagoga v MŠ </b> (8 hod, akreditováno pro MŠ)
                 <div className="collapse " id="collapsezwb6"><ul className="list-group"><li className="list-group-item">•	Teoretické ukotvení tématu emoční inteligence. Vysvětlení jednotlivých aspektů emoční inteligence, EI z pohledu klasicky pojímané inteligence a její role v uplatnění rozumových schopností, Objasnění možností rozvíjet emoční inteligenci: práce a rozhodování pod časových stresem, zvládání negativních emocí, získávání větší odolnosti, resilience vůči zátěži (2 hodiny)</li>
           <li className="list-group-item">•	Teoretické ukotvení tématu sociální inteligence a jejich jednotlivých aspektů. Praktické procvičení vybraných sociálních dovedností, trénink organizačních dovedností, možnosti řešení konfliktních situací, jak rozvíjet sociální inteligenci žáků (1 hodina)</li>
@@ -2968,7 +3022,7 @@ var ZSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
           <li className="list-group-item">•	Efektivní komunikace se sebou, v rámci rodiny a posléze také v kontextu pedagogické praxe, Jak jinak komunikovat, analýza základních komunikačních chyb, alternativní možnosti komunikace se žáky, možnosti, jak vést žáky k odpovědnosti za své prožívání a jednání (1 hodina)</li>
           <li className="list-group-item">•	Nové možnosti komunikace ve třídě. Řešení emočně vypjatých situací, tvorba repertoáru strategií k řešení složitých a neobvyklých sociálních situací (1 hodina)</li>
         </ul></div>
-        </LiFile >
+      </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb7" aria-expanded="false" aria-controls="collapsezwb7">Rozvoj osobnosti pedagoga v oblasti komunikace </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, asistenti)
         <div className="collapse " id="collapsezwb7"><ul className="list-group"><li className="list-group-item">•	Efektivní komunikace se sebou, v rámci rodiny a posléze také v kontextu pedagogické praxe (3 hodiny)</li>
           <li className="list-group-item">•	Jak jinak komunikovat, analýza základních komunikačních chyb, alternativní možnosti komunikace se žáky, možnosti, jak vést žáky k odpovědnosti za své prožívání a jednání (1 hodina)</li>
@@ -2977,7 +3031,7 @@ var ZSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
           <li className="list-group-item">•	Principy komunikace v souladu s nejnovějšími poznatky psychologie o fungování mozku ( 1 hodina)</li>
           <li className="list-group-item">•	Základy asertivního jednání (1 hodina)</li>
         </ul></div>
-        </LiFile >
+      </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb8" aria-expanded="false" aria-controls="collapsezwb8">Rozvoj osobnosti pedagoga v oblasti sebepoznání </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, asistenti)
                 <div className="collapse " id="collapsezwb8"><ul className="list-group"><li className="list-group-item">•	Seznámení s principem OSR  – (0,5 hod)</li>
           <li className="list-group-item">•	Rozvoj schopností poznávání . Aktivity zaměřené na sebepoznání vlastního já (já v pohledu pozitivity, negativity…). Já z pohledu vlastností pozitivních i negativních (pohled empatie ve vyjádření 10ti odpovědí - jak se vnímám já, a jak mě vidí ostatní), mé silné a slabé stránky, vlastní způsob jednání a chování, přetvářka, sebereflexe (2 hodiny)</li>
@@ -2985,13 +3039,13 @@ var ZSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
           <li className="list-group-item">•	Seberegulace a sebeorganizace. Aktivity zaměřené na sebepoznání odvíjející se od představ, schopností  - schopností  – kontrola a regulace vlastního chování v situacích „tady a teď“ (cvičení sebekontroly, sebeovládání, rychlého rozhodování – regulace vlastního jednání i prožívání, vůle), schopnosti vlastní seberealizace – uvědomění si vlastní hierarchie hodnot. (2 hodiny)</li >
           <li className="list-group-item">•	Psychohygiena. Aktivity zaměřené na jednoduché relaxační techniky  – a) cviky k uvolnění svalového napětí, b) cviky k uvolnění po práci u počítače, c) cviky uvolňující při napětí v zádech a bolestech hlavy a zad(1, 5 hodiny).</li >
         </ul ></div >
-        </LiFile >
+      </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb9" aria-expanded="false" aria-controls="collapsezwb9">Rozvoj osobnosti pedagoga ve zvládání konfliktů  </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, asistenti)
                 <div className="collapse " id="collapsezwb9"><ul className="list-group"><li className="list-group-item">•	Seznámení s principem OSR (0,5 hodiny)</li>
           <li className="list-group-item">•	Poznávání lidí, mezilidské vztahy. Metody zaměřené na vhodné způsoby komunikace v různých životních situacích, případné řešení neshod či konfliktů s druhými lidmi nenásilným způsobem. Tj. na reakce na základě postojů již získaných; na očekávání, která jsou formována na základě životních zkušeností; na zvládání dovednosti přijímat a poskytovat konstruktivní kritiku, na poznávání typu osobnosti pro úspěšné řešení konfliktu (2 hodiny)</li>
           <li className="list-group-item">•	Řešení problémů a rozhodovací dovednosti. Aktivity zaměřené na mapování vlastních postojů v rámci schématu konfliktu, na způsoby jednání v zátěžových situacích a přístupy ke zvládání konfliktu (kooperace, konfrontace, řešitelský přístup atd.), dovednosti pro řešení problémů a rozhodování z hlediska různých typů konfliktních situací, včetně zvládání krizové komunikace při jednání se žáky i s rodiči/zákonnými zástupci. (5,5 hodiny)</li>
         </ul></div>
-        </LiFile >
+      </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb10" aria-expanded="false" aria-controls="collapsezwb10">Zásady asertivní a efektivní komunikace pro MŠ, ZŠ, ZUŠ </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, asistenti)
                <div className="collapse " id="collapsezwb10"><ul className="list-group"><li className="list-group-item">•	Seznámení se s pravidly a technikami komunikace osobní i profesní: cíl, základní stanovisko, kladení otázek a jejich typologie, aktivní naslouchání, změkčovadla, sdělování názoru (2 hodiny)</li>
           <li className="list-group-item">•	Praktická typologie v komunikaci podle D. Forbese Leye (možné cvičení). Námitky a jak na ně vhodně reagovat. (1 hodina)</li>
@@ -3000,9 +3054,9 @@ var ZSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
           <li className="list-group-item">•	Jak rozpoznat manipulaci, druhy manipulací, techniky na zvládání manipulací  - možný nácvik (1 hodina)</li>
           <li className="list-group-item">•	Vedení rozhovoru  – příprava a struktura (1 hodina)</li>
           <li className="list-group-item">•	Neverbální komunikace  – gesta a výrazy s jejich významem. Základy psycholingvistiky a rizikové výrazy. (1 hodina)</li>
-        </ul></div> 
+        </ul></div>
 
-        </LiFile >
+      </LiFile >
 
     </ul>
   </BlockEx>
