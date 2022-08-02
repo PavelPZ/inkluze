@@ -805,6 +805,16 @@ var SSPedagogickaDiagnostika: React.StatelessComponent<IKurzProps> = (props: IKu
             <br />
           </div></div>
       </LiFile>
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesped3" aria-expanded="false" aria-controls="collapsesped3">Kázeňské přestupky a možnosti jejich řešení v rámci třídy
+      </b>(8 hod, akreditováno pro SŠ, DM, MŠ, ZŠ, ŠD, asistenti, výchovní poradci, speciální pedagogové, psychologové, od listopadu 2022)
+        <div className="collapse " id="collapsesped3">
+          <ul className="list-group">
+            <li className="list-group-item">•	Pedagogická diagnostika orientovaná na žáka, učitele a edukační proces (1 hod)</li>
+            <li className="list-group-item">•	Možnosti diferencovaného vzdělávání jako prevence problémového chování (1 hod)</li>
+            <li className="list-group-item">•	Příčiny problémového chování u žáků, Diagnostická kritéria ADHD, Příčiny poruch chování žáků, Formy rizikového chování – zneužívání návykových látek, kriminalita, šikana, hostilita, agrese, agresivita, vrstevnické vztahy, školní problémy, přestupky a ostatní rizikové formy chování (4 hod)</li>
+            <li className="list-group-item">•	Praktická část: Ukázka práce s třídním kolektivem, ukázka práce v rámci třídnických hodin, ukázka práce- nabídka metodických materiálů. Diskuze, práce s kazuistikami (2 hod)</li>
+          </ul></div>
+      </LiFile>
     </ul>
   </BlockEx>
 </Panel>
@@ -886,6 +896,29 @@ var SSInovace: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
     </ul>
   </BlockEx>
 </Panel>
+
+var SSSpoluprace: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+  <h3><Label bsStyle="warning">8</Label> <span style={headerCss}>{props.title}</span></h3>
+</div>} eventKey={1}>
+  <BlockEx header="Nabízíme následující kurzy:">
+    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesin1" aria-expanded="false" aria-controls="collapsesin1">Zásady efektivní komunikace s rodiči a zákonnými zástupci
+      </b>(8 hod, akreditováno pro SŠ, DM, MŠ, ZŠ, ŠD, ZUŠ, asistenti, od listopadu 2022)
+        <div className="collapse " id="collapsesnt1"><ul className="list-group"><li className="list-group-item">•	Specifika komunikace v online prostředí, možné chyby v komunikaci /vztahová agrese, nevhodná interpretace požadavků, předvídání budoucnosti, generalizace obtíží žáka, hodnocení rodiny, žáka, dávání nevyžádaných rad atd./ Věcná /obsahová /a vztahová rovina komunikace /teoretická část/ (1 hod)</li>
+          <li className="list-group-item">•	Příklady mailové komunikace jejich rozbor, porovnání dopadu mailové komunikace směrem k adresátovi. /praktická část/</li>
+          Jak jinak komunikovat<br />
+          analýza základních komunikačních chyb<br />
+          alternativní možnosti komunikace se žáky<br />
+          možnosti, jak vést žáky k odpovědnosti za své prožívání a jednání (1 hod)<br />
+          <li className="list-group-item">•	Možnosti komunikace s rodiči a zákonnými zástupci. Typologie rodičů - styly chování, verbální komunikace. Úzkostně agresivní typ rodiče, narcistně agresivní typ rodiče, úzkostní rodiče, rodiče s hysterickými rysy osobnosti aj. Znaky a projevy chování, možnosti volby strategie řešení situací.  (3 hod)</li>
+          <li className="list-group-item">•	Řešení emočně vypjatých situací: možnosti řešení, tvorba repertoáru strategií k řešení složitých a neobvyklých sociálních situací.</li>
+          <li className="list-group-item">•	Práce s metodickým materiálem, praktická část zaměřená na vlastní strategie, vyvarování se některým chybám v komunikaci. </li>
+          <li className="list-group-item">•	Základy a zásady asertivního jednání</li>
+        </ul></div>
+      </LiFile >
+    </ul >
+  </BlockEx >
+</Panel >
 
 var SSCtenarskaGramotnost: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">8</Label> <Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
@@ -1847,6 +1880,36 @@ var SSFormativniHodnoceni: React.StatelessComponent<IKurzProps> = (props: IKurzP
             •	Diskuse účastníků, sdílení typů z praxe (0,5 hod)<br />
           </div></div>
       </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesfh4" aria-expanded="false" aria-controls="collapsesfh4">Vedení portfolia žáka jako nástroj formativního hodnocení
+      </b>(8 hod, akreditováno pro SŠ, DM, ZŠ, ŠD, asistenti, výchovní poradci, speciální pedagogové, psychologové, od listopadu 2022)
+        <div className="collapse " id="collapsesfh4"><ul className="list-group"><li className="list-group-item">•	LEGISLATIVNÍ RÁMEC: Školský zákon a Vyhláška 27/2016. Hodnocení žáka jako podpůrné opatření, možnosti úpravy obsahu a výstupů v souladu s legislativou.  Vymezení základních pojmů nadání. Sumativní a formativní hodnocení  – vymezení teoretických pojmů. (1 hod)  </li>
+          <li className="list-group-item">•	Základní pojmy : Sumativní hodnocení, Formativní hodnocení, Prostředky formativního hodnocení (2 hod)</li>
+          <li className="list-group-item">•	Teoretická východiska - portfolio žáka - cíl, forma a funkce portfolia (1 hod)</li>
+          <li className="list-group-item">•	PRINCIPY PRÁCE S portfoliem žáka: Teoretické ukotvení tématu, Ukázka sebehodnocení žáka (1 hod)</li>
+          <li className="list-group-item">•	PRINCIPY PRÁCE S portfoliem žáka: Možnosti motivace žáka, Ukázka možností procvičování podle možností a schopností žáků, možnosti ověřování učiva a úrovně, rozsahu, četnosti úkolů stejného typu, Ukázka práce, nabídka metodických materiálů. Práce s pracovním materiálem. (2 hod)</li>
+          <li className="list-group-item">•	Cíl a smysl portfolia je především  důraz na osobní posun v učení každého dítěte - žáka. Možnosti využívat průběžné rozvíjející hodnocení včetně slovního a rozvíjí sebereflexi učitele. Ukázka metod formativní hodnocení, slovní hodnocení Ukázka možností posilování pozitivní motivace k aktivnímu a samostatnému učení (1 hod)</li>
+        </ul></div>
+      </LiFile >
+    </ul>
+  </BlockEx>
+</Panel>;
+
+var SSIndividualizace: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+  <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
+</div>} eventKey={2}>
+
+  <BlockEx header="Nabízíme následující kurzy:">
+    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesin1" aria-expanded="false" aria-controls="collapsesin1">Vedení portfolia žáka jako nástroj formativního hodnocení
+      </b>(8 hod, akreditováno pro SŠ, DM, ZŠ, ŠD, asistenti, výchovní poradci, speciální pedagogové, psychologové, od listopadu 2022)
+        <div className="collapse " id="collapsesin1"><ul className="list-group"><li className="list-group-item">•	LEGISLATIVNÍ RÁMEC: Školský zákon a Vyhláška 27/2016. Hodnocení žáka jako podpůrné opatření, možnosti úpravy obsahu a výstupů v souladu s legislativou.  Vymezení základních pojmů nadání. Sumativní a formativní hodnocení  – vymezení teoretických pojmů. (1 hod)  </li>
+          <li className="list-group-item">•	Základní pojmy : Sumativní hodnocení, Formativní hodnocení, Prostředky formativního hodnocení (2 hod)</li>
+          <li className="list-group-item">•	Teoretická východiska - portfolio žáka - cíl, forma a funkce portfolia (1 hod)</li>
+          <li className="list-group-item">•	PRINCIPY PRÁCE S portfoliem žáka: Teoretické ukotvení tématu, Ukázka sebehodnocení žáka (1 hod)</li>
+          <li className="list-group-item">•	PRINCIPY PRÁCE S portfoliem žáka: Možnosti motivace žáka, Ukázka možností procvičování podle možností a schopností žáků, možnosti ověřování učiva a úrovně, rozsahu, četnosti úkolů stejného typu, Ukázka práce, nabídka metodických materiálů. Práce s pracovním materiálem. (2 hod)</li>
+          <li className="list-group-item">•	Cíl a smysl portfolia je především  důraz na osobní posun v učení každého dítěte - žáka. Možnosti využívat průběžné rozvíjející hodnocení včetně slovního a rozvíjí sebereflexi učitele. Ukázka metod formativní hodnocení, slovní hodnocení Ukázka možností posilování pozitivní motivace k aktivnímu a samostatnému učení (1 hod)</li>
+        </ul></div>
+      </LiFile >
 
     </ul>
   </BlockEx>
@@ -2093,6 +2156,8 @@ var KurzySSList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.I
         </LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSFormativniHodnoceni)}
         </LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSIndividualizace)}
+        </LiFile>
       </ul>
     </Col>
     <Col md={4}>
@@ -2100,6 +2165,8 @@ var KurzySSList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.I
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSPedagogickaDiagnostika)}
         </LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSInovace)}
+        </LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSSpoluprace)}
         </LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSCtenarskaGramotnost)}
         </LiFile>

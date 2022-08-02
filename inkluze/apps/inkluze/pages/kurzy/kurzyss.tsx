@@ -90,10 +90,12 @@ function getSSLoaders(): Array<Array<ICourseSSLoader>> {
       { id: 'SSInkluzeCizinci', create: expanded => <SSInkluzeCizinci defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSInkluzeCizinci.title} /> },
       { id: 'SSOstatniInkluze', create: expanded => <SSOstatniInkluze defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSOstatniInkluze.title} /> },
       { id: 'SSFormativniHodnoceni', create: expanded => <SSFormativniHodnoceni defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSFormativniHodnoceni.title} /> },
+      { id: 'SSIndividualizace', create: expanded => <SSIndividualizace defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSIndividualizace.title} /> },
     ],
     [
       { id: 'SSPedagogickaDiagnostika', create: expanded => <SSPedagogickaDiagnostika defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSPedagogickaDiagnostika.title} /> },
       { id: 'SSInovace', create: expanded => <SSInovace defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSInovace.title} /> },
+      { id: 'SSSpoluprace', create: expanded => <SSSpoluprace defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSSpoluprace.title} /> },
       { id: 'SSCtenarskaGramotnost', create: expanded => <SSCtenarskaGramotnost defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSCtenarskaGramotnost.title} /> },
       { id: 'SSMatematickaGramotnost', create: expanded => <SSMatematickaGramotnost defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSMatematickaGramotnost.title} /> },
       { id: 'SSPodporaUcitelu', create: expanded => <SSPodporaUcitelu defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSPodporaUcitelu.title} /> },      

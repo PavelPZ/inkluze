@@ -31,6 +31,7 @@
   export interface ISiteKurzySS extends site.INode {
     SSPedagogickaDiagnostika: site.INode;
     SSInovace: site.INode;
+    SSSpoluprace: site.INode;
     SSCtenarskaGramotnost: site.INode;
     SSMatematickaGramotnost: site.INode;
     SSPodporaUcitelu: site.INode;
@@ -43,6 +44,7 @@
     SSInkluzeCizinci: site.INode;
     SSOstatniInkluze: site.INode;
     SSFormativniHodnoceni: site.INode;
+    SSIndividualizace: site.INode;
     SSGenderovaTematika: site.INode;
   }
 
@@ -193,6 +195,11 @@
           title: 'Inovace ŠVP/koncepce rozvoje školy/školského zařízení',
           createPage: par => React.createElement(KurzySS),
         },
+        SSSpoluprace: {
+          id: 'SSSpoluprace',
+          title: 'Spolupráce s rodiči a zákonnými zástupci dětí a žáků',
+          createPage: par => React.createElement(KurzySS),
+        },
         SSCtenarskaGramotnost: {
           id: 'SSCtenarskaGramotnost',
           title: 'Čtenářská gramotnost',
@@ -251,6 +258,11 @@
         SSFormativniHodnoceni: {
           id: 'SSFormativniHodnoceni',
           title: 'Formativní hodnocení',
+          createPage: par => React.createElement(KurzySS),
+        },
+        SSIndividualizace: {
+          id: 'SSIndividualizace',
+          title: 'Individualizace vzdělávání a vedení portfolia dítěte/žáka',
           createPage: par => React.createElement(KurzySS),
         },
         SSGenderovaTematika: {
