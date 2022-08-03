@@ -13,733 +13,6 @@ const headerCss: React.CSSProperties = { textDecoration: 'underline', cursor: 'p
 
 interface IKurzProps { defaultExpanded: boolean; title: string; }
 
-var ZSInkluze8: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
-</div>} eventKey={1}>
-  <BlockEx>
-    <div className='alert alert-info' style={{ fontSize: '18px' }}>
-      <p>
-        Novinky:
-        <ul>
-          <li>Klima třídy a vedení třídnické hodiny v rámci inkluze</li>
-          <li>Práce se žákem s problémovým chováním – 8 hodin</li>
-          <li>Práce s pedagogickým sborem-jak předejít syndromu vyhoření</li>
-          <li>Práce s diferencovanou třídou a náměty na vzdělávání 8 hod</li>
-          <li>Sociální klima třídy a role učitele – 8 hodin</li>
-          <li>Specifika práce učitele v heterogenní třídě – 8 hodin</li>
-          <li>Třídní učitel a jeho působení v běžné i inkluzivní třídě</li>
-        </ul>
-      </p>
-    </div>
-  </BlockEx>
-  <ObsahInkluzeZS />
-  <BlockEx>
-    Nabízíme řadu 8 hodinových akreditovaných kurzů. Každý kurz obsahuje část z těchto témat.
-    Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
-  </BlockEx>
-  <BlockEx>
-    <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
-      Každý účastník tohoto kurzu se musí účastnit ještě další vzdělávací akce v rozsahu minimálně 16 hodin.
-            Viz {popups.bagatelni_podpora}.
-          </div>
-  </BlockEx>
-  <BlockEx header="Potřebné šablony: ">
-    <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_sbor_8_hodin}</p>
-  </BlockEx>
-  <BonusAlert />
-</Panel>
-
-var ZSInkluze16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
-</div>} eventKey={2}>
-  <BlockEx>
-    <div className='alert alert-info' style={{ fontSize: '18px' }}>
-      <p>
-        Novinka:
-        <ul>
-          <li>
-            Klima třídy a vedení třídnické hodiny v rámci inkluze</li>
-        </ul>
-      </p>
-    </div>
-  </BlockEx>
-  <ObsahInkluzeZS />
-  <BlockEx>
-    Nabízíme řadu 16 hodinových akreditovaných kurzů. Každý kurz obsahuje část z těchto témat.
-    Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
-  </BlockEx>
-  <BlockEx>
-    <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
-      Každý účastník tohoto kurzu se musí účastnit ještě další vzdělávací akce v rozsahu minimálně 8 hodin.
-      Viz {popups.bagatelni_podpora}.
-    </div>
-  </BlockEx>
-  <BlockEx header="Výuka ve sborovně:">
-    <p>
-      <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve vámi zvoleném termínu.</b>
-    </p>
-  </BlockEx>
-  <BlockEx header="Potřebné šablony: ">
-    <div>
-      <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_16_hodin}&nbsp;varianta <b>e.
-              inkluze</b>
-      </p>
-    </div>
-  </BlockEx>
-  <BonusAlert />
-</Panel>;
-
-var ZSInkluze24: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">24</Label>  <span style={headerCss}>{props.title}</span></h3>
-</div>} eventKey={2}>
-  <ObsahInkluzeZS />
-  <BlockEx>
-    <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
-      Tento kurz použijte v případě, že jeden den školení navíc (který je vyžadován u 32 hodinového kurzu) je pro vaši školu kritický.
-      24 hodinová délka kurzu je minimální délka, povolená v podmínkách výzvy, viz {popups.bagatelni_podpora}.
-    </div>
-  </BlockEx>
-  <BlockEx header="Výuka ve sborovně:">
-    <p>
-      <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve vámi zvoleném termínu.</b>
-    </p>
-  </BlockEx>
-  <BlockEx header="Potřebné šablony: ">
-    <div>
-      Pro každého učitele je potřeba objednat tyto šablony:
-            <ul className='fa-ul'>
-        <LiHand><b>1x</b> šablonu {popups.zs_sbor_8_hodin} </LiHand>
-        <LiHand><b>1x</b> šablonu {popups.zs_DVPP_16_hodin}&nbsp;varianta <b>e.
-                inkluze</b>
-        </LiHand>
-      </ul>
-    </div>
-  </BlockEx>
-  <BonusAlert />
-</Panel>;
-
-var ZSInkluze32: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">32</Label>  <span style={headerCss}>{props.title}</span></h3>
-</div>} eventKey={1}>
-  <ObsahInkluzeZS />
-  <BlockEx>
-    <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
-      Tento akreditovaný kurz poskytuje optimální variantu pro seznámení se s problematikou společného vzdělávání.
-      U tohoto kurzu je (oproti 24 hodinové verzi) více prostoru na:
-      <ul className='fa-ul'>
-        <LiHand>diskusi s učiteli</LiHand>
-        <LiHand>možnost řešení konkrétních problémů, týkajících se dané školy</LiHand>
-        <LiHand>praktické procvičování získaných znalostí</LiHand>
-        <LiHand>...a další</LiHand>
-      </ul>
-    </div>
-  </BlockEx>
-  <BlockEx header="Výuka ve sborovně:">
-    <p>
-      <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve vámi zvoleném termínu.</b>
-    </p>
-  </BlockEx>
-  <BlockEx header="Potřebné šablony: ">
-    <div>
-      <p>
-        Pro každého učitele je potřeba objednat šablonu  {popups.zs_DVPP_inkluze_32_hodin}
-      </p>
-    </div>
-  </BlockEx>
-  <BonusAlert />
-</Panel>;
-
-var ZSCtenarska16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
-</div>} eventKey={2}>
-  <BlockEx header="Ukázky z témat: ">
-    <ul className='fa-ul'>
-      <LiFile>seznámení s problematikou čtenářské gramotnosti,
-</LiFile>
-      <LiFile>metody a formy práce, rozvíjející čtenářskou gramotnost
-</LiFile>
-      <LiFile>vyvození sedmi základních strategií čtenářské gramotnosti
-</LiFile>
-      <LiFile>správné kladení otázek jak pro učitele, tak pro žáky
-</LiFile>
-      <LiFile>princip třífázového učení E-U-R
-</LiFile>
-      <LiFile>brainstorming, myšlenkové mapy
-</LiFile>
-      <LiFile>práce s textem (metoda I.N.S.E.R.T., skládankové učení, pětilístek, …)
-</LiFile>
-      <LiFile>čtení s porozuměním, rozvoj kritického myšlení
-</LiFile>
-      <LiFile>čtenářská dílna
-</LiFile>
-      <LiFile>práce s různými informačními zdroji – médii, časopisy, internetem, populárně naučnou literaturou,  autentickými materiály a reklamou atd.
-</LiFile>
-      <LiFile>čtenářské strategie (kladení otázek, předvídání, sledování porozumění a vyjasňování, vysuzování, shrnování, vytváření představ, hledání souvislostí, hodnocení – metody a postupy pro rozvíjení jednotlivých dovedností)
-</LiFile>
-      <LiFile>odborný text (fungování mozku, rychlé vyhledávání informací, vlastnosti odborného textu, myšlenková mapa, základní metody VCHD a INSERT, značkování textu, anotace odborného textu)
-</LiFile>
-      <LiFile>pojem kritické myšlení, třífázový model učení
-</LiFile>
-    </ul>
-  </BlockEx>
-  <BlockEx>
-    Nabízíme řadu 16 hodinových akreditovaných kurzů.
-    Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
-  </BlockEx>
-  <BlockEx header="Výuka ve sborovně:">
-    <p>
-      <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve vámi zvoleném termínu.</b>
-    </p>
-  </BlockEx>
-  <BlockEx header="Potřebné šablony: ">
-    <div>
-      <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_16_hodin}&nbsp;varianta <b>a.
-              čtenářská gramotnost</b>
-      </p>
-    </div>
-  </BlockEx>
-  <BonusAlert />
-</Panel>;
-
-var ZSCtenarska32: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">32</Label>  <span style={headerCss}>{props.title}</span></h3>
-</div>} eventKey={2}>
-  <BlockEx header="Ukázky z témat:  ">
-    <ul className='fa-ul'>
-      <LiFile>sedm základních strategií čtenářské gramotnosti
-</LiFile>
-      <LiFile>princip třífázového učení E-U-R
-</LiFile>
-      <LiFile>metody a formy práce, rozvíjející čtenářskou gramotnost
-</LiFile>
-      <LiFile>práce s textem - princip a různé způsoby využití
-</LiFile>
-      <LiFile>brainstorming – princip a různé způsoby využití
-</LiFile>
-      <LiFile>myšlenková mapa - princip a různé způsoby využití
-</LiFile>
-      <LiFile>škálování - princip a různé způsoby využití
-</LiFile>
-      <LiFile>práce s textem - princip a různé způsoby využití
-</LiFile>
-      <LiFile>metoda I.N.S.E.R.T.
-</LiFile>
-      <LiFile>skládankové učení, párové čtení, pětilístek
-</LiFile>
-      <LiFile>čtenářská dílna (rozhovory o četbě, třífázový rozhovor)
-</LiFile>
-      <LiFile>vyhledávání a zpracovávání informací
-</LiFile>
-      <LiFile>volné resp. tvůrčí psaní
-</LiFile>
-      <LiFile>tvorba vlastního projektu čtenářské gramotnosti
-</LiFile>
-      <LiFile>a mnoho dalších …
-</LiFile>
-    </ul>
-  </BlockEx>
-  <BlockEx>
-    Nabízíme řadu 32 hodinových akreditovaných kurzů.
-    Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
-  </BlockEx>
-  <BlockEx header="Výuka ve sborovně:">
-    <p>
-      <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve vámi zvoleném termínu.</b>
-    </p>
-  </BlockEx>
-  <BlockEx header="Potřebné šablony: ">
-    <div>
-      <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_32_hodin}&nbsp;varianta <b>a.
-              čtenářská gramotnost</b>
-      </p>
-    </div>
-  </BlockEx>
-  <BonusAlert />
-</Panel>;
-
-var ZSMatematicka16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
-</div>} eventKey={2}>
-  <BlockEx header="Ukázky z témat: ">
-    <ul className='fa-ul'>
-      <LiFile>Charakteristika matematické gramotnosti. Situace a kontexty ( kde člověk aplikuje znalosti a dovednosti, řeší problémy).
-
-</LiFile>
-      <LiFile>Rozvíjení schopnosti řešit problémy. Správné kladení otázek.  Analýza   informací. Rozbor slovních úloh. Práce s chybou. Matematizování reálných situací. Používání správné terminologie a symboliky. Praktické využití poznatků z matematiky. Budování vztahu k matematice.
-
-</LiFile>
-      <LiFile>Využití matematického jazyka a symbolů ke konkrétním výstupům  podle věkové kategorie, s využitím množinového pojetí rozborů textů a Vennových diagramů
-
-</LiFile>
-      <LiFile>Video: Fantastický výlet do makrosvěta a mikrosvěta ve světě čísel a přírodních věd.</LiFile >
-      <LiFile>Jak řešit matematickou úlohu – čtyři základní fáze.
-        Rozdíl mezi tzv.„trychtýřováním“  a správným kladením otázek učitelem.Postupy pozpátku.
-        Příklady.</LiFile >
-      <LiFile>Metoda Prof.
-        Hejného – Pět zásad výuky a desatero pro učitele a desatero pro rodiče.
-        Příklady a názorné video.</LiFile >
-      <LiFile>Konkrétní příklady využívání matematické gramotnosti ve výuce v jednotlivých předmětech</LiFile >
-      <LiFile>Tvorba pohyblivých objektů 2D a 3D objektů s programem GeoGebra (využití programu jako nástroje podpory matematické gramotnosti formou propojování geometrických a algebraických interpretací v matematice a dalších nejen přírodovědných předmětech)</LiFile >
-      <LiFile>Příklady her a prostředí na internetu pro podporu matematické gramotnosti</LiFile >
-      <LiFile>Programy a aplikace pro jednoduché vytváření zábavných kvízů</LiFile >
-      <LiFile>… a mnoho dalších</LiFile >
-    </ul>
-  </BlockEx>
-  <BlockEx>
-    Nabízíme více 16 hodinových akreditovaných kurzů. Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
-  </BlockEx >
-  <BlockEx header="Výuka ve sborovně:">
-    <p>
-      <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve vámi zvoleném termínu.</b>
-    </p>
-  </BlockEx>
-  <BlockEx header="Potřebné šablony: ">
-    <div>
-      <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_16_hodin}&nbsp;varianta <b>b.
-              matematická gramotnost</b>
-      </p>
-    </div>
-  </BlockEx>
-  <BonusAlert />
-</Panel>;
-
-var ZSMatematicka32: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">32</Label>  <span style={headerCss}>{props.title}</span></h3>
-</div>} eventKey={2}>
-  <BlockEx header="Ukázky z témat:  ">
-    <ul className='fa-ul'>
-      <LiFile>Charakteristika matematické gramotnosti. Situace a kontexty ( kde člověk aplikuje znalosti a dovednosti, řeší problémy).
-
-</LiFile>
-      <LiFile> Rozvíjení schopnosti řešit problémy. Správné kladení otázek.  Analýza   informací. Rozbor slovních úloh. Práce s chybou. Matematizování reálných situací. Používání správné terminologie a symboliky. Praktické využití poznatků z matematiky. Budování vztahu k matematice.
-
-</LiFile>
-      <LiFile> Využití matematického jazyka a symbolů ke konkrétním výstupům  podle věkové kategorie, s využitím množinového pojetí rozborů textů a Vennových diagramů
-
-</LiFile>
-      <LiFile> Video : Fantastický výlet do makrosvěta a mikrosvěta ve světě čísel a přírodních věd.
-
-</LiFile>
-      <LiFile> Jak řešit matematickou úlohu – čtyři základní fáze.Rozdíl mezi tzv. „trychtýřováním“  a správným kladením otázek učitelem. Postupy pozpátku. Příklady.
-</LiFile>
-      <LiFile> Metoda Prof. Hejného – Pět zásad výuky a desatero pro učitele a desatero pro rodiče. Příklady a názorné video.
-</LiFile>
-      <LiFile> Využití číselné osy, časové přímky. Trojí pohled na zlomky.
-</LiFile>
-      <LiFile> Využití výroků, složených výroků, jejich pravdivosti i negace (logická stavba vět a komunikace).
-</LiFile>
-      <LiFile> Geometrie v rovině a v prostoru – představivost, odvozování vztahů, množiny určitých vlastností.
-</LiFile>
-      <LiFile> Využití kombinatorických pojmů ve výuce podle věkové úrovně žáků.
-</LiFile>
-      <LiFile> … a mnoho dalších
-</LiFile>
-    </ul>
-  </BlockEx>
-
-  <BlockEx header="Moderní technologie jako pomocník při rozvoji matematické gramotnosti">
-    <ul className="fa-ul">
-      <LiFile>Seznámení s úložišti již hotových materiálů, které je možno rovnou využít ve výuce (bez vlastní tvorby) a různými webovými stránkami s videi, texty i jinými materiály, které je možné vhodně využít nejen k podpoře rozvoje matematické gramotnosti
-</LiFile>
-      <LiFile>Příklady her a prostředí na internetu pro podporu matematické gramotnosti
-</LiFile>
-      <LiFile>Seznámení programy a aplikacemi, které oživí každou prezentaci
-</LiFile>
-      <LiFile>Využití programů a aplikací pro komunikaci mezi žáky, studenty, učiteli a rodiči
-</LiFile>
-      <LiFile>Rozšířená realita jako nástroj motivace i rozvoje nejen matematické gramotnosti
-</LiFile>
-      <LiFile>Programy a aplikace pro jednoduché vytváření zábavných kvízů
-</LiFile>
-      <LiFile>Použití programu Formulator Tarsia pro tvorbu domin, triomin a jiných her vhodných k oživení procvičovaného učiva (1 hodina)
-</LiFile>
-    </ul>
-  </BlockEx>
-
-  <BlockEx header="GeoGebra">
-    <ul className='fa-ul'>
-      <LiFile>Pracovní prostředí programu GeoGebra (panel nástrojů, algebraické okno, tabulka, nákresny, vstupní panel)
-</LiFile>
-      <LiFile>GeoGebra jako nástroj pro tvorbu vlastního didaktického materiálů (např. ukládání vytvořených souborů, export do různých typů souborů včetně exportu do interaktivní webové stránky)
-</LiFile>
-      <LiFile>Aplikace programu do výuky geometrie, algebry a funkcí
-</LiFile>
-      <LiFile>Využití programu jako nástroje rozvoje matematické gramotnosti, propojování geometrických a algebraických interpretací v matematice prostřednictvím programu
-</LiFile>
-      <LiFile>Základní ovládání prostředí 3D (1 hodina)
-</LiFile>
-    </ul>
-  </BlockEx>
-
-  <BlockEx header="Hravě k matematické gramotnosti (14 hodin)">
-    <ul className='fa-ul'>
-      <LiFile>Principy přípravy úloh a žákovských projektů
-</LiFile>
-      <LiFile>Didaktická hra jako zvnějšku řízená motivovaná činnost, při které si žáci procvičují, upevňují vědomosti, dovednosti a návyky a rozvíjejí psychické funkce (paměť, představivost, postřeh atd.)
-</LiFile>
-      <LiFile>Didaktická hra jako nástroj rozvoje spolupráce mezi žáky
-</LiFile>
-      <LiFile>Hry pro rozvoj matematické gramotnosti dostupné na trhu (např. Digit, Klotz, Imagination, Blokus, Penta, Cuts)
-</LiFile>
-      <LiFile>Hry na procvičování (např. skládačky, domino, bingo, matematické omalovánky, matematický diktát)
-</LiFile>
-      <LiFile>Aktivity k oživení učiva geometrie (osová souměrnost – práce v mřížce, se zrcátky; vlastním objevem k Pythagorově větě, vyprávění příběhů, hrajeme si s kruhy aj.)
-</LiFile>
-      <LiFile>projektem k rozvoji prostorové představivosti a finanční gramotnosti v programu Sweet Home 3D
-</LiFile>
-      <LiFile>Kouzelné účty – aktivita pro rozvoj matematické a finanční gramotnosti ze světa Harryho Pottera
-</LiFile>
-    </ul>
-  </BlockEx>
-
-  <BlockEx header="Výuka ve sborovně:">
-    <p>
-      <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve vámi zvoleném termínu.</b>
-    </p>
-  </BlockEx>
-  <BlockEx header="Potřebné šablony: ">
-    <div>
-      <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_32_hodin}&nbsp;varianta <b>b.
-              matematická gramotnost</b>
-      </p>
-    </div>
-  </BlockEx>
-  <BonusAlert />
-</Panel>;
-
-var ZSMentoring32: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">32</Label>  <span style={headerCss}>{props.title}</span></h3>
-</div>} eventKey={2}>
-  <BlockEx header="Ukázky z témat:  ">
-    <ul className='fa-ul'>
-      <LiFile>Mapování dosavadních zkušeností s danou tématikou.
-</LiFile>
-      <LiFile>Charakteristiky kvality pedagogické práce – kompetenční model.
-</LiFile>
-      <LiFile>Kritéria dobré školy (ČŠI) ve vztahu k nárokům na pedagogické kompetence.
-</LiFile>
-      <LiFile>Kritéria dobré učitelské práce.
-</LiFile>
-      <LiFile>Indikátory dobrého pedagogického výkonu.
-</LiFile>
-      <LiFile>Východiska pro zavádění mentoringu v ČR.
-</LiFile>
-      <LiFile>Profesní organizace a závazek seberozvoji mentorů.
-</LiFile>
-      <LiFile>Etické kodexy při práci mentora (EMCC a ICF).
-</LiFile>
-      <LiFile>Úloha a odpovědnost mentora, kompetence a mentorské dovednosti.
-</LiFile>
-      <LiFile>Vyhodnocení vlastních předpokladů účastníků pro budování role mentora.
-</LiFile>
-      <LiFile>Vztah mentora a mentorovaného.
-</LiFile>
-      <LiFile>Role mentora.
-</LiFile>
-      <LiFile>Principy individuální práce s lidmi – mentorig, koučing, poradenství, terapie. Co je spojuje, co je odlišuje.
-</LiFile>
-      <LiFile>Model GROW, aktivní naslouchání.
-</LiFile>
-      <LiFile>Praktický nácvik aktivního naslouchání a modelu GROW.
-</LiFile>
-      <LiFile>Průběh jednání pro nastavení kontraktu s klientem – co slíbit, co nikoliv.
-</LiFile>
-      <LiFile>Smlouva.
-</LiFile>
-      <LiFile>Úvodní mentorská schůzka – délka, průběh, rizika.
-</LiFile>
-      <LiFile>Evaluace průběhu a výsledků spolupráce.
-</LiFile>
-      <LiFile>Mentorská sebereflexe, plánování osobního růstu.
-</LiFile>
-      <LiFile>Prezentace mentoringu – jeho výhod, limitů.
-</LiFile>
-      <LiFile>Uvědomění si rizik – vědět, jak s nimi pracovat.
-</LiFile>
-    </ul>
-    Součástí semináře jsou ukázky vedení rozhovorů s klientem v jednotlivých fázích mentorského procesu.
-  </BlockEx>
-  <BlockEx header="Potřebné šablony: ">
-    <div>
-      <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_32_hodin}&nbsp;varianta <b>d.
-              mentoring</b>
-      </p>
-    </div>
-  </BlockEx>
-  <BonusAlert />
-</Panel>;
-
-var ZSMentoring56: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">56</Label>  <span style={headerCss}>{props.title}</span></h3>
-</div>} eventKey={2}>
-  <BlockEx header="Ukázky z témat:  ">
-    <ul className='fa-ul'>
-      <LiFile>Mapování dosavadních zkušeností s danou tématikou.
-</LiFile>
-      <LiFile>Charakteristiky kvality pedagogické práce – kompetenční model.
-</LiFile>
-      <LiFile>Kritéria dobré školy (ČŠI) ve vztahu k nárokům na pedagogické kompetence.
-</LiFile>
-      <LiFile>Kritéria dobré učitelské práce.
-</LiFile>
-      <LiFile>Indikátory dobrého pedagogického výkonu.
-</LiFile>
-      <LiFile>Východiska pro zavádění mentoringu v ČR.
-</LiFile>
-      <LiFile>Profesní organizace a závazek seberozvoji mentorů.
-</LiFile>
-      <LiFile>Etické kodexy při práci mentora (EMCC a ICF).
-</LiFile>
-      <LiFile>Úloha a odpovědnost mentora, kompetence a mentorské dovednosti.
-</LiFile>
-      <LiFile>Vyhodnocení vlastních předpokladů účastníků pro budování role mentora.
-</LiFile>
-      <LiFile>Vztah mentora a mentorovaného.
-</LiFile>
-      <LiFile>Role mentora.
-</LiFile>
-      <LiFile>Principy individuální práce s lidmi mentorig, koučing, poradenství, terapie. Co je spojuje, co je odlišuje.
-</LiFile>
-      <LiFile>Model GROW, aktivní naslouchání.
-</LiFile>
-      <LiFile>Praktický nácvik aktivního naslouchání a modelu GROW.
-</LiFile>
-      <LiFile>Průběh jednání pro nastavení kontraktu s klientem co slíbit, co nikoliv.
-</LiFile>
-      <LiFile>Smlouva.
-</LiFile>
-      <LiFile>Úvodní mentorská schůzka délka, průběh, rizika.
-</LiFile>
-      <LiFile>Evaluace průběhu a výsledků spolupráce.
-</LiFile>
-      <LiFile>Mentorská sebereflexe, plánování osobního růstu.
-</LiFile>
-      <LiFile>Prezentace mentoringu – jeho výhod, limitů.
-</LiFile>
-      <LiFile>Uvědomění si rizik – vědět, jak s nimi pracovat.
-</LiFile>
-      <LiFile>Ve výcvikovém kurzu je věnováno více času cvičení mentorských dovedností a možnostem nechat se vést lektory mentory.
-</LiFile>
-      <LiFile>Účastníkům bude nabídnut mentor – mentorink, reflektování jejich vlastní praxe.
-</LiFile>
-    </ul>
-    Součástí semináře jsou základní nácviky vedení rozhovorů s klientem v jednotlivých fázích mentorského procesu, rozbory pozorování, výcvik v poskytování zpětné vazby.
-  </BlockEx>
-  <BlockEx header="Potřebné šablony: ">
-    <div>
-      <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_56_hodin}&nbsp;varianta <b>d.
-              mentoring</b>
-      </p>
-    </div>
-  </BlockEx>
-  <BonusAlert />
-</Panel>;
-
-var ZSMentoring80: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">80</Label>  <span style={headerCss}>{props.title}</span></h3>
-</div>} eventKey={2}>
-  <BlockEx>
-    Seminář je určen budoucím interním mentorům, kteří budou působit v rámci své školy.
-    Účastníci získají základní znalosti a dovednosti potřebné k tomu, aby úspěšně zahájili a zvládali svoje mentorské působení.
-    Rozsah semináře umožňuje poskytnout budoucím mentorům základní výcvik v jednotlivých mentorských dovednostech.
-    Předpokládá se, že v průběhu výcviku již pracuje mentor s několika klienty.
-    Supervize jeho mentorských aktivit je součástí tohoto výcvikového semináře.
-    Předpokládá se, že po absolvování semináře bude pokračovat praktická činnost mentora s kolegy a další vzdělávání v oblasti mentoringu.
-  </BlockEx>
-  <BlockEx header="Ukázky z témat:  ">
-    <ul className='fa-ul'>
-      <LiFile> vymezení mentoringu ve vzdělávání
-</LiFile>
-      <LiFile> etika v práci mentora, etické kodexy ACF a EMCC
-</LiFile>
-      <LiFile> základní principy práce interního mentora
-</LiFile>
-      <LiFile> základy práce s klientem
-</LiFile>
-      <LiFile> hlavní kompetence mentora
-</LiFile>
-      <LiFile> mentorské portfolio – jeho vedení
-</LiFile>
-      <LiFile> stanovování potřeb klienta plánování mentorského procesu
-</LiFile>
-      <LiFile> osobnostní typy z hlediska mentora a z hlediska klienta
-</LiFile>
-      <LiFile> kontraktování
-</LiFile>
-      <LiFile> stanovování cílů mentoringu
-</LiFile>
-      <LiFile> škola jako systém – nastavování mentorské podpory jako součást systému
-</LiFile>
-      <LiFile> práce s kompetenčním modelem pedagoga
-</LiFile>
-      <LiFile> stanovení kritérií kvality v práci pedagoga
-</LiFile>
-      <LiFile> poskytování zpětné vazy klientovi
-</LiFile>
-      <LiFile> techniky pozorování
-</LiFile>
-      <LiFile> techniky vedení rozhovorů
-</LiFile>
-      <LiFile>další techniky v práci mentora
-</LiFile>
-      <LiFile>hranice mentora
-</LiFile>
-      <LiFile>poskytování zpětné vazy klientovi
-</LiFile>
-      <LiFile>problematické situace v mentoringu
-</LiFile>
-      <LiFile>uzavírání a vyhodnocování mentoringu
-</LiFile>
-      <LiFile>seberozvoj mentora a jeho další vzdělávání
-</LiFile>
-      <LiFile>základní informační zdroje
-</LiFile>
-      <LiFile>profesní organizace mentorů a koučů
-</LiFile>
-    </ul>
-    Součástí semináře jsou nácviky vedení rozhovorů s klientem v jednotlivých fázích mentorského procesu, rozbory pozorování, výcvik v poskytování zpětné vazby.
-  </BlockEx>
-  <BlockEx header="Potřebné šablony: ">
-    <div>
-      <p>Pro každého učitele je potřeba objednat šablonu {popups.zs_DVPP_80_hodin}&nbsp;varianta <b>d.
-              mentoring</b>
-      </p>
-    </div>
-  </BlockEx>
-  <BonusAlert />
-</Panel>;
-
-var MSInkluze816: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
-</div>} eventKey={2}>
-  <ObsahInkluzeMS />
-  <BlockEx>
-    Nabízíme více 16 hodinových akreditovaných kurzů.
-          Každý kurz obsahuje část témat ze seznamu <i>Obsah kurzů</i> na této stránce.
-Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
-        </BlockEx>
-  <BlockEx>
-    <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
-      Každý účastník tohoto kurzu se musí účastnit ještě další vzdělávací akce v rozsahu minimálně 8 hodin.
-            Viz {popups.bagatelni_podpora}.
-          </div>
-  </BlockEx>
-  <BlockEx header="Potřebné šablony: ">
-    <div>
-      <p>Pro každého učitele je potřeba objednat šablonu {popups.ms_DVPP_16_hodin}&nbsp;varianta <b>e.
-              inkluze</b>
-      </p>
-    </div>
-  </BlockEx>
-  <BonusAlert />
-</Panel>;
-
-var MSRozvoj16: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
-</div>} eventKey={1}>
-  <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
-      <LiFile>Vybrané aspekty emoční a sociální inteligence pedagoga
-</LiFile>
-      <LiFile>Osobnostní a sociální rozvoj učitele
-</LiFile>
-    </ul>
-  </BlockEx>
-  <BlockEx header="Výuka ve sborovně:">
-    <p>
-      <b>Pokud přihlásíte dostatečný počet pedagogů, rádi přijedeme do vaší školy a pedagogy proškolíme přímo ve vaší sborovně ve vámi zvoleném termínu.</b>
-    </p>
-  </BlockEx>
-  <BlockEx header="Potřebné šablony: ">
-    <p>Pro každého učitele je potřeba objednat šablonu {popups.ms_osobnostni_rozvoj_16_hodin}</p>
-  </BlockEx>
-  <BonusAlert />
-</Panel>
-
-
-var MSCtenarska: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
-</div>} eventKey={2}>
-  <BlockEx header="Ukázka z témat:  ">
-    <ul className='fa-ul'>
-      <LiFile>předškolní období a vnitřní motivace ke čtení, budování si vztahu ke knihám a porozumění čteného textu
-</LiFile>
-      <LiFile>předpoklady pro čtení – genetické předpoklady, percepčně-kognitivní zralost, zralost nervové soustavy, podnětné prostředí
-</LiFile>
-      <LiFile>činnosti a hry pro rozvoj zrakového a sluchového vnímání
-</LiFile>
-      <LiFile>rozvoj představivosti a fantazie z hlediska důležitosti pro rozvoj předčtenářské gramotnosti
-</LiFile>
-      <LiFile>rozvoj myšlení – vývoj a úrovně myšlení – předřečové myšlení, předpojmové myšlení, pojmové myšlení, analýza, syntéza, srovnávání, zobecňování
-</LiFile>
-      <LiFile>vývoj a rozvoj řeči a komunikačních schopností, slovní zásoba, znalost významu slov
-</LiFile>
-      <LiFile>obrázkové osnovy, obrázkové čtení
-</LiFile>
-    </ul>
-  </BlockEx>
-  <BlockEx>
-    <p>
-      Nabízíme několik různých 16 hodinových akreditovaných kurzů.
-      Kurzy obsahují část z témat výše + spoustu dalších.
-      Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
-    </p>
-  </BlockEx>
-
-  <BlockEx header="Potřebné šablony: ">
-    <div>
-      <p>Pro každého učitele je potřeba objednat šablonu {popups.ms_DVPP_16_hodin}&nbsp;varianta <b>a.
-              čtenářská pregramotnost</b>
-      </p>
-    </div>
-  </BlockEx>
-  <BonusAlert />
-</Panel>;
-
-var MSMatematicka: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
-  <h3><Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
-</div>} eventKey={2}>
-  <BlockEx header="Ukázka z témat:  ">
-    <ul className='fa-ul'>
-      <LiFile>cíle předmatematické výchovy, příprava na matematiku
-</LiFile>
-      <LiFile>příprava dítěte na zpracování informací v zadání slovní úlohy, rozvoj řeči, komunikace,  paměti,  představ, prostorového vnímání
-</LiFile>
-      <LiFile>aktivity spojené s porovnáváním (porovnávání hmatem, sluchem, zrakem)
-</LiFile>
-      <LiFile>aktivity spojené s přiřazováním, hry, orientace v prostoru
-</LiFile>
-      <LiFile>typy třídění – podle druhu, barvy, velikosti, tvaru
-</LiFile>
-      <LiFile>řazení a uspořádání, vzájemné postavení objektů
-</LiFile>
-      <LiFile>počet – určování počtu, počítání po jedné, určování počtu objektů na první pohled
-</LiFile>
-      <LiFile>nezávislost počtu objektů na velikosti, barvě, vzájemného postavení, vzdálenosti
-</LiFile>
-      <LiFile>o skřítku Početníčkovi – rozvoj řeči, počítání předmětů, jednoduché slovní úlohy
-</LiFile>
-      <LiFile>matematika v přírodě, využití školní zahrady
-</LiFile>
-    </ul>
-  </BlockEx>
-  <BlockEx>
-    <p>
-      Nabízíme několik různých 16 hodinových akreditovaných kurzů.
-      Kurzy obsahují část z témat výše + spoustu dalších.
-      Kontaktujte nás emailem nebo po telefonu ohledně výběru vhodného kurzu pro vaši školu.
-    </p>
-  </BlockEx>
-  <BlockEx header="Potřebné šablony: ">
-    <div>
-      <p>Pro každého učitele je potřeba objednat šablonu {popups.ms_DVPP_16_hodin}&nbsp;varianta <b>b.
-              matematická pregramotnost</b>
-      </p>
-    </div>
-  </BlockEx>
-  <BonusAlert />
-</Panel>;
-
 var SSPedagogickaDiagnostika: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
@@ -2477,9 +1750,37 @@ var ZSFormativniHodnoceni: React.StatelessComponent<IKurzProps> = (props: IKurzP
   <BlockEx header="Nabízíme následující kurzy:">
     <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
 
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Formativní hodnocení a role učitele </b> (8 hod, akreditováno pro ZŠ, ŠD, SŠ, VOŠ, DM, asistenti)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Formativní hodnocení v praxi </b> (8 hod, akreditováno pro ZŠ, SŠ, asistenti, od srpna 2022)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Formativní hodnocení v praxi – webinář </b> (8 hod, akreditováno pro ZŠ, SŠ, asistenti, od srpna 2022)</LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezff1" aria-expanded="false" aria-controls="collapsezff1">Formativní hodnocení a role učitele </b> (8 hod, akreditováno pro ZŠ, ŠD, SŠ, VOŠ, DM, asistenti)
+
+        </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezff2" aria-expanded="false" aria-controls="collapsezff2">Formativní hodnocení v praxi </b> (8 hod, akreditováno pro ZŠ, SŠ, asistenti, od srpna 2022)
+                <div className="collapse " id="collapsezff2"><ul className="list-group"><li className="list-group-item">•	Formativní hodnocení a jeho principy (1 hod)</li>
+          <li className="list-group-item">•	Strategie formativního hodnocení, pravidla a podmínky pro poskytování formativního hodnocení (1 hod)</li>
+          <li className="list-group-item">•	Cíle učení a kritéria úspěchu a jejich tvorba (1 hod)</li>
+          <li className="list-group-item">•	Moderování třídní diskuse, komunikace, klíčové otázky, porozumění třídou (1 hod)</li>
+          <li className="list-group-item">•	Vrstevnické hodnocení a sebehodnocení, přijetí hodnocení (2 hod)</li>
+          <li className="list-group-item">•	Zásady podávání zpětné vazby ústní a písemné (1 hod)</li>
+          <li className="list-group-item">•	Přesah formativního hodnocení do osobnostního rozvoje žáka (0,5 hod)</li>
+          <li className="list-group-item">•	Diskuse účastníků, sdílení typů z praxe (0,5 hod)</li>
+        </ul></div>
+        </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezff3" aria-expanded="false" aria-controls="collapsezff3">Formativní hodnocení v praxi – webinář </b> (8 hod, akreditováno pro ZŠ, SŠ, asistenti, od srpna 2022)
+                 <div className="collapse border rounded " id="collapsezff3">
+          <div className="m-3">
+            <b>Blok 1 (2 vyučovací hodiny – 90 minut)</b><br />
+            •	Formativní hodnocení a jeho principy (1 hod)<br />
+            •	Strategie formativního hodnocení, pravidla a podmínky pro poskytování formativního hodnocení (1 hod)<br />
+            <b>Blok 2 (2 vyučovací hodiny – 90 minut)</b><br />
+            •	Cíle učení a kritéria úspěchu a jejich tvorba (1 hod)<br />
+            •	Moderování třídní diskuse, komunikace, klíčové otázky, porozumění třídou (1 hod)<br />
+            <b>Blok 3 (2 vyučovací hodiny – 90 minut)</b><br />
+            •	Vrstevnické hodnocení a sebehodnocení, přijetí hodnocení (2 hod)<br />
+            <b>Blok 4 (2 vyučovací hodiny – 90 minut)</b><br />
+            •	Zásady podávání zpětné vazby ústní a písemné (1 hod)<br />
+            •	Přesah formativního hodnocení do osobnostního rozvoje žáka (0,5 hod)<br />
+            •	Diskuse účastníků, sdílení typů z praxe (0,5 hod)<br />
+          </div></div>
+        </LiFile >
 
     </ul>
   </BlockEx>
@@ -2490,11 +1791,38 @@ var ZSKarierovePoradenstvi: React.StatelessComponent<IKurzProps> = (props: IKurz
 </div>} eventKey={2}>
   <BlockEx header="Nabízíme následující kurzy:">
     <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
-
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Role pedagoga v karierovém poradenství – 8 hodin </b> (8 hod, akreditováno pro ZŠ, SŠ, VOŠ)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje – webinář </b> (8 hod, akreditováno pro ZŠ, SŠ, VOŠ, od srpna 2022)</LiFile >
-
-
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Role pedagoga v karierovém poradenství – 8 hodin </b> (8 hod, akreditováno pro ZŠ, SŠ, VOŠ)
+        <div className="collapse border rounded" id="collapsesskp1">
+          <div className="m-3">
+            <b>Teoretická část</b>   (2 vyučovací hodiny)<br />
+            a)	Základní principy a postupy karierního poradenství<br />
+            b)	Přehled moderních technik vedení rozhovorů  <br />
+            <b>Praktická část</b> (6 vyučovacích hodin)<br />
+            Komunikační dovednosti pedagoga potřebné k vedení koučovacího rozhovoru s možností následné aplikace ve výuce či poradenském rozhovoru.<br />
+            Jedná se o aktivity zaměřené na:<br />
+            •	sebepoznávací techniky pro ujasnění silných stránek a prostoru pro rozvoj žáka/studenta;<br />
+            •	rozvoj individuálních komunikačních dovedností pedagoga s důrazem na využití vnitřní motivace v praxi;<br />
+            •	vedení motivačních rozhovorů, aktivního naslouchání, poskytování a přijímání pozitivní zpětné vazby i konstruktivní kritiky;<br />
+          </div>
+        </div>
+      </LiFile>
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje – webinář </b> (8 hod, akreditováno pro ZŠ, SŠ, VOŠ, od srpna 2022)
+        <div className="collapse border rounded " id="collapsesskp2">
+          <div className="m-3">
+            <b>LEGISLATIVNÍ RÁMEC</b><br />
+            •	Nová legislativa - Školský zákon a Vyhláška 27/2016 k rozvoji nadaných a mimořádně nadaných žáků. Vymezení základních pojmů nadání. RVP pro gymnázia a daný typ střední školy v kontextu s rozvoje nadání. (1 hodina)<br />
+            <b>ZÁKLADNÍ POJMY</b><br />
+            •	Základní pojmy z hlediska psychologické diagnostiky. Typologie nadání z hlediska psychologie. Typologie nadaných z hlediska projevů chování (1 hodina)<br />
+            •	Možnosti a význam pedagogické diagnostiky, ukázka diagnostických metod. (1 hodina)<br />
+            <b>PRINCIPY PRÁCE S NADANÝM A MIMOŘÁDNĚ NADANÝM ŽÁKEM</b><br />
+            •	Charakteristické znaky osobitosti nadaných a mimořádně nadaných žáků. Odlišnosti ve vnímání a zpracování podnětů, v myšlení a prožívání.  Seznámení s různými přístupy k rozvoji nadání (1 hodina)<br />
+            •	Základní principy v práci s nadanými a mimořádně nadanými žáky, případně s žáky s dvojí výjimečností. Možnosti jejich dalšího rozvoje rozumových schopností jako i jejich sociálně emočních kompetencí v rámci daného stupně vzdělávání. (1 hodina)<br />
+            •	IVP, úpravy vzdělávacích obsahů a výstupů. Možnosti hodnocení žáků nadaných a mimořádně nadaných. Seznámení s terminologií, její aplikace v praxi. Sumativní, formativní hodnocení, autonomní, heteronomní hodnocení (2 hodiny)<br />
+            <b>Téma –  UKÁZKA INPIRATIVNÍCH ÚLOH</b><br />
+            •	Možnosti obohacení učiva, inspirativní úlohy vhodné pro rozvoj rozumového nadání. (1 hodina)<br />
+          </div>
+        </div>
+      </LiFile >
     </ul>
   </BlockEx>
 </Panel>;
@@ -2515,7 +1843,7 @@ var ZSGenderova: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
           <li className="list-group-item">•	Průběžné diskuse a sdílení, průběžná zpětná vazba, otázky a odpovědi (1 hod).</li>
           <li className="list-group-item">•	Závěr programu.</li>
         </ul></div>
-        </LiFile >
+      </LiFile >
     </ul>
   </BlockEx>
 </Panel>
@@ -2525,7 +1853,6 @@ var ZSCtenarskaGramotnost: React.StatelessComponent<IKurzProps> = (props: IKurzP
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
-
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseszcg1" aria-expanded="false" aria-controls="collapseszcg1">Čtenářská a informační gramotnost na ZŠ – 8 hodin </b> (8 hod, akreditováno pro ZŠ)
         <div className="collapse " id="collapseszcg1">
           Teoretický obsah kurzu:<br />
@@ -2595,15 +1922,85 @@ var ZSMatematickaGramotnost: React.StatelessComponent<IKurzProps> = (props: IKur
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy:">
     <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
-
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">GeoGebra jako nástroj rozvoje matematické gramotnosti na ZŠ </b> (8 hod, akreditováno pro ZŠ)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Moderní technologie při rozvoji matematické gramotnosti na ZŠ </b> (8 hod, akreditováno pro ZŠ, ŠD, ŠK, asistenti)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Deskové a karetní hry pro rozvoj matematické gramotnosti </b> (8 hod, akreditováno pro ZŠ, ŠD, ŠK, asistenti)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Rozvoj matematické gramotnosti u žáků ZŠ – 8 hodin </b> (8 hod, akreditováno pro ZŠ, ŠD, asistenti)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Jak na distanční výuku matematiky? </b> (8 hod, akreditováno pro ZŠ, SŠ, VOŠ)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Rozvoj předmatematické gramotnosti – 8 hodin  </b> (8 hod, akreditováno pro MŠ)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Rozvoj matematické pregramotnosti u dětí v MŠ – 16 hodin  </b> (16 hod, akreditováno pro MŠ)</LiFile >
-
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezmg1" aria-expanded="false" aria-controls="collapsezmg1">GeoGebra jako nástroj rozvoje matematické gramotnosti na ZŠ </b> (8 hod, akreditováno pro ZŠ)
+        <div className="collapse " id="collapsezmg1">
+          Teoretický obsah kurzu (1,5 hodiny):<br />
+          <ul className="list-group">
+            <li className="list-group-item">•	Seznámení s problematikou nasazení programu GeoGebra do hodin matematiky na základní škole (principy použití, pozitiva, negativa a rizika nasazení programu) (0,5 hodin)</li>
+            <li className="list-group-item">•	Instalace programu GeoGebra  – odlišení jednotlivých instalačních balíčků (0,5 hodin)</li>
+            <li className="list-group-item">•	Seznámení s webovou podporou programu a úložištěm již hotových materiálů, které je možno rovnou využít ve výuce (bez vlastní tvorby) (0,5 hodin)</li>
+          </ul>
+          Praktická část kurzu (6,5 hodin):<br />
+          <ul className="list-group">
+            <li className="list-group-item">•	Pracovní prostředí programu GeoGebra (panel nástrojů, algebraické okno, tabulka, nákresny, vstupní panel), možnosti zjednodušení panelu pro výuku na ZŠ (0,5 hodin)</li>
+            <li className="list-group-item">•	Změny vlastnosti objektů včetně pokročilého nastavení (0,5 hodin)</li>
+            <li className="list-group-item">•	GeoGebra jako nástroj pro tvorbu vlastního didaktického materiálů (např. ukládání vytvořených souborů, export do různých typů souborů včetně exportu do interaktivní webové stránky) (0,5 hodin)</li>
+            <li className="list-group-item">•	Aplikace programu do výuky planimetrie, stereometrie, aritmetiky, algebry, statistiky a funkcí (včetně aplikace v rámci propedeutik v těchto oblastech) (1,5 hodiny)</li>
+            <li className="list-group-item">•	Využití programu jako nástroje rozvoje matematické gramotnosti, propojování geometrických a algebraických interpretací v matematice prostřednictvím programu (1,5 hodiny)</li>
+            <li className="list-group-item">•	Základní ovládání prostředí 3D (1 hodina)</li>
+            <li className="list-group-item">•	Diskuse nad konkrétními problémy a specifiky u žáků na základní škole (1 hodina)</li>
+          </ul>
+        </div>
+      </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezmg2" aria-expanded="false" aria-controls="collapsezmg2">Moderní technologie při rozvoji matematické gramotnosti na ZŠ </b> (8 hod, akreditováno pro ZŠ, ŠD, ŠK, asistenti)
+        <div className="collapse " id="collapsezmg2"><ul className="list-group"><li className="list-group-item">•	Principy využití moderních technologií (1 hodina)</li>
+          <li className="list-group-item">•	Seznámení s problematikou nasazení výukových technologií do výuky (pozitiva, negativa a rizika nasazení) (1 hodina)</li>
+          <li className="list-group-item">•	Seznámení s úložišti již hotových materiálů, které je možno rovnou využít ve výuce (bez vlastní tvorby) a různými webovými stránkami s videi, texty i jinými materiály, které je možné vhodně využít nejen k podpoře rozvoje matematické gramotnosti (1 hodin)</li>
+          <li className="list-group-item">•	Příklady her a prostředí na internetu pro podporu matematické gramotnosti (1 hodina)</li>
+          <li className="list-group-item">•	Využití pojmových map, sdílených poznámek a dokumentů ve výuce (1 hodina)</li>
+          <li className="list-group-item">•	Rozšířená realita jako nástroj motivace i rozvoje nejen matematické gramotnosti (1 hodina)</li>
+          <li className="list-group-item">•	Programy a aplikace pro jednoduché vytváření zábavných kvízů (1 hodina)</li>
+          <li className="list-group-item">•	Použití programu Formulator Tarsia pro tvorbu domin, triomin a jiných her vhodných k oživení procvičovaného učiva (2 hodiny)</li>
+        </ul></div>
+      </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezmg3" aria-expanded="false" aria-controls="collapsezmg3">Deskové a karetní hry pro rozvoj matematické gramotnosti </b> (8 hod, akreditováno pro ZŠ, ŠD, ŠK, asistenti)
+        <div className="collapse " id="collapsezmg3"><ul className="list-group"><li className="list-group-item">•	Rozdělení her dle jejich typu (1 hodina)</li>
+          <li className="list-group-item">•	Didaktická hra jako zvnějšku řízená motivovaná činnost, při které si žáci procvičují, upevňují vědomosti, dovednosti a návyky a rozvíjejí psychické funkce (paměť, představivost, postřeh atd.) (1 hodina)</li>
+          <li className="list-group-item">•	Didaktická hra jako nástroj rozvoje spolupráce mezi žáky (např. The Game) (1 hodina)</li>
+          <li className="list-group-item">•	Hry pro rozvoj rovinné a prostorové představivosti (např. Digit, Klotz, Imagination, Blokus 3D, Penta, Cuts) (2 hodiny)</li>
+          <li className="list-group-item">•	Hry pro rozvoj početních dovedností (např. Lobo 77, Cink, Math Fluxx) (1,5 hodiny)</li>
+          <li className="list-group-item">•	Hry k procvičení aritmetických operací (např. Mix Match, Speedy) (1,5 hodiny)</li>
+        </ul></div>
+      </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezmg4" aria-expanded="false" aria-controls="collapsezmg4">Rozvoj matematické gramotnosti u žáků ZŠ – 8 hodin </b> (8 hod, akreditováno pro ZŠ, ŠD, asistenti)
+        <div className="collapse " id="collapsezmg4"><ul className="list-group"><li className="list-group-item">•	Matematická gramotnost  – charakteristika (1 hod)</li>
+          <li className="list-group-item">•	Správné kladení otázek a vytváření matematických představ (2 hod)</li>
+          <li className="list-group-item">•	FIE v matematice a práce s chybou (2 hod)</li>
+          <li className="list-group-item">•	Slovní úlohy  – instrukce (1 hod)</li>
+          <li className="list-group-item">•	Problémové vyučování (1 hod)</li>
+          <li className="list-group-item">•	Matematické hry (1 hod)</li>
+        </ul></div>
+      </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezmg5" aria-expanded="false" aria-controls="collapsezmg5">Jak na distanční výuku matematiky? </b> (8 hod, akreditováno pro ZŠ, SŠ, VOŠ)
+        <div className="collapse " id="collapsezmg5"><ul className="list-group"><li className="list-group-item">•	Software využitelný při on-line výuce (2 hodiny)</li>
+          <li className="list-group-item">•	Využití webových stránek sloužící k výuce on-line (1 hodina)</li>
+          <li className="list-group-item">•	GeoGebra  – tvorba materiálů online, využívání již vytvořených dostupných materiálů, tvorba vlastních materiálů a jejich sdílení (2 hodiny)</li>
+          <li className="list-group-item">•	Jak komunikovat s žáky on-line (1 hodina)</li>
+          <li className="list-group-item">•	Praktická cvičení  – praktické využití jednotlivých nástrojů k distančnímu učení matematiky (2 hodiny)</li>
+        </ul></div>
+      </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezmg6" aria-expanded="false" aria-controls="collapsezmg6">Rozvoj předmatematické gramotnosti – 8 hodin  </b> (8 hod, akreditováno pro MŠ)
+        <div className="collapse " id="collapsezmg6"><ul className="list-group"><li className="list-group-item">•	Cíle předmatematické výchovy, příprava na matematiku, důležitost předškolní přípravy a pozdější úspěšnost ve školní matematice. (1 hodina) </li>
+          <li className="list-group-item">•	Příprava dítěte na zpracování informací v zadání slovní úlohy, rozvoj řeči, komunikace, paměti, představ, prostorového vnímání, Obrázek jako zdroj informací při formulaci slovní úlohy, Rozvoj komunikace, zaměřenost na vybraná slova v textu a v poslechu, Praktické činnosti zaměření na rozvoj komunikačních schopností, zaměřenost na vybrané objekty a slova ( 2 hodiny)</li>
+          <li className="list-group-item">•	Percepční a motorická oslabení a jejich náprava v předškolním věku jako prevence školní neúspěšnosti. Porovnávání  – charakter porovnávaných objektů, Zapojení smyslového vnímání - hmat, sluch, zrak, Aktivity k přiřazování, hry, orientace v prostoru, rozvoj hrubé i jemné motoriky, Struktura čísla, třídění podle daného kritéria, Aktivity vztahující se k třídění (3 hodiny)</li>
+          <li className="list-group-item">•	Číslo a číslice, představa čísla, Počet  – určování počtu, počítání po jedné, určování počtu objektů na první pohled, Aktivity k rozvoji předmatematické gramotnosti (2 hodiny)</li>
+        </ul>
+          Součástí školení je i ukázka pracovních listů, ukázky jednotlivých činností a metod pro rozvoj předčtenářské gramotnosti
+        </div>
+      </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezmg7" aria-expanded="false" aria-controls="collapsezmg7">Rozvoj matematické pregramotnosti u dětí v MŠ – 16 hodin  </b> (16 hod, akreditováno pro MŠ)
+        <div className="collapse " id="collapsezmg7"><ul className="list-group"><li className="list-group-item">•	Zkušenost zprostředkovaného učení a instrumentální obohacování R. Feuersteina, seznámení se se základními principy metody FIE, jako jedné z metod, která je vhodná pro rozvoj matematické pregramotnosti.  (2 hod) </li>
+          <li className="list-group-item">•	Vyvozování obsahu čísla  – vytváření obsahu čísla, manipulační hry, využití přirozeného prostředí, používání karet s různým počtem. Hry, které rozvíjejí matematické představy. (2 hod)</li>
+          <li className="list-group-item">•	Správné kladení otázek  – efektivní kladení otázek, učitelé budou seznámeni s principy efektivní komunikace, jak mají postupovat. Jak utvořit otázku tak, aby jim dítě rozumělo. Vhodné používání slov. Dostatek času při kladení otázek.  (2 hod)</li>
+          <li className="list-group-item">•	Práce s chybou  – učitelé se seznámí s chybou z teoretického i praktického hlediska, společně si prožijí zážitek z chyby.  (2 hod)</li>
+          <li className="list-group-item">•	Instrukce  – jak správně pracovat s instrukcí, druhy instrukcí použitelných v MŠ, ilustrace, hra, nápodoba, piktogram. (1 hod)</li>
+          <li className="list-group-item">•	Problémové vyučování  – základní principy problémové výuky v MŠ, jak správně vybrat problém, jak s ním pracovat.  (2 hod)</li>
+          <li className="list-group-item">•	Matematické hry  – hry na rozvoj posloupnosti, pořadí, porovnávání. (1 hod)</li>
+          <li className="list-group-item">•	Matematické operace v běžném životě  – které běžné situace potřebují matematickou pregramotnost ( prostírání, oblékání, cesta do školky…) (1 hod)</li>
+          <li className="list-group-item">•	Příklady dobré praxe  – pedagogové si připraví vlastní příklady dobré praxe, které společně analyzují s ostatními pedagogy, seznámí s klady i zápory používaných metod. (3 hod)</li>
+          <li className="list-group-item">•	Zkušenost zprostředkovaného učení  – R. Feuerstein  – seznámení</li>
+        </ul></div>
+      </LiFile >
     </ul>
   </BlockEx>
 </Panel>
@@ -2613,9 +2010,23 @@ var ZSRozvojPodnikavosti: React.StatelessComponent<IKurzProps> = (props: IKurzPr
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy:">
     <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
-
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Rozvoj podnikavosti a zásady soukromého podnikání – 8 hodin </b> (8 hod, akreditováno pro SŠ, VOŠ, pro ZŠ od listopadu)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Podnikání, finanční gramotnost a manažerské dovednosti – 8 hodin </b> (8 hod, akreditováno pro SŠ, VOŠ, pro ZŠ od listopadu)</LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezrp1" aria-expanded="false" aria-controls="collapsezrp1">Rozvoj podnikavosti a zásady soukromého podnikání – 8 hodin </b> (8 hod, akreditováno pro SŠ, VOŠ, pro ZŠ od listopadu)
+                <div className="collapse " id="collapsezrp1"><ul className="list-group"><li className="list-group-item">•	<b>Seznámení se se smyslem a obsahem podnikavosti a soukromého podnikání.</b> Osobnostní předpoklady, schopnosti a dovednosti. Etika. Pozitiva i rizika podnikání. (1 hodina)</li>
+          <li className="list-group-item">•	<b>Cesta od vize k dosažení cíle (prakticá cvičení)</b>: motivace k podnikavosti, stanovení reálných cílů, plánování, podnikatelský záměr, navržení produktu, kreativita, kritické myšlení, SMART technika, změny jako součást podnikání, analýza situace, organizace, hodnocení situace, udržení podnikání, konkurenční prostředí, zpětná vazba (3 hodiny)</li>
+          <li className="list-group-item">•	<b>Finanční gramotnost</b>: základní terminologie, účetnictví, cash flow, finanční produkty, marketingové nástrahy (1 hodina)</li>
+          <li className="list-group-item">•	<b>Práce s časem</b>: sebeřízení, třídění informací dle matice důležité/naléhavé, plánování z pohledu časových možností  (1 hodina)</li>
+          <li className="list-group-item">•	<b>Manažerské dovednosti</b>: navazování kontaktů a spolupráce, komunikační dovednosti, organizace práce a vedení týmu, leadership, prezentace firmy, projektu  (1 hodina)</li>
+          <li className="list-group-item">•	Fiktivní firmy a projektové vyučování, tvorba projektů  (1 hodina)</li>
+        </ul></div>
+      </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezrp2" aria-expanded="false" aria-controls="collapsezrp2">Podnikání, finanční gramotnost a manažerské dovednosti – 8 hodin </b> (8 hod, akreditováno pro SŠ, VOŠ, pro ZŠ od listopadu)
+      </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezrp3" aria-expanded="false" aria-controls="collapsezrp3">Výchova k podnikavosti a manažerské dovednosti–8 hod</b> (8 hod, akreditováno pro SŠ, VOŠ, pro ZŠ od listopadu)
+        <div className="collapse " id="collapsezrp3"><ul className="list-group"><li className="list-group-item">•	Úvod do tématu podnikavosti a výchově v podnikání. Etika v podnikání. Fiktivní firma jako projekt. (provázáno celým seminářem) (2 hodiny)</li>
+          <li className="list-group-item">•	Stanovení si cíle, oblast podnikání: dobrá vize jako základ, stanovení si reálných cílů a plánování, podnikatelský záměr, SMART technika, změny jako součást podnikání, konkurenční prostředí a udržení podnikání (3 hodiny)</li>
+          <li className="list-group-item">•	Manažerské dovednosti: osobnost manažera, navazování kontaktů a spolupráce, komunikační dovednosti, organizace práce a vedení týmu, leadership, týmové role nejen zaměstnanců prezentace firmy, projektu (3 hodiny)</li>
+        </ul></div>
+      </LiFile >
 
 
     </ul>
