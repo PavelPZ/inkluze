@@ -1,4 +1,4 @@
-﻿const emailTemplate: React.StatelessComponent<IKuryFormFormStatus> = (props: IKuryFormFormStatus, ctx: sitemapRouter.IContext) => <div>
+﻿Práce s diferencovanou const emailTemplate: React.StatelessComponent<IKuryFormFormStatus> = (props: IKuryFormFormStatus, ctx: sitemapRouter.IContext) => <div>
   <p><b>EMail: </b> {props.email}</p>
   <p><b>Phone: </b> {props.phone}</p>
   <p><b>Teachers: </b> {props.teachers}</p>
@@ -1503,245 +1503,6 @@ var KurzyIIList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.I
   </Row>
 </div>;
 
-var ObsahInkluzeMS: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <BlockEx header="Ukázky z témat:">
-  <Row>
-    <Col md={6}>
-      <ul className='fa-ul'>
-        <LiFile>Základní právní předpisy, legislativní změny
-</LiFile>
-        <LiFile>Dítě se speciálními vzdělávacími potřebami
-</LiFile>
-        <LiFile>Struktura podpůrných opatření a jejich členění do pěti stupňů
-</LiFile>
-        <LiFile>Podpůrná opatření prvního stupně
-</LiFile>
-        <LiFile>Podpůrná opatření 2. - 5. stupně
-</LiFile>
-        <LiFile>Struktura a obsah Plánu pedagogické podpory
-</LiFile>
-        <LiFile>Zpracování ukázkového Plánu pedagogické podpory
-</LiFile>
-        <LiFile>Výukové metody a jejich role při motivaci k učení
-</LiFile>
-        <LiFile>Individuální vzdělávací plán a pedagogická diagnostika
-</LiFile>
-      </ul>
-    </Col>
-    <Col md={6}>
-      <ul className='fa-ul'>
-
-        <LiFile>Hodnocení dětí ve společném vzdělávání
-</LiFile>
-        <LiFile>Spolupráce pedagoga s asistentem pedagoga
-</LiFile>
-        <LiFile>Komunikace s rodiči
-</LiFile>
-        <LiFile>Spolupráce s poradenskými zařízeními
-</LiFile>
-        <LiFile>Plán pedagogické podpory a Individuální vzdělávací plán
-</LiFile>
-        <LiFile>Efektivní hodnocení dětí a specifičnost hodnocení dětí se SVP
-</LiFile>
-        <LiFile>Pedagogická diagnostika dítěte na základní škole
-</LiFile>
-        <LiFile>Vzdělávání dětí nadaných a mimořádně nadaných
-</LiFile>
-      </ul>
-    </Col>
-  </Row>
-</BlockEx>;
-
-var ObsahInkluzeZS: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <BlockEx header="Ukázky z dalších témat:">
-  <Row>
-    <Col md={6}>
-      <ul className='fa-ul'>
-        <LiFile>Základní právní předpisy, legislativní změny
-</LiFile>
-        <LiFile>Žák se speciálními vzdělávacími potřebami
-</LiFile>
-        <LiFile>Struktura podpůrných opatření a jejich členění do pěti stupňů
-</LiFile>
-        <LiFile>Podpůrná opatření prvního stupně
-</LiFile>
-        <LiFile>Podpůrná opatření 2. - 5. stupně
-</LiFile>
-        <LiFile>Struktura a obsah Plánu pedagogické podpory
-</LiFile>
-        <LiFile>Zpracování ukázkového Plánu pedagogické podpory
-</LiFile>
-        <LiFile>Výukové metody a jejich role při motivaci k učení
-</LiFile>
-        <LiFile>Individuální vzdělávací plán a pedagogická diagnostika
-</LiFile>
-      </ul>
-    </Col>
-    <Col md={6}>
-      <ul className='fa-ul'>
-
-        <LiFile>Hodnocení žáků ve společném vzdělávání
-</LiFile>
-        <LiFile>Spolupráce pedagoga s asistentem pedagoga
-</LiFile>
-        <LiFile>Komunikace s rodiči
-</LiFile>
-        <LiFile>Spolupráce s poradenskými zařízeními
-</LiFile>
-        <LiFile>Plán pedagogické podpory a Individuální vzdělávací plán
-</LiFile>
-        <LiFile>Efektivní hodnocení žáků a specifičnost hodnocení žáků se SVP
-</LiFile>
-        <LiFile>Pedagogická diagnostika žáka na základní škole
-</LiFile>
-        <LiFile>Vzdělávání žáků nadaných a mimořádně nadaných
-</LiFile>
-      </ul>
-    </Col>
-  </Row>
-</BlockEx>;
-
-var ObsahInkluzeZUS7: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <BlockEx header="Kromě výše uvedených novinek nabízíme pro ZŠ ještě dalších 7 kurzů inkluze v délce 8 hodin. Kurzy jsou seskládané z následujících témat:">
-  <Row>
-    <Col md={6}>
-      <ul className='fa-ul'>
-        <LiFile>Základní právní předpisy, legislativní změny
-</LiFile>
-        <LiFile>Žák se speciálními vzdělávacími potřebami
-</LiFile>
-        <LiFile>Struktura podpůrných opatření a jejich členění do pěti stupňů
-</LiFile>
-        <LiFile>Podpůrná opatření prvního stupně
-</LiFile>
-        <LiFile>Podpůrná opatření 2. - 5. stupně
-</LiFile>
-        <LiFile>Struktura a obsah Plánu pedagogické podpory
-</LiFile>
-        <LiFile>Zpracování ukázkového Plánu pedagogické podpory
-</LiFile>
-        <LiFile>Výukové metody a jejich role při motivaci k učení
-</LiFile>
-        <LiFile>Individuální vzdělávací plán a pedagogická diagnostika
-</LiFile>
-      </ul>
-    </Col>
-    <Col md={6}>
-      <ul className='fa-ul'>
-
-        <LiFile>Hodnocení žáků ve společném vzdělávání
-</LiFile>
-        <LiFile>Spolupráce pedagoga s asistentem pedagoga
-</LiFile>
-        <LiFile>Komunikace s rodiči
-</LiFile>
-        <LiFile>Spolupráce s poradenskými zařízeními
-</LiFile>
-        <LiFile>Plán pedagogické podpory a Individuální vzdělávací plán
-</LiFile>
-        <LiFile>Efektivní hodnocení žáků a specifičnost hodnocení žáků se SVP
-</LiFile>
-        <LiFile>Pedagogická diagnostika žáka na základní škole
-</LiFile>
-        <LiFile>Vzdělávání žáků nadaných a mimořádně nadaných
-</LiFile>
-      </ul>
-    </Col>
-  </Row>
-</BlockEx>;
-
-var ObsahInkluzeZUS8: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <BlockEx header="Kromě výše uvedených novinek nabízíme ještě dalších 8 kurzů inkluze v délce 16 hodin a 2 kurzy inkluze pro ZŠ v délce 32 hodin. Kurzy jsou seskládané z následujících témat:">
-  <Row>
-    <Col md={6}>
-      <ul className='fa-ul'>
-        <LiFile>Základní právní předpisy, legislativní změny
-</LiFile>
-        <LiFile>Žák se speciálními vzdělávacími potřebami
-</LiFile>
-        <LiFile>Struktura podpůrných opatření a jejich členění do pěti stupňů
-</LiFile>
-        <LiFile>Podpůrná opatření prvního stupně
-</LiFile>
-        <LiFile>Podpůrná opatření 2. - 5. stupně
-</LiFile>
-        <LiFile>Struktura a obsah Plánu pedagogické podpory
-</LiFile>
-        <LiFile>Zpracování ukázkového Plánu pedagogické podpory
-</LiFile>
-        <LiFile>Výukové metody a jejich role při motivaci k učení
-</LiFile>
-        <LiFile>Individuální vzdělávací plán a pedagogická diagnostika
-</LiFile>
-      </ul>
-    </Col>
-    <Col md={6}>
-      <ul className='fa-ul'>
-
-        <LiFile>Hodnocení žáků ve společném vzdělávání
-</LiFile>
-        <LiFile>Spolupráce pedagoga s asistentem pedagoga
-</LiFile>
-        <LiFile>Komunikace s rodiči
-</LiFile>
-        <LiFile>Spolupráce s poradenskými zařízeními
-</LiFile>
-        <LiFile>Plán pedagogické podpory a Individuální vzdělávací plán
-</LiFile>
-        <LiFile>Efektivní hodnocení žáků a specifičnost hodnocení žáků se SVP
-</LiFile>
-        <LiFile>Pedagogická diagnostika žáka na základní škole
-</LiFile>
-        <LiFile>Vzdělávání žáků nadaných a mimořádně nadaných
-</LiFile>
-      </ul>
-    </Col>
-  </Row>
-</BlockEx>;
-
-var ObsahInkluzeSS: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <BlockEx header="Ukázky z dalších témat:">
-  <Row>
-    <Col md={6}>
-      <ul className='fa-ul'>
-        <LiFile>Základní právní předpisy, legislativní změny
-</LiFile>
-        <LiFile>Student se speciálními vzdělávacími potřebami
-</LiFile>
-        <LiFile>Struktura podpůrných opatření a jejich členění do pěti stupňů
-</LiFile>
-        <LiFile>Podpůrná opatření prvního stupně
-</LiFile>
-        <LiFile>Podpůrná opatření 2. - 5. stupně
-</LiFile>
-        <LiFile>Struktura a obsah Plánu pedagogické podpory
-</LiFile>
-        <LiFile>Zpracování ukázkového Plánu pedagogické podpory
-</LiFile>
-        <LiFile>Výukové metody a jejich role při motivaci k učení
-</LiFile>
-        <LiFile>Individuální vzdělávací plán a pedagogická diagnostika
-</LiFile>
-      </ul>
-    </Col>
-    <Col md={6}>
-      <ul className='fa-ul'>
-
-        <LiFile>Hodnocení studentů ve společném vzdělávání
-</LiFile>
-        <LiFile>Spolupráce pedagoga s asistentem pedagoga
-</LiFile>
-        <LiFile>Komunikace s rodiči
-</LiFile>
-        <LiFile>Spolupráce s poradenskými zařízeními
-</LiFile>
-        <LiFile>Plán pedagogické podpory a Individuální vzdělávací plán
-</LiFile>
-        <LiFile>Efektivní hodnocení studentů a specifičnost hodnocení studenta se SVP
-</LiFile>
-        <LiFile>Pedagogická diagnostika studenta na základní škole
-</LiFile>
-        <LiFile>Vzdělávání studentů nadaných a mimořádně nadaných
-</LiFile>
-      </ul>
-    </Col>
-  </Row>
-</BlockEx>;
 
 var ZSFormativniHodnoceni: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
   <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
@@ -1763,7 +1524,7 @@ var ZSFormativniHodnoceni: React.StatelessComponent<IKurzProps> = (props: IKurzP
           <li className="list-group-item">•	Přesah formativního hodnocení do osobnostního rozvoje žáka (0,5 hod)</li>
           <li className="list-group-item">•	Diskuse účastníků, sdílení typů z praxe (0,5 hod)</li>
         </ul></div>
-        </LiFile >
+      </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezff3" aria-expanded="false" aria-controls="collapsezff3">Formativní hodnocení v praxi – webinář </b> (8 hod, akreditováno pro ZŠ, SŠ, asistenti, od srpna 2022)
                  <div className="collapse border rounded " id="collapsezff3">
           <div className="m-3">
@@ -1780,7 +1541,7 @@ var ZSFormativniHodnoceni: React.StatelessComponent<IKurzProps> = (props: IKurzP
             •	Přesah formativního hodnocení do osobnostního rozvoje žáka (0,5 hod)<br />
             •	Diskuse účastníků, sdílení typů z praxe (0,5 hod)<br />
           </div></div>
-        </LiFile >
+      </LiFile >
 
     </ul>
   </BlockEx>
@@ -2039,8 +1800,64 @@ var ZSDiagnostika: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
   <BlockEx header="Nabízíme následující kurzy:">
     <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
 
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezd1" aria-expanded="false" aria-controls="collapsezd1">Sociální klima třídy a pedagogická diagnostika učitele </b> (8 hod, akreditováno pro MŠ, ZŠ, SŠ, VOŠ, asistenti, od srpna 2022)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezd2" aria-expanded="false" aria-controls="collapsezd2">Sociální klima třídy a pedagogická diagnostika učitele – webinář </b> (8 hod, akreditováno pro MŠ, ZŠ, SŠ, VOŠ, asistenti, od srpna 2022)</LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezd1" aria-expanded="false" aria-controls="collapsezd1">Sociální klima třídy a pedagogická diagnostika učitele </b> (8 hod, akreditováno pro MŠ, ZŠ, SŠ, VOŠ, asistenti, od srpna 2022)
+                <div className="collapse border rounded " id="collapsesped1">
+          <div className="m-3">
+            <b>Teoretická část  (4 vyučovací hodiny)</b><br />
+            •	Objasnění základních pojmů - klima třídy, sociální klima třídy, spolutvůrci třídního klimatu,<br />
+            •	Pedagogická diagnostika školní třídy – vymezení základních pojmů a metod pedagogické diagnostiky (diagnóza, prognóza, dispozice, proces – cíl, oblasti, diagnostický postup, chyby při diagnostikování ze strany pedagoga, charakteristické rysy, typy, mechanismy, které toto klima ovlivňují, prevence vztahů, pozice a role žáka ve školní třídě)<br />
+            •	Sociální klima třídy a pedagogická diagnostika<br />
+            -	Diagnostické kompetence učitele – metody, nástroje<br />
+            a)	Pozorování – obecné principy, průběh, zápis<br />
+            b)	Rozhovor – princip, vedení rozhovoru, typy, techniky kladení otázek<br />
+            c)	Dotazníky – typy, sestavování<br />
+            d)	Sociometrické metody<br />
+            - sběr dat, vyhodnocování, interpretace a práce s nimi<br />
+            - nejčastější chyby v sociální percepci<br />
+            <br />
+            <b>Praktická část (4 vyučovací hodiny)</b><br />
+            •	Nabídka činností zaměřených na podporu utváření pozitivního sociálního klimatu ve třídě a transformace na konkrétní činnosti spojené s nástroji pedagogické diagnostiky (např. účastník si prakticky ověří získané poznatky na základě nabídky konkrétních aktivit průřezového tématu OSV, zacíleného na věk). Nabídky aktivit z vlastního zkušenostního dvouletého výcviku u citovaných osobností a také nabídky jejich publikací - doc. PhDr. Soni Hermochové, CSc., doc. PhDr. Josefa Valenty, CSc., Doc. PhDr. Hany Kasíkové, CSc., Mgr. Petra Kříže a dalších osobností<br />
+            •	Poslední část bude věnována i dotazům a řízené diskuzi z vlastní praxe zúčastněných ped. pracovníků.<br />
+            •	způsoby vedení poradenského rozhovoru koučovacím způsobem - práce se škálou, kladení otázek, model GROW, atd.<br />
+          </div>
+        </div>
+      </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezd2" aria-expanded="false" aria-controls="collapsezd2">Sociální klima třídy a pedagogická diagnostika učitele – webinář </b> (8 hod, akreditováno pro MŠ, ZŠ, SŠ, VOŠ, asistenti, od srpna 2022)
+                 <div className="collapse border rounded " id="collapsesped2">
+          <div className="m-3">
+            <b>Blok 1 (2 vyučovací hodiny - 90 minut)</b><br />
+            <b>Teoretická část 1 – základní pojmy a pedagogická diagnostika</b><br />
+            •	Objasnění základních pojmů - klima třídy, sociální klima třídy, spolutvůrci třídního klimatu,<br />
+            •	Pedagogická diagnostika školní třídy – vymezení základních pojmů a metod pedagogické diagnostiky (diagnóza, prognóza, dispozice, proces – cíl, oblasti, diagnostický postup, chyby při diagnostikování ze strany pedagoga, charakteristické rysy, typy, mechanismy, které toto klima ovlivňují, prevence vztahů, pozice a role žáka ve školní třídě)<br />
+            <br />
+            <b>Blok 2 ( 2 vyučovací hodiny – 90 minut)</b><br />
+            <b>Teoretická část 2 - Sociální klima třídy a pedagogická diagnostika</b><br />
+            -	Diagnostické kompetence učitele – metody, nástroje<br />
+            a)	Pozorování – obecné principy, průběh, zápis<br />
+            b)	Rozhovor – princip, vedení rozhovoru, typy, techniky kladení otázek<br />
+            c)	Dotazníky – typy, sestavování<br />
+            d)	Sociometrické metody<br />
+            - sběr dat, vyhodnocování, interpretace<br />
+            - nejčastější chyby v sociální percepci<br />
+            <br />
+            <b>Blok 3 ( 2 vyučovací hodiny – 90 minut)</b><br />
+            <b>Praktická část 1</b><br />
+            Nabídka činností zaměřených na podporu utváření pozitivního sociálního klimatu ve třídě a transformace na konkrétní činnosti spojené s nástroji pedagogické diagnostiky<br />
+            a) Rozhovor – nácvik vedení rozhovoru<br />
+            b) Dotazníky – nácvik tvorby<br />
+            c) Pozorování – nácvik struktury tvorby předlohy<br />
+            <br />
+            <b>Blok 4 ( 2 vyučovací hodiny – 90 minut)</b><br />
+            <b>Praktická část 2</b><br />
+            Nestandardizované nástroje diagnostiky tříd:<br />
+            Např:<br />
+            a) pohybové hry (např. aktivity – Dotkni se toho, kdo…, Místo vedle mě je prázdné…,Místa si vymění ti, kteří ...,   Sociometrie tělem.. a další)<br />
+            b) techniky tužka – papír (např. aktivity Technika deseti situací, Erb, Pyramida, Obláčky..)<br />
+            Nabídka námětů aktivit, které budou účastníkům prezentovány na webináři jsou vybrány z vlastního zkušenostního dvouletého výcviku u citovaných osobností a také nabídky jejich publikací - doc. PhDr. Soni Hermochové, CSc., doc. PhDr. Josefa Valenty, CSc., Doc. PhDr. Hany Kasíkové, CSc., Mgr. Petra Kříže a dalších osobností<br />
+            Tato část bude věnována i dotazům a řízené diskuzi z vlastní praxe zúčastněných ped. pracovníků.<br />
+            <br />
+          </div></div>
+      </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezd3" aria-expanded="false" aria-controls="collapsezd3">Kázeňské přestupky a možnosti jejich řešení v rámci třídy  </b> (8 hod, akreditováno pro SŠ, DM, MŠ, ZŠ, ŠD, asistenti, výchovní poradci, speciální pedagogové, psychologové, od listopadu 2022)
         <div className="collapse " id="collapsezd3"><ul className="list-group"><li className="list-group-item">•	Pedagogická diagnostika orientovaná na žáka, učitele a edukační proces (1 hod)</li>
           <li className="list-group-item">•	Možnosti diferencovaného vzdělávání jako prevence problémového chování (1 hod)</li>
@@ -2060,10 +1877,71 @@ var ZSInovace: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
   <BlockEx header="Nabízíme následující kurzy:">
     <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
 
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Změny v RVP a úpravy ŠVP </b> (8 hod, akreditováno pro MŠ, ZŠ, ZUŠ, SŠ, VOŠ, od srpna 2022)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Změny v RVP a úpravy ŠVP – webinář </b> (8 hod, akreditováno pro MŠ, ZŠ, ZUŠ, SŠ, VOŠ, od srpna 2022)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Úpravy ŠVP v rámci programu InspIS ŠVP </b> (8 hod, akreditováno pro MŠ, ZŠ, ZUŠ, SŠ, VOŠ, od srpna 2022)</LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Úpravy ŠVP v rámci programu InspIS ŠVP – webinář </b> (8 hod, akreditováno pro MŠ, ZŠ, ZUŠ, SŠ, VOŠ, od srpna 2022)</LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi1" aria-expanded="false" aria-controls="collapsezi1">Změny v RVP a úpravy ŠVP </b> (8 hod, akreditováno pro MŠ, ZŠ, ZUŠ, SŠ, VOŠ, od srpna 2022)
+                <div className="collapse " id="collapsezi1"><ul className="list-group"><li className="list-group-item">•	Aktuální legislativní rámec školského zákona, který souvisí s tvorbou, úpravou a efektivním využíváním školních vzdělávacích programů  – (2 hod)</li>
+          <li className="list-group-item">•	Změny vyvolané revizí RVP (MŠMT)  - (2 hod)</li>
+          <li className="list-group-item">•	Aktuální úpravy ŠVP související s revizemi a úpravami v RVP  – (1 hod)</li>
+          <li className="list-group-item">•	ŠVP a nová strategie vzdělávání, modifikace vzdělávacího obsahu, rozsahu a zaměření výuky, metod práce na základě provedených revizí RVP (2 hod)</li>
+          <li className="list-group-item">•	Vzájemná výměna zkušeností, diskuse  – (1 hod)</li>
+        </ul></div>
+      </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi2" aria-expanded="false" aria-controls="collapsezi2">Změny v RVP a úpravy ŠVP – webinář </b> (8 hod, akreditováno pro MŠ, ZŠ, ZUŠ, SŠ, VOŠ, od srpna 2022)
+                <div className="collapse border rounded " id="collapsezi2">
+          <div className="m-3">
+            <b>Blok 1 (2 vyučovací hodiny – 90 minut)</b><br />
+            Aktuální legislativní rámec školského zákona, který souvisí s tvorbou, úpravou a efektivním využíváním školních vzdělávacích programů<br />
+            <b>Blok 2 (2 vyučovací hodiny – 90 minut)</b><br />
+            Změny vyvolané revizí RVP (MŠMT)<br />
+            <b>Blok 3 (1 vyučovací hodina – 45 minut)</b><br />
+            Aktuální úpravy ŠVP související s revizemi a úpravami v RVP<br />
+            <b>Blok 4 (2 vyučovací hodiny – 90 minut)</b><br />
+            ŠVP a nová strategie vzdělávání, modifikace vzdělávacího obsahu, rozsahu a zaměření výuky, metod práce na základě provedených revizí RVP<br />
+            <b>Blok 5 (1 vyučovací hodina – 45 minut)</b><br />
+            Vzájemná výměna zkušeností, diskuse<br />
+          </div></div>
+      </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi3" aria-expanded="false" aria-controls="collapsezi3">Úpravy ŠVP v rámci programu InspIS ŠVP </b> (8 hod, akreditováno pro MŠ, ZŠ, ZUŠ, SŠ, VOŠ, od srpna 2022)
+               <div className="collapse border rounded " id="collapsezi3">
+          <div className="m-3">
+            1.	Aktuální legislativní rámec školského zákona, který souvisí s tvorbou, úpravou a efektivním využíváním školních vzdělávacích programů – (0,5 hod)<br />
+            2.	Aktuální úpravy ŠVP související se změnami kapitol jednotlivých typů RVP – (1 hod)<br />
+            3.	Význam a možnosti využití elektronického systému InspIS (0,5 hod)<br />
+            4.	Práce v systému InspIS ŠVP (6 hod)<br />
+            •	přihlášení do systému podání základních informací  a založení ŠVP<br />
+            •	tvorba učebního plánu, poznámek, přehledu týdnů<br />
+            •	forma vzdělávání - vzdělávací obsah, strategie naplňování KK, vazby mezi výstupy RVP, ŠVP, učivem, …..<br />
+            •	popisné informace k systému InspIS ŠVP – formulář ŠVP – vyplnění, konkrétní informace<br />
+            •	kontrola a schválení ŠVP<br />
+            •	Diskuse, dořešení konkrétních dotazů účastníků<br />
+          </div>
+        </div>
+      </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi4" aria-expanded="false" aria-controls="collapsezi4">Úpravy ŠVP v rámci programu InspIS ŠVP – webinář </b> (8 hod, akreditováno pro MŠ, ZŠ, ZUŠ, SŠ, VOŠ, od srpna 2022)
+                 <div className="collapse border rounded " id="collapsezi4">
+          <div className="m-3">
+            <b>Blok 1 (2 vyučovací hodiny – 90 minut)</b><br />
+            <b>Teoretická část</b><br />
+            •	Aktuální legislativní rámec školského zákona, který souvisí s tvorbou, úpravou a efektivním využíváním školních vzdělávacích programů<br />
+            •	Aktuální úpravy ŠVP související se změnami kapitol jednotlivých typů RVP<br />
+            •	Význam a možnosti využití elektronického systému InspIS<br />
+            <br />
+            <b>Blok 2 (2 vyučovací hodiny – 90 minut)</b><br />
+            <b>Práce v systému InspIS ŠVP, 1. část</b><br />
+            •	přihlášení do systému, podání základních informací a založení ŠVP<br />
+            •	tvorba učebního plánu, poznámek, přehledu týdnů<br />
+            <br />
+            <b>Blok 3 (2 vyučovací hodiny – 90 minut)</b><br />
+            <b>Práce v systému InspIS ŠVP, 2. část</b><br />
+            •	forma vzdělávání - vzdělávací obsah, strategie naplňování KK, vazby mezi výstupy RVP, ŠVP, učivem, …..<br />
+            <br />
+            <b>Blok 4 (2 vyučovací hodiny – 90 minut)</b><br />
+            <b>Práce v systému InspIS ŠVP, 3. část</b><br />
+            •	popisné informace k systému InspIS ŠVP – formulář ŠVP – vyplnění, konkrétní informace<br />
+            •	kontrola a schválení ŠVP<br />
+            •	diskuse, dořešení konkrétních dotazů účastníků<br />
+          </div>
+        </div>
+      </LiFile >
 
     </ul>
   </BlockEx>
