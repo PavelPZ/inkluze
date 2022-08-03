@@ -1,4 +1,4 @@
-﻿Práce s diferencovanou const emailTemplate: React.StatelessComponent<IKuryFormFormStatus> = (props: IKuryFormFormStatus, ctx: sitemapRouter.IContext) => <div>
+﻿const emailTemplate: React.StatelessComponent<IKuryFormFormStatus> = (props: IKuryFormFormStatus, ctx: sitemapRouter.IContext) => <div>
   <p><b>EMail: </b> {props.email}</p>
   <p><b>Phone: </b> {props.phone}</p>
   <p><b>Teachers: </b> {props.teachers}</p>

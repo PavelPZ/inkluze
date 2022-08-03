@@ -80,25 +80,7 @@ function coursesLoader(getLoaders: () => Array<ICoursesLoader>, allLoaders: Arra
 function getLoaders(): Array<Array<ICourseLoader>> {
   var res = [
     [
-      { id: 'ZSInkluze8', create: expanded => <ZSInkluze8 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzy.ZSInkluze8.title} /> },
-      { id: 'ZSInkluze16', create: expanded => <ZSInkluze16 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzy.ZSInkluze16.title} /> },
-      { id: 'ZSInkluze24', create: expanded => <ZSInkluze24 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzy.ZSInkluze24.title} /> },
-      { id: 'ZSInkluze32', create: expanded => <ZSInkluze32 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzy.ZSInkluze32.title} /> },
-    ],
-    [
-      { id: 'ZSCtenarska16', create: expanded => <ZSCtenarska16 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzy.ZSCtenarska16.title} /> },
-      { id: 'ZSCtenarska32', create: expanded => <ZSCtenarska32 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzy.ZSCtenarska32.title} /> },
-      { id: 'ZSMatematicka16', create: expanded => <ZSMatematicka16 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzy.ZSMatematicka16.title} /> },
-      { id: 'ZSMatematicka32', create: expanded => <ZSMatematicka32 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzy.ZSMatematicka32.title} /> },
-      { id: 'ZSMentoring32', create: expanded => <ZSMentoring32 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzy.ZSMentoring32.title} /> },
-      { id: 'ZSMentoring56', create: expanded => <ZSMentoring56 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzy.ZSMentoring56.title} /> },
-      { id: 'ZSMentoring80', create: expanded => <ZSMentoring80 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzy.ZSMentoring80.title} /> },
-    ],
-    [
-      { id: 'MSInkluze816', create: expanded => <MSInkluze816 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzy.MSInkluze816.title} /> },
-      { id: 'MSCtenarska', create: expanded => <MSCtenarska defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzy.MSCtenarska.title} /> },
-      { id: 'MSMatematicka', create: expanded => <MSMatematicka defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzy.MSMatematicka.title} /> },
-      { id: 'MSRozvoj16', create: expanded => <MSRozvoj16 defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzy.MSRozvoj16.title} /> },
+
     ]
   ];
   res.forEach(l => l.forEach(ll => ll.id = ll.id.toLowerCase()));
