@@ -1350,55 +1350,6 @@ var BonusAlert: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IC
   </p>
 </div>;
 
-var KurzyList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div>
-  <h2 className='text-right'>ZŠ a MŠ akreditované kurzy DVPP MŠMT - Výzva 02_16_022 / 023</h2>
-  <Row>
-    <Col md={4}>
-      <h4>ZŠ Inkluze/společné vzdělávání</h4>
-      <ul className='fa-ul'>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.ZSInkluze8)}
-        </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.ZSInkluze16)}
-        </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.ZSInkluze32)}
-        </LiFile>
-      </ul>
-    </Col>
-    <Col md={4}>
-      <h4>ZŠ Ostatní</h4>
-      <ul className='fa-ul'>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.ZSCtenarska16)}
-        </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.ZSCtenarska32)}
-        </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.ZSMatematicka16)}
-        </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.ZSMatematicka32)}
-        </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.ZSMentoring32)}
-        </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.ZSMentoring56)}
-        </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.ZSMentoring80)}
-        </LiFile>
-      </ul>
-    </Col>
-    <Col md={4}>
-      <h4>MŠ Kurzy</h4>
-      <ul className='fa-ul'>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.MSInkluze816)}
-        </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.MSCtenarska)}
-        </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.MSMatematicka)}
-        </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzy.MSRozvoj16)}
-        </LiFile>
-      </ul>
-    </Col>
-  </Row>
-</div>;
-
 var KurzySSList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div>
   <h2 className='text-right'>SŠ a VOŠ akreditované kurzy DVPP MŠMT - Výzva: 02_22_003</h2>
   <h3>Nabízíme akreditované kurzy pokrývající následující témata </h3>

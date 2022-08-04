@@ -3,7 +3,7 @@
   return <div>
     <Page>
       <Block >
-        {ctx.site.id == 'kurzy' ? <KurzyList /> : null}
+        {ctx.site.id == 'kurzy' ? <KurzySSList /> : null}
         <KurzyAlert />
         <KurzyForm />
 

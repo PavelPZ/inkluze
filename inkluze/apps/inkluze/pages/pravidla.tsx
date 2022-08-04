@@ -150,7 +150,7 @@
         Nabízíme kurzy zaměřené na inkluzi, čtenářskou gramotnost, matematickou gramotnost a mentoring.
       </p>
       <p>
-        Více viz {sitemapRouter.doNavigateTag(inkluze.root.kurzy)} a {sitemapRouter.doNavigateTag(inkluze.root.kurzyss)}
+        Více viz {sitemapRouter.doNavigateTag(inkluze.root.kurzyii)} a {sitemapRouter.doNavigateTag(inkluze.root.kurzyss)}
       </p>
     </BlockEx>
   </Page>

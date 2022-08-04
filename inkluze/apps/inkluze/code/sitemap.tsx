@@ -3,29 +3,10 @@
     //q_and_a: site.INode;
     //dalsi: site.INode;
     okurzy: site.INode;
-    kurzy: ISiteKurzy;
     kurzyss: ISiteKurzySS;
     kurzyii: ISiteKurzyII;
     onas: site.INode;
     //slovnicek: site.INode;
-  }
-
-  export interface ISiteKurzy extends site.INode {
-    ZSInkluze8: site.INode;
-    ZSInkluze16: site.INode;
-    ZSInkluze24: site.INode;
-    ZSInkluze32: site.INode;
-    ZSCtenarska16: site.INode;
-    ZSCtenarska32: site.INode;
-    ZSMatematicka16: site.INode;
-    ZSMatematicka32: site.INode;
-    ZSMentoring32: site.INode;
-    ZSMentoring56: site.INode;
-    ZSMentoring80: site.INode;
-    MSInkluze816: site.INode;
-    MSCtenarska: site.INode;
-    MSMatematicka: site.INode;
-    MSRozvoj16: site.INode;
   }
 
   export interface ISiteKurzySS extends site.INode {
@@ -101,87 +82,6 @@
       //  id: 'slovnicek',
       //  createPage: par => <Slovnicek/>,
       //},
-      kurzy: {
-        id: 'kurzy',
-        createPage: par => React.createElement(Kurzy),
-        ZSInkluze8: {
-          id: 'ZSInkluze8',
-          createPage: par => React.createElement(Kurzy),
-          title: 'Inkluze - 8 hodinový kurz pro sborovnu',
-        },
-        ZSInkluze16: {
-          id: 'ZSInkluze16',
-          title: 'Inkluze - 16 hodinový kurz',
-          createPage: par => React.createElement(Kurzy),
-        },
-        ZSInkluze24: {
-          id: 'ZSInkluze24',
-          title: 'Inkluze - 24 hodinový kurz',
-          createPage: par => React.createElement(Kurzy),
-        },
-        ZSInkluze32: {
-          id: 'ZSInkluze32',
-          title: 'Inkluze - 32 hodinový kurz',
-          createPage: par => React.createElement(Kurzy),
-        },
-
-        ZSCtenarska16: {
-          id: 'ZSCtenarska16',
-          title: 'Čtenářská gramotnost - 16 hodinový kurz',
-          createPage: par => React.createElement(Kurzy),
-        },
-        ZSCtenarska32: {
-          id: 'ZSCtenarska32',
-          title: 'Čtenářská gramotnost - 32 hodinový kurz',
-          createPage: par => React.createElement(Kurzy),
-        },
-        ZSMatematicka16: {
-          id: 'ZSMatematicka16',
-          title: 'Matematická gramotnost - 16 hodinový kurz',
-          createPage: par => React.createElement(Kurzy),
-        },
-        ZSMatematicka32: {
-          id: 'ZSMatematicka32',
-          title: 'Matematická gramotnost - 32 hodinový kurz',
-          createPage: par => React.createElement(Kurzy),
-        },
-        ZSMentoring32: {
-          id: 'ZSMentoring32',
-          title: 'Mentoring - 32 hodinový kurz',
-          createPage: par => React.createElement(Kurzy),
-        },
-        ZSMentoring56: {
-          id: 'ZSMentoring56',
-          title: 'Mentoring - 56 hodinový kurz',
-          createPage: par => React.createElement(Kurzy),
-        },
-        ZSMentoring80: {
-          id: 'ZSMentoring80',
-          title: 'Mentoring - 80 hodinový kurz',
-          createPage: par => React.createElement(Kurzy),
-        },
-
-        MSInkluze816: {
-          id: 'MSInkluze816',
-          title: 'Inkluze - 16 hodinový kurz pro MŠ',
-          createPage: par => React.createElement(Kurzy),
-        },
-        MSCtenarska: {
-          id: 'MSCtenarska',
-          title: 'Čtenářská pregramotnost - 16 hodinový kurz',
-          createPage: par => React.createElement(Kurzy),
-        },
-        MSMatematicka: {
-          id: 'MSMatematicka',
-          title: 'Matematická pregramotnost - 16 hodinový kurz',
-          createPage: par => React.createElement(Kurzy),
-        },
-        MSRozvoj16: {
-          id: 'MSRozvoj16',
-          title: 'Osobnostně sociální rozvoj - 16 hodinový kurz',
-          createPage: par => React.createElement(Kurzy),
-        },
-      },
       kurzyss: {
         id: 'kurzyss',
         createPage: par => React.createElement(KurzySS),
