@@ -37,6 +37,7 @@
     ZSWellBeing: site.INode;
     ZSDiagnostika: site.INode;
     ZSInovace: site.INode;
+    ZSSpoluprace: site.INode;
     ZSInkluze: site.INode;
     ZSPodpora: site.INode;
     ZSRozvojPodnikavosti: site.INode;
@@ -44,6 +45,7 @@
     ZSGenderova: site.INode;
     ZSCtenarskaGramotnost: site.INode;
     ZSFormativniHodnoceni: site.INode;
+    ZSIndividualizace: site.INode;
     ZSKarierovePoradenstvi: site.INode;
   }
 
@@ -229,6 +231,11 @@
           title: 'Formativní hodnocení',
           createPage: par => React.createElement(KurzyII),
         },
+        ZSIndividualizace: {
+          id: 'ZSIndividualizace',
+          title: 'Individualizace vzdělávání a vedení portfolia dítěte/žáka',
+          createPage: par => React.createElement(KurzyII),
+        },
         ZSDiagnostika: {
           id: 'ZSDiagnostika',
           title: 'Pedagogická diagnostika',
@@ -237,6 +244,11 @@
         ZSInovace: {
           id: 'ZSInovace',
           title: 'Inovace ŠVP/koncepce rozvoje školy/školského zařízení',
+          createPage: par => React.createElement(KurzyII),
+        },
+        ZSSpoluprace: {
+          id: 'ZSSpoluprace',
+          title: 'Spolupráce s rodiči a zákonnými zástupci dětí a žáků',
           createPage: par => React.createElement(KurzyII),
         },
         ZSInkluze: {

@@ -95,6 +95,7 @@ function getIILoaders(): Array<Array<ICourseIILoader>> {
       { id: 'ZSFormativniHodnoceni', create: expanded => <ZSFormativniHodnoceni defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSFormativniHodnoceni.title} /> },
       { id: 'ZSDiagnostika', create: expanded => <ZSDiagnostika defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSDiagnostika.title} /> },
       { id: 'ZSInovace', create: expanded => <ZSInovace defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSInovace.title} /> },
+      { id: 'ZSSpoluprace', create: expanded => <ZSSpoluprace defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSSpoluprace.title} /> },
       { id: 'ZSInkluze', create: expanded => <ZSInkluze defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSInkluze.title} /> },
       { id: 'ZSPodpora', create: expanded => <ZSPodpora defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSPodpora.title} /> },
     ]
