@@ -177,17 +177,19 @@ var SSSpoluprace: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
     <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsessp1" aria-expanded="true" aria-controls="collapsessp1">Zásady efektivní komunikace s rodiči a zákonnými zástupci
       </b>(8 hod, akreditováno pro SŠ, DM, MŠ, ZŠ, ŠD, ZUŠ, asistenti, od listopadu 2022)
-        <div className="collapse " id="collapsessp1"><ul className="list-group"><li className="list-group-item">•	Specifika komunikace v online prostředí, možné chyby v komunikaci /vztahová agrese, nevhodná interpretace požadavků, předvídání budoucnosti, generalizace obtíží žáka, hodnocení rodiny, žáka, dávání nevyžádaných rad atd./ Věcná /obsahová /a vztahová rovina komunikace /teoretická část/ (1 hod)</li>
-          <li className="list-group-item">•	Příklady mailové komunikace jejich rozbor, porovnání dopadu mailové komunikace směrem k adresátovi. /praktická část/</li>
-          Jak jinak komunikovat<br />
-          analýza základních komunikačních chyb<br />
-          alternativní možnosti komunikace se žáky<br />
-          možnosti, jak vést žáky k odpovědnosti za své prožívání a jednání (1 hod)<br />
-          <li className="list-group-item">•	Možnosti komunikace s rodiči a zákonnými zástupci. Typologie rodičů - styly chování, verbální komunikace. Úzkostně agresivní typ rodiče, narcistně agresivní typ rodiče, úzkostní rodiče, rodiče s hysterickými rysy osobnosti aj. Znaky a projevy chování, možnosti volby strategie řešení situací.  (3 hod)</li>
-          <li className="list-group-item">•	Řešení emočně vypjatých situací: možnosti řešení, tvorba repertoáru strategií k řešení složitých a neobvyklých sociálních situací.</li>
-          <li className="list-group-item">•	Práce s metodickým materiálem, praktická část zaměřená na vlastní strategie, vyvarování se některým chybám v komunikaci. </li>
-          <li className="list-group-item">•	Základy a zásady asertivního jednání</li>
-        </ul></div>
+        <div className="collapse.show" id="collapsessp1">
+          <ul className="list-group">
+            <li className="list-group-item">•	Specifika komunikace v online prostředí, možné chyby v komunikaci /vztahová agrese, nevhodná interpretace požadavků, předvídání budoucnosti, generalizace obtíží žáka, hodnocení rodiny, žáka, dávání nevyžádaných rad atd./ Věcná /obsahová /a vztahová rovina komunikace /teoretická část/ (1 hod)</li>
+            <li className="list-group-item">•	Příklady mailové komunikace jejich rozbor, porovnání dopadu mailové komunikace směrem k adresátovi. /praktická část/<br />
+              Jak jinak komunikovat<br />
+              analýza základních komunikačních chyb<br />
+              alternativní možnosti komunikace se žáky<br />
+              možnosti, jak vést žáky k odpovědnosti za své prožívání a jednání (1 hod)<br /></li>
+            <li className="list-group-item">•	Možnosti komunikace s rodiči a zákonnými zástupci. Typologie rodičů - styly chování, verbální komunikace. Úzkostně agresivní typ rodiče, narcistně agresivní typ rodiče, úzkostní rodiče, rodiče s hysterickými rysy osobnosti aj. Znaky a projevy chování, možnosti volby strategie řešení situací.  (3 hod)</li>
+            <li className="list-group-item">•	Řešení emočně vypjatých situací: možnosti řešení, tvorba repertoáru strategií k řešení složitých a neobvyklých sociálních situací. (1 hod)</li>
+            <li className="list-group-item">•	Práce s metodickým materiálem, praktická část zaměřená na vlastní strategie, vyvarování se některým chybám v komunikaci. (1 hod)</li>
+            <li className="list-group-item">•	Základy a zásady asertivního jednání (1 hod)</li>
+          </ul></div>
       </LiFile >
     </ul >
   </BlockEx >
@@ -1195,7 +1197,7 @@ var SSGenderovaTematika: React.StatelessComponent<IKurzProps> = (props: IKurzPro
   <BlockEx header="Nabízíme následující kurzy:">
     <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesgt1" aria-expanded="false" aria-controls="collapsesgt1">Gender a genderová tematika na školách
-      </b>(8 hod, připravujeme k akreditaci pro SŠ, VOŠ, DM, ZŠ, ŠD, ŠK, SVČ, ZUŠ, asistenti)
+      </b>(8 hod, akreditováno pro SŠ, VOŠ, DM, ZŠ, ŠD, ŠK, SVČ, ZUŠ, asistenti, od listopadu 2022)
          <div className="collapse.show" id="collapsesgt1">
           <ul className="list-group">
             <li className="list-group-item">•	Co je gender – klíčové pojmy a definice (0,5 hod).</li>
@@ -1474,7 +1476,7 @@ var ZSFormativniHodnoceni: React.StatelessComponent<IKurzProps> = (props: IKurzP
           <li className="list-group-item">•	Slovní hodnocení, sebehodnocení, vrstevnické hodnocení (2 hod)</li>
           <li className="list-group-item">•	Praktický nácvik tvorby kritérií k formativnímu hodnocení (3 hod)</li>
         </ul></div>
-        </LiFile >
+      </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezff2" aria-expanded="false" aria-controls="collapsezff2">Formativní hodnocení v praxi </b> (8 hod, akreditováno pro ZŠ, SŠ, asistenti, od srpna 2022)
                 <div className="collapse " id="collapsezff2"><ul className="list-group"><li className="list-group-item">•	Formativní hodnocení a jeho principy (1 hod)</li>
           <li className="list-group-item">•	Strategie formativního hodnocení, pravidla a podmínky pro poskytování formativního hodnocení (1 hod)</li>
@@ -1575,7 +1577,8 @@ var ZSGenderova: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy:">
     <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesgt1" aria-expanded="false" aria-controls="collapsesgt1">Gender a genderová tematika na školách </b> (8 hod, připravujeme k akreditaci pro ZŠ, ŠD, ŠK, SVČ, ZUŠ, SŠ, VOŠ, DM, asistenti)
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesgt1" aria-expanded="false" aria-controls="collapsesgt1">Gender a genderová tematika na školách </b> 
+        (8 hod, akreditováno pro SŠ, VOŠ, DM, ZŠ, ŠD, ŠK, SVČ, ZUŠ, asistenti, od listopadu 2022)
         <div className="collapse.show" id="collapsesgt1"><ul className="list-group"><li className="list-group-item">•	Co je gender  – klíčové pojmy a definice (0,5 hod).</li>
           <li className="list-group-item">•	Gender a výzkum  – seznámení se s výzkumy a nejnovějšími poznatky (0,5 hod).</li>
           <li className="list-group-item">•	Genderová identita/skupiny  – fyziologické a sociologické aspekty pohlaví  – „co to jsou za novoty?“ Transgender, cisgender, fluid/nebinární aj. (1 hod).</li>
@@ -1937,18 +1940,20 @@ var ZSSpoluprace: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
     <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezsp1" aria-expanded="true" aria-controls="collapsezsp1">Zásady efektivní komunikace s rodiči a zákonnými zástupci
       </b>(8 hod, akreditováno pro SŠ, DM, MŠ, ZŠ, ŠD, ZUŠ, asistenti, od listopadu 2022)
-        <div className="collapse" id="collapsezsp1"><ul className="list-group"><li className="list-group-item">•	Specifika komunikace v online prostředí, možné chyby v komunikaci /vztahová agrese, nevhodná interpretace požadavků, předvídání budoucnosti, generalizace obtíží žáka, hodnocení rodiny, žáka, dávání nevyžádaných rad atd./ Věcná /obsahová /a vztahová rovina komunikace /teoretická část/ (1 hod)</li>
-          <li className="list-group-item">•	Příklady mailové komunikace jejich rozbor, porovnání dopadu mailové komunikace směrem k adresátovi. /praktická část/<br />
-            Jak jinak komunikovat<br />
-            analýza základních komunikačních chyb<br />
-            alternativní možnosti komunikace se žáky<br />
-            možnosti, jak vést žáky k odpovědnosti za své prožívání a jednání (1 hod)<br />
-          </li>
-          <li className="list-group-item">•	Možnosti komunikace s rodiči a zákonnými zástupci. Typologie rodičů - styly chování, verbální komunikace. Úzkostně agresivní typ rodiče, narcistně agresivní typ rodiče, úzkostní rodiče, rodiče s hysterickými rysy osobnosti aj. Znaky a projevy chování, možnosti volby strategie řešení situací.  (3 hod)</li>
-          <li className="list-group-item">•	Řešení emočně vypjatých situací: možnosti řešení, tvorba repertoáru strategií k řešení složitých a neobvyklých sociálních situací.</li>
-          <li className="list-group-item">•	Práce s metodickým materiálem, praktická část zaměřená na vlastní strategie, vyvarování se některým chybám v komunikaci. </li>
-          <li className="list-group-item">•	Základy a zásady asertivního jednání</li>
-        </ul></div>
+        <div className="collapse.show" id="collapsezsp1">
+          <ul className="list-group">
+            <li className="list-group-item">•	Specifika komunikace v online prostředí, možné chyby v komunikaci /vztahová agrese, nevhodná interpretace požadavků, předvídání budoucnosti, generalizace obtíží žáka, hodnocení rodiny, žáka, dávání nevyžádaných rad atd./ Věcná /obsahová /a vztahová rovina komunikace /teoretická část/ (1 hod)</li>
+            <li className="list-group-item">•	Příklady mailové komunikace jejich rozbor, porovnání dopadu mailové komunikace směrem k adresátovi. /praktická část/<br />
+              Jak jinak komunikovat<br />
+              analýza základních komunikačních chyb<br />
+              alternativní možnosti komunikace se žáky<br />
+              možnosti, jak vést žáky k odpovědnosti za své prožívání a jednání (1 hod)<br />
+            </li>
+            <li className="list-group-item">•	Možnosti komunikace s rodiči a zákonnými zástupci. Typologie rodičů - styly chování, verbální komunikace. Úzkostně agresivní typ rodiče, narcistně agresivní typ rodiče, úzkostní rodiče, rodiče s hysterickými rysy osobnosti aj. Znaky a projevy chování, možnosti volby strategie řešení situací.  (3 hod)</li>
+            <li className="list-group-item">•	Řešení emočně vypjatých situací: možnosti řešení, tvorba repertoáru strategií k řešení složitých a neobvyklých sociálních situací. (1 hod)</li>
+            <li className="list-group-item">•	Práce s metodickým materiálem, praktická část zaměřená na vlastní strategie, vyvarování se některým chybám v komunikaci. (1 hod)</li>
+            <li className="list-group-item">•	Základy a zásady asertivního jednání (1 hod)</li>
+          </ul></div>
       </LiFile >
     </ul >
   </BlockEx >

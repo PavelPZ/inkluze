@@ -148,14 +148,14 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=19.1.%202023%20Rozvoj%20podnikavosti%20a%20z%C3%A1sady%20soukrom%C3%A9ho%20podnik%C3%A1n%C3%AD&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
-        <LiHand><h4><b>25.1. 2023 <a href="/index.html?home|kurzyss|SSFormativniHodnoceni">Vedení portfolia žáka jako nástroj formativního hodnocení</a></b></h4>
-          <h4><Label bsStyle="warning">Oblasti: pedagogická diagnostika, Inkluze</Label></h4>
+        <LiHand><h4><b>25.1. 2023 <a href="/index.html?home|kurzyss|ssindividualizace">Vedení portfolia žáka jako nástroj formativního hodnocení</a></b></h4>
+          <h4><Label bsStyle="warning">Oblasti: Individualizece vzdělávání a vedení portfolia dítěte/žáka, formativní hodnocen</Label></h4>
           <p>Akreditace: v procesu akreditace</p>
           <p>Cena: 1590 Kč/os, Lektor: PaedDr. Ellen Mlátilíková</p>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=25.1.%202023%20Veden%C3%AD%20portfolia%20%C5%BE%C3%A1ka%20jako%20n%C3%A1stroj%20formativn%C3%ADho%20hodnocen%C3%AD&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
-        <LiHand><h4><b>27.1. 2023  <a href="/index.html?home|kurzyss|SSInovace">Úpravy ŠVP v rámci programu InspIS ŠVP</a></b></h4>
+        <LiHand><h4><b>27.1. 2023  <a href="/index.html?home|kurzyii|ZSInovace">Úpravy ŠVP v rámci programu InspIS ŠVP</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Inovace ŠVP/koncepce rozvoje školy/školského zařízení</Label></h4>
           <p>Akreditace: v procesu akreditace</p>
           <p>Cena: 1590 Kč/os, Lektor: Mgr. Dana Forýtková</p>
@@ -169,7 +169,7 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=1.2.%202023%20%C4%8Cten%C3%A1%C5%99sk%C3%A1%20gramotnost%20nap%C5%99%C3%AD%C4%8D%20v%C5%A1emi%20p%C5%99edm%C4%9Bty%20S%C5%A0%20a%20VO%C5%A0%20%E2%80%93%208%20hod&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
-        <LiHand><h4><b>2.2. 2023  <a href="/index.html?home|kurzyss|ZSCtenarskaGramotnost"> Čtenářská a informační gramotnost na ZŠ – 8 hodin</a></b></h4>
+        <LiHand><h4><b>2.2. 2023  <a href="/index.html?home|kurzyii|ZSCtenarskaGramotnost"> Čtenářská a informační gramotnost na ZŠ – 8 hodin</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Čtenářská gramotnost</Label></h4>
           <p>Akreditace: MSMT- 332/2021-4-72</p>
           <p>Cena: 1590 Kč/os, Lektor: Mgr. Dana Forýtková</p>
