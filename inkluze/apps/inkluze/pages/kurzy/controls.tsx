@@ -1196,7 +1196,7 @@ var SSGenderovaTematika: React.StatelessComponent<IKurzProps> = (props: IKurzPro
     <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesgt1" aria-expanded="false" aria-controls="collapsesgt1">Gender a genderová tematika na školách
       </b>(8 hod, připravujeme k akreditaci pro SŠ, VOŠ, DM, ZŠ, ŠD, ŠK, SVČ, ZUŠ, asistenti)
-         <div className="collapse " id="collapsesgt1">
+         <div className="collapse.show" id="collapsesgt1">
           <ul className="list-group">
             <li className="list-group-item">•	Co je gender – klíčové pojmy a definice (0,5 hod).</li>
             <li className="list-group-item">•	Gender a výzkum – seznámení se s výzkumy a nejnovějšími poznatky (0,5 hod).</li>
@@ -1467,7 +1467,13 @@ var ZSFormativniHodnoceni: React.StatelessComponent<IKurzProps> = (props: IKurzP
     <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
 
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezff1" aria-expanded="false" aria-controls="collapsezff1">Formativní hodnocení a role učitele </b> (8 hod, akreditováno pro ZŠ, ŠD, SŠ, VOŠ, DM, asistenti)
-
+        <div className="collapse " id="collapsezff1"><ul className="list-group"><li className="list-group-item">•	Hodnocení, význam a jeho specifika (0,5 hod)</li>
+          <li className="list-group-item">•	Pět klíčových strategií formativního hodnocení, pravidla a podmínky poskytování formativního hodnocení (0,5 hod)</li>
+          <li className="list-group-item">•	Metody formativního hodnocení (respektující komunikace, zpětná vazba, vrstevnické hodnocení, sebehodnocení, cíle, kritéria)  – obecné vysvětlení pojmů (1 hod)</li>
+          <li className="list-group-item">•	Pravidla a podmínky poskytování zpětné vazby  - pozitivní a negativní zpětná vazba, chyby v podávání zpětné vazby (1 hod)</li>
+          <li className="list-group-item">•	Slovní hodnocení, sebehodnocení, vrstevnické hodnocení (2 hod)</li>
+          <li className="list-group-item">•	Praktický nácvik tvorby kritérií k formativnímu hodnocení (3 hod)</li>
+        </ul></div>
         </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezff2" aria-expanded="false" aria-controls="collapsezff2">Formativní hodnocení v praxi </b> (8 hod, akreditováno pro ZŠ, SŠ, asistenti, od srpna 2022)
                 <div className="collapse " id="collapsezff2"><ul className="list-group"><li className="list-group-item">•	Formativní hodnocení a jeho principy (1 hod)</li>
@@ -1510,7 +1516,7 @@ var ZSIndividualizace: React.StatelessComponent<IKurzProps> = (props: IKurzProps
     <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezin1" aria-expanded="true" aria-controls="collapsezin1">Vedení portfolia žáka jako nástroj formativního hodnocení
       </b>(8 hod, akreditováno pro SŠ, DM, ZŠ, ŠD, asistenti, výchovní poradci, speciální pedagogové, psychologové, od listopadu 2022)
-        <div className="collapse " id="collapsezin1"><ul className="list-group"><li className="list-group-item">•	LEGISLATIVNÍ RÁMEC: Školský zákon a Vyhláška 27/2016. Hodnocení žáka jako podpůrné opatření, možnosti úpravy obsahu a výstupů v souladu s legislativou.  Vymezení základních pojmů nadání. Sumativní a formativní hodnocení  – vymezení teoretických pojmů. (1 hod)  </li>
+        <div className="collapse.show" id="collapsezin1"><ul className="list-group"><li className="list-group-item">•	LEGISLATIVNÍ RÁMEC: Školský zákon a Vyhláška 27/2016. Hodnocení žáka jako podpůrné opatření, možnosti úpravy obsahu a výstupů v souladu s legislativou.  Vymezení základních pojmů nadání. Sumativní a formativní hodnocení  – vymezení teoretických pojmů. (1 hod)  </li>
           <li className="list-group-item">•	Základní pojmy : Sumativní hodnocení, Formativní hodnocení, Prostředky formativního hodnocení (2 hod)</li>
           <li className="list-group-item">•	Teoretická východiska - portfolio žáka - cíl, forma a funkce portfolia (1 hod)</li>
           <li className="list-group-item">•	PRINCIPY PRÁCE S portfoliem žáka: Teoretické ukotvení tématu, Ukázka sebehodnocení žáka (1 hod)</li>
@@ -1570,7 +1576,7 @@ var ZSGenderova: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
   <BlockEx header="Nabízíme následující kurzy:">
     <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesgt1" aria-expanded="false" aria-controls="collapsesgt1">Gender a genderová tematika na školách </b> (8 hod, připravujeme k akreditaci pro ZŠ, ŠD, ŠK, SVČ, ZUŠ, SŠ, VOŠ, DM, asistenti)
-        <div className="collapse " id="collapsesgt1"><ul className="list-group"><li className="list-group-item">•	Co je gender  – klíčové pojmy a definice (0,5 hod).</li>
+        <div className="collapse.show" id="collapsesgt1"><ul className="list-group"><li className="list-group-item">•	Co je gender  – klíčové pojmy a definice (0,5 hod).</li>
           <li className="list-group-item">•	Gender a výzkum  – seznámení se s výzkumy a nejnovějšími poznatky (0,5 hod).</li>
           <li className="list-group-item">•	Genderová identita/skupiny  – fyziologické a sociologické aspekty pohlaví  – „co to jsou za novoty?“ Transgender, cisgender, fluid/nebinární aj. (1 hod).</li>
           <li className="list-group-item">•	Genderové stereotypy v našem školství  – jaká je situace v naší škole, mapování a návrhy možných změn  – týmový workshop (2 hod).</li>
@@ -1757,6 +1763,7 @@ var ZSRozvojPodnikavosti: React.StatelessComponent<IKurzProps> = (props: IKurzPr
         </ul></div>
       </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezrp2" aria-expanded="false" aria-controls="collapsezrp2">Podnikání, finanční gramotnost a manažerské dovednosti – 8 hodin </b> (8 hod, akreditováno pro SŠ, VOŠ, pro ZŠ od listopadu)
+
       </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezrp3" aria-expanded="false" aria-controls="collapsezrp3">Výchova k podnikavosti a manažerské dovednosti–8 hod</b> (8 hod, akreditováno pro SŠ, VOŠ, pro ZŠ od listopadu)
         <div className="collapse " id="collapsezrp3"><ul className="list-group"><li className="list-group-item">•	Úvod do tématu podnikavosti a výchově v podnikání. Etika v podnikání. Fiktivní firma jako projekt. (provázáno celým seminářem) (2 hodiny)</li>
@@ -1930,7 +1937,7 @@ var ZSSpoluprace: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
     <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezsp1" aria-expanded="true" aria-controls="collapsezsp1">Zásady efektivní komunikace s rodiči a zákonnými zástupci
       </b>(8 hod, akreditováno pro SŠ, DM, MŠ, ZŠ, ŠD, ZUŠ, asistenti, od listopadu 2022)
-        <div className="collapse " id="collapsezsp1"><ul className="list-group"><li className="list-group-item">•	Specifika komunikace v online prostředí, možné chyby v komunikaci /vztahová agrese, nevhodná interpretace požadavků, předvídání budoucnosti, generalizace obtíží žáka, hodnocení rodiny, žáka, dávání nevyžádaných rad atd./ Věcná /obsahová /a vztahová rovina komunikace /teoretická část/ (1 hod)</li>
+        <div className="collapse" id="collapsezsp1"><ul className="list-group"><li className="list-group-item">•	Specifika komunikace v online prostředí, možné chyby v komunikaci /vztahová agrese, nevhodná interpretace požadavků, předvídání budoucnosti, generalizace obtíží žáka, hodnocení rodiny, žáka, dávání nevyžádaných rad atd./ Věcná /obsahová /a vztahová rovina komunikace /teoretická část/ (1 hod)</li>
           <li className="list-group-item">•	Příklady mailové komunikace jejich rozbor, porovnání dopadu mailové komunikace směrem k adresátovi. /praktická část/<br />
             Jak jinak komunikovat<br />
             analýza základních komunikačních chyb<br />
