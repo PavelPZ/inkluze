@@ -1156,7 +1156,7 @@ var SSFormativniHodnoceni: React.StatelessComponent<IKurzProps> = (props: IKurzP
           </div></div>
       </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesfh4" aria-expanded="false" aria-controls="collapsesfh4">Vedení portfolia žáka jako nástroj formativního hodnocení
-      </b>(8 hod, akreditováno pro SŠ, DM, ZŠ, ŠD, asistenti, výchovní poradci, speciální pedagogové, psychologové, od listopadu 2022)
+      </b>(8 hod, akreditováno pro ZŠ, ŠD, SŠ, DM, asistenti, výchovní poradci, speciální pedagogové, psychologové, od listopadu 2022)
         <div className="collapse " id="collapsesfh4"><ul className="list-group"><li className="list-group-item">•	LEGISLATIVNÍ RÁMEC: Školský zákon a Vyhláška 27/2016. Hodnocení žáka jako podpůrné opatření, možnosti úpravy obsahu a výstupů v souladu s legislativou.  Vymezení základních pojmů nadání. Sumativní a formativní hodnocení  – vymezení teoretických pojmů. (1 hod)  </li>
           <li className="list-group-item">•	Základní pojmy : Sumativní hodnocení, Formativní hodnocení, Prostředky formativního hodnocení (2 hod)</li>
           <li className="list-group-item">•	Teoretická východiska - portfolio žáka - cíl, forma a funkce portfolia (1 hod)</li>
@@ -1506,7 +1506,7 @@ var ZSFormativniHodnoceni: React.StatelessComponent<IKurzProps> = (props: IKurzP
           </div></div>
       </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezff4" aria-expanded="false" aria-controls="collapsezff4">Vedení portfolia žáka jako nástroj formativního hodnocení
-      </b>(8 hod, akreditováno pro SŠ, DM, ZŠ, ŠD, asistenti, výchovní poradci, speciální pedagogové, psychologové, od listopadu 2022)
+      </b>(8 hod, akreditováno pro ZŠ, ŠD, SŠ, DM, asistenti, výchovní poradci, speciální pedagogové, psychologové, od listopadu 2022)
         <div className="collapse " id="collapsezff4"><ul className="list-group"><li className="list-group-item">•	LEGISLATIVNÍ RÁMEC: Školský zákon a Vyhláška 27/2016. Hodnocení žáka jako podpůrné opatření, možnosti úpravy obsahu a výstupů v souladu s legislativou.  Vymezení základních pojmů nadání. Sumativní a formativní hodnocení  – vymezení teoretických pojmů. (1 hod)  </li>
           <li className="list-group-item">•	Základní pojmy : Sumativní hodnocení, Formativní hodnocení, Prostředky formativního hodnocení (2 hod)</li>
           <li className="list-group-item">•	Teoretická východiska - portfolio žáka - cíl, forma a funkce portfolia (1 hod)</li>
@@ -2303,7 +2303,7 @@ var ZSSpoluprace: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
                                 </ul></div>
                               </LiFile >
                               <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseznt10" aria-expanded="false" aria-controls="collapseznt10">Základy práce s MS Office a jejich využití na školách
-      </b>(8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ZUŠ, asistenti, od listopadu 2022)
+      </b>(8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti, od listopadu 2022)
         <div className="collapse " id="collapseznt10">
                                   <ul className="list-group"><li className="list-group-item">•	<b>MS Office 365 </b> – představení prostřední MS Office 365 z pohledu zefektivnění práce (1,5 hod)</li>
                                     <li className="list-group-item">•	<b>MS Office Word </b> – formátování písma, odstavců, textu, vícestránkové dokumenty, vkládání a úprava textů z internetu, záhlaví, zápatí, styly, vkládání a úprava obrázků do textu, práce s obrazci, symboly, rozšíření znalostí klávesových zkratek, úprava dlouhých strukturovaných textů, správná citace textů podle normy ISO (2,5 hod)</li>
