@@ -867,7 +867,7 @@ var SSInkluzeCizinci: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
           <li className="list-group-item">•	Téma - práce s metodickým materiálem. Příklady dobré praxe  – kazuistiky. Metodický materiál pro zjištění porozumění českému jazyku (aktivní a pasivní znalosti jazyka). Ukázka metodického materiálu, pomůcek, odkazy na doporučenou literaturu. (2 hodiny)</li>
         </ul></div>
       </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesic4" aria-expanded="false" aria-controls="collapsesic4">Jak ve škole pracovat se žáky cizinci
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesic4" aria-expanded="false" aria-controls="collapsesic4">Jak ve škole asertivně pracovat se žáky cizinci
       </b>(8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, asistenti, od srpna 2022)
         <div className="collapse border rounded " id="collapsesic4">
           <div className="m-3">
@@ -881,7 +881,7 @@ var SSInkluzeCizinci: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
             c)	metodická podpora při vzdělávání žáků cizinců - zaměření na inkluzi žáka cizince do školního prostředí<br />
           </div></div>
       </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesic5" aria-expanded="false" aria-controls="collapsesic5">Jak ve škole pracovat se žáky cizinci - webinář
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesic5" aria-expanded="false" aria-controls="collapsesic5">Jak ve škole asertivně pracovat se žáky cizinci - webinář
       </b>  (8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, asistenti, od srpna 2022)
         <div className="collapse border rounded " id="collapsesic5">
           <div className="m-3">
@@ -2361,7 +2361,7 @@ var ZSInkluzeCizinci: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
                                     </div>
                                   </div>
                                 </LiFile >
-                                <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezic3" aria-expanded="false" aria-controls="collapsezic3">Jak ve škole pracovat se žáky cizinci
+                                <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezic3" aria-expanded="false" aria-controls="collapsezic3">Jak ve škole asertivně pracovat se žáky cizinci
       </b>(8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, asistenti, od srpna 2022)
         <div className="collapse border rounded " id="collapsezic3">
                                     <div className="m-3">
@@ -2375,7 +2375,7 @@ var ZSInkluzeCizinci: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
                                       c)	metodická podpora při vzdělávání žáků cizinců - zaměření na inkluzi žáka cizince do školního prostředí<br />
                                     </div></div>
                                 </LiFile>
-                                <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezic31" aria-expanded="false" aria-controls="collapsezic31">Jak ve škole pracovat se žáky cizinci - webinář
+                                <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezic31" aria-expanded="false" aria-controls="collapsezic31">Jak ve škole asertivně pracovat se žáky cizinci - webinář
       </b>  (8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, asistenti, od srpna 2022)
         <div className="collapse border rounded " id="collapsezic31">
                                     <div className="m-3">
