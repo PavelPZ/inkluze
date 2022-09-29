@@ -121,14 +121,14 @@
         </LiHand>
         <LiHand><h4><b>7.12. 2022 <a href="/index.html?home|kurzyss|SSPedagogickaDiagnostika">Kázeňské přestupky a možnosti jejich řešení v rámci třídy.</a></b></h4>
           <h4><Label bsStyle="warning">Oblasti: pedagogická diagnostika, Inkluze</Label></h4>
-          <p>Akreditace: v procesu akreditace</p>
+          <p>Akreditace: MSMT- 21314/2022-2-729</p>
           <p>Cena: 1590 Kč/os, Lektor: PaedDr. Ellen Mlátilíková</p>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=7.12.%202022%20K%C3%A1ze%C5%88sk%C3%A9%20p%C5%99estupky%20a%20mo%C5%BEnosti%20jejich%20%C5%99e%C5%A1en%C3%AD%20v%20r%C3%A1mci%20t%C5%99%C3%ADdy.&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
         <LiHand><h4><b>8.12. 2022 <a href="/index.html?home|kurzyss|SSGenderovaTematika"> Gender a genderová tematika na školách</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Genderová tematika v obsahu vzdělávání</Label></h4>
-          <p>Akreditace: v procesu akreditace</p>
+          <p>Akreditace: MSMT- 21314/2022-2-729</p>
           <p>Cena: 1590 Kč/os, Lektor: Mgr. Jana Soukupová</p>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=8.12.%202022%20Gender%20a%20genderov%C3%A1%20tematika%20na%20%C5%A1kol%C3%A1ch&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
@@ -142,7 +142,7 @@
         </LiHand>
         <LiHand><h4><b>25.1. 2023 <a href="/index.html?home|kurzyss|ssindividualizace">Vedení portfolia žáka jako nástroj formativního hodnocení</a></b></h4>
           <h4><Label bsStyle="warning">Oblasti: Individualizece vzdělávání a vedení portfolia dítěte/žáka, formativní hodnocen</Label></h4>
-          <p>Akreditace: v procesu akreditace</p>
+          <p>Akreditace: MSMT- 21314/2022-2-729</p>
           <p>Cena: 1590 Kč/os, Lektor: PaedDr. Ellen Mlátilíková</p>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=25.1.%202023%20Veden%C3%AD%20portfolia%20%C5%BE%C3%A1ka%20jako%20n%C3%A1stroj%20formativn%C3%ADho%20hodnocen%C3%AD&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
