@@ -14,34 +14,6 @@
     </BlockEx>
     <BlockEx>
       <ul className='fa-ul'>
-        <LiHand><h4><b>3.10. 2022  <a href="/index.html?home|kurzyss|SSVyukaCestiny">Specifika výuky češtiny jako druhého jazyka</a></b></h4>
-          <h4><Label bsStyle="warning">Oblast: Výuka češtiny jako druhého jazyka</Label></h4>
-          <p>Akreditace: MSMT- 14644/2022-4-517</p>
-          <p>Cena: 1590 Kč/os, Lektor: PaedDr. Renée Grenarová, Ph.D</p>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=3.10.%202022%20Specifika%20v%C3%BDuky%20%C4%8De%C5%A1tiny%20jako%20druh%C3%A9ho%20jazyka&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
-        </LiHand>
-        <LiHand><h4><b>5.10. 2022  <a href="/index.html?home|kurzyss|SSInkluzeCizinci"> Klima třídy se žáky s odlišným mateřským jazykem - webinář</a></b></h4>
-          <h4><Label bsStyle="warning">Oblast: Inkluze</Label></h4>
-          <p>Akreditace: MSMT- 14644/2022-4-517</p>
-          <p>Cena: 1590 Kč/os, Lektor: PaedDr. Ellen Mlátilíková</p>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=5.10.%202022%20Klima%20t%C5%99%C3%ADdy%20se%20%C5%BE%C3%A1ky%20s%20odli%C5%A1n%C3%BDm%20mate%C5%99sk%C3%BDm%20jazykem%20-%20webin%C3%A1%C5%99&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
-        </LiHand>
-        <LiHand><h4><b>6.10. 2022  <a href="/index.html?home|kurzyss|SSWellBeing"> Wellbeing, cesta k harmonizaci vztahů ve škole</a></b></h4>
-          <h4><Label bsStyle="warning">Oblast: Wellbeing a psychohygiena</Label></h4>
-          <p>Akreditace: MSMT- 14644/2022-4-517</p>
-          <p>Cena: 1590 Kč/os, Lektor: Mgr. Jana Soukupová</p>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=6.10.%202022%20Wellbeing%2C%20cesta%20k%20harmonizaci%20vztah%C5%AF%20ve%20%C5%A1kole&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
-        </LiHand>
-        <LiHand><h4><b>11.10. 2022 <a href="/index.html?home|kurzyss|ssmedgramotnost">Funkce a nástrahy internetu, kyberšikana a sociální sítě</a></b></h4>
-          <h4><Label bsStyle="warning">Oblast: Mediální gramotnost, prevence kyberšikany, chování na sociálních sítích</Label></h4>
-          <p>Akreditace: MSMT- 13854/2021-2-500</p>
-          <p>Cena: 1590 Kč/os, Lektor: Mgr. Bc. Jan Šindelář</p>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=11.10.%202022%20Funkce%20a%20n%C3%A1strahy%20internetu%2C%20kyber%C5%A1ikana%20a%20soci%C3%A1ln%C3%AD%20s%C3%ADt%C4%9B&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
-        </LiHand>
         <LiHand><h4><b>13.10. 2022  <a href="/index.html?home|kurzyss|SSNoveTechnologie"> Využití ICT ve škole</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Vzdělání s využitím nových technologií</Label></h4>
           <p>Akreditace: MSMT- 13854/2021-2-500</p>
