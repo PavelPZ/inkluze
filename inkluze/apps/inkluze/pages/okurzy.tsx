@@ -14,20 +14,6 @@
     </BlockEx>
     <BlockEx>
       <ul className='fa-ul'>
-        <LiHand><h4><b>10.11. 2022  <a href="/index.html?home|kurzyss|SSFormativniHodnoceni"> Formativní hodnocení v praxi</a></b></h4>
-          <h4><Label bsStyle="warning">Oblast: Formativní hodnocení</Label></h4>
-          <p>Akreditace: MSMT- 14644/2022-4-517</p>
-          <p>Cena: 1590 Kč/os, Lektor: Mgr. Jana Soukupová</p>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=10.11.%202022%20Formativn%C3%AD%20hodnocen%C3%AD%20v%20praxi&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
-        </LiHand>
-        <LiHand><h4><b>16.11. 2022  <a href="/index.html?home|kurzyss|SSKarierovePoradenstvi"> Role pedagoga v karierovém poradenství – 8 hodin</a></b></h4>
-          <h4><Label bsStyle="warning">Oblast: Kariérové poradneství včetně identifikace a rozvoje </Label></h4>
-          <p>Akreditace: MSMT- 13854/2021-2-500</p>
-          <p>Cena: 1590 Kč/os, Lektor: Mgr. Dana Forýtková</p>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=16.11.%202022%20Role%20pedagoga%20v%20karierov%C3%A9m%20poradenstv%C3%AD%20%E2%80%93%208%20hodin&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
-        </LiHand>
         <LiHand><h4><b>24.11. 2022 <a href="/index.html?home|kurzyss|SSWellBeing"> Wellbeing, cesta k harmonizaci vztahů ve škole</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Wellbeing a psychohygiena</Label></h4>
           <p>Akreditace: MSMT- 14644/2022-4-517</p>
