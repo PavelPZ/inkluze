@@ -105,18 +105,18 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=27.3.%202023%20Specifika%20v%C3%BDuky%20%C4%8De%C5%A1tiny%20jako%20druh%C3%A9ho%20jazyka&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
-        <LiHand><h4><b>28.3. 2023 <a href="/index.html?home|kurzyii|zsmedialnigramotnost">Funkce a nástrahy internetu, kyberšikana a sociální sítě  </a></b></h4>
-          <h4><Label bsStyle="warning">Oblast: Mediální gramotnost, prevence kyberšikany, chování na sociálních sítích</Label></h4>
-          <p>Akreditace: MSMT- 13854/2021-2-500</p>
-          <p>Cena: 1590 Kč/os, Lektor: Mgr. Bc. Jan Šindelář</p>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=28.3.%202023%20%20Funkce%20a%20n%C3%A1strahy%20internetu%2C%20kyber%C5%A1ikana%20a%20soci%C3%A1ln%C3%AD%20s%C3%ADt%C4%9B&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
-        </LiHand>
         <LiHand><h4><b>28.3. 2023 <a href="/index.html?home|kurzyii|zsmatematickagramotnost">GeoGebra jako nástroj rozvoje matematické gramotnosti na ZŠ</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Matematická gramotnost</Label></h4>
           <p>Akreditace: MSMT- 332/2021-4-72</p>
           <p>Cena: 1590 Kč/os, Lektor: PhDr. Veronika Havelková, Ph.D.</p>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=28.3.%202023%20GeoGebra%20jako%20n%C3%A1stroj%20rozvoje%20matematick%C3%A9%20gramotnosti%20na%20Z%C5%A0&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+        </LiHand>
+        <LiHand><h4><b>28.3. 2023 <a href="/index.html?home|kurzyii|zsmatematickagramotnost">Nová informatika na základní škole</a></b></h4>
+          <h4><Label bsStyle="warning">Oblast: Vzdělání s využitím nových technologií</Label></h4>
+          <p>Akreditace: MSMT- 28650/2022-2</p>
+          <p>Cena: 1590 Kč/os, Lektor: Mgr. Bc. Jan Šindelář</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=28.3.%202023%20Nov%C3%A1%20informatika%20na%20z%C3%A1kladn%C3%AD%20%C5%A1kole&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
         <LiHand><h4><b>29.3. 2023 <a href="/index.html?home|kurzyss|ssmatematickagramotnost">GeoGebra - nástroj rozvoje matematické gramotnosti na SŠ</a></b></h4>
@@ -131,6 +131,13 @@
           <p>Akreditace: 14644/2022-4-517</p>
           <p>Cena: 1590 Kč/os, Lektor: PaedDr. Ellen Mlátilíková</p>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=29.3.%202023%20%C5%BD%C3%A1k%20nadan%C3%BD%20a%20mimo%C5%99%C3%A1dn%C4%9B%20nadan%C3%BD%2C%20mo%C5%BEnosti%20jeho%20rozvoje-webin%C3%A1%C5%99&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+        </LiHand>
+        <LiHand><h4><b>18.4. 2023 <a href="/index.html?home|kurzyii|zsmedialnigramotnost">Funkce a nástrahy internetu, kyberšikana a sociální sítě  </a></b></h4>
+          <h4><Label bsStyle="warning">Oblast: Mediální gramotnost, prevence kyberšikany, chování na sociálních sítích</Label></h4>
+          <p>Akreditace: MSMT- 13854/2021-2-500</p>
+          <p>Cena: 1590 Kč/os, Lektor: Mgr. Bc. Jan Šindelář</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=28.3.%202023%20%20Funkce%20a%20n%C3%A1strahy%20internetu%2C%20kyber%C5%A1ikana%20a%20soci%C3%A1ln%C3%AD%20s%C3%ADt%C4%9B&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
         <LiHand><h4><b>19.4. 2023 <a href="/index.html?home|kurzyii|ZSInovace">Úpravy ŠVP v rámci programu InspIS ŠVP</a></b></h4>

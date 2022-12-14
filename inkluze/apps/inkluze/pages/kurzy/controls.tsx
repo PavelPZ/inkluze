@@ -815,7 +815,48 @@ var SSInkluzeCizinci: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
 
   <BlockEx header="Nabízíme následující kurzy:">
     <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
-
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesic0" aria-expanded="false" aria-controls="collapsesic0">Jak pracovat se žáky s odlišným mateřským jazykem  </b> (8 hod, akreditováno pro SŠ, VOŠ, ZŠ, asistenti) 
+                                <div className="collapse " id="collapsesic0"><ul className="list-group">
+          <li className="list-group-item">•	Téma: Společné vzdělávání na základních a středních školách a možnosti vzdělávání žáků s OMJ na těchto školách v souladu s platnými přepisy-Vyhláška 27/2016 Sb., ve znění pozdějších předpisů.
+Vymezení pojmů: odlišné kulturní a jiných životní podmínky: vymezení pojetí „kultura“ a „životní“, hledání terminologických ekvivalentů.
+Struktura podpůrných opatření, možnosti podpůrných opatření se zaměřením na žáky s OMJ.(2 hodiny)
+</li>
+          <li className="list-group-item">•	Téma: Možnosti pedagogické diagnostiky
+- terminologie „vzdělání“ a „vzdělávání „
+- kompetence pedagogického pracovníka v procesu vzdělávání.
+- sociální a společenské otázky v procesu školního vzdělávání žáků s OMJ
+- charakteristika žáka, vývoj základních schopností a dovedností
+- specifika daného věku, principy a příčiny chování žáků v závislosti na prostředí.
+- základní možnosti pedagogické diagnostiky, vhodnost pro stanovení cílů, metod a forem práce v rámci prvního stupně podpůrného opatření.
+- stanovení cílů, způsob konkretizace cílů s dopadem na využití potenciálů žáka s OMJ.
+- komunikace a porozumění žáku s OMJ
+/ respekt k nedokonalé znalosti českého jazyka,  komunikace, možnosti monitorování a  hodnocení plnění výstupů jednotlivých předmětů daného ročníku (2 hodiny)
+</li>
+          <li className="list-group-item">•	Téma: Práce s PLPP, případně IVP, hodnocení žáka, metody a formy práce.
+Využití pedagogické diagnostiky ve školním prostředí, úprava právních předpisů - v souvislosti s využitím podpůrného opatření.
+analýza získaných poznatků
+východiska pro nastavení práce se žákem s OMJ
+tvoření výchovného plánu, PLPP , možnosti individualizace v rámci PO1
+Posílení podpůrných opatření, jestliže se PO 1 jeví jako nedostačující, možnosti ŠPZ /PPP, SPC/.
+práce s doporučením ŠPZ pro vzdělávání žáka se speciálně vzdělávacími potřebami a OMJ
+Metodická východiska v práci učitele: zásady v edukačním procesu- stereotyp, rutinní činnosti, opakování, rozvoj paměti, přiměřenost, od konkretizace po abstrakci, zpětná vazba atd  (2 hodiny)
+</li>
+          <li className="list-group-item">•	Téma: Práce s metodickým materiálem
+Příklady dobré praxe – kazuistiky. Spolupráce pedagogických pracovníků a členů školního poradenského pracoviště.
+Metodický materiál pro zjištění porozumění českému jazyku (aktivní a pasivní znalosti jazyka).
+Ukázka metodického materiálu, pomůcek, odkazy na doporučenou literaturu. (2 hodiny)
+</li>
+        </ul></div>
+      </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesic01" aria-expanded="false" aria-controls="collapsesic01">Jak pracovat se žákem s odlišnými kulturními podmínkami
+      </b>(8 hod, akreditováno pro SŠ, VOŠ, DM, ZŠ, ŠD, asistenti) 
+        <div className="collapse " id="collapsesic01"><ul className="list-group">
+          <li className="list-group-item">•	Téma - teoretická část. Společné vzdělávání na základních a středních školách a možnosti vzdělávání žáků s OMJ na těchto školách v souladu s platnými přepisy-Vyhláška 27/2016 Sb., ve znění pozdějších předpisů. Vymezení pojmů: odlišné kulturní a jiných životní podmínky: vymezení pojetí „kultura“ a „životní“, hledání terminologických ekvivalentů. Struktura podpůrných opatření, možnosti podpůrných opatření se zaměřením na žáky s OMJ a jinými životními a kulturními podmínkami. (2 hodiny)</li>
+          <li className="list-group-item">•	Téma - možnosti pedagogické diagnostiky. terminologie „vzdělání“ a „vzdělávání „ kompetence pedagogického pracovníka v procesu vzdělávání.  sociální a společenské otázky v procesu školního vzdělávání žáků s OMJ, charakteristika žáka, vývoj základních schopností a dovedností, specifika daného věku, principy a příčiny chování žáků v závislosti na prostředí, ve kterém žák vyrůstal a ovlivnilo jeho chování ve školním prostředí, základní možnosti pedagogické diagnostiky, vhodnost pro stanovení cílů, metod a forem práce v rámci prvního stupně podpůrného opatření, stanovení cílů, způsob konkretizace cílů s dopadem na využití potenciálů žáka s OMJ, komunikace a porozumění žáku s OMJ, / respekt, komunikace, hodnotový systém, individualita, empatie, stres a reakce na něj, úcta, budování pravidel osobních i skupinových a jejich dodržování, …/ (2 hodiny).</li>
+          <li className="list-group-item">•	Téma - práce s PLPP, případně IVP, hodnocení žáka, metody a formy práce. Využití pedagogické diagnostiky ve školním prostředí, úprava právních předpisů - v souvislosti s využitím podpůrného opatření, analýza získaných poznatků, východiska pro nastavení práce se žákem s OMJ, tvoření výchovného plánu, PLPP, IVP, práce s doporučením pro žáka se speciálně vzdělávacími potřebami a OMJ. Metodická východiska v práci učitele: zásady v edukačním procesu- stereotyp, rutinní činnosti, opakování, rozvoj paměti, přiměřenost, od konkretizace po abstrakci, zpětná vazba atd. (2 hodiny)</li>
+          <li className="list-group-item">•	Téma- práce s metodickým materiálem. Příklady dobré praxe – kazuistiky. Metodický materiál pro zjištění porozumění českému jazyku (aktivní a pasivní znalosti jazyka). Ukázka metodického materiálu, pomůcek, odkazy na doporučenou literaturu. (2 hodiny)</li>
+        </ul></div>
+      </LiFile>
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesic1" aria-expanded="false" aria-controls="collapsesic1">Klima třídy se žáky s odlišným mateřským jazykem
       </b>(8 hod, akreditováno pro SŠ, VOŠ, ZŠ, asistenti)
         <div className="collapse " id="collapsesic1"><ul className="list-group">
@@ -2218,7 +2259,16 @@ var ZSSpoluprace: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
                         </div>} eventKey={2}>
                           <BlockEx header="Nabízíme následující kurzy:">
                             <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
-
+                              <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseznt0" aria-expanded="false" aria-controls="collapseznt0">Nová informatika na základní škole </b> (8 hod, akreditováno pro ZŠ, asistenti)
+                <div className="collapse " id="collapseznt0">
+                                  <ul className="list-group">
+                                    <li className="list-group-item">•	Jak na novou informatiku dle revidovaného ŠVP. Praktické a teoretické možnosti, jakým způsobem vyučovat novou informatiku na základní škole. Krokování, myšlenková mapa, šifry apod. (2 hod.)</li>
+                                    <li className="list-group-item">•	Rozvoj informatického myšlení žáků pomocí různých výukových metod a forem práce. Práce ve skupinách, samostatná práce s dotykovým zařízením, práce s počítačem, brainstorming…  (1,5 hod.)</li>
+                                    <li className="list-group-item">•	Jednotlivé postupy ve výuce nové informatiky, práce v různých aplikacích a programech, práce s informacemi. Ukázka možnosti práce s robotickými stavebnicemi a jejich virtuálního prostředí.např. Mindmup, VR VEX, scratch, QR generation, Minecraft Education, apod  (3 hod.)</li>
+                                    <li className="list-group-item">•	Ukázka robotických stavebnic a programovatelných stanic a práce s nimi. Práce s virtuální a rozšířenou realitou a možnosti zavedení technologií do výuky. LEGO Edudation, VEX GO, VEX 123 (1,5 hod)</li>
+                                  </ul>
+                                </div>
+                              </LiFile >
                               <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseznt1" aria-expanded="false" aria-controls="collapseznt1">Efektivní využití MS Office pro pedagogy – 8 hodin </b> (8 hod, akreditováno pro ZŠ, SŠ, VOŠ)
                 <div className="collapse " id="collapseznt1">
                                   <ul className="list-group">
@@ -2321,7 +2371,73 @@ var ZSInkluzeCizinci: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
                           </div>} eventKey={1}>
                             <BlockEx header="Nabízíme následující kurzy:">
                               <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
-                                <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezic1" aria-expanded="false" aria-controls="collapsezic1">Klima třídy se žáky s odlišným mateřským jazykem </b> (8 hod, akreditováno pro ZŠ, SŠ, VOŠ, asistenti)
+                              <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezic0" aria-expanded="false" aria-controls="collapsezic0">Jak pracovat se žáky s odlišným mateřským jazykem  </b> (8 hod, akreditováno pro ZŠ, SŠ, VOŠ, asistenti)
+                                <div className="collapse " id="collapsezic0"><ul className="list-group">
+          <li className="list-group-item">•	Téma: Společné vzdělávání na základních a středních školách a možnosti vzdělávání žáků s OMJ na těchto školách v souladu s platnými přepisy-Vyhláška 27/2016 Sb., ve znění pozdějších předpisů. 
+Vymezení pojmů: odlišné kulturní a jiných životní podmínky: vymezení pojetí „kultura“ a „životní“, hledání terminologických ekvivalentů.
+Struktura podpůrných opatření, možnosti podpůrných opatření se zaměřením na žáky s OMJ.(2 hodiny)
+</li>
+          <li className="list-group-item">•	Téma: Možnosti pedagogické diagnostiky
+- terminologie „vzdělání“ a „vzdělávání „
+- kompetence pedagogického pracovníka v procesu vzdělávání. 
+- sociální a společenské otázky v procesu školního vzdělávání žáků s OMJ
+- charakteristika žáka, vývoj základních schopností a dovedností
+- specifika daného věku, principy a příčiny chování žáků v závislosti na prostředí. 
+- základní možnosti pedagogické diagnostiky, vhodnost pro stanovení cílů, metod a forem práce v rámci prvního stupně podpůrného opatření.  
+- stanovení cílů, způsob konkretizace cílů s dopadem na využití potenciálů žáka s OMJ. 
+- komunikace a porozumění žáku s OMJ 
+/ respekt k nedokonalé znalosti českého jazyka,  komunikace, možnosti monitorování a  hodnocení plnění výstupů jednotlivých předmětů daného ročníku (2 hodiny)
+</li>
+          <li className="list-group-item">•	Téma: Práce s PLPP, případně IVP, hodnocení žáka, metody a formy práce. 
+Využití pedagogické diagnostiky ve školním prostředí, úprava právních předpisů - v souvislosti s využitím podpůrného opatření.
+analýza získaných poznatků
+východiska pro nastavení práce se žákem s OMJ
+tvoření výchovného plánu, PLPP , možnosti individualizace v rámci PO1
+Posílení podpůrných opatření, jestliže se PO 1 jeví jako nedostačující, možnosti ŠPZ /PPP, SPC/. 
+práce s doporučením ŠPZ pro vzdělávání žáka se speciálně vzdělávacími potřebami a OMJ
+Metodická východiska v práci učitele: zásady v edukačním procesu- stereotyp, rutinní činnosti, opakování, rozvoj paměti, přiměřenost, od konkretizace po abstrakci, zpětná vazba atd  (2 hodiny)
+</li>
+          <li className="list-group-item">•	Téma: Práce s metodickým materiálem 
+Příklady dobré praxe – kazuistiky. Spolupráce pedagogických pracovníků a členů školního poradenského pracoviště. 
+Metodický materiál pro zjištění porozumění českému jazyku (aktivní a pasivní znalosti jazyka).
+Ukázka metodického materiálu, pomůcek, odkazy na doporučenou literaturu. (2 hodiny)
+</li>
+                                </ul></div>
+                              </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezic01" aria-expanded="false" aria-controls="collapsezic01">Jak pracovat se žáky s odlišným mateřským jazykem  </b> (8 hod, akreditováno pro ZŠ, ŠD, SŠ, VOŠ, DM, asistenti) 
+                                <div className="collapse " id="collapsezic01"><ul className="list-group">
+          <li className="list-group-item">•	Téma: Společné vzdělávání na základních a středních školách a možnosti vzdělávání žáků s OMJ na těchto školách v souladu s platnými přepisy-Vyhláška 27/2016 Sb., ve znění pozdějších předpisů.
+Vymezení pojmů: odlišné kulturní a jiných životní podmínky: vymezení pojetí „kultura“ a „životní“, hledání terminologických ekvivalentů.
+Struktura podpůrných opatření, možnosti podpůrných opatření se zaměřením na žáky s OMJ.(2 hodiny)
+</li>
+          <li className="list-group-item">•	Téma: Možnosti pedagogické diagnostiky
+- terminologie „vzdělání“ a „vzdělávání „
+- kompetence pedagogického pracovníka v procesu vzdělávání.
+- sociální a společenské otázky v procesu školního vzdělávání žáků s OMJ
+- charakteristika žáka, vývoj základních schopností a dovedností
+- specifika daného věku, principy a příčiny chování žáků v závislosti na prostředí.
+- základní možnosti pedagogické diagnostiky, vhodnost pro stanovení cílů, metod a forem práce v rámci prvního stupně podpůrného opatření.
+- stanovení cílů, způsob konkretizace cílů s dopadem na využití potenciálů žáka s OMJ.
+- komunikace a porozumění žáku s OMJ
+/ respekt k nedokonalé znalosti českého jazyka,  komunikace, možnosti monitorování a  hodnocení plnění výstupů jednotlivých předmětů daného ročníku (2 hodiny)
+</li>
+          <li className="list-group-item">•	Téma: Práce s PLPP, případně IVP, hodnocení žáka, metody a formy práce.
+Využití pedagogické diagnostiky ve školním prostředí, úprava právních předpisů - v souvislosti s využitím podpůrného opatření.
+analýza získaných poznatků
+východiska pro nastavení práce se žákem s OMJ
+tvoření výchovného plánu, PLPP , možnosti individualizace v rámci PO1
+Posílení podpůrných opatření, jestliže se PO 1 jeví jako nedostačující, možnosti ŠPZ /PPP, SPC/.
+práce s doporučením ŠPZ pro vzdělávání žáka se speciálně vzdělávacími potřebami a OMJ
+Metodická východiska v práci učitele: zásady v edukačním procesu- stereotyp, rutinní činnosti, opakování, rozvoj paměti, přiměřenost, od konkretizace po abstrakci, zpětná vazba atd  (2 hodiny)
+</li>
+          <li className="list-group-item">•	Téma: Práce s metodickým materiálem
+Příklady dobré praxe – kazuistiky. Spolupráce pedagogických pracovníků a členů školního poradenského pracoviště.
+Metodický materiál pro zjištění porozumění českému jazyku (aktivní a pasivní znalosti jazyka).
+Ukázka metodického materiálu, pomůcek, odkazy na doporučenou literaturu. (2 hodiny)
+</li>
+        </ul></div>
+      </LiFile >
+                              <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezic1" aria-expanded="false" aria-controls="collapsezic1">Klima třídy se žáky s odlišným mateřským jazykem </b> (8 hod, akreditováno pro ZŠ, SŠ, VOŠ, asistenti)
         <div className="collapse " id="collapsezic1"><ul className="list-group">
                                     <li className="list-group-item">•	<b>Téma – Základní sociální potřeby žáků s OMJ, jinými životními a kulturními potřebami</b>  Základní sociální potřeby: Potřeba místa, bezpečí, podnětu, potřeba péče, výživy, dále potřeby podpory a sociálních limitů. Důsledky nenaplňování potřeb a jejich vliv na chování žáků v rámci dané třídy, školy. Dopady procesu psychického a fyzického vývoje a spojené se změnou životních podmínek a jejich vliv na chování žáka v podmínkách školy, přístup k pravidlům, normám a jejich respektování. (2 hodiny)</li>
                                     <li className="list-group-item">•	<b>Téma – žák s OMJ a jinými životními a kulturními podmínkami, vliv na klima třídy.</b>  Pravidla a zásady vedení třídního kolektivu. Práce s tvarem třídy – konformita a normy konkrétního třídního kolektivu – příprava, hranice, rizika a zdroje. Role žáka ve třídě, zapojení žáka s OMJ do třídního kolektivu. Posilování pozitivních vazeb. Regulace chování ve skupině. (2 hodiny)</li>
