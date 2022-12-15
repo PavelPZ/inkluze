@@ -2404,36 +2404,16 @@ Ukázka metodického materiálu, pomůcek, odkazy na doporučenou literaturu. (2
 </li>
                                 </ul></div>
                               </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezic01" aria-expanded="false" aria-controls="collapsezic01">Jak pracovat se žáky s odlišným mateřským jazykem  </b> (8 hod, akreditováno pro ZŠ, ŠD, SŠ, VOŠ, DM, asistenti) 
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezic01" aria-expanded="false" aria-controls="collapsezic01">Jak pracovat se žákem s odlišnými kulturními podmínkami </b> (8 hod, akreditováno pro ZŠ, ŠD, SŠ, VOŠ, DM, asistenti)  
                                 <div className="collapse " id="collapsezic01"><ul className="list-group">
-          <li className="list-group-item">•	Téma: Společné vzdělávání na základních a středních školách a možnosti vzdělávání žáků s OMJ na těchto školách v souladu s platnými přepisy-Vyhláška 27/2016 Sb., ve znění pozdějších předpisů.
-Vymezení pojmů: odlišné kulturní a jiných životní podmínky: vymezení pojetí „kultura“ a „životní“, hledání terminologických ekvivalentů.
-Struktura podpůrných opatření, možnosti podpůrných opatření se zaměřením na žáky s OMJ.(2 hodiny)
+          <li className="list-group-item">•	Téma - teoretická část. Společné vzdělávání na základních a středních školách a možnosti vzdělávání žáků s OMJ na těchto školách v souladu s platnými přepisy-Vyhláška 27/2016 Sb., ve znění pozdějších předpisů. Vymezení pojmů: odlišné kulturní a jiných životní podmínky: vymezení pojetí „kultura“ a „životní“, hledání terminologických ekvivalentů. Struktura podpůrných opatření, možnosti podpůrných opatření se zaměřením na žáky s OMJ a jinými životními a kulturními podmínkami. (2 hodiny)
 </li>
-          <li className="list-group-item">•	Téma: Možnosti pedagogické diagnostiky
-- terminologie „vzdělání“ a „vzdělávání „
-- kompetence pedagogického pracovníka v procesu vzdělávání.
-- sociální a společenské otázky v procesu školního vzdělávání žáků s OMJ
-- charakteristika žáka, vývoj základních schopností a dovedností
-- specifika daného věku, principy a příčiny chování žáků v závislosti na prostředí.
-- základní možnosti pedagogické diagnostiky, vhodnost pro stanovení cílů, metod a forem práce v rámci prvního stupně podpůrného opatření.
-- stanovení cílů, způsob konkretizace cílů s dopadem na využití potenciálů žáka s OMJ.
-- komunikace a porozumění žáku s OMJ
-/ respekt k nedokonalé znalosti českého jazyka,  komunikace, možnosti monitorování a  hodnocení plnění výstupů jednotlivých předmětů daného ročníku (2 hodiny)
+          <li className="list-group-item">•	Téma - možnosti pedagogické diagnostiky. terminologie „vzdělání“ a „vzdělávání „ kompetence pedagogického pracovníka v procesu vzdělávání.  sociální a společenské otázky v procesu školního vzdělávání žáků s OMJ, charakteristika žáka, vývoj základních schopností a dovedností, specifika daného věku, principy a příčiny chování žáků v závislosti na prostředí, ve kterém žák vyrůstal a ovlivnilo jeho chování ve školním prostředí, základní možnosti pedagogické diagnostiky, vhodnost pro stanovení cílů, metod a forem práce v rámci prvního stupně podpůrného opatření, stanovení cílů, způsob konkretizace cílů s dopadem na využití potenciálů žáka s OMJ, komunikace a porozumění žáku s OMJ, / respekt, komunikace, hodnotový systém, individualita, empatie, stres a reakce na něj, úcta, budování pravidel osobních i skupinových a jejich dodržování, …/ (2 hodiny).
 </li>
-          <li className="list-group-item">•	Téma: Práce s PLPP, případně IVP, hodnocení žáka, metody a formy práce.
-Využití pedagogické diagnostiky ve školním prostředí, úprava právních předpisů - v souvislosti s využitím podpůrného opatření.
-analýza získaných poznatků
-východiska pro nastavení práce se žákem s OMJ
-tvoření výchovného plánu, PLPP , možnosti individualizace v rámci PO1
-Posílení podpůrných opatření, jestliže se PO 1 jeví jako nedostačující, možnosti ŠPZ /PPP, SPC/.
-práce s doporučením ŠPZ pro vzdělávání žáka se speciálně vzdělávacími potřebami a OMJ
-Metodická východiska v práci učitele: zásady v edukačním procesu- stereotyp, rutinní činnosti, opakování, rozvoj paměti, přiměřenost, od konkretizace po abstrakci, zpětná vazba atd  (2 hodiny)
+          <li className="list-group-item">•	Téma - práce s PLPP, případně IVP, hodnocení žáka, metody a formy práce. Využití pedagogické diagnostiky ve školním prostředí, úprava právních předpisů - v souvislosti s využitím podpůrného opatření, analýza získaných poznatků, východiska pro nastavení práce se žákem s OMJ, tvoření výchovného plánu, PLPP, IVP, práce s doporučením pro žáka se speciálně vzdělávacími potřebami a OMJ. Metodická východiska v práci učitele: zásady v edukačním procesu- stereotyp, rutinní činnosti, opakování, rozvoj paměti, přiměřenost, od konkretizace po abstrakci, zpětná vazba atd. (2 hodiny)
 </li>
-          <li className="list-group-item">•	Téma: Práce s metodickým materiálem
-Příklady dobré praxe – kazuistiky. Spolupráce pedagogických pracovníků a členů školního poradenského pracoviště.
-Metodický materiál pro zjištění porozumění českému jazyku (aktivní a pasivní znalosti jazyka).
-Ukázka metodického materiálu, pomůcek, odkazy na doporučenou literaturu. (2 hodiny)
+          <li className="list-group-item">•	Téma - práce s metodickým materiálem. Příklady dobré praxe – kazuistiky.
+Metodický materiál pro zjištění porozumění českému jazyku (aktivní a pasivní znalosti jazyka). Ukázka metodického materiálu, pomůcek, odkazy na doporučenou literaturu. (2 hodiny)
 </li>
         </ul></div>
       </LiFile >

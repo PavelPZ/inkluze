@@ -93,7 +93,7 @@
         </LiHand>
         <LiHand><h4><b>23.03. 2023  <a href="/index.html?home|kurzyss|ssformativnihodnoceni">Formativní hodnocení v praxi</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Formativní hodnocení</Label></h4>
-          <p>Akreditace: v procesu akreditace</p>
+          <p>Akreditace: MSMT- 14644/2022-4-517</p>
           <p>Cena: 1590 Kč/os, Lektor: Mgr. Jana Soukupová</p>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=23.03.%202023%20Formativn%C3%AD%20hodnocen%C3%AD%20v%20praxi&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
