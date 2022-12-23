@@ -51,7 +51,7 @@
         </LiHand>
         <LiHand><h4><b>22.2. 2023 <a href="/index.html?home|kurzyss|ssinkluzecizinci">Jak pracovat se žáky s odlišným mateřským jazykem</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Inkluze</Label></h4>
-          <p>Akreditace: MSMT - 28650/2022-2</p>
+          <p>Akreditace: MSMT - 28650/2022-4-905</p>
           <p>Cena: 1590 Kč/os, Lektor: PaedDr. Ellen Mlátilíková</p>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=22.2.%202023%20Jak%20pracovat%20se%20%C5%BE%C3%A1ky%20s%20odli%C5%A1n%C3%BDm%20mate%C5%99sk%C3%BDm%20jazykem&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
@@ -114,7 +114,7 @@
         </LiHand>
         <LiHand><h4><b>28.3. 2023 <a href="/index.html?home|kurzyii|zsmatematickagramotnost">Nová informatika na základní škole</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Vzdělání s využitím nových technologií</Label></h4>
-          <p>Akreditace: MSMT- 28650/2022-2</p>
+          <p>Akreditace: MSMT- 28650/2022-4-905</p>
           <p>Cena: 1590 Kč/os, Lektor: Mgr. Bc. Jan Šindelář</p>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=28.3.%202023%20Nov%C3%A1%20informatika%20na%20z%C3%A1kladn%C3%AD%20%C5%A1kole&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
