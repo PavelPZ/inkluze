@@ -14,13 +14,6 @@
     </BlockEx>
     <BlockEx>
       <ul className='fa-ul'>
-        <LiHand><h4><b>19.1. 2023 <a href="/index.html?home|kurzyss|SSRozvojPodnikavosti"> Rozvoj podnikavosti a zásady soukromého podnikání </a></b></h4>
-          <h4><Label bsStyle="warning">Oblast: Rozvoj podnikavosti a kreativity</Label></h4>
-          <p>Akreditace: MSMT- 13854/2021-2-500</p>
-          <p>Cena: 1590 Kč/os, Lektor: Mgr. Jana Soukupová</p>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=19.1.%202023%20Rozvoj%20podnikavosti%20a%20z%C3%A1sady%20soukrom%C3%A9ho%20podnik%C3%A1n%C3%AD&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
-        </LiHand>
         <LiHand><h4><b>25.1. 2023 <a href="/index.html?home|kurzyss|ssindividualizace">Vedení portfolia žáka jako nástroj formativního hodnocení</a></b></h4>
           <h4><Label bsStyle="warning">Oblasti: Individualizece vzdělávání a vedení portfolia dítěte/žáka, formativní hodnocen</Label></h4>
           <p>Akreditace: MSMT- 21314/2022-2-729</p>
@@ -63,7 +56,7 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=27.2.%202022%20Vyu%C5%BEit%C3%AD%20ICT%20ve%20%C5%A1kole&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
-        <LiHand><h4><b>2.3. 2023 <a href="/index.html?home|kurzysswe">Wellbeing, cesta k harmonizaci vztahů ve škole</a></b></h4>
+        <LiHand><h4><b>2.3. 2023 <a href="/index.html?home|kurzyii|sswellbeing">Wellbeing, cesta k harmonizaci vztahů ve škole</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Wellbeing a psychohygiena</Label></h4>
           <p>Akreditace: MSMT- 14644/2022-4-517</p>
           <p>Cena: 1590 Kč/os, Lektor: Mgr. Jana Soukupová</p>
@@ -137,7 +130,7 @@
           <h4><Label bsStyle="warning">Oblast: Mediální gramotnost, prevence kyberšikany, chování na sociálních sítích</Label></h4>
           <p>Akreditace: MSMT- 13854/2021-2-500</p>
           <p>Cena: 1590 Kč/os, Lektor: Mgr. Bc. Jan Šindelář</p>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=28.3.%202023%20%20Funkce%20a%20n%C3%A1strahy%20internetu%2C%20kyber%C5%A1ikana%20a%20soci%C3%A1ln%C3%AD%20s%C3%ADt%C4%9B&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=18.4.%202023%20%20Funkce%20a%20n%C3%A1strahy%20internetu%2C%20kyber%C5%A1ikana%20a%20soci%C3%A1ln%C3%AD%20s%C3%ADt%C4%9B&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
         <LiHand><h4><b>19.4. 2023 <a href="/index.html?home|kurzyii|ZSInovace">Úpravy ŠVP v rámci programu InspIS ŠVP</a></b></h4>
@@ -161,7 +154,20 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=27.4.%202023%20%C4%8Cten%C3%A1%C5%99sk%C3%A1%20a%20informa%C4%8Dn%C3%AD%20gramotnost%20na%20Z%C5%A0%20%E2%80%93%208%20hodin&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
-
+        <LiHand><h4><b>12.6. 2023 <a href="/index.html?home|kurzyii|zsnovetechnologie">Základy práce s MS Office a jejich využití na školách </a></b></h4>
+          <h4><Label bsStyle="warning">Oblast: Vzdělání s využitím nových technologií</Label></h4>
+          <p>Akreditace: MSMT- 21314/2022-2-729</p>
+          <p>Cena: 1590 Kč/os, Lektor: Mgr. Bc. Jan Šindelář</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=12.6.%202023%20Z%C3%A1klady%20pr%C3%A1ce%20s%20MS%20Office%20a%20jejich%20vyu%C5%BEit%C3%AD%20na%20%C5%A1kol%C3%A1ch&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+        </LiHand>
+        <LiHand><h4><b>22.6. 2023 <a href="/index.html?home|kurzyss|SSRozvojPodnikavosti"> Rozvoj podnikavosti a zásady soukromého podnikání </a></b></h4>
+          <h4><Label bsStyle="warning">Oblast: Rozvoj podnikavosti a kreativity</Label></h4>
+          <p>Akreditace: MSMT- 13854/2021-2-500</p>
+          <p>Cena: 1590 Kč/os, Lektor: Mgr. Jana Soukupová</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=22.6.%202023%20Rozvoj%20podnikavosti%20a%20z%C3%A1sady%20soukrom%C3%A9ho%20podnik%C3%A1n%C3%AD&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+        </LiHand>
 
       </ul>
     </BlockEx>
