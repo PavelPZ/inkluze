@@ -14,69 +14,7 @@
     </BlockEx>
     <BlockEx>
       <ul className='fa-ul'>
-        <LiHand><h4><b>25.1. 2023 <a href="/index.html?home|kurzyss|ssindividualizace">Vedení portfolia žáka jako nástroj formativního hodnocení</a></b></h4>
-          <h4><Label bsStyle="warning">Oblasti: Individualizece vzdělávání a vedení portfolia dítěte/žáka, formativní hodnocen</Label></h4>
-          <p>Akreditace: MSMT- 21314/2022-2-729</p>
-          <p>Cena: 1590 Kč/os, Lektor: PaedDr. Ellen Mlátilíková</p>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=25.1.%202023%20Veden%C3%AD%20portfolia%20%C5%BE%C3%A1ka%20jako%20n%C3%A1stroj%20formativn%C3%ADho%20hodnocen%C3%AD&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
-        </LiHand>
-        <LiHand><h4><b>27.1. 2023 <a href="/index.html?home|kurzyii|zsdiagnostika">Sociální klima třídy a pedagogická diagnostika učitele</a></b></h4>
-          <h4><Label bsStyle="warning">Oblasti: Pedagogická diagnostika</Label></h4>
-          <p>Akreditace: MSMT- 14644/2022-4-517</p>
-          <p>Cena: 1590 Kč/os, Lektor: Mgr. Dana Forýtková</p>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=27.1.%202023%20Soci%C3%A1ln%C3%AD%20klima%20t%C5%99%C3%ADdy%20a%20pedagogick%C3%A1%20diagnostika%20u%C4%8Ditele&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
-        </LiHand>
-        <LiHand><h4><b>1.2. 2023 <a href="/index.html?home|kurzyss|SSCtenarskaGramotnost"> Čtenářská gramotnost napříč všemi předměty SŠ a VOŠ – 8 hod</a></b></h4>
-          <h4><Label bsStyle="warning">Oblast: Čtenářská gramotnost </Label></h4>
-          <p>Akreditace: MSMT-11115/2020-2-287</p>
-          <p>Cena: 1590 Kč/os, Lektor: Mgr. Dana Forýtková</p>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=1.2.%202023%20%C4%8Cten%C3%A1%C5%99sk%C3%A1%20gramotnost%20nap%C5%99%C3%AD%C4%8D%20v%C5%A1emi%20p%C5%99edm%C4%9Bty%20S%C5%A0%20a%20VO%C5%A0%20%E2%80%93%208%20hod&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
-        </LiHand>
-        <LiHand><h4><b>2.2. 2023 <a href="/index.html?home|kurzyss|SSGenderovaTematika"> Gender a genderová tematika na školách</a></b></h4>
-          <h4><Label bsStyle="warning">Oblast: Genderová tematika v obsahu vzdělávání</Label></h4>
-          <p>Akreditace: MSMT- 21314/2022-2-729</p>
-          <p>Cena: 1590 Kč/os, Lektor: Mgr. Jana Soukupová</p>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=2.2.%202023%20Gender%20a%20genderov%C3%A1%20tematika%20na%20%C5%A1kol%C3%A1ch&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
-        </LiHand>
-        <LiHand><h4><b>22.2. 2023 <a href="/index.html?home|kurzyss|ssinkluzecizinci">Jak pracovat se žáky s odlišným mateřským jazykem</a></b></h4>
-          <h4><Label bsStyle="warning">Oblast: Inkluze</Label></h4>
-          <p>Akreditace: MSMT - 28650/2022-4-905</p>
-          <p>Cena: 1590 Kč/os, Lektor: PaedDr. Ellen Mlátilíková</p>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=22.2.%202023%20Jak%20pracovat%20se%20%C5%BE%C3%A1ky%20s%20odli%C5%A1n%C3%BDm%20mate%C5%99sk%C3%BDm%20jazykem&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
-        </LiHand>
-        <LiHand><h4><b>27.2. 2023 <a href="/index.html?home|kurzyii|zsnovetechnologie">Využití ICT ve škole</a></b></h4>
-          <h4><Label bsStyle="warning">Oblast: Vzdělání s využitím nových technologií</Label></h4>
-          <p>Akreditace: MSMT- 13854/2021-2-500</p>
-          <p>Cena: 1590 Kč/os, Lektor: PhDr. Veronika Havelková, Ph.D.</p>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=27.2.%202022%20Vyu%C5%BEit%C3%AD%20ICT%20ve%20%C5%A1kole&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
-        </LiHand>
-        <LiHand><h4><b>2.3. 2023 <a href="/index.html?home|kurzyii|sswellbeing">Wellbeing, cesta k harmonizaci vztahů ve škole</a></b></h4>
-          <h4><Label bsStyle="warning">Oblast: Wellbeing a psychohygiena</Label></h4>
-          <p>Akreditace: MSMT- 14644/2022-4-517</p>
-          <p>Cena: 1590 Kč/os, Lektor: Mgr. Jana Soukupová</p>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=2.3.%202023%20Wellbeing%2C%20cesta%20k%20harmonizaci%20vztah%C5%AF%20ve%20%C5%A1kole&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
-        </LiHand>
-        <LiHand><h4><b>15.3. 2023 <a href="/index.html?home|kurzyss|SSPedagogickaDiagnostika">Kázeňské přestupky a možnosti jejich řešení v rámci třídy.</a></b></h4>
-          <h4><Label bsStyle="warning">Oblasti: pedagogická diagnostika, Inkluze</Label></h4>
-          <p>Akreditace: MSMT- 21314/2022-2-729</p>
-          <p>Cena: 1590 Kč/os, Lektor: PaedDr. Ellen Mlátilíková</p>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=15.3.%202023%20K%C3%A1ze%C5%88sk%C3%A9%20p%C5%99estupky%20a%20mo%C5%BEnosti%20jejich%20%C5%99e%C5%A1en%C3%AD%20v%20r%C3%A1mci%20t%C5%99%C3%ADdy.&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
-        </LiHand>
-        <LiHand><h4><b>17.3. 2023 <a href="/index.html?home|kurzyii|ZSInovace">Úpravy ŠVP v rámci programu InspIS ŠVP</a></b></h4>
-          <h4><Label bsStyle="warning">Oblast: Inovace ŠVP/koncepce rozvoje školy/školského zařízení</Label></h4>
-          <p>Akreditace: MSMT- 14644/2022-4-517</p>
-          <p>Cena: 1590 Kč/os, Lektor: Mgr. Dana Forýtková</p>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=17.3.%202023%20%C3%9Apravy%20%C5%A0VP%20v%20r%C3%A1mci%20programu%20InspIS%20%C5%A0VP&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>tento termín bude speciálně zaměřen na ŠVP pro SŠ</p>
-        </LiHand>
+
         <LiHand><h4><b>22.3. 2023 <a href="/index.html?home|kurzyss|sskarieroveporadenstvi">Role pedagoga v karierovém poradenství – 8 hodin</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Kariérové poradenství včetně identifikace a rozvoje nadání</Label></h4>
           <p>Akreditace: MSMT- 13854/2021-2-500</p>
@@ -136,7 +74,7 @@
         <LiHand><h4><b>19.4. 2023 <a href="/index.html?home|kurzyii|ZSInovace">Úpravy ŠVP v rámci programu InspIS ŠVP</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Inovace ŠVP/koncepce rozvoje školy/školského zařízení</Label></h4>
           <p>Akreditace: MSMT- 14644/2022-4-517</p>
-          <p>Cena: 1590 Kč/os, Lektor: Mgr. Dana Forýtková</p>
+          <p>Cena: 1590 Kč/os, Lektor: Bc. Jiří Forýtek</p>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=19.4.%202023%20%C3%9Apravy%20%C5%A0VP%20v%20r%C3%A1mci%20programu%20InspIS%20%C5%A0VP&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>tento termín bude speciálně zaměřen na ŠVP pro ZŠ</p>
         </LiHand>
@@ -154,11 +92,60 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=27.4.%202023%20%C4%8Cten%C3%A1%C5%99sk%C3%A1%20a%20informa%C4%8Dn%C3%AD%20gramotnost%20na%20Z%C5%A0%20%E2%80%93%208%20hodin&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
+        <LiHand><h4><b>27.4. 2023 <a href="/index.html?home|kurzyss|SSGenderovaTematika"> Gender a genderová tematika na školách</a></b></h4>
+          <h4><Label bsStyle="warning">Oblast: Genderová tematika v obsahu vzdělávání</Label></h4>
+          <p>Akreditace: MSMT- 21314/2022-2-729</p>
+          <p>Cena: 1590 Kč/os, Lektor: Mgr. Jana Soukupová</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=27.4.%202023%20Gender%20a%20genderov%C3%A1%20tematika%20na%20%C5%A1kol%C3%A1ch&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+        </LiHand>
+        <LiHand><h4><b>9.5. 2023 <a href="/index.html?home|kurzyii|ZSInovace">Úpravy ŠVP v rámci programu InspIS ŠVP</a></b></h4>
+          <h4><Label bsStyle="warning">Oblast: Inovace ŠVP/koncepce rozvoje školy/školského zařízení</Label></h4>
+          <p>Akreditace: MSMT- 14644/2022-4-517</p>
+          <p>Cena: 1590 Kč/os, Lektor: Bc. Jiří Forýtek</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=9.5.%202023%20%C3%9Apravy%20%C5%A0VP%20v%20r%C3%A1mci%20programu%20InspIS%20%C5%A0VP&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>tento termín bude speciálně zaměřen na ŠVP pro SŠ</p>
+        </LiHand>
+        <LiHand><h4><b>31.5. 2023 <a href="/index.html?home|kurzyss|ssindividualizace">Vedení portfolia žáka jako nástroj formativního hodnocení</a></b></h4>
+          <h4><Label bsStyle="warning">Oblasti: Individualizece vzdělávání a vedení portfolia dítěte/žáka, formativní hodnocen</Label></h4>
+          <p>Akreditace: MSMT- 21314/2022-2-729</p>
+          <p>Cena: 1590 Kč/os, Lektor: PaedDr. Ellen Mlátilíková</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=31.5.%202023%20Veden%C3%AD%20portfolia%20%C5%BE%C3%A1ka%20jako%20n%C3%A1stroj%20formativn%C3%ADho%20hodnocen%C3%AD&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+        </LiHand>
+        <LiHand><h4><b>7.6. 2023 <a href="/index.html?home|kurzyss|sspedagogickadiagnostika">Kázeňské přestupky a možnosti jejich řešení v rámci třídy</a></b></h4>
+          <h4><Label bsStyle="warning">Oblasti: pedagogická diagnostika, Inkluze</Label></h4>
+          <p>Akreditace: MSMT- 21314/2022-2-729</p>
+          <p>Cena: 1590 Kč/os, Lektor: PaedDr. Ellen Mlátilíková</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=7.6.%202023%20K%C3%A1ze%C5%88sk%C3%A9%20p%C5%99estupky%20a%20mo%C5%BEnosti%20jejich%20%C5%99e%C5%A1en%C3%AD%20v%20r%C3%A1mci%20t%C5%99%C3%ADdy&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+        </LiHand>
+        <LiHand><h4><b>8.6. 2023 <a href="/index.html?home|kurzyss|sswellbeing">Wellbeing, cesta k harmonizaci vztahů ve škole</a></b></h4>
+          <h4><Label bsStyle="warning">Oblast: Wellbeing a psychohygiena</Label></h4>
+          <p>Akreditace: MSMT- 14644/2022-4-517</p>
+          <p>Cena: 1590 Kč/os, Lektor: Mgr. Jana Soukupová</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=8.6.%202023%20Wellbeing%2C%20cesta%20k%20harmonizaci%20vztah%C5%AF%20ve%20%C5%A1kole&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+        </LiHand>
         <LiHand><h4><b>12.6. 2023 <a href="/index.html?home|kurzyii|zsnovetechnologie">Základy práce s MS Office a jejich využití na školách </a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Vzdělání s využitím nových technologií</Label></h4>
           <p>Akreditace: MSMT- 21314/2022-2-729</p>
           <p>Cena: 1590 Kč/os, Lektor: Mgr. Bc. Jan Šindelář</p>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=12.6.%202023%20Z%C3%A1klady%20pr%C3%A1ce%20s%20MS%20Office%20a%20jejich%20vyu%C5%BEit%C3%AD%20na%20%C5%A1kol%C3%A1ch&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+        </LiHand>
+        <LiHand><h4><b>14.6. 2023 <a href="/index.html?home|kurzyss|SSCtenarskaGramotnost"> Čtenářská gramotnost napříč všemi předměty SŠ a VOŠ – 8 hod</a></b></h4>
+          <h4><Label bsStyle="warning">Oblast: Čtenářská gramotnost </Label></h4>
+          <p>Akreditace: MSMT-11115/2020-2-287</p>
+          <p>Cena: 1590 Kč/os, Lektor: Mgr. Dana Forýtková</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=14.6.%202023%20%C4%8Cten%C3%A1%C5%99sk%C3%A1%20gramotnost%20nap%C5%99%C3%AD%C4%8D%20v%C5%A1emi%20p%C5%99edm%C4%9Bty%20S%C5%A0%20a%20VO%C5%A0%20%E2%80%93%208%20hod&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+        </LiHand>
+        <LiHand><h4><b>15.6. 2023 <a href="/index.html?home|kurzyii|zsdiagnostika">Sociální klima třídy a pedagogická diagnostika učitele</a></b></h4>
+          <h4><Label bsStyle="warning">Oblasti: Pedagogická diagnostika</Label></h4>
+          <p>Akreditace: MSMT- 14644/2022-4-517</p>
+          <p>Cena: 1590 Kč/os, Lektor: Mgr. Dana Forýtková</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=15.6.%202023%20Soci%C3%A1ln%C3%AD%20klima%20t%C5%99%C3%ADdy%20a%20pedagogick%C3%A1%20diagnostika%20u%C4%8Ditele&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
         <LiHand><h4><b>22.6. 2023 <a href="/index.html?home|kurzyss|SSRozvojPodnikavosti"> Rozvoj podnikavosti a zásady soukromého podnikání </a></b></h4>
@@ -168,7 +155,20 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=22.6.%202023%20Rozvoj%20podnikavosti%20a%20z%C3%A1sady%20soukrom%C3%A9ho%20podnik%C3%A1n%C3%AD&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
-
+        <LiHand><h4><b>1.11. 2023 <a href="/index.html?home|kurzyss|ssinkluzecizinci">Jak pracovat se žáky s odlišným mateřským jazykem</a></b></h4>
+          <h4><Label bsStyle="warning">Oblast: Inkluze</Label></h4>
+          <p>Akreditace: MSMT - 28650/2022-4-905</p>
+          <p>Cena: 1590 Kč/os, Lektor: PaedDr. Ellen Mlátilíková</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=1.11.%202023%20Jak%20pracovat%20se%20%C5%BE%C3%A1ky%20s%20odli%C5%A1n%C3%BDm%20mate%C5%99sk%C3%BDm%20jazykem&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+        </LiHand>
+        <LiHand><h4><b>listopad 2023 <a href="/index.html?home|kurzyii|zsnovetechnologie">Využití ICT ve škole</a></b></h4>
+          <h4><Label bsStyle="warning">Oblast: Vzdělání s využitím nových technologií</Label></h4>
+          <p>Akreditace: MSMT- 13854/2021-2-500</p>
+          <p>Cena: 1590 Kč/os, Lektor: PhDr. Veronika Havelková, Ph.D.</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=listopad%202023%20Vyu%C5%BEit%C3%AD%20ICT%20ve%20%C5%A1kole&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+        </LiHand>
       </ul>
     </BlockEx>
 
