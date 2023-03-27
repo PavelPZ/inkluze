@@ -14,54 +14,32 @@
     </BlockEx>
     <BlockEx>
       <ul className='fa-ul'>
-
-        <LiHand><h4><b>22.3. 2023 <a href="/index.html?home|kurzyss|sskarieroveporadenstvi">Role pedagoga v karierovém poradenství – 8 hodin</a></b></h4>
-          <h4><Label bsStyle="warning">Oblast: Kariérové poradenství včetně identifikace a rozvoje nadání</Label></h4>
-          <p>Akreditace: MSMT- 13854/2021-2-500</p>
-          <p>Cena: 1590 Kč/os, Lektor: Mgr. Dana Forýtková</p>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=22.3.%202023%20Role%20pedagoga%20v%20karierov%C3%A9m%20poradenstv%C3%AD%20%E2%80%93%208%20hodin&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
-        </LiHand>
-        <LiHand><h4><b>23.03. 2023  <a href="/index.html?home|kurzyss|ssformativnihodnoceni">Formativní hodnocení v praxi</a></b></h4>
-          <h4><Label bsStyle="warning">Oblast: Formativní hodnocení</Label></h4>
-          <p>Akreditace: MSMT- 14644/2022-4-517</p>
-          <p>Cena: 1590 Kč/os, Lektor: Mgr. Jana Soukupová</p>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=23.03.%202023%20Formativn%C3%AD%20hodnocen%C3%AD%20v%20praxi&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
-        </LiHand>
-        <LiHand><h4><b>27.3. 2023 <a href="/index.html?home|kurzyss|ssvyukacestiny">Specifika výuky češtiny jako druhého jazyka</a></b></h4>
-          <h4><Label bsStyle="warning">Oblast: Výuka češtiny jako druhého jazyka</Label></h4>
-          <p>Akreditace: MSMT- 14644/2022-4-517</p>
-          <p>Cena: 1590 Kč/os, Lektor: PaedDr. Renée Grenarová, Ph.D</p>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=27.3.%202023%20Specifika%20v%C3%BDuky%20%C4%8De%C5%A1tiny%20jako%20druh%C3%A9ho%20jazyka&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
-        </LiHand>
         <LiHand><h4><b>28.3. 2023 <a href="/index.html?home|kurzyii|zsmatematickagramotnost">GeoGebra jako nástroj rozvoje matematické gramotnosti na ZŠ</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Matematická gramotnost</Label></h4>
           <p>Akreditace: MSMT- 332/2021-4-72</p>
           <p>Cena: 1590 Kč/os, Lektor: PhDr. Veronika Havelková, Ph.D.</p>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=28.3.%202023%20GeoGebra%20jako%20n%C3%A1stroj%20rozvoje%20matematick%C3%A9%20gramotnosti%20na%20Z%C5%A0&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=6.11.%202023%20GeoGebra%20jako%20n%C3%A1stroj%20rozvoje%20matematick%C3%A9%20gramotnosti%20na%20Z%C5%A0&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
-        <LiHand><h4><b>28.3. 2023 <a href="/index.html?home|kurzyii|zsmatematickagramotnost">Nová informatika na základní škole</a></b></h4>
-          <h4><Label bsStyle="warning">Oblast: Vzdělání s využitím nových technologií</Label></h4>
-          <p>Akreditace: MSMT- 28650/2022-4-905</p>
-          <p>Cena: 1590 Kč/os, Lektor: Mgr. Bc. Jan Šindelář</p>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=28.3.%202023%20Nov%C3%A1%20informatika%20na%20z%C3%A1kladn%C3%AD%20%C5%A1kole&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
-        </LiHand>
-        <LiHand><h4><b>29.3. 2023 <a href="/index.html?home|kurzyss|ssmatematickagramotnost">GeoGebra - nástroj rozvoje matematické gramotnosti na SŠ</a></b></h4>
+        <LiHand><h4><b>29.3. 2023 <a href="/index.html?home|kurzyss|ssmatematickagramotnost">GeoGebra jako nástroj rozvoje matematické gramotnosti na SŠ</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Matematická gramotnost</Label></h4>
           <p>Akreditace: MSMT- 11115/2020-2-287</p>
           <p>Cena: 1590 Kč/os, Lektor: PhDr. Veronika Havelková, Ph.D.</p>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=29.3.%202023%20GeoGebra%20-%20n%C3%A1stroj%20rozvoje%20matematick%C3%A9%20gramotnosti%20na%20S%C5%A0&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=7.11.%202023%20GeoGebra%20jako%20n%C3%A1stroj%20rozvoje%20matematick%C3%A9%20gramotnosti%20na%20S%C5%A0&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
-        <LiHand><h4><b>29.3. 2023 <a href="/index.html?home|kurzyss|sskarieroveporadenstvi">Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje-webinář</a></b></h4>
+        <LiHand><h4><b>5.4. 2023 <a href="/index.html?home|kurzyss|sskarieroveporadenstvi">Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje-webinář</a></b></h4>
           <h4><Label bsStyle="warning">Oblasti: Kariérové poradneství včetně identifikace a rozvoje nadání, Inkluze</Label></h4>
           <p>Akreditace: 14644/2022-4-517</p>
           <p>Cena: 1590 Kč/os, Lektor: PaedDr. Ellen Mlátilíková</p>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=29.3.%202023%20%C5%BD%C3%A1k%20nadan%C3%BD%20a%20mimo%C5%99%C3%A1dn%C4%9B%20nadan%C3%BD%2C%20mo%C5%BEnosti%20jeho%20rozvoje-webin%C3%A1%C5%99&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=5.4.%202023%20%C5%BD%C3%A1k%20nadan%C3%BD%20a%20mimo%C5%99%C3%A1dn%C4%9B%20nadan%C3%BD%2C%20mo%C5%BEnosti%20jeho%20rozvoje-webin%C3%A1%C5%99&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+        </LiHand>
+        <LiHand><h4><b>5.4. 2023 <a href="/index.html?home|kurzyss|ssmatematickagramotnost">GeoGebra - nástroj rozvoje matematické gramotnosti na SŠ</a></b></h4>
+          <h4><Label bsStyle="warning">Oblast: Matematická gramotnost</Label></h4>
+          <p>Akreditace: MSMT- 11115/2020-2-287</p>
+          <p>Cena: 1590 Kč/os, Lektor: PhDr. Veronika Havelková, Ph.D.</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=5.4.%202023%20GeoGebra%20-%20n%C3%A1stroj%20rozvoje%20matematick%C3%A9%20gramotnosti%20na%20S%C5%A0&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
         <LiHand><h4><b>18.4. 2023 <a href="/index.html?home|kurzyii|zsmedialnigramotnost">Funkce a nástrahy internetu, kyberšikana a sociální sítě  </a></b></h4>
@@ -74,9 +52,16 @@
         <LiHand><h4><b>19.4. 2023 <a href="/index.html?home|kurzyii|ZSInovace">Úpravy ŠVP v rámci programu InspIS ŠVP</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Inovace ŠVP/koncepce rozvoje školy/školského zařízení</Label></h4>
           <p>Akreditace: MSMT- 14644/2022-4-517</p>
-          <p>Cena: 1590 Kč/os, Lektor: Bc. Jiří Forýtek</p>
+          <p>Cena: 1590 Kč/os, Lektor: Mgr. Dana Forýtková, Bc. Jiří Forýtek</p>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=19.4.%202023%20%C3%9Apravy%20%C5%A0VP%20v%20r%C3%A1mci%20programu%20InspIS%20%C5%A0VP&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>tento termín bude speciálně zaměřen na ŠVP pro ZŠ</p>
+        </LiHand>
+        <LiHand><h4><b>24.4. 2023 <a href="/index.html?home|kurzyss|ssvyukacestiny">Specifika výuky češtiny jako druhého jazyka</a></b></h4>
+          <h4><Label bsStyle="warning">Oblast: Výuka češtiny jako druhého jazyka</Label></h4>
+          <p>Akreditace: MSMT- 14644/2022-4-517</p>
+          <p>Cena: 1590 Kč/os, Lektor: PaedDr. Renée Grenarová, Ph.D</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=24.4.%202023%20Specifika%20v%C3%BDuky%20%C4%8De%C5%A1tiny%20jako%20druh%C3%A9ho%20jazyka&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
         <LiHand><h4><b>26.4. 2023 <a href="/index.html?home|kurzyii|zsspoluprace">Zásady efektivní komunikace s rodiči a zákonnými zástupci</a></b></h4>
           <h4><Label bsStyle="warning">Oblasti: Spolupráce s rodiči a zákonnými zástupci dětí a žáků, Inkluze</Label></h4>
@@ -99,6 +84,13 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=27.4.%202023%20Gender%20a%20genderov%C3%A1%20tematika%20na%20%C5%A1kol%C3%A1ch&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
+        <LiHand><h4><b>30.5. 2023 <a href="/index.html?home|kurzyii|zsmatematickagramotnost">GeoGebra jako nástroj rozvoje matematické gramotnosti na ZŠ</a></b></h4>
+          <h4><Label bsStyle="warning">Oblast: Matematická gramotnost</Label></h4>
+          <p>Akreditace: MSMT- 332/2021-4-72</p>
+          <p>Cena: 1590 Kč/os, Lektor: PhDr. Veronika Havelková, Ph.D.</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=30.5.%202023%20GeoGebra%20jako%20n%C3%A1stroj%20rozvoje%20matematick%C3%A9%20gramotnosti%20na%20Z%C5%A0&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+        </LiHand>
         <LiHand><h4><b>9.5. 2023 <a href="/index.html?home|kurzyii|ZSInovace">Úpravy ŠVP v rámci programu InspIS ŠVP</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Inovace ŠVP/koncepce rozvoje školy/školského zařízení</Label></h4>
           <p>Akreditace: MSMT- 14644/2022-4-517</p>
@@ -106,18 +98,25 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=9.5.%202023%20%C3%9Apravy%20%C5%A0VP%20v%20r%C3%A1mci%20programu%20InspIS%20%C5%A0VP&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>tento termín bude speciálně zaměřen na ŠVP pro SŠ</p>
         </LiHand>
+        <LiHand><h4><b>25.5. 2023 <a href="/index.html?home|kurzyss|sspedagogickadiagnostika">Kázeňské přestupky a možnosti jejich řešení v rámci třídy</a></b></h4>
+          <h4><Label bsStyle="warning">Oblasti: pedagogická diagnostika, Inkluze</Label></h4>
+          <p>Akreditace: MSMT- 21314/2022-2-729</p>
+          <p>Cena: 1590 Kč/os, Lektor: PaedDr. Ellen Mlátilíková</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=25.5.%202023%20K%C3%A1ze%C5%88sk%C3%A9%20p%C5%99estupky%20a%20mo%C5%BEnosti%20jejich%20%C5%99e%C5%A1en%C3%AD%20v%20r%C3%A1mci%20t%C5%99%C3%ADdy&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+        </LiHand>
+        <LiHand><h4><b>30.5. 2023 <a href="/index.html?home|kurzyii|zsmatematickagramotnost">Nová informatika na základní škole</a></b></h4>
+          <h4><Label bsStyle="warning">Oblast: Vzdělání s využitím nových technologií</Label></h4>
+          <p>Akreditace: MSMT- 28650/2022-4-905</p>
+          <p>Cena: 1590 Kč/os, Lektor: Mgr. Bc. Jan Šindelář</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=30.5.%202023%20Nov%C3%A1%20informatika%20na%20z%C3%A1kladn%C3%AD%20%C5%A1kole&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+        </LiHand>
         <LiHand><h4><b>31.5. 2023 <a href="/index.html?home|kurzyss|ssindividualizace">Vedení portfolia žáka jako nástroj formativního hodnocení</a></b></h4>
           <h4><Label bsStyle="warning">Oblasti: Individualizece vzdělávání a vedení portfolia dítěte/žáka, formativní hodnocen</Label></h4>
           <p>Akreditace: MSMT- 21314/2022-2-729</p>
           <p>Cena: 1590 Kč/os, Lektor: PaedDr. Ellen Mlátilíková</p>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=31.5.%202023%20Veden%C3%AD%20portfolia%20%C5%BE%C3%A1ka%20jako%20n%C3%A1stroj%20formativn%C3%ADho%20hodnocen%C3%AD&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
-        </LiHand>
-        <LiHand><h4><b>7.6. 2023 <a href="/index.html?home|kurzyss|sspedagogickadiagnostika">Kázeňské přestupky a možnosti jejich řešení v rámci třídy</a></b></h4>
-          <h4><Label bsStyle="warning">Oblasti: pedagogická diagnostika, Inkluze</Label></h4>
-          <p>Akreditace: MSMT- 21314/2022-2-729</p>
-          <p>Cena: 1590 Kč/os, Lektor: PaedDr. Ellen Mlátilíková</p>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=7.6.%202023%20K%C3%A1ze%C5%88sk%C3%A9%20p%C5%99estupky%20a%20mo%C5%BEnosti%20jejich%20%C5%99e%C5%A1en%C3%AD%20v%20r%C3%A1mci%20t%C5%99%C3%ADdy&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
         <LiHand><h4><b>8.6. 2023 <a href="/index.html?home|kurzyss|sswellbeing">Wellbeing, cesta k harmonizaci vztahů ve škole</a></b></h4>
@@ -155,6 +154,27 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=22.6.%202023%20Rozvoj%20podnikavosti%20a%20z%C3%A1sady%20soukrom%C3%A9ho%20podnik%C3%A1n%C3%AD&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
+        <LiHand><h4><b>5.10. 2023  <a href="/index.html?home|kurzyss|ssformativnihodnoceni">Formativní hodnocení v praxi</a></b></h4>
+          <h4><Label bsStyle="warning">Oblast: Formativní hodnocení</Label></h4>
+          <p>Akreditace: MSMT- 14644/2022-4-517</p>
+          <p>Cena: 1590 Kč/os, Lektor: Mgr. Jana Soukupová</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=05.10.%202023%20Formativn%C3%AD%20hodnocen%C3%AD%20v%20praxi&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+        </LiHand>
+        <LiHand><h4><b>18.10. 2023 <a href="/index.html?home|kurzyii|zsmatematickagramotnost">Rozvoj předmatematické gramotnosti – 8 hodin</a></b></h4>
+          <h4><Label bsStyle="warning">Oblast: Matematická gramotnost</Label></h4>
+          <p>Akreditace: MSMT- 7694/2021-4-275</p>
+          <p>Cena: 1590 Kč/os, Lektor: PaedDr. Ellen Mlátilíková</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=18.10.%202023%20Rozvoj%20p%C5%99edmatematick%C3%A9%20gramotnosti%20%E2%80%93%208%20hodin&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>určeno primárně pro MŠ a asistenty pedagoga</p>
+        </LiHand>
+        <LiHand><h4><b>24.10. 2023 <a href="/index.html?home|kurzyii">Nové metody práce učitele – aktivizující formy výuky na ZŠ a SŠ</a></b></h4>
+          <h4><Label bsStyle="warning">Oblast: alternativní/inovativní formy výuky, aktivizační metody ve výuce</Label></h4>
+          <p>Akreditace: v procesu akreditace</p>
+          <p>Cena: 1590 Kč/os, Lektor: Mgr. Dana Forýtková</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=24.10.%202023%20Nov%C3%A9%20metody%20pr%C3%A1ce%20u%C4%8Ditele%20%E2%80%93%20aktivizuj%C3%ADc%C3%AD%20formy%20v%C3%BDuky%20na%20Z%C5%A0%20a%20S%C5%A0&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+        </LiHand>
         <LiHand><h4><b>1.11. 2023 <a href="/index.html?home|kurzyss|ssinkluzecizinci">Jak pracovat se žáky s odlišným mateřským jazykem</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Inkluze</Label></h4>
           <p>Akreditace: MSMT - 28650/2022-4-905</p>
@@ -162,14 +182,38 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=1.11.%202023%20Jak%20pracovat%20se%20%C5%BE%C3%A1ky%20s%20odli%C5%A1n%C3%BDm%20mate%C5%99sk%C3%BDm%20jazykem&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
-        <LiHand><h4><b>listopad 2023 <a href="/index.html?home|kurzyii|zsnovetechnologie">Využití ICT ve škole</a></b></h4>
+        <LiHand><h4><b>6.11. 2023 <a href="/index.html?home|kurzyss|sskarieroveporadenstvi">Role pedagoga v karierovém poradenství – 8 hodin</a></b></h4>
+          <h4><Label bsStyle="warning">Oblast: Kariérové poradenství včetně identifikace a rozvoje nadání</Label></h4>
+          <p>Akreditace: MSMT- 13854/2021-2-500</p>
+          <p>Cena: 1590 Kč/os, Lektor: Mgr. Dana Forýtková</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=06.11.%202023%20Role%20pedagoga%20v%20karierov%C3%A9m%20poradenstv%C3%AD%20%E2%80%93%208%20hodin&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+        </LiHand>
+        <LiHand><h4><b>6.11. 2023 <a href="/index.html?home|kurzyii|zsmatematickagramotnost">GeoGebra jako nástroj rozvoje matematické gramotnosti na ZŠ</a></b></h4>
+          <h4><Label bsStyle="warning">Oblast: Matematická gramotnost</Label></h4>
+          <p>Akreditace: MSMT- 332/2021-4-72</p>
+          <p>Cena: 1590 Kč/os, Lektor: PhDr. Veronika Havelková, Ph.D.</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=6.11.%202023%20GeoGebra%20jako%20n%C3%A1stroj%20rozvoje%20matematick%C3%A9%20gramotnosti%20na%20Z%C5%A0&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+        </LiHand>
+        <LiHand><h4><b>7.11. 2023 <a href="/index.html?home|kurzyss|ssmatematickagramotnost">GeoGebra jako nástroj rozvoje matematické gramotnosti na SŠ</a></b></h4>
+          <h4><Label bsStyle="warning">Oblast: Matematická gramotnost</Label></h4>
+          <p>Akreditace: MSMT- 11115/2020-2-287</p>
+          <p>Cena: 1590 Kč/os, Lektor: PhDr. Veronika Havelková, Ph.D.</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=7.11.%202023%20GeoGebra%20jako%20n%C3%A1stroj%20rozvoje%20matematick%C3%A9%20gramotnosti%20na%20S%C5%A0&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+        </LiHand>
+        <LiHand><h4><b>27.11. 2023 <a href="/index.html?home|kurzyii|zsnovetechnologie">Využití ICT ve škole</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Vzdělání s využitím nových technologií</Label></h4>
           <p>Akreditace: MSMT- 13854/2021-2-500</p>
           <p>Cena: 1590 Kč/os, Lektor: PhDr. Veronika Havelková, Ph.D.</p>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=listopad%202023%20Vyu%C5%BEit%C3%AD%20ICT%20ve%20%C5%A1kole&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=27.11%202023%20Vyu%C5%BEit%C3%AD%20ICT%20ve%20%C5%A1kole&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
+
+
       </ul>
+
     </BlockEx>
 
   </Page>

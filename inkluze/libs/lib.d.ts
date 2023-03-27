@@ -104,7 +104,7 @@ declare enum flex {
     grow6 = 46,
     grow7 = 47,
     grow8 = 48,
-    grow9 = 49,
+    grow9 = 49
 }
 declare function flexClass(clss: Array<flex>): string;
 declare namespace router {
@@ -127,7 +127,7 @@ declare namespace site {
         id: string | number;
         title?: string;
         brTitle?: string;
-        createPage: (routePar) => JSX.Element;
+        createPage: (routePar: any) => JSX.Element;
         path?: string;
         childs?: Array<INode>;
         parent?: INode;
@@ -150,7 +150,7 @@ declare namespace site {
         rootNode?: INode;
     }
     var tabs: ITabs;
-    var getBlankPage: (routePar) => JSX.Element;
+    var getBlankPage: (routePar: any) => JSX.Element;
 }
 declare namespace sitemapRouter {
     var childContextTypes: React.ValidationMap<any>;
