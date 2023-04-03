@@ -105,6 +105,13 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=31.5.%202023%20Veden%C3%AD%20portfolia%20%C5%BE%C3%A1ka%20jako%20n%C3%A1stroj%20formativn%C3%ADho%20hodnocen%C3%AD&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
+        <LiHand><h4><b>31.5. 2023 <a href="/index.html?home|kurzyss|ssmatematickagramotnost">GeoGebra jako nástroj rozvoje matematické gramotnosti na SŠ</a></b></h4>
+          <h4><Label bsStyle="warning">Oblast: Matematická gramotnost</Label></h4>
+          <p>Akreditace: MSMT- 11115/2020-2-287</p> 
+          <p>Cena: 1590 Kč/os, Lektor: PhDr. Veronika Havelková, Ph.D.</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=31.5.%202023%20GeoGebra%20jako%20n%C3%A1stroj%20rozvoje%20matematick%C3%A9%20gramotnosti%20na%20S%C5%A0&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+        </LiHand>
         <LiHand><h4><b>8.6. 2023 <a href="/index.html?home|kurzyss|sswellbeing">Wellbeing, cesta k harmonizaci vztahů ve škole</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Wellbeing a psychohygiena</Label></h4>
           <p>Akreditace: MSMT- 14644/2022-4-517</p>
