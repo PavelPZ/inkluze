@@ -24,6 +24,7 @@
     SSVyukaCestiny: site.INode;
     SSInkluzeCizinci: site.INode;
     SSOstatniInkluze: site.INode;
+    SSInovativniFormy: site.INode;
     SSFormativniHodnoceni: site.INode;
     SSIndividualizace: site.INode;
     SSGenderovaTematika: site.INode;
@@ -39,6 +40,7 @@
     ZSInovace: site.INode;
     ZSSpoluprace: site.INode;
     ZSInkluze: site.INode;
+    ZSInovativniFormy: site.INode;
     ZSPodpora: site.INode;
     ZSRozvojPodnikavosti: site.INode;
     ZSMatematickaGramotnost: site.INode;
@@ -157,6 +159,11 @@
           title: 'Ostatní Inkluze',
           createPage: par => React.createElement(KurzySS),
         },
+        SSInovativniFormy: {
+          id: 'SSInovativniFormy',
+          title: 'Alternativní/inovativní formy výuky, aktivizační metody ve výuce',
+          createPage: par => React.createElement(KurzySS),
+        },
         SSFormativniHodnoceni: {
           id: 'SSFormativniHodnoceni',
           title: 'Formativní hodnocení',
@@ -181,6 +188,12 @@
           title: 'Inkluze zaměřená na cizince (ukrajince)',
           createPage: par => React.createElement(KurzyII),
         },
+        ZSInovativniFormy: {
+          id: 'ZSInovativniFormy',
+          title: 'Alternativní/inovativní formy výuky, aktivizační metody ve výuce',
+          createPage: par => React.createElement(KurzyII),
+        },
+
         ZSVyukaCestiny: {
           id: 'ZSVyukaCestiny',
           title: 'Výuka češtiny jako druhého jazyka',

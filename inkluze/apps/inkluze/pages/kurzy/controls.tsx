@@ -1012,6 +1012,15 @@ var SSOstatniInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
 </div>} eventKey={2}>
   <BlockEx header="Nabízíme následující kurzy:">
     <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt001" aria-expanded="false" aria-controls="collapsesnt001">Asistent pedagoga - účelné nastavení podpůrného opatření </b> (8 hod, v procesu akreditace)
+                            <div className="collapse " id="collapsesnt001"><ul className="list-group"><li className="list-group-item"></li>
+          <li className="list-group-item">  •	Legislativní ukotvení podpůrného opatření „asistent pedagoga“, nové  informace v pojetí práce asistenta pedagoga, definice pojmu asistent pedagoga  (asistent pedagoga, školní asistent, osobní asistent) (2 hodiny)</li>
+          <li className="list-group-item">•	Legislativní rámec pracovní pozice asistenta pedagoga, kvalifikační  předpoklady asistenta pedagoga, výběrové řízení, motivační pohovor, ekonomické  zajištění pozice asistenta pedagoga, zařazení asistenta pedagoga do platové  třídy dle katalogu prací (1 hodina)</li>
+          <li className="list-group-item">•	Pracovní náplň asistenta pedagoga, kompetence ve vztahu k pedagogům,  chyby v práci asistentů, chyby ze strany učitele, osobnost asistenta pedagoga,  vztah asistenta pedagoga k žákovi, pracovníkům školy a zákonným zástupcům,  zaměření na rozvržení přímé a nepřímé pedagogické činnosti (3 hodiny)</li>
+          <li className="list-group-item">•	Metodické vedení asistenta pedagoga, další vzdělávání asistenta pedagoga,  základní metodika práce asistenta pedagoga (2 hodiny)</li>
+        </ul>
+        </div>
+      </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Práce s diferencovanou třídou a náměty na vzdělávání 8 hod
       </b>(8 hod, akreditováno pro SŠ, VOŠ, ZŠ, asistenti)
         <div className="collapse " id="collapsesnt1"><ul className="list-group"><li className="list-group-item">•	<b>Téma </b> – Legislativní rámec. Školský zákon a Vyhláška 27/2016. Podpůrné opatření, možnosti úpravy obsahu a výstupů v souladu s legislativou.  Vymezení základních pojmů nadání. RVP pro základní školy, kompetence, výstupy, učivo v kontextu s prací s žáka s potřebou podpůrných opatření. (1 hodina)</li>
@@ -1145,6 +1154,41 @@ var SSOstatniInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
           <li className="list-group-item">•	Vzdělávání žáků podle § 16, odst. 9, možnosti vzdělávání žáků s LMP (1 hodina)</li>
           <li className="list-group-item">•	Závěrečné shrnutí a diskuze (1 hodina)</li>
         </ul></div>
+      </LiFile >
+    </ul >
+  </BlockEx >
+</Panel >;
+
+var SSInovativniFormy: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+  <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
+</div>} eventKey={2}>
+  <BlockEx header="Nabízíme následující kurzy:">
+    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+      <LiFile>
+        <b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesif001" aria-expanded="false" aria-controls="collapsesif001">Seznámení se základními metodami, formami práce a jejich dělením   </b> (1 hod)
+         <div className="collapse " id="collapsesif001">
+
+        </div>
+      </LiFile >
+      <LiFile>
+        <b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesif002" aria-expanded="false" aria-controls="collapsesif002">Aplikace jednotliých základních metod ve výuce, princip a různé způsoby využití:  </b> (6 hod)
+         <div className="collapse " id="collapsesif002">
+          <ul className="list-group">
+            <li className="list-group-item">•	brainstorming</li>
+            <li className="list-group-item">•	myšlenková mapa </li>
+            <li className="list-group-item">•	práce s textem- škálování</li>
+            <li className="list-group-item">•	princip a různé způsoby využití diskusní metody  -  rozhovor, diskuse, beseda</li>
+            <li className="list-group-item">•	princip a různé způsoby využití metody pro rozvoj kritického myšlení - EUR, volné psaní, pětilístek…</li>
+            <li className="list-group-item">•	projekty a projektové vyučování (stručné představení)</li>
+            <li className="list-group-item">•	pedagogické aktivity pro skupinovou práci a kooperaci</li>
+          </ul>
+        </div>
+      </LiFile >
+      <LiFile>
+        <b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesif003" aria-expanded="false" aria-controls="collapsesif003">Další aktivizující metody a formy výuky (stručné představení) - Snowballing, Kolečka, Kolotoč, Návštěvníci, Akvárium   </b> (1 hod)
+         <div className="collapse " id="collapsesif001">
+
+        </div>
       </LiFile >
     </ul >
   </BlockEx >
@@ -1441,7 +1485,8 @@ var KurzySSList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.I
         </LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSPodporaUcitelu)}
         </LiFile>
-
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSInovativniFormy)}
+        </LiFile>
 
       </ul>
     </Col>
@@ -1479,6 +1524,8 @@ var KurzyIIList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.I
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSRozvojPodnikavosti)}
         </LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSFormativniHodnoceni)}
+        </LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyii.ZSInovativniFormy)}
         </LiFile>
       </ul>
     </Col>
@@ -1836,7 +1883,22 @@ var ZSGenderova: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
               </div>} eventKey={1}>
                 <BlockEx header="Nabízíme následující kurzy:">
                   <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
-
+                    <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezd01" aria-expanded="false" aria-controls="collapsezd01">Pedagogická diagnostika dítěte v MŠ </b>(8 hod, v procesu akreditace)
+                      <div className="collapse border rounded " id="collapsezd01">
+                        <div className="m-3">
+                          <ul className="list-group">
+                            <li className="list-group-item">•	Základní pojmy a metody pedagogické diagnostiky. Etické principy v diagnostice. (1 hod)</li>
+                            <li className="list-group-item">•	Komplexní přístup k diagnostice (respektování vnějších i vnitřních činitelů ovlivňujících vývoj dítěte).   Vliv rodiny, společnosti, mateřské školy na aktuální stav dítěte. (1 hod)</li>
+                            <li className="list-group-item">•	Diagnostika základních psychických funkcí, které ovlivňují osvojování vědomostí a dovedností. Zraková a sluchová percepce (fonematický sluch), vizuomotorická koordinace. (1 hod)</li>
+                            <li className="list-group-item">•	Diagnostika vývoje řeči. Porozumění řeči a vyjadřování. Zvuková a obsahová stránka řeči. Jazyková kompetence. (1 hod)</li>
+                            <li className="list-group-item">•	Komplexní diagnostika motoriky. Jemná a hrubá motorika, lateralita, grafomotorika. (1 hod)</li>
+                            <li className="list-group-item">•	Grafomotorika. Sezení při psaní, úchop psacího náčiní při provádění uvolňovacích cviků a při výtvarných technikách. Některé poznatky z diagnostiky kresby. (1 hod)</li>
+                            <li className="list-group-item">•	Chování dítěte. Negativní projevy v chování dítěte, diagnostika možných příčin. (1 hod)</li>
+                            <li className="list-group-item">•	Využití poznatků diagnostiky při volbě metod práce, přístupu k dítěti. Důsledky vývojových deficitů na další vývoj dítěte. (1 hod)</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </LiFile >
                     <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezd1" aria-expanded="false" aria-controls="collapsezd1">Sociální klima třídy a pedagogická diagnostika učitele </b> (8 hod, akreditováno pro MŠ, ZŠ, SŠ, VOŠ, asistenti)
                 <div className="collapse border rounded " id="collapsezd1">
                         <div className="m-3">
@@ -2015,7 +2077,27 @@ var ZSSpoluprace: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
                     </div>} eventKey={1}>
                       <BlockEx header="Nabízíme následující kurzy:">
                         <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
-
+                          <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi001" aria-expanded="false" aria-controls="collapsezi001">Asistent pedagoga - účelné nastavení podpůrného opatření </b> (8 hod, v procesu akreditace)
+                            <div className="collapse " id="collapsezi001"><ul className="list-group"><li className="list-group-item"></li>
+                                <li className="list-group-item">  •	Legislativní ukotvení podpůrného opatření „asistent pedagoga“, nové  informace v pojetí práce asistenta pedagoga, definice pojmu asistent pedagoga  (asistent pedagoga, školní asistent, osobní asistent) (2 hodiny)</li>
+                                <li className="list-group-item">•	Legislativní rámec pracovní pozice asistenta pedagoga, kvalifikační  předpoklady asistenta pedagoga, výběrové řízení, motivační pohovor, ekonomické  zajištění pozice asistenta pedagoga, zařazení asistenta pedagoga do platové  třídy dle katalogu prací (1 hodina)</li>
+                                <li className="list-group-item">•	Pracovní náplň asistenta pedagoga, kompetence ve vztahu k pedagogům,  chyby v práci asistentů, chyby ze strany učitele, osobnost asistenta pedagoga,  vztah asistenta pedagoga k žákovi, pracovníkům školy a zákonným zástupcům,  zaměření na rozvržení přímé a nepřímé pedagogické činnosti (3 hodiny)</li>
+                                <li className="list-group-item">•	Metodické vedení asistenta pedagoga, další vzdělávání asistenta pedagoga,  základní metodika práce asistenta pedagoga (2 hodiny)</li>
+                            </ul>
+                            </div>
+                          </LiFile >
+                          <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi01" aria-expanded="false" aria-controls="collapsezi01">Specifické poruchy chování v předškolním věku  </b> (8 hod, v procesu akreditace)
+        <div className="collapse " id="collapsezi01"><ul className="list-group"><li className="list-group-item"></li>
+                              <li className="list-group-item">•	Včasná diagnostika a včasná intervence jako východiska pro práci s dítětem a s rodiči, na jejichž základě lze s dítětem účinně pracovat (1 hod)</li>
+                              <li className="list-group-item">•	Základní pojmy, specifické poruchy chování, ADHD, ADD. (1 hod)</li>
+                              <li className="list-group-item">•	Vztah mezi specifickými poruchami chování a specifickými poruchami učení na bázi ADHD se zaměřením na specifika pro práci učitele (1 hod)</li>
+                              <li className="list-group-item">•	Objasnění symptomatologie těchto poruch, kritéria pro diagnostiku SPCH, platná legislativa, metody práce u dětí se SPCH v předškolním zařízení, spolupráce rodiny (1 hod)</li>
+                              <li className="list-group-item">•	Postavení dítěte s ADHD v mateřské škole a vztah učitele k takovémuto dítěti (1 hod)</li>
+                              <li className="list-group-item">•	Pedagogická diagnostika a depistáž dětí v mateřské škole učitelem, tvorba individuálních vzdělávacích plánů (1 hod)</li>
+                              <li className="list-group-item">•	Prevence vzniku poruch chování u dětí s ADHD (1 hod)</li>
+                              <li className="list-group-item">•	Diskuse a rozbor příkladů z praxe (1 hod)</li>
+                            </ul></div>
+                          </LiFile >
                           <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi1" aria-expanded="false" aria-controls="collapsezi1">Práce s diferencovanou třídou a náměty na vzdělávání 8 hod </b> (8 hod, akreditováno pro ZŠ, SŠ, VOŠ, asistenti)
         <div className="collapse " id="collapsezi1"><ul className="list-group"><li className="list-group-item">•	<b>Téma </b> – Legislativní rámec. Školský zákon a Vyhláška 27/2016. Podpůrné opatření, možnosti úpravy obsahu a výstupů v souladu s legislativou.  Vymezení základních pojmů nadání. RVP pro základní školy, kompetence, výstupy, učivo v kontextu s prací s žáka s potřebou podpůrných opatření. (1 hodina)</li>
                               <li className="list-group-item">•	<b>Téma Základní pojmy 1. část.</b> Základní pojmy: Heterogenní skupina, diverzita. Diferencované vzdělávání podle kritérii a možností žáka. (1 hodina)</li>
@@ -2146,6 +2228,41 @@ var ZSSpoluprace: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
                         </ul>
                       </BlockEx>
                     </Panel>
+
+var ZSInovativniFormy: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
+  <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
+</div>} eventKey={2}>
+  <BlockEx header="Nabízíme následující kurzy:">
+    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+      <LiFile>
+        <b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezif001" aria-expanded="false" aria-controls="collapsezif001">Seznámení se základními metodami, formami práce a jejich dělením   </b> (1 hod)
+         <div className="collapse " id="collapsezif001">
+
+        </div>
+      </LiFile >
+      <LiFile>
+        <b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezif002" aria-expanded="false" aria-controls="collapsezif002">Aplikace jednotliých základních metod ve výuce, princip a různé způsoby využití:  </b> (6 hod)
+         <div className="collapse " id="collapsezif002">
+          <ul className="list-group">
+            <li className="list-group-item">•	brainstorming</li>
+            <li className="list-group-item">•	myšlenková mapa </li>
+            <li className="list-group-item">•	práce s textem- škálování</li>
+            <li className="list-group-item">•	princip a různé způsoby využití diskusní metody  -  rozhovor, diskuse, beseda</li>
+            <li className="list-group-item">•	princip a různé způsoby využití metody pro rozvoj kritického myšlení - EUR, volné psaní, pětilístek…</li>
+            <li className="list-group-item">•	projekty a projektové vyučování (stručné představení)</li>
+            <li className="list-group-item">•	pedagogické aktivity pro skupinovou práci a kooperaci</li>
+          </ul>
+        </div>
+      </LiFile >
+      <LiFile>
+        <b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezif003" aria-expanded="false" aria-controls="collapsezif003">Další aktivizující metody a formy výuky (stručné představení) - Snowballing, Kolečka, Kolotoč, Návštěvníci, Akvárium   </b> (1 hod)
+         <div className="collapse " id="collapsezif003">
+
+        </div>
+      </LiFile >
+    </ul >
+  </BlockEx >
+</Panel >;
 
                       var ZSPodpora: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: sitemapRouter.IContext) => <Panel defaultExpanded={props.defaultExpanded} collapsible bsStyle="success" header={<div className='course-header'>
                         <h3><Label bsStyle="warning">8</Label> <Label bsStyle="warning">16</Label> <Label bsStyle="warning">24</Label>   <span style={headerCss}>{props.title}</span></h3>

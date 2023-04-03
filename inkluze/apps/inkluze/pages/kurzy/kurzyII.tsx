@@ -83,6 +83,7 @@ function getIILoaders(): Array<Array<ICourseIILoader>> {
       { id: 'ZSMedialniGramotnost', create: expanded => <ZSMedialniGramotnost defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSMedialniGramotnost.title} /> },
       { id: 'ZSNoveTechnologie', create: expanded => <ZSNoveTechnologie defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSNoveTechnologie.title} /> },
       { id: 'ZSWellBeing', create: expanded => <ZSWellBeing defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSWellBeing.title} /> },
+      { id: 'ZSInovativniFormy', create: expanded => <ZSInovativniFormy defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSInovativniFormy.title} /> },
     ],
     [
       { id: 'ZSGenderova', create: expanded => <ZSGenderova defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSGenderova.title} /> },
