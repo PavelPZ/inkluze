@@ -1177,7 +1177,7 @@ var SSInovativniFormy: React.StatelessComponent<IKurzProps> = (props: IKurzProps
     
     <ul className='fa-ul'>
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesif1" aria-expanded="false" aria-controls="collapsesif1">Nové metody práce učitele – aktivizující formy výuky na ZŠ a SŠ
-      </b>(8 hod, akreditováno pro MŠ a asistenty pedagoga)
+      </b>(8 hod, akreditováno pro ZŠ, SŠ a asistenty pedagoga)
         <div className="coll1apse " id="collapsesif1">
           <ol className="list-group">
             <li className="list-group-item">1. Seznámení se základními metodami, formami práce a jejich dělením (1 hod)</li>
