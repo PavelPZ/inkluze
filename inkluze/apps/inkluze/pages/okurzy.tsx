@@ -28,7 +28,7 @@
           <p>Cena: 590 Kč/os, Lektor: Bc. Jiří Forýtek</p>
           <p>Místo konání: online, 13-14,30 hod</p>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=25.9.%202023%20konzultace%20k%20%C3%BAprav%C3%A1m%20%C5%A0VP%20v%20r%C3%A1mci%20programu%20InspIS%20%C5%A0VP%20(2%20hodiny)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>tento termín bude speciálně zaměřen na ŠVP pro MŠ</p>
+          <p>tato konzultace bude speciálně zaměřena na ŠVP pro SŠ</p>
         </LiHand>
         <LiHand><h4><b>4.10. 2023  <a href="/index.html?home|kurzyii|zsinovace">konzultace k úpravám ŠVP v rámci programu InspIS ŠVP (2 hodiny)</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Inovace ŠVP/koncepce rozvoje školy/školského zařízení</Label></h4>
@@ -36,7 +36,7 @@
           <p>Cena: 590 Kč/os, Lektor: Bc. Jiří Forýtek</p>
           <p>Místo konání: online, 13-14,30 hod</p>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=4.10.%202023%20konzultace%20k%20%C3%BAprav%C3%A1m%20%C5%A0VP%20v%20r%C3%A1mci%20programu%20InspIS%20%C5%A0VP%20(2%20hodiny)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>tento termín bude speciálně zaměřen na ŠVP pro MŠ</p>
+          <p>tato konzultace bude speciálně zaměřena na ŠVP pro ZŠ</p>
         </LiHand>
         <LiHand><h4><b>5.10. 2023  <a href="/index.html?home|kurzyss|ssformativnihodnoceni">Formativní hodnocení v praxi (8 hodin)</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Formativní hodnocení</Label></h4>
@@ -179,7 +179,7 @@
           <p>Cena: 590 Kč/os, Lektor: Bc. Jiří Forýtek</p>
           <p>Místo konání: online, 13-14,30 hod</p>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=7.11.%202023%20konzultace%20k%20%C3%BAprav%C3%A1m%20%C5%A0VP%20v%20r%C3%A1mci%20programu%20InspIS%20%C5%A0VP%20(2%20hodiny)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>tento termín bude speciálně zaměřen na ŠVP pro MŠ</p>
+          <p>tato konzultace bude speciálně zaměřena na ŠVP pro MŠ</p>
         </LiHand>
         <LiHand><h4><b>8.11. 2023 <a href="/index.html?home|kurzyii|ZSInovace">Úpravy ŠVP v rámci programu InspIS ŠVP (8 hodin)</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Inovace ŠVP/koncepce rozvoje školy/školského zařízení</Label></h4>
@@ -275,7 +275,7 @@
           <p>Cena: 590 Kč/os, Lektor: Bc. Jiří Forýtek</p>
           <p>Místo konání: online, 13-14,30 hod</p>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=11.12.%202023%20konzultace%20k%20%C3%BAprav%C3%A1m%20%C5%A0VP%20v%20r%C3%A1mci%20programu%20InspIS%20%C5%A0VP%20(2%20hodiny)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>tento termín bude speciálně zaměřen na ŠVP pro MŠ</p>
+          <p>tato konzultace bude speciálně zaměřena na ŠVP pro ŠD</p>
         </LiHand>
         <LiHand><h4><b>13.12. 2023 <a href="/index.html?home|kurzyii|zsinovativniformy">Tandemová výuka – nový prvek ve výuce (8 hodin)</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: alternativní/inovativní formy výuky, aktivizační metody ve výuce</Label></h4>
