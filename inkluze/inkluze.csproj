@@ -56,7 +56,7 @@
     <TypeScriptCompile Include="apps\inkluze\pages\kurzy\kurzy.tsx" />
     <TypeScriptCompile Include="apps\inkluze\pages\slovnicek.tsx" />
     <TypeScriptCompile Include="apps\inkluze\pages\q_and_as.tsx" />
-    <TypeScriptCompile Include="apps\inkluze\pages\q_and_a.tsx" />
+    <TypeScriptCompile Include="apps\inkluze\pages\akreditace.tsx" />
     <TypeScriptCompile Include="apps\inkluze\pages\blank.tsx" />
     <TypeScriptCompile Include="apps\inkluze\pages\pravidla.tsx" />
     <TypeScriptCompile Include="apps\inkluze\pages\home.tsx" />

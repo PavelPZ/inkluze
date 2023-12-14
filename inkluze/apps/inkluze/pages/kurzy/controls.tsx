@@ -281,6 +281,18 @@ var SSMatematickaGramotnost: React.StatelessComponent<IKurzProps> = (props: IKur
           </div>
         </div>
       </LiFile>
+      <LiFile>
+        <b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesmg11" aria-expanded="false" aria-controls="collapsesmg11">Moderní technologie při rozvoji matematické gramotnosti 
+      </b>(8 hod, doporučeno pro ZŠ, SŠ, VOŠ)
+          <div className="collapse " id="collapsesmg11">
+          <ul className="list-group">
+            <li className="list-group-item">• Vychytávky, které lze využít při výuce s technologiemi jak v matematice, tak i v jiných předmětech (2 hodiny)</li>
+            <li className="list-group-item">• Seznámení s úložišti již hotových materiálů, které je možno rovnou využít ve výuce (bez vlastní tvorby) a různými webovými stránkami s videi, texty i jinými materiály, které je možné vhodně využít nejen k podpoře rozvoje matematické gramotnosti (2 hodiny)</li>
+            <li className="list-group-item">• Příklady her a prostředí na internetu pro podporu matematické gramotnosti (1 hodina)</li>
+            <li className="list-group-item">• Programy a aplikace pro jednoduché vytváření zábavných kvízů (2 hodiny)</li>
+            <li className="list-group-item">• Použití programu Formulator Tarsia pro tvorbu domin, triomin a jiných her vhodných k oživení procvičovaného učiva (1 hodina)</li>
+        </ul></div>
+      </LiFile>
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesmg2" aria-expanded="false" aria-controls="collapsesmg2">Moderní technologie ve výuce (nejen) matematiky na SŠ a VOŠ
       </b>(16 hod, akreditováno pro SŠ, VOŠ)
         <div className="collapse " id="collapsesmg2"><ul className="list-group"><li className="list-group-item">•	Principy využití moderních technologií; seznámení s problematikou nasazení výukových technologií do výuky (pozitiva, negativa a rizika nasazení) (1 hodina)</li>

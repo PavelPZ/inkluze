@@ -45,7 +45,7 @@
 const QAForm = inkluze.QAForm;
 
 namespace inkluze {
-  export const Q_and_a: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => {
+  export const Akreditace: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => {
     return <div>
       <Page>
         <Block key={0}>
@@ -57,5 +57,5 @@ namespace inkluze {
     </div>;
   };
 
-  Q_and_a.contextTypes = sitemapRouter.childContextTypes;
+  Akreditace.contextTypes = sitemapRouter.childContextTypes;
 }

@@ -82,4 +82,4 @@
   }
 }
 
-const Q_and_a = inkluze.Q_and_a;
+const Akreditace = inkluze.Akreditace;

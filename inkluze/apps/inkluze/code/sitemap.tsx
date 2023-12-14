@@ -1,6 +1,6 @@
 ﻿namespace inkluze {
   export interface ISiteRoot extends site.INode {
-    //q_and_a: site.INode;
+    akreditace: site.INode;
     //dalsi: site.INode;
     okurzy: site.INode;
     kurzyss: ISiteKurzySS;
@@ -58,7 +58,7 @@
     kurzyss: site.ITab;
     kurzyii: site.ITab;
     okurzy: site.ITab;
-    //q_and_a: site.ITab;
+    akreditace: site.ITab;
     //dalsi: site.ITab;
     onas: site.ITab;
     //slovnicek: site.ITab;
@@ -74,10 +74,10 @@
       largeLogo: true,
       createPage: routePar => <Home />, //sitemapRouter.createElement<IHomePar>(Home, routePar, { subTitle: 'SubTitle Default' }),
       noTitle: true,
-      //q_and_a: {
-      //  id: 'q_and_a',
-      //  createPage: par => <Q_and_a />,
-      //},
+      akreditace: {
+        id: 'akreditace',
+        createPage: par => <Akreditace />,
+      },
       //dalsi: {
       //  id: 'dalsi',
       //  createPage: par => <Ostatni />,
@@ -301,10 +301,10 @@
         title: 'Šablony pro ZŠ a MŠ I - OP JAK',
         rootNode: root.kurzyii,
       },
-      //q_and_a: {
-      //  title: 'Dotazy a odpovědi',
-      //  rootNode: root.q_and_a,
-      //},
+      akreditace: {
+        title: 'Akreditace',
+        rootNode: root.akreditace,
+      },
       //dalsi: {
       //  title: 'Služby',
       //  rootNode: root.dalsi,

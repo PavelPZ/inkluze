@@ -5,7 +5,7 @@
 /// <reference path="../pages/blank.tsx"/>
 /// <reference path="../pages/home.tsx"/>
 /// <reference path="../pages/pravidla.tsx"/>
-/// <reference path="../pages/q_and_a.tsx"/>
+/// <reference path="../pages/akreditace.tsx"/>
 /// <reference path="../pages/q_and_as.tsx"/>
 /// <reference path="../pages/slovnicek.tsx"/>
 /// <reference path="../pages/kurzy/controls.tsx"/>
