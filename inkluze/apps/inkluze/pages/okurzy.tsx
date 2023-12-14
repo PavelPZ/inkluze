@@ -56,8 +56,7 @@
         </LiHand>
         <LiHand><h4><b>14.2. 2024 <a href="/index.html?home|kurzyii|zsinovativniformy">Tandemová výuka – nový prvek ve výuce (8 hodin)</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: alternativní/inovativní formy výuky, aktivizační metody ve výuce</Label></h4>
-          <p type="button" data-container="body" data-toggle="popover" data-placement="top" data-content="Top popover" aria-describedby="popover405816">Akreditace: více informací</p>
-          
+          <p>Akreditace: <a href="index.html?home|akreditace">více informací</a></p>
           <p>Cena: 1590 Kč/os, Lektor: Mgr. Dana Forýtková</p>
           <p>Místo konání: online</p>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=14.2.%202024%20Tandemov%C3%A1%20v%C3%BDuka%20%E2%80%93%20nov%C3%BD%20prvek%20ve%20v%C3%BDuce&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>

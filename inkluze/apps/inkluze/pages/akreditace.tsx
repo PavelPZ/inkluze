@@ -24,24 +24,7 @@
     render(): JSX.Element {
       var th = this;
       return <div>
-        {/*
-        <Panel collapsible style={{ marginTop: '15px', marginLeft: '-15px' }} header={<a href="#" onClick={ev => { th.state.open = !th.state.open; th.forceUpdate(); ev.preventDefault(); } }><b>Zadejte nový dotaz <i className="fa fa-question-circle"></i></b></a>} bsStyle='warning' eventKey='1' expanded={this.state.open}>
-        */}
-        <Panel collapsible style={{ marginTop: '15px', marginLeft: '-15px' }} header={<b>Zadejte nový dotaz <i className="fa fa-question-circle"></i></b>} bsStyle='warning' eventKey='1' onClick={ev => { th.state.open = !th.state.open; th.forceUpdate(); ev.preventDefault(); } }>
-          <FormGroup controlId="message" validationState={this.getValidationState() } >
-            <ControlLabel>Dotaz: </ControlLabel>
-            <FormControl componentClass="textarea" value={this.state.message} placeholder="Napište dotaz" onChange={(e: any) => { this.state.message = e.target.value; this.forceUpdate(); } } rows={5} />
-          </FormGroup>
-          <FormGroup controlId="email">
-            <ControlLabel>Email: </ControlLabel>
-            <FormControl value={this.state.email} placeholder="Vyplňte email" onChange={(e: any) => { this.state.email = e.target.value; this.forceUpdate(); } }/>
-            <HelpBlock>
-              Email není povinný.
-              Když jej vyplníte, zašleme vám na něj odpověď a můžeme se i doptat, když nebudeme dotazu rozumět.</HelpBlock>
-          </FormGroup>
-          <hr/>
-          <Button onClick={() => services.emailer.sendEMail({ from: '"Inkluze FAQ"<faq@langmaster.cz>', to: 'projekt@langmaster.cz', subject: 'Inkluze FAQ', body: React.createElement<IQAFormStatus>(emailTemplate, this.state) }, () => { alert('Děkujeme za zaslání dotazu'); th.state.open = false; th.forceUpdate(); }) } bsStyle='success'>Poslat dotaz</Button>
-        </Panel>
+
       </div>; 
     }
   }
