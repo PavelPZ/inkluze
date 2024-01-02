@@ -1915,7 +1915,7 @@ var ZSDiagnostika: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
   <BlockEx header="Nabízíme následující kurzy:">
     <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezd01" aria-expanded="false" aria-controls="collapsezd01">Pedagogická diagnostika dítěte v MŠ </b>(8 hod, akreditováno pro MŠ a asistenty pedagoga)
-                      <div className="collapse border rounded " id="collapsezd01">
+        <div className="collapse border rounded " id="collapsezd01">
           <div className="m-3">
             <ul className="list-group">
               <li className="list-group-item">•	Základní pojmy a metody pedagogické diagnostiky. Etické principy v diagnostice. (1 hod)</li>
@@ -1926,6 +1926,23 @@ var ZSDiagnostika: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
               <li className="list-group-item">•	Grafomotorika. Sezení při psaní, úchop psacího náčiní při provádění uvolňovacích cviků a při výtvarných technikách. Některé poznatky z diagnostiky kresby. (1 hod)</li>
               <li className="list-group-item">•	Chování dítěte. Negativní projevy v chování dítěte, diagnostika možných příčin. (1 hod)</li>
               <li className="list-group-item">•	Využití poznatků diagnostiky při volbě metod práce, přístupu k dítěti. Důsledky vývojových deficitů na další vývoj dítěte. (1 hod)</li>
+            </ul>
+          </div>
+        </div>
+      </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezd001" aria-expanded="false" aria-controls="collapsezd001">Školní zralost – příprava předškoláka </b>(8 hod, doporučeno pro MŠ, 1.st. ZŠ a asistenty pedagoga)
+        <div className="collapse border rounded " id="collapsezd001">
+          <div className="m-3">
+            <ul className="list-group">
+              <li className="list-group-item">•	pojem školní zralost a školní připravenost – vysvětlení pojmu, vývoj školní zralosti, propojení jednotlivých oblastí školní zralosti (2 hod)</li>
+              <li className="list-group-item">•	hrubá motorika, jemná motorika (1 hod)</li>
+              <li className="list-group-item">•	grafomotorika (1 hod)</li>
+              <li className="list-group-item">•	řeč a vyjadřovací schopnosti (0,5 hod)</li>
+              <li className="list-group-item">•	zrakové vnímání, sluchové vnímání (1 hod)</li>
+              <li className="list-group-item">•	matematická a čtenářská pregramotnost (1 hod)</li>
+              <li className="list-group-item">•	sociální a pracovní zralost (0,5 hod)</li>
+              <li className="list-group-item">•	legislativa OŠD, vyšetření v pedagogicko-psychologické poradně, spolupráce s rodiči (0,5 hod)</li>
+              <li className="list-group-item">•	diskuse (0,5 hod)</li>
             </ul>
           </div>
         </div>
@@ -2123,12 +2140,25 @@ var ZSInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
   <BlockEx header="Nabízíme následující kurzy:">
     <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi001" aria-expanded="false" aria-controls="collapsezi001">Asistent pedagoga - účelné nastavení podpůrného opatření </b> (8 hod, akreditováno pro MŠ, ZŠ, SŠ, ŠD a asistenty pedagoga)
-                            <div className="collapse " id="collapsezi001"><ul className="list-group"><li className="list-group-item"></li>
-          <li className="list-group-item">  •	Legislativní ukotvení podpůrného opatření „asistent pedagoga“, nové  informace v pojetí práce asistenta pedagoga, definice pojmu asistent pedagoga  (asistent pedagoga, školní asistent, osobní asistent) (2 hodiny)</li>
-          <li className="list-group-item">•	Legislativní rámec pracovní pozice asistenta pedagoga, kvalifikační  předpoklady asistenta pedagoga, výběrové řízení, motivační pohovor, ekonomické  zajištění pozice asistenta pedagoga, zařazení asistenta pedagoga do platové  třídy dle katalogu prací (1 hodina)</li>
-          <li className="list-group-item">•	Pracovní náplň asistenta pedagoga, kompetence ve vztahu k pedagogům,  chyby v práci asistentů, chyby ze strany učitele, osobnost asistenta pedagoga,  vztah asistenta pedagoga k žákovi, pracovníkům školy a zákonným zástupcům,  zaměření na rozvržení přímé a nepřímé pedagogické činnosti (3 hodiny)</li>
-          <li className="list-group-item">•	Metodické vedení asistenta pedagoga, další vzdělávání asistenta pedagoga,  základní metodika práce asistenta pedagoga (2 hodiny)</li>
-        </ul>
+        <div className="collapse " id="collapsezi001">
+          <ul className="list-group"><li className="list-group-item"></li>
+            <li className="list-group-item">  •	Legislativní ukotvení podpůrného opatření „asistent pedagoga“, nové  informace v pojetí práce asistenta pedagoga, definice pojmu asistent pedagoga  (asistent pedagoga, školní asistent, osobní asistent) (2 hodiny)</li>
+            <li className="list-group-item">•	Legislativní rámec pracovní pozice asistenta pedagoga, kvalifikační  předpoklady asistenta pedagoga, výběrové řízení, motivační pohovor, ekonomické  zajištění pozice asistenta pedagoga, zařazení asistenta pedagoga do platové  třídy dle katalogu prací (1 hodina)</li>
+            <li className="list-group-item">•	Pracovní náplň asistenta pedagoga, kompetence ve vztahu k pedagogům,  chyby v práci asistentů, chyby ze strany učitele, osobnost asistenta pedagoga,  vztah asistenta pedagoga k žákovi, pracovníkům školy a zákonným zástupcům,  zaměření na rozvržení přímé a nepřímé pedagogické činnosti (3 hodiny)</li>
+            <li className="list-group-item">•	Metodické vedení asistenta pedagoga, další vzdělávání asistenta pedagoga,  základní metodika práce asistenta pedagoga (2 hodiny)</li>
+          </ul>
+        </div>
+      </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi0011" aria-expanded="false" aria-controls="collapsezi0011">Asistent pedagoga - u žáka se zdravotním postižením - MP, PAS  </b> (8 hod, doporučeno pro učitele MŠ, ZŠ a asistenty pedagoga)
+        <div className="collapse " id="collapsezi0011">
+          <ul className="list-group"><li className="list-group-item"></li>
+            <li className="list-group-item">•	teoretická východiska mentálního postižení  (1 hod)</li>
+            <li className="list-group-item">•	AP u dítěte/žáka s mentálním postižením (2 hod)</li>
+            <li className="list-group-item">•	podmínky inkluzivního prostředí (spolupráce se ŠPP/ŠPZ, pomůcky, učebnice, třídní kolektiv, personální podpora) (1 hod) </li>
+            <li className="list-group-item">•	teoretická východiska poruch autistického spektra (PAS) ( 1 hod)</li>
+            <li className="list-group-item">•	AP u dítěte/žáka s poruchami autistického spektra (2 hod)</li>
+            <li className="list-group-item">•	podmínky inkluzivního prostředí (spolupráce se ŠPZ/ŠPP, pomůcky, učebnice, třídní kolektiv, personální podpora) (1 hod)</li>
+          </ul>
         </div>
       </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi002" aria-expanded="false" aria-controls="collapsezi002">Strukturované učení u žáků s poruchami autistického spektra  </b> (8 hod, v procesu akreditace)

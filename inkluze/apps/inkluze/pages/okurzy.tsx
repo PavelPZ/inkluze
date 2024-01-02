@@ -46,6 +46,14 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=25.1%202024%20Vyu%C5%BEit%C3%AD%20ICT%20ve%20%C5%A1kole&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
+        <LiHand><h4><b>26.1. 2024 <a href="/index.html?home|kurzyii|zsinkluze">Asistent pedagoga - u žáka se zdravotním postižením - MP, PAS (8 hodin)</a></b></h4>
+          <h4><Label bsStyle="warning">Oblast: Inkluze</Label></h4>
+          <p>Akreditace: <a href="index.html?home|akreditace">více informací</a></p>
+          Cena: 1590 Kč/os, Lektor: Mgr et Mgr. Dagmar Vilášková
+          <p>Místo konání: online</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=26.1.%202024%20Asistent%20pedagoga%20-%20u%20%C5%BE%C3%A1ka%20se%20zdravotn%C3%ADm%20posti%C5%BEen%C3%ADm%20-%20MP%2C%20PAS%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+        </LiHand>
         <LiHand><h4><b>30.1. 2024 <a href="/index.html?home|kurzyss|ssinovativniformy">Nové metody práce učitele – aktivizující formy výuky na ZŠ a SŠ (8 hodin)</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: alternativní/inovativní formy výuky, aktivizační metody ve výuce</Label></h4>
           <p>Akreditace: MSMT- 8999/2023-2-332</p>
@@ -78,7 +86,7 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=28.2.%202024%20Z%C3%A1sady%20efektivn%C3%AD%20komunikace%20s%20rodi%C4%8Di%20a%20z%C3%A1konn%C3%BDmi%20z%C3%A1stupci&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
-        <LiHand><h4><b>29.2. 2024 <a href="/index.html?home|kurzyss|ssformativnihodnoceni">Formativní hodnocení v praxi</a></b></h4>
+        <LiHand><h4><b>29.2. 2024 <a href="/index.html?home|kurzyss|ssformativnihodnoceni">Formativní hodnocení v praxi (8 hodin)</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Formativní hodnocení</Label></h4>
           <p>Akreditace: MSMT- 14644/2022-4-517</p>
           <p>Cena: 1590 Kč/os, Lektor: Mgr. Jana Soukupová</p>
@@ -149,6 +157,14 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=21.3.%202024%20Jak%20zvl%C3%A1dat%20stresov%C3%A9%20situace%20a%20nedosp%C4%9Bt%20k%20vyho%C5%99en%C3%AD%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
+        <LiHand><h4><b>21.3. 2024 <a href="/index.html?home|kurzyii|zsdiagnostika">Školní zralost – příprava předškoláka (8 hodin)</a></b></h4>
+          <h4><Label bsStyle="warning">Oblast: Pedagogická diagnostika</Label></h4>
+          <p>Akreditace: <a href="index.html?home|akreditace">více informací</a></p>
+          <p>Cena: 1590 Kč/os, Lektor: Mgr et Mgr. Dagmar Vilášková</p>
+          <p>Místo konání: online</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=21.3.%202024%20%20%C5%A0koln%C3%AD%20zralost%20%E2%80%93%20p%C5%99%C3%ADprava%20p%C5%99ed%C5%A1kol%C3%A1ka%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+        </LiHand>
         <LiHand><h4><b>25.3. 2024 <a href="/index.html?home|kurzyii|zsmatematickagramotnost">GeoGebra jako nástroj rozvoje matematické gramotnosti na ZŠ (8 hodin)</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Matematická gramotnost</Label></h4>
           <p>Akreditace: MSMT- 332/2021-4-72</p>
@@ -167,7 +183,7 @@
         </LiHand>
         <LiHand><h4><b>26.3. 2024 <a href="/index.html?home|kurzyii|zswellbeing">Rozvoj sociálních dovedností žáků v ŠD/ŠK (8 hodin)</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Well-being a psychohygiena</Label></h4>
-          <p>Akreditace: v procesu akreditace</p>
+          <p>Akreditace: <a href="index.html?home|akreditace">více informací</a></p>
           <p>Cena: 1590 Kč/os, Lektor: Mgr. Dana Forýtková</p>
           <p>Místo konání: online</p>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=26.3.%202024%20Rozvoj%20soci%C3%A1ln%C3%ADch%20dovednost%C3%AD%20%C5%BE%C3%A1k%C5%AF%20v%20%C5%A0D%2F%C5%A0K&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
@@ -191,7 +207,7 @@
         </LiHand>
         <LiHand><h4><b>29.4. 2024 <a href="/index.html?home|kurzyss|ssmatematickagramotnost">Moderní technologie při rozvoji matematické gramotnosti (8 hodin) </a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Matematická gramotnost</Label></h4>
-          <p>Akreditace: </p>
+          <p>Akreditace: <a href="index.html?home|akreditace">více informací</a></p>
           <p>Cena: 1590 Kč/os, Lektor: PhDr. Veronika Havelková, Ph.D.</p>
           <p>Místo konání: online</p>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=29.4.%202024%20Modern%C3%AD%20technologie%20p%C5%99i%20rozvoji%20matematick%C3%A9%20gramotnosti%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
