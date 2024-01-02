@@ -30,6 +30,14 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=18.1.%202024%20Rozvoj%20podnikavosti%20a%20z%C3%A1sady%20soukrom%C3%A9ho%20podnik%C3%A1n%C3%AD&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
+        <LiHand><h4><b>19.1. 2024  <a href="/index.html?home|kurzyii|zsinovace">Úpravy ŠVP v rámci programu InspIS ŠVP (8 hodin)</a></b></h4>
+          <h4><Label bsStyle="warning">Oblast: Inovace ŠVP/koncepce rozvoje školy/školského zařízení</Label></h4>
+          <p>Akreditace: MSMT- 14644/2022-4-517</p>
+          <p>Cena: 1590 Kč/os, Lektor: Bc. Jiří Forýtek</p>
+          <p>Místo konání: online</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=19.1.%202024%20%C3%9Apravy%20%C5%A0VP%20v%20r%C3%A1mci%20programu%20InspIS%20%C5%A0VP%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>tento termín bude speciálně zaměřen na ŠVP pro MŠ</p>
+        </LiHand>
         <LiHand><h4><b>24.1. 2023 <a href="/index.html?home|kurzyss|ssindividualizace">Vedení portfolia žáka jako nástroj formativního hodnocení (8 hodin)</a></b></h4>
           <h4><Label bsStyle="warning">Oblasti: Individualizece vzdělávání a vedení portfolia dítěte/žáka, formativní hodnocen</Label></h4>
           <p>Akreditace: MSMT- 21314/2022-2-729</p>
@@ -85,6 +93,14 @@
           <p>Místo konání: online</p>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=28.2.%202024%20Z%C3%A1sady%20efektivn%C3%AD%20komunikace%20s%20rodi%C4%8Di%20a%20z%C3%A1konn%C3%BDmi%20z%C3%A1stupci&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+        </LiHand>
+        <LiHand><h4><b>28.2. 2024  <a href="/index.html?home|kurzyii|zsinovace">Úpravy ŠVP v rámci programu InspIS ŠVP (8 hodin)</a></b></h4>
+          <h4><Label bsStyle="warning">Oblast: Inovace ŠVP/koncepce rozvoje školy/školského zařízení</Label></h4>
+          <p>Akreditace: MSMT- 14644/2022-4-517</p>
+          <p>Cena: 1590 Kč/os, Lektor: Bc. Jiří Forýtek</p>
+          <p>Místo konání: online</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=28.2.%202024%20%C3%9Apravy%20%C5%A0VP%20v%20r%C3%A1mci%20programu%20InspIS%20%C5%A0VP%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>tento termín bude speciálně zaměřen na ŠVP pro ZŠ</p>
         </LiHand>
         <LiHand><h4><b>29.2. 2024 <a href="/index.html?home|kurzyss|ssformativnihodnoceni">Formativní hodnocení v praxi (8 hodin)</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Formativní hodnocení</Label></h4>
@@ -165,6 +181,14 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=21.3.%202024%20%20%C5%A0koln%C3%AD%20zralost%20%E2%80%93%20p%C5%99%C3%ADprava%20p%C5%99ed%C5%A1kol%C3%A1ka%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
+        <LiHand><h4><b>22.3. 2024  <a href="/index.html?home|kurzySS|ssinovace">Úpravy ŠVP v rámci programu InspIS ŠVP (8 hodin)</a></b></h4>
+          <h4><Label bsStyle="warning">Oblast: Inovace ŠVP/koncepce rozvoje školy/školského zařízení</Label></h4>
+          <p>Akreditace: MSMT- 14644/2022-4-517</p>
+          <p>Cena: 1590 Kč/os, Lektor: Bc. Jiří Forýtek</p>
+          <p>Místo konání: online</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=22.3.%202024%20%C3%9Apravy%20%C5%A0VP%20v%20r%C3%A1mci%20programu%20InspIS%20%C5%A0VP%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>tento termín bude speciálně zaměřen na ŠVP pro SŠ</p>
+        </LiHand>
         <LiHand><h4><b>25.3. 2024 <a href="/index.html?home|kurzyii|zsmatematickagramotnost">GeoGebra jako nástroj rozvoje matematické gramotnosti na ZŠ (8 hodin)</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Matematická gramotnost</Label></h4>
           <p>Akreditace: MSMT- 332/2021-4-72</p>
@@ -203,6 +227,14 @@
           <p>Cena: 1590 Kč/os, Lektor: Mgr. Dana Forýtková</p>
           <p>Místo konání: online</p>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=19.4.%202024%20Role%20pedagoga%20v%20karierov%C3%A9m%20poradenstv%C3%AD%20%E2%80%93%208%20hodin&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+        </LiHand>
+        <LiHand><h4><b>25.4. 2024 <a href="/index.html?home|kurzyii|zsinkluze">Neklidné dítě – problematika ADHD, ADD (8 hodin)</a></b></h4>
+          <h4><Label bsStyle="warning">Oblast: Inkluze</Label></h4>
+          <p>Akreditace: <a href="index.html?home|akreditace">více informací</a></p>
+          <p>Cena: 1590 Kč/os, Lektor: Mgr et Mgr. Dagmar Vilášková</p>
+          <p>Místo konání: online</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=25.4.%202024%20Neklidn%C3%A9%20d%C3%ADt%C4%9B%20%E2%80%93%20problematika%20ADHD%2C%20ADD%20%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
         <LiHand><h4><b>29.4. 2024 <a href="/index.html?home|kurzyss|ssmatematickagramotnost">Moderní technologie při rozvoji matematické gramotnosti (8 hodin) </a></b></h4>
