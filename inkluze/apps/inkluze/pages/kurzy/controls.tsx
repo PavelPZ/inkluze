@@ -2173,7 +2173,7 @@ var ZSInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
         </div>
       </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi01" aria-expanded="false" aria-controls="collapsezi01">Specifické poruchy chování v předškolním věku  </b> (8 hod, akreditováno pro MŠ a asistenty pedagoga)
-        <div className="collapse " id="collapsezi01"><ul className="list-group"><li className="list-group-item"></li>
+        <div className="collapse " id="collapsezi01"><ul className="list-group">
           <li className="list-group-item">•	Včasná diagnostika a včasná intervence jako východiska pro práci s dítětem a s rodiči, na jejichž základě lze s dítětem účinně pracovat (1 hod)</li>
           <li className="list-group-item">•	Základní pojmy, specifické poruchy chování, ADHD, ADD. (1 hod)</li>
           <li className="list-group-item">•	Vztah mezi specifickými poruchami chování a specifickými poruchami učení na bázi ADHD se zaměřením na specifika pro práci učitele (1 hod)</li>
@@ -2182,6 +2182,13 @@ var ZSInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
           <li className="list-group-item">•	Pedagogická diagnostika a depistáž dětí v mateřské škole učitelem, tvorba individuálních vzdělávacích plánů (1 hod)</li>
           <li className="list-group-item">•	Prevence vzniku poruch chování u dětí s ADHD (1 hod)</li>
           <li className="list-group-item">•	Diskuse a rozbor příkladů z praxe (1 hod)</li>
+        </ul></div>
+      </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi011" aria-expanded="false" aria-controls="collapsezi011">Neklidné dítě – problematika ADHD, ADD </b> (8 hod, doporučeno pro učitele MŠ, ZŠ a asistenty pedagoga)
+        <div className="collapse " id="collapsezi011"><ul className="list-group">
+          <li className="list-group-item">•	Projevy chování dítěte s ADHD, ADD, související se začleněním dítěte do kolektivu MŠ a ZŠ a na ně navazující možná další úskalí. Vznik ADHD, ADD – příčiny vzniku. Kritéria dle MKN – konkrétní popis projevů. Jednotlivé příznaky ADHD, ADD. (3 hod)</li>
+          <li className="list-group-item">•	Korekce nežádoucího chování - zásady práce s dítětem s ADHD (ADD), předcházení konfliktním situacím. Chování dětí s ADHD a ADD ve škole i doma, informace o typických projevech chování (příklady z praxe) Zásady práce s dítětem s ADHD/ADD ve škole i doma, pravidla jednoznačné komunikace. (3 hod)</li>
+          <li className="list-group-item">•	Efektivní způsoby ovlivňování chování a jednání dětí s ADHD,ADD: vytváření přehledného a strukturovaného prostředí. Promyšlené reakce rodičů, učitelů a okolí na určité projevy jejich chování, uspořádání pomůcek, uspořádání pracovního prostoru, zapojení do skupiny, přecházení od jedné činnosti k druhé. (2 hod)</li>
         </ul></div>
       </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi1" aria-expanded="false" aria-controls="collapsezi1">Práce s diferencovanou třídou a náměty na vzdělávání 8 hod </b> (8 hod, akreditováno pro ZŠ, SŠ, VOŠ, asistenti)
