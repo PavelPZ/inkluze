@@ -1033,7 +1033,7 @@ var SSOstatniInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
         </ul>
         </div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt002" aria-expanded="false" aria-controls="collapsesnt002">Strukturované učení u žáků s poruchami autistického spektra  </b> (8 hod, v procesu akreditace)
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt002" aria-expanded="false" aria-controls="collapsesnt002">Strukturované učení u žáků s poruchami autistického spektra  </b> (8 hod, doporučeno pro MŠ, ZŠ, asistenty pedagoga, vychovatele ŠD, DM)
           <div className="collapse " id="collapsesnt002">
           <ul className="list-group">
             <li className="list-group-item">•	Seznámení s problematikou poruch autistického spektra, symptomatické projevy. Zvláštnosti autistického myšlení a rizika problémového chování.  ( 2 hodiny)</li>
@@ -1207,7 +1207,7 @@ var SSInovativniFormy: React.StatelessComponent<IKurzProps> = (props: IKurzProps
         </div>
       </LiFile>
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesif2" aria-expanded="false" aria-controls="collapsesif2">Tandemová výuka – nový prvek ve výuce
-      </b>(8 hod, v procesu akreditace)
+      </b>(8 hod, doporučeno pro ZŠ, SŠ, MŠ)
         <div className="collapse border rounded " id="collapsesif2">
           <ul className="list-group">
             <li className="list-group-item">•	<b>Smysl a princip tandemové výuky</b> : kooperativní a tandemová/párová výuka x výuka s AP, formy tandemové výuky, výhody a nevýhody tandemové výuky, šest typů tandemové výuky (2 hod)</li>
@@ -2161,7 +2161,7 @@ var ZSInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
           </ul>
         </div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi002" aria-expanded="false" aria-controls="collapsezi002">Strukturované učení u žáků s poruchami autistického spektra  </b> (8 hod, v procesu akreditace)
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi002" aria-expanded="false" aria-controls="collapsezi002">Strukturované učení u žáků s poruchami autistického spektra  </b> (8 hod, doporučeno pro MŠ, ZŠ, asistenty pedagoga, vychovatele ŠD,DM)
           <div className="collapse " id="collapsezi002">
           <ul className="list-group">
             <li className="list-group-item">•	Seznámení s problematikou poruch autistického spektra, symptomatické projevy. Zvláštnosti autistického myšlení a rizika problémového chování.  ( 2 hodiny)</li>
@@ -2346,7 +2346,7 @@ var ZSInovativniFormy: React.StatelessComponent<IKurzProps> = (props: IKurzProps
         </div>
       </LiFile>
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezif2" aria-expanded="false" aria-controls="collapsezif2">Tandemová výuka – nový prvek ve výuce 
-      </b>(8 hod, v procesu akreditace)
+      </b>(8 hod, doporučeno pro ZŠ, SŠ, MŠ)
         <div className="collapse border rounded " id="collapsezif2">
           <ul className="list-group">
             <li className="list-group-item">•	<b>Smysl a princip tandemové výuky</b> : kooperativní a tandemová/párová výuka x výuka s AP, formy tandemové výuky, výhody a nevýhody tandemové výuky, šest typů tandemové výuky (2 hod)</li>
@@ -2849,7 +2849,7 @@ var ZSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
           <li className="list-group-item">•	<b>Závěr programu </b> – diskuse, sdílení, otázky a odpovědi (0,5 hod)</li>
         </ul ></div >
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb01" aria-expanded="false" aria-controls="collapsezwb01">Rozvoj sociálních dovedností žáků v ŠD/ŠK  </b> (8 hod, v procesu akreditace)
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb01" aria-expanded="false" aria-controls="collapsezwb01">Rozvoj sociálních dovedností žáků v ŠD/ŠK  </b> (8 hod, doporučeno pro vychovatele ŠD/ŠK a asistenty pedagoga)
         <div className="collapse " id="collapsezwb01">
           <ul className="list-group">
             <li className="list-group-item">•	<b>Skupinová dynamika</b> ( 2 hodiny)<br/>
