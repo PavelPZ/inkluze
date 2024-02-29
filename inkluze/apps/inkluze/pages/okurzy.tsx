@@ -14,22 +14,6 @@
     </BlockEx>
     <BlockEx>
       <ul className='fa-ul'>
-        <LiHand><h4><b>28.2. 2024 <a href="/index.html?home|kurzyii|zsspoluprace">Zásady efektivní komunikace s rodiči a zákonnými zástupci (8 hodin)</a></b></h4>
-          <h4><Label bsStyle="warning">Oblasti: Spolupráce s rodiči a zákonnými zástupci dětí a žáků, Inkluze</Label></h4>
-          <p>Akreditace: MSMT- 21314/2022-2-729</p>
-          <p>Cena: 1590 Kč/os, Lektor: PaedDr. Ellen Mlátilíková</p>
-          <p>Místo konání: online</p>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=28.2.%202024%20Z%C3%A1sady%20efektivn%C3%AD%20komunikace%20s%20rodi%C4%8Di%20a%20z%C3%A1konn%C3%BDmi%20z%C3%A1stupci&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
-        </LiHand>
-        <LiHand><h4><b>28.2. 2024  <a href="/index.html?home|kurzyii|zsinovace">Úpravy ŠVP v rámci programu InspIS ŠVP (8 hodin)</a></b></h4>
-          <h4><Label bsStyle="warning">Oblast: Inovace ŠVP/koncepce rozvoje školy/školského zařízení</Label></h4>
-          <p>Akreditace: MSMT- 14644/2022-4-517</p>
-          <p>Cena: 1590 Kč/os, Lektor: Bc. Jiří Forýtek</p>
-          <p>Místo konání: online</p>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=28.2.%202024%20%C3%9Apravy%20%C5%A0VP%20v%20r%C3%A1mci%20programu%20InspIS%20%C5%A0VP%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>tento termín bude speciálně zaměřen na ŠVP pro ZŠ</p>
-        </LiHand>
         <LiHand><h4><b>29.2. 2024 <a href="/index.html?home|kurzyss|ssformativnihodnoceni">Formativní hodnocení v praxi (8 hodin)</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Formativní hodnocení</Label></h4>
           <p>Akreditace: MSMT- 14644/2022-4-517</p>
@@ -188,6 +172,22 @@
           <p>Místo konání: online</p>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=30.4.%202024%20Nov%C3%A9%20metody%20pr%C3%A1ce%20u%C4%8Ditele%20%E2%80%93%20aktivizuj%C3%ADc%C3%AD%20formy%20v%C3%BDuky%20na%20Z%C5%A0%20a%20S%C5%A0&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+        </LiHand>
+        <LiHand><h4><b>29.5. 2024 <a href="/index.html?home|kurzyii|zsspoluprace">Zásady efektivní komunikace s rodiči a zákonnými zástupci (8 hodin)</a></b></h4>
+          <h4><Label bsStyle="warning">Oblasti: Spolupráce s rodiči a zákonnými zástupci dětí a žáků, Inkluze</Label></h4>
+          <p>Akreditace: MSMT- 21314/2022-2-729</p>
+          <p>Cena: 1590 Kč/os, Lektor: PaedDr. Ellen Mlátilíková</p>
+          <p>Místo konání: online</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=29.5.%202024%20Z%C3%A1sady%20efektivn%C3%AD%20komunikace%20s%20rodi%C4%8Di%20a%20z%C3%A1konn%C3%BDmi%20z%C3%A1stupci&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+        </LiHand>
+        <LiHand><h4><b>30.5. 2024  <a href="/index.html?home|kurzyii|zsinovace">Úpravy ŠVP v rámci programu InspIS ŠVP (8 hodin)</a></b></h4>
+          <h4><Label bsStyle="warning">Oblast: Inovace ŠVP/koncepce rozvoje školy/školského zařízení</Label></h4>
+          <p>Akreditace: MSMT- 14644/2022-4-517</p>
+          <p>Cena: 1590 Kč/os, Lektor: Bc. Jiří Forýtek</p>
+          <p>Místo konání: online</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=30.5.%202024%20%C3%9Apravy%20%C5%A0VP%20v%20r%C3%A1mci%20programu%20InspIS%20%C5%A0VP%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>tento termín bude speciálně zaměřen na ŠVP pro ZŠ</p>
         </LiHand>
       </ul>
 
