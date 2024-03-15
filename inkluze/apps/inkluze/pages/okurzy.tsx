@@ -14,29 +14,6 @@
     </BlockEx>
     <BlockEx>
       <ul className='fa-ul'>
-        <LiHand><h4><b>přesunuto na 27.3. 2024 <a href="/index.html?home|kurzyss|sskarieroveporadenstvi">Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje-webinář (8 hodin)</a></b></h4>
-          <h4><Label bsStyle="warning">Oblasti: Kariérové poradneství včetně identifikace a rozvoje nadání, Inkluze</Label></h4>
-          <p>Akreditace: 14644/2022-4-517</p>
-          <p>Cena: 1590 Kč/os, Lektor: PaedDr. Ellen Mlátilíková</p>
-          <p>Místo konání: online</p>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=27.3.%202024%20%C5%BD%C3%A1k%20nadan%C3%BD%20a%20mimo%C5%99%C3%A1dn%C4%9B%20nadan%C3%BD%2C%20mo%C5%BEnosti%20jeho%20rozvoje-webin%C3%A1%C5%99&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
-        </LiHand>
-        <LiHand><h4><b>7.3. 2024 <a href="/index.html?home|kurzyii|zsinkluze">Specifické poruchy chování v předškolním věku (8 hodin)</a></b></h4>
-          <h4><Label bsStyle="warning">Oblast: Inkluze</Label></h4>
-          <p>Akreditace: MSMT- 8999/2023-2-332</p>
-          <p>Cena: 1590 Kč/os, Lektor: Mgr et Mgr. Dagmar Vilášková</p>
-          <p>Místo konání: online</p>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=7.3.%202024%20Specifick%C3%A9%20poruchy%20chov%C3%A1n%C3%AD%20v%20p%C5%99ed%C5%A1koln%C3%ADm%20v%C4%9Bku&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
-        </LiHand>
-        <LiHand><h4><b>11.3. 2024 <a href="/index.html?home|kurzyii|zsnovetechnologie">Nová informatika na základní škole (8 hodin)</a></b></h4>
-          <h4><Label bsStyle="warning">Oblast: Vzdělávání s využitím nových technologií</Label></h4>
-          <p>Akreditace: MSMT- 28650/2022-4-905</p>
-          <p>Cena: 1590 Kč/os, Lektor: Mgr. Bc. Jan Šindelář</p>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=11.3.%202024%20Nov%C3%A1%20informatika%20na%20z%C3%A1kladn%C3%AD%20%C5%A1kole&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
-        </LiHand>
         <LiHand><h4><b>12.3. 2024 <a href="/index.html?home|kurzyss|SSCtenarskaGramotnost"> Čtenářská gramotnost napříč všemi předměty SŠ a VOŠ – 8 hod</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Čtenářská gramotnost </Label></h4>
           <p>Akreditace: MSMT-852/2023-2-81</p>
@@ -133,7 +110,7 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=19.4.%202024%20Role%20pedagoga%20v%20karierov%C3%A9m%20poradenstv%C3%AD%20%E2%80%93%208%20hodin&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
-        <LiHand><h4><b>25.4. 2024 <a href="/index.html?home|kurzyii|zsinkluze">Neklidné dítě – problematika ADHD, ADD (8 hodin)</a></b></h4>
+        <LiHand><h4><b>25.4. 2024 <a href="/index.html?home|kurzyii|zsinkluze">Neklidné dítě – problematika ADHD, ADD (8 hodin)</a> Kurz obsazen, další termín 23.5</b></h4>
           <h4><Label bsStyle="warning">Oblast: Inkluze</Label></h4>
           <p>Akreditace: <a href="index.html?home|akreditace">více informací</a></p>
           <p>Cena: 1590 Kč/os, Lektor: Mgr et Mgr. Dagmar Vilášková</p>
