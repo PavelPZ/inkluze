@@ -463,34 +463,6 @@ var SSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
   <BlockEx header="Nabízíme následující kurzy:">
     <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>
     <ul className='fa-ul'>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt010" aria-expanded="false" aria-controls="collapsesnt010">Digitální kompetence na základní škole
-      </b> (doporučeno pro ZŠ a asistenty pedagoga)
-        <div className="collapse " id="collapsesnt010">
-          <p>Kurz je zaměřen na rozvoj vybraných digitálních kompetencí ve výuce na základní škole, které učitelé využijí ve své praxi v souladu s novými cíli v RVP. Účastníci získají znalosti a dovednosti v oblasti metodiky, které jim umožní v rámci své výuky u žáků rozvíjet vybrané kompetence vedoucí k orientaci v digitálním světě a k účelnému a bezpečnému využívání digitálních technologií.</p>
-          <p>Vybraná témata:</p>
-          <ul className="list-group">
-            <li className="list-group-item">•	výběr vhodných zdrojů dat, jejich citace a bezpečné uložení dat,</li>
-            <li className="list-group-item">•	tvorba digitálního materiálu pro prezentaci dat,</li>
-            <li className="list-group-item">•	náhled do využití umělé inteligence,</li>
-            <li className="list-group-item">•	online aplikace pro zpestření a procvičení učiva,</li>
-            <li className="list-group-item">•	online nástroje pro skupinovou práci,</li>
-            <li className="list-group-item">•	praktické mobilní aplikace do školy i života</li>
-          </ul></div>
-      </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt020" aria-expanded="false" aria-controls="collapsesnt020">Digitální kompetence na ZŠ - matematika
-      </b> (doporučeno pro ZŠ a asistenty pedagoga)
-        <div className="collapse " id="collapsesnt020">
-          <p>Kurz je zaměřen na rozvoj digitálních kompetencí ve výuce matematiky, které učitelé využijí ve své praxi v souladu s novými cíli v RVP. Účastníci získají znalosti a dovednosti v oblasti metodiky, které jim umožní v rámci své výuky u žáků rozvíjet kompetence vedoucí k orientaci v digitálním světě a k účelnému a bezpečnému využívání digitálních technologií v matematice.</p>
-          <p>Kurz ukáže, jak využívat digitálních pomůcek při modelování matematických situací a řešení matematických úloh i problémů a volit efektivní postupy v následujících oblastech:</p>
-          <ul className="list-group">
-            <li className="list-group-item">•	algoritmické myšlení a procedurální zběhlost,</li>
-            <li className="list-group-item">•	číslo a proměnná,</li>
-            <li className="list-group-item">•	závislosti, vztahy a práce s daty,</li>
-            <li className="list-group-item">•	geometrie v rovině a prostoru.</li>
-          </ul>
-          <p>V rámci semináře se pro tyto účely účastníci naučí využívat dynamický geometrický, tabulkový procesor a vybrané webové stránky, které umožňují dynamické interpretace čísel a proměnných.</p>
-        </div>
-      </LiFile>
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Efektivní využití MS Office pro pedagogy – 8 hodin</b>        (8 hod, akreditováno pro SŠ, VOŠ, ZŠ)
         <div className="collapse " id="collapsesnt1">
           <ul className="list-group">
@@ -2127,7 +2099,34 @@ var ZSInovace: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy:">
     <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
-
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi100" aria-expanded="false" aria-controls="collapsezi100">Digitální kompetence na základní škole
+      </b> (doporučeno pro ZŠ a asistenty pedagoga)
+        <div className="collapse " id="collapsezi100">
+          <p>Kurz je zaměřen na rozvoj vybraných digitálních kompetencí ve výuce na základní škole, které učitelé využijí ve své praxi v souladu s novými cíli v RVP. Účastníci získají znalosti a dovednosti v oblasti metodiky, které jim umožní v rámci své výuky u žáků rozvíjet vybrané kompetence vedoucí k orientaci v digitálním světě a k účelnému a bezpečnému využívání digitálních technologií.</p>
+          <p>Vybraná témata:</p>
+          <ul className="list-group">
+            <li className="list-group-item">•	výběr vhodných zdrojů dat, jejich citace a bezpečné uložení dat,</li>
+            <li className="list-group-item">•	tvorba digitálního materiálu pro prezentaci dat,</li>
+            <li className="list-group-item">•	náhled do využití umělé inteligence,</li>
+            <li className="list-group-item">•	online aplikace pro zpestření a procvičení učiva,</li>
+            <li className="list-group-item">•	online nástroje pro skupinovou práci,</li>
+            <li className="list-group-item">•	praktické mobilní aplikace do školy i života</li>
+          </ul></div>
+      </LiFile>
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi110" aria-expanded="false" aria-controls="collapsezi110">Digitální kompetence na ZŠ - matematika
+      </b> (doporučeno pro ZŠ a asistenty pedagoga)
+        <div className="collapse " id="collapsezi110">
+          <p>Kurz je zaměřen na rozvoj digitálních kompetencí ve výuce matematiky, které učitelé využijí ve své praxi v souladu s novými cíli v RVP. Účastníci získají znalosti a dovednosti v oblasti metodiky, které jim umožní v rámci své výuky u žáků rozvíjet kompetence vedoucí k orientaci v digitálním světě a k účelnému a bezpečnému využívání digitálních technologií v matematice.</p>
+          <p>Kurz ukáže, jak využívat digitálních pomůcek při modelování matematických situací a řešení matematických úloh i problémů a volit efektivní postupy v následujících oblastech:</p>
+          <ul className="list-group">
+            <li className="list-group-item">•	algoritmické myšlení a procedurální zběhlost,</li>
+            <li className="list-group-item">•	číslo a proměnná,</li>
+            <li className="list-group-item">•	závislosti, vztahy a práce s daty,</li>
+            <li className="list-group-item">•	geometrie v rovině a prostoru.</li>
+          </ul>
+          <p>V rámci semináře se pro tyto účely účastníci naučí využívat dynamický geometrický, tabulkový procesor a vybrané webové stránky, které umožňují dynamické interpretace čísel a proměnných.</p>
+        </div>
+      </LiFile>
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi1" aria-expanded="false" aria-controls="collapsezi1">Změny v RVP a úpravy ŠVP </b> (8 hod, akreditováno pro MŠ, ZŠ, ZUŠ, SŠ, VOŠ)
                 <div className="collapse " id="collapsezi1"><ul className="list-group"><li className="list-group-item">•	Aktuální legislativní rámec školského zákona, který souvisí s tvorbou, úpravou a efektivním využíváním školních vzdělávacích programů  – (2 hod)</li>
           <li className="list-group-item">•	Změny vyvolané revizí RVP (MŠMT)  - (2 hod)</li>

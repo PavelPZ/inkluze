@@ -24,7 +24,7 @@
     <span>Čtenářská a informační gramotnost na ZŠ – 8 hodin</span>,
     <div style={{ marginTop: 10 }}>
       <p>
-        Tento kurz není akreditován, což není překážkou financování ze Šablon JAK.
+        Akreditace tohoto kurzu již vypršela, což není překážkou financování ze Šablon JAK.
       </p>
       <p>
         V případě jakýchkoli pochybností si tuto informaci můžete ověřit na konzultační lince pro Šablony JAK: <a href="mailto:dotazyzp@msmt.cz">dotazyzp@msmt.cz</a>, tel. 234 814 777
@@ -84,7 +84,7 @@
     <span>Funkce a nástrahy internetu, kyberšikana a sociální sítě</span>,
     <div style={{ marginTop: 10 }}>
       <p>
-        Tento kurz není akreditován, což není překážkou financování ze Šablon JAK.
+        Akreditace tohoto kurzu již vypršela, což není překážkou financování ze Šablon JAK.
       </p>
       <p>
         V případě jakýchkoli pochybností si tuto informaci můžete ověřit na konzultační lince pro Šablony JAK: <a href="mailto:dotazyzp@msmt.cz">dotazyzp@msmt.cz</a>, tel. 234 814 777
@@ -102,7 +102,7 @@
     <span>GeoGebra jako nástroj rozvoje matematické gramotnosti na ZŠ</span>,
     <div style={{ marginTop: 10 }}>
       <p>
-        Tento kurz není akreditován, což není překážkou financování ze Šablon JAK.
+        Akreditace tohoto kurzu již vypršela, což není překážkou financování ze Šablon JAK.
       </p>
       <p>
         V případě jakýchkoli pochybností si tuto informaci můžete ověřit na konzultační lince pro Šablony JAK: <a href="mailto:dotazyzp@msmt.cz">dotazyzp@msmt.cz</a>, tel. 234 814 777
@@ -120,7 +120,7 @@
     <span>Jak zvládat stresové situace a nedospět k vyhoření</span>,
     <div style={{ marginTop: 10 }}>
       <p>
-        Tento kurz není akreditován, což není překážkou financování ze Šablon JAK.
+        Akreditace tohoto kurzu již vypršela, což není překážkou financování ze Šablon JAK.
       </p>
       <p>
         V případě jakýchkoli pochybností si tuto informaci můžete ověřit na konzultační lince pro Šablony JAK: <a href="mailto:dotazyzp@msmt.cz">dotazyzp@msmt.cz</a>, tel. 234 814 777
@@ -216,6 +216,27 @@
         </p>
       <p>
         Tento kurz splňuje svou kvalitou kriteria pro akreditovaný kurz. Paní lektorka Mlátilíková pro nás lektoruje spoustu dalších kurzů, které ji byly bez problémů zakreditovány. Nicméně i jejich akreditace postupně vyprší, stejně tak jako akreditaci všech našich dalších akreditovaných kurzů a i všech kurzů, které nabízejí jiné vzdělavací instituce. Od března 2025 už nebudou akreditované kurzy DVPP vůbec existovat, protože bude všem akreditovaným kurzům ukončena platnost akreditace.
+      </p>
+    </div>),
+  inkluze.createQA(
+    <span>Strukturované učení u žáků s poruchami autistického spektra</span>,
+    <div style={{ marginTop: 10 }}>
+      <p>
+        Tento kurz není akreditován, což není překážkou financování ze Šablon JAK.
+      </p>
+      <p>
+        V případě jakýchkoli pochybností si tuto informaci můžete ověřit na konzultační lince pro Šablony JAK: <a href="mailto:dotazyzp@msmt.cz">dotazyzp@msmt.cz</a>, tel. 234 814 777
+      </p>
+      <p>
+        Kurz již nebyl zakreditován protože z rozhodnutí MŠMT byly od září 2023 všechny DVPP akreditace zastaveny. Budou se akreditovat MŠMT výhradně specializační a kvalifikační studia, tj. jen ty které vedou ke specializaci či kvalifikaci.
+        Více viz: <a href="https://www.msmt.cz/vzdelavani/dalsi-vzdelavani/predpokladane-zmeny-v-akreditacich-vzdelavacich-programu-v" target="_new">(aktualizováno) Změny v akreditacích vzdělávacích programů v systému dalšího vzdělávání pedagogických pracovníků účinné od 1. září 2023, MŠMT ČR (msmt.cz)</a>
+      </p>
+      <p>
+        V bodě 1a) zrušení akreditací - třetí odstavec se píše:
+        Zároveň již není akreditace vzdělávacích programů prohlubujícího vzdělávání podmínkou pro čerpání finančních prostředků z dotačních programů, zejména z tzv. šablon Operačního programu Jan Amos Komenský nebo výzev v rámci Národního plánu obnovy.
+        </p>
+      <p>
+        Tento kurz splňuje svou kvalitou kriteria pro akreditovaný kurz. Paní lektorka Vilášková pro nás lektoruje spoustu dalších kurzů, které ji byly bez problémů zakreditovány. Nicméně i jejich akreditace postupně vyprší, stejně tak jako akreditaci všech našich dalších akreditovaných kurzů a i všech kurzů, které nabízejí jiné vzdělavací instituce. Od března 2025 už nebudou akreditované kurzy DVPP vůbec existovat, protože bude všem akreditovaným kurzům ukončena platnost akreditace.
       </p>
     </div>),
   inkluze.createQA(

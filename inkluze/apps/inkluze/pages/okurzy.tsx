@@ -113,7 +113,7 @@
         </LiHand>
         <LiHand><h4><b>27.5. 2024 <a href="/index.html?home|kurzyii|ZSCtenarskaGramotnost">Čtenářská a informační gramotnost na ZŠ – 8 hodin</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Čtenářská gramotnost</Label></h4>
-          <p>Akreditace: MSMT- 332/2021-4-72</p>
+          <p>Akreditace: <a href="index.html?home|akreditace">více informací</a></p>
           <p>Cena: 1690 Kč/os, Lektor: Mgr. Dana Forýtková</p>
           <p>Místo konání: online</p>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=27.5.%202024%20%C4%8Cten%C3%A1%C5%99sk%C3%A1%20a%20informa%C4%8Dn%C3%AD%20gramotnost%20na%20Z%C5%A0%20%E2%80%93%208%20hodin&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
@@ -241,7 +241,7 @@
         </LiHand>
         <LiHand><h4><b>24.10. 2024 <a href="/index.html?home|kurzyii|zsinkluze">Strukturované učení u žáků s poruchami autistického spektra (8 hodin)</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Inkluze</Label></h4>
-          <p>Akreditace: v procesu akreditace</p>
+          <p>Akreditace: <a href="index.html?home|akreditace">více informací</a></p>
           <p>Cena: 1690 Kč/os, Lektor: Mgr et Mgr. Dagmar Vilášková</p>
           <p>Místo konání: online</p>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=24.10.%202024%20%20Strukturovan%C3%A9%20u%C4%8Den%C3%AD%20u%20%C5%BE%C3%A1k%C5%AF%20s%20poruchami%20autistick%C3%A9ho%20spektra%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
