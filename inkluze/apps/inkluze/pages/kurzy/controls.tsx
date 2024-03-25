@@ -463,6 +463,34 @@ var SSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
   <BlockEx header="Nabízíme následující kurzy:">
     <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>
     <ul className='fa-ul'>
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt010" aria-expanded="false" aria-controls="collapsesnt010">Digitální kompetence na základní škole
+      </b> (doporučeno pro ZŠ a asistenty pedagoga)
+        <div className="collapse " id="collapsesnt010">
+          <p>Kurz je zaměřen na rozvoj vybraných digitálních kompetencí ve výuce na základní škole, které učitelé využijí ve své praxi v souladu s novými cíli v RVP. Účastníci získají znalosti a dovednosti v oblasti metodiky, které jim umožní v rámci své výuky u žáků rozvíjet vybrané kompetence vedoucí k orientaci v digitálním světě a k účelnému a bezpečnému využívání digitálních technologií.</p>
+          <p>Vybraná témata:</p>
+          <ul className="list-group">
+            <li className="list-group-item">•	výběr vhodných zdrojů dat, jejich citace a bezpečné uložení dat,</li>
+            <li className="list-group-item">•	tvorba digitálního materiálu pro prezentaci dat,</li>
+            <li className="list-group-item">•	náhled do využití umělé inteligence,</li>
+            <li className="list-group-item">•	online aplikace pro zpestření a procvičení učiva,</li>
+            <li className="list-group-item">•	online nástroje pro skupinovou práci,</li>
+            <li className="list-group-item">•	praktické mobilní aplikace do školy i života</li>
+          </ul></div>
+      </LiFile>
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt020" aria-expanded="false" aria-controls="collapsesnt020">Digitální kompetence na ZŠ - matematika
+      </b> (doporučeno pro ZŠ a asistenty pedagoga)
+        <div className="collapse " id="collapsesnt020">
+          <p>Kurz je zaměřen na rozvoj digitálních kompetencí ve výuce matematiky, které učitelé využijí ve své praxi v souladu s novými cíli v RVP. Účastníci získají znalosti a dovednosti v oblasti metodiky, které jim umožní v rámci své výuky u žáků rozvíjet kompetence vedoucí k orientaci v digitálním světě a k účelnému a bezpečnému využívání digitálních technologií v matematice.</p>
+          <p>Kurz ukáže, jak využívat digitálních pomůcek při modelování matematických situací a řešení matematických úloh i problémů a volit efektivní postupy v následujících oblastech:</p>
+          <ul className="list-group">
+            <li className="list-group-item">•	algoritmické myšlení a procedurální zběhlost,</li>
+            <li className="list-group-item">•	číslo a proměnná,</li>
+            <li className="list-group-item">•	závislosti, vztahy a práce s daty,</li>
+            <li className="list-group-item">•	geometrie v rovině a prostoru.</li>
+          </ul>
+          <p>V rámci semináře se pro tyto účely účastníci naučí využívat dynamický geometrický, tabulkový procesor a vybrané webové stránky, které umožňují dynamické interpretace čísel a proměnných.</p>
+        </div>
+      </LiFile>
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Efektivní využití MS Office pro pedagogy – 8 hodin</b>        (8 hod, akreditováno pro SŠ, VOŠ, ZŠ)
         <div className="collapse " id="collapsesnt1">
           <ul className="list-group">
@@ -512,9 +540,10 @@ var SSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
       </LiFile>
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt50" aria-expanded="false" aria-controls="collapsesnt50">Využití ICT ve výuce - náměty a inspirace pro praxi
       </b> (8 hod, doporučeno pro ZŠ, SŠ, VOŠ)
-         <p>Vzdělávací program je zaměřen na využití moderních technologií ve výuce. Semináře je zaměřen jak na obecnější principy využití moderních technologií, tak na využití konkrétních programů, webových stránek a aplikací vhodných pro podporu výuky.Účastníci se seznámí s metodami a postupy, které zdokonalují výklad učiva a zároveň žáky motivují. Pracovat se bude v duchu konstruktivistické pedagogiky.Programy, aplikace a webové stránky jsou voleny tak, aby jejich užití bylo pro školu zdarma (bez kupování licencí).</p>
+        <div className="collapse " id="collapsesnt50">  
+        <p>Vzdělávací program je zaměřen na využití moderních technologií ve výuce. Semináře je zaměřen jak na obecnější principy využití moderních technologií, tak na využití konkrétních programů, webových stránek a aplikací vhodných pro podporu výuky.Účastníci se seznámí s metodami a postupy, které zdokonalují výklad učiva a zároveň žáky motivují. Pracovat se bude v duchu konstruktivistické pedagogiky.Programy, aplikace a webové stránky jsou voleny tak, aby jejich užití bylo pro školu zdarma (bez kupování licencí).</p>
         <p>Příklady probíraných témat</p>
-         <div className="collapse " id="collapsesnt50"><ul className="list-group"><li className="list-group-item">•	Seznámení s problematikou nasazení výukových technologií školního prostředí (pozitiva, negativa a rizika nasazení se kterými je třeba počítat) (1 hodina)</li>
+         <ul className="list-group"><li className="list-group-item">•	Seznámení s problematikou nasazení výukových technologií školního prostředí (pozitiva, negativa a rizika nasazení se kterými je třeba počítat) (1 hodina)</li>
           <li className="list-group-item">•	Seznámení programy a aplikacemi, které oživí každou prezentaci</li>
           <li className="list-group-item">•	Využití pojmových map, sdílených poznámek a dokumentů ve výuce</li>
           <li className="list-group-item">•	Programy a aplikace pro jednoduché vytváření zábavných kvízů</li>
@@ -2487,6 +2516,34 @@ var ZSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
 </div>} eventKey={2}>
   <BlockEx header="Nabízíme následující kurzy:">
     <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseznt010" aria-expanded="false" aria-controls="collapseznt010">Digitální kompetence na základní škole
+      </b> (doporučeno pro ZŠ a asistenty pedagoga)
+        <div className="collapse " id="collapseznt010">
+          <p>Kurz je zaměřen na rozvoj vybraných digitálních kompetencí ve výuce na základní škole, které učitelé využijí ve své praxi v souladu s novými cíli v RVP. Účastníci získají znalosti a dovednosti v oblasti metodiky, které jim umožní v rámci své výuky u žáků rozvíjet vybrané kompetence vedoucí k orientaci v digitálním světě a k účelnému a bezpečnému využívání digitálních technologií.</p>
+          <p>Vybraná témata:</p>
+          <ul className="list-group">
+            <li className="list-group-item">•	výběr vhodných zdrojů dat, jejich citace a bezpečné uložení dat,</li>
+            <li className="list-group-item">•	tvorba digitálního materiálu pro prezentaci dat,</li>
+            <li className="list-group-item">•	náhled do využití umělé inteligence,</li>
+            <li className="list-group-item">•	online aplikace pro zpestření a procvičení učiva,</li>
+            <li className="list-group-item">•	online nástroje pro skupinovou práci,</li>
+            <li className="list-group-item">•	praktické mobilní aplikace do školy i života</li>
+          </ul></div>
+      </LiFile>
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseznt020" aria-expanded="false" aria-controls="collapseznt020">Digitální kompetence na ZŠ - matematika
+      </b> (doporučeno pro ZŠ a asistenty pedagoga)
+        <div className="collapse " id="collapseznt020">
+          <p>Kurz je zaměřen na rozvoj digitálních kompetencí ve výuce matematiky, které učitelé využijí ve své praxi v souladu s novými cíli v RVP. Účastníci získají znalosti a dovednosti v oblasti metodiky, které jim umožní v rámci své výuky u žáků rozvíjet kompetence vedoucí k orientaci v digitálním světě a k účelnému a bezpečnému využívání digitálních technologií v matematice.</p>
+          <p>Kurz ukáže, jak využívat digitálních pomůcek při modelování matematických situací a řešení matematických úloh i problémů a volit efektivní postupy v následujících oblastech:</p>
+          <ul className="list-group">
+            <li className="list-group-item">•	algoritmické myšlení a procedurální zběhlost,</li>
+            <li className="list-group-item">•	číslo a proměnná,</li>
+            <li className="list-group-item">•	závislosti, vztahy a práce s daty,</li>
+            <li className="list-group-item">•	geometrie v rovině a prostoru.</li>
+          </ul>
+          <p>V rámci semináře se pro tyto účely účastníci naučí využívat dynamický geometrický, tabulkový procesor a vybrané webové stránky, které umožňují dynamické interpretace čísel a proměnných.</p>
+        </div>
+      </LiFile>
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseznt0" aria-expanded="false" aria-controls="collapseznt0">Nová informatika na základní škole </b> (8 hod, akreditováno pro ZŠ, asistenti)
                 <div className="collapse " id="collapseznt0">
           <ul className="list-group">
@@ -2538,6 +2595,19 @@ var ZSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
             <li className="list-group-item">•	<b>Ukázka práce s dotykovými zařízeními</b> - uchazeč se v posledním bloku aktivně zapojí do práce s dotykovým zařízením. Využije získané teoretické poznatky k sestavení ukázkové hodiny, ve které využije dotyková zařízení (2 hod)</li>
           </ul></div>
       </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseznt50" aria-expanded="false" aria-controls="collapseznt50">Využití ICT ve výuce - náměty a inspirace pro praxi
+      </b> (8 hod, doporučeno pro ZŠ, SŠ, VOŠ)
+        <div className="collapse " id="collapseznt50">
+          <p>Vzdělávací program je zaměřen na využití moderních technologií ve výuce. Semináře je zaměřen jak na obecnější principy využití moderních technologií, tak na využití konkrétních programů, webových stránek a aplikací vhodných pro podporu výuky.Účastníci se seznámí s metodami a postupy, které zdokonalují výklad učiva a zároveň žáky motivují. Pracovat se bude v duchu konstruktivistické pedagogiky.Programy, aplikace a webové stránky jsou voleny tak, aby jejich užití bylo pro školu zdarma (bez kupování licencí).</p>
+          <p>Příklady probíraných témat</p>
+          <ul className="list-group"><li className="list-group-item">•	Seznámení s problematikou nasazení výukových technologií školního prostředí (pozitiva, negativa a rizika nasazení se kterými je třeba počítat) (1 hodina)</li>
+            <li className="list-group-item">•	Seznámení programy a aplikacemi, které oživí každou prezentaci</li>
+            <li className="list-group-item">•	Využití pojmových map, sdílených poznámek a dokumentů ve výuce</li>
+            <li className="list-group-item">•	Programy a aplikace pro jednoduché vytváření zábavných kvízů</li>
+            <li className="list-group-item">•	Použití programu Formulator Tarsia pro tvorbu domin, triomin a jiných her vhodných k oživení procvičovaného učiva</li>
+            <li className="list-group-item">•	Příklady různých aplikací, programů či webových stránek s hrami, videi, texty i jinými materiály, které je možné vhodně využít při výuce</li>
+          </ul></div>
+      </LiFile>
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseznt5" aria-expanded="false" aria-controls="collapseznt5">Využití ICT ve škole </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)
                  <div className="collapse " id="collapseznt5"><ul className="list-group"><li className="list-group-item">•	Seznámení s problematikou nasazení výukových technologií školního prostředí (pozitiva, negativa a rizika nasazení se kterými je třeba počítat) (1 hodina)</li>
           <li className="list-group-item">•	Rozbor dosavadně používaných programů a aplikací účastníků (1 hodina)</li>
