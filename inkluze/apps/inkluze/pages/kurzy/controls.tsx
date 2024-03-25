@@ -738,6 +738,44 @@ var SSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
           <li className="list-group-item">•	<b>Závěr programu </b> – diskuse, sdílení, otázky a odpovědi (0,5 hod)</li>
         </ul ></div >
       </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb1111" aria-expanded="false" aria-controls="collapseswb1111">Třídní učitel a jeho působení na vytváření třídního kolektivu  </b> (8 hod, doporučeno pro ZŠ, SŠ, VOŠ, asistenti)
+         <div className="collapse " id="collapseswb1111">
+          <ul className="list-group">
+            <li className="list-group-item">•	<b>Téma – třídní učitel v souvislosti</b> s aktuálním znění zákona č. 563/2004 Sb. Zákon o pedagogických pracovnících ve znění účinném od 1. 1. 2024. Vysvětlení pojmů §24d organizační, administrativní činnosti a podpora zdravých, funkčních vztahů mezi žáky aj. (1 hod.)</li>
+            <li className="list-group-item">•	<b>Možnosti práce s třídním kolektivem  pro vytváření bezpečného a podnětného prostředí pro vývoj, výchovu a vzdělávání.</b> třídy. (1 hodina)</li>
+            <li className="list-group-item">•	<b>Téma - Autenticita pedagoga, sebereflexe pedagoga, sebehodnocení. Kategorie a formy diagnostiky ve školním prostředí</b> - souvislost s úpravou právních předpisů - jak v souvislosti s využitím podpůrného opatření . Pozorování žáků a jeho zaznamenání: analýza získaných poznatků, další nástroje pedagogické diagnostiky, východiska pro nastavení práce s třídním kolektivem, možnosti nastavení podmínek v rámci třídního kolektivu (2 hodiny)</li>
+            <li className="list-group-item">•	<b>Téma - Třídní kolektiv, možnosti vedení třídního kolektivu.</b> Základní pravidla pro fungující třídní kolektiv: Cíle práce se třídou, jak najít a nastavit cíl třídnické hodiny /  nastavení struktury třídnické hodiny, co je a není vhodné/, Práce s tvarem třídy /skupiny, dvojice, jednotlivci/, Témata na třídnické hodiny / komunikace, empatie, úcta, respekt…/, Regulace chování ve skupině (2 hodiny)</li>
+            <li className="list-group-item">•	<b>Téma – supervize, její význam a cíl.</b> Východiska pro hodnocení : kultura vysokých očekávání, Osvědčené strategie pro vytvoření prostředí podporujícího všechny žáky, Sebezkušenostní část vzdělávacího programu. / zaměření na jednotlivé situace, problémy, kauzistiky/ (2 hodiny)</li>
+          </ul >
+        </div >
+      </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb101" aria-expanded="false" aria-controls="collapseswb101">Základy krizové intervence pro pedagogy 
+      </b>(8 hod, doporučeno pro ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)
+        <div className="collapse " id="collapseswb101">
+          <ul className="list-group">
+            <li className="list-group-item">Krizová intervence - krizová intervence (KI) jako forma pomoci nejen pro žáky a studenty, cíle KI (0,5 hod) </li>
+            <li className="list-group-item">Situace podpory ve vaší škole - mapování a analýza současného stavu - týmová aktivita, diskuse (0,5 hod) </li>
+            <li className="list-group-item">Stabilizace osoby v krizové situaci, techniky - techniky pro práci s akutní krizí např. úzkostný stav - rozpoznání a nácvik technik pedagogy (1,5 hod) </li>
+            <li className="list-group-item">Zásady vedení hovoru v rámci KI - struktura hovoru, smysluplná návaznost 6. fází v hovoru - skupinový nácvik pedagogy, simulace (1,5 hod) </li>
+            <li className="list-group-item">Poskytování zpětné vazby a práce s emocemi - seznámení se s vyjadřováním emocí a jejich bezpečnou ventilací (1 hod) </li>
+            <li className="list-group-item">Práce se třetí osobou - vyžádaná versus nevyžádaná podpora, možnosti pomoci (0,5 hod) </li>
+            <li className="list-group-item">Navazující podpora a mapa pomoci - představení odkazů na další podpůrné služby, zdroje pomoci (1 hod) </li>
+            <li className="list-group-item">Hranice a kompetence pedagoga v KI, psychohygiena - odpovědnost, prevence vyhoření - sebepoznávací dotazník a vyhodnocení (1 hod) </li>
+            <li className="list-group-item">Závěr - sdílení, diskuse (0,5 hod)</li>
+        </ul ></div >
+      </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb123" aria-expanded="false" aria-controls="collapseswb123">Sebepoškozování (příčiny – řešení – péče o žáka) 
+      </b>(8 hod, doporučeno pro ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)
+        <div className="collapse " id="collapseswb123">
+          <p>Kurz Vás seznámí s tím, co vše se může skrývat pod pojmem sebepoškozování dětí. Jaké mohou být rizikové faktory sebepoškozování. Upozorníme Vás na signály, které mohou vést k sebepoškozování. Co musíte a můžete udělat? Jak se k nemocnému chovat, kde hledáme pomoc? Dále Vás seznámíme s pojmem CAN (syndrom týraného, zneužívaného a zanedbávaného dítěte), deprivace u dětí v souvislosti se sebepoškozováním.</p>
+          <p>Obsah kurzu v bodech</p>
+          <ul className="list-group">
+              <li className="list-group-item">•	deprivace, psychika deprimovaných dětí, následky deprivace a prevence, deprivace 2 hod.</li>
+              <li className="list-group-item">•	syndrom týraného, zneužívaného a zanedbávaného dítěte (CAN) 1 hodina</li>
+              <li className="list-group-item">•	sebepoškozování – popis, rozdělení, prevence, rizikové faktory záměrného sebepoškozování a jejich dopady na školní výkon dítěte a na jeho vztahy s vrstevníky i pedagogy 5 hod.</li>
+            </ul >
+          </div >
+      </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb11" aria-expanded="false" aria-controls="collapseswb11">Wellbeing, cesta k harmonizaci vztahů ve škole - webinář
 </b>(8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, asistenti)
         <div className="collapse border rounded " id="collapseswb11">
@@ -1083,6 +1121,18 @@ var SSOstatniInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
             <li className="list-group-item">•	Legislativní ukotvení inkluzivního vzdělávání žáka s poruchami autistického spektra. Možnosti a realizace podpůrných opatření. Práce s Doporučením. (1 hodina)</li>
           </ul>
         </div>
+      </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt123" aria-expanded="false" aria-controls="collapsesnt123">Strategie předcházení školní neúspěšnosti  </b> (8 hod, doporučeno pro ZŠ, SŠ, VOŠ a asistenty pedagoga)
+        <div className="collapse " id="collapsesnt123">
+          <ul className="list-group">
+            <li className="list-group-item">•	<b>Téma</b> – Strategie předcházení školní neúspěšnosti. Legislativní rámec, strategie jako součást povinné dokumentace školy. Vyhláška 72/2005 Sb., ve znění pozdějších předpisů O poradenských službách ve školách a školských zařízeních.  Vymezení základních pojmů. (1 hodina)</li>
+            <li className="list-group-item">• <b>Téma Základní pojmy 1. část.</b> Vymezení základních pojmů, možnosti pedagogické diagnostiky pro nastavení strategie  prevence školní neúspěšnosti.  metody a formy práce pedagogických pracovníků, standardní činností členů školního  poradneského pracoviště v rámci strategie prevence školní neúspěšnosti. dání. (1 hodina)</li>
+            <li className="list-group-item">•	<b>Téma Základní pojmy 2. část.</b>  Principy práce ve vyučovací hodině v rámci strategie prevence školní neúspěšnosti,  pedagogická diagnostika jako nástroj pro volbu vhodných metod a forem práce s diferencovanou skupinou.(1.hodina)</li>
+            <li className="list-group-item">•	<b>Téma – Principy práce s diferencovanou třídou</b>, Možnosti diferencovaného vyučování, Ukázka diagnostických metod. nastavení diferenciace časem v rámci celé třídy. Ukázka pracovních listů a práce s diferencovanou skupinou od žáků mimořádně nadaných, přes žáky se speciálně vzdělávacími potřebami /dále jen SVP v rámci prevence školní neúspěšnosti/ (1 hodina)</li>
+            <li className="list-group-item">•	<b>Téma – Principy práce s diferencovanou třídou</b>, ukázka dalších možností nastavení prevence školní neúspěšnosti.  Možnosti diferenciace rozsahem práce a obtížností úkolů s nastavením podpůrných opatření.  Ukázka možností procvičování podle individuálních možností a schopností jednotlivých žáků, způsob ověřování tematických celků, úrovně, rozsahu, četnosti úkolů stejného typu. Ukázka možntostí práce v rámci strategie prevence školní neúspěšnosti, nabídka metodických a pracovních materiálů. Možnosti zařazování obtížnější úrovně základního učiva. (1 hodina)</li>
+            <li className="list-group-item">•	<b>Téma – Možnosti školního poradenského pracoviště</b>, standardní činností členů ŠPP v rámci strategie předcházení školní neúspěšnosti a možnosti kooperace pedagogických pracovníků na této strategii.   Hodnocení žáků a motivace žáků k diferencované práci. Sumativní a formativní hodnocení, autonomní, heteronomní hodnocení. (2 hodiny)</li>
+            <li className="list-group-item">•	<b>Téma – Ukázka inspirativních úloh</b>. Možnosti obohacení učiva, inspirativní úlohy vhodné pro rozvoj rozumového nadání.Práce s kazuistikami, diskuze. (1 hodina)</li>
+          </ul></div>
       </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Práce s diferencovanou třídou a náměty na vzdělávání 8 hod
       </b>(8 hod, akreditováno pro SŠ, VOŠ, ZŠ, asistenti)
@@ -2224,11 +2274,36 @@ var ZSInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
           <li className="list-group-item">•	Diskuse a rozbor příkladů z praxe (1 hod)</li>
         </ul></div>
       </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi013" aria-expanded="false" aria-controls="collapsezi013">Specifické poruchy chování –pro ŠD a asistenty pedagoga   </b> (8 hod, doporučeno pro ŠD a asistenty pedagoga)
+        <div className="collapse " id="collapsezi013"><ul className="list-group">
+          <li className="list-group-item">•	Kurz Vám poskytne přehled péče o žáky s ADHD a poruchami chování s akcentem na uplatnění kognitivně behaviorálních přístupů. Součástí kurzu je i vysvětlení možnosti výchovného působení a přístupu k žákům s ADHD. </li>
+          <li className="list-group-item">•	Včasná diagnostika a intervence jako východiska pro práci s žákem a rodiči (1 hod)</li>
+          <li className="list-group-item">•	Základní pojmy, specifické poruchy chování, ADHD, ADD. (1 hod)</li>
+          <li className="list-group-item">•	Vztah mezi specifickými poruchami chování a specifickými poruchami učení na bázi ADHD se zaměřením na specifika pro práci pedagoga (1 hod)</li>
+          <li className="list-group-item">•	Objasnění symptomatologie těchto poruch, kritéria pro diagnostiku SPCH, platná legislativa, metody práce u žáků se SPCH, spolupráce rodiny (1 hod)</li>
+          <li className="list-group-item">•	Postavení žáka s ADHD ve škole a úskalí realizace činností ve školní družině (1 hod)</li>
+          <li className="list-group-item">•	Teoretická východiska kognitivně behaviorální terapie (1 hodina)</li>
+          <li className="list-group-item">•	Efektivní kognitivně behaviorální postupy uplatňované ve školním i mimoškolním prostředí – edukace, režimová opatření, monitoring, pozitivní posilování  žádoucího chování, plán činnosti, nácvik chování podle vzoru, formování, expoziční terapie, behaviorální smlouvy, žetonové hospodaření (1 hodina)</li>
+          <li className="list-group-item">•	Možnosti a limity pedagogů, psychologů, terapeutů a dalších odborníků při řešení uvedených poruch (1 hodina)</li>
+        </ul></div>
+      </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi011" aria-expanded="false" aria-controls="collapsezi011">Neklidné dítě – problematika ADHD, ADD </b> (8 hod, doporučeno pro učitele MŠ, ZŠ a asistenty pedagoga)
         <div className="collapse " id="collapsezi011"><ul className="list-group">
           <li className="list-group-item">•	Projevy chování dítěte s ADHD, ADD, související se začleněním dítěte do kolektivu MŠ a ZŠ a na ně navazující možná další úskalí. Vznik ADHD, ADD – příčiny vzniku. Kritéria dle MKN – konkrétní popis projevů. Jednotlivé příznaky ADHD, ADD. (3 hod)</li>
           <li className="list-group-item">•	Korekce nežádoucího chování - zásady práce s dítětem s ADHD (ADD), předcházení konfliktním situacím. Chování dětí s ADHD a ADD ve škole i doma, informace o typických projevech chování (příklady z praxe) Zásady práce s dítětem s ADHD/ADD ve škole i doma, pravidla jednoznačné komunikace. (3 hod)</li>
           <li className="list-group-item">•	Efektivní způsoby ovlivňování chování a jednání dětí s ADHD,ADD: vytváření přehledného a strukturovaného prostředí. Promyšlené reakce rodičů, učitelů a okolí na určité projevy jejich chování, uspořádání pomůcek, uspořádání pracovního prostoru, zapojení do skupiny, přecházení od jedné činnosti k druhé. (2 hod)</li>
+        </ul></div>
+      </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi123" aria-expanded="false" aria-controls="collapsezi123">Strategie předcházení školní neúspěšnosti  </b> (8 hod, doporučeno pro ZŠ, SŠ, VOŠ a asistenty pedagoga)
+        <div className="collapse " id="collapsezi123">
+          <ul className="list-group">
+            <li className="list-group-item">•	<b>Téma</b> – Strategie předcházení školní neúspěšnosti. Legislativní rámec, strategie jako součást povinné dokumentace školy. Vyhláška 72/2005 Sb., ve znění pozdějších předpisů O poradenských službách ve školách a školských zařízeních.  Vymezení základních pojmů. (1 hodina)</li>
+            <li className="list-group-item">• <b>Téma Základní pojmy 1. část.</b> Vymezení základních pojmů, možnosti pedagogické diagnostiky pro nastavení strategie  prevence školní neúspěšnosti.  metody a formy práce pedagogických pracovníků, standardní činností členů školního  poradneského pracoviště v rámci strategie prevence školní neúspěšnosti. dání. (1 hodina)</li>
+            <li className="list-group-item">•	<b>Téma Základní pojmy 2. část.</b>  Principy práce ve vyučovací hodině v rámci strategie prevence školní neúspěšnosti,  pedagogická diagnostika jako nástroj pro volbu vhodných metod a forem práce s diferencovanou skupinou.(1.hodina)</li>
+            <li className="list-group-item">•	<b>Téma – Principy práce s diferencovanou třídou</b>, Možnosti diferencovaného vyučování, Ukázka diagnostických metod. nastavení diferenciace časem v rámci celé třídy. Ukázka pracovních listů a práce s diferencovanou skupinou od žáků mimořádně nadaných, přes žáky se speciálně vzdělávacími potřebami /dále jen SVP v rámci prevence školní neúspěšnosti/ (1 hodina)</li>
+            <li className="list-group-item">•	<b>Téma – Principy práce s diferencovanou třídou</b>, ukázka dalších možností nastavení prevence školní neúspěšnosti.  Možnosti diferenciace rozsahem práce a obtížností úkolů s nastavením podpůrných opatření.  Ukázka možností procvičování podle individuálních možností a schopností jednotlivých žáků, způsob ověřování tematických celků, úrovně, rozsahu, četnosti úkolů stejného typu. Ukázka možntostí práce v rámci strategie prevence školní neúspěšnosti, nabídka metodických a pracovních materiálů. Možnosti zařazování obtížnější úrovně základního učiva. (1 hodina)</li>
+            <li className="list-group-item">•	<b>Téma – Možnosti školního poradenského pracoviště</b>, standardní činností členů ŠPP v rámci strategie předcházení školní neúspěšnosti a možnosti kooperace pedagogických pracovníků na této strategii.   Hodnocení žáků a motivace žáků k diferencované práci. Sumativní a formativní hodnocení, autonomní, heteronomní hodnocení. (2 hodiny)</li>
+            <li className="list-group-item">•	<b>Téma – Ukázka inspirativních úloh</b>. Možnosti obohacení učiva, inspirativní úlohy vhodné pro rozvoj rozumového nadání.Práce s kazuistikami, diskuze. (1 hodina)</li>
         </ul></div>
       </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi1" aria-expanded="false" aria-controls="collapsezi1">Práce s diferencovanou třídou a náměty na vzdělávání 8 hod </b> (8 hod, akreditováno pro ZŠ, SŠ, VOŠ, asistenti)
@@ -2929,6 +3004,44 @@ var ZSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
           <li className="list-group-item">•	<b>Náš pedagogický sbor a společné vytváření „Wellbeing prostředí“ </b> – osobní zodpovědnost vs. iluze týmové (ne)zodpovědnosti – od představ k realitě, jak to udělat v naší škole (1, 5 hod)</li >
           <li className="list-group-item">•	<b>Závěr programu </b> – diskuse, sdílení, otázky a odpovědi (0,5 hod)</li>
         </ul ></div >
+      </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb1111" aria-expanded="false" aria-controls="collapsezwb1111">Třídní učitel a jeho působení na vytváření třídního kolektivu  </b> (8 hod, doporučeno pro ZŠ, SŠ, VOŠ, asistenti)
+         <div className="collapse " id="collapsezwb1111">
+          <ul className="list-group">
+            <li className="list-group-item">•	<b>Téma – třídní učitel v souvislosti</b> s aktuálním znění zákona č. 563/2004 Sb. Zákon o pedagogických pracovnících ve znění účinném od 1. 1. 2024. Vysvětlení pojmů §24d organizační, administrativní činnosti a podpora zdravých, funkčních vztahů mezi žáky aj. (1 hod.)</li>
+            <li className="list-group-item">•	<b>Možnosti práce s třídním kolektivem  pro vytváření bezpečného a podnětného prostředí pro vývoj, výchovu a vzdělávání.</b> třídy. (1 hodina)</li>
+            <li className="list-group-item">•	<b>Téma - Autenticita pedagoga, sebereflexe pedagoga, sebehodnocení. Kategorie a formy diagnostiky ve školním prostředí</b> - souvislost s úpravou právních předpisů - jak v souvislosti s využitím podpůrného opatření . Pozorování žáků a jeho zaznamenání: analýza získaných poznatků, další nástroje pedagogické diagnostiky, východiska pro nastavení práce s třídním kolektivem, možnosti nastavení podmínek v rámci třídního kolektivu (2 hodiny)</li>
+            <li className="list-group-item">•	<b>Téma - Třídní kolektiv, možnosti vedení třídního kolektivu.</b> Základní pravidla pro fungující třídní kolektiv: Cíle práce se třídou, jak najít a nastavit cíl třídnické hodiny /  nastavení struktury třídnické hodiny, co je a není vhodné/, Práce s tvarem třídy /skupiny, dvojice, jednotlivci/, Témata na třídnické hodiny / komunikace, empatie, úcta, respekt…/, Regulace chování ve skupině (2 hodiny)</li>
+            <li className="list-group-item">•	<b>Téma – supervize, její význam a cíl.</b> Východiska pro hodnocení : kultura vysokých očekávání, Osvědčené strategie pro vytvoření prostředí podporujícího všechny žáky, Sebezkušenostní část vzdělávacího programu. / zaměření na jednotlivé situace, problémy, kauzistiky/ (2 hodiny)</li>
+          </ul >
+        </div >
+      </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb101" aria-expanded="false" aria-controls="collapsezwb101">Základy krizové intervence pro pedagogy
+      </b>(8 hod, doporučeno pro ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)
+        <div className="collapse " id="collapsezwb101">
+          <ul className="list-group">
+            <li className="list-group-item">Krizová intervence - krizová intervence (KI) jako forma pomoci nejen pro žáky a studenty, cíle KI (0,5 hod) </li>
+            <li className="list-group-item">Situace podpory ve vaší škole - mapování a analýza současného stavu - týmová aktivita, diskuse (0,5 hod) </li>
+            <li className="list-group-item">Stabilizace osoby v krizové situaci, techniky - techniky pro práci s akutní krizí např. úzkostný stav - rozpoznání a nácvik technik pedagogy (1,5 hod) </li>
+            <li className="list-group-item">Zásady vedení hovoru v rámci KI - struktura hovoru, smysluplná návaznost 6. fází v hovoru - skupinový nácvik pedagogy, simulace (1,5 hod) </li>
+            <li className="list-group-item">Poskytování zpětné vazby a práce s emocemi - seznámení se s vyjadřováním emocí a jejich bezpečnou ventilací (1 hod) </li>
+            <li className="list-group-item">Práce se třetí osobou - vyžádaná versus nevyžádaná podpora, možnosti pomoci (0,5 hod) </li>
+            <li className="list-group-item">Navazující podpora a mapa pomoci - představení odkazů na další podpůrné služby, zdroje pomoci (1 hod) </li>
+            <li className="list-group-item">Hranice a kompetence pedagoga v KI, psychohygiena - odpovědnost, prevence vyhoření - sebepoznávací dotazník a vyhodnocení (1 hod) </li>
+            <li className="list-group-item">Závěr - sdílení, diskuse (0,5 hod)</li>
+          </ul ></div >
+      </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb123" aria-expanded="false" aria-controls="collapsezwb123">Sebepoškozování (příčiny – řešení – péče o žáka)
+      </b>(8 hod, doporučeno pro ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)
+        <div className="collapse " id="collapsezwb123">
+          <p>Kurz Vás seznámí s tím, co vše se může skrývat pod pojmem sebepoškozování dětí. Jaké mohou být rizikové faktory sebepoškozování. Upozorníme Vás na signály, které mohou vést k sebepoškozování. Co musíte a můžete udělat? Jak se k nemocnému chovat, kde hledáme pomoc? Dále Vás seznámíme s pojmem CAN (syndrom týraného, zneužívaného a zanedbávaného dítěte), deprivace u dětí v souvislosti se sebepoškozováním.</p>
+          <p>Obsah kurzu v bodech</p>
+          <ul className="list-group">
+            <li className="list-group-item">•	deprivace, psychika deprimovaných dětí, následky deprivace a prevence, deprivace 2 hod.</li>
+            <li className="list-group-item">•	syndrom týraného, zneužívaného a zanedbávaného dítěte (CAN) 1 hodina</li>
+            <li className="list-group-item">•	sebepoškozování – popis, rozdělení, prevence, rizikové faktory záměrného sebepoškozování a jejich dopady na školní výkon dítěte a na jeho vztahy s vrstevníky i pedagogy 5 hod.</li>
+          </ul >
+        </div >
       </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb01" aria-expanded="false" aria-controls="collapsezwb01">Rozvoj sociálních dovedností žáků v ŠD/ŠK  </b> (8 hod, doporučeno pro vychovatele ŠD/ŠK a asistenty pedagoga)
         <div className="collapse " id="collapsezwb01">
