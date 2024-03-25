@@ -510,6 +510,18 @@ var SSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
           </ul></div>
 
       </LiFile>
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt50" aria-expanded="false" aria-controls="collapsesnt50">Využití ICT ve výuce - náměty a inspirace pro praxi
+      </b> (8 hod, doporučeno pro ZŠ, SŠ, VOŠ)
+         <p>Vzdělávací program je zaměřen na využití moderních technologií ve výuce. Semináře je zaměřen jak na obecnější principy využití moderních technologií, tak na využití konkrétních programů, webových stránek a aplikací vhodných pro podporu výuky.Účastníci se seznámí s metodami a postupy, které zdokonalují výklad učiva a zároveň žáky motivují. Pracovat se bude v duchu konstruktivistické pedagogiky.Programy, aplikace a webové stránky jsou voleny tak, aby jejich užití bylo pro školu zdarma (bez kupování licencí).</p>
+        <p>Příklady probíraných témat</p>
+         <div className="collapse " id="collapsesnt50"><ul className="list-group"><li className="list-group-item">•	Seznámení s problematikou nasazení výukových technologií školního prostředí (pozitiva, negativa a rizika nasazení se kterými je třeba počítat) (1 hodina)</li>
+          <li className="list-group-item">•	Seznámení programy a aplikacemi, které oživí každou prezentaci</li>
+          <li className="list-group-item">•	Využití pojmových map, sdílených poznámek a dokumentů ve výuce</li>
+          <li className="list-group-item">•	Programy a aplikace pro jednoduché vytváření zábavných kvízů</li>
+          <li className="list-group-item">•	Použití programu Formulator Tarsia pro tvorbu domin, triomin a jiných her vhodných k oživení procvičovaného učiva</li>
+          <li className="list-group-item">•	Příklady různých aplikací, programů či webových stránek s hrami, videi, texty i jinými materiály, které je možné vhodně využít při výuce</li>
+        </ul></div>
+      </LiFile>
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt5" aria-expanded="false" aria-controls="collapsesnt5">Využití ICT ve škole
       </b>(8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ZUŠ, asistenti)
          <div className="collapse " id="collapsesnt5"><ul className="list-group"><li className="list-group-item">•	Seznámení s problematikou nasazení výukových technologií školního prostředí (pozitiva, negativa a rizika nasazení se kterými je třeba počítat) (1 hodina)</li>
@@ -519,7 +531,6 @@ var SSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
           <li className="list-group-item">•	Vybrané předinstalované aplikace operačního systému Windows vhodné pro práci pedagoga (např. Výstřižky, Panel pro matematický zápis) (1 hodina)</li>
           <li className="list-group-item">•	Typy pro vyhledávání materiálů na internetu (1 hodina)</li>
         </ul></div>
-
       </LiFile>
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt6" aria-expanded="false" aria-controls="collapsesnt6">Efektivní využití LibreOffice ve škole
       </b>(8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ZUŠ, asistenti)
