@@ -87,7 +87,7 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=30.4.%202024%20Nov%C3%A9%20metody%20pr%C3%A1ce%20u%C4%8Ditele%20%E2%80%93%20aktivizuj%C3%ADc%C3%AD%20formy%20v%C3%BDuky%20na%20Z%C5%A0%20a%20S%C5%A0&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
-        <LiHand><h4><b>20.5. 2024 <a href="/index.html?home|kurzyii|zsinovace">Digitální kompetence na základní škole (8 hodin)  napojit</a></b></h4>
+        <LiHand><h4><b>20.5. 2024 <a href="/index.html?home|kurzyii|zsinovace">Digitální kompetence na základní škole (8 hodin)</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Vzdělání s využitím nových technologií, Inovace ŠVP/koncepce rozvoje školy/školského zařízení</Label></h4>
           <p>Akreditace: <a href="index.html?home|akreditace">více informací</a></p>
           <p>Cena: 1590 Kč/os, Lektor: PhDr. Veronika Havelková, Ph.</p>
@@ -327,7 +327,7 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=25.11.%202024%20Tandemov%C3%A1%20v%C3%BDuka%20%E2%80%93%20nov%C3%BD%20prvek%20ve%20v%C3%BDuce%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
-        <LiHand><h4><b>25.11. 2024 <a href="/index.html?home|kurzyss|SSGenderovaTematika">Nová informatika na základní škole (8 hodin)</a></b></h4>
+        <LiHand><h4><b>25.11. 2024 <a href="/index.html?home|kurzyii|zsnovetechnologie">Nová informatika na základní škole (8 hodin)</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Vzdělávání s využitím nových technologií</Label></h4>
           <p>Akreditace: MSMT- 28650/2022-4-905</p>
           <p>Cena: 1690 Kč/os, Lektor: Mgr. Bc. Jan Šindelář</p>
