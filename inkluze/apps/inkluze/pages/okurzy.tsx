@@ -47,11 +47,6 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=27.3.%202024%20%C5%BD%C3%A1k%20nadan%C3%BD%20a%20mimo%C5%99%C3%A1dn%C4%9B%20nadan%C3%BD%2C%20mo%C5%BEnosti%20jeho%20rozvoje-webin%C3%A1%C5%99&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
-        
-        
-        
-        */}
-
         <LiHand><h4><b>27.3. 2024 <a href="/index.html?home|kurzyss|sskarieroveporadenstvi">Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje-webinář (8 hodin)</a></b></h4>
           <h4><Label bsStyle="warning">Oblasti: Kariérové poradneství včetně identifikace a rozvoje nadání, Inkluze</Label></h4>
           <p>Akreditace: 14644/2022-4-517</p>
@@ -60,6 +55,11 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=27.3.%202024%20%C5%BD%C3%A1k%20nadan%C3%BD%20a%20mimo%C5%99%C3%A1dn%C4%9B%20nadan%C3%BD%2C%20mo%C5%BEnosti%20jeho%20rozvoje-webin%C3%A1%C5%99&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
+        
+        
+        */}
+
+
         <LiHand><h4><b>18.4. 2024 <a href="/index.html?home|kurzyss|sswellbeing">Wellbeing, cesta k harmonizaci vztahů ve škole (8 hodin)</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Wellbeing a psychohygiena</Label></h4>
           <p>Akreditace: MSMT- 14644/2022-4-517</p>
@@ -218,7 +218,7 @@
           <p>Cena: 1590 Kč/os, Lektor: Bc. Jiří Forýtek</p>
           <p>Místo konání: online</p>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=14.6.%202024%20%C3%9Apravy%20%C5%A0VP%20v%20r%C3%A1mci%20programu%20InspIS%20%C5%A0VP%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+          <p>tento termín bude speciálně zaměřen na ŠVP pro SŠ</p>
         </LiHand>
         <LiHand><h4><b>20.9. 2024  <a href="/index.html?home|kurzyii|zsinovace">Úpravy ŠVP v rámci programu InspIS ŠVP (8 hodin)</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Inovace ŠVP/koncepce rozvoje školy/školského zařízení</Label></h4>
@@ -236,13 +236,13 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=26.9.%202024%20Pedagogick%C3%A1%20diagnostika%20d%C3%ADt%C4%9Bte%20v%20M%C5%A0%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
-        <LiHand><h4><b>27.9. 2024 <a href="/index.html?home|kurzyii|zsinovace"> Úpravy ŠVP v rámci programu InspIS ŠVP (8 hodin)</a></b></h4>
+        <LiHand><h4><b>27.9. 2024 <a href="/index.html?home|kurzyii|zsinovace">Úpravy ŠVP v rámci programu InspIS ŠVP (8 hodin)</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Inovace ŠVP/koncepce rozvoje školy/školského zařízení</Label></h4>
           <p>Akreditace: MSMT- 14644/2022-4-517</p>
           <p>Cena: 1690 Kč/os, Lektor: Bc. Jiří Forýtek</p>
           <p>Místo konání: online</p>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=27.9.%202024%20%C3%9Apravy%20%C5%A0VP%20v%20r%C3%A1mci%20programu%20InspIS%20%C5%A0VP%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+          <p>tento termín bude speciálně zaměřen na ŠVP pro SŠ</p>
         </LiHand>
         <LiHand><h4><b>1.10. 2024 <a href="/index.html?home|kurzyii|zsinovace">Digitální kompetence na základní škole (8 hodin)</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Vzdělání s využitím nových technologií, Inovace ŠVP/koncepce rozvoje školy/školského zařízení</Label></h4>
@@ -322,7 +322,7 @@
           <p>Cena: 1690 Kč/os, Lektor: Bc. Jiří Forýtek</p>
           <p>Místo konání: online</p>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=18.10.%202024%20%C3%9Apravy%20%C5%A0VP%20v%20r%C3%A1mci%20programu%20InspIS%20%C5%A0VP%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>tento termín bude speciálně zaměřen na ŠVP pro ZŠ</p>
+          <p>tento termín bude speciálně zaměřen na ŠVP pro MŠ</p>
         </LiHand>
         <LiHand><h4><b>23.10. 2024 <a href="/index.html?home|kurzyss|sswellbeing">Třídní učitel a wellbeing (8 hodin)</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Wellbeing a psychohygiena</Label></h4>
@@ -364,7 +364,7 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=7.11.%202024%20Soci%C3%A1ln%C3%AD%20klima%20t%C5%99%C3%ADdy%20a%20pedagogick%C3%A1%20diagnostika%20u%C4%8Ditele%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
-        <LiHand><h4><b>7.11. 2024 <a href="/index.html?home|kurzyii|zsinkluze"> Asistent pedagoga ve školní praxi (spolupráce s učitelem) (8 hodin</a></b></h4>
+        <LiHand><h4><b>7.11. 2024 <a href="/index.html?home|kurzyii|zsinkluze"> Asistent pedagoga ve školní praxi (spolupráce s učitelem) (8 hodin)</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Inkluze</Label></h4>
           <p>Akreditace: <a href="index.html?home|akreditace">více informací</a></p>
           <p>Cena: 1690 Kč/os, Lektor: Mgr et Mgr. Dagmar Vilášková</p>
