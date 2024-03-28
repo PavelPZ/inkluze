@@ -51,6 +51,15 @@
         
         
         */}
+
+        <LiHand><h4><b>27.3. 2024 <a href="/index.html?home|kurzyss|sskarieroveporadenstvi">Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje-webinář (8 hodin)</a></b></h4>
+          <h4><Label bsStyle="warning">Oblasti: Kariérové poradneství včetně identifikace a rozvoje nadání, Inkluze</Label></h4>
+          <p>Akreditace: 14644/2022-4-517</p>
+          <p>Cena: 1590 Kč/os, Lektor: PaedDr. Ellen Mlátilíková</p>
+          <p>Místo konání: online</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=27.3.%202024%20%C5%BD%C3%A1k%20nadan%C3%BD%20a%20mimo%C5%99%C3%A1dn%C4%9B%20nadan%C3%BD%2C%20mo%C5%BEnosti%20jeho%20rozvoje-webin%C3%A1%C5%99&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+        </LiHand>
         <LiHand><h4><b>18.4. 2024 <a href="/index.html?home|kurzyss|sswellbeing">Wellbeing, cesta k harmonizaci vztahů ve škole (8 hodin)</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Wellbeing a psychohygiena</Label></h4>
           <p>Akreditace: MSMT- 14644/2022-4-517</p>
@@ -187,6 +196,14 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=6.6.%202024%20Formativn%C3%AD%20hodnocen%C3%AD%20v%20praxi%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
+        <LiHand><h4><b>10.6. 2024 <a href="/index.html?home|kurzyss|ssmatematickagramotnost">Moderní technologie při rozvoji matematické gramotnosti (8 hodin) </a></b></h4>
+          <h4><Label bsStyle="warning">Oblast: Matematická gramotnost</Label></h4>
+          <p>Akreditace: <a href="index.html?home|akreditace">více informací</a></p>
+          <p>Cena: 1590 Kč/os, Lektor: PhDr. Veronika Havelková, Ph.D.</p>
+          <p>Místo konání: online</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=10.6.%202024%20Modern%C3%AD%20technologie%20p%C5%99i%20rozvoji%20matematick%C3%A9%20gramotnosti%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+        </LiHand>
         <LiHand><h4><b>13.6. 2024 <a href="/index.html?home|kurzyss|SSCtenarskaGramotnost"> Čtenářská gramotnost napříč všemi předměty SŠ a VOŠ – 8 hod</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Čtenářská gramotnost </Label></h4>
           <p>Akreditace: MSMT-852/2023-2-81</p>
@@ -251,6 +268,14 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=3.10.%202024%20Wellbeing%2C%20cesta%20k%20harmonizaci%20vztah%C5%AF%20ve%20%C5%A1kole&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
+        <LiHand><h4><b>7.10. 2024 <a href="/index.html?home|kurzyss|ssmatematickagramotnost">Moderní technologie při rozvoji matematické gramotnosti (8 hodin) </a></b></h4>
+          <h4><Label bsStyle="warning">Oblast: Matematická gramotnost</Label></h4>
+          <p>Akreditace: <a href="index.html?home|akreditace">více informací</a></p>
+          <p>Cena: 1690 Kč/os, Lektor: PhDr. Veronika Havelková, Ph.D.</p>
+          <p>Místo konání: online</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=7.10.%202024%20Modern%C3%AD%20technologie%20p%C5%99i%20rozvoji%20matematick%C3%A9%20gramotnosti%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+        </LiHand>
         <LiHand><h4><b>9.10. 2024 <a href="/index.html?home|kurzyss|ssinovativniformy">Nové metody práce učitele – aktivizující formy výuky na ZŠ a SŠ (8 hodin)</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: alternativní/inovativní formy výuky, aktivizační metody ve výuce</Label></h4>
           <p>Akreditace: MSMT- 8999/2023-2-332</p>
@@ -281,6 +306,14 @@
           <p>Cena: 1690 Kč/os, Lektor: PaedDr. Ellen Mlátilíková</p>
           <p>Místo konání: online</p>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=16.10.%202024%20K%C3%A1ze%C5%88sk%C3%A9%20p%C5%99estupky%20a%20mo%C5%BEnosti%20jejich%20%C5%99e%C5%A1en%C3%AD%20v%20r%C3%A1mci%20t%C5%99%C3%ADdy&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+        </LiHand>
+        <LiHand><h4><b>17.10. 2024 <a href="/index.html?home|kurzyii|zsformativnihodnoceni"> Formativní hodnocení v praxi (8 hodin)</a></b></h4>
+          <h4><Label bsStyle="warning">Oblast: Formativní hodnocení</Label></h4>
+          <p>Akreditace: MSMT- 14644/2022-4-517</p>
+          <p>Cena: 1690 Kč/os, Lektor: Mgr. Jana Soukupová</p>
+          <p>Místo konání: online</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=17.10.%202024%20Formativn%C3%AD%20hodnocen%C3%AD%20v%20praxi%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
         <LiHand><h4><b>18.10. 2024  <a href="/index.html?home|kurzyii|zsinovace">Úpravy ŠVP v rámci programu InspIS ŠVP (8 hodin)</a></b></h4>
@@ -387,6 +420,14 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=19.11.%202024%20Vyu%C5%BEit%C3%AD%20ICT%20ve%20v%C3%BDuce%20-%20n%C3%A1m%C4%9Bty%20a%20inspirace%20pro%20praxi%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
+        <LiHand><h4><b>20.11. 2024  <a href="/index.html?home|kurzyss|sswellbeing">Třídní učitel a jeho působení na vytváření třídního kolektivu</a></b></h4>
+          <h4><Label bsStyle="warning">Oblast: Wellbeing a psychohygiena</Label></h4>
+          <p>Akreditace: <a href="index.html?home|akreditace">více informací</a></p>
+          <p>Cena: 1690 Kč/os, Lektor: Mgr et Mgr. Dagmar Vilášková</p>
+          <p>Místo konání: online</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=20.11.2024%20T%C5%99%C3%ADdn%C3%AD%20u%C4%8Ditel%20a%20jeho%20p%C5%AFsoben%C3%AD%20na%20vytv%C3%A1%C5%99en%C3%AD%20t%C5%99%C3%ADdn%C3%ADho%20kolektivu&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+        </LiHand>
         <LiHand><h4><b>21.11. 2024 <a href="/index.html?home|kurzyii|zsinkluze">Neklidné dítě – problematika ADHD, ADD (8 hodin)</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Inkluze</Label></h4>
           <p>Akreditace: <a href="index.html?home|akreditace">více informací</a></p>
@@ -441,6 +482,14 @@
           <p>Cena: 1690 Kč/os, Lektor: Mgr. Dana Forýtková</p>
           <p>Místo konání: online</p>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=6.12.%202024%20Role%20pedagoga%20v%20karierov%C3%A9m%20poradenstv%C3%AD%20%E2%80%93%208%20hodin&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+        </LiHand>
+        <LiHand><h4><b>9.12. 2024 <a href="/index.html?home|kurzyss|ssinovativniformy">Nové metody práce učitele – aktivizující formy výuky na ZŠ a SŠ (8 hodin)</a></b></h4>
+          <h4><Label bsStyle="warning">Oblast: alternativní/inovativní formy výuky, aktivizační metody ve výuce</Label></h4>
+          <p>Akreditace: MSMT- 8999/2023-2-332</p>
+          <p>Cena: 1690 Kč/os, Lektor: Mgr. Dana Forýtková</p>
+          <p>Místo konání: online</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=9.12.%202024%20Nov%C3%A9%20metody%20pr%C3%A1ce%20u%C4%8Ditele%20%E2%80%93%20aktivizuj%C3%ADc%C3%AD%20formy%20v%C3%BDuky%20na%20Z%C5%A0%20a%20S%C5%A0&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
       </ul>
