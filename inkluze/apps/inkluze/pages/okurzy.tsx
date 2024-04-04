@@ -175,7 +175,7 @@
         <LiHand><h4><b>5.6. 2024  <a href="/index.html?home|kurzyss|sswellbeing">Třídní učitel a jeho působení na vytváření třídního kolektivu</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Wellbeing a psychohygiena</Label></h4>
           <p>Akreditace: <a href="index.html?home|akreditace">více informací</a></p>
-          <p>Cena: 1590 Kč/os, Lektor: Mgr et Mgr. Dagmar Vilášková</p>
+          <p>Cena: 1590 Kč/os, Lektor: PaedDr. Ellen Mlátilíková</p>
           <p>Místo konání: online</p>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=5.6.2024%20T%C5%99%C3%ADdn%C3%AD%20u%C4%8Ditel%20a%20jeho%20p%C5%AFsoben%C3%AD%20na%20vytv%C3%A1%C5%99en%C3%AD%20t%C5%99%C3%ADdn%C3%ADho%20kolektivu&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>

@@ -721,6 +721,17 @@ var SSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
           </ul >
         </div >
       </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb1133" aria-expanded="false" aria-controls="collapseswb1133">Třídní učitel a wellbeing </b> (8 hod, doporučeno pro ZŠ, SŠ, VOŠ, asistenti)
+         <div className="collapse " id="collapseswb1133">
+          <ul className="list-group">
+            <li className="list-group-item">•	Praktický vzdělávací program je zaměřen na současně velmi aktuální téma wellbeingu pedagogů a jeho následnou možnou aplikaci při práci se žáky. Zejména v práci třídního učitele by měla být věnována maximální pozornost práci s emocemi a jejich pojmenováváním a vytvoření podnětného prostředí, ve kterém bude žákům přirozené své emoce sdílet. Cílem semináře je zdokonalit kompetence třídních učitelů pedagogů v oblasti wellbeingu.</li>
+            <li className="list-group-item">•	Obsah semináře je rozdělen na dvě části. </li>
+            <li className="list-group-item">•	První část se věnuje pojmu fyzický wellbeing, který zahrnuje péče o fyzické tělo. Zaměříme se na zdravý životní styl – pohyb, spánek a na psychohygienická preventivní doporučení – jak správně relaxovat, odpočívat včetně nácviku jednoduchých relaxačních technik. </li>
+            <li className="list-group-item">•	Druhá část se bude věnovat  emocionálnímu a psychickému wellbeingu. Naučíme se řídit efektivně svůj čas, plánovat své úkoly, či zbavit se stresu z nedostatku času.</li>
+            <li className="list-group-item">•	Závěr programu bude vyhrazen na diskuzi o problematice wellbeingu.</li>
+          </ul >
+        </div >
+      </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb101" aria-expanded="false" aria-controls="collapseswb101">Základy krizové intervence pro pedagogy 
       </b>(8 hod, doporučeno pro ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)
         <div className="collapse " id="collapseswb101">
@@ -3012,6 +3023,17 @@ var ZSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
             <li className="list-group-item">•	<b>Téma - Autenticita pedagoga, sebereflexe pedagoga, sebehodnocení. Kategorie a formy diagnostiky ve školním prostředí</b> - souvislost s úpravou právních předpisů - jak v souvislosti s využitím podpůrného opatření . Pozorování žáků a jeho zaznamenání: analýza získaných poznatků, další nástroje pedagogické diagnostiky, východiska pro nastavení práce s třídním kolektivem, možnosti nastavení podmínek v rámci třídního kolektivu (2 hodiny)</li>
             <li className="list-group-item">•	<b>Téma - Třídní kolektiv, možnosti vedení třídního kolektivu.</b> Základní pravidla pro fungující třídní kolektiv: Cíle práce se třídou, jak najít a nastavit cíl třídnické hodiny /  nastavení struktury třídnické hodiny, co je a není vhodné/, Práce s tvarem třídy /skupiny, dvojice, jednotlivci/, Témata na třídnické hodiny / komunikace, empatie, úcta, respekt…/, Regulace chování ve skupině (2 hodiny)</li>
             <li className="list-group-item">•	<b>Téma – supervize, její význam a cíl.</b> Východiska pro hodnocení : kultura vysokých očekávání, Osvědčené strategie pro vytvoření prostředí podporujícího všechny žáky, Sebezkušenostní část vzdělávacího programu. / zaměření na jednotlivé situace, problémy, kauzistiky/ (2 hodiny)</li>
+          </ul >
+        </div >
+      </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb1133" aria-expanded="false" aria-controls="collapsezwb1133">Třídní učitel a wellbeing </b> (8 hod, doporučeno pro ZŠ, SŠ, VOŠ, asistenti)
+         <div className="collapse " id="collapsezwb1133">
+          <ul className="list-group">
+            <li className="list-group-item">•	Praktický vzdělávací program je zaměřen na současně velmi aktuální téma wellbeingu pedagogů a jeho následnou možnou aplikaci při práci se žáky. Zejména v práci třídního učitele by měla být věnována maximální pozornost práci s emocemi a jejich pojmenováváním a vytvoření podnětného prostředí, ve kterém bude žákům přirozené své emoce sdílet. Cílem semináře je zdokonalit kompetence třídních učitelů pedagogů v oblasti wellbeingu.</li>
+            <li className="list-group-item">•	Obsah semináře je rozdělen na dvě části. </li>
+            <li className="list-group-item">•	První část se věnuje pojmu fyzický wellbeing, který zahrnuje péče o fyzické tělo. Zaměříme se na zdravý životní styl – pohyb, spánek a na psychohygienická preventivní doporučení – jak správně relaxovat, odpočívat včetně nácviku jednoduchých relaxačních technik. </li>
+            <li className="list-group-item">•	Druhá část se bude věnovat  emocionálnímu a psychickému wellbeingu. Naučíme se řídit efektivně svůj čas, plánovat své úkoly, či zbavit se stresu z nedostatku času.</li> 
+            <li className="list-group-item">•	Závěr programu bude vyhrazen na diskuzi o problematice wellbeingu.</li>
           </ul >
         </div >
       </LiFile >
