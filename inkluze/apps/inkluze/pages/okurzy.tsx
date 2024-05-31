@@ -143,9 +143,6 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=28.5.%202024%20%C3%9Apravy%20%C5%A0VP%20v%20r%C3%A1mci%20programu%20InspIS%20%C5%A0VP%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>tento termín bude speciálně zaměřen na ŠVP pro ZŠ</p>
         </LiHand>
-        */}
-
-            
         <LiHand><h4><b>29.5. 2024 <a href="/index.html?home|kurzyii|zsspoluprace">Zásady efektivní komunikace s rodiči a zákonnými zástupci (8 hodin)</a></b></h4>
           <h4><Label bsStyle="warning">Oblasti: Spolupráce s rodiči a zákonnými zástupci dětí a žáků, Inkluze</Label></h4>
           <p>Akreditace: MSMT- 21314/2022-2-729</p>
@@ -169,7 +166,8 @@
           <p>Místo konání: online</p>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=3.6.%202024%20Digit%C3%A1ln%C3%AD%20kompetence%20na%20Z%C5%A0%20%E2%80%93%20matematika%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
-        </LiHand>
+        </LiHand>                */}
+
         <LiHand><h4><b>5.6. 2024  <a href="/index.html?home|kurzyss|sswellbeing">Třídní učitel a jeho působení na vytváření třídního kolektivu</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Wellbeing a psychohygiena</Label></h4>
           <p>Akreditace: <a href="index.html?home|akreditace">více informací</a></p>
