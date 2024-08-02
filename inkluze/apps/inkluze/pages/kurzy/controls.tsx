@@ -97,6 +97,45 @@ var SSInovace: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy:">
     <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesi123" aria-expanded="false" aria-controls="collapsesi123">Změny v RVP a úpravy ŠVP v rámci programu InspIS ŠVP
+      </b> (8 hod, doporučeno pro MŠ, ZŠ, ZUŠ, SŠ, VOŠ)
+        <div className="collapse " id="collapsesi123">
+          <ul className="list-group">
+            <li className="list-group-item">
+              1. Aktuální legislativní rámec školského zákona, který souvisí s tvorbou, úpravou a efektivním využíváním školních vzdělávacích programů
+            </li>
+            <li className="list-group-item">
+              2.  připravované změny související s revizemi RVP - (1,5h)
+            </li>
+            <li className="list-group-item">
+              3. význam a možnosti využití elektronického systému InspIS ŠVP - (0,5h)
+            </li>
+            <li className="list-group-item">
+              4. Práce v systému InspIS ŠVP (5 hod)
+              <ul className="list-group">
+                <li className="list-group-item">
+                  • přihlášení do systému podání základních informací a založení ŠVP
+                </li>
+                <li className="list-group-item">
+                  • tvorba učebního plánu, poznámek, přehledu týdnů - upřesnění informací
+                </li>
+                <li className="list-group-item">
+                  • forma vzdělávání - vzdělávací obsah, strategie naplňování KK - konkrétní příklady, vazby mezi výstupy RVP, ŠVP, učivem, …..
+                </li>
+                <li className="list-group-item">
+                  • popisné informace k systému InspIS ŠVP – formulář ŠVP – vyplnění, konkrétní informace o změnách ve formuláři
+                </li>
+                <li className="list-group-item">
+                  • kontrola a schválení ŠVP
+                  </li>
+              </ul>
+            </li>
+            <li className="list-group-item">
+              Diskuse, dořešení konkrétních dotazů účastníků
+            </li>
+          </ul>
+        </div>
+      </LiFile>
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesin1" aria-expanded="false" aria-controls="collapsesin1">Změny v RVP a úpravy ŠVP
       </b>(8 hod, akreditováno pro SŠ, VOŠ, MŠ, ZŠ, ZUŠ)
         <div className="collapse " id="collapsesin1"><ul className="list-group"><li className="list-group-item">•	Aktuální legislativní rámec školského zákona, který souvisí s tvorbou, úpravou a efektivním využíváním školních vzdělávacích programů  – (2 hod)</li>
@@ -2138,8 +2177,48 @@ var ZSInovace: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
           <p>V rámci semináře se pro tyto účely účastníci naučí využívat dynamický geometrický, tabulkový procesor a vybrané webové stránky, které umožňují dynamické interpretace čísel a proměnných.</p>
         </div>
       </LiFile>
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi123" aria-expanded="false" aria-controls="collapsezi123">Změny v RVP a úpravy ŠVP v rámci programu InspIS ŠVP 
+      </b> (8 hod, doporučeno pro MŠ, ZŠ, ZUŠ, SŠ, VOŠ)
+        <div className="collapse " id="collapsezi123">
+          <ul className="list-group">
+            <li className="list-group-item">
+              1. Aktuální legislativní rámec školského zákona, který souvisí s tvorbou, úpravou a efektivním využíváním školních vzdělávacích programů
+            </li>    
+            <li className="list-group-item">    
+              2.  připravované změny související s revizemi RVP - (1,5h)
+            </li>          
+            <li className="list-group-item">            
+              3. význam a možnosti využití elektronického systému InspIS ŠVP - (0,5h)
+            </li>
+            <li className="list-group-item">  
+                  4. Práce v systému InspIS ŠVP (5 hod)
+              <ul className="list-group">
+                <li className="list-group-item">  
+                  • přihlášení do systému podání základních informací a založení ŠVP
+                </li>
+                <li className="list-group-item">  
+                  • tvorba učebního plánu, poznámek, přehledu týdnů - upřesnění informací
+                </li>
+                <li className="list-group-item">  
+                  • forma vzdělávání - vzdělávací obsah, strategie naplňování KK - konkrétní příklady, vazby mezi výstupy RVP, ŠVP, učivem, …..
+                </li>
+                <li className="list-group-item">  
+                  • popisné informace k systému InspIS ŠVP – formulář ŠVP – vyplnění, konkrétní informace o změnách ve formuláři
+                </li>
+                <li className="list-group-item">  
+                  • kontrola a schválení ŠVP
+                  </li>
+              </ul>
+            </li>
+            <li className="list-group-item">  
+              Diskuse, dořešení konkrétních dotazů účastníků
+            </li>  
+          </ul>
+        </div>
+      </LiFile>
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi1" aria-expanded="false" aria-controls="collapsezi1">Změny v RVP a úpravy ŠVP </b> (8 hod, akreditováno pro MŠ, ZŠ, ZUŠ, SŠ, VOŠ)
-                <div className="collapse " id="collapsezi1"><ul className="list-group"><li className="list-group-item">•	Aktuální legislativní rámec školského zákona, který souvisí s tvorbou, úpravou a efektivním využíváním školních vzdělávacích programů  – (2 hod)</li>
+                <div className="collapse " id="collapsezi1">
+          <ul className="list-group"><li className="list-group-item">•	Aktuální legislativní rámec školského zákona, který souvisí s tvorbou, úpravou a efektivním využíváním školních vzdělávacích programů  – (2 hod)</li>
           <li className="list-group-item">•	Změny vyvolané revizí RVP (MŠMT)  - (2 hod)</li>
           <li className="list-group-item">•	Aktuální úpravy ŠVP související s revizemi a úpravami v RVP  – (1 hod)</li>
           <li className="list-group-item">•	ŠVP a nová strategie vzdělávání, modifikace vzdělávacího obsahu, rozsahu a zaměření výuky, metod práce na základě provedených revizí RVP (2 hod)</li>
