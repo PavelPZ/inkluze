@@ -2317,7 +2317,18 @@ var ZSInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
   <h3><Label bsStyle="warning">8</Label>  <Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>
+    <ul className='fa-ul'>
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi00145" aria-expanded="false" aria-controls="collapsezi00145">Asistent pedagoga ve školní praxi (konkrétní příklady spolupráce s učitelem) </b> (8 hod, doporučeno pro MŠ, ZŠ a asistenty pedagoga)
+        <div className="collapse " id="collapsezi00145">
+          <ul className="list-group"><li className="list-group-item"></li>
+            <li className="list-group-item">•	Legislativní ukotvení personální podpory „asistent pedagoga“, nové pojetí práce asistenta pedagoga, rozdílnost pozic asistent pedagoga x školní asistent x osobní asistent (2 hodiny)</li>
+            <li className="list-group-item">•	Kvalifikační předpoklady asistenta pedagoga, požadavky na výběrové řízení, motivační pohovor, ekonomické zajištění pozice asistenta pedagoga, zařazení asistenta pedagoga do platové třídy dle katalogu prací (1 hodina)</li>
+            <li className="list-group-item">•	Pracovní náplň asistenta pedagoga, rozvržení přímé a nepřímé pedagogické činnosti, kompetence ve vztahu k pedagogům, chyby v práci asistentů, chyby ze strany učitele, osobnost asistenta pedagoga, vztah asistenta pedagoga k žákovi, pracovníkům školy a zákonným zástupcům (3 hodiny)</li>
+            <li className="list-group-item">•	Spolupráce asistenta pedagoga s odbornými pracovníky školního poradenského pracoviště (ŠPP), metodické vedení asistenta pedagoga, základní metodika práce asistenta pedagoga, další vzdělávání asistenta pedagoga,  (2 hodiny)</li>
+          </ul>
+        </div>
+      </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi001" aria-expanded="false" aria-controls="collapsezi001">Asistent pedagoga - účelné nastavení podpůrného opatření </b> (8 hod, akreditováno pro MŠ, ZŠ, SŠ, ŠD a asistenty pedagoga)
         <div className="collapse " id="collapsezi001">
           <ul className="list-group"><li className="list-group-item"></li>

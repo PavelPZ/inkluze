@@ -21,7 +21,7 @@
       </p>
     </div>),
   inkluze.createQA(
-    <span>Asistent pedagoga ve školní praxi (spolupráce s učitelem)</span>,
+    <span>Asistent pedagoga ve školní praxi (konkrétní příklady spolupráce s učitelem)</span>,
     <div style={{ marginTop: 10 }}>
       <p>
         Tento kurz není akreditován, což není překážkou financování ze Šablon JAK.
