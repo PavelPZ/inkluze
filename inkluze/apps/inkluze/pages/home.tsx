@@ -94,15 +94,7 @@
         Pokud máte zájem o nějaký konkrétní termín, napište nám na projekt@langmaster.cz nebo zavolejte +420 244 460 807.
       </p>
     </BlockEx>
-    <BlockEx header="Bonus pro účastníky našich kurzů">
-      <div className='alert alert-danger' style={{ fontWeight: 'bold' }}>
-        <p>
-          Pro učitele, kteří se zúčastní našich DVPP kurzů, máme připravený bonus - interaktivní jazykový kurz zdarma.
-          Můžete si vybrat mezi kurzem angličtiny, němčiny, španělštiny, francouzštiny, italštiny nebo ruštiny.
-          V případě zájmu Vám rádi poskytneme podrobnější informace.
-        </p>
-      </div>
-    </BlockEx>
+
     {/*<BlockEx header="Nabízíme DVPP kurzy zaměřené na inkluzi, mentoring, čtenářskou a matematickou gramotnost">
       <p>
         Pro učitele jsme <b>ve spolupráci se zkušenými akreditovanými lektory</b> připravili v rámci DVPP řadu kurzů.

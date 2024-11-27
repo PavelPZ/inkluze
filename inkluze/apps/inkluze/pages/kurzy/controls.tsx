@@ -502,6 +502,20 @@ var SSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
   <BlockEx header="Nabízíme následující kurzy:">
     <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>
     <ul className='fa-ul'>
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseznt0010" aria-expanded="false" aria-controls="collapseznt0010">Umělá inteligence ve škole
+      </b> (doporučeno pro ZŠ,SŠ, VOŠ)
+        <div className="collapse " id="collapseznt0010">
+          <p>Obsah semináře je zaměřen na konkrétní aplikace umělé inteligence, které jsou použitelné zdarma a mohou okamžitě přinést praktický užitek ve školním prostředí. Účastníci se naučí, jak pomocí AI vytvořit materiály pro výuku, jak AI začlenit do výuky nebo jak si s AI zjednodušit administrativní procesy.</p>
+          <ul className="list-group">
+            <li className="list-group-item">•	přehled dostupných AI nástrojů pro učitele, které lze využít zdarma (např. ChatGPT, ScioBot);</li>
+            <li className="list-group-item">•	vytváření vlastních didaktických materiálů s využitím AI (např. generování interaktivních úloh pomocí aplikací Wizer.me, Quizlet, Kahoot, Nearpod);</li>
+            <li className="list-group-item">•	AI ve výuce různých předmětů – klady, zápory a omezení vzhledem konkrétním předmětům;</li>
+            <li className="list-group-item">•	AI pro tvorbu vizuálních materiálů: generování výukových obrázků zdarma (např. Ideogram, Leonardo AL);</li>
+            <li className="list-group-item">•	AI pro tvorbu hudebního a multimediálního obsahu: generování hudby a zvuků pro výuku (např. Suno, Soundraw a Mubert pro automatickou tvorbu hudebních podkladů);,</li>
+            <li className="list-group-item">•	AI pro tvorbu prezentací a videí;</li>
+            <li className="list-group-item">•	automatizace hodnocení a zpětné vazby pomocí AI.</li>
+          </ul></div>
+      </LiFile>
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Efektivní využití MS Office pro pedagogy – 8 hodin</b>        (8 hod, akreditováno pro SŠ, VOŠ, ZŠ)
         <div className="collapse " id="collapsesnt1">
           <ul className="list-group">
@@ -1333,6 +1347,16 @@ var SSInovativniFormy: React.StatelessComponent<IKurzProps> = (props: IKurzProps
           </ul>
         </div>
       </LiFile>
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesif3" aria-expanded="false" aria-controls="collapsesif3">Práce s diferencovanou třídou a náměty na vzdělávání 8 hod </b> (8 hod, akreditováno pro ZŠ, SŠ, VOŠ, asistenti)
+        <div className="collapse " id="collapsesif3"><ul className="list-group"><li className="list-group-item">•	<b>Téma </b> – Legislativní rámec. Školský zákon a Vyhláška 27/2016. Podpůrné opatření, možnosti úpravy obsahu a výstupů v souladu s legislativou.  Vymezení základních pojmů nadání. RVP pro základní školy, kompetence, výstupy, učivo v kontextu s prací s žáka s potřebou podpůrných opatření. (1 hodina)</li>
+          <li className="list-group-item">•	<b>Téma Základní pojmy 1. část.</b> Základní pojmy: Heterogenní skupina, diverzita. Diferencované vzdělávání podle kritérii a možností žáka. (1 hodina)</li>
+          <li className="list-group-item">•	<b>Téma Základní pojmy 2. část.</b> Možnosti diferencovaného vyučování, pedagogická diagnostika jako součást volby vhodných metod a forem práce s diferencovanou skupinou.  Ukázka diagnostických metod. (1 hodina) </li>
+          <li className="list-group-item">•	<b>Téma – Principy práce s diferencovanou třídou</b>, 1. část. Teoretické ukotvení tématu. Možnosti diferenciace - navýšení času.  Ukázka možností efektivního času. Ukázka pracovních listů a práce s diferencovanou skupinou od žáků mimořádně nadaných, přes žáky se speciálně vzdělávacími potřebami /dále jen SVP/ (1 hodina)</li>
+          <li className="list-group-item">•	<b>Téma – Principy práce s diferencovanou třídou</b>, 2. část. Možnosti diferenciace - rozsah práce, obtížnost úkolů. Ukázka možností procvičování podle možností a schopností žáků, možnosti ověřování učiva a úrovně, rozsahu, četnosti úkolů stejného typu. Ukázka práce, nabídka metodických materiálů. Práce s pracovním materiálem. Možnosti zařazování obtížnější úrovně základního učiva. (1 hodina)</li>
+          <li className="list-group-item">•	<b>Téma – Principy práce s diferencovanou třídou</b>, 3. část. Další způsoby práce s diferencovanou skupinou. Ukázka diferencovaných pracovních listů např. diferencované čtení, ukázka pracovních listů z matematiky - základní a zkrácená verze, diferencovaný diktát, upravené texty, bonusové a prémiové úkoly pro žáky nadané, mimořádně nadané. Skupinová práce s homogenní a heterogenní skupinou. Organizace diferencovaného vyučování ve vyučovací hodině. Hodnocení žáků a motivace žáků k diferencované práci. Sumativní a formativní hodnocení, autonomní, heteronomní hodnocení. (2 hodiny)</li>
+          <li className="list-group-item">•	<b>Téma – Ukázka inspirativních úloh</b>.  Možnosti obohacení učiva, inspirativní úlohy vhodné pro rozvoj rozumového nadání. (1 hodina)</li>
+        </ul></div>
+      </LiFile >
     </ul>
   </BlockEx >
 </Panel >;
@@ -1544,14 +1568,6 @@ var KurzyAlert: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IC
   </p>
 </div>;
 
-var BonusAlert: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div className='alert alert-warning' style={{ fontSize: '18px' }}>
-  <p style={{ marginTop: '0' }}><i className='fa fa-lightbulb-o'></i> Bonus - jazykové kurzy zdarma:</p>
-  <p>
-    Pro každého učitele je připraven bonus v podobě interaktivního jazykového kurzu zdarma.
-    V případě zájmu Vám rádi poskytneme podrobnější informace.
-  </p>
-</div>;
-
 var KurzySSAlert: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div className='alert alert-warning' style={{ fontSize: '18px' }}>
   <p style={{ marginTop: '0' }}><i className='fa fa-lightbulb-o'></i> Tip: &nbsp;</p>
   <p>
@@ -1569,14 +1585,6 @@ var KurzyIIAlert: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.
   </p>
   <p>
     Pro získání podrobnějších informací o našich akreditovaných kurzech vyplňte a odešlete nezávazný poptávkový formulář nebo napište email na projekt@langmaster.cz.
-  </p>
-</div>;
-
-var BonusAlert: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div className='alert alert-warning' style={{ fontSize: '18px' }}>
-  <p style={{ marginTop: '0' }}><i className='fa fa-lightbulb-o'></i> Bonus - jazykové kurzy zdarma:</p>
-  <p>
-    Pro každého učitele je připraven bonus v podobě interaktivního jazykového kurzu zdarma.
-    V případě zájmu Vám rádi poskytneme podrobnější informace.
   </p>
 </div>;
 
@@ -2575,6 +2583,16 @@ společná reflexe výuky - formativní a sumativní hodnocení žáků, vzájem
           </ul>
         </div>
       </LiFile>
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezif3" aria-expanded="false" aria-controls="collapsezif3">Práce s diferencovanou třídou a náměty na vzdělávání 8 hod </b> (8 hod, akreditováno pro ZŠ, SŠ, VOŠ, asistenti)
+        <div className="collapse " id="collapsezif3"><ul className="list-group"><li className="list-group-item">•	<b>Téma </b> – Legislativní rámec. Školský zákon a Vyhláška 27/2016. Podpůrné opatření, možnosti úpravy obsahu a výstupů v souladu s legislativou.  Vymezení základních pojmů nadání. RVP pro základní školy, kompetence, výstupy, učivo v kontextu s prací s žáka s potřebou podpůrných opatření. (1 hodina)</li>
+          <li className="list-group-item">•	<b>Téma Základní pojmy 1. část.</b> Základní pojmy: Heterogenní skupina, diverzita. Diferencované vzdělávání podle kritérii a možností žáka. (1 hodina)</li>
+          <li className="list-group-item">•	<b>Téma Základní pojmy 2. část.</b> Možnosti diferencovaného vyučování, pedagogická diagnostika jako součást volby vhodných metod a forem práce s diferencovanou skupinou.  Ukázka diagnostických metod. (1 hodina) </li>
+          <li className="list-group-item">•	<b>Téma – Principy práce s diferencovanou třídou</b>, 1. část. Teoretické ukotvení tématu. Možnosti diferenciace - navýšení času.  Ukázka možností efektivního času. Ukázka pracovních listů a práce s diferencovanou skupinou od žáků mimořádně nadaných, přes žáky se speciálně vzdělávacími potřebami /dále jen SVP/ (1 hodina)</li>
+          <li className="list-group-item">•	<b>Téma – Principy práce s diferencovanou třídou</b>, 2. část. Možnosti diferenciace - rozsah práce, obtížnost úkolů. Ukázka možností procvičování podle možností a schopností žáků, možnosti ověřování učiva a úrovně, rozsahu, četnosti úkolů stejného typu. Ukázka práce, nabídka metodických materiálů. Práce s pracovním materiálem. Možnosti zařazování obtížnější úrovně základního učiva. (1 hodina)</li>
+          <li className="list-group-item">•	<b>Téma – Principy práce s diferencovanou třídou</b>, 3. část. Další způsoby práce s diferencovanou skupinou. Ukázka diferencovaných pracovních listů např. diferencované čtení, ukázka pracovních listů z matematiky - základní a zkrácená verze, diferencovaný diktát, upravené texty, bonusové a prémiové úkoly pro žáky nadané, mimořádně nadané. Skupinová práce s homogenní a heterogenní skupinou. Organizace diferencovaného vyučování ve vyučovací hodině. Hodnocení žáků a motivace žáků k diferencované práci. Sumativní a formativní hodnocení, autonomní, heteronomní hodnocení. (2 hodiny)</li>
+          <li className="list-group-item">•	<b>Téma – Ukázka inspirativních úloh</b>.  Možnosti obohacení učiva, inspirativní úlohy vhodné pro rozvoj rozumového nadání. (1 hodina)</li>
+        </ul></div>
+      </LiFile >
     </ul>
   </BlockEx >
 </Panel >;
@@ -2690,7 +2708,22 @@ var ZSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
   <h3><Label bsStyle="warning">8</Label> <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
   <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>
+    <ul className='fa-ul'>
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseznt0010" aria-expanded="false" aria-controls="collapseznt0010">Umělá inteligence ve škole 
+      </b> (doporučeno pro ZŠ,SŠ, VOŠ)
+        <div className="collapse " id="collapseznt0010">
+          <p>Obsah semináře je zaměřen na konkrétní aplikace umělé inteligence, které jsou použitelné zdarma a mohou okamžitě přinést praktický užitek ve školním prostředí. Účastníci se naučí, jak pomocí AI vytvořit materiály pro výuku, jak AI začlenit do výuky nebo jak si s AI zjednodušit administrativní procesy.</p>
+          <ul className="list-group">
+            <li className="list-group-item">•	přehled dostupných AI nástrojů pro učitele, které lze využít zdarma (např. ChatGPT, ScioBot);</li>
+            <li className="list-group-item">•	vytváření vlastních didaktických materiálů s využitím AI (např. generování interaktivních úloh pomocí aplikací Wizer.me, Quizlet, Kahoot, Nearpod);</li>
+            <li className="list-group-item">•	AI ve výuce různých předmětů – klady, zápory a omezení vzhledem konkrétním předmětům;</li>
+            <li className="list-group-item">•	AI pro tvorbu vizuálních materiálů: generování výukových obrázků zdarma (např. Ideogram, Leonardo AL);</li>
+            <li className="list-group-item">•	AI pro tvorbu hudebního a multimediálního obsahu: generování hudby a zvuků pro výuku (např. Suno, Soundraw a Mubert pro automatickou tvorbu hudebních podkladů);,</li>
+            <li className="list-group-item">•	AI pro tvorbu prezentací a videí;</li>
+            <li className="list-group-item">•	automatizace hodnocení a zpětné vazby pomocí AI.</li>
+          </ul></div>
+      </LiFile>
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseznt010" aria-expanded="false" aria-controls="collapseznt010">Digitální kompetence na základní škole
       </b> (doporučeno pro ZŠ a asistenty pedagoga)
         <div className="collapse " id="collapseznt010">
@@ -3170,6 +3203,23 @@ cíl: - seznámit se s tématem, se zákonitostmi skupinové dynamiky pro práci
   cíl: - diagnostika vztahů ve skupině zacílená na komunikačně zaměřené aktivity: řešení konfliktů, vyjednávání, řeč těla, Účastník si nabídnutými technikami sebereflexe (převážně výtvarnou formou) dojde k hlubšímu poznání, jak důležité je v pedagogické diagnostice formování žákovy osobnosti a zároveň, jak zpětná vazba v rámci vrstevnického hodnocení přispívá k dotváření vlastní osobnosti.
 </li>
         </ul ></div >
+      </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb0165" aria-expanded="false" aria-controls="collapsezwb0165">Sociální a etický rozvoj – nový předmět na ZŠ</b>
+        <div className="collapse " id="collapsezwb0165">
+          <div className="m-3">
+            <b>Obsah:</b><br />
+            <p>
+              Základním cílem semináře/webináře je připravit učitele na problematiku závazné části připravované revize RVP ZV Člověk, jeho osobnost a svět práce, konkrétně na obor Osobnostní a sociální výchova. Obor bude rozdělen do tří tematických okruhů (osobnostní rozvoj, sociální a etický rozvoj, karierový rozvoj). Seminář/webinář se zaměří na okruh Sociální a etický rozvoj. Cílem programu je ukázat, jak vést žáky k prosociálnímu způsobu chování. Program je sestaven tak, aby naplňoval uzlové body 1. a 2. stupně a všech vzdělávacích výsledků (revize RVP ZV).
+            </p>
+            <b>Témata:</b>
+            <ul className="list-group">
+              <li className="list-group-item">•	Mezilidské vztahy a komunikace      (2 hod)</li>
+              <li className="list-group-item">•	Asertivní chování                                 (2 hod)</li>
+              <li className="list-group-item">•	Důstojnost a identita lidské osoby   (2 hod)</li>
+              <li className="list-group-item">•	Tvořivost a základy spolupráce        (2 hod)</li>
+            </ul>
+          </div >
+        </div >
       </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb2" aria-expanded="false" aria-controls="collapsezwb2">Wellbeing, cesta k harmonizaci vztahů ve škole – webinář </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, SŠ, VOŠ, DM, asistenti)
                 <div className="collapse border rounded " id="collapsezwb2">
