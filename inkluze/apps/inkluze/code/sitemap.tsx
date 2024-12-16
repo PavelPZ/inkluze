@@ -266,7 +266,7 @@
         },
         ZSInkluze: {
           id: 'ZSInkluze',
-          title: 'Ostatní Inkluze',
+          title: 'Inkluze',
           createPage: par => React.createElement(KurzyII),
         },
         ZSPodpora: {
