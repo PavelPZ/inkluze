@@ -775,6 +775,12 @@ var SSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
           </ul>
         </div>
       </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb6" aria-expanded="false" aria-controls="collapseswb6">Osobnostní a sociální rozvoj učitele ve zvládání konfliktů </b> (8 hod, akreditováno pro SŠ, VOŠ, ZŠ)
+        <div className="collapse " id="collapseswb6"><ul className="list-group"><li className="list-group-item">•	Seznámení s principem OSR (0,5 hodiny)</li>
+          <li className="list-group-item">•	Poznávání lidí, mezilidské vztahy. Metody zaměřené na vhodné způsoby komunikace v různých životních situacích, případné řešení neshod či konfliktů s druhými lidmi nenásilným způsobem. Tj. na reakce na základě postojů již získaných; na očekávání, která jsou formována na základě životních zkušeností; na zvládání dovednosti přijímat a poskytovat konstruktivní kritiku, na poznávání typu osobnosti pro úspěšné řešení konfliktu (2 hodiny)</li>
+          <li className="list-group-item">•	Řešení problémů a rozhodovací dovednosti. Aktivity zaměřené na mapování vlastních postojů v rámci schématu konfliktu, na způsoby jednání v zátěžových situacích a přístupy ke zvládání konfliktu (kooperace, konfrontace, řešitelský přístup atd.), dovednosti pro řešení problémů a rozhodování z hlediska různých typů konfliktních situací, včetně zvládání krizové komunikace při jednání se žáky i s rodiči/zákonnými zástupci. (5,5 hodiny)</li>
+        </ul></div>
+      </LiFile>
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb101" aria-expanded="false" aria-controls="collapseswb101">Základy krizové intervence pro pedagogy 
       </b>(8 hod, doporučeno pro ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)
         <div className="collapse " id="collapseswb101">
@@ -829,12 +835,6 @@ var SSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
           <li className="list-group-item">•	Psychohygiena. Aktivity zaměřené na jednoduché relaxační techniky  – a) cviky k uvolnění svalového napětí, b) cviky k uvolnění po práci u počítače, c) cviky uvolňující při napětí v zádech a bolestech hlavy a zad(1, 5 hodiny).</li >
         </ul ></div >
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb6" aria-expanded="false" aria-controls="collapseswb6">Osobnostní a sociální rozvoj učitele ve zvládání konfliktů </b> (8 hod, akreditováno pro SŠ, VOŠ, ZŠ)
-        <div className="collapse " id="collapseswb6"><ul className="list-group"><li className="list-group-item">•	Seznámení s principem OSR (0,5 hodiny)</li>
-          <li className="list-group-item">•	Poznávání lidí, mezilidské vztahy. Metody zaměřené na vhodné způsoby komunikace v různých životních situacích, případné řešení neshod či konfliktů s druhými lidmi nenásilným způsobem. Tj. na reakce na základě postojů již získaných; na očekávání, která jsou formována na základě životních zkušeností; na zvládání dovednosti přijímat a poskytovat konstruktivní kritiku, na poznávání typu osobnosti pro úspěšné řešení konfliktu (2 hodiny)</li>
-          <li className="list-group-item">•	Řešení problémů a rozhodovací dovednosti. Aktivity zaměřené na mapování vlastních postojů v rámci schématu konfliktu, na způsoby jednání v zátěžových situacích a přístupy ke zvládání konfliktu (kooperace, konfrontace, řešitelský přístup atd.), dovednosti pro řešení problémů a rozhodování z hlediska různých typů konfliktních situací, včetně zvládání krizové komunikace při jednání se žáky i s rodiči/zákonnými zástupci. (5,5 hodiny)</li>
-        </ul></div>
-      </LiFile>
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb7" aria-expanded="false" aria-controls="collapseswb7">Zásady asertivní a efektivní komunikace – 8 hodin </b> (8 hod, akreditováno pro SŠ, VOŠ, DM, ZŠ, ŠD, ŠK)
         <div className="collapse " id="collapseswb7"><ul className="list-group"><li className="list-group-item">•	Seznámení se s pravidly a technikami komunikace osobní i profesní: cíl, základní stanovisko, kladení otázek a jejich typologie, aktivní naslouchání, změkčovadla, sdělování názoru (2 hodiny)</li>
           <li className="list-group-item">•	Praktická typologie v komunikaci podle D. Forbese Leye (možné cvičení). Námitky a jak na ně vhodně reagovat. (1 hodina)</li>
