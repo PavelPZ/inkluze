@@ -1092,67 +1092,8 @@ var SSOstatniInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
   <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
   <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt001" aria-expanded="false" aria-controls="collapsesnt001">Asistent pedagoga - účelné nastavení podpůrného opatření </b> (8 hod, akreditováno pro MŠ, ZŠ, SŠ, ŠD a asistenty pedagoga)
-        <div className="collapse " id="collapsesnt001"><ul className="list-group"><li className="list-group-item"></li>
-          <li className="list-group-item">  •	Legislativní ukotvení podpůrného opatření „asistent pedagoga“, nové  informace v pojetí práce asistenta pedagoga, definice pojmu asistent pedagoga  (asistent pedagoga, školní asistent, osobní asistent) (2 hodiny)</li>
-          <li className="list-group-item">•	Legislativní rámec pracovní pozice asistenta pedagoga, kvalifikační  předpoklady asistenta pedagoga, výběrové řízení, motivační pohovor, ekonomické  zajištění pozice asistenta pedagoga, zařazení asistenta pedagoga do platové  třídy dle katalogu prací (1 hodina)</li>
-          <li className="list-group-item">•	Pracovní náplň asistenta pedagoga, kompetence ve vztahu k pedagogům,  chyby v práci asistentů, chyby ze strany učitele, osobnost asistenta pedagoga,  vztah asistenta pedagoga k žákovi, pracovníkům školy a zákonným zástupcům,  zaměření na rozvržení přímé a nepřímé pedagogické činnosti (3 hodiny)</li>
-          <li className="list-group-item">•	Metodické vedení asistenta pedagoga, další vzdělávání asistenta pedagoga,  základní metodika práce asistenta pedagoga (2 hodiny)</li>
-        </ul>
-        </div>
-      </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt002" aria-expanded="false" aria-controls="collapsesnt002">Strukturované učení u žáků s poruchami autistického spektra  </b> (8 hod, doporučeno pro MŠ, ZŠ, asistenty pedagoga, vychovatele ŠD, DM)
-          <div className="collapse " id="collapsesnt002">
-          <ul className="list-group">
-            <li className="list-group-item">•	Seznámení s problematikou poruch autistického spektra, symptomatické projevy. Zvláštnosti autistického myšlení a rizika problémového chování.  ( 2 hodiny)</li>
-            <li className="list-group-item">•	Strukturované učení – metodika vzdělávání žáků s PAS. TEACCH program. Představení základních principů strukturovaného učení (individualizace, strukturalizace, vizualizace), aplikace v procesu výchovy a vzdělávání. (3 hodiny)</li>
-            <li className="list-group-item">•	Specifika vzdělávání žáků s PAS v mateřské a základní škole. ( 1 hodina)</li>
-            <li className="list-group-item">•	Speciálně pedagogická podpora a spolupráce mezi školou, rodinou a ŠPZ. (1 hodina)</li>
-            <li className="list-group-item">•	Legislativní ukotvení inkluzivního vzdělávání žáka s poruchami autistického spektra. Možnosti a realizace podpůrných opatření. Práce s Doporučením. (1 hodina)</li>
-          </ul>
-        </div>
-      </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt123" aria-expanded="false" aria-controls="collapsesnt123">Strategie předcházení školní neúspěšnosti  </b> (8 hod, doporučeno pro ZŠ, SŠ, VOŠ a asistenty pedagoga)
-        <div className="collapse " id="collapsesnt123">
-          <ul className="list-group">
-            <li className="list-group-item">•	<b>Téma</b> – Strategie předcházení školní neúspěšnosti. Legislativní rámec, strategie jako součást povinné dokumentace školy. Vyhláška 72/2005 Sb., ve znění pozdějších předpisů O poradenských službách ve školách a školských zařízeních.  Vymezení základních pojmů. (1 hodina)</li>
-            <li className="list-group-item">• <b>Téma Základní pojmy 1. část.</b> Vymezení základních pojmů, možnosti pedagogické diagnostiky pro nastavení strategie  prevence školní neúspěšnosti.  metody a formy práce pedagogických pracovníků, standardní činností členů školního  poradneského pracoviště v rámci strategie prevence školní neúspěšnosti. dání. (1 hodina)</li>
-            <li className="list-group-item">•	<b>Téma Základní pojmy 2. část.</b>  Principy práce ve vyučovací hodině v rámci strategie prevence školní neúspěšnosti,  pedagogická diagnostika jako nástroj pro volbu vhodných metod a forem práce s diferencovanou skupinou.(1.hodina)</li>
-            <li className="list-group-item">•	<b>Téma – Principy práce s diferencovanou třídou</b>, Možnosti diferencovaného vyučování, Ukázka diagnostických metod. nastavení diferenciace časem v rámci celé třídy. Ukázka pracovních listů a práce s diferencovanou skupinou od žáků mimořádně nadaných, přes žáky se speciálně vzdělávacími potřebami /dále jen SVP v rámci prevence školní neúspěšnosti/ (1 hodina)</li>
-            <li className="list-group-item">•	<b>Téma – Principy práce s diferencovanou třídou</b>, ukázka dalších možností nastavení prevence školní neúspěšnosti.  Možnosti diferenciace rozsahem práce a obtížností úkolů s nastavením podpůrných opatření.  Ukázka možností procvičování podle individuálních možností a schopností jednotlivých žáků, způsob ověřování tematických celků, úrovně, rozsahu, četnosti úkolů stejného typu. Ukázka možntostí práce v rámci strategie prevence školní neúspěšnosti, nabídka metodických a pracovních materiálů. Možnosti zařazování obtížnější úrovně základního učiva. (1 hodina)</li>
-            <li className="list-group-item">•	<b>Téma – Možnosti školního poradenského pracoviště</b>, standardní činností členů ŠPP v rámci strategie předcházení školní neúspěšnosti a možnosti kooperace pedagogických pracovníků na této strategii.   Hodnocení žáků a motivace žáků k diferencované práci. Sumativní a formativní hodnocení, autonomní, heteronomní hodnocení. (2 hodiny)</li>
-            <li className="list-group-item">•	<b>Téma – Ukázka inspirativních úloh</b>. Možnosti obohacení učiva, inspirativní úlohy vhodné pro rozvoj rozumového nadání.Práce s kazuistikami, diskuze. (1 hodina)</li>
-          </ul></div>
-      </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Práce s diferencovanou třídou a náměty na vzdělávání 8 hod
-      </b>(8 hod, akreditováno pro SŠ, VOŠ, ZŠ, asistenti)
-        <div className="collapse " id="collapsesnt1"><ul className="list-group"><li className="list-group-item">•	<b>Téma </b> – Legislativní rámec. Školský zákon a Vyhláška 27/2016. Podpůrné opatření, možnosti úpravy obsahu a výstupů v souladu s legislativou.  Vymezení základních pojmů nadání. RVP pro základní školy, kompetence, výstupy, učivo v kontextu s prací s žáka s potřebou podpůrných opatření. (1 hodina)</li>
-          <li className="list-group-item">•	<b>Téma Základní pojmy 1. část.</b> Základní pojmy: Heterogenní skupina, diverzita. Diferencované vzdělávání podle kritérii a možností žáka. (1 hodina)</li>
-          <li className="list-group-item">•	<b>Téma Základní pojmy 2. část.</b> Možnosti diferencovaného vyučování, pedagogická diagnostika jako součást volby vhodných metod a forem práce s diferencovanou skupinou.  Ukázka diagnostických metod. (1 hodina) </li>
-          <li className="list-group-item">•	<b>Téma – Principy práce s diferencovanou třídou</b>, 1. část. Teoretické ukotvení tématu. Možnosti diferenciace - navýšení času.  Ukázka možností efektivního času. Ukázka pracovních listů a práce s diferencovanou skupinou od žáků mimořádně nadaných, přes žáky se speciálně vzdělávacími potřebami /dále jen SVP/ (1 hodina)</li>
-          <li className="list-group-item">•	<b>Téma – Principy práce s diferencovanou třídou</b>, 2. část. Možnosti diferenciace - rozsah práce, obtížnost úkolů. Ukázka možností procvičování podle možností a schopností žáků, možnosti ověřování učiva a úrovně, rozsahu, četnosti úkolů stejného typu. Ukázka práce, nabídka metodických materiálů. Práce s pracovním materiálem. Možnosti zařazování obtížnější úrovně základního učiva. (1 hodina)</li>
-          <li className="list-group-item">•	<b>Téma – Principy práce s diferencovanou třídou</b>, 3. část. Další způsoby práce s diferencovanou skupinou. Ukázka diferencovaných pracovních listů např. diferencované čtení, ukázka pracovních listů z matematiky - základní a zkrácená verze, diferencovaný diktát, upravené texty, bonusové a prémiové úkoly pro žáky nadané, mimořádně nadané. Skupinová práce s homogenní a heterogenní skupinou. Organizace diferencovaného vyučování ve vyučovací hodině. Hodnocení žáků a motivace žáků k diferencované práci. Sumativní a formativní hodnocení, autonomní, heteronomní hodnocení. (2 hodiny)</li>
-          <li className="list-group-item">•	<b>Téma – Ukázka inspirativních úloh</b>.  Možnosti obohacení učiva, inspirativní úlohy vhodné pro rozvoj rozumového nadání. (1 hodina)</li>
-        </ul></div>
-      </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesskp2" aria-expanded="false" aria-controls="collapsesskp2">Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje na SŠ
-      </b>(8 hod, akreditováno pro SŠ, VOŠ)
-                        <div className="collapse border rounded " id="collapsesskp2">
-          <div className="m-3">
-            <b>LEGISLATIVNÍ RÁMEC</b><br />
-            •	Nová legislativa - Školský zákon a Vyhláška 27/2016 k rozvoji nadaných a mimořádně nadaných žáků. Vymezení základních pojmů nadání. RVP pro gymnázia a daný typ střední školy v kontextu s rozvoje nadání. (1 hodina)<br />
-            <b>ZÁKLADNÍ POJMY</b><br />
-            •	Základní pojmy z hlediska psychologické diagnostiky. Typologie nadání z hlediska psychologie. Typologie nadaných z hlediska projevů chování (1 hodina)<br />
-            •	Možnosti a význam pedagogické diagnostiky, ukázka diagnostických metod. (1 hodina)<br />
-            <b>PRINCIPY PRÁCE S NADANÝM A MIMOŘÁDNĚ NADANÝM ŽÁKEM</b><br />
-            •	Charakteristické znaky osobitosti nadaných a mimořádně nadaných žáků. Odlišnosti ve vnímání a zpracování podnětů, v myšlení a prožívání.  Seznámení s různými přístupy k rozvoji nadání (1 hodina)<br />
-            •	Základní principy v práci s nadanými a mimořádně nadanými žáky, případně s žáky s dvojí výjimečností. Možnosti jejich dalšího rozvoje rozumových schopností jako i jejich sociálně emočních kompetencí v rámci daného stupně vzdělávání. (1 hodina)<br />
-            •	IVP, úpravy vzdělávacích obsahů a výstupů. Možnosti hodnocení žáků nadaných a mimořádně nadaných. Seznámení s terminologií, její aplikace v praxi. Sumativní, formativní hodnocení, autonomní, heteronomní hodnocení (2 hodiny)<br />
-            <b>Téma –  UKÁZKA INPIRATIVNÍCH ÚLOH</b><br />
-            •	Možnosti obohacení učiva, inspirativní úlohy vhodné pro rozvoj rozumového nadání. (1 hodina)<br />
-          </div></div>
-      </LiFile>
+    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>
+    <ul className='fa-ul'>
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesskp3" aria-expanded="false" aria-controls="collapsesskp3">Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje-webinář
       </b>(8 hod, akreditováno pro SŠ, VOŠ, ZŠ)
         <div className="collapse border rounded " id="collapsesskp3">
@@ -1186,6 +1127,17 @@ var SSOstatniInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
 
           </div></div>
       </LiFile>
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Práce s diferencovanou třídou a náměty na vzdělávání 8 hod
+      </b>(8 hod, akreditováno pro SŠ, VOŠ, ZŠ, asistenti)
+        <div className="collapse " id="collapsesnt1"><ul className="list-group"><li className="list-group-item">•	<b>Téma </b> – Legislativní rámec. Školský zákon a Vyhláška 27/2016. Podpůrné opatření, možnosti úpravy obsahu a výstupů v souladu s legislativou.  Vymezení základních pojmů nadání. RVP pro základní školy, kompetence, výstupy, učivo v kontextu s prací s žáka s potřebou podpůrných opatření. (1 hodina)</li>
+          <li className="list-group-item">•	<b>Téma Základní pojmy 1. část.</b> Základní pojmy: Heterogenní skupina, diverzita. Diferencované vzdělávání podle kritérii a možností žáka. (1 hodina)</li>
+          <li className="list-group-item">•	<b>Téma Základní pojmy 2. část.</b> Možnosti diferencovaného vyučování, pedagogická diagnostika jako součást volby vhodných metod a forem práce s diferencovanou skupinou.  Ukázka diagnostických metod. (1 hodina) </li>
+          <li className="list-group-item">•	<b>Téma – Principy práce s diferencovanou třídou</b>, 1. část. Teoretické ukotvení tématu. Možnosti diferenciace - navýšení času.  Ukázka možností efektivního času. Ukázka pracovních listů a práce s diferencovanou skupinou od žáků mimořádně nadaných, přes žáky se speciálně vzdělávacími potřebami /dále jen SVP/ (1 hodina)</li>
+          <li className="list-group-item">•	<b>Téma – Principy práce s diferencovanou třídou</b>, 2. část. Možnosti diferenciace - rozsah práce, obtížnost úkolů. Ukázka možností procvičování podle možností a schopností žáků, možnosti ověřování učiva a úrovně, rozsahu, četnosti úkolů stejného typu. Ukázka práce, nabídka metodických materiálů. Práce s pracovním materiálem. Možnosti zařazování obtížnější úrovně základního učiva. (1 hodina)</li>
+          <li className="list-group-item">•	<b>Téma – Principy práce s diferencovanou třídou</b>, 3. část. Další způsoby práce s diferencovanou skupinou. Ukázka diferencovaných pracovních listů např. diferencované čtení, ukázka pracovních listů z matematiky - základní a zkrácená verze, diferencovaný diktát, upravené texty, bonusové a prémiové úkoly pro žáky nadané, mimořádně nadané. Skupinová práce s homogenní a heterogenní skupinou. Organizace diferencovaného vyučování ve vyučovací hodině. Hodnocení žáků a motivace žáků k diferencované práci. Sumativní a formativní hodnocení, autonomní, heteronomní hodnocení. (2 hodiny)</li>
+          <li className="list-group-item">•	<b>Téma – Ukázka inspirativních úloh</b>.  Možnosti obohacení učiva, inspirativní úlohy vhodné pro rozvoj rozumového nadání. (1 hodina)</li>
+        </ul></div>
+      </LiFile>
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesskp31" aria-expanded="false" aria-controls="collapsesskp31">Kázeňské přestupky a možnosti jejich řešení v rámci třídy
       </b>(8 hod, akreditováno pro MŠ, ZŠ, ŠD, SŠ, DM, asistenti, výchovní poradci, speciální pedagogové, psychologové)
         <div className="collapse " id="collapsesskp31">
@@ -1195,6 +1147,55 @@ var SSOstatniInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
             <li className="list-group-item">•	Příčiny problémového chování u žáků, Diagnostická kritéria ADHD, Příčiny poruch chování žáků, Formy rizikového chování – zneužívání návykových látek, kriminalita, šikana, hostilita, agrese, agresivita, vrstevnické vztahy, školní problémy, přestupky a ostatní rizikové formy chování (4 hod)</li>
             <li className="list-group-item">•	Praktická část: Ukázka práce s třídním kolektivem, ukázka práce v rámci třídnických hodin, ukázka práce- nabídka metodických materiálů. Diskuze, práce s kazuistikami (2 hod)</li>
           </ul></div>
+      </LiFile>
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt001" aria-expanded="false" aria-controls="collapsesnt001">Asistent pedagoga - účelné nastavení podpůrného opatření </b> (8 hod, akreditováno pro MŠ, ZŠ, SŠ, ŠD a asistenty pedagoga)
+        <div className="collapse " id="collapsesnt001"><ul className="list-group"><li className="list-group-item"></li>
+          <li className="list-group-item">  •	Legislativní ukotvení podpůrného opatření „asistent pedagoga“, nové  informace v pojetí práce asistenta pedagoga, definice pojmu asistent pedagoga  (asistent pedagoga, školní asistent, osobní asistent) (2 hodiny)</li>
+          <li className="list-group-item">•	Legislativní rámec pracovní pozice asistenta pedagoga, kvalifikační  předpoklady asistenta pedagoga, výběrové řízení, motivační pohovor, ekonomické  zajištění pozice asistenta pedagoga, zařazení asistenta pedagoga do platové  třídy dle katalogu prací (1 hodina)</li>
+          <li className="list-group-item">•	Pracovní náplň asistenta pedagoga, kompetence ve vztahu k pedagogům,  chyby v práci asistentů, chyby ze strany učitele, osobnost asistenta pedagoga,  vztah asistenta pedagoga k žákovi, pracovníkům školy a zákonným zástupcům,  zaměření na rozvržení přímé a nepřímé pedagogické činnosti (3 hodiny)</li>
+          <li className="list-group-item">•	Metodické vedení asistenta pedagoga, další vzdělávání asistenta pedagoga,  základní metodika práce asistenta pedagoga (2 hodiny)</li>
+        </ul>
+        </div>
+      </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt002" aria-expanded="false" aria-controls="collapsesnt002">Strukturované učení u žáků s poruchami autistického spektra  </b> (8 hod, doporučeno pro MŠ, ZŠ, asistenty pedagoga, vychovatele ŠD, DM)
+          <div className="collapse " id="collapsesnt002">
+          <ul className="list-group">
+            <li className="list-group-item">•	Seznámení s problematikou poruch autistického spektra, symptomatické projevy. Zvláštnosti autistického myšlení a rizika problémového chování.  ( 2 hodiny)</li>
+            <li className="list-group-item">•	Strukturované učení – metodika vzdělávání žáků s PAS. TEACCH program. Představení základních principů strukturovaného učení (individualizace, strukturalizace, vizualizace), aplikace v procesu výchovy a vzdělávání. (3 hodiny)</li>
+            <li className="list-group-item">•	Specifika vzdělávání žáků s PAS v mateřské a základní škole. ( 1 hodina)</li>
+            <li className="list-group-item">•	Speciálně pedagogická podpora a spolupráce mezi školou, rodinou a ŠPZ. (1 hodina)</li>
+            <li className="list-group-item">•	Legislativní ukotvení inkluzivního vzdělávání žáka s poruchami autistického spektra. Možnosti a realizace podpůrných opatření. Práce s Doporučením. (1 hodina)</li>
+          </ul>
+        </div>
+      </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt123" aria-expanded="false" aria-controls="collapsesnt123">Strategie předcházení školní neúspěšnosti  </b> (8 hod, doporučeno pro ZŠ, SŠ, VOŠ a asistenty pedagoga)
+        <div className="collapse " id="collapsesnt123">
+          <ul className="list-group">
+            <li className="list-group-item">•	<b>Téma</b> – Strategie předcházení školní neúspěšnosti. Legislativní rámec, strategie jako součást povinné dokumentace školy. Vyhláška 72/2005 Sb., ve znění pozdějších předpisů O poradenských službách ve školách a školských zařízeních.  Vymezení základních pojmů. (1 hodina)</li>
+            <li className="list-group-item">• <b>Téma Základní pojmy 1. část.</b> Vymezení základních pojmů, možnosti pedagogické diagnostiky pro nastavení strategie  prevence školní neúspěšnosti.  metody a formy práce pedagogických pracovníků, standardní činností členů školního  poradneského pracoviště v rámci strategie prevence školní neúspěšnosti. dání. (1 hodina)</li>
+            <li className="list-group-item">•	<b>Téma Základní pojmy 2. část.</b>  Principy práce ve vyučovací hodině v rámci strategie prevence školní neúspěšnosti,  pedagogická diagnostika jako nástroj pro volbu vhodných metod a forem práce s diferencovanou skupinou.(1.hodina)</li>
+            <li className="list-group-item">•	<b>Téma – Principy práce s diferencovanou třídou</b>, Možnosti diferencovaného vyučování, Ukázka diagnostických metod. nastavení diferenciace časem v rámci celé třídy. Ukázka pracovních listů a práce s diferencovanou skupinou od žáků mimořádně nadaných, přes žáky se speciálně vzdělávacími potřebami /dále jen SVP v rámci prevence školní neúspěšnosti/ (1 hodina)</li>
+            <li className="list-group-item">•	<b>Téma – Principy práce s diferencovanou třídou</b>, ukázka dalších možností nastavení prevence školní neúspěšnosti.  Možnosti diferenciace rozsahem práce a obtížností úkolů s nastavením podpůrných opatření.  Ukázka možností procvičování podle individuálních možností a schopností jednotlivých žáků, způsob ověřování tematických celků, úrovně, rozsahu, četnosti úkolů stejného typu. Ukázka možntostí práce v rámci strategie prevence školní neúspěšnosti, nabídka metodických a pracovních materiálů. Možnosti zařazování obtížnější úrovně základního učiva. (1 hodina)</li>
+            <li className="list-group-item">•	<b>Téma – Možnosti školního poradenského pracoviště</b>, standardní činností členů ŠPP v rámci strategie předcházení školní neúspěšnosti a možnosti kooperace pedagogických pracovníků na této strategii.   Hodnocení žáků a motivace žáků k diferencované práci. Sumativní a formativní hodnocení, autonomní, heteronomní hodnocení. (2 hodiny)</li>
+            <li className="list-group-item">•	<b>Téma – Ukázka inspirativních úloh</b>. Možnosti obohacení učiva, inspirativní úlohy vhodné pro rozvoj rozumového nadání.Práce s kazuistikami, diskuze. (1 hodina)</li>
+          </ul></div>
+      </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesskp2" aria-expanded="false" aria-controls="collapsesskp2">Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje na SŠ
+      </b>(8 hod, akreditováno pro SŠ, VOŠ)
+                        <div className="collapse border rounded " id="collapsesskp2">
+          <div className="m-3">
+            <b>LEGISLATIVNÍ RÁMEC</b><br />
+            •	Nová legislativa - Školský zákon a Vyhláška 27/2016 k rozvoji nadaných a mimořádně nadaných žáků. Vymezení základních pojmů nadání. RVP pro gymnázia a daný typ střední školy v kontextu s rozvoje nadání. (1 hodina)<br />
+            <b>ZÁKLADNÍ POJMY</b><br />
+            •	Základní pojmy z hlediska psychologické diagnostiky. Typologie nadání z hlediska psychologie. Typologie nadaných z hlediska projevů chování (1 hodina)<br />
+            •	Možnosti a význam pedagogické diagnostiky, ukázka diagnostických metod. (1 hodina)<br />
+            <b>PRINCIPY PRÁCE S NADANÝM A MIMOŘÁDNĚ NADANÝM ŽÁKEM</b><br />
+            •	Charakteristické znaky osobitosti nadaných a mimořádně nadaných žáků. Odlišnosti ve vnímání a zpracování podnětů, v myšlení a prožívání.  Seznámení s různými přístupy k rozvoji nadání (1 hodina)<br />
+            •	Základní principy v práci s nadanými a mimořádně nadanými žáky, případně s žáky s dvojí výjimečností. Možnosti jejich dalšího rozvoje rozumových schopností jako i jejich sociálně emočních kompetencí v rámci daného stupně vzdělávání. (1 hodina)<br />
+            •	IVP, úpravy vzdělávacích obsahů a výstupů. Možnosti hodnocení žáků nadaných a mimořádně nadaných. Seznámení s terminologií, její aplikace v praxi. Sumativní, formativní hodnocení, autonomní, heteronomní hodnocení (2 hodiny)<br />
+            <b>Téma –  UKÁZKA INPIRATIVNÍCH ÚLOH</b><br />
+            •	Možnosti obohacení učiva, inspirativní úlohy vhodné pro rozvoj rozumového nadání. (1 hodina)<br />
+          </div></div>
       </LiFile>
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt01" aria-expanded="false" aria-controls="collapsesnt01">Klima třídy a vedení třídnické hodiny v rámci inkluze - SŠ
       </b>(8 hod, akreditováno pro SŠ, VOŠ)
@@ -1238,15 +1239,6 @@ var SSOstatniInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
             -	účastník si prakticky ověří získané poznatky<br />
             •	Poslední část bude věnována i dotazům a řízené diskuzi z vlastní praxe zúčastněných ped. pracovníků.<br />
           </div></div>
-      </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt14" aria-expanded="false" aria-controls="collapsesnt14">Práce s pedagogickým sborem-jak předejít syndromu vyhoření
-      </b>  (8 hod, akreditováno pro SŠ, VOŠ, ZŠ)
-        <div className="collapse " id="collapsesnt14"><ul className="list-group">
-          <li className="list-group-item">•	<b>Téma – Práce s pedagogickým sborem - jak předejít syndromu vyhoření</b> . Klima ve škole a sborovně: Klima z hlediska - emocionálního, sociálního, pracovního. Faktory ovlivňující klima školy - přístup učitele, komunikace, metody a strategie. (2 hodiny)</li>
-          <li className="list-group-item">•	<b>Téma – Pravidla ve sborovně, pravidla ve třídě, komunikace</b> : Pravidla a zásady fungujícího kolektivu ve sborovně, vedení a zásady třídnického kolektivu. Práce se sborovnou - příprava, hranice, rizika a zdroje. Výhody a nevýhody nepsaných norem pedagogického sboru a třídního kolektivu. Role učitele ve sborovně. Posilování pozitivních vazeb. Regulace chování ve skupině. Komunikace ve sborovně. (2 hodiny)</li>
-          <li className="list-group-item">•	<b>Téma – Jak na syndrom vyhoření, antistresové a relaxační techniky</b> : Antistresové techniky využitelné pro jednotlivce i pro skupinu. Relaxační metody různých druhů. Uvědomění si sám sebe, práce na pozitivním myšlení u jednotlivce i skupiny. (1 hodina)</li>
-          <li className="list-group-item">•	<b>Téma – praktické ukázky práce se skupinou a antistresové relaxační metody</b> . Sebezkušenostní část vzdělávacího programu. Využití relaxačních metod v praxi. Ukázky jak pracovat v pedagogickém sboru či v jiném kolektivu, případně ve třídě žáků. Zapojení sebereflexe a reflexe od skupiny. (3 hodiny)</li>
-        </ul></div>
       </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt15" aria-expanded="false" aria-controls="collapsesnt15">Základní kurz společného vzdělávání pro střední školy
       </b>  (8 hod, akreditováno pro SŠ, VOŠ)
@@ -2386,14 +2378,6 @@ var ZSInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
             -	účastník si prakticky ověří získané poznatky<br />
             •	Poslední část bude věnována i dotazům a řízené diskuzi z vlastní praxe zúčastněných ped. pracovníků.<br />
           </div></div>
-      </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi8" aria-expanded="false" aria-controls="collapsezi8">Práce s pedagogickým sborem-jak předejít syndromu vyhoření  </b> (8 hod, akreditováno pro ZŠ, SŠ, VOŠ, asistenti)
-        <div className="collapse " id="collapsezi8"><ul className="list-group">
-          <li className="list-group-item">•	<b>Téma – Práce s pedagogickým sborem - jak předejít syndromu vyhoření</b> . Klima ve škole a sborovně: Klima z hlediska - emocionálního, sociálního, pracovního. Faktory ovlivňující klima školy - přístup učitele, komunikace, metody a strategie. (2 hodiny)</li>
-          <li className="list-group-item">•	<b>Téma – Pravidla ve sborovně, pravidla ve třídě, komunikace</b> : Pravidla a zásady fungujícího kolektivu ve sborovně, vedení a zásady třídnického kolektivu. Práce se sborovnou - příprava, hranice, rizika a zdroje. Výhody a nevýhody nepsaných norem pedagogického sboru a třídního kolektivu. Role učitele ve sborovně. Posilování pozitivních vazeb. Regulace chování ve skupině. Komunikace ve sborovně. (2 hodiny)</li>
-          <li className="list-group-item">•	<b>Téma – Jak na syndrom vyhoření, antistresové a relaxační techniky</b> : Antistresové techniky využitelné pro jednotlivce i pro skupinu. Relaxační metody různých druhů. Uvědomění si sám sebe, práce na pozitivním myšlení u jednotlivce i skupiny. (1 hodina)</li>
-          <li className="list-group-item">•	<b>Téma – praktické ukázky práce se skupinou a antistresové relaxační metody</b> . Sebezkušenostní část vzdělávacího programu. Využití relaxačních metod v praxi. Ukázky jak pracovat v pedagogickém sboru či v jiném kolektivu, případně ve třídě žáků. Zapojení sebereflexe a reflexe od skupiny. (3 hodiny)</li>
-        </ul></div>
       </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi9" aria-expanded="false" aria-controls="collapsezi9">Společné vzdělávání dětí v MŠ – 8 hodin </b> (8 hod, akreditováno pro MŠ)
         <div className="collapse " id="collapsezi9"><ul className="list-group"><li className="list-group-item">•	Dítě se speciálními vzdělávacími potřebami  – seznámení se základní charakteristikou dětí se speciálními vzdělávacími potřebami (1 hod) </li>
