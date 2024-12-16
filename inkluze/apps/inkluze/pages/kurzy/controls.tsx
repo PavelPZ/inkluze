@@ -41,43 +41,6 @@ var SSPedagogickaDiagnostika: React.StatelessComponent<IKurzProps> = (props: IKu
           </div>
         </div>
       </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesped2" aria-expanded="false" aria-controls="collapsesped2">Sociální klima třídy a pedagogická diagnostika učitele - webinář
-</b>(8 hod, akreditováno pro SŠ, VOŠ, MŠ, ZŠ, asistenti)
-         <div className="collapse border rounded " id="collapsesped2">
-          <div className="m-3">
-            <b>Blok 1 (2 vyučovací hodiny - 90 minut)</b><br />
-            <b>Teoretická část 1 – základní pojmy a pedagogická diagnostika</b><br />
-            •	Objasnění základních pojmů - klima třídy, sociální klima třídy, spolutvůrci třídního klimatu,<br />
-            •	Pedagogická diagnostika školní třídy – vymezení základních pojmů a metod pedagogické diagnostiky (diagnóza, prognóza, dispozice, proces – cíl, oblasti, diagnostický postup, chyby při diagnostikování ze strany pedagoga, charakteristické rysy, typy, mechanismy, které toto klima ovlivňují, prevence vztahů, pozice a role žáka ve školní třídě)<br />
-            <br />
-            <b>Blok 2 ( 2 vyučovací hodiny – 90 minut)</b><br />
-            <b>Teoretická část 2 - Sociální klima třídy a pedagogická diagnostika</b><br />
-            -	Diagnostické kompetence učitele – metody, nástroje<br />
-            a)	Pozorování – obecné principy, průběh, zápis<br />
-            b)	Rozhovor – princip, vedení rozhovoru, typy, techniky kladení otázek<br />
-            c)	Dotazníky – typy, sestavování<br />
-            d)	Sociometrické metody<br />
-            - sběr dat, vyhodnocování, interpretace<br />
-            - nejčastější chyby v sociální percepci<br />
-            <br />
-            <b>Blok 3 ( 2 vyučovací hodiny – 90 minut)</b><br />
-            <b>Praktická část 1</b><br />
-            Nabídka činností zaměřených na podporu utváření pozitivního sociálního klimatu ve třídě a transformace na konkrétní činnosti spojené s nástroji pedagogické diagnostiky<br />
-            a) Rozhovor – nácvik vedení rozhovoru<br />
-            b) Dotazníky – nácvik tvorby<br />
-            c) Pozorování – nácvik struktury tvorby předlohy<br />
-            <br />
-            <b>Blok 4 ( 2 vyučovací hodiny – 90 minut)</b><br />
-            <b>Praktická část 2</b><br />
-            Nestandardizované nástroje diagnostiky tříd:<br />
-            Např:<br />
-            a) pohybové hry (např. aktivity – Dotkni se toho, kdo…, Místo vedle mě je prázdné…,Místa si vymění ti, kteří ...,   Sociometrie tělem.. a další)<br />
-            b) techniky tužka – papír (např. aktivity Technika deseti situací, Erb, Pyramida, Obláčky..)<br />
-            Nabídka námětů aktivit, které budou účastníkům prezentovány na webináři jsou vybrány z vlastního zkušenostního dvouletého výcviku u citovaných osobností a také nabídky jejich publikací - doc. PhDr. Soni Hermochové, CSc., doc. PhDr. Josefa Valenty, CSc., Doc. PhDr. Hany Kasíkové, CSc., Mgr. Petra Kříže a dalších osobností<br />
-            Tato část bude věnována i dotazům a řízené diskuzi z vlastní praxe zúčastněných ped. pracovníků.<br />
-            <br />
-          </div></div>
-      </LiFile>
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesped3" aria-expanded="false" aria-controls="collapsesped3">Kázeňské přestupky a možnosti jejich řešení v rámci třídy
       </b>(8 hod, akreditováno pro MŠ, ZŠ, ŠD, SŠ, DM, asistenti, výchovní poradci, speciální pedagogové, psychologové)
         <div className="collapse " id="collapsesped3">
@@ -2065,43 +2028,7 @@ var ZSDiagnostika: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
           </div>
         </div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezd2" aria-expanded="false" aria-controls="collapsezd2">Sociální klima třídy a pedagogická diagnostika učitele – webinář </b> (8 hod, akreditováno pro MŠ, ZŠ, SŠ, VOŠ, asistenti)
-                 <div className="collapse border rounded " id="collapsezd2">
-          <div className="m-3">
-            <b>Blok 1 (2 vyučovací hodiny - 90 minut)</b><br />
-            <b>Teoretická část 1 – základní pojmy a pedagogická diagnostika</b><br />
-            •	Objasnění základních pojmů - klima třídy, sociální klima třídy, spolutvůrci třídního klimatu,<br />
-            •	Pedagogická diagnostika školní třídy – vymezení základních pojmů a metod pedagogické diagnostiky (diagnóza, prognóza, dispozice, proces – cíl, oblasti, diagnostický postup, chyby při diagnostikování ze strany pedagoga, charakteristické rysy, typy, mechanismy, které toto klima ovlivňují, prevence vztahů, pozice a role žáka ve školní třídě)<br />
-            <br />
-            <b>Blok 2 ( 2 vyučovací hodiny – 90 minut)</b><br />
-            <b>Teoretická část 2 - Sociální klima třídy a pedagogická diagnostika</b><br />
-            -	Diagnostické kompetence učitele – metody, nástroje<br />
-            a)	Pozorování – obecné principy, průběh, zápis<br />
-            b)	Rozhovor – princip, vedení rozhovoru, typy, techniky kladení otázek<br />
-            c)	Dotazníky – typy, sestavování<br />
-            d)	Sociometrické metody<br />
-            - sběr dat, vyhodnocování, interpretace<br />
-            - nejčastější chyby v sociální percepci<br />
-            <br />
-            <b>Blok 3 ( 2 vyučovací hodiny – 90 minut)</b><br />
-            <b>Praktická část 1</b><br />
-            Nabídka činností zaměřených na podporu utváření pozitivního sociálního klimatu ve třídě a transformace na konkrétní činnosti spojené s nástroji pedagogické diagnostiky<br />
-            a) Rozhovor – nácvik vedení rozhovoru<br />
-            b) Dotazníky – nácvik tvorby<br />
-            c) Pozorování – nácvik struktury tvorby předlohy<br />
-            <br />
-            <b>Blok 4 ( 2 vyučovací hodiny – 90 minut)</b><br />
-            <b>Praktická část 2</b><br />
-            Nestandardizované nástroje diagnostiky tříd:<br />
-            Např:<br />
-            a) pohybové hry (např. aktivity – Dotkni se toho, kdo…, Místo vedle mě je prázdné…,Místa si vymění ti, kteří ...,   Sociometrie tělem.. a další)<br />
-            b) techniky tužka – papír (např. aktivity Technika deseti situací, Erb, Pyramida, Obláčky..)<br />
-            Nabídka námětů aktivit, které budou účastníkům prezentovány na webináři jsou vybrány z vlastního zkušenostního dvouletého výcviku u citovaných osobností a také nabídky jejich publikací - doc. PhDr. Soni Hermochové, CSc., doc. PhDr. Josefa Valenty, CSc., Doc. PhDr. Hany Kasíkové, CSc., Mgr. Petra Kříže a dalších osobností<br />
-            Tato část bude věnována i dotazům a řízené diskuzi z vlastní praxe zúčastněných ped. pracovníků.<br />
-            <br />
-          </div></div>
-      </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezd3" aria-expanded="false" aria-controls="collapsezd3">Kázeňské přestupky a možnosti jejich řešení v rámci třídy  </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, SŠ, DM, asistenti, výchovní poradci, speciální pedagogové, psychologové)
+       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezd3" aria-expanded="false" aria-controls="collapsezd3">Kázeňské přestupky a možnosti jejich řešení v rámci třídy  </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, SŠ, DM, asistenti, výchovní poradci, speciální pedagogové, psychologové)
         <div className="collapse " id="collapsezd3"><ul className="list-group"><li className="list-group-item">•	Pedagogická diagnostika orientovaná na žáka, učitele a edukační proces (1 hod)</li>
           <li className="list-group-item">•	Možnosti diferencovaného vzdělávání jako prevence problémového chování (1 hod)</li>
           <li className="list-group-item">•	Příčiny problémového chování u žáků, Diagnostická kritéria ADHD, Příčiny poruch chování žáků, Formy rizikového chování  – zneužívání návykových látek, kriminalita, šikana, hostilita, agrese, agresivita, vrstevnické vztahy, školní problémy, přestupky a ostatní rizikové formy chování (4 hod)</li>
