@@ -1523,51 +1523,50 @@ var KurzySSList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.I
   <Row>
     <Col md={4}>
       <ul className='fa-ul'>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSMedGramotnost)}
-        </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSNoveTechnologie)}
-        </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSRozvojPodnikavosti)}
-        </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSKarierovePoradenstvi)}
-        </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSWellBeing)}
-        </LiFile>
-      </ul>
-    </Col>
-    <Col md={4}>
-      <ul className='fa-ul'>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSGenderovaTematika)}
-        </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSVyukaCestiny)}
-        </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSInkluzeCizinci)}
-        </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSOstatniInkluze)}
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSInovativniFormy)}
         </LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSFormativniHodnoceni)}
         </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSIndividualizace)}
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSNoveTechnologie)}
+        </LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSWellBeing)}
+        </LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSSpoluprace)}
+        </LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSPedagogickaDiagnostika)}
         </LiFile>
       </ul>
     </Col>
     <Col md={4}>
       <ul className='fa-ul'>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSPedagogickaDiagnostika)}
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSOstatniInkluze)}
         </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSInovace)}
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSIndividualizace)}
         </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSSpoluprace)}
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSKarierovePoradenstvi)}
+        </LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSRozvojPodnikavosti)}
+        </LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSMedGramotnost)}
+        </LiFile>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSGenderovaTematika)}
+        </LiFile>
+      </ul>
+    </Col>
+    <Col md={4}>
+      <ul className='fa-ul'>
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSMatematickaGramotnost)}
         </LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSCtenarskaGramotnost)}
         </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSMatematickaGramotnost)}
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSInovace)}
         </LiFile>
         <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSPodporaUcitelu)}
         </LiFile>
-        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSInovativniFormy)}
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSInkluzeCizinci)}
         </LiFile>
-
+        <LiFile>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss.SSVyukaCestiny)}
+        </LiFile>
       </ul>
     </Col>
   </Row>

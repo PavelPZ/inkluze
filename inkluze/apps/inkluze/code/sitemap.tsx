@@ -156,7 +156,7 @@
         },
         SSOstatniInkluze: {
           id: 'SSOstatniInkluze',
-          title: 'Ostatní Inkluze',
+          title: 'Inkluze',
           createPage: par => React.createElement(KurzySS),
         },
         SSInovativniFormy: {
