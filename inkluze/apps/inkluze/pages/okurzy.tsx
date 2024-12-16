@@ -327,21 +327,6 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=27.11.2024%20Strategie%20p%C5%99edch%C3%A1zen%C3%AD%20%C5%A1koln%C3%AD%20ne%C3%BAsp%C4%9B%C5%A1nosti&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
-        */}
-        
-
-
-
-
-
-        <LiHand><h4><b>28.11. 2024 <a href="/index.html?home|kurzyii|zswellbeing">Rozvoj sociálních dovedností žáků v ŠD/ŠK (8 hodin)</a></b></h4>
-          <h4><Label bsStyle="warning">Oblast: Well-being a psychohygiena</Label></h4>
-          <p>Akreditace: <a href="index.html?home|akreditace">více informací</a></p>
-          <p>Cena: 1690 Kč/os, Lektor: Mgr. Dana Forýtková</p>
-          <p>Místo konání: online</p>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=28.11.%202024%20Rozvoj%20soci%C3%A1ln%C3%ADch%20dovednost%C3%AD%20%C5%BE%C3%A1k%C5%AF%20v%20%C5%A0D%2F%C5%A0K&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
-        </LiHand>
         <LiHand><h4><b>5.12. 2024 <a href="/index.html?home|kurzyss|SSGenderovaTematika">Gender a genderová tematika na školách (8 hodin)</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Genderová tematika v obsahu vzdělávání</Label></h4>
           <p>Akreditace: MSMT- 21314/2022-2-729</p>
@@ -364,6 +349,16 @@
           <p>Cena: 1690 Kč/os, Lektor: Mgr. Dana Forýtková</p>
           <p>Místo konání: online</p>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=9.12.%202024%20Nov%C3%A9%20metody%20pr%C3%A1ce%20u%C4%8Ditele%20%E2%80%93%20aktivizuj%C3%ADc%C3%AD%20formy%20v%C3%BDuky%20na%20Z%C5%A0%20a%20S%C5%A0&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+        </LiHand>
+        */}
+        
+        <LiHand><h4><b>17.1. 2024 <a href="/index.html?home|kurzyii|zswellbeing">Rozvoj sociálních dovedností žáků v ŠD/ŠK (8 hodin)</a></b></h4>
+          <h4><Label bsStyle="warning">Oblast: Well-being a psychohygiena</Label></h4>
+          <p>Akreditace: <a href="index.html?home|akreditace">více informací</a></p>
+          <p>Cena: 1690 Kč/os, Lektor: Mgr. Dana Forýtková</p>
+          <p>Místo konání: online</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=17.1.%202024%20Rozvoj%20soci%C3%A1ln%C3%ADch%20dovednost%C3%AD%20%C5%BE%C3%A1k%C5%AF%20v%20%C5%A0D%2F%C5%A0K&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
         <LiHand><h4><b>23.1. 2025 <a href="/index.html?home|kurzyii|zsdiagnostika">Školní zralost – příprava předškoláka (8 hodin)</a></b></h4>
@@ -415,11 +410,19 @@
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
         <LiHand><h4><b>5.2. 2025 <a href="/index.html?home|kurzyss|sswellbeing">Osobnostní a sociální rozvoj učitele ve zvládání konfliktů (8 hodin)</a></b></h4>
-          <h4><Label bsStyle="warning">Oblast: Osobnostní rozvoj</Label></h4>
+          <h4><Label bsStyle="warning">Oblast: Well-being a psychohygiena</Label></h4>
           <p>Akreditace: <a href="index.html?home|akreditace">více informací</a></p>
           <p>Cena: 1690 Kč/os, Lektor: Mgr. Dana Forýtková</p>
           <p>Místo konání: online</p>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=5.%202.%202025%20Osobnostn%C3%AD%20a%20soci%C3%A1ln%C3%AD%20rozvoj%20u%C4%8Ditele%20ve%20zvl%C3%A1d%C3%A1n%C3%AD%20konflikt%C5%AF%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+        </LiHand>
+        <LiHand><h4><b>6.2. 2025 <a href="/index.html?home|kurzyii|zsinkluze">Jak se věnovat žákovi s poruchou učení (8 hodin)</a></b></h4>
+          <h4><Label bsStyle="warning">Oblast: Inkluze</Label></h4>
+          <p>Akreditace: <a href="index.html?home|akreditace">více informací</a></p>
+          <p>Cena: 1690 Kč/os, Lektor: Mgr et Mgr. Dagmar Vilášková</p>
+          <p>Místo konání: online</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=6.2.%202025%20Jak%20se%20v%C4%9Bnovat%20zakovi%20s%20poruchou%20u%C4%8Den%C3%AD%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
         <LiHand><h4><b>21.2. 2025 <a href="/index.html?home|kurzyii|zsinovativniformy">Tandemová výuka – nový prvek ve výuce (8 hodin)</a></b></h4>
@@ -446,7 +449,7 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=24.2.%202025%20Formativn%C3%AD%20hodnocen%C3%AD%20v%20praxi%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
-        <LiHand><h4><b>26.2. 2025  <a href="/index.html?home|kurzyss|sswellbeing">Třídní učitel a jeho působení na vytváření třídního kolektivu</a></b></h4>
+        <LiHand><h4><b>26.2. 2025  <a href="/index.html?home|kurzyss|sswellbeing">Třídní učitel a jeho působení na vytváření třídního kolektivu (8 hodin)</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Wellbeing a psychohygiena</Label></h4>
           <p>Akreditace: <a href="index.html?home|akreditace">více informací</a></p>
           <p>Cena: 1690 Kč/os, Lektor: Mgr et Mgr. Dagmar Vilášková</p>
@@ -462,7 +465,7 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=27.2.%202025%20Pedagogick%C3%A1%20diagnostika%20d%C3%ADt%C4%9Bte%20v%20M%C5%A0%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
-        <LiHand><h4><b>3.3. 2025 <a href="/index.html?home|kurzyss|ssnovetechnologie">Umělá inteligence ve škole</a></b></h4>
+        <LiHand><h4><b>3.3. 2025 <a href="/index.html?home|kurzyss|ssnovetechnologie">Umělá inteligence ve škole (8 hodin)</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Vzdělání s využitím nových technologií</Label></h4>
           <p>Akreditace: <a href="index.html?home|akreditace">více informací</a></p>
           <p>Cena: 1690 Kč/os, Lektor: PhDr. Veronika Havelková, Ph.D.</p>
@@ -510,7 +513,7 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=24.3.2025%20Z%C3%A1klady%20krizov%C3%A9%20intervence%20ve%20%C5%A1kole%20pro%20pedagogy&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
-        <LiHand><h4><b>26.3. 2025 <a href="/index.html?home|kurzyss|ssnovetechnologie">Využití ICT ve výuce - náměty a inspirace pro praxi (8 hodin</a></b></h4>
+        <LiHand><h4><b>26.3. 2025 <a href="/index.html?home|kurzyss|ssnovetechnologie">Využití ICT ve výuce - náměty a inspirace pro praxi (8 hodin)</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Vzdělání s využitím nových technologií</Label></h4>
           <p>Akreditace: <a href="index.html?home|akreditace">více informací</a></p>
           <p>Cena: 1690 Kč/os, Lektor: PhDr. Veronika Havelková, Ph.D.</p>
@@ -519,7 +522,7 @@
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
         <LiHand><h4><b>26.3. 2025 <a href="/index.html?home|kurzyss|sswellbeing">Prevence k zátěžovám situacím ve škole (8 hodin)  </a></b></h4>
-          <h4><Label bsStyle="warning">Oblast: Osobnostní rozvoj</Label></h4>
+          <h4><Label bsStyle="warning">Oblast: Well-being a psychohygiena</Label></h4>
           <p>Cena: 1690 Kč/os, Lektor: Mgr. Dana Forýtková</p>
           <p>Místo konání: online</p>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=26.%203.%202025%20Prevence%20k%20z%C3%A1t%C4%9B%C5%BEov%C3%A1m%20situac%C3%ADm%20ve%20%C5%A1kole%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
@@ -557,7 +560,7 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=16.4.%202025%20%20Zm%C4%9Bny%20v%20RVP%20a%20%C3%BApravy%20%C5%A0VP%20v%20r%C3%A1mci%20programu%20InspIS%20%C5%A0VP%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>tento termín bude speciálně zaměřen na ŠVP pro MŠ</p>
         </LiHand>
-        <LiHand><h4><b>22.4. 2025 <a href="/index.html?home|kurzyss|ssmatematickagramotnost">GeoGebra jako nástroj rozvoje matematické gramotnosti</a></b></h4>
+        <LiHand><h4><b>22.4. 2025 <a href="/index.html?home|kurzyss|ssmatematickagramotnost">GeoGebra jako nástroj rozvoje matematické gramotnosti (8 hodin)</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Matematická gramotnost</Label></h4>
           <p>Akreditace: MSMT-852/2023-2-81</p>
           <p>Cena: 1690 Kč/os, Lektor: PhDr. Veronika Havelková, Ph.D.</p>
@@ -621,6 +624,14 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=28.5.%202025%20K%C3%A1ze%C5%88sk%C3%A9%20p%C5%99estupky%20a%20mo%C5%BEnosti%20jejich%20%C5%99e%C5%A1en%C3%AD%20v%20r%C3%A1mci%20t%C5%99%C3%ADdy&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
+        <LiHand><h4><b>28.5. 2025 <a href="/index.html?home|kurzyii|zsctenarskagramotnost">Čtenářská a informační gramotnost na ZŠ - 8 hodin  </a></b></h4>
+          <h4><Label bsStyle="warning">Oblast: Čtenářská gramotnost</Label></h4>
+          <p>Akreditace: <a href="index.html?home|akreditace">více informací</a></p>
+          Cena: 1690 Kč/os, Lektor: Mgr. Dana Forýtková
+          <p>Místo konání: online</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=28.%205.%202025%20%C4%8Cten%C3%A1%C5%99sk%C3%A1%20a%20informa%C4%8Dn%C3%AD%20gramotnost%20na%20Z%C5%A0%20-%208%20hodin&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+        </LiHand>
         <LiHand><h4><b>29.5. 2025 <a href="/index.html?home|kurzyii|zsdiagnostika">Sociální klima třídy a pedagogická diagnostika učitele (8 hodin)</a></b></h4>
           <h4><Label bsStyle="warning">Oblasti: Pedagogická diagnostika</Label></h4>
           <p>Akreditace: MSMT- 14644/2022-4-517</p>
@@ -635,6 +646,14 @@
           <p>Cena: 1690 Kč/os, Lektor: Mgr. Dana Forýtková</p>
           <p>Místo konání: online</p>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=2.6.2025%20T%C5%99%C3%ADdn%C3%AD%20u%C4%8Ditel%20a%20wellbeing&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+        </LiHand>
+        <LiHand><h4><b>4.6. 2025 <a href="/index.html?home|kurzyss|sswellbeing">Práce s  pedagogickým sborem-jak předejít syndromu vyhoření (8 hodin) </a></b></h4>
+          <h4><Label bsStyle="warning">Oblast: Well-being a psychohygiena</Label></h4>
+          <p>Akreditace: <a href="index.html?home|akreditace">více informací</a></p>
+          <p>Cena: 1690 Kč/os, Lektor: PaedDr. Ellen Mlátilíková</p>
+          <p>Místo konání: online</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=4.6.%202025%20Pr%C3%A1ce%20s%20%20pedagogick%C3%BDm%20sborem-jak%20p%C5%99edej%C3%ADt%20syndromu%20vyho%C5%99en%C3%AD%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
       </ul>

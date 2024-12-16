@@ -516,15 +516,18 @@ var SSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
             <li className="list-group-item">•	automatizace hodnocení a zpětné vazby pomocí AI.</li>
           </ul></div>
       </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Efektivní využití MS Office pro pedagogy – 8 hodin</b>        (8 hod, akreditováno pro SŠ, VOŠ, ZŠ)
-        <div className="collapse " id="collapsesnt1">
-          <ul className="list-group">
-            <li className="list-group-item">•	<b>Seznámení s programem – demonstrace úpravy prostředí Windows</b> - přizpůsobení pracovní plochy, nastavení hlavního panelu, možnosti zobrazení ikon a představení prostřední MS Office z pohledu zefektivnění práce s jednotlivými programy, využití panelu rychlých nástrojů, přizpůsobení pásu karet, nastavení stavového řádku, karta zobrazení (0, 5 hod)</li>
-            <li className="list-group-item">•	<b>MS Office Word</b> – formátování písma, odstavců, textu, vícestránkové dokumenty, vkládání a úprava textů z internetu, záhlaví, zápatí, styly, vkládání a úprava obrázků do textu, práce s obrazci, symboly, rozšíření znalostí klávesových zkratek (2,5 hod)</li>
-            <li className="list-group-item">•	<b>MS Office Excel</b> – seznámení s prostředím Microsoft Excel, formátování buněk, tabulek, vytváření vlastních řad, vzorce a funkce v Excelu se zaměřením na praktické využití při používání Excelu při evidenci dat i při výuce (2,5 hod)</li>
-            <li className="list-group-item">•	<b>MS Office PowerPoint</b> – pravidla prezentace, práce se snímky, textovými poli, vkládání obrázků, objektů, využití šablon, motivů, možnosti efektů, příprava pro tisk (2,5 hod)</li>
-          </ul>
-        </div>
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt50" aria-expanded="false" aria-controls="collapsesnt50">Využití ICT ve výuce - náměty a inspirace pro praxi
+      </b> (8 hod, doporučeno pro ZŠ, SŠ, VOŠ)
+        <div className="collapse " id="collapsesnt50">
+          <p>Vzdělávací program je zaměřen na využití moderních technologií ve výuce. Semináře je zaměřen jak na obecnější principy využití moderních technologií, tak na využití konkrétních programů, webových stránek a aplikací vhodných pro podporu výuky.Účastníci se seznámí s metodami a postupy, které zdokonalují výklad učiva a zároveň žáky motivují. Pracovat se bude v duchu konstruktivistické pedagogiky.Programy, aplikace a webové stránky jsou voleny tak, aby jejich užití bylo pro školu zdarma (bez kupování licencí).</p>
+          <p>Příklady probíraných témat</p>
+          <ul className="list-group"><li className="list-group-item">•	Seznámení s problematikou nasazení výukových technologií školního prostředí (pozitiva, negativa a rizika nasazení se kterými je třeba počítat) (1 hodina)</li>
+            <li className="list-group-item">•	Seznámení programy a aplikacemi, které oživí každou prezentaci</li>
+            <li className="list-group-item">•	Využití pojmových map, sdílených poznámek a dokumentů ve výuce</li>
+            <li className="list-group-item">•	Programy a aplikace pro jednoduché vytváření zábavných kvízů</li>
+            <li className="list-group-item">•	Použití programu Formulator Tarsia pro tvorbu domin, triomin a jiných her vhodných k oživení procvičovaného učiva</li>
+            <li className="list-group-item">•	Příklady různých aplikací, programů či webových stránek s hrami, videi, texty i jinými materiály, které je možné vhodně využít při výuce</li>
+          </ul></div>
       </LiFile>
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt2" aria-expanded="false" aria-controls="collapsesnt2">Různé metody pro využití ICT technologií ve škole
       </b>        (8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ZUŠ, asistenti)
@@ -562,19 +565,6 @@ var SSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
             <li className="list-group-item">•	<b>Ukázka práce s dotykovými zařízeními</b> - uchazeč se v posledním bloku aktivně zapojí do práce s dotykovým zařízením. Využije získané teoretické poznatky k sestavení ukázkové hodiny, ve které využije dotyková zařízení (2 hod)</li>
           </ul></div>
 
-      </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt50" aria-expanded="false" aria-controls="collapsesnt50">Využití ICT ve výuce - náměty a inspirace pro praxi
-      </b> (8 hod, doporučeno pro ZŠ, SŠ, VOŠ)
-        <div className="collapse " id="collapsesnt50">  
-        <p>Vzdělávací program je zaměřen na využití moderních technologií ve výuce. Semináře je zaměřen jak na obecnější principy využití moderních technologií, tak na využití konkrétních programů, webových stránek a aplikací vhodných pro podporu výuky.Účastníci se seznámí s metodami a postupy, které zdokonalují výklad učiva a zároveň žáky motivují. Pracovat se bude v duchu konstruktivistické pedagogiky.Programy, aplikace a webové stránky jsou voleny tak, aby jejich užití bylo pro školu zdarma (bez kupování licencí).</p>
-        <p>Příklady probíraných témat</p>
-         <ul className="list-group"><li className="list-group-item">•	Seznámení s problematikou nasazení výukových technologií školního prostředí (pozitiva, negativa a rizika nasazení se kterými je třeba počítat) (1 hodina)</li>
-          <li className="list-group-item">•	Seznámení programy a aplikacemi, které oživí každou prezentaci</li>
-          <li className="list-group-item">•	Využití pojmových map, sdílených poznámek a dokumentů ve výuce</li>
-          <li className="list-group-item">•	Programy a aplikace pro jednoduché vytváření zábavných kvízů</li>
-          <li className="list-group-item">•	Použití programu Formulator Tarsia pro tvorbu domin, triomin a jiných her vhodných k oživení procvičovaného učiva</li>
-          <li className="list-group-item">•	Příklady různých aplikací, programů či webových stránek s hrami, videi, texty i jinými materiály, které je možné vhodně využít při výuce</li>
-        </ul></div>
       </LiFile>
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt5" aria-expanded="false" aria-controls="collapsesnt5">Využití ICT ve škole
       </b>(8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ZUŠ, asistenti)
@@ -626,6 +616,16 @@ var SSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
           <li className="list-group-item">•	Praktická cvičení  – tvorba prezentací účastníků s jednotlivými prvky prezentace, praktické využití jednotlivých nástrojů k distančnímu učení (2 hodiny)</li>
         </ul></div>
 
+      </LiFile>
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Efektivní využití MS Office pro pedagogy – 8 hodin</b>        (8 hod, akreditováno pro SŠ, VOŠ, ZŠ)
+        <div className="collapse " id="collapsesnt1">
+          <ul className="list-group">
+            <li className="list-group-item">•	<b>Seznámení s programem – demonstrace úpravy prostředí Windows</b> - přizpůsobení pracovní plochy, nastavení hlavního panelu, možnosti zobrazení ikon a představení prostřední MS Office z pohledu zefektivnění práce s jednotlivými programy, využití panelu rychlých nástrojů, přizpůsobení pásu karet, nastavení stavového řádku, karta zobrazení (0, 5 hod)</li>
+            <li className="list-group-item">•	<b>MS Office Word</b> – formátování písma, odstavců, textu, vícestránkové dokumenty, vkládání a úprava textů z internetu, záhlaví, zápatí, styly, vkládání a úprava obrázků do textu, práce s obrazci, symboly, rozšíření znalostí klávesových zkratek (2,5 hod)</li>
+            <li className="list-group-item">•	<b>MS Office Excel</b> – seznámení s prostředím Microsoft Excel, formátování buněk, tabulek, vytváření vlastních řad, vzorce a funkce v Excelu se zaměřením na praktické využití při používání Excelu při evidenci dat i při výuce (2,5 hod)</li>
+            <li className="list-group-item">•	<b>MS Office PowerPoint</b> – pravidla prezentace, práce se snímky, textovými poli, vkládání obrázků, objektů, využití šablon, motivů, možnosti efektů, příprava pro tisk (2,5 hod)</li>
+          </ul>
+        </div>
       </LiFile>
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt10" aria-expanded="false" aria-controls="collapsesnt10">Základy práce s MS Office a jejich využití na školách
       </b>(8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)
@@ -890,6 +890,17 @@ var SSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
           <li className="list-group-item">•	Neverbální komunikace  – gesta a výrazy s jejich významem. Základy psycholingvistiky a rizikové výrazy. (1 hodina)</li>
         </ul></div>
       </LiFile>
+      <LiFile>
+        <b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb11" aria-expanded="false" aria-controls="collapsezwb11">Práce s  pedagogickým sborem-jak předejít syndromu vyhoření</b>
+        <div className="collapse " id="collapsezwb11">
+          <ul className="list-group">
+            <li className="list-group-item">•	<b>Klima ve škole a sborovně</b> : Klima z hlediska - emocionálního, sociálního, pracovního. Faktory ovlivňující klima školy - přístup učitele, komunikace, metody a strategie. (2 hod)</li>
+            <li className="list-group-item">•	<b>Téma – Pravidla ve sborovně, pravidla ve třídě, komunikace</b>: Pravidla a zásady fungujícího kolektivu ve sborovně, vedení a zásady třídnického kolektivu. Práce se sborovnou - příprava, hranice, rizika a zdroje. Výhody a nevýhody nepsaných norem pedagogického sboru a třídního kolektivu. Role učitele ve sborovně. Posilování pozitivních vazeb. Regulace chování ve skupině. Komunikace ve sborovně. (2 hod)</li>
+            <li className="list-group-item">•	<b>Téma – Jak na syndrom vyhoření, antistresové a relaxační techniky</b>: Antistresové techniky využitelné pro jednotlivce i pro skupinu. Relaxační metody různých druhů. Uvědomění si sám sebe, práce na pozitivním myšlení u jednotlivce i skupiny. (1 hod)</li>
+            <li className="list-group-item">•	<b>Téma – praktické ukázky práce se skupinou a antistresové relaxační metody.</b> Sebezkušenostní část vzdělávacího programu. Využití relaxačních metod v praxi. Ukázky jak pracovat v pedagogickém sboru či v jiném kolektivu, případně ve třídě žáků. Zapojení sebereflexe a reflexe od skupiny. (3 hod)</li>
+          </ul>
+        </div>
+      </LiFile >
     </ul >
   </BlockEx >
 </Panel >;
@@ -1366,17 +1377,8 @@ var SSFormativniHodnoceni: React.StatelessComponent<IKurzProps> = (props: IKurzP
 </div>} eventKey={2}>
 
   <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesfh1" aria-expanded="false" aria-controls="collapsesfh1">Formativní hodnocení a role učitele
-      </b>(8 hod, akreditováno pro SŠ, VOŠ, DM, ZŠ, ŠD, asistenti)
-         <div className="collapse " id="collapsesfh1"><ul className="list-group"><li className="list-group-item">•	Hodnocení, význam a jeho specifika (0,5 hod)</li>
-          <li className="list-group-item">•	Pět klíčových strategií formativního hodnocení, pravidla a podmínky poskytování formativního hodnocení (0,5 hod)</li>
-          <li className="list-group-item">•	Metody formativního hodnocení (respektující komunikace, zpětná vazba, vrstevnické hodnocení, sebehodnocení, cíle, kritéria)  – obecné vysvětlení pojmů (1 hod)</li>
-          <li className="list-group-item">•	Pravidla a podmínky poskytování zpětné vazby  - pozitivní a negativní zpětná vazba, chyby v podávání zpětné vazby (1 hod)</li>
-          <li className="list-group-item">•	Slovní hodnocení, sebehodnocení, vrstevnické hodnocení (2 hod)</li>
-          <li className="list-group-item">•	Praktický nácvik tvorby kritérií k formativnímu hodnocení (3 hod)</li>
-        </ul></div>
-      </LiFile >
+    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>
+    <ul className='fa-ul'>
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesfh2" aria-expanded="false" aria-controls="collapsesfh2">Formativní hodnocení v praxi
       </b>(8 hod, akreditováno pro SŠ, ZŠ,, asistenti)
         <div className="collapse " id="collapsesfh2"><ul className="list-group"><li className="list-group-item">•	Formativní hodnocení a jeho principy (1 hod)</li>
@@ -1389,24 +1391,6 @@ var SSFormativniHodnoceni: React.StatelessComponent<IKurzProps> = (props: IKurzP
           <li className="list-group-item">•	Diskuse účastníků, sdílení typů z praxe (0,5 hod)</li>
         </ul></div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesfh3" aria-expanded="false" aria-controls="collapsesfh3">Formativní hodnocení v praxi - webinář
-      </b>(8 hod, akreditováno pro SŠ, ZŠ, asistenti)
-         <div className="collapse border rounded " id="collapsesfh3">
-          <div className="m-3">
-            <b>Blok 1 (2 vyučovací hodiny – 90 minut)</b><br />
-            •	Formativní hodnocení a jeho principy (1 hod)<br />
-            •	Strategie formativního hodnocení, pravidla a podmínky pro poskytování formativního hodnocení (1 hod)<br />
-            <b>Blok 2 (2 vyučovací hodiny – 90 minut)</b><br />
-            •	Cíle učení a kritéria úspěchu a jejich tvorba (1 hod)<br />
-            •	Moderování třídní diskuse, komunikace, klíčové otázky, porozumění třídou (1 hod)<br />
-            <b>Blok 3 (2 vyučovací hodiny – 90 minut)</b><br />
-            •	Vrstevnické hodnocení a sebehodnocení, přijetí hodnocení (2 hod)<br />
-            <b>Blok 4 (2 vyučovací hodiny – 90 minut)</b><br />
-            •	Zásady podávání zpětné vazby ústní a písemné (1 hod)<br />
-            •	Přesah formativního hodnocení do osobnostního rozvoje žáka (0,5 hod)<br />
-            •	Diskuse účastníků, sdílení typů z praxe (0,5 hod)<br />
-          </div></div>
-      </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesfh4" aria-expanded="false" aria-controls="collapsesfh4">Vedení portfolia žáka jako nástroj formativního hodnocení
       </b>(8 hod, akreditováno pro ZŠ, ŠD, SŠ, DM, asistenti, výchovní poradci, speciální pedagogové, psychologové)
         <div className="collapse " id="collapsesfh4"><ul className="list-group"><li className="list-group-item">•	LEGISLATIVNÍ RÁMEC: Školský zákon a Vyhláška 27/2016. Hodnocení žáka jako podpůrné opatření, možnosti úpravy obsahu a výstupů v souladu s legislativou.  Vymezení základních pojmů nadání. Sumativní a formativní hodnocení  – vymezení teoretických pojmů. (1 hod)  </li>
@@ -1415,6 +1399,15 @@ var SSFormativniHodnoceni: React.StatelessComponent<IKurzProps> = (props: IKurzP
           <li className="list-group-item">•	PRINCIPY PRÁCE S portfoliem žáka: Teoretické ukotvení tématu, Ukázka sebehodnocení žáka (1 hod)</li>
           <li className="list-group-item">•	PRINCIPY PRÁCE S portfoliem žáka: Možnosti motivace žáka, Ukázka možností procvičování podle možností a schopností žáků, možnosti ověřování učiva a úrovně, rozsahu, četnosti úkolů stejného typu, Ukázka práce, nabídka metodických materiálů. Práce s pracovním materiálem. (2 hod)</li>
           <li className="list-group-item">•	Cíl a smysl portfolia je především  důraz na osobní posun v učení každého dítěte - žáka. Možnosti využívat průběžné rozvíjející hodnocení včetně slovního a rozvíjí sebereflexi učitele. Ukázka metod formativní hodnocení, slovní hodnocení Ukázka možností posilování pozitivní motivace k aktivnímu a samostatnému učení (1 hod)</li>
+        </ul></div>
+      </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesfh1" aria-expanded="false" aria-controls="collapsesfh1">Formativní hodnocení a role učitele</b>(8 hod, akreditováno pro SŠ, VOŠ, DM, ZŠ, ŠD, asistenti)
+         <div className="collapse " id="collapsesfh1"><ul className="list-group"><li className="list-group-item">•	Hodnocení, význam a jeho specifika (0,5 hod)</li>
+          <li className="list-group-item">•	Pět klíčových strategií formativního hodnocení, pravidla a podmínky poskytování formativního hodnocení (0,5 hod)</li>
+          <li className="list-group-item">•	Metody formativního hodnocení (respektující komunikace, zpětná vazba, vrstevnické hodnocení, sebehodnocení, cíle, kritéria)  – obecné vysvětlení pojmů (1 hod)</li>
+          <li className="list-group-item">•	Pravidla a podmínky poskytování zpětné vazby  - pozitivní a negativní zpětná vazba, chyby v podávání zpětné vazby (1 hod)</li>
+          <li className="list-group-item">•	Slovní hodnocení, sebehodnocení, vrstevnické hodnocení (2 hod)</li>
+          <li className="list-group-item">•	Praktický nácvik tvorby kritérií k formativnímu hodnocení (3 hod)</li>
         </ul></div>
       </LiFile >
     </ul>
@@ -1707,15 +1700,6 @@ var ZSFormativniHodnoceni: React.StatelessComponent<IKurzProps> = (props: IKurzP
   <BlockEx header="Nabízíme následující kurzy:">
     <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
 
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezff1" aria-expanded="false" aria-controls="collapsezff1">Formativní hodnocení a role učitele </b> (8 hod, akreditováno pro ZŠ, ŠD, SŠ, VOŠ, DM, asistenti)
-        <div className="collapse " id="collapsezff1"><ul className="list-group"><li className="list-group-item">•	Hodnocení, význam a jeho specifika (0,5 hod)</li>
-          <li className="list-group-item">•	Pět klíčových strategií formativního hodnocení, pravidla a podmínky poskytování formativního hodnocení (0,5 hod)</li>
-          <li className="list-group-item">•	Metody formativního hodnocení (respektující komunikace, zpětná vazba, vrstevnické hodnocení, sebehodnocení, cíle, kritéria)  – obecné vysvětlení pojmů (1 hod)</li>
-          <li className="list-group-item">•	Pravidla a podmínky poskytování zpětné vazby  - pozitivní a negativní zpětná vazba, chyby v podávání zpětné vazby (1 hod)</li>
-          <li className="list-group-item">•	Slovní hodnocení, sebehodnocení, vrstevnické hodnocení (2 hod)</li>
-          <li className="list-group-item">•	Praktický nácvik tvorby kritérií k formativnímu hodnocení (3 hod)</li>
-        </ul></div>
-      </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezff2" aria-expanded="false" aria-controls="collapsezff2">Formativní hodnocení v praxi </b> (8 hod, akreditováno pro ZŠ, SŠ, asistenti)
                 <div className="collapse " id="collapsezff2"><ul className="list-group"><li className="list-group-item">•	Formativní hodnocení a jeho principy (1 hod)</li>
           <li className="list-group-item">•	Strategie formativního hodnocení, pravidla a podmínky pro poskytování formativního hodnocení (1 hod)</li>
@@ -1727,23 +1711,6 @@ var ZSFormativniHodnoceni: React.StatelessComponent<IKurzProps> = (props: IKurzP
           <li className="list-group-item">•	Diskuse účastníků, sdílení typů z praxe (0,5 hod)</li>
         </ul></div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezff3" aria-expanded="false" aria-controls="collapsezff3">Formativní hodnocení v praxi – webinář </b> (8 hod, akreditováno pro ZŠ, SŠ, asistenti)
-                 <div className="collapse border rounded " id="collapsezff3">
-          <div className="m-3">
-            <b>Blok 1 (2 vyučovací hodiny – 90 minut)</b><br />
-            •	Formativní hodnocení a jeho principy (1 hod)<br />
-            •	Strategie formativního hodnocení, pravidla a podmínky pro poskytování formativního hodnocení (1 hod)<br />
-            <b>Blok 2 (2 vyučovací hodiny – 90 minut)</b><br />
-            •	Cíle učení a kritéria úspěchu a jejich tvorba (1 hod)<br />
-            •	Moderování třídní diskuse, komunikace, klíčové otázky, porozumění třídou (1 hod)<br />
-            <b>Blok 3 (2 vyučovací hodiny – 90 minut)</b><br />
-            •	Vrstevnické hodnocení a sebehodnocení, přijetí hodnocení (2 hod)<br />
-            <b>Blok 4 (2 vyučovací hodiny – 90 minut)</b><br />
-            •	Zásady podávání zpětné vazby ústní a písemné (1 hod)<br />
-            •	Přesah formativního hodnocení do osobnostního rozvoje žáka (0,5 hod)<br />
-            •	Diskuse účastníků, sdílení typů z praxe (0,5 hod)<br />
-          </div></div>
-      </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezff4" aria-expanded="false" aria-controls="collapsezff4">Vedení portfolia žáka jako nástroj formativního hodnocení
       </b>(8 hod, akreditováno pro ZŠ, ŠD, SŠ, DM, asistenti, výchovní poradci, speciální pedagogové, psychologové)
         <div className="collapse " id="collapsezff4"><ul className="list-group"><li className="list-group-item">•	LEGISLATIVNÍ RÁMEC: Školský zákon a Vyhláška 27/2016. Hodnocení žáka jako podpůrné opatření, možnosti úpravy obsahu a výstupů v souladu s legislativou.  Vymezení základních pojmů nadání. Sumativní a formativní hodnocení  – vymezení teoretických pojmů. (1 hod)  </li>
@@ -1752,6 +1719,15 @@ var ZSFormativniHodnoceni: React.StatelessComponent<IKurzProps> = (props: IKurzP
           <li className="list-group-item">•	PRINCIPY PRÁCE S portfoliem žáka: Teoretické ukotvení tématu, Ukázka sebehodnocení žáka (1 hod)</li>
           <li className="list-group-item">•	PRINCIPY PRÁCE S portfoliem žáka: Možnosti motivace žáka, Ukázka možností procvičování podle možností a schopností žáků, možnosti ověřování učiva a úrovně, rozsahu, četnosti úkolů stejného typu, Ukázka práce, nabídka metodických materiálů. Práce s pracovním materiálem. (2 hod)</li>
           <li className="list-group-item">•	Cíl a smysl portfolia je především  důraz na osobní posun v učení každého dítěte - žáka. Možnosti využívat průběžné rozvíjející hodnocení včetně slovního a rozvíjí sebereflexi učitele. Ukázka metod formativní hodnocení, slovní hodnocení Ukázka možností posilování pozitivní motivace k aktivnímu a samostatnému učení (1 hod)</li>
+        </ul></div>
+      </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezff1" aria-expanded="false" aria-controls="collapsezff1">Formativní hodnocení a role učitele </b> (8 hod, akreditováno pro ZŠ, ŠD, SŠ, VOŠ, DM, asistenti)
+        <div className="collapse " id="collapsezff1"><ul className="list-group"><li className="list-group-item">•	Hodnocení, význam a jeho specifika (0,5 hod)</li>
+          <li className="list-group-item">•	Pět klíčových strategií formativního hodnocení, pravidla a podmínky poskytování formativního hodnocení (0,5 hod)</li>
+          <li className="list-group-item">•	Metody formativního hodnocení (respektující komunikace, zpětná vazba, vrstevnické hodnocení, sebehodnocení, cíle, kritéria)  – obecné vysvětlení pojmů (1 hod)</li>
+          <li className="list-group-item">•	Pravidla a podmínky poskytování zpětné vazby  - pozitivní a negativní zpětná vazba, chyby v podávání zpětné vazby (1 hod)</li>
+          <li className="list-group-item">•	Slovní hodnocení, sebehodnocení, vrstevnické hodnocení (2 hod)</li>
+          <li className="list-group-item">•	Praktický nácvik tvorby kritérií k formativnímu hodnocení (3 hod)</li>
         </ul></div>
       </LiFile >
     </ul>
@@ -2724,6 +2700,19 @@ var ZSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
             <li className="list-group-item">•	automatizace hodnocení a zpětné vazby pomocí AI.</li>
           </ul></div>
       </LiFile>
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseznt50" aria-expanded="false" aria-controls="collapseznt50">Využití ICT ve výuce - náměty a inspirace pro praxi
+      </b> (8 hod, doporučeno pro ZŠ, SŠ, VOŠ)
+        <div className="collapse " id="collapseznt50">
+          <p>Vzdělávací program je zaměřen na využití moderních technologií ve výuce. Semináře je zaměřen jak na obecnější principy využití moderních technologií, tak na využití konkrétních programů, webových stránek a aplikací vhodných pro podporu výuky.Účastníci se seznámí s metodami a postupy, které zdokonalují výklad učiva a zároveň žáky motivují. Pracovat se bude v duchu konstruktivistické pedagogiky.Programy, aplikace a webové stránky jsou voleny tak, aby jejich užití bylo pro školu zdarma (bez kupování licencí).</p>
+          <p>Příklady probíraných témat</p>
+          <ul className="list-group"><li className="list-group-item">•	Seznámení s problematikou nasazení výukových technologií školního prostředí (pozitiva, negativa a rizika nasazení se kterými je třeba počítat) (1 hodina)</li>
+            <li className="list-group-item">•	Seznámení programy a aplikacemi, které oživí každou prezentaci</li>
+            <li className="list-group-item">•	Využití pojmových map, sdílených poznámek a dokumentů ve výuce</li>
+            <li className="list-group-item">•	Programy a aplikace pro jednoduché vytváření zábavných kvízů</li>
+            <li className="list-group-item">•	Použití programu Formulator Tarsia pro tvorbu domin, triomin a jiných her vhodných k oživení procvičovaného učiva</li>
+            <li className="list-group-item">•	Příklady různých aplikací, programů či webových stránek s hrami, videi, texty i jinými materiály, které je možné vhodně využít při výuce</li>
+          </ul></div>
+      </LiFile>
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseznt010" aria-expanded="false" aria-controls="collapseznt010">Digitální kompetence na základní škole
       </b> (doporučeno pro ZŠ a asistenty pedagoga)
         <div className="collapse " id="collapseznt010">
@@ -2762,16 +2751,6 @@ var ZSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
           </ul>
         </div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseznt1" aria-expanded="false" aria-controls="collapseznt1">Efektivní využití MS Office pro pedagogy – 8 hodin </b> (8 hod, akreditováno pro ZŠ, SŠ, VOŠ)
-                <div className="collapse " id="collapseznt1">
-          <ul className="list-group">
-            <li className="list-group-item">•	<b>Seznámení s programem – demonstrace úpravy prostředí Windows</b> - přizpůsobení pracovní plochy, nastavení hlavního panelu, možnosti zobrazení ikon a představení prostřední MS Office z pohledu zefektivnění práce s jednotlivými programy, využití panelu rychlých nástrojů, přizpůsobení pásu karet, nastavení stavového řádku, karta zobrazení (0, 5 hod)</li>
-            <li className="list-group-item">•	<b>MS Office Word</b> – formátování písma, odstavců, textu, vícestránkové dokumenty, vkládání a úprava textů z internetu, záhlaví, zápatí, styly, vkládání a úprava obrázků do textu, práce s obrazci, symboly, rozšíření znalostí klávesových zkratek (2,5 hod)</li>
-            <li className="list-group-item">•	<b>MS Office Excel</b> – seznámení s prostředím Microsoft Excel, formátování buněk, tabulek, vytváření vlastních řad, vzorce a funkce v Excelu se zaměřením na praktické využití při používání Excelu při evidenci dat i při výuce (2,5 hod)</li>
-            <li className="list-group-item">•	<b>MS Office PowerPoint</b> – pravidla prezentace, práce se snímky, textovými poli, vkládání obrázků, objektů, využití šablon, motivů, možnosti efektů, příprava pro tisk (2,5 hod)</li>
-          </ul>
-        </div>
-      </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseznt2" aria-expanded="false" aria-controls="collapseznt2">Různé metody pro využití ICT technologií ve škole </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)
                 <div className="collapse " id="collapseznt2">
           <ul className="list-group">
@@ -2803,19 +2782,6 @@ var ZSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
             <li className="list-group-item">•	<b>Ukázka práce s dotykovými zařízeními</b> - uchazeč se v posledním bloku aktivně zapojí do práce s dotykovým zařízením. Využije získané teoretické poznatky k sestavení ukázkové hodiny, ve které využije dotyková zařízení (2 hod)</li>
           </ul></div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseznt50" aria-expanded="false" aria-controls="collapseznt50">Využití ICT ve výuce - náměty a inspirace pro praxi
-      </b> (8 hod, doporučeno pro ZŠ, SŠ, VOŠ)
-        <div className="collapse " id="collapseznt50">
-          <p>Vzdělávací program je zaměřen na využití moderních technologií ve výuce. Semináře je zaměřen jak na obecnější principy využití moderních technologií, tak na využití konkrétních programů, webových stránek a aplikací vhodných pro podporu výuky.Účastníci se seznámí s metodami a postupy, které zdokonalují výklad učiva a zároveň žáky motivují. Pracovat se bude v duchu konstruktivistické pedagogiky.Programy, aplikace a webové stránky jsou voleny tak, aby jejich užití bylo pro školu zdarma (bez kupování licencí).</p>
-          <p>Příklady probíraných témat</p>
-          <ul className="list-group"><li className="list-group-item">•	Seznámení s problematikou nasazení výukových technologií školního prostředí (pozitiva, negativa a rizika nasazení se kterými je třeba počítat) (1 hodina)</li>
-            <li className="list-group-item">•	Seznámení programy a aplikacemi, které oživí každou prezentaci</li>
-            <li className="list-group-item">•	Využití pojmových map, sdílených poznámek a dokumentů ve výuce</li>
-            <li className="list-group-item">•	Programy a aplikace pro jednoduché vytváření zábavných kvízů</li>
-            <li className="list-group-item">•	Použití programu Formulator Tarsia pro tvorbu domin, triomin a jiných her vhodných k oživení procvičovaného učiva</li>
-            <li className="list-group-item">•	Příklady různých aplikací, programů či webových stránek s hrami, videi, texty i jinými materiály, které je možné vhodně využít při výuce</li>
-          </ul></div>
-      </LiFile>
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseznt5" aria-expanded="false" aria-controls="collapseznt5">Využití ICT ve škole </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)
                  <div className="collapse " id="collapseznt5"><ul className="list-group"><li className="list-group-item">•	Seznámení s problematikou nasazení výukových technologií školního prostředí (pozitiva, negativa a rizika nasazení se kterými je třeba počítat) (1 hodina)</li>
           <li className="list-group-item">•	Rozbor dosavadně používaných programů a aplikací účastníků (1 hodina)</li>
@@ -2857,6 +2823,16 @@ var ZSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
           <li className="list-group-item">•	Jak komunikovat s žáky on-line (1 hodina)</li>
           <li className="list-group-item">•	Praktická cvičení  – tvorba prezentací účastníků s jednotlivými prvky prezentace, praktické využití jednotlivých nástrojů k distančnímu učení (2 hodiny)</li>
         </ul></div>
+      </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseznt1" aria-expanded="false" aria-controls="collapseznt1">Efektivní využití MS Office pro pedagogy – 8 hodin </b> (8 hod, akreditováno pro ZŠ, SŠ, VOŠ)
+                <div className="collapse " id="collapseznt1">
+          <ul className="list-group">
+            <li className="list-group-item">•	<b>Seznámení s programem – demonstrace úpravy prostředí Windows</b> - přizpůsobení pracovní plochy, nastavení hlavního panelu, možnosti zobrazení ikon a představení prostřední MS Office z pohledu zefektivnění práce s jednotlivými programy, využití panelu rychlých nástrojů, přizpůsobení pásu karet, nastavení stavového řádku, karta zobrazení (0, 5 hod)</li>
+            <li className="list-group-item">•	<b>MS Office Word</b> – formátování písma, odstavců, textu, vícestránkové dokumenty, vkládání a úprava textů z internetu, záhlaví, zápatí, styly, vkládání a úprava obrázků do textu, práce s obrazci, symboly, rozšíření znalostí klávesových zkratek (2,5 hod)</li>
+            <li className="list-group-item">•	<b>MS Office Excel</b> – seznámení s prostředím Microsoft Excel, formátování buněk, tabulek, vytváření vlastních řad, vzorce a funkce v Excelu se zaměřením na praktické využití při používání Excelu při evidenci dat i při výuce (2,5 hod)</li>
+            <li className="list-group-item">•	<b>MS Office PowerPoint</b> – pravidla prezentace, práce se snímky, textovými poli, vkládání obrázků, objektů, využití šablon, motivů, možnosti efektů, příprava pro tisk (2,5 hod)</li>
+          </ul>
+        </div>
       </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseznt10" aria-expanded="false" aria-controls="collapseznt10">Základy práce s MS Office a jejich využití na školách
       </b>(8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)
@@ -3298,8 +3274,10 @@ cíl: - seznámit se s tématem, se zákonitostmi skupinové dynamiky pro práci
           <li className="list-group-item">•	Řešení problémů a rozhodovací dovednosti. Aktivity zaměřené na mapování vlastních postojů v rámci schématu konfliktu, na způsoby jednání v zátěžových situacích a přístupy ke zvládání konfliktu (kooperace, konfrontace, řešitelský přístup atd.), dovednosti pro řešení problémů a rozhodování z hlediska různých typů konfliktních situací, včetně zvládání krizové komunikace při jednání se žáky i s rodiči/zákonnými zástupci. (5,5 hodiny)</li>
         </ul></div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb10" aria-expanded="false" aria-controls="collapsezwb10">Zásady asertivní a efektivní komunikace pro MŠ, ZŠ, ZUŠ </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, asistenti)
-               <div className="collapse " id="collapsezwb10"><ul className="list-group"><li className="list-group-item">•	Seznámení se s pravidly a technikami komunikace osobní i profesní: cíl, základní stanovisko, kladení otázek a jejich typologie, aktivní naslouchání, změkčovadla, sdělování názoru (2 hodiny)</li>
+      <LiFile>
+        <b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb10" aria-expanded="false" aria-controls="collapsezwb10">Zásady asertivní a efektivní komunikace pro MŠ, ZŠ, ZUŠ </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, asistenti)
+        <div className="collapse " id="collapsezwb10"><ul className="list-group">
+          <li className="list-group-item">•	Seznámení se s pravidly a technikami komunikace osobní i profesní: cíl, základní stanovisko, kladení otázek a jejich typologie, aktivní naslouchání, změkčovadla, sdělování názoru (2 hodiny)</li>
           <li className="list-group-item">•	Praktická typologie v komunikaci podle D. Forbese Leye (možné cvičení). Námitky a jak na ně vhodně reagovat. (1 hodina)</li>
           <li className="list-group-item">•	Asertivita jako dovednost prosazovat své názory a požadavky při zachování respektu k okolí, možnosti vedení žákům k asertivnímu nenásilnému chování. Asertivní práva a techniky -možný nácvik. (1 hodina)</li>
           <li className="list-group-item">•	Zvládání emocí, zvládání vlastních emocí v komunikaci při emočně náročných situacích nejen ve školním prostředí. (1 hodina)</li>
@@ -3307,9 +3285,18 @@ cíl: - seznámit se s tématem, se zákonitostmi skupinové dynamiky pro práci
           <li className="list-group-item">•	Vedení rozhovoru  – příprava a struktura (1 hodina)</li>
           <li className="list-group-item">•	Neverbální komunikace  – gesta a výrazy s jejich významem. Základy psycholingvistiky a rizikové výrazy. (1 hodina)</li>
         </ul></div>
-
       </LiFile >
-
+      <LiFile>
+        <b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb11" aria-expanded="false" aria-controls="collapsezwb11">Práce s  pedagogickým sborem-jak předejít syndromu vyhoření</b>
+        <div className="collapse " id="collapsezwb11">
+          <ul className="list-group">
+            <li className="list-group-item">•	<b>Klima ve škole a sborovně</b> : Klima z hlediska - emocionálního, sociálního, pracovního. Faktory ovlivňující klima školy - přístup učitele, komunikace, metody a strategie. (2 hod)</li>
+            <li className="list-group-item">•	<b>Téma – Pravidla ve sborovně, pravidla ve třídě, komunikace</b>: Pravidla a zásady fungujícího kolektivu ve sborovně, vedení a zásady třídnického kolektivu. Práce se sborovnou - příprava, hranice, rizika a zdroje. Výhody a nevýhody nepsaných norem pedagogického sboru a třídního kolektivu. Role učitele ve sborovně. Posilování pozitivních vazeb. Regulace chování ve skupině. Komunikace ve sborovně. (2 hod)</li>
+            <li className="list-group-item">•	<b>Téma – Jak na syndrom vyhoření, antistresové a relaxační techniky</b>: Antistresové techniky využitelné pro jednotlivce i pro skupinu. Relaxační metody různých druhů. Uvědomění si sám sebe, práce na pozitivním myšlení u jednotlivce i skupiny. (1 hod)</li>
+            <li className="list-group-item">•	<b>Téma – praktické ukázky práce se skupinou a antistresové relaxační metody.</b> Sebezkušenostní část vzdělávacího programu. Využití relaxačních metod v praxi. Ukázky jak pracovat v pedagogickém sboru či v jiném kolektivu, případně ve třídě žáků. Zapojení sebereflexe a reflexe od skupiny. (3 hod)</li>
+          </ul>
+        </div>
+      </LiFile >
     </ul>
   </BlockEx>
 </Panel>;
