@@ -748,6 +748,33 @@ var SSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
           </ul >
         </div >
       </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb2" aria-expanded="false" aria-controls="collapseswb2">Jak zvládat stresové situace a nedospět k vyhoření </b> (8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ZUŠ, ŠD, asistenti)
+        <div className="collapse " id="collapseswb2"><ul className="list-group"><li className="list-group-item">•	Jak psychický stres ovlivňuje náš výkon, Bournout podle Maslachové, Stres management jako pojem (2 hodiny)</li>
+          <li className="list-group-item">•	Vytváření mapy zvládání každodenního stresu (1 hodina)</li>
+          <li className="list-group-item">•	Zjištění vlastního přístupu k práci, k sobě i k druhým (praktické cvičení) – (1 hodina)</li>
+          <li className="list-group-item">•	Strategie snížení hladiny stresu: zvědomění hodnotového žebříčku, přerámování, změna v plánování, afirmace , relaxace aj. (praktické cvičení ve skupinách) – (2 hodiny)</li>
+          <li className="list-group-item">•	Představení asertivního chování jako dobrého způsobu zvládání každodenních stresů (1 hodina)</li>
+          <li className="list-group-item">•	Jak nastavit změny, které podporují nevyhoření, sdílení, závěrečné shrnutí (1 hodina)</li>
+        </ul></div>
+      </LiFile>
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb0" aria-expanded="false" aria-controls="collapseswb0">Prevence k zátěžovým situacím ve škole </b> (8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ZUŠ, ŠD, asistenti)
+        <div className="collapse " id="collapseswb0"><ul className="list-group"><li className="list-group-item">•	<b>Teoretický úvod do oblasti psychohygieny učitele </b> – zmapování zátěžových situací u pedagogických pracovníků, které vedou k jejich přepracovanosti – teorie + práce skupin (1 hod.)</li>
+          <li className="list-group-item">•	<b>Preventivní doporučení </b> - úprava životního stylu, efektivní organizace času, stanovení priorit, schopnost delegování úkolů (komunikace), spánková hygiena, (3 hod.) </li>
+          <li className="list-group-item">•	<b>Preventivní doporučení </b> – důležitost aktivního pohybu, relaxace, odpočinku, včetně nácviku jednoduchých relaxačních technik (jednoduché relaxace k uvolnění stresu: a) cviky k uvolnění svalového napětí, b) cviky k uvolnění po práci u počítače, c) cviky uvolňující při napětí v zádech a bolestech hlavy a zad. (3 hod.)</li>
+          <li className="list-group-item">•	<b>Regulace dalších zátěžových situací</b> přímo při výkonu práce (1hod) </li>
+        </ul></div>
+      </LiFile>
+      <LiFile>
+        <b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb11" aria-expanded="false" aria-controls="collapsezwb11">Práce s  pedagogickým sborem-jak předejít syndromu vyhoření</b>
+        <div className="collapse " id="collapsezwb11">
+          <ul className="list-group">
+            <li className="list-group-item">•	<b>Klima ve škole a sborovně</b> : Klima z hlediska - emocionálního, sociálního, pracovního. Faktory ovlivňující klima školy - přístup učitele, komunikace, metody a strategie. (2 hod)</li>
+            <li className="list-group-item">•	<b>Téma – Pravidla ve sborovně, pravidla ve třídě, komunikace</b>: Pravidla a zásady fungujícího kolektivu ve sborovně, vedení a zásady třídnického kolektivu. Práce se sborovnou - příprava, hranice, rizika a zdroje. Výhody a nevýhody nepsaných norem pedagogického sboru a třídního kolektivu. Role učitele ve sborovně. Posilování pozitivních vazeb. Regulace chování ve skupině. Komunikace ve sborovně. (2 hod)</li>
+            <li className="list-group-item">•	<b>Téma – Jak na syndrom vyhoření, antistresové a relaxační techniky</b>: Antistresové techniky využitelné pro jednotlivce i pro skupinu. Relaxační metody různých druhů. Uvědomění si sám sebe, práce na pozitivním myšlení u jednotlivce i skupiny. (1 hod)</li>
+            <li className="list-group-item">•	<b>Téma – praktické ukázky práce se skupinou a antistresové relaxační metody.</b> Sebezkušenostní část vzdělávacího programu. Využití relaxačních metod v praxi. Ukázky jak pracovat v pedagogickém sboru či v jiném kolektivu, případně ve třídě žáků. Zapojení sebereflexe a reflexe od skupiny. (3 hod)</li>
+          </ul>
+        </div>
+      </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb101" aria-expanded="false" aria-controls="collapseswb101">Základy krizové intervence pro pedagogy 
       </b>(8 hod, doporučeno pro ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)
         <div className="collapse " id="collapseswb101">
@@ -775,41 +802,6 @@ var SSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
             </ul >
           </div >
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb11" aria-expanded="false" aria-controls="collapseswb11">Wellbeing, cesta k harmonizaci vztahů ve škole - webinář
-</b>(8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, asistenti)
-        <div className="collapse border rounded " id="collapseswb11">
-          <div className="m-3">
-            <b>Blok 1 (2 vyučovací hodiny – 90 minut)</b><br />
-            •	Co je wellbeing – klíčové aspekty tvoření „zdravé školy“ (0,5 hod)<br />
-            •	Jaká je situace v naší škole? – analýza současného prostředí a klíčové očekávané změny – projektivní technika, týmový workshop - analýza výstupů – návrhy změn (1,5 hod)<br />
-            <b>Blok 2 (2 vyučovací hodiny – 90 minut)</b><br />
-            •	Kognitivní zkreslení – kognitivně behaviorální model člověka v pedagogické praxi – realita vs. její vidění (1 hod)<br />
-            •	Osobnostní diagnostika – Jak zacházím se svými emocemi – sebepoznávací dotazník, vyhodnocení – souvislosti do reality mé role ve škole (1 hod)<br />
-            <b>Blok 3 (2 vyučovací hodiny – 90 minut)</b><br />
-            •	Aspekty vytváření wellbeingu v prostředí školy a role jednotlivých typů pedagogických pracovníků (1 hod)<br />
-            •	7 zdravých vstupů do našeho těla a mysli – osobní analýza a mapování – diskuse (1 hod)<br />
-            <b>Blok 4 (2 vyučovací hodiny – 90 minut)</b><br />
-            •	Náš pedagogický sbor a společné vytváření „Wellbeing prostředí“ – osobní zodpovědnost vs. iluze týmové (ne)zodpovědnosti – od představ k realitě, jak to udělat v naší škole (1,5 hod)<br />
-            •	Závěr programu – diskuse, sdílení, otázky a odpovědi (0,5 hod)<br />
-          </div >
-        </div >
-      </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb0" aria-expanded="false" aria-controls="collapseswb0">Prevence k zátěžovým situacím ve škole </b> (8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ZUŠ, ŠD, asistenti)
-        <div className="collapse " id="collapseswb0"><ul className="list-group"><li className="list-group-item">•	<b>Teoretický úvod do oblasti psychohygieny učitele </b> – zmapování zátěžových situací u pedagogických pracovníků, které vedou k jejich přepracovanosti – teorie + práce skupin (1 hod.)</li>
-          <li className="list-group-item">•	<b>Preventivní doporučení </b> - úprava životního stylu, efektivní organizace času, stanovení priorit, schopnost delegování úkolů (komunikace), spánková hygiena, (3 hod.) </li>
-          <li className="list-group-item">•	<b>Preventivní doporučení </b> – důležitost aktivního pohybu, relaxace, odpočinku, včetně nácviku jednoduchých relaxačních technik (jednoduché relaxace k uvolnění stresu: a) cviky k uvolnění svalového napětí, b) cviky k uvolnění po práci u počítače, c) cviky uvolňující při napětí v zádech a bolestech hlavy a zad. (3 hod.)</li>
-          <li className="list-group-item">•	<b>Regulace dalších zátěžových situací</b> přímo při výkonu práce (1hod) </li>
-        </ul></div>
-      </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb2" aria-expanded="false" aria-controls="collapseswb2">Jak zvládat stresové situace a nedospět k vyhoření </b> (8 hod, akreditováno pro SŠ, VOŠ, DM, MŠ, ZŠ, ZUŠ, ŠD, asistenti)
-        <div className="collapse " id="collapseswb2"><ul className="list-group"><li className="list-group-item">•	Jak psychický stres ovlivňuje náš výkon, Bournout podle Maslachové, Stres management jako pojem (2 hodiny)</li>
-          <li className="list-group-item">•	Vytváření mapy zvládání každodenního stresu (1 hodina)</li>
-          <li className="list-group-item">•	Zjištění vlastního přístupu k práci, k sobě i k druhým (praktické cvičení) – (1 hodina)</li>
-          <li className="list-group-item">•	Strategie snížení hladiny stresu: zvědomění hodnotového žebříčku, přerámování, změna v plánování, afirmace , relaxace aj. (praktické cvičení ve skupinách) – (2 hodiny)</li>
-          <li className="list-group-item">•	Představení asertivního chování jako dobrého způsobu zvládání každodenních stresů (1 hodina)</li>
-          <li className="list-group-item">•	Jak nastavit změny, které podporují nevyhoření, sdílení, závěrečné shrnutí (1 hodina)</li>
-        </ul></div>
-      </LiFile>
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb3" aria-expanded="false" aria-controls="collapseswb3">Vybrané aspekty emoční a sociální inteligence pedagoga_8 </b> (8 hod, akreditováno pro SŠ, VOŠ, ZŠ)
         <div className="collapse " id="collapseswb3"><ul className="list-group"><li className="list-group-item">•	Teoretické ukotvení tématu emoční inteligence. Vysvětlení jednotlivých aspektů emoční inteligence, EI z pohledu klasicky pojímané inteligence a její role v uplatnění rozumových schopností, Objasnění možností rozvíjet emoční inteligenci: práce a rozhodování pod časových stresem, zvládání negativních emocí, získávání větší odolnosti, resilience vůči zátěži (2 hodiny)</li>
           <li className="list-group-item">•	Teoretické ukotvení tématu sociální inteligence a jejich jednotlivých aspektů. Praktické procvičení vybraných sociálních dovedností, trénink organizačních dovedností, možnosti řešení konfliktních situací, jak rozvíjet sociální inteligenci žáků (1 hodina)</li>
@@ -853,17 +845,6 @@ var SSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
           <li className="list-group-item">•	Neverbální komunikace  – gesta a výrazy s jejich významem. Základy psycholingvistiky a rizikové výrazy. (1 hodina)</li>
         </ul></div>
       </LiFile>
-      <LiFile>
-        <b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb11" aria-expanded="false" aria-controls="collapsezwb11">Práce s  pedagogickým sborem-jak předejít syndromu vyhoření</b>
-        <div className="collapse " id="collapsezwb11">
-          <ul className="list-group">
-            <li className="list-group-item">•	<b>Klima ve škole a sborovně</b> : Klima z hlediska - emocionálního, sociálního, pracovního. Faktory ovlivňující klima školy - přístup učitele, komunikace, metody a strategie. (2 hod)</li>
-            <li className="list-group-item">•	<b>Téma – Pravidla ve sborovně, pravidla ve třídě, komunikace</b>: Pravidla a zásady fungujícího kolektivu ve sborovně, vedení a zásady třídnického kolektivu. Práce se sborovnou - příprava, hranice, rizika a zdroje. Výhody a nevýhody nepsaných norem pedagogického sboru a třídního kolektivu. Role učitele ve sborovně. Posilování pozitivních vazeb. Regulace chování ve skupině. Komunikace ve sborovně. (2 hod)</li>
-            <li className="list-group-item">•	<b>Téma – Jak na syndrom vyhoření, antistresové a relaxační techniky</b>: Antistresové techniky využitelné pro jednotlivce i pro skupinu. Relaxační metody různých druhů. Uvědomění si sám sebe, práce na pozitivním myšlení u jednotlivce i skupiny. (1 hod)</li>
-            <li className="list-group-item">•	<b>Téma – praktické ukázky práce se skupinou a antistresové relaxační metody.</b> Sebezkušenostní část vzdělávacího programu. Využití relaxačních metod v praxi. Ukázky jak pracovat v pedagogickém sboru či v jiném kolektivu, případně ve třídě žáků. Zapojení sebereflexe a reflexe od skupiny. (3 hod)</li>
-          </ul>
-        </div>
-      </LiFile >
     </ul >
   </BlockEx >
 </Panel >;
@@ -3063,6 +3044,39 @@ var ZSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
           </ul >
         </div >
       </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb4" aria-expanded="false" aria-controls="collapsezwb4">Jak zvládat stresové situace a nedospět k vyhoření </b> (8 hod, akreditováno pro MŠ, ZŠ, ZUŠ, ŠD, SŠ, VOŠ, DM, asistenti)
+                <div className="collapse " id="collapsezwb4"><ul className="list-group"><li className="list-group-item">•	Jak psychický stres ovlivňuje náš výkon, Bournout podle Maslachové, Stres management jako pojem (2 hodiny)</li>
+          <li className="list-group-item">•	Vytváření mapy zvládání každodenního stresu (1 hodina)</li>
+          <li className="list-group-item">•	Zjištění vlastního přístupu k práci, k sobě i k druhým (praktické cvičení) – (1 hodina)</li>
+          <li className="list-group-item">•	Strategie snížení hladiny stresu: zvědomění hodnotového žebříčku, přerámování, změna v plánování, afirmace , relaxace aj. (praktické cvičení ve skupinách) – (2 hodiny)</li>
+          <li className="list-group-item">•	Představení asertivního chování jako dobrého způsobu zvládání každodenních stresů (1 hodina)</li>
+          <li className="list-group-item">•	Jak nastavit změny, které podporují nevyhoření, sdílení, závěrečné shrnutí (1 hodina)</li>
+        </ul></div>
+      </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb3" aria-expanded="false" aria-controls="collapsezwb3">Prevence k zátěžovým situacím ve škole </b> (8 hod, akreditováno pro MŠ, ZŠ, ZUŠ, ŠD, SŠ, VOŠ, DM, asistenti)
+                <div className="collapse " id="collapsezwb3"><ul className="list-group"><li className="list-group-item">•	<b>Teoretický úvod do oblasti psychohygieny učitele </b> – zmapování zátěžových situací u pedagogických pracovníků, které vedou k jejich přepracovanosti – teorie + práce skupin (1 hod.)</li>
+          <li className="list-group-item">•	<b>Preventivní doporučení </b> - úprava životního stylu, efektivní organizace času, stanovení priorit, schopnost delegování úkolů (komunikace), spánková hygiena, (3 hod.) </li>
+          <li className="list-group-item">•	<b>Preventivní doporučení </b> – důležitost aktivního pohybu, relaxace, odpočinku, včetně nácviku jednoduchých relaxačních technik (jednoduché relaxace k uvolnění stresu: a) cviky k uvolnění svalového napětí, b) cviky k uvolnění po práci u počítače, c) cviky uvolňující při napětí v zádech a bolestech hlavy a zad. (3 hod.)</li>
+          <li className="list-group-item">•	<b>Regulace dalších zátěžových situací</b> přímo při výkonu práce (1hod) </li>
+        </ul></div>
+      </LiFile >
+      <LiFile>
+        <b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb11" aria-expanded="false" aria-controls="collapsezwb11">Práce s  pedagogickým sborem-jak předejít syndromu vyhoření</b>
+        <div className="collapse " id="collapsezwb11">
+          <ul className="list-group">
+            <li className="list-group-item">•	<b>Klima ve škole a sborovně</b> : Klima z hlediska - emocionálního, sociálního, pracovního. Faktory ovlivňující klima školy - přístup učitele, komunikace, metody a strategie. (2 hod)</li>
+            <li className="list-group-item">•	<b>Téma – Pravidla ve sborovně, pravidla ve třídě, komunikace</b>: Pravidla a zásady fungujícího kolektivu ve sborovně, vedení a zásady třídnického kolektivu. Práce se sborovnou - příprava, hranice, rizika a zdroje. Výhody a nevýhody nepsaných norem pedagogického sboru a třídního kolektivu. Role učitele ve sborovně. Posilování pozitivních vazeb. Regulace chování ve skupině. Komunikace ve sborovně. (2 hod)</li>
+            <li className="list-group-item">•	<b>Téma – Jak na syndrom vyhoření, antistresové a relaxační techniky</b>: Antistresové techniky využitelné pro jednotlivce i pro skupinu. Relaxační metody různých druhů. Uvědomění si sám sebe, práce na pozitivním myšlení u jednotlivce i skupiny. (1 hod)</li>
+            <li className="list-group-item">•	<b>Téma – praktické ukázky práce se skupinou a antistresové relaxační metody.</b> Sebezkušenostní část vzdělávacího programu. Využití relaxačních metod v praxi. Ukázky jak pracovat v pedagogickém sboru či v jiném kolektivu, případně ve třídě žáků. Zapojení sebereflexe a reflexe od skupiny. (3 hod)</li>
+          </ul>
+        </div>
+      </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb9" aria-expanded="false" aria-controls="collapsezwb9">Rozvoj osobnosti pedagoga ve zvládání konfliktů  </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, asistenti)
+                <div className="collapse " id="collapsezwb9"><ul className="list-group"><li className="list-group-item">•	Seznámení s principem OSR (0,5 hodiny)</li>
+          <li className="list-group-item">•	Poznávání lidí, mezilidské vztahy. Metody zaměřené na vhodné způsoby komunikace v různých životních situacích, případné řešení neshod či konfliktů s druhými lidmi nenásilným způsobem. Tj. na reakce na základě postojů již získaných; na očekávání, která jsou formována na základě životních zkušeností; na zvládání dovednosti přijímat a poskytovat konstruktivní kritiku, na poznávání typu osobnosti pro úspěšné řešení konfliktu (2 hodiny)</li>
+          <li className="list-group-item">•	Řešení problémů a rozhodovací dovednosti. Aktivity zaměřené na mapování vlastních postojů v rámci schématu konfliktu, na způsoby jednání v zátěžových situacích a přístupy ke zvládání konfliktu (kooperace, konfrontace, řešitelský přístup atd.), dovednosti pro řešení problémů a rozhodování z hlediska různých typů konfliktních situací, včetně zvládání krizové komunikace při jednání se žáky i s rodiči/zákonnými zástupci. (5,5 hodiny)</li>
+        </ul></div>
+      </LiFile >ss
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb101" aria-expanded="false" aria-controls="collapsezwb101">Základy krizové intervence pro pedagogy
       </b>(8 hod, doporučeno pro ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)
         <div className="collapse " id="collapsezwb101">
@@ -3142,22 +3156,7 @@ cíl: - seznámit se s tématem, se zákonitostmi skupinové dynamiky pro práci
           </div >
         </div >
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb3" aria-expanded="false" aria-controls="collapsezwb3">Prevence k zátěžovým situacím ve škole </b> (8 hod, akreditováno pro MŠ, ZŠ, ZUŠ, ŠD, SŠ, VOŠ, DM, asistenti)
-                <div className="collapse " id="collapsezwb3"><ul className="list-group"><li className="list-group-item">•	<b>Teoretický úvod do oblasti psychohygieny učitele </b> – zmapování zátěžových situací u pedagogických pracovníků, které vedou k jejich přepracovanosti – teorie + práce skupin (1 hod.)</li>
-          <li className="list-group-item">•	<b>Preventivní doporučení </b> - úprava životního stylu, efektivní organizace času, stanovení priorit, schopnost delegování úkolů (komunikace), spánková hygiena, (3 hod.) </li>
-          <li className="list-group-item">•	<b>Preventivní doporučení </b> – důležitost aktivního pohybu, relaxace, odpočinku, včetně nácviku jednoduchých relaxačních technik (jednoduché relaxace k uvolnění stresu: a) cviky k uvolnění svalového napětí, b) cviky k uvolnění po práci u počítače, c) cviky uvolňující při napětí v zádech a bolestech hlavy a zad. (3 hod.)</li>
-          <li className="list-group-item">•	<b>Regulace dalších zátěžových situací</b> přímo při výkonu práce (1hod) </li>
-        </ul></div>
-      </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb4" aria-expanded="false" aria-controls="collapsezwb4">Jak zvládat stresové situace a nedospět k vyhoření </b> (8 hod, akreditováno pro MŠ, ZŠ, ZUŠ, ŠD, SŠ, VOŠ, DM, asistenti)
-                <div className="collapse " id="collapsezwb4"><ul className="list-group"><li className="list-group-item">•	Jak psychický stres ovlivňuje náš výkon, Bournout podle Maslachové, Stres management jako pojem (2 hodiny)</li>
-          <li className="list-group-item">•	Vytváření mapy zvládání každodenního stresu (1 hodina)</li>
-          <li className="list-group-item">•	Zjištění vlastního přístupu k práci, k sobě i k druhým (praktické cvičení) – (1 hodina)</li>
-          <li className="list-group-item">•	Strategie snížení hladiny stresu: zvědomění hodnotového žebříčku, přerámování, změna v plánování, afirmace , relaxace aj. (praktické cvičení ve skupinách) – (2 hodiny)</li>
-          <li className="list-group-item">•	Představení asertivního chování jako dobrého způsobu zvládání každodenních stresů (1 hodina)</li>
-          <li className="list-group-item">•	Jak nastavit změny, které podporují nevyhoření, sdílení, závěrečné shrnutí (1 hodina)</li>
-        </ul></div>
-      </LiFile >
+
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb5" aria-expanded="false" aria-controls="collapsezwb5">Aspekty emoční a sociální inteligence pedagoga 8 hodin </b> (8 hod, akreditováno pro ZŠ, ZUŠ, ŠD, ŠK)
                 <div className="collapse " id="collapsezwb5"><ul className="list-group"><li className="list-group-item">•	Teoretické ukotvení tématu emoční inteligence. Vysvětlení jednotlivých aspektů emoční inteligence, EI z pohledu klasicky pojímané inteligence a její role v uplatnění rozumových schopností, Objasnění možností rozvíjet emoční inteligenci: práce a rozhodování pod časových stresem, zvládání negativních emocí, získávání větší odolnosti, resilience vůči zátěži (2 hodiny)</li>
           <li className="list-group-item">•	Teoretické ukotvení tématu sociální inteligence a jejich jednotlivých aspektů. Praktické procvičení vybraných sociálních dovedností, trénink organizačních dovedností, možnosti řešení konfliktních situací, jak rozvíjet sociální inteligenci žáků (1 hodina)</li>
@@ -3195,12 +3194,6 @@ cíl: - seznámit se s tématem, se zákonitostmi skupinové dynamiky pro práci
           <li className="list-group-item">•	Psychohygiena. Aktivity zaměřené na jednoduché relaxační techniky  – a) cviky k uvolnění svalového napětí, b) cviky k uvolnění po práci u počítače, c) cviky uvolňující při napětí v zádech a bolestech hlavy a zad(1, 5 hodiny).</li >
         </ul ></div >
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb9" aria-expanded="false" aria-controls="collapsezwb9">Rozvoj osobnosti pedagoga ve zvládání konfliktů  </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, asistenti)
-                <div className="collapse " id="collapsezwb9"><ul className="list-group"><li className="list-group-item">•	Seznámení s principem OSR (0,5 hodiny)</li>
-          <li className="list-group-item">•	Poznávání lidí, mezilidské vztahy. Metody zaměřené na vhodné způsoby komunikace v různých životních situacích, případné řešení neshod či konfliktů s druhými lidmi nenásilným způsobem. Tj. na reakce na základě postojů již získaných; na očekávání, která jsou formována na základě životních zkušeností; na zvládání dovednosti přijímat a poskytovat konstruktivní kritiku, na poznávání typu osobnosti pro úspěšné řešení konfliktu (2 hodiny)</li>
-          <li className="list-group-item">•	Řešení problémů a rozhodovací dovednosti. Aktivity zaměřené na mapování vlastních postojů v rámci schématu konfliktu, na způsoby jednání v zátěžových situacích a přístupy ke zvládání konfliktu (kooperace, konfrontace, řešitelský přístup atd.), dovednosti pro řešení problémů a rozhodování z hlediska různých typů konfliktních situací, včetně zvládání krizové komunikace při jednání se žáky i s rodiči/zákonnými zástupci. (5,5 hodiny)</li>
-        </ul></div>
-      </LiFile >
       <LiFile>
         <b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb10" aria-expanded="false" aria-controls="collapsezwb10">Zásady asertivní a efektivní komunikace pro MŠ, ZŠ, ZUŠ </b> (8 hod, akreditováno pro MŠ, ZŠ, ŠD, ZUŠ, asistenti)
         <div className="collapse " id="collapsezwb10"><ul className="list-group">
@@ -3212,17 +3205,6 @@ cíl: - seznámit se s tématem, se zákonitostmi skupinové dynamiky pro práci
           <li className="list-group-item">•	Vedení rozhovoru  – příprava a struktura (1 hodina)</li>
           <li className="list-group-item">•	Neverbální komunikace  – gesta a výrazy s jejich významem. Základy psycholingvistiky a rizikové výrazy. (1 hodina)</li>
         </ul></div>
-      </LiFile >
-      <LiFile>
-        <b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb11" aria-expanded="false" aria-controls="collapsezwb11">Práce s  pedagogickým sborem-jak předejít syndromu vyhoření</b>
-        <div className="collapse " id="collapsezwb11">
-          <ul className="list-group">
-            <li className="list-group-item">•	<b>Klima ve škole a sborovně</b> : Klima z hlediska - emocionálního, sociálního, pracovního. Faktory ovlivňující klima školy - přístup učitele, komunikace, metody a strategie. (2 hod)</li>
-            <li className="list-group-item">•	<b>Téma – Pravidla ve sborovně, pravidla ve třídě, komunikace</b>: Pravidla a zásady fungujícího kolektivu ve sborovně, vedení a zásady třídnického kolektivu. Práce se sborovnou - příprava, hranice, rizika a zdroje. Výhody a nevýhody nepsaných norem pedagogického sboru a třídního kolektivu. Role učitele ve sborovně. Posilování pozitivních vazeb. Regulace chování ve skupině. Komunikace ve sborovně. (2 hod)</li>
-            <li className="list-group-item">•	<b>Téma – Jak na syndrom vyhoření, antistresové a relaxační techniky</b>: Antistresové techniky využitelné pro jednotlivce i pro skupinu. Relaxační metody různých druhů. Uvědomění si sám sebe, práce na pozitivním myšlení u jednotlivce i skupiny. (1 hod)</li>
-            <li className="list-group-item">•	<b>Téma – praktické ukázky práce se skupinou a antistresové relaxační metody.</b> Sebezkušenostní část vzdělávacího programu. Využití relaxačních metod v praxi. Ukázky jak pracovat v pedagogickém sboru či v jiném kolektivu, případně ve třídě žáků. Zapojení sebereflexe a reflexe od skupiny. (3 hod)</li>
-          </ul>
-        </div>
       </LiFile >
     </ul>
   </BlockEx>
