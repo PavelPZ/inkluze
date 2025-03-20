@@ -414,10 +414,6 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=6.3.%202025%20Asistent%20pedagoga%20-%20u%20%C5%BE%C3%A1ka%20se%20zdravotn%C3%ADm%20posti%C5%BEen%C3%ADm%20-%20MP%2C%20PAS%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
-        */}
-        
-
-
         <LiHand><h4><b>19.3. 2025 <a href="/index.html?home|kurzyii|zsinkluze">Strategie předcházení školní neúspěšnosti (8 hodin)</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Inkluze</Label></h4>
           <p>Cena: 1690 Kč/os, Lektor: PaedDr. Ellen Mlátilíková</p>
@@ -425,13 +421,19 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=19.3.2025%20Strategie%20p%C5%99edch%C3%A1zen%C3%AD%20%C5%A1koln%C3%AD%20ne%C3%BAsp%C4%9B%C5%A1nosti&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
-        <LiHand><h4><b>20.3. 2025 <a href="/index.html?home|kurzyii|zsinkluze">Strukturované učení u žáků s poruchami autistického spektra (8 hodin)</a></b></h4>
-          <h4><Label bsStyle="warning">Oblast: Inkluze</Label></h4>
-          <p>Cena: 1690 Kč/os, Lektor: Mgr et Mgr. Dagmar Vilášková</p>
+        <LiHand><h4><b>29.5. 2025 <a href="/index.html?home|kurzyii|zsdiagnostika">Sociální klima třídy a pedagogická diagnostika učitele (8 hodin)</a></b></h4>
+          <h4><Label bsStyle="warning">Oblasti: Pedagogická diagnostika</Label></h4>
+          <p>Cena: 1690 Kč/os, Lektor: Mgr. Dana Forýtková</p>
           <p>Místo konání: online</p>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=20.3.%202025%20%20Strukturovan%C3%A9%20u%C4%8Den%C3%AD%20u%20%C5%BE%C3%A1k%C5%AF%20s%20poruchami%20autistick%C3%A9ho%20spektra%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=29.5.%202025%20Soci%C3%A1ln%C3%AD%20klima%20t%C5%99%C3%ADdy%20a%20pedagogick%C3%A1%20diagnostika%20u%C4%8Ditele%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
+
+        */}
+        
+
+
+
         <LiHand><h4><b>24.3. 2025 <a href="/index.html?home|kurzyss|sswellbeing">Základy krizové intervence ve škole pro pedagogy (8 hodin) </a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Wellbeing a psychohygiena</Label></h4>
           <p>Cena: 1690 Kč/os, Lektor: Mgr. Jana Soukupová</p>
@@ -558,25 +560,18 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=22.5.%202025%20%20Specifick%C3%A9%20poruchy%20chov%C3%A1n%C3%AD%20%E2%80%93pro%20%C5%A0D%20a%20asistenty%20pedagoga%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
+        <LiHand><h4><b>22.5. 2025 <a href="/index.html?home|kurzyss|ssinovativniformy">Nové metody práce učitele – aktivizující formy výuky na ZŠ a SŠ (8 hodin)</a></b></h4>
+          <h4><Label bsStyle="warning">Oblast: alternativní/inovativní formy výuky, aktivizační metody ve výuce</Label></h4>
+          <p>Cena: 1690 Kč/os, Lektor: Mgr. Dana Forýtková</p>
+          <p>Místo konání: online</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=22.5.%202025%20Nov%C3%A9%20metody%20pr%C3%A1ce%20u%C4%8Ditele%20%E2%80%93%20aktivizuj%C3%ADc%C3%AD%20formy%20v%C3%BDuky%20na%20Z%C5%A0%20a%20S%C5%A0&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+        </LiHand>
         <LiHand><h4><b>28.5. 2025 <a href="/index.html?home|kurzyss|sspedagogickadiagnostika">Kázeňské přestupky a možnosti jejich řešení v rámci třídy (8 hodin)</a></b></h4>
           <h4><Label bsStyle="warning">Oblasti: pedagogická diagnostika, Inkluze</Label></h4>
           <p>Cena: 1690 Kč/os, Lektor: PaedDr. Ellen Mlátilíková</p>
           <p>Místo konání: online</p>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=28.5.%202025%20K%C3%A1ze%C5%88sk%C3%A9%20p%C5%99estupky%20a%20mo%C5%BEnosti%20jejich%20%C5%99e%C5%A1en%C3%AD%20v%20r%C3%A1mci%20t%C5%99%C3%ADdy&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
-        </LiHand>
-        <LiHand><h4><b>28.5. 2025 <a href="/index.html?home|kurzyii|zsctenarskagramotnost">Čtenářská a informační gramotnost na ZŠ - 8 hodin  </a></b></h4>
-          <h4><Label bsStyle="warning">Oblast: Čtenářská gramotnost</Label></h4>
-          Cena: 1690 Kč/os, Lektor: Mgr. Dana Forýtková
-          <p>Místo konání: online</p>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=28.%205.%202025%20%C4%8Cten%C3%A1%C5%99sk%C3%A1%20a%20informa%C4%8Dn%C3%AD%20gramotnost%20na%20Z%C5%A0%20-%208%20hodin&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
-        </LiHand>
-        <LiHand><h4><b>29.5. 2025 <a href="/index.html?home|kurzyii|zsdiagnostika">Sociální klima třídy a pedagogická diagnostika učitele (8 hodin)</a></b></h4>
-          <h4><Label bsStyle="warning">Oblasti: Pedagogická diagnostika</Label></h4>
-          <p>Cena: 1690 Kč/os, Lektor: Mgr. Dana Forýtková</p>
-          <p>Místo konání: online</p>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=29.5.%202025%20Soci%C3%A1ln%C3%AD%20klima%20t%C5%99%C3%ADdy%20a%20pedagogick%C3%A1%20diagnostika%20u%C4%8Ditele%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
         <LiHand><h4><b>29.5. 2025 <a href="/index.html?home|kurzyii|zsinkluze">Jak se věnovat žákovi s poruchou učení (8 hodin)</a></b></h4>
@@ -705,6 +700,13 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=12.11.%202025%20K%C3%A1ze%C5%88sk%C3%A9%20p%C5%99estupky%20a%20mo%C5%BEnosti%20jejich%20%C5%99e%C5%A1en%C3%AD%20v%20r%C3%A1mci%20t%C5%99%C3%ADdy&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
+        <LiHand><h4><b>18.11. 2025 <a href="/index.html?home|kurzyii|zsctenarskagramotnost">Čtenářská a informační gramotnost na ZŠ - 8 hodin  </a></b></h4>
+          <h4><Label bsStyle="warning">Oblast: Čtenářská gramotnost</Label></h4>
+          Cena: 1690 Kč/os, Lektor: Mgr. Dana Forýtková
+          <p>Místo konání: online</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=18.11.%202025%20%C4%8Cten%C3%A1%C5%99sk%C3%A1%20a%20informa%C4%8Dn%C3%AD%20gramotnost%20na%20Z%C5%A0%20-%208%20hodin&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+        </LiHand>
         <LiHand><h4><b>19.11. 2025 <a href="/index.html?home|kurzyss|ssindividualizace">Vedení portfolia žáka jako nástroj formativního hodnocení (8 hodin)</a></b></h4>
           <h4><Label bsStyle="warning">Oblasti: Individualizece vzdělávání a vedení portfolia dítěte/žáka, formativní hodnocen</Label></h4>
           <p>Cena: 1690 Kč/os, Lektor: PaedDr. Ellen Mlátilíková</p>
@@ -717,6 +719,20 @@
           <p>Cena: 1690 Kč/os, Lektor: Mgr et Mgr. Dagmar Vilášková</p>
           <p>Místo konání: online</p>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=20.11.%202025%20%20Strukturovan%C3%A9%20u%C4%8Den%C3%AD%20u%20%C5%BE%C3%A1k%C5%AF%20s%20poruchami%20autistick%C3%A9ho%20spektra%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+         </LiHand>
+         <LiHand><h4><b>20.11. 2025 <a href="/index.html?home|kurzyii|zsinkluze">Strukturované učení u žáků s poruchami autistického spektra (8 hodin)</a></b></h4>
+           <h4><Label bsStyle="warning">Oblast: Inkluze</Label></h4>
+           <p>Cena: 1690 Kč/os, Lektor: Mgr et Mgr. Dagmar Vilášková</p>
+           <p>Místo konání: online</p>
+           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=20.11.%202025%20%20Strukturovan%C3%A9%20u%C4%8Den%C3%AD%20u%20%C5%BE%C3%A1k%C5%AF%20s%20poruchami%20autistick%C3%A9ho%20spektra%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+        </LiHand>
+        <LiHand><h4><b>24.11. 2025 <a href="/index.html?home|kurzyii|zswellbeing">Sociální a etický rozvoj – nový předmět na ZŠ (8 hodin)</a></b></h4>
+          <h4><Label bsStyle="warning">Oblasti: Wellbeing a psychohygiena</Label></h4>
+          <p>Cena: 1690 Kč/os, Lektor: Mgr Dana Forýtková</p>
+          <p>Místo konání: online</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=24.11.%202025%20%20Soci%C3%A1ln%C3%AD%20a%20etick%C3%BD%20rozvoj%20%E2%80%93%20nov%C3%BD%20p%C5%99edm%C4%9Bt%20na%20Z%C5%A0%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
         <LiHand><h4><b>25.11. 2025 <a href="/index.html?home|kurzyss|ssnovetechnologie">Využití ICT ve výuce - náměty a inspirace pro praxi (8 hodin)</a></b></h4>
