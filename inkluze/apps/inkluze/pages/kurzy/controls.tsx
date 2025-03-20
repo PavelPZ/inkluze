@@ -765,7 +765,7 @@ var SSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
         </ul></div>
       </LiFile>
       <LiFile>
-        <b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb11" aria-expanded="false" aria-controls="collapsezwb11">Práce s  pedagogickým sborem-jak předejít syndromu vyhoření</b>
+        <b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb11" aria-expanded="false" aria-controls="collapsezwb11">Práce s  pedagogickým sborem-jak předejít syndromu vyhoření</b> (8 hod, dopručeno pro ZŠ, SŠ, asistenti)
         <div className="collapse " id="collapsezwb11">
           <ul className="list-group">
             <li className="list-group-item">•	<b>Klima ve škole a sborovně</b> : Klima z hlediska - emocionálního, sociálního, pracovního. Faktory ovlivňující klima školy - přístup učitele, komunikace, metody a strategie. (2 hod)</li>
@@ -1165,6 +1165,17 @@ var SSOstatniInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
             <li className="list-group-item">•	Specifika vzdělávání žáků s PAS v mateřské a základní škole. ( 1 hodina)</li>
             <li className="list-group-item">•	Speciálně pedagogická podpora a spolupráce mezi školou, rodinou a ŠPZ. (1 hodina)</li>
             <li className="list-group-item">•	Legislativní ukotvení inkluzivního vzdělávání žáka s poruchami autistického spektra. Možnosti a realizace podpůrných opatření. Práce s Doporučením. (1 hodina)</li>
+          </ul>
+        </div>
+      </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsent001451" aria-expanded="false" aria-controls="collapsent001451">Jak se věnovat žákovi s poruchou učení </b>(8 hod, dopručeno pro ZŠ, SŠ, asistenti)
+        <div className="collapse " id="collapsent001451">
+          <ul className="list-group"><li className="list-group-item"></li>
+            <li className="list-group-item">•	Základní charakteristika specifických poruch učení (obtíže spojené s osvojováním dovedností jakými jsou čtení, psaní a počítání při normální nebo i nadprůměrné inteligenci dítěte) (2 hod)</li>
+            <li className="list-group-item">•	Příčiny vzniku specifických poruch učení a souvislosti se zpracováním zrakových a sluchových podnětů, obtíže v oblasti vnímání rytmu, prostorové a pravolevé orientace, zrakové a sluchové paměti, vnímání posloupnosti a vliv nevyhraněné laterality (2 hod)</li>
+            <li className="list-group-item">•	Přístup učitele, asistenta pedagoga, spolupráce se školním speciálním pedagogem (reedukace SPU – výuka předmětu speciálně pedagogické péče) (1 hod)</li>
+            <li className="list-group-item">•	Hodnocení žáků, zadávání písemných prací, testování, zkoušení, metody výuky (2 hod)</li>
+            <li className="list-group-item">•	Spolupráce s rodiči (doporučení pro domácí přípravu) (1 hod)</li>
           </ul>
         </div>
       </LiFile >
@@ -2202,6 +2213,17 @@ var ZSInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
   <BlockEx header="Nabízíme následující kurzy:">
     <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>
     <ul className='fa-ul'>
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi001451" aria-expanded="false" aria-controls="collapsezi001451">Jak se věnovat žákovi s poruchou učení </b>(8 hod, dopručeno pro ZŠ, SŠ, asistenti)
+        <div className="collapse " id="collapsezi001451">
+          <ul className="list-group"><li className="list-group-item"></li>
+            <li className="list-group-item">•	Základní charakteristika specifických poruch učení (obtíže spojené s osvojováním dovedností jakými jsou čtení, psaní a počítání při normální nebo i nadprůměrné inteligenci dítěte) (2 hod)</li>
+            <li className="list-group-item">•	Příčiny vzniku specifických poruch učení a souvislosti se zpracováním zrakových a sluchových podnětů, obtíže v oblasti vnímání rytmu, prostorové a pravolevé orientace, zrakové a sluchové paměti, vnímání posloupnosti a vliv nevyhraněné laterality (2 hod)</li>
+            <li className="list-group-item">•	Přístup učitele, asistenta pedagoga, spolupráce se školním speciálním pedagogem (reedukace SPU – výuka předmětu speciálně pedagogické péče) (1 hod)</li>
+            <li className="list-group-item">•	Hodnocení žáků, zadávání písemných prací, testování, zkoušení, metody výuky (2 hod)</li>
+            <li className="list-group-item">•	Spolupráce s rodiči (doporučení pro domácí přípravu) (1 hod)</li>
+          </ul>
+        </div>
+      </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi00145" aria-expanded="false" aria-controls="collapsezi00145">Asistent pedagoga ve školní praxi (konkrétní příklady spolupráce s učitelem) </b> (8 hod, doporučeno pro MŠ, ZŠ a asistenty pedagoga)
         <div className="collapse " id="collapsezi00145">
           <ul className="list-group"><li className="list-group-item"></li>
@@ -3044,7 +3066,7 @@ var ZSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
         </ul></div>
       </LiFile >
       <LiFile>
-        <b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb11" aria-expanded="false" aria-controls="collapsezwb11">Práce s  pedagogickým sborem-jak předejít syndromu vyhoření</b>
+        <b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb11" aria-expanded="false" aria-controls="collapsezwb11">Práce s  pedagogickým sborem-jak předejít syndromu vyhoření</b> (8 hod, dopručeno pro ZŠ, SŠ, asistenti)
         <div className="collapse " id="collapsezwb11">
           <ul className="list-group">
             <li className="list-group-item">•	<b>Klima ve škole a sborovně</b> : Klima z hlediska - emocionálního, sociálního, pracovního. Faktory ovlivňující klima školy - přístup učitele, komunikace, metody a strategie. (2 hod)</li>
