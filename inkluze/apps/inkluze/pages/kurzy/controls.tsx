@@ -727,7 +727,7 @@ var SSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
         </ul ></div >
       </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb012" aria-expanded="false" aria-controls="collapseswb012">Prevence a vyšetřování šikany, kyberšikany a dalšího rizikového chování
-      </b>
+      </b> (8 hod, dopručeno pro ZŠ, ŠD, ŠK, ZUŠ, SŠ, VOŠ, DM, asistenti)
         <div className="collapse " id="collapseswb012">
           <p>Obsah</p>
           <ul className="list-group">
@@ -3046,7 +3046,7 @@ var ZSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
         </ul ></div >
       </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb012" aria-expanded="false" aria-controls="collapsezwb012">Prevence a vyšetřování šikany, kyberšikany a dalšího rizikového chování
-      </b>
+      </b> (8 hod, dopručeno pro ZŠ, ŠD, ŠK, ZUŠ, SŠ, VOŠ, DM, asistenti)
         <div className="collapse " id="collapsezwb012">
           <p>Obsah</p>
           <ul className="list-group">

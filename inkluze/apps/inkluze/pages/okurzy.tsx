@@ -442,21 +442,6 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=24.3.2025%20Z%C3%A1klady%20krizov%C3%A9%20intervence%20ve%20%C5%A1kole%20pro%20pedagogy&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
-
-
-        */}
-        
-
-
-
-
-        <LiHand><h4><b>26.3. 2025 <a href="/index.html?home|kurzyss|ssnovetechnologie">Využití ICT ve výuce - náměty a inspirace pro praxi (8 hodin)</a></b></h4>
-          <h4><Label bsStyle="warning">Oblast: Vzdělání s využitím nových technologií</Label></h4>
-          <p>Cena: 1690 Kč/os, Lektor: PhDr. Veronika Havelková, Ph.D.</p>
-          <p>Místo konání: online</p>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=26.3.%202025%20Vyu%C5%BEit%C3%AD%20ICT%20ve%20v%C3%BDuce%20-%20n%C3%A1m%C4%9Bty%20a%20inspirace%20pro%20praxi%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
-        </LiHand>
         <LiHand><h4><b>26.3. 2025 <a href="/index.html?home|kurzyss|sswellbeing">Prevence k zátěžovám situacím ve škole (8 hodin)  </a> - přeloženo na 5.5. 2025</b></h4>
           <h4><Label bsStyle="warning">Oblast: Well-being a psychohygiena</Label></h4>
           <p>Cena: 1690 Kč/os, Lektor: Mgr. Dana Forýtková</p>
@@ -464,6 +449,10 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=26.%203.%202025%20Prevence%20k%20z%C3%A1t%C4%9B%C5%BEov%C3%A1m%20situac%C3%ADm%20ve%20%C5%A1kole%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
+
+        */}
+        
+
         <LiHand><h4><b>26.3. 2025 <a href="/index.html?home|kurzyii|zsinovativniformy">Tandemová výuka – nový prvek ve výuce (8 hodin)</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: alternativní/inovativní formy výuky, aktivizační metody ve výuce</Label></h4>
           <p>Cena: 1690 Kč/os, Lektor: Mgr. Dana Forýtková</p>
@@ -675,7 +664,7 @@
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
         <LiHand><h4><b>5.11. 2024 <a href="/index.html?home|kurzyss|sswellbeing">Prevence a vyšetřování šikany, kyberšikany a dalšího  rizikového chování  </a></b> </h4>
-          <h4><Label bsStyle="warning">Oblast: Inkluze</Label></h4>
+          <h4><Label bsStyle="warning">Oblast: Wellbeing a psychohygiena</Label></h4>
           <p>Cena: 1690 Kč/os, Lektor: PaedDr. Ellen Mlátilíková</p>
           <p>Místo konání: online</p>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=5.11.%202025%20%20Prevence%20a%20vy%C5%A1et%C5%99ov%C3%A1n%C3%AD%20%C5%A1ikany%2C%20kyber%C5%A1ikany%20a%20dal%C5%A1%C3%ADho%20%20rizikov%C3%A9ho%20chov%C3%A1n%C3%AD&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
