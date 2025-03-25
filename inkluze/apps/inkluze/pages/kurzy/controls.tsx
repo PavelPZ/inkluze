@@ -726,6 +726,24 @@ var SSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
           <li className="list-group-item">•	<b>Závěr programu </b> – diskuse, sdílení, otázky a odpovědi (0,5 hod)</li>
         </ul ></div >
       </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb012" aria-expanded="false" aria-controls="collapseswb012">Prevence a vyšetřování šikany, kyberšikany a dalšího rizikového chování
+      </b>
+        <div className="collapse " id="collapseswb012">
+          <p>Obsah</p>
+          <ul className="list-group">
+            <li className="list-group-item">-	Rizikové faktory v závislosti na věku dítěte, žáka.</li>
+            <li className="list-group-item">-	Specifika rizikového chování v souvislosti s věkem</li>
+            <li className="list-group-item">-	Dominantní hierarchie, vývojová stádia a sociální dynamika daného věku</li>
+            <li className="list-group-item">-	Ukázka strategií při práci v souladu se sociální dynamikou daného věku, vývojové škály</li>
+            <li className="list-group-item">-	Definice a typologie šikany a rizikového chování</li>
+            <li className="list-group-item">-	Faktory přispívající k výskytu šikany</li>
+            <li className="list-group-item">-	Dlouhodobé důsledky šikany na oběti i agresory</li>
+            <li className="list-group-item">- Strategie prevence a včasné intervence</li>
+            <li className="list-group-item">-	Role pedagogů a školního personálu při řešení šikany</li >
+            <li className="list-group-item">-	Principy a postupy při řešení šikany a vyšetřování šikany.</li >
+          </ul >
+        </div >
+      </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb1111" aria-expanded="false" aria-controls="collapseswb1111">Třídní učitel a jeho působení na vytváření třídního kolektivu  </b> (8 hod, doporučeno pro ZŠ, SŠ, VOŠ, asistenti)
          <div className="collapse " id="collapseswb1111">
           <ul className="list-group">
@@ -3026,6 +3044,24 @@ var ZSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
           <li className="list-group-item">•	<b>Náš pedagogický sbor a společné vytváření „Wellbeing prostředí“ </b> – osobní zodpovědnost vs. iluze týmové (ne)zodpovědnosti – od představ k realitě, jak to udělat v naší škole (1, 5 hod)</li >
           <li className="list-group-item">•	<b>Závěr programu </b> – diskuse, sdílení, otázky a odpovědi (0,5 hod)</li>
         </ul ></div >
+      </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb012" aria-expanded="false" aria-controls="collapsezwb012">Prevence a vyšetřování šikany, kyberšikany a dalšího rizikového chování
+      </b>
+        <div className="collapse " id="collapsezwb012">
+          <p>Obsah</p>
+          <ul className="list-group">
+            <li className="list-group-item">-	Rizikové faktory v závislosti na věku dítěte, žáka.</li>
+            <li className="list-group-item">-	Specifika rizikového chování v souvislosti s věkem</li>
+            <li className="list-group-item">-	Dominantní hierarchie, vývojová stádia a sociální dynamika daného věku</li>
+            <li className="list-group-item">-	Ukázka strategií při práci v souladu se sociální dynamikou daného věku, vývojové škály</li>
+            <li className="list-group-item">-	Definice a typologie šikany a rizikového chování</li>
+            <li className="list-group-item">-	Faktory přispívající k výskytu šikany</li>
+            <li className="list-group-item">-	Dlouhodobé důsledky šikany na oběti i agresory</li>
+            <li className="list-group-item">- Strategie prevence a včasné intervence</li>
+            <li className="list-group-item">-	Role pedagogů a školního personálu při řešení šikany</li >
+            <li className="list-group-item">-	Principy a postupy při řešení šikany a vyšetřování šikany.</li >
+          </ul >
+        </div >
       </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb1111" aria-expanded="false" aria-controls="collapsezwb1111">Třídní učitel a jeho působení na vytváření třídního kolektivu  </b> (8 hod, doporučeno pro ZŠ, SŠ, VOŠ, asistenti)
          <div className="collapse " id="collapsezwb1111">
