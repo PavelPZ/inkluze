@@ -704,13 +704,6 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=19.11.%202025%20Veden%C3%AD%20portfolia%20%C5%BE%C3%A1ka%20jako%20n%C3%A1stroj%20formativn%C3%ADho%20hodnocen%C3%AD%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
-        <LiHand><h4><b>20.11. 2025 <a href="/index.html?home|kurzyii|zsinkluze">Strukturované učení u žáků s poruchami autistického spektra (8 hodin)</a></b></h4>
-          <h4><Label bsStyle="warning">Oblast: Inkluze</Label></h4>
-          <p>Cena: 1690 Kč/os, Lektor: Mgr et Mgr. Dagmar Vilášková</p>
-          <p>Místo konání: online</p>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=20.11.%202025%20%20Strukturovan%C3%A9%20u%C4%8Den%C3%AD%20u%20%C5%BE%C3%A1k%C5%AF%20s%20poruchami%20autistick%C3%A9ho%20spektra%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
-         </LiHand>
          <LiHand><h4><b>20.11. 2025 <a href="/index.html?home|kurzyii|zsinkluze">Strukturované učení u žáků s poruchami autistického spektra (8 hodin)</a></b></h4>
            <h4><Label bsStyle="warning">Oblast: Inkluze</Label></h4>
            <p>Cena: 1690 Kč/os, Lektor: Mgr et Mgr. Dagmar Vilášková</p>
