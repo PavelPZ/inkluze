@@ -61,7 +61,7 @@
     akreditace: site.ITab;
     //dalsi: site.ITab;
     onas: site.ITab;
-    //slovnicek: site.ITab;
+    //slovnicek: site.ITab; 
   }
 
   export var tabs: ITabs;
