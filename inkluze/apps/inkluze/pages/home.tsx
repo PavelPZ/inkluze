@@ -2,8 +2,7 @@
   <Page>
     <div>
       <Block blue style={{ paddingBottom: '10px' }}>
-        <h1 className='text-center'><a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.kurzyii, ev)} >Akreditované kurzy pro šablony OP JAK </a><br />od zkušených lektorů</h1>
-        <h3 className='text-center'>Výzvy 02_22_002 a 02_22_003</h3>
+        <h1 className='text-center'><a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.kurzyii, ev)} >Kurzy pro šablony OP JAK I a OP JAK II </a></h1>
         <div className="text-center">Napište nám na <a href={'mailto:' + infoEmail}>{infoEmail}</a> nebo zavolejte +420 244 460 807</div>
         <Grid style={{ marginTop: '15px' }}>
           <Row>
@@ -30,7 +29,7 @@
                 <LiFile>Inovace ŠVP/koncepce rozvoje školy/školského zařízení (4 akreditované kurzy)</LiFile>
                 <LiFile>Výuka češtiny jako druhého jazyka (2 akreditované kurzy)</LiFile>
                 <LiFile>Podpora uvádějících/provázejících učitelů (3 akreditované kurzy)</LiFile>
-                <LiFile>Obsah jednotlivých kurzů naleznete na stránkách <a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.kurzyss, ev)}>Šablony pro SŠ a VOŠ I - OP JAK</a> a <a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.kurzyii, ev)}>Šablony pro ZŠ a MŠ I - OP JAK</a></LiFile>
+                <LiFile>Obsah jednotlivých kurzů naleznete na stránkách <a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.kurzyss, ev)}>Šablony pro SŠ a VOŠ I a II- OP JAK</a> a <a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.kurzyii, ev)}>Šablony pro ZŠ a MŠ I a II- OP JAK</a></LiFile>
               </ul>
             </Col>
             <Col md={1}>

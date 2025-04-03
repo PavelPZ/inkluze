@@ -294,11 +294,11 @@
         rootNode: root.okurzy,
       },
       kurzyss: {
-        title: 'Šablony pro SŠ a VOŠ I - OP JAK',
+        title: 'Šablony pro SŠ a VOŠ I a II- OP JAK',
         rootNode: root.kurzyss,
       },
       kurzyii: {
-        title: 'Šablony pro ZŠ a MŠ I - OP JAK',
+        title: 'Šablony pro ZŠ a MŠ I a II- OP JAK',
         rootNode: root.kurzyii,
       },
       akreditace: {

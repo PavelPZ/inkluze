@@ -1,6 +1,6 @@
 ﻿var Okurzy: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div>
   <Page>
-    <BlockEx header="Termíny kurzů pro Šablony I OP JAK">
+    <BlockEx header="Termíny kurzů pro Šablony I a II OP JAK">
       <p>
         Kurzy pro jednotlivce budou probíhat formou videokoference v prostředí ZOOM.
       </p>

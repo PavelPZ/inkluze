@@ -1547,8 +1547,8 @@ var KurzyIIAlert: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.
 </div>;
 
 var KurzySSList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div>
-  <h2 className='text-right'>SŠ a VOŠ akreditované kurzy DVPP MŠMT - Výzva: 02_22_003</h2>
-  <h3>Nabízíme akreditované kurzy pokrývající následující témata </h3>
+  <h2 className='text-right'>Kompletní nabídka kurzů DVPP pro SŠ a VOŠ</h2>
+  <h3>Nabízíme kurzy pokrývající následující témata</h3>
   <Row>
     <Col md={4}>
       <ul className='fa-ul'>
@@ -1602,8 +1602,8 @@ var KurzySSList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.I
 </div>;
 
 var KurzyIIList: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div>
-  <h2 className='text-right'>ZŠ, MŠ, ZUŠ, ŠD akreditované kurzy DVPP MŠMT - Výzva 02_22_002</h2>
-  <h3>Nabízíme akreditované kurzy pokrývající následující témata </h3>
+  <h2 className='text-right'>Kompletní nabídka kurzů DVPP pro ZŠ, MŠ, ZUŠ a ŠD</h2>
+  <h3>Nabízíme kurzy pokrývající následující témata</h3>
   <Row>
     <Col md={4}>
       <ul className='fa-ul'>
