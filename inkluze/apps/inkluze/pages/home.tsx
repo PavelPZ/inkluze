@@ -12,24 +12,25 @@
             <Col md={10}>
               <h4>Nabízíme kurzy následujícího zaměření:</h4>
               <ul className='fa-ul'>
-                <LiFile>Čtenářská gramotnost (9 akreditovaných kurzů)</LiFile>
-                <LiFile>Matematická gramotnost (10 akreditovaných kurzů)</LiFile>
-                <LiFile>Inkluze zaměřená na cizince (7 akreditovaných kurzů)</LiFile>
-                <LiFile>Ostatní Inkluze (16 akreditovaných kurzů)</LiFile>
-                <LiFile>Vzděláváni s využitím nových technologií (10 akreditovaných kurzů)</LiFile>
-                <LiFile>Formativní hodnocení (4 akreditované kurzy)</LiFile>
-                <LiFile>Rozvoj podnikavosti a kreativity (2 akreditované kurzy)</LiFile>
-                <LiFile>Spolupráce s rodiči a zákonnými zástupci dětí a žáků (1 akreditovaný kurz - připravujeme)</LiFile>
-                <LiFile>Well-being a psychohygiena (15 akreditovaných kurzů)</LiFile>
-                <LiFile>Pedagogická diagnostika (3 akreditované kurzy)</LiFile>
-                <LiFile>Kariérové poradenství včetně identifikace a rozvoje nadání (3 akreditované kurzy)</LiFile>
-                <LiFile>Genderová tematika v obsahu vzdělávání (1 akreditovaný kurz – připravujeme)</LiFile>
-                <LiFile>Mediální gramotnost, prevence kyberšikany, chování na sociálních sítích (1 akreditovaný kurz)</LiFile>
-                <LiFile>Individualizace vzdělávání a vedení portfolia dítěte/žáka (1 akreditovaný kurz - připravujeme)</LiFile>
-                <LiFile>Inovace ŠVP/koncepce rozvoje školy/školského zařízení (4 akreditované kurzy)</LiFile>
-                <LiFile>Výuka češtiny jako druhého jazyka (2 akreditované kurzy)</LiFile>
-                <LiFile>Podpora uvádějících/provázejících učitelů (3 akreditované kurzy)</LiFile>
-                <LiFile>Obsah jednotlivých kurzů naleznete na stránkách <a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.kurzyss, ev)}>Šablony pro SŠ a VOŠ I a II- OP JAK</a> a <a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.kurzyii, ev)}>Šablony pro ZŠ a MŠ I a II- OP JAK</a></LiFile>
+                <LiFile>Well-being a psychohygiena (21 akreditovaných kurzů)</LiFile>
+                <LiFile>Inkluze (24 kurzů)</LiFile>
+                <LiFile>Alternativní/inovativní formy výuky, aktivizační metody ve výuce (3 kurzy)</LiFile>
+                <LiFile>Vzděláváni s využitím nových technologií (15 kurzů)</LiFile>
+                <LiFile>Formativní hodnocení (3 kurzy)</LiFile>
+                <LiFile>Individualizace vzdělávání a vedení portfolia dítěte/žáka (1 kurz)</LiFile>
+                <LiFile>Pedagogická diagnostika (5 kurzů)</LiFile>
+                <LiFile>Spolupráce s rodiči a zákonnými zástupci dětí a žáků (1 kurz)</LiFile>
+                <LiFile>Inovace ŠVP/koncepce rozvoje školy/školského zařízení (5 kurzů)</LiFile>
+                <LiFile>Kariérové poradenství včetně identifikace a rozvoje nadání (3 kurzy)</LiFile>
+                <LiFile>Rozvoj podnikavosti a kreativity (2 kurzy)</LiFile>
+                <LiFile>Genderová tematika v obsahu vzdělávání (1 kurz)</LiFile>
+                <LiFile>Mediální gramotnost, prevence kyberšikany, chování na sociálních sítích (1 kurz)</LiFile>
+                <LiFile>Čtenářská gramotnost (9 kurzů)</LiFile>
+                <LiFile>Matematická gramotnost (10 kurzů)</LiFile>
+                <LiFile>Inkluze zaměřená na cizince (9 kurzů)</LiFile>
+                <LiFile>Výuka češtiny jako druhého jazyka (2 kurzy)</LiFile>
+                <LiFile>Podpora uvádějících/provázejících učitelů (3 kurzy)</LiFile>
+                <LiFile>Obsah jednotlivých kurzů naleznete na stránkách <a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.kurzyss, ev)}>Šablony pro SŠ a VOŠ I a II - OP JAK</a> a <a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.kurzyii, ev)}>Šablony pro ZŠ a MŠ I a II - OP JAK</a></LiFile>
               </ul>
             </Col>
             <Col md={1}>
