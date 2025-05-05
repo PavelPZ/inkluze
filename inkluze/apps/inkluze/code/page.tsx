@@ -100,7 +100,7 @@
           </Col>
         </Row>
       </Grid>
-      <p className="text-center">Copyright 2022 LANGMaster.com, s.r.o.</p>
+      <p className="text-center">Copyright 2025 LANGMaster.com, s.r.o.</p>
     </Block>
   </div>
 }

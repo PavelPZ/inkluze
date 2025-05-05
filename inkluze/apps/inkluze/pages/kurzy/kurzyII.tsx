@@ -6,7 +6,6 @@
       <Block >
         {ctx.site.id == 'kurzyii' ? <KurzyIIList /> : null}
         <KurzyIIAlert />
-        <KurzyForm />
 
       </Block>
 

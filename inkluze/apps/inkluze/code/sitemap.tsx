@@ -69,7 +69,7 @@
   export function bootApp() {
     site.root = root = {
       id: 'home',
-      title: 'DVPP kurzy pro Výzvy 02_22_002 a 02_22_003',
+      title: ' ',
       brTitle: 'DVPP',
       largeLogo: true,
       createPage: routePar => <Home />, //sitemapRouter.createElement<IHomePar>(Home, routePar, { subTitle: 'SubTitle Default' }),

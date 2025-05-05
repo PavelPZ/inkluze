@@ -1522,7 +1522,7 @@ var KurzyAlert: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IC
     Pro více informací klikněte na vybrané téma nahoře na stránce.
   </p>
   <p>
-    Pro získání podrobnějších informací o našich akreditovaných kurzech vyplňte a odešlete nezávazný poptávkový formulář nebo napište email na projekt@langmaster.cz.
+    Pro získání podrobnějších informací o našich akreditovaných kurzech napište email na projekt@langmaster.cz.
   </p>
 </div>;
 
@@ -1532,7 +1532,7 @@ var KurzySSAlert: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.
     Pro více informací klikněte na vybrané téma nahoře na stránce.
   </p>
   <p>
-    Pro získání podrobnějších informací o našich akreditovaných kurzech vyplňte a odešlete nezávazný poptávkový formulář nebo napište email na projekt@langmaster.cz.
+    Pro získání podrobnějších informací o našich akreditovaných kurzech napište email na projekt@langmaster.cz.
   </p>
 </div>;
 
@@ -1542,7 +1542,7 @@ var KurzyIIAlert: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.
     Pro více informací klikněte na vybrané téma nahoře na stránce.
   </p>
   <p>
-    Pro získání podrobnějších informací o našich akreditovaných kurzech vyplňte a odešlete nezávazný poptávkový formulář nebo napište email na projekt@langmaster.cz.
+    Pro získání podrobnějších informací o našich akreditovaných kurzech napište email na projekt@langmaster.cz.
   </p>
 </div>;
 
@@ -2642,6 +2642,18 @@ var ZSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
             <li className="list-group-item">•	Programy a aplikace pro jednoduché vytváření zábavných kvízů</li>
             <li className="list-group-item">•	Použití programu Formulator Tarsia pro tvorbu domin, triomin a jiných her vhodných k oživení procvičovaného učiva</li>
             <li className="list-group-item">•	Příklady různých aplikací, programů či webových stránek s hrami, videi, texty i jinými materiály, které je možné vhodně využít při výuce</li>
+          </ul></div>
+      </LiFile>
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseznt5010" aria-expanded="false" aria-controls="collapseznt5010">Moderní technologie pro učitele MŠ: jednoduše a efektivně (doporučeno pro MŠ)
+      </b> 
+        <div className="collapse " id="collapseznt5010">
+          <p>Příklady probíraných témat</p>
+          <ul className="list-group">
+            <li className="list-group-item">•	Tvorba pracovních listů a pomůcek – praktické postupy pro tvorbu graficky atraktivních pracovních listů a didaktických her</li>
+            <li className="list-group-item">•	Interaktivní vzdělávací aktivity – využití digitálních nástrojů pro tvorbu kvízů, her a interaktivních materiálů</li>
+            <li className="list-group-item">•	Hotové materiály a online zdroje – kde rychle najít a stahovat hotové vzdělávací materiály</li>
+            <li className="list-group-item">•	Umělá inteligence v práci pedagoga - jak využít umělou inteligenci pro tvorbu vzdělávacích aktivit</li>
+            <li className="list-group-item">•	Praktické tipy pro efektivní práci s moderními technologiemi</li>
           </ul></div>
       </LiFile>
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseznt010" aria-expanded="false" aria-controls="collapseznt010">Digitální kompetence na základní škole
