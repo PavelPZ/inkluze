@@ -622,11 +622,11 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=13.11.%202025%20%20Zm%C4%9Bny%20v%20RVP%20a%20%C3%BApravy%20%C5%A0VP%20v%20r%C3%A1mci%20programu%20InspIS%20%C5%A0VP%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>tento termín bude speciálně zaměřen na ŠVP pro SŠ</p>
         </LiHand>
-        <LiHand><h4><b>13.11. 2025  <a href="/index.html?home|kurzyii|zsinkluze">Specifické poruchy chování –pro ŠD a asistenty pedagoga (8 hodin)</a></b></h4>
+        <LiHand><h4><b>14.11. 2025  <a href="/index.html?home|kurzyii|zsinkluze">Specifické poruchy chování –pro ŠD a asistenty pedagoga (8 hodin)</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Inkluze</Label></h4>
           <p>Cena: 1690 Kč/os, Lektor: Mgr et Mgr. Dagmar Vilášková</p>
           <p>Místo konání: online</p>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=13.11.%202025%20%20Specifick%C3%A9%20poruchy%20chov%C3%A1n%C3%AD%20%E2%80%93pro%20%C5%A0D%20a%20asistenty%20pedagoga%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=14.11.%202025%20%20Specifick%C3%A9%20poruchy%20chov%C3%A1n%C3%AD%20%E2%80%93pro%20%C5%A0D%20a%20asistenty%20pedagoga%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
         <LiHand><h4><b>18.11. 2025 <a href="/index.html?home|kurzyii|zsctenarskagramotnost">Čtenářská a informační gramotnost na ZŠ - 8 hodin  </a></b></h4>
