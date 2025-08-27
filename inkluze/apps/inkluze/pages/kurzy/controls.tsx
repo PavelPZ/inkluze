@@ -2047,6 +2047,16 @@ var ZSInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
   <BlockEx header="Nabízíme následující kurzy:">
     <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>
     <ul className='fa-ul'>
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi045451" aria-expanded="false" aria-controls="collapsezi045451">Jak pracovat s nezralým prvňáčkem </b>(8 hod, doporučeno pro ZŠ, asistenti pedgoga)
+        <div className="collapse " id="collapsezi045451">
+          <ul className="list-group"><li className="list-group-item">
+            <li className="list-group-item">•	Co je školní nezralost – teorie a praxe (Rozdíl mezi školní zralostí a nezralostí; Oblasti školní zralosti: biologická, psychická, sociální, emoční; Nejčastější projevy nezralosti v 1. ročníku: poruchy pozornosti, nezralá motorika, potíže v sociální interakci, únavnost; Důsledky nezralosti pro adaptaci dítěte ve škole) (2 hod)</li>
+            <li className="list-group-item">Praktická podpora nezralého žáka ve výuce (Jak přizpůsobit organizaci dne a výuky potřebám nezralých dětí; Vizuální opory, rytmizace, smysové prvky, přestávky, režimové pomůcky; Spolupráce učitele a asistenta – rozdělení rolí, efektivní podpora; Strategie pro podporu pozornosti, pracovní paměti a seberegulace) (2 hod)</li>
+            <li className="list-group-item">Spolupráce s rodiči a dalšími odborníky (Jak citlivě komunikovat s rodiči o školní nezralosti; Možnosti spolupráce s poradenským zařízením: PPP, SPC; PLPP – kdy a jak jej využít) (2 hod)</li>
+            <li className="list-group-item">Intervenční plán pro nezralého prvňáčka - Konkrétní nabídka možností podpory a rozvoje školní zralosti (Kognitivní oblast: rozumové schopnosti, myšlení, paměť, pozornost; Motorická oblast: hrubá a jemná motorika, grafomotorika; Emočně-sociální oblast; Jazyková a komunikační oblast; Sebeobsluha a školní samostatnost; Přehled nástrojů a zdrojů pro pedagogy) (2 hod)</li>
+          </ul>
+        </div>
+      </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi001451" aria-expanded="false" aria-controls="collapsezi001451">Jak se věnovat žákovi s poruchou učení </b>(8 hod, dopručeno pro ZŠ, SŠ, asistenti)
         <div className="collapse " id="collapsezi001451">
           <ul className="list-group"><li className="list-group-item"></li>
