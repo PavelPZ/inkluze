@@ -542,27 +542,7 @@
           <p>Místo konání: online</p>
           <p>tento termín bude speciálně zaměřen na ŠVP pro ZŠ</p>
         </LiHand>
-        <LiHand><h4><b>5.11. 2025 <a href="/index.html?home|kurzyss|sswellbeing">Prevence a vyšetřování šikany, kyberšikany a dalšího  rizikového chování  </a></b> </h4>
-          <h4><Label bsStyle="warning">Oblast: Wellbeing a psychohygiena</Label></h4>
-          <p>Cena: 1690 Kč/os, Lektor: PaedDr. Ellen Mlátilíková</p>
-          <p>Místo konání: online</p>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=5.11.%202025%20%20Prevence%20a%20vy%C5%A1et%C5%99ov%C3%A1n%C3%AD%20%C5%A1ikany%2C%20kyber%C5%A1ikany%20a%20dal%C5%A1%C3%ADho%20%20rizikov%C3%A9ho%20chov%C3%A1n%C3%AD&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
-        </LiHand>
-        <LiHand><h4><b>6.11. 2025 <a href="/index.html?home|kurzyii|zswellbeing">Jak zvládat stresové situace a nedospět k vyhoření (8 hodin) </a></b></h4>
-          <h4><Label bsStyle="warning">Oblast: Wellbeing a psychohygiena</Label></h4>
-          <p>Cena: 1690 Kč/os, Lektor: Mgr. Jana Soukupová</p>
-          <p>Místo konání: online</p>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=6.11.%202025%20Jak%20zvl%C3%A1dat%20stresov%C3%A9%20situace%20a%20nedosp%C4%9Bt%20k%20vyho%C5%99en%C3%AD%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
-        </LiHand>
-        <LiHand><h4><b>6.11. 2025 <a href="/index.html?home|kurzyii|zsinovativniformy">Tandemová výuka – nový prvek ve výuce (8 hodin)</a></b></h4>
-          <h4><Label bsStyle="warning">Oblast: alternativní/inovativní formy výuky, aktivizační metody ve výuce</Label></h4>
-          <p>Cena: 1690 Kč/os, Lektor: Mgr. Dana Forýtková</p>
-          <p>Místo konání: online</p>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=6.11.%202025%20Tandemov%C3%A1%20v%C3%BDuka%20%E2%80%93%20nov%C3%BD%20prvek%20ve%20v%C3%BDuce%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
-        </LiHand>
+
         <LiHand><h4><b>12.11. 2025 <a href="/index.html?home|kurzyss|sspedagogickadiagnostika">Kázeňské přestupky a možnosti jejich řešení v rámci třídy (8 hodin)</a></b></h4>
           <h4><Label bsStyle="warning">Oblasti: pedagogická diagnostika, Inkluze</Label></h4>
           <p>Cena: 1690 Kč/os, Lektor: PaedDr. Ellen Mlátilíková</p>
@@ -660,7 +640,7 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=3.12.%202025%20Veden%C3%AD%20portfolia%20%C5%BE%C3%A1ka%20jako%20n%C3%A1stroj%20formativn%C3%ADho%20hodnocen%C3%AD%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
-        <LiHand><h4><b>4.12. 2025 <a href="/index.html?home|kurzyss|sswellbeing">Sebepoškozování (příčiny – řešení – péče o žáka (8 hodin)</a></b></h4>
+        <LiHand><h4><b>4.12. 2025 <a href="/index.html?home|kurzyss|sswellbeing">Sebepoškozování (příčiny – řešení – péče o žáka (8 hodin)</a> přesunuto na 16.4. 2026</b></h4>
           <h4><Label bsStyle="warning">Oblast: Wellbeing a psychohygiena</Label></h4>
           <p>Cena: 1690 Kč/os, Lektor: Mgr et Mgr. Dagmar Vilášková</p>
           <p>Místo konání: online</p>
@@ -723,6 +703,13 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=11.2.%202026%20Um%C4%9Bl%C3%A1%20inteligence%20ve%20%C5%A1kole&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
+        <LiHand><h4><b>11.2. 2026 <a href="/index.html?home|kurzyss|sswellbeing">Prevence a vyšetřování šikany, kyberšikany a dalšího  rizikového chování  </a></b> </h4>
+          <h4><Label bsStyle="warning">Oblast: Wellbeing a psychohygiena</Label></h4>
+          <p>Cena: 1690 Kč/os, Lektor: PaedDr. Ellen Mlátilíková</p>
+          <p>Místo konání: online</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=11.2.%202026%20%20Prevence%20a%20vy%C5%A1et%C5%99ov%C3%A1n%C3%AD%20%C5%A1ikany%2C%20kyber%C5%A1ikany%20a%20dal%C5%A1%C3%ADho%20%20rizikov%C3%A9ho%20chov%C3%A1n%C3%AD&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+        </LiHand>
         <LiHand><h4><b>12.2. 2026 <a href="/index.html?home|kurzyss|sswellbeing">Základy krizové intervence ve škole pro pedagogy (8 hodin) </a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Wellbeing a psychohygiena</Label></h4>
           <p>Cena: 1690 Kč/os, Lektor: Mgr. Jana Soukupová</p>
@@ -765,11 +752,39 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=4.3.%202026%20Z%C3%A1sady%20efektivn%C3%AD%20komunikace%20s%20rodi%C4%8Di%20a%20z%C3%A1konn%C3%BDmi%20z%C3%A1stupci&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
+        <LiHand><h4><b>5.3. 2026 <a href="/index.html?home|kurzyii|zswellbeing">Jak zvládat stresové situace a nedospět k vyhoření (8 hodin) </a></b></h4>
+          <h4><Label bsStyle="warning">Oblast: Wellbeing a psychohygiena</Label></h4>
+          <p>Cena: 1690 Kč/os, Lektor: Mgr. Jana Soukupová</p>
+          <p>Místo konání: online</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=5.3.%202026%20Jak%20zvl%C3%A1dat%20stresov%C3%A9%20situace%20a%20nedosp%C4%9Bt%20k%20vyho%C5%99en%C3%AD%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+        </LiHand>
         <LiHand><h4><b>12.3. 2026 <a href="/index.html?home|kurzyii|zsinkluze">Neklidné dítě – problematika ADHD, ADD (8 hodin)</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Inkluze</Label></h4>
           <p>Cena: 1690 Kč/os, Lektor: Mgr et Mgr. Dagmar Vilášková</p>
           <p>Místo konání: online</p>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=12.3.%202026%20Neklidn%C3%A9%20d%C3%ADt%C4%9B%20%E2%80%93%20problematika%20ADHD%2C%20ADD%20%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+        </LiHand>
+        <LiHand><h4><b>13.3. 2026 <a href="/index.html?home|kurzyii|zsinovativniformy">Tandemová výuka – nový prvek ve výuce (8 hodin)</a></b></h4>
+          <h4><Label bsStyle="warning">Oblast: alternativní/inovativní formy výuky, aktivizační metody ve výuce</Label></h4>
+          <p>Cena: 1690 Kč/os, Lektor: Mgr. Dana Forýtková</p>
+          <p>Místo konání: online</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=13.3.%202026%20Tandemov%C3%A1%20v%C3%BDuka%20%E2%80%93%20nov%C3%BD%20prvek%20ve%20v%C3%BDuce%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+        </LiHand>
+        <LiHand><h4><b>18.3. 2026 <a href="/index.html?home|kurzyss|sswellbeing">Třídní učitel a wellbeing (8 hodin)</a></b></h4>
+          <h4><Label bsStyle="warning">Oblast: Wellbeing a psychohygiena</Label></h4>
+          <p>Cena: 1690 Kč/os, Lektor: Mgr. Dana Forýtková</p>
+          <p>Místo konání: online</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=18.3.2026%20T%C5%99%C3%ADdn%C3%AD%20u%C4%8Ditel%20a%20wellbeing&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+        </LiHand>
+        <LiHand><h4><b>16.4. 2026 <a href="/index.html?home|kurzyss|sswellbeing">Sebepoškozování (příčiny – řešení – péče o žáka (8 hodin)</a> </b></h4>
+          <h4><Label bsStyle="warning">Oblast: Wellbeing a psychohygiena</Label></h4>
+          <p>Cena: 1690 Kč/os, Lektor: Mgr et Mgr. Dagmar Vilášková</p>
+          <p>Místo konání: online</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=16.4.%202026%20Sebepo%C5%A1kozov%C3%A1n%C3%AD%20(p%C5%99%C3%AD%C4%8Diny%20%E2%80%93%20%C5%99e%C5%A1en%C3%AD%20%E2%80%93%20p%C3%A9%C4%8De%20o%20%C5%BE%C3%A1ka%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
       </ul>
