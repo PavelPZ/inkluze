@@ -551,27 +551,6 @@
         */}
         
 
-         <LiHand><h4><b>3.12. 2025 <a href="/index.html?home|kurzyss|ssindividualizace">Vedení portfolia žáka jako nástroj formativního hodnocení (8 hodin)</a></b></h4>
-          <h4><Label bsStyle="warning">Oblasti: Individualizece vzdělávání a vedení portfolia dítěte/žáka, formativní hodnocen</Label></h4>
-          <p>Cena: 1690 Kč/os, Lektor: PaedDr. Ellen Mlátilíková</p>
-          <p>Místo konání: online</p>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=3.12.%202025%20Veden%C3%AD%20portfolia%20%C5%BE%C3%A1ka%20jako%20n%C3%A1stroj%20formativn%C3%ADho%20hodnocen%C3%AD%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
-        </LiHand>
-        <LiHand><h4><b>4.12. 2025 <a href="/index.html?home|kurzyss|sswellbeing">Sebepoškozování (příčiny – řešení – péče o žáka (8 hodin)</a> přesunuto na 16.4. 2026</b></h4>
-          <h4><Label bsStyle="warning">Oblast: Wellbeing a psychohygiena</Label></h4>
-          <p>Cena: 1690 Kč/os, Lektor: Mgr et Mgr. Dagmar Vilášková</p>
-          <p>Místo konání: online</p>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=4.12.%202025%20Sebepo%C5%A1kozov%C3%A1n%C3%AD%20(p%C5%99%C3%AD%C4%8Diny%20%E2%80%93%20%C5%99e%C5%A1en%C3%AD%20%E2%80%93%20p%C3%A9%C4%8De%20o%20%C5%BE%C3%A1ka%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
-        </LiHand>
-        <LiHand><h4><b>11.12. 2025  <a href="/index.html?home|kurzyii|zsinovace">Změny v revidovaném RVP ZV a úpravy ŠVP ZV (8 hodin)</a></b></h4>
-          <h4><Label bsStyle="warning">Oblast: Inovace ŠVP/koncepce rozvoje školy/školského zařízení</Label></h4>
-          <p>Cena: 1690 Kč/os, Lektor: Bc. Jiří Forýtek, Mgr. Dana Forýtková</p>
-          <p>Místo konání: online</p>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=11.12.%202025%20Zm%C4%9Bny%20v%20revidovan%C3%A9m%20RVP%20ZV%20a%20%C3%BApravy%20%C5%A0VP%20ZV%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>tento termín bude speciálně zaměřen na ŠVP pro ZŠ</p>
-        </LiHand>
         <LiHand><h4><b>19.1. 2026  <a href="/index.html?home|kurzyii|zsinovace">Změny v revidovaném RVP pro MŠ a úpravy ŠVP pro MŠ (8 hodin)</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Inovace ŠVP/koncepce rozvoje školy/školského zařízení</Label></h4>
           <p>Cena: 1690 Kč/os, Lektor: Bc. Jiří Forýtek, Mgr. Dana Forýtková</p>
@@ -621,13 +600,6 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=11.2.%202026%20Um%C4%9Bl%C3%A1%20inteligence%20ve%20%C5%A1kole&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
-        <LiHand><h4><b>11.2. 2026 <a href="/index.html?home|kurzyss|sswellbeing">Prevence a vyšetřování šikany, kyberšikany a dalšího  rizikového chování  </a></b> </h4>
-          <h4><Label bsStyle="warning">Oblast: Wellbeing a psychohygiena</Label></h4>
-          <p>Cena: 1690 Kč/os, Lektor: PaedDr. Ellen Mlátilíková</p>
-          <p>Místo konání: online</p>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=11.2.%202026%20%20Prevence%20a%20vy%C5%A1et%C5%99ov%C3%A1n%C3%AD%20%C5%A1ikany%2C%20kyber%C5%A1ikany%20a%20dal%C5%A1%C3%ADho%20%20rizikov%C3%A9ho%20chov%C3%A1n%C3%AD&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
-        </LiHand>
         <LiHand><h4><b>12.2. 2026 <a href="/index.html?home|kurzyss|sswellbeing">Základy krizové intervence ve škole pro pedagogy (8 hodin) </a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Wellbeing a psychohygiena</Label></h4>
           <p>Cena: 1690 Kč/os, Lektor: Mgr. Jana Soukupová</p>
@@ -642,6 +614,13 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=25.2.%202026%20Digit%C3%A1ln%C3%AD%20kompetence%20na%20Z%C5%A0%20%E2%80%93%20matematika%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand> 
+        <LiHand><h4><b>25.2. 2026 <a href="/index.html?home|kurzyss|sswellbeing">Prevence a vyšetřování šikany, kyberšikany a dalšího  rizikového chování  </a></b> </h4>
+          <h4><Label bsStyle="warning">Oblast: Wellbeing a psychohygiena</Label></h4>
+          <p>Cena: 1690 Kč/os, Lektor: PaedDr. Ellen Mlátilíková</p>
+          <p>Místo konání: online</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=25.2.%202026%20%20Prevence%20a%20vy%C5%A1et%C5%99ov%C3%A1n%C3%AD%20%C5%A1ikany%2C%20kyber%C5%A1ikany%20a%20dal%C5%A1%C3%ADho%20%20rizikov%C3%A9ho%20chov%C3%A1n%C3%AD&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+        </LiHand>
         <LiHand><h4><b>26.2. 2026  <a href="/index.html?home|kurzyii|zsinkluze">Jak pracovat s nezralým prvňáčkem (8 hodin) </a></b></h4>
           <h4><Label bsStyle="warning">Oblasti: Pedagogická diagnostika</Label></h4>
           <p>Cena: 1690 Kč/os, Lektor: Mgr et Mgr. Dagmar Vilášková</p>
@@ -773,6 +752,13 @@
           <p>Cena: 1690 Kč/os, Lektor: PhDr. Veronika Havelková, Ph.D.</p>
           <p>Místo konání: online</p>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=28.4.%202026%20Um%C4%9Bl%C3%A1%20inteligence%20ve%20%C5%A1kole&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+        </LiHand>
+        <LiHand><h4><b>29.4. 2026 <a href="/index.html?home|kurzyss|ssindividualizace">Vedení portfolia žáka jako nástroj formativního hodnocení (8 hodin)</a></b></h4>
+          <h4><Label bsStyle="warning">Oblasti: Individualizece vzdělávání a vedení portfolia dítěte/žáka, formativní hodnocen</Label></h4>
+          <p>Cena: 1690 Kč/os, Lektor: PaedDr. Ellen Mlátilíková</p>
+          <p>Místo konání: online</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=29.4.%202026%20Veden%C3%AD%20portfolia%20%C5%BE%C3%A1ka%20jako%20n%C3%A1stroj%20formativn%C3%ADho%20hodnocen%C3%AD%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
         <LiHand><h4><b>14.5. 2026 <a href="/index.html?home|kurzyii|zsinkluze">Strukturované učení u žáků s poruchami autistického spektra (8 hodin)</a></b></h4>
