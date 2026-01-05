@@ -2047,9 +2047,22 @@ var ZSInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
   <BlockEx header="Nabízíme následující kurzy:">
     <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>
     <ul className='fa-ul'>
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi045451" aria-expanded="false" aria-controls="collapsezi045451">Asistent pedagoga v 1. třídě (nová pozice) - náplň práce   </b>(8 hod, doporučeno pro ZŠ, asistenti pedgoga)
+        <div className="collapse " id="collapsezi045451">
+          <br/>
+          <b>Od září 2026 má škola povinnost mít asistenta pedagoga v 1. ročníku.</b>
+          <ul className="list-group">
+            <li className="list-group-item">Pedagogická diagnostika orientovaná na žáka, nástroje pedagogické diagnostiky vhodné pro asistenta pedagoga a kmenového učitele. (2 hod)</li>
+            <li className="list-group-item">Vhodné formy speciálně pedagogické péče asistenta pedagoga se zaměřením na percepční a motorická oslabení žáků ve školním prostředí při zahájení povinné školní docházky.  Možnosti reedukačních cvičení, možnosti diferencovaného vzdělávání jako prevence problémového chování. (2 hod)</li>
+            <li className="list-group-item">Příčiny problémového chování u žáků, prevence školní neúspěšnosti. Diagnostická kritéria rizikového chování. Příčiny poruch chování žáků a další formy rizikového chování, možnosti práce se žákem s  problémovým chováním 1. ročníku. (2 hod)</li>
+            <li className="list-group-item">Praktická část: Ukázka práce se žákem s problémovým chováním v hromadném vzdělávání.  Nabídka metodických materiálů. (1 hod)</li>
+            <li className="list-group-item">Diskuze, práce s kazuistikami. (1 hod)</li>
+          </ul>
+        </div>
+      </LiFile >
       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi045451" aria-expanded="false" aria-controls="collapsezi045451">Jak pracovat s nezralým prvňáčkem </b>(8 hod, doporučeno pro ZŠ, asistenti pedgoga)
         <div className="collapse " id="collapsezi045451">
-          <ul className="list-group"><li className="list-group-item">
+          <ul className="list-group">
             <li className="list-group-item">•	Co je školní nezralost – teorie a praxe (Rozdíl mezi školní zralostí a nezralostí; Oblasti školní zralosti: biologická, psychická, sociální, emoční; Nejčastější projevy nezralosti v 1. ročníku: poruchy pozornosti, nezralá motorika, potíže v sociální interakci, únavnost; Důsledky nezralosti pro adaptaci dítěte ve škole) (2 hod)</li>
             <li className="list-group-item">Praktická podpora nezralého žáka ve výuce (Jak přizpůsobit organizaci dne a výuky potřebám nezralých dětí; Vizuální opory, rytmizace, smysové prvky, přestávky, režimové pomůcky; Spolupráce učitele a asistenta – rozdělení rolí, efektivní podpora; Strategie pro podporu pozornosti, pracovní paměti a seberegulace) (2 hod)</li>
             <li className="list-group-item">Spolupráce s rodiči a dalšími odborníky (Jak citlivě komunikovat s rodiči o školní nezralosti; Možnosti spolupráce s poradenským zařízením: PPP, SPC; PLPP – kdy a jak jej využít) (2 hod)</li>
