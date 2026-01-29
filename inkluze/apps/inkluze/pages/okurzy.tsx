@@ -560,21 +560,11 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=22.1.%202026%20%20%C5%A0koln%C3%AD%20zralost%20%E2%80%93%20p%C5%99%C3%ADprava%20p%C5%99ed%C5%A1kol%C3%A1ka%20(8%20hodin)%20&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
-
-        */}
-
         <LiHand><h4><b>21.1. 2026 <a href="/index.html?home|kurzyss|sskarieroveporadenstvi">Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje-webinář (8 hodin)</a></b></h4>
           <h4><Label bsStyle="warning">Oblasti: Kariérové poradneství včetně identifikace a rozvoje nadání, Inkluze</Label></h4>
           <p>Cena: 1690 Kč/os, Lektor: PaedDr. Ellen Mlátilíková</p>
           <p>Místo konání: online</p>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=21.1.%202026%20%C5%BD%C3%A1k%20nadan%C3%BD%20a%20mimo%C5%99%C3%A1dn%C4%9B%20nadan%C3%BD%2C%20mo%C5%BEnosti%20jeho%20rozvoje-webin%C3%A1%C5%99&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
-        </LiHand>
-        <LiHand><h4><b>22.1. 2026 <a href="/index.html?home|kurzyss|sswellbeing">Wellbeing, cesta k harmonizaci vztahů ve škole (8 hodin)</a> přesunuto na 23.4.2026</b></h4>
-          <h4><Label bsStyle="warning">Oblast: Wellbeing a psychohygiena</Label></h4>
-          <p>Cena: 1690 Kč/os, Lektor: Mgr. Jana Soukupová</p>
-          <p>Místo konání: online</p>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=22.1.%202026%20Wellbeing%2C%20cesta%20k%20harmonizaci%20vztah%C5%AF%20ve%20%C5%A1kole&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
         <LiHand><h4><b>28.1. 2026 <a href="/index.html?home|kurzyss|ssinovativniformy">Nové metody práce učitele – aktivizující formy výuky na ZŠ a SŠ (8 hodin)</a></b></h4>
@@ -589,6 +579,16 @@
           <p>Cena: 1690 Kč/os, Lektor: Mgr et Mgr. Dagmar Vilášková</p>
           <p>Místo konání: online</p>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=29.1.%202026%20Specifick%C3%A9%20poruchy%20chov%C3%A1n%C3%AD%20v%20p%C5%99ed%C5%A1koln%C3%ADm%20v%C4%9Bku%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+        </LiHand>
+        */}
+
+
+        <LiHand><h4><b>22.1. 2026 <a href="/index.html?home|kurzyss|sswellbeing">Wellbeing, cesta k harmonizaci vztahů ve škole (8 hodin)</a> přesunuto na 23.4.2026</b></h4>
+          <h4><Label bsStyle="warning">Oblast: Wellbeing a psychohygiena</Label></h4>
+          <p>Cena: 1690 Kč/os, Lektor: Mgr. Jana Soukupová</p>
+          <p>Místo konání: online</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=22.1.%202026%20Wellbeing%2C%20cesta%20k%20harmonizaci%20vztah%C5%AF%20ve%20%C5%A1kole&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
         <LiHand><h4><b>11.2. 2026 <a href="/index.html?home|kurzyss|ssnovetechnologie">Umělá inteligence ve škole (8 hodin)</a></b></h4>
