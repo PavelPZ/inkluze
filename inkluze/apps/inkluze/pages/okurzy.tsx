@@ -56,7 +56,6 @@
         </LiHand>
         <LiHand><h4><b>6.12. 2024 <a href="/index.html?home|kurzyss|sskarieroveporadenstvi">Role pedagoga v karierovém poradenství – 8 hodin</a></b> - zrušeno</h4>
           <h4><Label bsStyle="warning">Oblast: Kariérové poradenství včetně identifikace a rozvoje nadání</Label></h4>
-          
           <p>Cena: 1790 Kč/os, Lektor: Mgr. Dana Forýtková</p>
           <p>Místo konání: online</p>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=6.12.%202024%20Role%20pedagoga%20v%20karierov%C3%A9m%20poradenstv%C3%AD%20%E2%80%93%208%20hodin&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
@@ -685,6 +684,13 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=22.10.%202026%20Rozvoj%20podnikavosti%20a%20z%C3%A1sady%20soukrom%C3%A9ho%20podnik%C3%A1n%C3%AD%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
+        <LiHand><h4><b>4.11. 2026 <a href="/index.html?home|kurzyii|zsspoluprace">Zásady efektivní komunikace s rodiči a zákonnými zástupci (8 hodin)</a></b></h4>
+          <h4><Label bsStyle="warning">Oblasti: Spolupráce s rodiči a zákonnými zástupci dětí a žáků, Inkluze</Label></h4>
+          <p>Cena: 1790 Kč/os, Lektor: PaedDr. Ellen Mlátilíková</p>
+          <p>Místo konání: online</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=4.11.%202026%20Z%C3%A1sady%20efektivn%C3%AD%20komunikace%20s%20rodi%C4%8Di%20a%20z%C3%A1konn%C3%BDmi%20z%C3%A1stupci&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+        </LiHand>
         <LiHand><h4><b>5.11. 2026  <a href="/index.html?home|kurzyii|zsinkluze">Specifické poruchy chování –pro ŠD a asistenty pedagoga (8 hodin)</a> </b></h4>
           <h4><Label bsStyle="warning">Oblast: Inkluze</Label></h4>
           <p>Cena: 1790 Kč/os, Lektor: Mgr et Mgr. Dagmar Vilášková</p>
@@ -706,11 +712,46 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=11.11.%202026%20Tandemov%C3%A1%20v%C3%BDuka%20%E2%80%93%20nov%C3%BD%20prvek%20ve%20v%C3%BDuce%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
+        <LiHand><h4><b>11.11. 2026 <a href="/index.html?home|kurzyss|sspedagogickadiagnostika">Kázeňské přestupky a možnosti jejich řešení v rámci třídy (8 hodin)</a></b></h4>
+          <h4><Label bsStyle="warning">Oblasti: pedagogická diagnostika, Inkluze</Label></h4>
+          <p>Cena: 1790 Kč/os, Lektor: PaedDr. Ellen Mlátilíková</p>
+          <p>Místo konání: online</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=11.11.%202026%20K%C3%A1ze%C5%88sk%C3%A9%20p%C5%99estupky%20a%20mo%C5%BEnosti%20jejich%20%C5%99e%C5%A1en%C3%AD%20v%20r%C3%A1mci%20t%C5%99%C3%ADdy&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+        </LiHand>
         <LiHand><h4><b>19.11. 2026 <a href="/index.html?home|kurzyii|zsinkluze">Neklidné dítě – problematika ADHD, ADD (8 hodin)</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Inkluze</Label></h4>
           <p>Cena: 1790 Kč/os, Lektor: Mgr et Mgr. Dagmar Vilášková</p>
           <p>Místo konání: online</p>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=19.11.%202026%20Neklidn%C3%A9%20d%C3%ADt%C4%9B%20%E2%80%93%20problematika%20ADHD%2C%20ADD%20%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+        </LiHand>
+        <LiHand><h4><b>19.11. 2025 <a href="/index.html?home|kurzyii|zsdiagnostika">Sociální klima třídy a pedagogická diagnostika učitele (8 hodin)</a></b></h4>
+          <h4><Label bsStyle="warning">Oblasti: Pedagogická diagnostika</Label></h4>
+          <p>Cena: 1790 Kč/os, Lektor: Mgr. Dana Forýtková</p>
+          <p>Místo konání: online</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=19.11.%202025%20Soci%C3%A1ln%C3%AD%20klima%20t%C5%99%C3%ADdy%20a%20pedagogick%C3%A1%20diagnostika%20u%C4%8Ditele%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+        </LiHand>
+        <LiHand><h4><b>25.11. 2026 <a href="/index.html?home|kurzyss|sskarieroveporadenstvi">Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje-webinář (8 hodin)</a></b></h4>
+          <h4><Label bsStyle="warning">Oblasti: Kariérové poradneství včetně identifikace a rozvoje nadání, Inkluze</Label></h4>
+          <p>Cena: 1790 Kč/os, Lektor: PaedDr. Ellen Mlátilíková</p>
+          <p>Místo konání: online</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=25.11.%202026%20%C5%BD%C3%A1k%20nadan%C3%BD%20a%20mimo%C5%99%C3%A1dn%C4%9B%20nadan%C3%BD%2C%20mo%C5%BEnosti%20jeho%20rozvoje-webin%C3%A1%C5%99&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+        </LiHand>
+        <LiHand><h4><b>26.11. 2026 <a href="/index.html?home|kurzyss|SSGenderovaTematika">Gender a genderová tematika na školách (8 hodin)</a></b></h4>
+          <h4><Label bsStyle="warning">Oblast: Genderová tematika v obsahu vzdělávání</Label></h4>
+          <p>Cena: 1790 Kč/os, Lektor: Mgr. Jana Soukupová</p>
+          <p>Místo konání: online</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=26.11.%202026%20Gender%20a%20genderov%C3%A1%20tematika%20na%20%C5%A1kol%C3%A1ch%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+        </LiHand>
+        <LiHand><h4><b>27.11. 2026 <a href="/index.html?home|kurzyss|sskarieroveporadenstvi">Role pedagoga v karierovém poradenství – 8 hodin</a></b> - zrušeno</h4>
+          <h4><Label bsStyle="warning">Oblast: Kariérové poradenství včetně identifikace a rozvoje nadání</Label></h4>
+          <p>Cena: 1790 Kč/os, Lektor: Mgr. Dana Forýtková</p>
+          <p>Místo konání: online</p>
+          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=27.11.%202026%20Role%20pedagoga%20v%20karierov%C3%A9m%20poradenstv%C3%AD%20%E2%80%93%208%20hodin&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
         <LiHand><h4><b>3.12. 2026 <a href="/index.html?home|kurzyii|zsdiagnostika">Školní zralost – příprava předškoláka (8 hodin)</a></b></h4>
