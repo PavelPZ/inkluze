@@ -54,7 +54,7 @@
           <s><p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=24.10.%202024%20Wellbeing%2C%20cesta%20k%20harmonizaci%20vztah%C5%AF%20ve%20%C5%A1kole&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p></s>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
-        <LiHand><h4><b>6.12. 2024 <a href="/index.html?home|kurzyss|sskarieroveporadenstvi">Role pedagoga v karierovém poradenství – 8 hodin</a></b> - zrušeno</h4>
+        <LiHand><h4><b>6.12. 2024 <a href="/index.html?home|kurzyss|sskarieroveporadenstvi">Role pedagoga v karierovém poradenství – 8 hodin</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Kariérové poradenství včetně identifikace a rozvoje nadání</Label></h4>
           <p>Cena: 1790 Kč/os, Lektor: Mgr. Dana Forýtková</p>
           <p>Místo konání: online</p>
@@ -208,7 +208,7 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=25.11.%202024%20Tandemov%C3%A1%20v%C3%BDuka%20%E2%80%93%20nov%C3%BD%20prvek%20ve%20v%C3%BDuce%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
-        <LiHand><h4><b>25.11. 2024 <a href="/index.html?home|kurzyii|zsnovetechnologie">Nová informatika na základní škole (8 hodin)</a></b> - zrušeno</h4>
+        <LiHand><h4><b>25.11. 2024 <a href="/index.html?home|kurzyii|zsnovetechnologie">Nová informatika na základní škole (8 hodin)</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Vzdělávání s využitím nových technologií</Label></h4>
           
           <p>Cena: 1790 Kč/os, Lektor: Mgr. Bc. Jan Šindelář</p>
@@ -290,7 +290,7 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=12.2.2026%20Z%C3%A1klady%20krizov%C3%A9%20intervence%20ve%20%C5%A1kole%20pro%20pedagogy&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
-        <LiHand><h4><b>26.3. 2025 <a href="/index.html?home|kurzyss|sswellbeing">Prevence k zátěžovám situacím ve škole (8 hodin)  </a> - přeloženo na 5.5. 2025</b></h4>
+        <LiHand><h4><b>26.3. 2025 <a href="/index.html?home|kurzyss|sswellbeing">Prevence k zátěžovám situacím ve škole (8 hodin)  </a> </b></h4>
           <h4><Label bsStyle="warning">Oblast: Well-being a psychohygiena</Label></h4>
           <p>Cena: 1790 Kč/os, Lektor: Mgr. Dana Forýtková</p>
           <p>Místo konání: online</p>
@@ -346,7 +346,7 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=22.10.%202025%20Modern%C3%AD%20technologie%20pro%20u%C4%8Ditele%20M%C5%A0%3A%20jednodu%C5%A1e%20a%20efektivn%C4%9B&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
-        <LiHand><h4><b>18.11. 2025 <a href="/index.html?home|kurzyii|zsctenarskagramotnost">Čtenářská a informační gramotnost na ZŠ - 8 hodin  </a> přeloženo na duben 2026</b></h4>
+        <LiHand><h4><b>18.11. 2025 <a href="/index.html?home|kurzyii|zsctenarskagramotnost">Čtenářská a informační gramotnost na ZŠ - 8 hodin  </a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Čtenářská gramotnost</Label></h4>
           Cena: 1790 Kč/os, Lektor: Mgr. Dana Forýtková
           <p>Místo konání: online</p>
@@ -747,7 +747,7 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=26.11.%202026%20Gender%20a%20genderov%C3%A1%20tematika%20na%20%C5%A1kol%C3%A1ch%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
-        <LiHand><h4><b>27.11. 2026 <a href="/index.html?home|kurzyss|sskarieroveporadenstvi">Role pedagoga v karierovém poradenství – 8 hodin</a></b> - zrušeno</h4>
+        <LiHand><h4><b>27.11. 2026 <a href="/index.html?home|kurzyss|sskarieroveporadenstvi">Role pedagoga v karierovém poradenství – 8 hodin</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Kariérové poradenství včetně identifikace a rozvoje nadání</Label></h4>
           <p>Cena: 1790 Kč/os, Lektor: Mgr. Dana Forýtková</p>
           <p>Místo konání: online</p>
