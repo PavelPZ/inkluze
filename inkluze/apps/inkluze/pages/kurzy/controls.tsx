@@ -2011,6 +2011,26 @@ var ZSInovace: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
           </div>
         </div>
       </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi4" aria-expanded="false" aria-controls="collapsezi4">Kompetence a gramotnosti v novém ŠVP pro MŠ  </b> (8 hod, určeno pro MŠ)
+        <div className="collapse border rounded " id="collapsezi4">
+          <ul className="list-group">
+            <li className="list-group-item">•	Aktuální legislativní rámec školského zákona, který souvisí s tvorbou, úpravou a efektivním využíváním školních vzdělávacích programů – (0,5hod)</li>
+            <li className="list-group-item">•	Změny vyvolané revizí RVP (MŠMT) pro MŠ - (1,5 hod)</li>
+            <li className="list-group-item">•	 Aktuální úpravy klíčových kompetencí a gramotností v revidovaném ŠVP PV– (4 hod)</li>
+            <li className="list-group-item">•	Vzájemná výměna zkušeností, diskuse – (1 hod)</li>
+          </ul>
+        </div>
+      </LiFile >
+      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi5" aria-expanded="false" aria-controls="collapsezi5">Kompetence, průřezová témata a gramotnosti v novém ŠVP ZV  </b> (8 hod, určeno pro ZŠ)
+        <div className="collapse border rounded " id="collapsezi5">
+          <ul className="list-group">
+            <li className="list-group-item">•	Aktuální legislativní rámec školského zákona, který souvisí s tvorbou, úpravou a efektivním využíváním školních vzdělávacích programů – (0,5 hod)</li>
+            <li className="list-group-item">•	Změny vyvolané revizí RVP ZV (MŠMT) - (1,5 hod)</li>
+            <li className="list-group-item">•	Aktuální úpravy klíčových kompetencí, průřezových témat a gramotností v revidovaném ŠVP ZV– (4 hod)</li>
+            <li className="list-group-item">•	Vzájemná výměna zkušeností, diskuse – (1 hod)</li>
+          </ul>
+        </div>
+      </LiFile >
     </ul>
   </BlockEx>
 </Panel>;
