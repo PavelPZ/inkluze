@@ -384,20 +384,6 @@
 
         */}
 
-        <LiHand><h4><b>25.3. 2026  <a href="/index.html?home|kurzyii|zsinovace">Změny v RVP a úpravy ŠVP v rámci programu InspIS ŠVP (8 hodin)</a></b></h4>
-          <h4><Label bsStyle="warning">Oblast: Inovace ŠVP/koncepce rozvoje školy/školského zařízení</Label></h4>
-          <p>Cena: 1690 Kč/os, Lektor: Bc. Jiří Forýtek</p>
-          <p>Místo konání: online</p>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=25.3.%202026%20%20Zm%C4%9Bny%20v%20RVP%20a%20%C3%BApravy%20%C5%A0VP%20v%20r%C3%A1mci%20programu%20InspIS%20%C5%A0VP%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>tento termín bude speciálně zaměřen na ŠVP pro SŠ</p>
-        </LiHand>
-        <LiHand><h4><b>10.4. 2026 <a href="/index.html?home|kurzyii|zsinkluze">Asistent pedagoga - u žáka se zdravotním postižením - MP, PAS (8 hodin)</a></b></h4>
-          <h4><Label bsStyle="warning">Oblast: Inkluze</Label></h4>
-          <p>Cena: 1690 Kč/os, Lektor: Mgr et Mgr. Dagmar Vilášková</p>
-          <p>Místo konání: online</p>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=10.4.%202026%20Asistent%20pedagoga%20-%20u%20%C5%BE%C3%A1ka%20se%20zdravotn%C3%ADm%20posti%C5%BEen%C3%ADm%20-%20MP%2C%20PAS%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
-        </LiHand>
         <LiHand><h4><b>15.4. 2026 <a href="/index.html?home|kurzyii|ZSCtenarskaGramotnost">Čtenářská a informační gramotnost na ZŠ – 8 hodin</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Čtenářská gramotnost</Label></h4>
           <p>Cena: 1690 Kč/os, Lektor: Mgr. Dana Forýtková</p>
