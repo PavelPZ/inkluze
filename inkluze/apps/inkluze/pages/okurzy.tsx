@@ -381,9 +381,6 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=13.3.%202026%20Zm%C4%9Bny%20v%20revidovan%C3%A9m%20RVP%20ZV%20a%20%C3%BApravy%20%C5%A0VP%20ZV%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>tento termín bude speciálně zaměřen na ŠVP pro ZŠ</p>
         </LiHand>
-
-        */}
-
         <LiHand><h4><b>16.4. 2026 <a href="/index.html?home|kurzyss|sswellbeing">Sebepoškozování (příčiny – řešení – péče o žáka (8 hodin)</a> </b></h4>
           <h4><Label bsStyle="warning">Oblast: Wellbeing a psychohygiena</Label></h4>
           <p>Cena: 1690 Kč/os, Lektor: Mgr et Mgr. Dagmar Vilášková</p>
@@ -398,19 +395,17 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=23.4.%202026%20Wellbeing%2C%20cesta%20k%20harmonizaci%20vztah%C5%AF%20ve%20%C5%A1kole&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
+
+        */}
+
+
+
         <LiHand><h4><b>24.4. 2026 <a href="/index.html?home|kurzyii|ZSCtenarskaGramotnost">Čtenářská a informační gramotnost na ZŠ – 8 hodin</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Čtenářská gramotnost</Label></h4>
           <p>Cena: 1690 Kč/os, Lektor: Mgr. Dana Forýtková</p>
           <p>Místo konání: online</p>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=24.4.%202026%20%C4%8Cten%C3%A1%C5%99sk%C3%A1%20a%20informa%C4%8Dn%C3%AD%20gramotnost%20na%20Z%C5%A0%20%E2%80%93%208%20hodin&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
-        </LiHand>
-        <LiHand><h4><b>24.4. 2026  <a href="/index.html?home|kurzyii|zsinovace">Kompetence a gramotnosti v novém ŠVP pro MŠ (8 hodin)</a> - zrušeno, další termín 22.9. 2026</b></h4>
-          <h4><Label bsStyle="warning">Oblast: Inovace ŠVP/koncepce rozvoje školy/školského zařízení</Label></h4>
-          <p>Cena: 1690 Kč/os, Lektor: Bc. Jiří Forýtek, Mgr. Dana Forýtková</p>
-          <p>Místo konání: online</p>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=24.4.%202026%20Kompetence%20a%20gramotnosti%20v%20nov%C3%A9m%20%C5%A0VP%20pro%20M%C5%A0&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>tento termín bude speciálně zaměřen na ŠVP pro MŠ</p>
         </LiHand>
         <LiHand><h4><b>28.4. 2026 <a href="/index.html?home|kurzyss|ssnovetechnologie">Umělá inteligence ve škole (8 hodin)</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Vzdělání s využitím nových technologií</Label></h4>
@@ -419,14 +414,14 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=28.4.%202026%20Um%C4%9Bl%C3%A1%20inteligence%20ve%20%C5%A1kole&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
-        <LiHand><h4><b>29.4. 2026 <a href="/index.html?home|kurzyss|sswellbeing">Prevence a vyšetřování šikany, kyberšikany a dalšího  rizikového chování  </a></b> </h4>
+        <LiHand><h4><b>29.4. 2026 <a href="/index.html?home|kurzyss|sswellbeing">Prevence a vyšetřování šikany, kyberšikany a dalšího  rizikového chování  </a> – zrušeno, další termín podzim/zima</b> </h4>
           <h4><Label bsStyle="warning">Oblast: Wellbeing a psychohygiena</Label></h4>
           <p>Cena: 1690 Kč/os, Lektor: PaedDr. Ellen Mlátilíková</p>
           <p>Místo konání: online</p>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=29.4.%202026%20%20Prevence%20a%20vy%C5%A1et%C5%99ov%C3%A1n%C3%AD%20%C5%A1ikany%2C%20kyber%C5%A1ikany%20a%20dal%C5%A1%C3%ADho%20%20rizikov%C3%A9ho%20chov%C3%A1n%C3%AD&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
-        <LiHand><h4><b>4.5. 2026  <a href="/index.html?home|kurzyii|zsinovace"> Kompetence, průřezová témata a gramotnosti v novém ŠVP ZV (8 hodin)</a> - zrušeno, další termín 15.10. 202</b></h4>
+        <LiHand><h4><b>4.5. 2026  <a href="/index.html?home|kurzyii|zsinovace"> Kompetence, průřezová témata a gramotnosti v novém ŠVP ZV (8 hodin)</a> - zrušeno, další termín 15.10. 2026</b></h4>
           <h4><Label bsStyle="warning">Oblast: Inovace ŠVP/koncepce rozvoje školy/školského zařízení</Label></h4>
           <p>Cena: 1690 Kč/os, Lektor: Bc. Jiří Forýtek, Mgr. Dana Forýtková</p>
           <p>Místo konání: online</p>
