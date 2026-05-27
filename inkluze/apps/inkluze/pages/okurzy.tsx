@@ -409,9 +409,6 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=29.4.%202026%20%20Prevence%20a%20vy%C5%A1et%C5%99ov%C3%A1n%C3%AD%20%C5%A1ikany%2C%20kyber%C5%A1ikany%20a%20dal%C5%A1%C3%ADho%20%20rizikov%C3%A9ho%20chov%C3%A1n%C3%AD&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
-
-        */}
-
         <LiHand><h4><b>13.5. 2026 <a href="/index.html?home|kurzyss|ssindividualizace">Vedení portfolia žáka jako nástroj formativního hodnocení (8 hodin)</a></b></h4>
           <h4><Label bsStyle="warning">Oblasti: Individualizece vzdělávání a vedení portfolia dítěte/žáka, formativní hodnocen</Label></h4>
           <p>Cena: 1690 Kč/os, Lektor: PaedDr. Ellen Mlátilíková</p>
@@ -426,13 +423,6 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=14.5.%202026%20%20Strukturovan%C3%A9%20u%C4%8Den%C3%AD%20u%20%C5%BE%C3%A1k%C5%AF%20s%20poruchami%20autistick%C3%A9ho%20spektra%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
-        <LiHand><h4><b>27.5. 2026 <a href="/index.html?home|kurzyii|zsspoluprace">Zásady efektivní komunikace s rodiči a zákonnými zástupci (8 hodin)</a></b></h4>
-          <h4><Label bsStyle="warning">Oblasti: Spolupráce s rodiči a zákonnými zástupci dětí a žáků, Inkluze</Label></h4>
-          <p>Cena: 1690 Kč/os, Lektor: PaedDr. Ellen Mlátilíková</p>
-          <p>Místo konání: online</p>
-          <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=27.5.%202026%20Z%C3%A1sady%20efektivn%C3%AD%20komunikace%20s%20rodi%C4%8Di%20a%20z%C3%A1konn%C3%BDmi%20z%C3%A1stupci&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
-          <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
-        </LiHand>
         <LiHand><h4><b>28.5. 2026 <a href="/index.html?home|kurzyii|zsinkluze">Jak se věnovat žákovi s poruchou učení (8 hodin)</a> zrušeno, další termín zima 2027</b></h4>
           <h4><Label bsStyle="warning">Oblast: Inkluze</Label></h4>
           <p>Cena: 1690 Kč/os, Lektor: Mgr et Mgr. Dagmar Vilášková</p>
@@ -440,6 +430,8 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=28.5.%202026%20Jak%20se%20v%C4%9Bnovat%20zakovi%20s%20poruchou%20u%C4%8Den%C3%AD%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
+        */}
+
         <LiHand><h4><b>4.6. 2026  <a href="/index.html?home|kurzyii|zsinkluze">Jak pracovat s nezralým prvňáčkem (8 hodin) </a> zrušeno, další termín 15.10. 2026</b></h4>
           <h4><Label bsStyle="warning">Oblasti: Pedagogická diagnostika</Label></h4>
           <p>Cena: 1690 Kč/os, Lektor: Mgr et Mgr. Dagmar Vilášková</p>
@@ -454,12 +446,19 @@
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=4.6.%202026%20Jak%20zvl%C3%A1dat%20stresov%C3%A9%20situace%20a%20nedosp%C4%9Bt%20k%20vyho%C5%99en%C3%AD%20(8%20hodin)&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
-        <LiHand><h4><b>10.6. 2026 <a href="/index.html?home|kurzyii|zswellbeing">Rozvoj sociálních dovedností žáků v ŠD/ŠK (8 hodin)</a></b></h4>
+        <LiHand><h4><b>10.6. 2026 <a href="/index.html?home|kurzyii|zswellbeing">Rozvoj sociálních dovedností žáků v ŠD/ŠK (8 hodin)</a> přesunuto na 11.6. 2026</b></h4>
           <h4><Label bsStyle="warning">Oblast: Well-being a psychohygiena</Label></h4>
           <p>Cena: 1690 Kč/os, Lektor: Mgr. Dana Forýtková</p>
           <p>Místo konání: online</p>
           <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=10.6.%202026%20Rozvoj%20soci%C3%A1ln%C3%ADch%20dovednost%C3%AD%20%C5%BE%C3%A1k%C5%AF%20v%20%C5%A0D%2F%C5%A0K&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
           <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
+        </LiHand>
+        <LiHand><h4><b>11.6. 2026 <a href="/index.html?home|kurzyii|zswellbeing">Rozvoj sociálních dovedností žáků v ŠD/ŠK (8 hodin)</a></b></h4>
+            <h4><Label bsStyle="warning">Oblast: Well-being a psychohygiena</Label></h4>
+            <p>Cena: 1690 Kč/os, Lektor: Mgr. Dana Forýtková</p>
+            <p>Místo konání: online</p>
+            <p>Pro přihlášení <a href="mailto:projekt@langmaster.cz?subject=11.6.%202026%20Rozvoj%20soci%C3%A1ln%C3%ADch%20dovednost%C3%AD%20%C5%BE%C3%A1k%C5%AF%20v%20%C5%A0D%2F%C5%A0K&body=Va%C5%A1e%20emailov%C3%A1%20adresa%3A%20%0AN%C3%A1zev%20%C5%A1koly%3A%20%0APo%C4%8Det%20p%C5%99ihl%C3%A1%C5%A1en%C3%BDch%20pedagog%C5%AF%3A%20%0APozn%C3%A1mka%3A">klikněte</a> nebo napište email na projekt@langmaster.cz</p>
+            <p>v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny</p>
         </LiHand>
         <LiHand><h4><b>17.9. 2026 <a href="/index.html?home|kurzyii|zsinkluze">Asistent pedagoga ve školní praxi (konkrétní příklady spolupráce s učitelem) (8 hodin)</a></b></h4>
           <h4><Label bsStyle="warning">Oblast: Inkluze</Label></h4>
