@@ -1977,8 +1977,8 @@ var ZSInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
           </ul>
         </div>
       </LiFile >
-      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezi045451" aria-expanded="false" aria-controls="collapsezi045451">Jak pracovat s nezralým prvňáčkem </b>(8 hod, doporučeno pro ZŠ, asistenti pedgoga)
-        <div className="collapse " id="collapsezi045451">
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezi0454510" aria-expanded="false" aria-controls="collapsezi0454510">Jak pracovat s nezralým prvňáčkem </b>(8 hod, doporučeno pro ZŠ, asistenti pedgoga)
+        <div className="collapse " id="collapsezi0454510">
           <ul className="list-group">
             <li className="list-group-item">•	Co je školní nezralost – teorie a praxe (Rozdíl mezi školní zralostí a nezralostí; Oblasti školní zralosti: biologická, psychická, sociální, emoční; Nejčastější projevy nezralosti v 1. ročníku: poruchy pozornosti, nezralá motorika, potíže v sociální interakci, únavnost; Důsledky nezralosti pro adaptaci dítěte ve škole) (2 hod)</li>
             <li className="list-group-item">Praktická podpora nezralého žáka ve výuce (Jak přizpůsobit organizaci dne a výuky potřebám nezralých dětí; Vizuální opory, rytmizace, smysové prvky, přestávky, režimové pomůcky; Spolupráce učitele a asistenta – rozdělení rolí, efektivní podpora; Strategie pro podporu pozornosti, pracovní paměti a seberegulace) (2 hod)</li>
