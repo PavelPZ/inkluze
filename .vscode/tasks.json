@@ -1,0 +1,60 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build inkluze",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy", "Bypass",
+        "-Command",
+        "$MSBuild = & \"${env:ProgramFiles(x86)}\\Microsoft Visual Studio\\Installer\\vswhere.exe\" -latest -products * -requires Microsoft.Component.MSBuild -find MSBuild\\**\\Bin\\MSBuild.exe; & \"$MSBuild\" \"${workspaceFolder}\\inkluze\\inkluze.csproj\" /t:Build /p:Configuration=Debug"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": "$msCompile",
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared",
+        "clear": true
+      }
+    },
+    {
+      "label": "run inkluze iisexpress",
+      "type": "shell",
+      "command": "C:\\Program Files\\IIS Express\\iisexpress.exe",
+      "args": [
+        "/path:${workspaceFolder}\\inkluze",
+        "/port:8080"
+      ],
+      "isBackground": true,
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "build + run inkluze",
+      "dependsOrder": "sequence",
+      "dependsOn": [
+        "build inkluze",
+        "run inkluze iisexpress"
+      ]
+    },
+    {
+      "label": "stop iisexpress",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-NoProfile",
+        "-Command",
+        "Get-Process iisexpress -ErrorAction SilentlyContinue | Stop-Process -Force"
+      ],
+      "problemMatcher": []
+    }
+  ]
+}

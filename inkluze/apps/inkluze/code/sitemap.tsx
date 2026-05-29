@@ -3,6 +3,7 @@
     akreditace: site.INode;
     //dalsi: site.INode;
     okurzy: site.INode;
+    adminkurzy: site.INode;
     kurzyss: ISiteKurzySS;
     kurzyii: ISiteKurzyII;
     onas: site.INode;
@@ -67,7 +68,7 @@
   export var tabs: ITabs;
 
   export function bootApp() {
-    site.root = root = {
+    root = {
       id: 'home',
       title: ' ',
       brTitle: 'DVPP',
@@ -277,13 +278,19 @@
       },
       okurzy: {
         id: 'okurzy',
-        createPage: par => <Okurzy />
+        createPage: par => <OkurzyPage />
+      },
+      adminkurzy: {
+        id: 'adminkurzy',
+        title: 'Administrace termínů',
+        createPage: par => <AdminKurzyPage />
       },
       onas: {
         id: 'onas',
         createPage: par => <Onas />
       },
-    };
+    } as ISiteRoot;
+    site.root = root;
     site.tabs = tabs = {
       home: {
         title: 'DVPP',

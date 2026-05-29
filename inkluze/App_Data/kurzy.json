@@ -1,0 +1,88 @@
+﻿{
+  "courseTemplates": [
+    {
+      "id": "nezraly-prvnacek",
+      "title": "Jak pracovat s nezralým prvňáčkem (8 hodin)",
+      "courseLink": "/index.html?home|kurzyii|zsinkluze",
+      "area": "Pedagogická diagnostika",
+      "defaultPrice": "1690 Kč/os",
+      "lecturer": "Mgr et Mgr. Dagmar Vilášková",
+      "location": "online",
+      "defaultNote": "v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny"
+    },
+    {
+      "id": "stres-a-vyhoreni",
+      "title": "Jak zvládat stresové situace a nedospět k vyhoření (8 hodin)",
+      "courseLink": "/index.html?home|kurzyii|zswellbeing",
+      "area": "Wellbeing a psychohygiena",
+      "defaultPrice": "1690 Kč/os",
+      "lecturer": "Mgr. Jana Soukupová",
+      "location": "online",
+      "defaultNote": "v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny"
+    },
+    {
+      "id": "asistent-pedagoga-praxe",
+      "title": "Asistent pedagoga ve školní praxi (konkrétní příklady spolupráce s učitelem) (8 hodin)",
+      "courseLink": "/index.html?home|kurzyii|zsinkluze",
+      "area": "Inkluze",
+      "defaultPrice": "1790 Kč/os",
+      "lecturer": "Mgr et Mgr. Dagmar Vilášková",
+      "location": "online",
+      "defaultNote": "v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny"
+    },
+    {
+      "id": "kurz-1779886454054",
+      "title": "Nový kurz test",
+      "courseLink": "/index.html?home|kurzyii|zsinkluze",
+      "area": "Inkluze",
+      "defaultPrice": "1790 Kč/os",
+      "lecturer": "bla bla",
+      "location": "online",
+      "defaultNote": "v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny",
+      "isArchived": false
+    }
+  ],
+  "courseRuns": [
+    {
+      "id": "run-2026-06-04-nezraly",
+      "templateId": "nezraly-prvnacek",
+      "date": "2026-06-04",
+      "dateLabel": "4.6. 2026",
+      "detailNote": "zrušeno, další termín 15.10. 2026",
+      "isPublished": true,
+      "signupEnabled": false
+    },
+    {
+      "id": "run-2026-10-15-nezraly",
+      "templateId": "nezraly-prvnacek",
+      "date": "2026-10-15",
+      "dateLabel": "15.10. 2026",
+      "isPublished": true,
+      "priceOverride": "1790 Kč/os",
+      "signupEnabled": true
+    },
+    {
+      "id": "run-2026-06-04-stres",
+      "templateId": "stres-a-vyhoreni",
+      "date": "2026-06-04",
+      "dateLabel": "4.6. 2026",
+      "isPublished": true,
+      "signupEnabled": true
+    },
+    {
+      "id": "run-2026-09-17-asistent",
+      "templateId": "asistent-pedagoga-praxe",
+      "date": "2026-09-17",
+      "dateLabel": "17.9. 2026",
+      "isPublished": true,
+      "signupEnabled": true
+    },
+    {
+      "id": "run-1779886479786",
+      "templateId": "kurz-1779886454054",
+      "date": "2026-12-01",
+      "isPublished": true,
+      "signupEnabled": true
+    }
+  ]
+}
