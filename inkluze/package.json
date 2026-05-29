@@ -1,0 +1,16 @@
+{
+  "name": "inkluze-web",
+  "private": true,
+  "scripts": {
+    "build:lib": "tsc -p ../Lib/tsconfig.json",
+    "build:app": "tsc -p tsconfig.json",
+    "build": "npm run build:lib && npm run build:app",
+    "watch:app": "tsc -p tsconfig.json --watch"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

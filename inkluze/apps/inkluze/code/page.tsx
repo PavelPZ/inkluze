@@ -1,4 +1,4 @@
-﻿var Page: React.StatelessComponent<lib.IComponentProps> = (props: lib.IComponentProps, ctx: sitemapRouter.IContext) => {
+var Page: React.StatelessComponent<lib.IComponentProps> = (props: lib.IComponentProps, ctx: sitemapRouter.IContext) => {
   //breadcrumb
   var bcItems = site.nodeParents(ctx.site, true);
   var noBreadcrumb = true; //bcItems.length == 0;
@@ -52,7 +52,7 @@
     <nav className="topbar navbar navbar-inverse">
       <div className="container">
         <div className="navbar-header">
-          <a href="http://localhost:49803/index.html" className={classNames('navbar-brand', 'lm-logo', 'lm-logo-black' + (ctx.site.largeLogo ? '' : '-small'))}></a>
+          <a href="/index.html" className={classNames('navbar-brand', 'lm-logo', 'lm-logo-black' + (ctx.site.largeLogo ? '' : '-small'))}></a>
         </div>
         <ul className="nav navbar-nav">
           <li>
@@ -104,7 +104,7 @@
           </Col>
         </Row>
       </Grid>
-      <p className="text-center">Copyright 2025 LANGMaster.com, s.r.o.</p>
+      <p className="text-center">Copyright 2026 LANGMaster.com, s.r.o.</p>
     </Block>
   </div>
 }

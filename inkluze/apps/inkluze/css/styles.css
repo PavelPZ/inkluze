@@ -307,6 +307,9 @@
 .white-link:hover {
   color: white;
 }
+.m-3 {
+  margin: 1rem;
+}
 .course-header a {
   text-decoration: none;
 }

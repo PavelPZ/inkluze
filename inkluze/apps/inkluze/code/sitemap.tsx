@@ -1,4 +1,4 @@
-﻿namespace inkluze {
+namespace inkluze {
   export interface ISiteRoot extends site.INode {
     akreditace: site.INode;
     //dalsi: site.INode;

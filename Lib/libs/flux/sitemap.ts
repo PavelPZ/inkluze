@@ -1,4 +1,4 @@
-﻿namespace site {
+namespace site {
 
   export interface INode {
     id: string | number;

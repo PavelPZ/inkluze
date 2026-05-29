@@ -1,4 +1,4 @@
-﻿const popups = {
+const popups = {
   vyzva: <Popup document='vyzva' page={1} header='Výzva'>
     <div>
       <p>

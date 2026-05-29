@@ -1,4 +1,4 @@
-﻿namespace validation {
+namespace validation {
 
   export interface IValidPars {
     type: types;

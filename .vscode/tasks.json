@@ -2,6 +2,23 @@
   "version": "2.0.0",
   "tasks": [
     {
+      "label": "build inkluze (tsc)",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-NoProfile",
+        "-Command",
+        "cd '${workspaceFolder}\\inkluze'; if (Test-Path node_modules) { npm run build } else { tsc -p tsconfig.json; tsc -p ..\\Lib\\tsconfig.json }"
+      ],
+      "group": "build",
+      "problemMatcher": "$tsc",
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared",
+        "clear": true
+      }
+    },
+    {
       "label": "build inkluze",
       "type": "shell",
       "command": "powershell",

@@ -1,4 +1,4 @@
-﻿interface IRenderedCourse {
+interface IRenderedCourse {
   date: string;
   dateLabel: string;
   detailNote?: string;

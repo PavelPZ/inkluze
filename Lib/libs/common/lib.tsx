@@ -1,4 +1,4 @@
-﻿namespace lib {
+namespace lib {
   export class Exception extends Error {
     constructor(msg: string) {
       super(msg);

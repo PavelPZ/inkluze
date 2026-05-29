@@ -1,4 +1,4 @@
-﻿const Button = ReactBootstrap.Button; 
+const Button = ReactBootstrap.Button; 
 const Navbar = ReactBootstrap.Navbar; 
 const Nav = ReactBootstrap.Nav; 
 const NavItem = ReactBootstrap.NavItem; 

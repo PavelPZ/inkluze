@@ -1,4 +1,4 @@
-﻿/// <reference path="controls.tsx"/>
+/// <reference path="controls.tsx"/>
 /// <reference path="page.tsx"/>
 
 /// <reference path="../pages/popups.tsx"/>

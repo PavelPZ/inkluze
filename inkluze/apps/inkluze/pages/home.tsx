@@ -1,4 +1,4 @@
-﻿var Home: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div>
+var Home: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div>
   <Page>
     <div>
       <Block blue style={{ paddingBottom: '10px' }}>

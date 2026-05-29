@@ -1,1 +1,1 @@
-﻿declare function classNames(...pars: any[]);
+declare function classNames(...pars: any[]);

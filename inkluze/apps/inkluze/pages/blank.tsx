@@ -1,4 +1,4 @@
-﻿var BlankPage: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => {
+var BlankPage: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => {
   var childIdx = 0;
   return <Page>
     <Block>

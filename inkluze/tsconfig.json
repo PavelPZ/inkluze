@@ -5,6 +5,7 @@
   "compileOnSave": true,
   "compilerOptions": {
     "target": "es5",
+    "lib": ["es2015", "dom"],
     "module": "none",
     //"moduleResolution": "node",
     "emitDecoratorMetadata": true,
@@ -15,7 +16,8 @@
     "outFile": "apps/inkluze.js",
     "inlineSourceMap": true,
     "inlineSources": true,
-    "jsx": "react"
+    "jsx": "react",
+    "skipLibCheck": true
   }
 
 }

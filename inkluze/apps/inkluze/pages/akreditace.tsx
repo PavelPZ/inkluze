@@ -1,4 +1,4 @@
-﻿namespace inkluze {
+namespace inkluze {
 
   export function createQA(question: JSX.Element | string, answer: JSX.Element | string): JSX.Element {
     return <QA question={question} answer={answer} idx={qcnt++} key={qcnt}/>;

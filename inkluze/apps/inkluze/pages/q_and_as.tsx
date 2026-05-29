@@ -1,4 +1,4 @@
-﻿const qas = [
+const qas = [
   inkluze.createQA(
     <span>Akreditace 8 hodinových kurzů DVPP byly od března 2025 zrušeny</span>,
     <div style={{ marginTop: 10 }}>

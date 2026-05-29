@@ -1,4 +1,4 @@
-﻿var KurzySS: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => {
+var KurzySS: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => {
   var allSSLoaders = getSSLoaders();
   var actId = (ctx.site.id as string).toLowerCase();
   return <div>

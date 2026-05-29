@@ -1,4 +1,4 @@
-﻿namespace sitemapRouter {
+namespace sitemapRouter {
 
   export var childContextTypes: React.ValidationMap<any> = {
     site: React.PropTypes.object,
@@ -43,7 +43,13 @@
     sitemapCreator();
     site.bootApp();
     var startRoute = router.bootApp();
-    ReactDOM.render(<AppRootComponent initRoute={ startRoute } />, content);
+    var element = <AppRootComponent initRoute={ startRoute } />;
+    var createRootFn = (ReactDOM as any).createRoot;
+    if (createRootFn) {
+      createRootFn(content).render(element);
+    } else {
+      ReactDOM.render(element, content);
+    }
   }
 
   export interface IContext {

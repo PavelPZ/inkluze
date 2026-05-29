@@ -1,4 +1,4 @@
-﻿namespace services.emailer {
+namespace services.emailer {
   export interface sendEmailIN {
     from: string;
     to: string; //e.g. "Josef Novak"<josef@lm.cz>,"Jana K"<jana@lm.cz>

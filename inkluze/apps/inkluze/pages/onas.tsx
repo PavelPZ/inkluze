@@ -1,4 +1,4 @@
-﻿var Onas: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div>
+var Onas: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <div>
   <Page>
     <BlockEx header='Akreditace vzdělávací instituce'>
       <div className='alert alert-warning' style={{ fontSize: '18px' }}>

@@ -1,4 +1,4 @@
-﻿//declare namespace __React {
+//declare namespace __React {
 //  interface CSSProperties {
 //    flexWrap?: string;
 //  }

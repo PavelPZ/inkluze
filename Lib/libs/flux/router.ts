@@ -1,4 +1,4 @@
-﻿namespace router {
+namespace router {
 
   //difotni route pro pripad, ze je URL prazdna
   export var getStartRoute: () => TRouteActionPar;

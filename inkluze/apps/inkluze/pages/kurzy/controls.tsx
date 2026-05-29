@@ -1,4 +1,4 @@
-﻿const headerCss: React.CSSProperties = { textDecoration: 'underline', cursor: 'pointer' };
+const headerCss: React.CSSProperties = { textDecoration: 'underline', cursor: 'pointer' };
 
 interface IKurzProps { defaultExpanded: boolean; title: string; }
 
@@ -6,8 +6,8 @@ var SSPedagogickaDiagnostika: React.StatelessComponent<IKurzProps> = (props: IKu
   <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesped1" aria-expanded="false" aria-controls="collapsesped1">Sociální klima třídy a pedagogická diagnostika učitele
+    <h4><span className="label label-warning">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesped1" aria-expanded="false" aria-controls="collapsesped1">Sociální klima třídy a pedagogická diagnostika učitele
       </b>(8 hod, doporučeno pro SŠ, VOŠ, MŠ, ZŠ, asistenti)
         <div className="collapse border rounded " id="collapsesped1">
           <div className="m-3">
@@ -30,7 +30,7 @@ var SSPedagogickaDiagnostika: React.StatelessComponent<IKurzProps> = (props: IKu
           </div>
         </div>
       </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesped3" aria-expanded="false" aria-controls="collapsesped3">Kázeňské přestupky a možnosti jejich řešení v rámci třídy
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesped3" aria-expanded="false" aria-controls="collapsesped3">Kázeňské přestupky a možnosti jejich řešení v rámci třídy
       </b>(8 hod, doporučeno pro MŠ, ZŠ, ŠD, SŠ, DM, asistenti, výchovní poradci, speciální pedagogové, psychologové)
         <div className="collapse " id="collapsesped3">
           <ul className="list-group">
@@ -48,8 +48,8 @@ var SSInovace: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
   <h3><Label bsStyle="warning">8</Label> <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesi123" aria-expanded="false" aria-controls="collapsesi123">Změny v RVP a úpravy ŠVP v rámci programu InspIS ŠVP
+    <h4><span className="label label-warning">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesi123" aria-expanded="false" aria-controls="collapsesi123">Změny v RVP a úpravy ŠVP v rámci programu InspIS ŠVP
       </b> (8 hod, doporučeno pro MŠ, ZŠ, ZUŠ, SŠ, VOŠ)
         <div className="collapse " id="collapsesi123">
           <ul className="list-group">
@@ -88,7 +88,7 @@ var SSInovace: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
           </ul>
         </div>
       </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesin1" aria-expanded="false" aria-controls="collapsesin1">Změny v RVP a úpravy ŠVP
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesin1" aria-expanded="false" aria-controls="collapsesin1">Změny v RVP a úpravy ŠVP
       </b>(8 hod, doporučeno pro SŠ, VOŠ, MŠ, ZŠ, ZUŠ)
         <div className="collapse " id="collapsesin1"><ul className="list-group"><li className="list-group-item">•	Aktuální legislativní rámec školského zákona, který souvisí s tvorbou, úpravou a efektivním využíváním školních vzdělávacích programů  – (2 hod)</li>
           <li className="list-group-item">•	Změny vyvolané revizí RVP (MŠMT)  - (2 hod)</li>
@@ -97,7 +97,7 @@ var SSInovace: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
           <li className="list-group-item">•	Vzájemná výměna zkušeností, diskuse  – (1 hod)</li>
         </ul></div>
       </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesin3" aria-expanded="false" aria-controls="collapsesin3">Úpravy ŠVP v rámci programu InspIS ŠVP
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesin3" aria-expanded="false" aria-controls="collapsesin3">Úpravy ŠVP v rámci programu InspIS ŠVP
       </b>(8 hod, doporučeno pro SŠ, VOŠ, MŠ, ZŠ, ZUŠ)
        <div className="collapse border rounded " id="collapsesin3">
           <div className="m-3">
@@ -122,8 +122,8 @@ var SSSpoluprace: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
   <h3><Label bsStyle="warning">8</Label> <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsessp1" aria-expanded="true" aria-controls="collapsessp1">Zásady efektivní komunikace s rodiči a zákonnými zástupci
+    <h4><span className="label label-warning">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsessp1" aria-expanded="true" aria-controls="collapsessp1">Zásady efektivní komunikace s rodiči a zákonnými zástupci
       </b>(8 hod, doporučeno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, DM, asistenti)
         <div className="collapse.show" id="collapsessp1">
           <ul className="list-group">
@@ -147,8 +147,8 @@ var SSCtenarskaGramotnost: React.StatelessComponent<IKurzProps> = (props: IKurzP
   <h3><Label bsStyle="warning">8</Label> <Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsescg1" aria-expanded="false" aria-controls="collapsescg1">Čtenářská gramotnost napříč všemi předměty SŠ a VOŠ  – 8 hod
+    <h4><span className="label label-warning">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsescg1" aria-expanded="false" aria-controls="collapsescg1">Čtenářská gramotnost napříč všemi předměty SŠ a VOŠ  – 8 hod
       </b>(8 hod, doporučeno pro SŠ, VOŠ)
         <div className="collapse border rounded " id="collapsescg1">
           <div className="m-3">
@@ -164,7 +164,7 @@ var SSCtenarskaGramotnost: React.StatelessComponent<IKurzProps> = (props: IKurzP
             Diskuse nad konkrétními problémy.<br />
           </div></div>
       </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsescg2" aria-expanded="false" aria-controls="collapsescg2">Čtenářská gramotnost napříč všemi předměty SŠ a VOŠ – 16
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsescg2" aria-expanded="false" aria-controls="collapsescg2">Čtenářská gramotnost napříč všemi předměty SŠ a VOŠ – 16
       </b>(16 hod, doporučeno pro SŠ, VOŠ)
          <div className="collapse border rounded " id="collapsescg2">
           <div className="m-3">
@@ -191,7 +191,7 @@ var SSCtenarskaGramotnost: React.StatelessComponent<IKurzProps> = (props: IKurzP
           </div>
         </div>
       </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsescg3" aria-expanded="false" aria-controls="collapsescg3">Čtenářství napříč výukou SŠ – 8 hodin
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsescg3" aria-expanded="false" aria-controls="collapsescg3">Čtenářství napříč výukou SŠ – 8 hodin
 </b>(8 hod, doporučeno pro SŠ, VOŠ)
         <div className="collapse " id="collapsescg3"><ul className="list-group">
           <li className="list-group-item">•	Šifrování (1 hod)</li>
@@ -209,8 +209,8 @@ var SSMatematickaGramotnost: React.StatelessComponent<IKurzProps> = (props: IKur
   <h3><Label bsStyle="warning">8</Label>  <Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesmg1" aria-expanded="false" aria-controls="collapsesmg1">GeoGebra - nástroj rozvoje matematické gramotnosti na SŠ
+    <h4><span className="label label-warning">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesmg1" aria-expanded="false" aria-controls="collapsesmg1">GeoGebra - nástroj rozvoje matematické gramotnosti na SŠ
       </b>(8 hod, doporučeno pro SŠ, VOŠ)
         <div className="collapse border rounded " id="collapsesmg1">
           <div className="m-3">
@@ -230,7 +230,7 @@ var SSMatematickaGramotnost: React.StatelessComponent<IKurzProps> = (props: IKur
         </div>
       </LiFile>
       <LiFile>
-        <b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesmg11" aria-expanded="false" aria-controls="collapsesmg11">Moderní technologie při rozvoji matematické gramotnosti 
+        <b type="button" data-toggle="collapse" data-target="#collapsesmg11" aria-expanded="false" aria-controls="collapsesmg11">Moderní technologie při rozvoji matematické gramotnosti 
       </b>(8 hod, doporučeno pro ZŠ, SŠ, VOŠ)
           <div className="collapse " id="collapsesmg11">
           <ul className="list-group">
@@ -241,7 +241,7 @@ var SSMatematickaGramotnost: React.StatelessComponent<IKurzProps> = (props: IKur
             <li className="list-group-item">• Použití programu Formulator Tarsia pro tvorbu domin, triomin a jiných her vhodných k oživení procvičovaného učiva (1 hodina)</li>
         </ul></div>
       </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesmg2" aria-expanded="false" aria-controls="collapsesmg2">Moderní technologie ve výuce (nejen) matematiky na SŠ a VOŠ
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesmg2" aria-expanded="false" aria-controls="collapsesmg2">Moderní technologie ve výuce (nejen) matematiky na SŠ a VOŠ
       </b>(16 hod, doporučeno pro SŠ, VOŠ)
         <div className="collapse " id="collapsesmg2"><ul className="list-group"><li className="list-group-item">•	Principy využití moderních technologií; seznámení s problematikou nasazení výukových technologií do výuky (pozitiva, negativa a rizika nasazení) (1 hodina)</li>
           <li className="list-group-item">•	Seznámení s úložišti již hotových materiálů, které je možno rovnou využít ve výuce (bez vlastní tvorby) a různými webovými stránkami s videi, texty i jinými materiály, které je možné vhodně využít nejen k podpoře rozvoje matematické gramotnosti (0, 5 hodin)</li>
@@ -263,7 +263,7 @@ var SSMatematickaGramotnost: React.StatelessComponent<IKurzProps> = (props: IKur
           <li className="list-group-item">•	Diskuse nad konkrétními problémy v nasazení technologií na SŠ (1 hodina)</li>
         </ul></div>
       </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesmg3" aria-expanded="false" aria-controls="collapsesmg3">Jak na distanční výuku matematiky?
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesmg3" aria-expanded="false" aria-controls="collapsesmg3">Jak na distanční výuku matematiky?
 </b>(8 hod, doporučeno pro SŠ, VOŠ, ZŠ)
           <div className="collapse " id="collapsesmg3"><ul className="list-group"><li className="list-group-item">•	Software využitelný při on-line výuce (2 hodiny)</li>
           <li className="list-group-item">•	Využití webových stránek sloužící k výuce on-line (1 hodina)</li>
@@ -280,8 +280,8 @@ var SSPodporaUcitelu: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
   <h3><Label bsStyle="warning">8</Label> <Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsespu1" aria-expanded="false" aria-controls="collapsespu1">Mentorské dovednosti–úvod do problematiky principů mentoringu
+    <h4><span className="label label-warning">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsespu1" aria-expanded="false" aria-controls="collapsespu1">Mentorské dovednosti–úvod do problematiky principů mentoringu
       </b>(8 hod, doporučeno pro SŠ, MŠ, ZŠ, ZUŠ, ředitelé, zástupci, management)
         <div className="collapse border rounded " id="collapsespu1">
           <div className="m-3">
@@ -301,7 +301,7 @@ var SSPodporaUcitelu: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
           </div>
         </div>
       </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsespu2" aria-expanded="false" aria-controls="collapsespu2">Mentorské dovednosti učitele
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsespu2" aria-expanded="false" aria-controls="collapsespu2">Mentorské dovednosti učitele
       </b>(16 hod, doporučeno pro SŠ, MŠ, ZŠ, ZUŠ, ředitelé, zástupci, management)
         <div className="collapse border rounded " id="collapsespu2">
           <div className="m-3">
@@ -335,7 +335,7 @@ var SSPodporaUcitelu: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
             Na základě získaných informaci a po absolvování praktických bloků semináře, které jsou zaměřeny na sebereflexi účastníka v roli mentora, se budou moci absolventi rozhodnout, zda se pro práci poradce = mentora hodí. Současně získají zpětnou vazbu pro oblasti, ve kterých by se měli, v rámci přípravy pro tuto pozici dále vzdělávat.<br />
           </div></div>
       </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsespu3" aria-expanded="false" aria-controls="collapsespu3">Moderní trendy ve vedení lidí – Mentoring
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsespu3" aria-expanded="false" aria-controls="collapsespu3">Moderní trendy ve vedení lidí – Mentoring
 </b>(24 hod, doporučeno pro SŠ, MŠ, ZŠ, ZUŠ, ředitelé, zástupci, management)
          <div className="collapse border rounded " id="collapsespu3">
           <div className="m-3">
@@ -388,8 +388,8 @@ var SSMedGramotnost: React.StatelessComponent<IKurzProps> = (props: IKurzProps, 
   <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsessm1" aria-expanded="false" aria-controls="collapsessm1">Funkce a nástrahy internetu, kyberšikana a sociální sítě</b> (8 hod, doporučeno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ZUŠ, asistenti)
+    <h4><span className="label label-warning">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsessm1" aria-expanded="false" aria-controls="collapsessm1">Funkce a nástrahy internetu, kyberšikana a sociální sítě</b> (8 hod, doporučeno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ZUŠ, asistenti)
         <div className="collapse.show" id="collapsessm1">
           <ul className="list-group">
             <li className="list-group-item">•	<b>Vznik a funkce internetu</b> – vznik internetu, fungování internetu, vyhledávání na internetu, rozdíl mezi internetovým vyhledavačem a prohlížečem, nástrahy internetu a bezpečné chování na internetu (2,5 hod)</li>
@@ -409,9 +409,9 @@ var SSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
   <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
   <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>
+    <h4><span className="label label-warning">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>
     <ul className='fa-ul'>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseznt0010" aria-expanded="false" aria-controls="collapseznt0010">Umělá inteligence ve škole
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapseznt0010" aria-expanded="false" aria-controls="collapseznt0010">Umělá inteligence ve škole
       </b> (doporučeno pro ZŠ,SŠ, VOŠ)
         <div className="collapse " id="collapseznt0010">
           <p>Obsah semináře je zaměřen na konkrétní aplikace umělé inteligence, které jsou použitelné zdarma a mohou okamžitě přinést praktický užitek ve školním prostředí. Účastníci se naučí, jak pomocí AI vytvořit materiály pro výuku, jak AI začlenit do výuky nebo jak si s AI zjednodušit administrativní procesy.</p>
@@ -425,7 +425,7 @@ var SSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
             <li className="list-group-item">•	automatizace hodnocení a zpětné vazby pomocí AI.</li>
           </ul></div>
       </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt50" aria-expanded="false" aria-controls="collapsesnt50">Využití ICT ve výuce - náměty a inspirace pro praxi
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesnt50" aria-expanded="false" aria-controls="collapsesnt50">Využití ICT ve výuce - náměty a inspirace pro praxi
       </b> (8 hod, doporučeno pro ZŠ, SŠ, VOŠ)
         <div className="collapse " id="collapsesnt50">
           <p>Vzdělávací program je zaměřen na využití moderních technologií ve výuce. Semináře je zaměřen jak na obecnější principy využití moderních technologií, tak na využití konkrétních programů, webových stránek a aplikací vhodných pro podporu výuky.Účastníci se seznámí s metodami a postupy, které zdokonalují výklad učiva a zároveň žáky motivují. Pracovat se bude v duchu konstruktivistické pedagogiky.Programy, aplikace a webové stránky jsou voleny tak, aby jejich užití bylo pro školu zdarma (bez kupování licencí).</p>
@@ -438,7 +438,7 @@ var SSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
             <li className="list-group-item">•	Příklady různých aplikací, programů či webových stránek s hrami, videi, texty i jinými materiály, které je možné vhodně využít při výuce</li>
           </ul></div>
       </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt2" aria-expanded="false" aria-controls="collapsesnt2">Různé metody pro využití ICT technologií ve škole
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesnt2" aria-expanded="false" aria-controls="collapsesnt2">Různé metody pro využití ICT technologií ve škole
       </b>        (8 hod, doporučeno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ZUŠ, asistenti)
         <div className="collapse " id="collapsesnt2">
           <ul className="list-group">
@@ -452,7 +452,7 @@ var SSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
 
       </LiFile>
       <LiFile>
-        <b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt3" aria-expanded="false" aria-controls="collapsesnt3">Inspirace pro využití interaktivních tabulí ve škole</b> (8 hod, doporučeno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ZUŠ, asistenti)
+        <b type="button" data-toggle="collapse" data-target="#collapsesnt3" aria-expanded="false" aria-controls="collapsesnt3">Inspirace pro využití interaktivních tabulí ve škole</b> (8 hod, doporučeno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ZUŠ, asistenti)
          <div className="collapse " id="collapsesnt3">
           <ul className="list-group">
             <li className="list-group-item">•	<b>Interaktivní tabule a její využití</b>  - využití interaktivních učebnic, on-line cvičení, webové portály vhodné k práci na interaktivní tabuli (1 hod)</li>
@@ -465,7 +465,7 @@ var SSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
 
       </LiFile>
       <LiFile>
-        <b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt4" aria-expanded="false" aria-controls="collapsesnt4">Práce s dotykovými zařízeními ve škole </b>(8 hod, doporučeno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ZUŠ, asistenti)
+        <b type="button" data-toggle="collapse" data-target="#collapsesnt4" aria-expanded="false" aria-controls="collapsesnt4">Práce s dotykovými zařízeními ve škole </b>(8 hod, doporučeno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ZUŠ, asistenti)
          <div className="collapse " id="collapsesnt4">
           <ul className="list-group">
             <li className="list-group-item">•	<b>Seznámení s dotykovými zařízeními</b> – obecné prvky práce s dotykovými zařízeními, rozdělení dotykových zařízení, různé platformy dotykových zařízení (android, Windows, iOS…) (2 hod)</li>
@@ -475,7 +475,7 @@ var SSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
           </ul></div>
 
       </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt5" aria-expanded="false" aria-controls="collapsesnt5">Využití ICT ve škole
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesnt5" aria-expanded="false" aria-controls="collapsesnt5">Využití ICT ve škole
       </b>(8 hod, doporučeno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ZUŠ, asistenti)
          <div className="collapse " id="collapsesnt5"><ul className="list-group"><li className="list-group-item">•	Seznámení s problematikou nasazení výukových technologií školního prostředí (pozitiva, negativa a rizika nasazení se kterými je třeba počítat) (1 hodina)</li>
           <li className="list-group-item">•	Rozbor dosavadně používaných programů a aplikací účastníků (1 hodina)</li>
@@ -485,7 +485,7 @@ var SSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
           <li className="list-group-item">•	Typy pro vyhledávání materiálů na internetu (1 hodina)</li>
         </ul></div>
       </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt6" aria-expanded="false" aria-controls="collapsesnt6">Efektivní využití LibreOffice ve škole
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesnt6" aria-expanded="false" aria-controls="collapsesnt6">Efektivní využití LibreOffice ve škole
       </b>(8 hod, doporučeno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ZUŠ, asistenti)
         <div className="collapse " id="collapsesnt6">
           <ul className="list-group">
@@ -496,7 +496,7 @@ var SSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
           </ul></div>
 
       </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt7" aria-expanded="false" aria-controls="collapsesnt7">Efektivní využití Google dokumentů ve škole
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesnt7" aria-expanded="false" aria-controls="collapsesnt7">Efektivní využití Google dokumentů ve škole
       </b>(8 hod, doporučeno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ZUŠ, asistenti)
            <div className="collapse " id="collapsesnt7"><ul className="list-group"><li className="list-group-item">•	<b>Dokumenty </b> – formátování písma, odstavců, textu, vícestránkové dokumenty, vkládání a úprava textů z internetu, záhlaví, zápatí, styly, vkládání obrázků a nákresů do textu, práce s tabulkou, speciálními znaky, hlasové zadávání, rozšíření znalostí klávesových zkratek (3 hodiny)</li>
           <li className="list-group-item">•	<b>Tabulky </b> – seznámení s prostředím tabulek, formátování buněk, tabulek, vytváření vlastních řad, vzorce a funkce se zaměřením na praktické využití při evidenci dat i při výuce (2 hodiny)</li>
@@ -505,7 +505,7 @@ var SSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
         </ul></div>
 
       </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt8" aria-expanded="false" aria-controls="collapsesnt8">Distanční výuka – formy a metody práce s žáky on-line
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesnt8" aria-expanded="false" aria-controls="collapsesnt8">Distanční výuka – formy a metody práce s žáky on-line
       </b>(8 hod, doporučeno pro SŠ, VOŠ, ZŠ, ZUŠ)
          <div className="collapse " id="collapsesnt8"><ul className="list-group">
           <li className="list-group-item">•	<b>Programy využitelné při on-line výuce </b> - Skype, Jitsi Meet, Zoom, MS Teams a další (2 hod)</li>
@@ -516,7 +516,7 @@ var SSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
         </ul></div>
 
       </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt9" aria-expanded="false" aria-controls="collapsesnt9">Jak na distanční výuku?
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesnt9" aria-expanded="false" aria-controls="collapsesnt9">Jak na distanční výuku?
       </b>(8 hod, doporučeno pro SŠ, VOŠ, ZŠ, ZUŠ)
         <div className="collapse " id="collapsesnt9"><ul className="list-group"><li className="list-group-item">•	Software využitelný při on-line výuce (2 hodiny)</li>
           <li className="list-group-item">•	Využití webových stránek sloužící k výuce on-line (1 hodina)</li>
@@ -526,7 +526,7 @@ var SSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
         </ul></div>
 
       </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Efektivní využití MS Office pro pedagogy – 8 hodin</b>        (8 hod, doporučeno pro SŠ, VOŠ, ZŠ)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Efektivní využití MS Office pro pedagogy – 8 hodin</b>        (8 hod, doporučeno pro SŠ, VOŠ, ZŠ)
         <div className="collapse " id="collapsesnt1">
           <ul className="list-group">
             <li className="list-group-item">•	<b>Seznámení s programem – demonstrace úpravy prostředí Windows</b> - přizpůsobení pracovní plochy, nastavení hlavního panelu, možnosti zobrazení ikon a představení prostřední MS Office z pohledu zefektivnění práce s jednotlivými programy, využití panelu rychlých nástrojů, přizpůsobení pásu karet, nastavení stavového řádku, karta zobrazení (0, 5 hod)</li>
@@ -536,7 +536,7 @@ var SSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
           </ul>
         </div>
       </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt10" aria-expanded="false" aria-controls="collapsesnt10">Základy práce s MS Office a jejich využití na školách
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesnt10" aria-expanded="false" aria-controls="collapsesnt10">Základy práce s MS Office a jejich využití na školách
       </b>(8 hod, doporučeno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)
         <div className="collapse " id="collapsesnt10">
           <ul className="list-group"><li className="list-group-item">•	<b>MS Office 365 </b> – představení prostřední MS Office 365 z pohledu zefektivnění práce (1,5 hod)</li>
@@ -554,9 +554,9 @@ var SSRozvojPodnikavosti: React.StatelessComponent<IKurzProps> = (props: IKurzPr
   <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
   <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+    <h4><span className="label label-warning">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
       <LiFile>
-        <b type="button" data-bs-toggle="collapse" data-bs-target="#collapsessrp1" aria-expanded="false" aria-controls="collapsessrp1">Rozvoj podnikavosti a zásady soukromého podnikání
+        <b type="button" data-toggle="collapse" data-target="#collapsessrp1" aria-expanded="false" aria-controls="collapsessrp1">Rozvoj podnikavosti a zásady soukromého podnikání
         </b> (8 hod, doporučeno pro SŠ, VOŠ, v rámci Šablon JAK i pro ZŠ)
         <div className="collapse " id="collapsessrp1"><ul className="list-group"><li className="list-group-item">•	<b>Seznámení se se smyslem a obsahem podnikavosti a soukromého podnikání.</b> Osobnostní předpoklady, schopnosti a dovednosti. Etika. Pozitiva i rizika podnikání. (1 hodina)</li>
           <li className="list-group-item">•	<b>Cesta od vize k dosažení cíle (prakticá cvičení)</b>: motivace k podnikavosti, stanovení reálných cílů, plánování, podnikatelský záměr, navržení produktu, kreativita, kritické myšlení, SMART technika, změny jako součást podnikání, analýza situace, organizace, hodnocení situace, udržení podnikání, konkurenční prostředí, zpětná vazba (3 hodiny)</li>
@@ -566,7 +566,7 @@ var SSRozvojPodnikavosti: React.StatelessComponent<IKurzProps> = (props: IKurzPr
           <li className="list-group-item">•	Fiktivní firmy a projektové vyučování, tvorba projektů  (1 hodina)</li>
         </ul></div>
       </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsessrp2" aria-expanded="false" aria-controls="collapsessrp2">Výchova k podnikavosti a manažerské dovednosti – 8 hod
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsessrp2" aria-expanded="false" aria-controls="collapsessrp2">Výchova k podnikavosti a manažerské dovednosti – 8 hod
 </b>(8 hod, doporučeno pro SŠ, VOŠ)
         <div className="collapse " id="collapsessrp2"><ul className="list-group"><li className="list-group-item">•	<b>Úvod do tématu podnikavosti a výchově v podnikání.</b> Etika v podnikání. Fiktivní firma jako projekt. (provázáno celým seminářem) (2 hodiny)</li>
           <li className="list-group-item">•	<b>Stanovení si cíle, oblast podnikání</b>: dobrá vize jako základ, stanovení si reálných cílů a plánování, podnikatelský záměr, SMART technika, změny jako součást podnikání, konkurenční prostředí a udržení podnikání (3 hodiny)</li>
@@ -581,9 +581,9 @@ var SSKarierovePoradenstvi: React.StatelessComponent<IKurzProps> = (props: IKurz
   <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
   <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+    <h4><span className="label label-warning">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
       <LiFile>
-        <b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesskp1" aria-expanded="false" aria-controls="collapsesskp1">Role pedagoga v karierovém poradenství – 8 hodin</b>(8 hod, doporučeno pro SŠ, VOŠ, ZŠ)
+        <b type="button" data-toggle="collapse" data-target="#collapsesskp1" aria-expanded="false" aria-controls="collapsesskp1">Role pedagoga v karierovém poradenství – 8 hodin</b>(8 hod, doporučeno pro SŠ, VOŠ, ZŠ)
         <div className="collapse border rounded" id="collapsesskp1">
           <div className="m-3">
             <b>Teoretická část</b>   (2 vyučovací hodiny)<br />
@@ -598,7 +598,7 @@ var SSKarierovePoradenstvi: React.StatelessComponent<IKurzProps> = (props: IKurz
           </div>
         </div>
       </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesskp2" aria-expanded="false" aria-controls="collapsesskp2">Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje na SŠ
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesskp2" aria-expanded="false" aria-controls="collapsesskp2">Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje na SŠ
       </b>(8 hod, doporučeno pro SŠ, VOŠ)
          <div className="collapse border rounded " id="collapsesskp2">
           <div className="m-3">
@@ -617,7 +617,7 @@ var SSKarierovePoradenstvi: React.StatelessComponent<IKurzProps> = (props: IKurz
         </div>
 
       </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesskp3" aria-expanded="false" aria-controls="collapsesskp3">Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesskp3" aria-expanded="false" aria-controls="collapsesskp3">Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje
       </b>(8 hod, doporučeno pro SŠ, VOŠ, ZŠ)
         <div className="collapse  border rounded" id="collapsesskp3">
           <div className="m-3">
@@ -659,8 +659,8 @@ var SSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
 </div>} eventKey={2}>
 
   <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb1" aria-expanded="false" aria-controls="collapseswb1">Wellbeing, cesta k harmonizaci vztahů ve škole
+    <h4><span className="label label-warning">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapseswb1" aria-expanded="false" aria-controls="collapseswb1">Wellbeing, cesta k harmonizaci vztahů ve škole
       </b>(8 hod, doporučeno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, asistenti)
         <div className="collapse " id="collapseswb1"><ul className="list-group"><li className="list-group-item">•	<b>Co je wellbeing </b> – klíčové aspekty tvoření „zdravé školy“ (0,5 hod)</li>
           <li className="list-group-item">•	<b>Jaká je situace v naší škole? </b> – analýza současného prostředí a klíčové očekávané změny – projektivní technika, týmový workshop - analýza výstupů – návrhy změn (1,5 hod)</li>
@@ -672,7 +672,7 @@ var SSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
           <li className="list-group-item">•	<b>Závěr programu </b> – diskuse, sdílení, otázky a odpovědi (0,5 hod)</li>
         </ul ></div >
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb012" aria-expanded="false" aria-controls="collapseswb012">Prevence a vyšetřování šikany, kyberšikany a dalšího rizikového chování
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapseswb012" aria-expanded="false" aria-controls="collapseswb012">Prevence a vyšetřování šikany, kyberšikany a dalšího rizikového chování
       </b> (8 hod, dopručeno pro ZŠ, ŠD, ŠK, ZUŠ, SŠ, VOŠ, DM, asistenti)
         <div className="collapse " id="collapseswb012">
           <p>Obsah</p>
@@ -690,7 +690,7 @@ var SSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
           </ul >
         </div >
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb1111" aria-expanded="false" aria-controls="collapseswb1111">Třídní učitel a jeho působení na vytváření třídního kolektivu  </b> (8 hod, doporučeno pro ZŠ, SŠ, VOŠ, asistenti)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapseswb1111" aria-expanded="false" aria-controls="collapseswb1111">Třídní učitel a jeho působení na vytváření třídního kolektivu  </b> (8 hod, doporučeno pro ZŠ, SŠ, VOŠ, asistenti)
          <div className="collapse " id="collapseswb1111">
           <ul className="list-group">
             <li className="list-group-item">•	<b>Téma – třídní učitel v souvislosti</b> s aktuálním znění zákona č. 563/2004 Sb. Zákon o pedagogických pracovnících ve znění účinném od 1. 1. 2024. Vysvětlení pojmů §24d organizační, administrativní činnosti a podpora zdravých, funkčních vztahů mezi žáky aj. (1 hod.)</li>
@@ -701,7 +701,7 @@ var SSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
           </ul >
         </div >
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb1133" aria-expanded="false" aria-controls="collapseswb1133">Třídní učitel a wellbeing </b> (8 hod, doporučeno pro ZŠ, SŠ, VOŠ, asistenti)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapseswb1133" aria-expanded="false" aria-controls="collapseswb1133">Třídní učitel a wellbeing </b> (8 hod, doporučeno pro ZŠ, SŠ, VOŠ, asistenti)
          <div className="collapse " id="collapseswb1133">
           <ul className="list-group">
             <li className="list-group-item">•	Praktický vzdělávací program je zaměřen na současně velmi aktuální téma wellbeingu pedagogů a jeho následnou možnou aplikaci při práci se žáky. Zejména v práci třídního učitele by měla být věnována maximální pozornost práci s emocemi a jejich pojmenováváním a vytvoření podnětného prostředí, ve kterém bude žákům přirozené své emoce sdílet. Cílem semináře je zdokonalit kompetence třídních učitelů pedagogů v oblasti wellbeingu.</li>
@@ -712,7 +712,7 @@ var SSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
           </ul >
         </div >
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb2" aria-expanded="false" aria-controls="collapseswb2">Jak zvládat stresové situace a nedospět k vyhoření </b> (8 hod, doporučeno pro SŠ, VOŠ, DM, MŠ, ZŠ, ZUŠ, ŠD, asistenti)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapseswb2" aria-expanded="false" aria-controls="collapseswb2">Jak zvládat stresové situace a nedospět k vyhoření </b> (8 hod, doporučeno pro SŠ, VOŠ, DM, MŠ, ZŠ, ZUŠ, ŠD, asistenti)
         <div className="collapse " id="collapseswb2"><ul className="list-group"><li className="list-group-item">•	Jak psychický stres ovlivňuje náš výkon, Bournout podle Maslachové, Stres management jako pojem (2 hodiny)</li>
           <li className="list-group-item">•	Vytváření mapy zvládání každodenního stresu (1 hodina)</li>
           <li className="list-group-item">•	Zjištění vlastního přístupu k práci, k sobě i k druhým (praktické cvičení) – (1 hodina)</li>
@@ -721,7 +721,7 @@ var SSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
           <li className="list-group-item">•	Jak nastavit změny, které podporují nevyhoření, sdílení, závěrečné shrnutí (1 hodina)</li>
         </ul></div>
       </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb0" aria-expanded="false" aria-controls="collapseswb0">Prevence k zátěžovým situacím ve škole </b> (8 hod, doporučeno pro SŠ, VOŠ, DM, MŠ, ZŠ, ZUŠ, ŠD, asistenti)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapseswb0" aria-expanded="false" aria-controls="collapseswb0">Prevence k zátěžovým situacím ve škole </b> (8 hod, doporučeno pro SŠ, VOŠ, DM, MŠ, ZŠ, ZUŠ, ŠD, asistenti)
         <div className="collapse " id="collapseswb0"><ul className="list-group"><li className="list-group-item">•	<b>Teoretický úvod do oblasti psychohygieny učitele </b> – zmapování zátěžových situací u pedagogických pracovníků, které vedou k jejich přepracovanosti – teorie + práce skupin (1 hod.)</li>
           <li className="list-group-item">•	<b>Preventivní doporučení </b> - úprava životního stylu, efektivní organizace času, stanovení priorit, schopnost delegování úkolů (komunikace), spánková hygiena, (3 hod.) </li>
           <li className="list-group-item">•	<b>Preventivní doporučení </b> – důležitost aktivního pohybu, relaxace, odpočinku, včetně nácviku jednoduchých relaxačních technik (jednoduché relaxace k uvolnění stresu: a) cviky k uvolnění svalového napětí, b) cviky k uvolnění po práci u počítače, c) cviky uvolňující při napětí v zádech a bolestech hlavy a zad. (3 hod.)</li>
@@ -729,7 +729,7 @@ var SSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
         </ul></div>
       </LiFile>
       <LiFile>
-        <b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb11" aria-expanded="false" aria-controls="collapsezwb11">Práce s  pedagogickým sborem-jak předejít syndromu vyhoření</b> (8 hod, dopručeno pro ZŠ, SŠ, asistenti)
+        <b type="button" data-toggle="collapse" data-target="#collapsezwb11" aria-expanded="false" aria-controls="collapsezwb11">Práce s  pedagogickým sborem-jak předejít syndromu vyhoření</b> (8 hod, dopručeno pro ZŠ, SŠ, asistenti)
         <div className="collapse " id="collapsezwb11">
           <ul className="list-group">
             <li className="list-group-item">•	<b>Klima ve škole a sborovně</b> : Klima z hlediska - emocionálního, sociálního, pracovního. Faktory ovlivňující klima školy - přístup učitele, komunikace, metody a strategie. (2 hod)</li>
@@ -739,13 +739,13 @@ var SSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
           </ul>
         </div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb6" aria-expanded="false" aria-controls="collapseswb6">Osobnostní a sociální rozvoj učitele ve zvládání konfliktů </b> (8 hod, doporučeno pro SŠ, VOŠ, ZŠ)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapseswb6" aria-expanded="false" aria-controls="collapseswb6">Osobnostní a sociální rozvoj učitele ve zvládání konfliktů </b> (8 hod, doporučeno pro SŠ, VOŠ, ZŠ)
         <div className="collapse " id="collapseswb6"><ul className="list-group"><li className="list-group-item">•	Seznámení s principem OSR (0,5 hodiny)</li>
           <li className="list-group-item">•	Poznávání lidí, mezilidské vztahy. Metody zaměřené na vhodné způsoby komunikace v různých životních situacích, případné řešení neshod či konfliktů s druhými lidmi nenásilným způsobem. Tj. na reakce na základě postojů již získaných; na očekávání, která jsou formována na základě životních zkušeností; na zvládání dovednosti přijímat a poskytovat konstruktivní kritiku, na poznávání typu osobnosti pro úspěšné řešení konfliktu (2 hodiny)</li>
           <li className="list-group-item">•	Řešení problémů a rozhodovací dovednosti. Aktivity zaměřené na mapování vlastních postojů v rámci schématu konfliktu, na způsoby jednání v zátěžových situacích a přístupy ke zvládání konfliktu (kooperace, konfrontace, řešitelský přístup atd.), dovednosti pro řešení problémů a rozhodování z hlediska různých typů konfliktních situací, včetně zvládání krizové komunikace při jednání se žáky i s rodiči/zákonnými zástupci. (5,5 hodiny)</li>
         </ul></div>
       </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb101" aria-expanded="false" aria-controls="collapseswb101">Základy krizové intervence pro pedagogy 
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapseswb101" aria-expanded="false" aria-controls="collapseswb101">Základy krizové intervence pro pedagogy 
       </b>(8 hod, doporučeno pro ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)
         <div className="collapse " id="collapseswb101">
           <ul className="list-group">
@@ -760,7 +760,7 @@ var SSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
             <li className="list-group-item">Závěr - sdílení, diskuse (0,5 hod)</li>
         </ul ></div >
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb123" aria-expanded="false" aria-controls="collapseswb123">Sebepoškozování (příčiny – řešení – péče o žáka) 
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapseswb123" aria-expanded="false" aria-controls="collapseswb123">Sebepoškozování (příčiny – řešení – péče o žáka) 
       </b>(8 hod, doporučeno pro ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)
         <div className="collapse " id="collapseswb123">
           <p>Kurz Vás seznámí s tím, co vše se může skrývat pod pojmem sebepoškozování dětí. Jaké mohou být rizikové faktory sebepoškozování. Upozorníme Vás na signály, které mohou vést k sebepoškozování. Co musíte a můžete udělat? Jak se k nemocnému chovat, kde hledáme pomoc? Dále Vás seznámíme s pojmem CAN (syndrom týraného, zneužívaného a zanedbávaného dítěte), deprivace u dětí v souvislosti se sebepoškozováním.</p>
@@ -772,7 +772,7 @@ var SSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
             </ul >
           </div >
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb3" aria-expanded="false" aria-controls="collapseswb3">Vybrané aspekty emoční a sociální inteligence pedagoga_8 </b> (8 hod, doporučeno pro SŠ, VOŠ, ZŠ)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapseswb3" aria-expanded="false" aria-controls="collapseswb3">Vybrané aspekty emoční a sociální inteligence pedagoga_8 </b> (8 hod, doporučeno pro SŠ, VOŠ, ZŠ)
         <div className="collapse " id="collapseswb3"><ul className="list-group"><li className="list-group-item">•	Teoretické ukotvení tématu emoční inteligence. Vysvětlení jednotlivých aspektů emoční inteligence, EI z pohledu klasicky pojímané inteligence a její role v uplatnění rozumových schopností, Objasnění možností rozvíjet emoční inteligenci: práce a rozhodování pod časových stresem, zvládání negativních emocí, získávání větší odolnosti, resilience vůči zátěži (2 hodiny)</li>
           <li className="list-group-item">•	Teoretické ukotvení tématu sociální inteligence a jejich jednotlivých aspektů. Praktické procvičení vybraných sociálních dovedností, trénink organizačních dovedností, možnosti řešení konfliktních situací, jak rozvíjet sociální inteligenci žáků (1 hodina)</li>
           <li className="list-group-item">•	Teoretické ukotvení tématu sebepoznání, obeznámení s různými přístupy k sebepoznání, vysvětlení opodstatnění a role sebepoznání v každodenním životě a praxi, vysvětlení pojmů a podstaty uvědomování si vlastních předpokladů, pohnutek, myšlenek a následně schopnosti jejich verbalizace a manipulace s nimi. ( 1 hodina)</li>
@@ -782,7 +782,7 @@ var SSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
           <li className="list-group-item">•	Nové možnosti komunikace ve třídě. Řešení emočně vypjatých situací, tvorba repertoáru strategií k řešení složitých a neobvyklých sociálních situací (1 hodina)</li>
         </ul></div>
       </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb4" aria-expanded="false" aria-controls="collapseswb4">Rozvoj osobnosti pedagoga a zásady efektivní komunikace </b> (8 hod, doporučeno pro SŠ, VOŠ, DM, ZŠ, ŠD, ŠK)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapseswb4" aria-expanded="false" aria-controls="collapseswb4">Rozvoj osobnosti pedagoga a zásady efektivní komunikace </b> (8 hod, doporučeno pro SŠ, VOŠ, DM, ZŠ, ŠD, ŠK)
         <div className="collapse " id="collapseswb4"><ul className="list-group"><li className="list-group-item">•	Efektivní komunikace se sebou, v rámci rodiny a posléze také v kontextu pedagogické praxe (3 hodiny)</li>
           <li className="list-group-item">•	Jak jinak komunikovat, analýza základních komunikačních chyb, alternativní možnosti komunikace se žáky, možnosti, jak vést žáky k odpovědnosti za své prožívání a jednání (1 hodina)</li>
           <li className="list-group-item">•	Nové možnosti komunikace ve třídě (1 hodina)</li>
@@ -791,7 +791,7 @@ var SSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
           <li className="list-group-item">•	Základy asertivního jednání (1 hodina)</li>
         </ul></div>
       </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb5" aria-expanded="false" aria-controls="collapseswb5">Osobnostně sociální rozvoj učitele v sebepoznání </b> (8 hod, doporučeno pro SŠ, VOŠ, ZŠ)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapseswb5" aria-expanded="false" aria-controls="collapseswb5">Osobnostně sociální rozvoj učitele v sebepoznání </b> (8 hod, doporučeno pro SŠ, VOŠ, ZŠ)
         <div className="collapse " id="collapseswb5"><ul className="list-group"><li className="list-group-item">•	Seznámení s principem OSR  – (0,5 hod)</li>
           <li className="list-group-item">•	Rozvoj schopností poznávání . Aktivity zaměřené na sebepoznání vlastního já (já v pohledu pozitivity, negativity…). Já z pohledu vlastností pozitivních i negativních (pohled empatie ve vyjádření 10ti odpovědí - jak se vnímám já, a jak mě vidí ostatní), mé silné a slabé stránky, vlastní způsob jednání a chování, přetvářka, sebereflexe (2 hodiny)</li>
           <li className="list-group-item">•	Sebepoznání a sebepojetí. Aktivity zaměřené na sebepoznání, moje přednosti, představy, schopnosti  - prostor pro hlubší seznámení nejenom se sebou samým v rámci sebepozorování, ale i s ostatními účastníky, a to při vzájemném sdílení tématu (sestavování žebříčku osobního rozvoje) a dovednosti poskytovat druhým konstruktivním způsobem zpětnou vazbu, naslouchat jim a vcítit se do potřeb druhého/druhých. (2 hodiny)</li>
@@ -799,7 +799,7 @@ var SSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
           <li className="list-group-item">•	Psychohygiena. Aktivity zaměřené na jednoduché relaxační techniky  – a) cviky k uvolnění svalového napětí, b) cviky k uvolnění po práci u počítače, c) cviky uvolňující při napětí v zádech a bolestech hlavy a zad(1, 5 hodiny).</li >
         </ul ></div >
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseswb7" aria-expanded="false" aria-controls="collapseswb7">Zásady asertivní a efektivní komunikace – 8 hodin </b> (8 hod, doporučeno pro SŠ, VOŠ, DM, ZŠ, ŠD, ŠK)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapseswb7" aria-expanded="false" aria-controls="collapseswb7">Zásady asertivní a efektivní komunikace – 8 hodin </b> (8 hod, doporučeno pro SŠ, VOŠ, DM, ZŠ, ŠD, ŠK)
         <div className="collapse " id="collapseswb7"><ul className="list-group"><li className="list-group-item">•	Seznámení se s pravidly a technikami komunikace osobní i profesní: cíl, základní stanovisko, kladení otázek a jejich typologie, aktivní naslouchání, změkčovadla, sdělování názoru (2 hodiny)</li>
           <li className="list-group-item">•	Praktická typologie v komunikaci podle D. Forbese Leye (možné cvičení). Námitky a jak na ně vhodně reagovat. (1 hodina)</li>
           <li className="list-group-item">•	Asertivita jako dovednost prosazovat své názory a požadavky při zachování respektu k okolí, možnosti vedení žákům k asertivnímu nenásilnému chování. Asertivní práva a techniky -možný nácvik. (1 hodina)</li>
@@ -817,8 +817,8 @@ var SSVyukaCestiny: React.StatelessComponent<IKurzProps> = (props: IKurzProps, c
   <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
   <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesvc1" aria-expanded="false" aria-controls="collapsesvc1">Specifika výuky češtiny jako druhého jazyka
+    <h4><span className="label label-warning">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesvc1" aria-expanded="false" aria-controls="collapsesvc1">Specifika výuky češtiny jako druhého jazyka
 </b>(8 hod, doporučeno pro SŠ, ZŠ, asistenti, výchovní poradci)
         <div className="collapse " id="collapsesvc1"><ul className="list-group">
           <li className="list-group-item">•	<b>vymezení teoretických východisek a terminologického rámce ČJDJ</b>, shod, rozdílů a specifik procesu výuky českého jazyka, českého jazyka jako cizího jazyka a ČJDJ, přesah do výuky všeobecně vzdělávacích a ostatních předmětů ve vyučovacím procesu, provázanost s oblastí mimoškolních aktivit a zájmových činností (nejen) pro žáky cizince (1 hodina);</li>
@@ -839,8 +839,8 @@ var SSInkluzeCizinci: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
 </div>} eventKey={2}>
 
   <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesic0" aria-expanded="false" aria-controls="collapsesic0">Jak pracovat se žáky s odlišným mateřským jazykem  </b> (8 hod, doporučeno pro SŠ, VOŠ, ZŠ, asistenti)
+    <h4><span className="label label-warning">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesic0" aria-expanded="false" aria-controls="collapsesic0">Jak pracovat se žáky s odlišným mateřským jazykem  </b> (8 hod, doporučeno pro SŠ, VOŠ, ZŠ, asistenti)
                                 <div className="collapse " id="collapsesic0"><ul className="list-group">
           <li className="list-group-item">•	Téma: Společné vzdělávání na základních a středních školách a možnosti vzdělávání žáků s OMJ na těchto školách v souladu s platnými přepisy-Vyhláška 27/2016 Sb., ve znění pozdějších předpisů.
 Vymezení pojmů: odlišné kulturní a jiných životní podmínky: vymezení pojetí „kultura“ a „životní“, hledání terminologických ekvivalentů.
@@ -873,7 +873,7 @@ Ukázka metodického materiálu, pomůcek, odkazy na doporučenou literaturu. (2
 </li>
         </ul></div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesic01" aria-expanded="false" aria-controls="collapsesic01">Jak pracovat se žákem s odlišnými kulturními podmínkami
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesic01" aria-expanded="false" aria-controls="collapsesic01">Jak pracovat se žákem s odlišnými kulturními podmínkami
       </b>(8 hod, doporučeno pro SŠ, VOŠ, DM, ZŠ, ŠD, asistenti)
         <div className="collapse " id="collapsesic01"><ul className="list-group">
           <li className="list-group-item">•	Téma - teoretická část. Společné vzdělávání na základních a středních školách a možnosti vzdělávání žáků s OMJ na těchto školách v souladu s platnými přepisy-Vyhláška 27/2016 Sb., ve znění pozdějších předpisů. Vymezení pojmů: odlišné kulturní a jiných životní podmínky: vymezení pojetí „kultura“ a „životní“, hledání terminologických ekvivalentů. Struktura podpůrných opatření, možnosti podpůrných opatření se zaměřením na žáky s OMJ a jinými životními a kulturními podmínkami. (2 hodiny)</li>
@@ -882,7 +882,7 @@ Ukázka metodického materiálu, pomůcek, odkazy na doporučenou literaturu. (2
           <li className="list-group-item">•	Téma- práce s metodickým materiálem. Příklady dobré praxe – kazuistiky. Metodický materiál pro zjištění porozumění českému jazyku (aktivní a pasivní znalosti jazyka). Ukázka metodického materiálu, pomůcek, odkazy na doporučenou literaturu. (2 hodiny)</li>
         </ul></div>
       </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesic1" aria-expanded="false" aria-controls="collapsesic1">Klima třídy se žáky s odlišným mateřským jazykem
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesic1" aria-expanded="false" aria-controls="collapsesic1">Klima třídy se žáky s odlišným mateřským jazykem
       </b>(8 hod, doporučeno pro SŠ, VOŠ, ZŠ, asistenti)
         <div className="collapse " id="collapsesic1"><ul className="list-group">
           <li className="list-group-item">•	<b>Téma – Základní sociální potřeby žáků s OMJ, jinými životními a kulturními potřebami</b>  Základní sociální potřeby: Potřeba místa, bezpečí, podnětu, potřeba péče, výživy, dále potřeby podpory a sociálních limitů. Důsledky nenaplňování potřeb a jejich vliv na chování žáků v rámci dané třídy, školy. Dopady procesu psychického a fyzického vývoje a spojené se změnou životních podmínek a jejich vliv na chování žáka v podmínkách školy, přístup k pravidlům, normám a jejich respektování. (2 hodiny)</li>
@@ -891,7 +891,7 @@ Ukázka metodického materiálu, pomůcek, odkazy na doporučenou literaturu. (2
           <li className="list-group-item">•	<b>Téma – praktické ukázky, práce s třídním kolektivem, kaziustikami.</b>  Komunikace se žákem s OMJ. Pro praktické ukázky bude využita metoda hraní rolí, vedení rozhovoru a další interaktivní techniky a zásady práce v rámci třídního kolektivu za účelem zapojení žáků s OMJ a jinými životními a kulturními podmínkami. Osvědčené strategie pro vytvoření prostředí podporujícího všechny žáky, zaměření na jednotlivé situace, problémy, vlastní kazuistiky. (2 hodiny)</li>
         </ul></div>
       </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesic3" aria-expanded="false" aria-controls="collapsesic3">Jak pracovat se žákem s odlišnými kulturními podmínkami–SŠ 8
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesic3" aria-expanded="false" aria-controls="collapsesic3">Jak pracovat se žákem s odlišnými kulturními podmínkami–SŠ 8
       </b>(8 hod, doporučeno pro SŠ, VOŠ, asistenti)
         <div className="collapse " id="collapsesic3"><ul className="list-group">
           <li className="list-group-item">•	Téma - teoretická část. Společné vzdělávání na středních školách a možnosti vzdělávání žáků s OMJ na těchto školách v souladu s platnými přepisy-Vyhláška 27/2016 Sb., ve znění pozdějších předpisů. Vymezení pojmů: odlišné kulturní a jiných životní podmínky: vymezení pojetí „kultura“ a „životní“, hledání terminologických ekvivalentů. Struktura podpůrných opatření, možnosti podpůrných opatření se zaměřením na žáky s OMJ a jinými životními a kulturními podmínkami. (2 hodiny)</li>
@@ -900,7 +900,7 @@ Ukázka metodického materiálu, pomůcek, odkazy na doporučenou literaturu. (2
           <li className="list-group-item">•	Téma - práce s metodickým materiálem. Příklady dobré praxe  – kazuistiky. Metodický materiál pro zjištění porozumění českému jazyku (aktivní a pasivní znalosti jazyka). Ukázka metodického materiálu, pomůcek, odkazy na doporučenou literaturu. (2 hodiny)</li>
         </ul></div>
       </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesic4" aria-expanded="false" aria-controls="collapsesic4">Jak ve škole asertivně pracovat se žáky cizinci
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesic4" aria-expanded="false" aria-controls="collapsesic4">Jak ve škole asertivně pracovat se žáky cizinci
       </b>(8 hod, doporučeno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, asistenti)
         <div className="collapse border rounded " id="collapsesic4">
           <div className="m-3">
@@ -914,7 +914,7 @@ Ukázka metodického materiálu, pomůcek, odkazy na doporučenou literaturu. (2
             c)	metodická podpora při vzdělávání žáků cizinců - zaměření na inkluzi žáka cizince do školního prostředí<br />
           </div></div>
       </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesic6" aria-expanded="false" aria-controls="collapsesic6">Začlenění žáka cizince do třídního kolektivu
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesic6" aria-expanded="false" aria-controls="collapsesic6">Začlenění žáka cizince do třídního kolektivu
       </b>  (8 hod, doporučeno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, asistenti)
         <div className="collapse border rounded " id="collapsesic6">
           <div className="m-3">
@@ -944,9 +944,9 @@ var SSOstatniInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
   <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
   <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>
+    <h4><span className="label label-warning">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>
     <ul className='fa-ul'>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesskp3" aria-expanded="false" aria-controls="collapsesskp3">Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesskp3" aria-expanded="false" aria-controls="collapsesskp3">Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje
       </b>(8 hod, doporučeno pro SŠ, VOŠ, ZŠ)
         <div className="collapse border rounded " id="collapsesskp3">
           <div className="m-3">
@@ -979,7 +979,7 @@ var SSOstatniInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
 
           </div></div>
       </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Práce s diferencovanou třídou a náměty na vzdělávání 8 hod
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Práce s diferencovanou třídou a náměty na vzdělávání 8 hod
       </b>(8 hod, doporučeno pro SŠ, VOŠ, ZŠ, asistenti)
         <div className="collapse " id="collapsesnt1"><ul className="list-group"><li className="list-group-item">•	<b>Téma </b> – Legislativní rámec. Školský zákon a Vyhláška 27/2016. Podpůrné opatření, možnosti úpravy obsahu a výstupů v souladu s legislativou.  Vymezení základních pojmů nadání. RVP pro základní školy, kompetence, výstupy, učivo v kontextu s prací s žáka s potřebou podpůrných opatření. (1 hodina)</li>
           <li className="list-group-item">•	<b>Téma Základní pojmy 1. část.</b> Základní pojmy: Heterogenní skupina, diverzita. Diferencované vzdělávání podle kritérii a možností žáka. (1 hodina)</li>
@@ -990,7 +990,7 @@ var SSOstatniInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
           <li className="list-group-item">•	<b>Téma – Ukázka inspirativních úloh</b>.  Možnosti obohacení učiva, inspirativní úlohy vhodné pro rozvoj rozumového nadání. (1 hodina)</li>
         </ul></div>
       </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesskp31" aria-expanded="false" aria-controls="collapsesskp31">Kázeňské přestupky a možnosti jejich řešení v rámci třídy
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesskp31" aria-expanded="false" aria-controls="collapsesskp31">Kázeňské přestupky a možnosti jejich řešení v rámci třídy
       </b>(8 hod, doporučeno pro MŠ, ZŠ, ŠD, SŠ, DM, asistenti, výchovní poradci, speciální pedagogové, psychologové)
         <div className="collapse " id="collapsesskp31">
           <ul className="list-group">
@@ -1000,7 +1000,7 @@ var SSOstatniInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
             <li className="list-group-item">•	Praktická část: Ukázka práce s třídním kolektivem, ukázka práce v rámci třídnických hodin, ukázka práce- nabídka metodických materiálů. Diskuze, práce s kazuistikami (2 hod)</li>
           </ul></div>
       </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt001" aria-expanded="false" aria-controls="collapsesnt001">Asistent pedagoga - účelné nastavení podpůrného opatření </b> (8 hod, doporučeno pro MŠ, ZŠ, SŠ, ŠD a asistenty pedagoga)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesnt001" aria-expanded="false" aria-controls="collapsesnt001">Asistent pedagoga - účelné nastavení podpůrného opatření </b> (8 hod, doporučeno pro MŠ, ZŠ, SŠ, ŠD a asistenty pedagoga)
         <div className="collapse " id="collapsesnt001"><ul className="list-group"><li className="list-group-item"></li>
           <li className="list-group-item">  •	Legislativní ukotvení podpůrného opatření „asistent pedagoga“, nové  informace v pojetí práce asistenta pedagoga, definice pojmu asistent pedagoga  (asistent pedagoga, školní asistent, osobní asistent) (2 hodiny)</li>
           <li className="list-group-item">•	Legislativní rámec pracovní pozice asistenta pedagoga, kvalifikační  předpoklady asistenta pedagoga, výběrové řízení, motivační pohovor, ekonomické  zajištění pozice asistenta pedagoga, zařazení asistenta pedagoga do platové  třídy dle katalogu prací (1 hodina)</li>
@@ -1009,7 +1009,7 @@ var SSOstatniInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
         </ul>
         </div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt002" aria-expanded="false" aria-controls="collapsesnt002">Strukturované učení u žáků s poruchami autistického spektra  </b> (8 hod, doporučeno pro MŠ, ZŠ, asistenty pedagoga, vychovatele ŠD, DM)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesnt002" aria-expanded="false" aria-controls="collapsesnt002">Strukturované učení u žáků s poruchami autistického spektra  </b> (8 hod, doporučeno pro MŠ, ZŠ, asistenty pedagoga, vychovatele ŠD, DM)
           <div className="collapse " id="collapsesnt002">
           <ul className="list-group">
             <li className="list-group-item">•	Seznámení s problematikou poruch autistického spektra, symptomatické projevy. Zvláštnosti autistického myšlení a rizika problémového chování.  ( 2 hodiny)</li>
@@ -1020,7 +1020,7 @@ var SSOstatniInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
           </ul>
         </div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsent001451" aria-expanded="false" aria-controls="collapsent001451">Jak se věnovat žákovi s poruchou učení </b>(8 hod, dopručeno pro ZŠ, SŠ, asistenti)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsent001451" aria-expanded="false" aria-controls="collapsent001451">Jak se věnovat žákovi s poruchou učení </b>(8 hod, dopručeno pro ZŠ, SŠ, asistenti)
         <div className="collapse " id="collapsent001451">
           <ul className="list-group"><li className="list-group-item"></li>
             <li className="list-group-item">•	Základní charakteristika specifických poruch učení (obtíže spojené s osvojováním dovedností jakými jsou čtení, psaní a počítání při normální nebo i nadprůměrné inteligenci dítěte) (2 hod)</li>
@@ -1031,7 +1031,7 @@ var SSOstatniInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
           </ul>
         </div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt123" aria-expanded="false" aria-controls="collapsesnt123">Strategie předcházení školní neúspěšnosti  </b> (8 hod, doporučeno pro ZŠ, SŠ, VOŠ a asistenty pedagoga)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesnt123" aria-expanded="false" aria-controls="collapsesnt123">Strategie předcházení školní neúspěšnosti  </b> (8 hod, doporučeno pro ZŠ, SŠ, VOŠ a asistenty pedagoga)
         <div className="collapse " id="collapsesnt123">
           <ul className="list-group">
             <li className="list-group-item">•	<b>Téma</b> – Strategie předcházení školní neúspěšnosti. Legislativní rámec, strategie jako součást povinné dokumentace školy. Vyhláška 72/2005 Sb., ve znění pozdějších předpisů O poradenských službách ve školách a školských zařízeních.  Vymezení základních pojmů. (1 hodina)</li>
@@ -1043,7 +1043,7 @@ var SSOstatniInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
             <li className="list-group-item">•	<b>Téma – Ukázka inspirativních úloh</b>. Možnosti obohacení učiva, inspirativní úlohy vhodné pro rozvoj rozumového nadání.Práce s kazuistikami, diskuze. (1 hodina)</li>
           </ul></div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesskp2" aria-expanded="false" aria-controls="collapsesskp2">Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje na SŠ
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesskp2" aria-expanded="false" aria-controls="collapsesskp2">Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje na SŠ
       </b>(8 hod, doporučeno pro SŠ, VOŠ)
                         <div className="collapse border rounded " id="collapsesskp2">
           <div className="m-3">
@@ -1060,7 +1060,7 @@ var SSOstatniInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
             •	Možnosti obohacení učiva, inspirativní úlohy vhodné pro rozvoj rozumového nadání. (1 hodina)<br />
           </div></div>
       </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt01" aria-expanded="false" aria-controls="collapsesnt01">Klima třídy a vedení třídnické hodiny v rámci inkluze - SŠ
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesnt01" aria-expanded="false" aria-controls="collapsesnt01">Klima třídy a vedení třídnické hodiny v rámci inkluze - SŠ
       </b>(8 hod, doporučeno pro SŠ, VOŠ)
         <div className="collapse " id="collapsesnt01"><ul className="list-group"><li className="list-group-item">•	<b>Téma – Vedení třídního kolektivu v souladu s podpůrným opatřením a doporučením ke vzdělávání žáků</b> . Společné vzdělávání na středních školách, typy středních škol a odborných učilišť a možnosti vzdělávání žáků na těchto školách v souladu s platnými přepisy-Vyhláška 27/2016 Sb. - Struktura podpůrných opatření a jejich členění do pěti stupňů se zaměřením na podporu klimatu třídy. (1 hodina)</li>
           <li className="list-group-item">•	<b>Téma - Třídní kolektiv, možnosti vedení třídního kolektivu</b> . Základní pravidla pro fungující třídní kolektiv: Cíle práce se třídou, jak najít cíl a proč?, Třídnické hodiny / jejich nastavení, struktura, co je a není vhodné/, Práce s tvarem třídy /skupiny, dvojice, jednotlivci/, Témata na třídnické hodiny / komunikace, empatie, úcta, respekt…/, Regulace chování ve skupině (3 hodiny)</li>
@@ -1068,7 +1068,7 @@ var SSOstatniInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
           <li className="list-group-item">•	<b>Téma – supervize, její význam a cíl</b> . Východiska pro hodnocení : kultura vysokých očekávání, Osvědčené strategie pro vytvoření prostředí podporujícího všechny žáky, Sebezkušenostní část vzdělávacího programu. / zaměření na jednotlivé situace, problémy, kauzistiky/ (2 hodiny)</li>
         </ul></div>
       </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt11" aria-expanded="false" aria-controls="collapsesnt11">Podpora žáků SŠ v rámci inkluze
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesnt11" aria-expanded="false" aria-controls="collapsesnt11">Podpora žáků SŠ v rámci inkluze
       </b>  (8 hod, doporučeno pro SŠ, VOŠ, DM, asistenti)
          <div className="collapse " id="collapsesnt11"><ul className="list-group">
           <li className="list-group-item">•	<b>Téma - Struktura podpůrných opatření a práce se zaměřením na PO 1. stupně /individualizace - PLPP/</b>. Společné vzdělávání na středních školách, typy středních škol, odborných učilišť a možnosti vzdělávání žáků na těchto školách v souladu s platnými přepisy, vyhláška 27/2016 Sb. o vzdělávání žáků se speciálními vzdělávacími potřebami a žáků nadaných, školský zákon, RVP pro daný typ střední školy, Struktura podpůrných opatření a jejich členění do pěti stupňů, podpůrná opatření prvního stupně (příloha č. 1 vyhlášky č. 27/2016 Sb.), úpravy ŠVP a jeho charakteristika v souvislosti s vytvářením, realizací a vyhodnocováním PLPP (1 hodina)</li>
@@ -1078,7 +1078,7 @@ var SSOstatniInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
           <li className="list-group-item">•	<b>Téma  - hodnocení žáků ve společném vzdělávání.</b> Východiska pro hodnocení: kultura vysokých očekávání, modifikace obsahů, výstupů vzdělávání a dopad do hodnocení, hodnocení a jeho dopad na žáka, hodnocení jako zpětná vazba pro učitele, sumativní a formativní způsoby hodnocení, Autonomní a heteronomní hodnocení, Osvědčené strategie pro vytvoření prostředí podporujícího všechny žáky. Úprava forem a způsobů hodnocení jako podpůrné opatření a jeho uplatňování v různých stupních podpory. (2 hodiny)</li>
         </ul></div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt12" aria-expanded="false" aria-controls="collapsesnt12">Práce se žákem SŠ s problémovým chováním
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesnt12" aria-expanded="false" aria-controls="collapsesnt12">Práce se žákem SŠ s problémovým chováním
       </b>  (8 hod, doporučeno pro SŠ, DM, asistenti)
         <div className="collapse " id="collapsesnt12"><ul className="list-group">
           <li className="list-group-item">•	<b>Téma – Základní sociální potřeby žáků střední školy.</b> Základní sociální potřeby: Potřeba místa, bezpečí, podnětu, potřeba péče, výživy, dále potřeby podpory a sociálních limitů. Důsledky nenaplňování potřeb a jejich vliv na chování žáků střední školy. Dopady procesu psychického a fyzického vývoje na chování žáka v podmínkách střední školy (2 hodiny)</li>
@@ -1087,7 +1087,7 @@ var SSOstatniInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
           <li className="list-group-item">•	<b>Téma – praktické ukázky řešení přestupků. Komunikace s verbálně agresivním žákem</b>. Zákonité fáze, postupy, změny. Šikana, její vyhledávání a řešení. Konkrétní práce se žákem s problémovým chováním, ukázka možných řešení. Osvědčené strategie pro vytvoření prostředí podporujícího všechny žáky. Sebezkušenostní část vzdělávacího programu. / zaměření na jednotlivé situace, problémy, vlastní kazuistiky/ (2 hodiny)</li>
         </ul></div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt13" aria-expanded="false" aria-controls="collapsesnt13">Sociální klima třídy a role učitele – 8 hodin
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesnt13" aria-expanded="false" aria-controls="collapsesnt13">Sociální klima třídy a role učitele – 8 hodin
       </b>  (8 hod, doporučeno pro SŠ, VOŠ, ZŠ, asistenti)
         <div className="collapse border rounded " id="collapsesnt13">
           <div className="m-3">
@@ -1103,7 +1103,7 @@ var SSOstatniInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
             •	Poslední část bude věnována i dotazům a řízené diskuzi z vlastní praxe zúčastněných ped. pracovníků.<br />
           </div></div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesnt15" aria-expanded="false" aria-controls="collapsesnt15">Základní kurz společného vzdělávání pro střední školy
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesnt15" aria-expanded="false" aria-controls="collapsesnt15">Základní kurz společného vzdělávání pro střední školy
       </b>  (8 hod, doporučeno pro SŠ, VOŠ)
      <div className="collapse " id="collapsesnt15"><ul className="list-group">
           <li className="list-group-item">•	Úvod do společného vzdělávání, filozofie společného vzdělávání, anglický model P. Farrella, porovnání integrace a inkluze (1 hodina )</li>
@@ -1124,7 +1124,7 @@ var SSInovativniFormy: React.StatelessComponent<IKurzProps> = (props: IKurzProps
   <BlockEx header="Nabízíme následující kurzy:">
     
     <ul className='fa-ul'>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesif1" aria-expanded="false" aria-controls="collapsesif1">Nové metody práce učitele – aktivizující formy výuky na ZŠ a SŠ
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesif1" aria-expanded="false" aria-controls="collapsesif1">Nové metody práce učitele – aktivizující formy výuky na ZŠ a SŠ
       </b>(8 hod, doporučeno pro ZŠ, SŠ a asistenty pedagoga)
         <div className="coll1apse " id="collapsesif1">
           <ol className="list-group">
@@ -1142,7 +1142,7 @@ var SSInovativniFormy: React.StatelessComponent<IKurzProps> = (props: IKurzProps
           </ol>
         </div>
       </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesif2" aria-expanded="false" aria-controls="collapsesif2">Tandemová výuka – nový prvek ve výuce
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesif2" aria-expanded="false" aria-controls="collapsesif2">Tandemová výuka – nový prvek ve výuce
       </b>(8 hod, doporučeno pro ZŠ, SŠ, MŠ)
         <div className="collapse border rounded " id="collapsesif2">
           <ul className="list-group">
@@ -1157,7 +1157,7 @@ var SSInovativniFormy: React.StatelessComponent<IKurzProps> = (props: IKurzProps
           </ul>
         </div>
       </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesif3" aria-expanded="false" aria-controls="collapsesif3">Práce s diferencovanou třídou a náměty na vzdělávání 8 hod </b> (8 hod, doporučeno pro ZŠ, SŠ, VOŠ, asistenti)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesif3" aria-expanded="false" aria-controls="collapsesif3">Práce s diferencovanou třídou a náměty na vzdělávání 8 hod </b> (8 hod, doporučeno pro ZŠ, SŠ, VOŠ, asistenti)
         <div className="collapse " id="collapsesif3"><ul className="list-group"><li className="list-group-item">•	<b>Téma </b> – Legislativní rámec. Školský zákon a Vyhláška 27/2016. Podpůrné opatření, možnosti úpravy obsahu a výstupů v souladu s legislativou.  Vymezení základních pojmů nadání. RVP pro základní školy, kompetence, výstupy, učivo v kontextu s prací s žáka s potřebou podpůrných opatření. (1 hodina)</li>
           <li className="list-group-item">•	<b>Téma Základní pojmy 1. část.</b> Základní pojmy: Heterogenní skupina, diverzita. Diferencované vzdělávání podle kritérii a možností žáka. (1 hodina)</li>
           <li className="list-group-item">•	<b>Téma Základní pojmy 2. část.</b> Možnosti diferencovaného vyučování, pedagogická diagnostika jako součást volby vhodných metod a forem práce s diferencovanou skupinou.  Ukázka diagnostických metod. (1 hodina) </li>
@@ -1176,9 +1176,9 @@ var SSFormativniHodnoceni: React.StatelessComponent<IKurzProps> = (props: IKurzP
 </div>} eventKey={2}>
 
   <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>
+    <h4><span className="label label-warning">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>
     <ul className='fa-ul'>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesfh2" aria-expanded="false" aria-controls="collapsesfh2">Formativní hodnocení v praxi
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesfh2" aria-expanded="false" aria-controls="collapsesfh2">Formativní hodnocení v praxi
       </b>(8 hod, doporučeno pro SŠ, ZŠ, asistenti)
         <div className="collapse " id="collapsesfh2"><ul className="list-group"><li className="list-group-item">•	Formativní hodnocení a jeho principy (1 hod)</li>
           <li className="list-group-item">•	Strategie formativního hodnocení, pravidla a podmínky pro poskytování formativního hodnocení (1 hod)</li>
@@ -1190,7 +1190,7 @@ var SSFormativniHodnoceni: React.StatelessComponent<IKurzProps> = (props: IKurzP
           <li className="list-group-item">•	Diskuse účastníků, sdílení typů z praxe (0,5 hod)</li>
         </ul></div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesfh4" aria-expanded="false" aria-controls="collapsesfh4">Vedení portfolia žáka jako nástroj formativního hodnocení
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesfh4" aria-expanded="false" aria-controls="collapsesfh4">Vedení portfolia žáka jako nástroj formativního hodnocení
       </b>(8 hod, doporučeno pro ZŠ, ŠD, SŠ, DM, asistenti, výchovní poradci, speciální pedagogové, psychologové)
         <div className="collapse " id="collapsesfh4"><ul className="list-group"><li className="list-group-item">•	LEGISLATIVNÍ RÁMEC: Školský zákon a Vyhláška 27/2016. Hodnocení žáka jako podpůrné opatření, možnosti úpravy obsahu a výstupů v souladu s legislativou.  Vymezení základních pojmů nadání. Sumativní a formativní hodnocení  – vymezení teoretických pojmů. (1 hod)  </li>
           <li className="list-group-item">•	Základní pojmy : Sumativní hodnocení, Formativní hodnocení, Prostředky formativního hodnocení (2 hod)</li>
@@ -1200,7 +1200,7 @@ var SSFormativniHodnoceni: React.StatelessComponent<IKurzProps> = (props: IKurzP
           <li className="list-group-item">•	Cíl a smysl portfolia je především  důraz na osobní posun v učení každého dítěte - žáka. Možnosti využívat průběžné rozvíjející hodnocení včetně slovního a rozvíjí sebereflexi učitele. Ukázka metod formativní hodnocení, slovní hodnocení Ukázka možností posilování pozitivní motivace k aktivnímu a samostatnému učení (1 hod)</li>
         </ul></div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesfh1" aria-expanded="false" aria-controls="collapsesfh1">Formativní hodnocení a role učitele</b>(8 hod, doporučeno pro SŠ, VOŠ, DM, ZŠ, ŠD, asistenti)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesfh1" aria-expanded="false" aria-controls="collapsesfh1">Formativní hodnocení a role učitele</b>(8 hod, doporučeno pro SŠ, VOŠ, DM, ZŠ, ŠD, asistenti)
          <div className="collapse " id="collapsesfh1"><ul className="list-group"><li className="list-group-item">•	Hodnocení, význam a jeho specifika (0,5 hod)</li>
           <li className="list-group-item">•	Pět klíčových strategií formativního hodnocení, pravidla a podmínky poskytování formativního hodnocení (0,5 hod)</li>
           <li className="list-group-item">•	Metody formativního hodnocení (respektující komunikace, zpětná vazba, vrstevnické hodnocení, sebehodnocení, cíle, kritéria)  – obecné vysvětlení pojmů (1 hod)</li>
@@ -1218,8 +1218,8 @@ var SSIndividualizace: React.StatelessComponent<IKurzProps> = (props: IKurzProps
 </div>} eventKey={2}>
 
   <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesin1" aria-expanded="false" aria-controls="collapsesin1">Vedení portfolia žáka jako nástroj formativního hodnocení
+    <h4><span className="label label-warning">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesin1" aria-expanded="false" aria-controls="collapsesin1">Vedení portfolia žáka jako nástroj formativního hodnocení
       </b>(8 hod, doporučeno pro ZŠ, ŠD, SŠ, DM, asistenti, výchovní poradci, speciální pedagogové, psychologové)
         <div className="collapse.show" id="collapsesin1"><ul className="list-group"><li className="list-group-item">•	LEGISLATIVNÍ RÁMEC: Školský zákon a Vyhláška 27/2016. Hodnocení žáka jako podpůrné opatření, možnosti úpravy obsahu a výstupů v souladu s legislativou.  Vymezení základních pojmů nadání. Sumativní a formativní hodnocení  – vymezení teoretických pojmů. (1 hod)  </li>
           <li className="list-group-item">•	Základní pojmy : Sumativní hodnocení, Formativní hodnocení, Prostředky formativního hodnocení (2 hod)</li>
@@ -1239,8 +1239,8 @@ var SSGenderovaTematika: React.StatelessComponent<IKurzProps> = (props: IKurzPro
 </div>} eventKey={2}>
 
   <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesgt1" aria-expanded="false" aria-controls="collapsesgt1">Gender a genderová tematika na školách
+    <h4><span className="label label-warning">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesgt1" aria-expanded="false" aria-controls="collapsesgt1">Gender a genderová tematika na školách
       </b>(8 hod, doporučeno pro SŠ, VOŠ, DM, ZŠ, ŠD, ŠK, SVČ, ZUŠ, asistenti)
          <div className="collapse.show" id="collapsesgt1">
           <ul className="list-group">
@@ -1404,9 +1404,9 @@ var ZSFormativniHodnoceni: React.StatelessComponent<IKurzProps> = (props: IKurzP
 </div>} eventKey={2}>
 
   <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+    <h4><span className="label label-warning">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
 
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezff2" aria-expanded="false" aria-controls="collapsezff2">Formativní hodnocení v praxi </b> (8 hod, doporučeno pro ZŠ, SŠ, asistenti)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezff2" aria-expanded="false" aria-controls="collapsezff2">Formativní hodnocení v praxi </b> (8 hod, doporučeno pro ZŠ, SŠ, asistenti)
                 <div className="collapse " id="collapsezff2"><ul className="list-group"><li className="list-group-item">•	Formativní hodnocení a jeho principy (1 hod)</li>
           <li className="list-group-item">•	Strategie formativního hodnocení, pravidla a podmínky pro poskytování formativního hodnocení (1 hod)</li>
           <li className="list-group-item">•	Cíle učení a kritéria úspěchu a jejich tvorba (1 hod)</li>
@@ -1417,7 +1417,7 @@ var ZSFormativniHodnoceni: React.StatelessComponent<IKurzProps> = (props: IKurzP
           <li className="list-group-item">•	Diskuse účastníků, sdílení typů z praxe (0,5 hod)</li>
         </ul></div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezff4" aria-expanded="false" aria-controls="collapsezff4">Vedení portfolia žáka jako nástroj formativního hodnocení
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezff4" aria-expanded="false" aria-controls="collapsezff4">Vedení portfolia žáka jako nástroj formativního hodnocení
       </b>(8 hod, doporučeno pro ZŠ, ŠD, SŠ, DM, asistenti, výchovní poradci, speciální pedagogové, psychologové)
         <div className="collapse " id="collapsezff4"><ul className="list-group"><li className="list-group-item">•	LEGISLATIVNÍ RÁMEC: Školský zákon a Vyhláška 27/2016. Hodnocení žáka jako podpůrné opatření, možnosti úpravy obsahu a výstupů v souladu s legislativou.  Vymezení základních pojmů nadání. Sumativní a formativní hodnocení  – vymezení teoretických pojmů. (1 hod)  </li>
           <li className="list-group-item">•	Základní pojmy : Sumativní hodnocení, Formativní hodnocení, Prostředky formativního hodnocení (2 hod)</li>
@@ -1427,7 +1427,7 @@ var ZSFormativniHodnoceni: React.StatelessComponent<IKurzProps> = (props: IKurzP
           <li className="list-group-item">•	Cíl a smysl portfolia je především  důraz na osobní posun v učení každého dítěte - žáka. Možnosti využívat průběžné rozvíjející hodnocení včetně slovního a rozvíjí sebereflexi učitele. Ukázka metod formativní hodnocení, slovní hodnocení Ukázka možností posilování pozitivní motivace k aktivnímu a samostatnému učení (1 hod)</li>
         </ul></div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezff1" aria-expanded="false" aria-controls="collapsezff1">Formativní hodnocení a role učitele </b> (8 hod, doporučeno pro ZŠ, ŠD, SŠ, VOŠ, DM, asistenti)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezff1" aria-expanded="false" aria-controls="collapsezff1">Formativní hodnocení a role učitele </b> (8 hod, doporučeno pro ZŠ, ŠD, SŠ, VOŠ, DM, asistenti)
         <div className="collapse " id="collapsezff1"><ul className="list-group"><li className="list-group-item">•	Hodnocení, význam a jeho specifika (0,5 hod)</li>
           <li className="list-group-item">•	Pět klíčových strategií formativního hodnocení, pravidla a podmínky poskytování formativního hodnocení (0,5 hod)</li>
           <li className="list-group-item">•	Metody formativního hodnocení (respektující komunikace, zpětná vazba, vrstevnické hodnocení, sebehodnocení, cíle, kritéria)  – obecné vysvětlení pojmů (1 hod)</li>
@@ -1445,8 +1445,8 @@ var ZSIndividualizace: React.StatelessComponent<IKurzProps> = (props: IKurzProps
 </div>} eventKey={2}>
 
   <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezin1" aria-expanded="true" aria-controls="collapsezin1">Vedení portfolia žáka jako nástroj formativního hodnocení
+    <h4><span className="label label-warning">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezin1" aria-expanded="true" aria-controls="collapsezin1">Vedení portfolia žáka jako nástroj formativního hodnocení
       </b>(8 hod, doporučeno pro ZŠ, ŠD, SŠ, DM, asistenti, výchovní poradci, speciální pedagogové, psychologové)
         <div className="collapse.show" id="collapsezin1"><ul className="list-group"><li className="list-group-item">•	LEGISLATIVNÍ RÁMEC: Školský zákon a Vyhláška 27/2016. Hodnocení žáka jako podpůrné opatření, možnosti úpravy obsahu a výstupů v souladu s legislativou.  Vymezení základních pojmů nadání. Sumativní a formativní hodnocení  – vymezení teoretických pojmů. (1 hod)  </li>
           <li className="list-group-item">•	Základní pojmy : Sumativní hodnocení, Formativní hodnocení, Prostředky formativního hodnocení (2 hod)</li>
@@ -1465,8 +1465,8 @@ var ZSKarierovePoradenstvi: React.StatelessComponent<IKurzProps> = (props: IKurz
   <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
   <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezkp1" aria-expanded="false" aria-controls="collapsezkp1">Role pedagoga v karierovém poradenství – 8 hodin </b> (8 hod, doporučeno pro ZŠ, SŠ, VOŠ)
+    <h4><span className="label label-warning">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezkp1" aria-expanded="false" aria-controls="collapsezkp1">Role pedagoga v karierovém poradenství – 8 hodin </b> (8 hod, doporučeno pro ZŠ, SŠ, VOŠ)
         <div className="collapse border rounded" id="collapsezkp1">
           <div className="m-3">
             <b>Teoretická část</b>   (2 vyučovací hodiny)<br />
@@ -1481,7 +1481,7 @@ var ZSKarierovePoradenstvi: React.StatelessComponent<IKurzProps> = (props: IKurz
           </div>
         </div>
       </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezkp2" aria-expanded="false" aria-controls="collapsezkp2">Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje </b> (8 hod, doporučeno pro ZŠ, SŠ, VOŠ)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezkp2" aria-expanded="false" aria-controls="collapsezkp2">Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje </b> (8 hod, doporučeno pro ZŠ, SŠ, VOŠ)
         <div className="collapse border rounded " id="collapsezkp2">
           <div className="m-3">
             <b>LEGISLATIVNÍ RÁMEC</b><br />
@@ -1507,8 +1507,8 @@ var ZSGenderova: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
   <h3><Label bsStyle="warning">8</Label> <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsesgt1" aria-expanded="false" aria-controls="collapsesgt1">Gender a genderová tematika na školách </b>
+    <h4><span className="label label-warning">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesgt1" aria-expanded="false" aria-controls="collapsesgt1">Gender a genderová tematika na školách </b>
         (8 hod, doporučeno pro ZŠ, ŠD, ŠK, SVČ, ZUŠ, SŠ, VOŠ, DM, asistenti)
         <div className="collapse.show" id="collapsesgt1"><ul className="list-group"><li className="list-group-item">•	Co je gender  – klíčové pojmy a definice (0,5 hod).</li>
           <li className="list-group-item">•	Gender a výzkum  – seznámení se s výzkumy a nejnovějšími poznatky (0,5 hod).</li>
@@ -1530,7 +1530,7 @@ var ZSCtenarskaGramotnost: React.StatelessComponent<IKurzProps> = (props: IKurzP
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseszcg1" aria-expanded="false" aria-controls="collapseszcg1">Čtenářská a informační gramotnost na ZŠ – 8 hodin </b> (8 hod, doporučeno pro ZŠ)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapseszcg1" aria-expanded="false" aria-controls="collapseszcg1">Čtenářská a informační gramotnost na ZŠ – 8 hodin </b> (8 hod, doporučeno pro ZŠ)
         <div className="collapse  border rounded" id="collapseszcg1">
           <div className="m-3">
             Teoretický obsah kurzu:<br />
@@ -1546,7 +1546,7 @@ var ZSCtenarskaGramotnost: React.StatelessComponent<IKurzProps> = (props: IKurzP
           </div>
         </div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseszcg2" aria-expanded="false" aria-controls="collapseszcg2">Rozvoj čtenářské gramotnosti u žáků ZŠ – 8 hodin </b> (8 hod, doporučeno pro ZŠ, ŠD, asistenti)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapseszcg2" aria-expanded="false" aria-controls="collapseszcg2">Rozvoj čtenářské gramotnosti u žáků ZŠ – 8 hodin </b> (8 hod, doporučeno pro ZŠ, ŠD, asistenti)
         <div className="collapse " id="collapseszcg2"><ul className="list-group">
           <li className="list-group-item">•	Čtenářská gramotnost  – charakteristika a základní aspekty (1 hod)</li>
           <li className="list-group-item">•	Čtenářské dílny (2 hod)</li>
@@ -1555,7 +1555,7 @@ var ZSCtenarskaGramotnost: React.StatelessComponent<IKurzProps> = (props: IKurzP
           <li className="list-group-item">•	Kritické myšlení, metakognice, vysuzování, hodnocení (2 hod)</li>
         </ul></div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseszcg3" aria-expanded="false" aria-controls="collapseszcg3">Čtenářství-průvodce každodenním životem, cesta je vzdělání_8 </b> (8 hod, doporučeno pro ZŠ)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapseszcg3" aria-expanded="false" aria-controls="collapseszcg3">Čtenářství-průvodce každodenním životem, cesta je vzdělání_8 </b> (8 hod, doporučeno pro ZŠ)
         <div className="collapse " id="collapseszcg3"><ul className="list-group"><li className="list-group-item">•	seznámení, očekávání, ledolamka  – funkční proces (0,5 hod)</li>
           <li className="list-group-item">•	pojem čtenářská gramotnost, třífázový model učení:  - dílna čtení a čtenářská lekce,  - metody vedoucí k reflexi čtenáře  - grafické organizéry, záznamy (2 hod)</li>
           <li className="list-group-item">•	čtenářské strategie:  - předvídání, vyjasňování, shrnování, kladení otázek (1,5 hod)</li>
@@ -1564,14 +1564,14 @@ var ZSCtenarskaGramotnost: React.StatelessComponent<IKurzProps> = (props: IKurzP
           <li className="list-group-item">•	reflexe dne (0,5 hod)</li>
         </ul></div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseszcg4" aria-expanded="false" aria-controls="collapseszcg4">Čtenářství a čtenářská gramotnost v současné škole </b> (8 hod, doporučeno pro ZŠ)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapseszcg4" aria-expanded="false" aria-controls="collapseszcg4">Čtenářství a čtenářská gramotnost v současné škole </b> (8 hod, doporučeno pro ZŠ)
         <div className="collapse " id="collapseszcg4"><ul className="list-group"><li className="list-group-item">•	Seznámení se základními pojmy: čtenářská gramotnost, čtenářství, čtenářské kontinuum, metakognice, různé přístupy k rozvoji ČG (1 hodina)</li>
           <li className="list-group-item">•	Čtenářství  - rozvoj čtenářského klimatu ve škole, metody a možnosti (2 hodiny)</li>
           <li className="list-group-item">•	Dílna čtení : její varianty, organizace dílny, otázky a úkoly, organizéry, minilekce se čtenářskými strategiemi (2 hodiny)</li>
           <li className="list-group-item">•	Čtenářské strategie  - metody a postupy pro rozvíjení jednotlivých dovedností, ukázky práce s textem beletristickým a naučným, skládačkové varianty metod, vliv technologií na změnu pohledu na čtenářství (3 hodiny)</li>
         </ul></div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseszcg5" aria-expanded="false" aria-controls="collapseszcg5">Rozvoj předčtenářské gramotnosti – 8 hodin  </b> (8 hod, doporučeno pro MŠ)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapseszcg5" aria-expanded="false" aria-controls="collapseszcg5">Rozvoj předčtenářské gramotnosti – 8 hodin  </b> (8 hod, doporučeno pro MŠ)
         <div className="collapse " id="collapseszcg5"><ul className="list-group"><li className="list-group-item">•	Vymezení pojmu čtenářská gramotnost a pregramotnost, Předškolní období a vnitřní motivace ke čtení, budování si vztahu ke knihám a porozumění čtenému textu (1 hodina)</li>
           <li className="list-group-item">•	Percepční a motorická oslabení a jejich náprava v předškolním věku jako prevence školní neúspěšnosti. Rozvoj smyslového vnímání  – zrakové vnímání, Činnosti a hry pro rozvoj zrakového vnímání, Rozvoj fonematického sluchu jako základ pro čtení a psaní. (2 hodiny)</li>
           <li className="list-group-item">•	Rozvoj grafomotoritky jako základ pro správný rozvoj písemného projevu., Fáze a metodický postup v nácviku grafomotoriky, Nácvik grafomotoriky, využití ergonomických pomůcek pro správný rozvoj grafomotoriky. (2 hodiny)</li>
@@ -1583,7 +1583,7 @@ var ZSCtenarskaGramotnost: React.StatelessComponent<IKurzProps> = (props: IKurzP
           Součástí školení je i ukázka pracovních listů, ukázky jednotlivých činností a metod pro rozvoj předčtenářské gramotnosti
       </div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseszcg6" aria-expanded="false" aria-controls="collapseszcg6">Rozvoj čtenářské pregramotnosti u dětí v MŠ – 16 hodin  </b> (16 hod, doporučeno pro MŠ)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapseszcg6" aria-expanded="false" aria-controls="collapseszcg6">Rozvoj čtenářské pregramotnosti u dětí v MŠ – 16 hodin  </b> (16 hod, doporučeno pro MŠ)
   <div className="collapse " id="collapseszcg6"><ul className="list-group"><li className="list-group-item">•	Čtenářská pregramotnost  – charakteristika a základní aspekty, orientace v knize, klíčové kompetence dítěte vztahující se k rozvoji čtenářské pregramotnosti, motivace dětí ke kladnému vztahu ke knize, jak spolupracovat s rodinou, kde všude je čtenářšká pregramotnost potřebná.    (2 hod)</li>
           <li className="list-group-item">•	Orientace při čtení  – orientace dítěte v prostoru, čase, vztazích, (2 hod)</li>
           <li className="list-group-item">•	Obrázkové osnovy, obrázkové čtení  – jak vytvářet obrázkové osnovy, vhodné knihy a autoři pro rozvoj gramotnosti, vlastní vytváření obrázkových osnov, jak správně pracovat s osnovou.  (4 hod)</li>
@@ -1600,8 +1600,8 @@ var ZSMatematickaGramotnost: React.StatelessComponent<IKurzProps> = (props: IKur
   <h3><Label bsStyle="warning">8</Label>  <Label bsStyle="warning">16</Label> <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezmg1" aria-expanded="false" aria-controls="collapsezmg1">GeoGebra jako nástroj rozvoje matematické gramotnosti na ZŠ </b> (8 hod, doporučeno pro ZŠ)
+    <h4><span className="label label-warning">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezmg1" aria-expanded="false" aria-controls="collapsezmg1">GeoGebra jako nástroj rozvoje matematické gramotnosti na ZŠ </b> (8 hod, doporučeno pro ZŠ)
         <div className="collapse " id="collapsezmg1">
           Teoretický obsah kurzu (1,5 hodiny):<br />
           <ul className="list-group">
@@ -1621,7 +1621,7 @@ var ZSMatematickaGramotnost: React.StatelessComponent<IKurzProps> = (props: IKur
           </ul>
         </div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezmg2" aria-expanded="false" aria-controls="collapsezmg2">Moderní technologie při rozvoji matematické gramotnosti na ZŠ </b> (8 hod, doporučeno pro ZŠ, ŠD, ŠK, asistenti)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezmg2" aria-expanded="false" aria-controls="collapsezmg2">Moderní technologie při rozvoji matematické gramotnosti na ZŠ </b> (8 hod, doporučeno pro ZŠ, ŠD, ŠK, asistenti)
         <div className="collapse " id="collapsezmg2"><ul className="list-group"><li className="list-group-item">•	Principy využití moderních technologií (1 hodina)</li>
           <li className="list-group-item">•	Seznámení s problematikou nasazení výukových technologií do výuky (pozitiva, negativa a rizika nasazení) (1 hodina)</li>
           <li className="list-group-item">•	Seznámení s úložišti již hotových materiálů, které je možno rovnou využít ve výuce (bez vlastní tvorby) a různými webovými stránkami s videi, texty i jinými materiály, které je možné vhodně využít nejen k podpoře rozvoje matematické gramotnosti (1 hodin)</li>
@@ -1632,7 +1632,7 @@ var ZSMatematickaGramotnost: React.StatelessComponent<IKurzProps> = (props: IKur
           <li className="list-group-item">•	Použití programu Formulator Tarsia pro tvorbu domin, triomin a jiných her vhodných k oživení procvičovaného učiva (2 hodiny)</li>
         </ul></div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezmg3" aria-expanded="false" aria-controls="collapsezmg3">Deskové a karetní hry pro rozvoj matematické gramotnosti </b> (8 hod, doporučeno pro ZŠ, ŠD, ŠK, asistenti)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezmg3" aria-expanded="false" aria-controls="collapsezmg3">Deskové a karetní hry pro rozvoj matematické gramotnosti </b> (8 hod, doporučeno pro ZŠ, ŠD, ŠK, asistenti)
         <div className="collapse " id="collapsezmg3"><ul className="list-group"><li className="list-group-item">•	Rozdělení her dle jejich typu (1 hodina)</li>
           <li className="list-group-item">•	Didaktická hra jako zvnějšku řízená motivovaná činnost, při které si žáci procvičují, upevňují vědomosti, dovednosti a návyky a rozvíjejí psychické funkce (paměť, představivost, postřeh atd.) (1 hodina)</li>
           <li className="list-group-item">•	Didaktická hra jako nástroj rozvoje spolupráce mezi žáky (např. The Game) (1 hodina)</li>
@@ -1641,7 +1641,7 @@ var ZSMatematickaGramotnost: React.StatelessComponent<IKurzProps> = (props: IKur
           <li className="list-group-item">•	Hry k procvičení aritmetických operací (např. Mix Match, Speedy) (1,5 hodiny)</li>
         </ul></div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezmg4" aria-expanded="false" aria-controls="collapsezmg4">Rozvoj matematické gramotnosti u žáků ZŠ – 8 hodin </b> (8 hod, doporučeno pro ZŠ, ŠD, asistenti)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezmg4" aria-expanded="false" aria-controls="collapsezmg4">Rozvoj matematické gramotnosti u žáků ZŠ – 8 hodin </b> (8 hod, doporučeno pro ZŠ, ŠD, asistenti)
         <div className="collapse " id="collapsezmg4"><ul className="list-group"><li className="list-group-item">•	Matematická gramotnost  – charakteristika (1 hod)</li>
           <li className="list-group-item">•	Správné kladení otázek a vytváření matematických představ (2 hod)</li>
           <li className="list-group-item">•	FIE v matematice a práce s chybou (2 hod)</li>
@@ -1650,7 +1650,7 @@ var ZSMatematickaGramotnost: React.StatelessComponent<IKurzProps> = (props: IKur
           <li className="list-group-item">•	Matematické hry (1 hod)</li>
         </ul></div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezmg5" aria-expanded="false" aria-controls="collapsezmg5">Jak na distanční výuku matematiky? </b> (8 hod, doporučeno pro ZŠ, SŠ, VOŠ)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezmg5" aria-expanded="false" aria-controls="collapsezmg5">Jak na distanční výuku matematiky? </b> (8 hod, doporučeno pro ZŠ, SŠ, VOŠ)
         <div className="collapse " id="collapsezmg5"><ul className="list-group"><li className="list-group-item">•	Software využitelný při on-line výuce (2 hodiny)</li>
           <li className="list-group-item">•	Využití webových stránek sloužící k výuce on-line (1 hodina)</li>
           <li className="list-group-item">•	GeoGebra  – tvorba materiálů online, využívání již vytvořených dostupných materiálů, tvorba vlastních materiálů a jejich sdílení (2 hodiny)</li>
@@ -1658,7 +1658,7 @@ var ZSMatematickaGramotnost: React.StatelessComponent<IKurzProps> = (props: IKur
           <li className="list-group-item">•	Praktická cvičení  – praktické využití jednotlivých nástrojů k distančnímu učení matematiky (2 hodiny)</li>
         </ul></div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezmg6" aria-expanded="false" aria-controls="collapsezmg6">Rozvoj předmatematické gramotnosti – 8 hodin  </b> (8 hod, doporučeno pro MŠ)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezmg6" aria-expanded="false" aria-controls="collapsezmg6">Rozvoj předmatematické gramotnosti – 8 hodin  </b> (8 hod, doporučeno pro MŠ)
         <div className="collapse " id="collapsezmg6"><ul className="list-group"><li className="list-group-item">•	Cíle předmatematické výchovy, příprava na matematiku, důležitost předškolní přípravy a pozdější úspěšnost ve školní matematice. (1 hodina) </li>
           <li className="list-group-item">•	Příprava dítěte na zpracování informací v zadání slovní úlohy, rozvoj řeči, komunikace, paměti, představ, prostorového vnímání, Obrázek jako zdroj informací při formulaci slovní úlohy, Rozvoj komunikace, zaměřenost na vybraná slova v textu a v poslechu, Praktické činnosti zaměření na rozvoj komunikačních schopností, zaměřenost na vybrané objekty a slova ( 2 hodiny)</li>
           <li className="list-group-item">•	Percepční a motorická oslabení a jejich náprava v předškolním věku jako prevence školní neúspěšnosti. Porovnávání  – charakter porovnávaných objektů, Zapojení smyslového vnímání - hmat, sluch, zrak, Aktivity k přiřazování, hry, orientace v prostoru, rozvoj hrubé i jemné motoriky, Struktura čísla, třídění podle daného kritéria, Aktivity vztahující se k třídění (3 hodiny)</li>
@@ -1667,7 +1667,7 @@ var ZSMatematickaGramotnost: React.StatelessComponent<IKurzProps> = (props: IKur
           Součástí školení je i ukázka pracovních listů, ukázky jednotlivých činností a metod pro rozvoj předčtenářské gramotnosti
         </div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezmg7" aria-expanded="false" aria-controls="collapsezmg7">Rozvoj matematické pregramotnosti u dětí v MŠ – 16 hodin  </b> (16 hod, doporučeno pro MŠ)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezmg7" aria-expanded="false" aria-controls="collapsezmg7">Rozvoj matematické pregramotnosti u dětí v MŠ – 16 hodin  </b> (16 hod, doporučeno pro MŠ)
         <div className="collapse " id="collapsezmg7"><ul className="list-group"><li className="list-group-item">•	Zkušenost zprostředkovaného učení a instrumentální obohacování R. Feuersteina, seznámení se se základními principy metody FIE, jako jedné z metod, která je vhodná pro rozvoj matematické pregramotnosti.  (2 hod) </li>
           <li className="list-group-item">•	Vyvozování obsahu čísla  – vytváření obsahu čísla, manipulační hry, využití přirozeného prostředí, používání karet s různým počtem. Hry, které rozvíjejí matematické představy. (2 hod)</li>
           <li className="list-group-item">•	Správné kladení otázek  – efektivní kladení otázek, učitelé budou seznámeni s principy efektivní komunikace, jak mají postupovat. Jak utvořit otázku tak, aby jim dítě rozumělo. Vhodné používání slov. Dostatek času při kladení otázek.  (2 hod)</li>
@@ -1688,8 +1688,8 @@ var ZSRozvojPodnikavosti: React.StatelessComponent<IKurzProps> = (props: IKurzPr
   <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezrp1" aria-expanded="false" aria-controls="collapsezrp1">Rozvoj podnikavosti a zásady soukromého podnikání – 8 hodin </b> (8 hod, doporučeno pro SŠ, VOŠ, pro ZŠ od listopadu, v rámci Šablon JAK i pro ZŠ))
+    <h4><span className="label label-warning">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezrp1" aria-expanded="false" aria-controls="collapsezrp1">Rozvoj podnikavosti a zásady soukromého podnikání – 8 hodin </b> (8 hod, doporučeno pro SŠ, VOŠ, pro ZŠ od listopadu, v rámci Šablon JAK i pro ZŠ))
                 <div className="collapse " id="collapsezrp1"><ul className="list-group"><li className="list-group-item">•	<b>Seznámení se se smyslem a obsahem podnikavosti a soukromého podnikání.</b> Osobnostní předpoklady, schopnosti a dovednosti. Etika. Pozitiva i rizika podnikání. (1 hodina)</li>
           <li className="list-group-item">•	<b>Cesta od vize k dosažení cíle (prakticá cvičení)</b>: motivace k podnikavosti, stanovení reálných cílů, plánování, podnikatelský záměr, navržení produktu, kreativita, kritické myšlení, SMART technika, změny jako součást podnikání, analýza situace, organizace, hodnocení situace, udržení podnikání, konkurenční prostředí, zpětná vazba (3 hodiny)</li>
           <li className="list-group-item">•	<b>Finanční gramotnost</b>: základní terminologie, účetnictví, cash flow, finanční produkty, marketingové nástrahy (1 hodina)</li>
@@ -1699,7 +1699,7 @@ var ZSRozvojPodnikavosti: React.StatelessComponent<IKurzProps> = (props: IKurzPr
         </ul></div>
       </LiFile >
       <LiFile>
-        <b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezrp3" aria-expanded="false" aria-controls="collapsezrp3">Výchova k podnikavosti a manažerské dovednosti–8 hod</b> (8 hod, doporučeno pro SŠ, VOŠ, pro ZŠ od listopadu, v rámci Šablon JAK i pro ZŠ)
+        <b type="button" data-toggle="collapse" data-target="#collapsezrp3" aria-expanded="false" aria-controls="collapsezrp3">Výchova k podnikavosti a manažerské dovednosti–8 hod</b> (8 hod, doporučeno pro SŠ, VOŠ, pro ZŠ od listopadu, v rámci Šablon JAK i pro ZŠ)
         <div className="collapse " id="collapsezrp3"><ul className="list-group"><li className="list-group-item">•	Úvod do tématu podnikavosti a výchově v podnikání. Etika v podnikání. Fiktivní firma jako projekt. (provázáno celým seminářem) (2 hodiny)</li>
           <li className="list-group-item">•	Stanovení si cíle, oblast podnikání: dobrá vize jako základ, stanovení si reálných cílů a plánování, podnikatelský záměr, SMART technika, změny jako součást podnikání, konkurenční prostředí a udržení podnikání (3 hodiny)</li>
           <li className="list-group-item">•	Manažerské dovednosti: osobnost manažera, navazování kontaktů a spolupráce, komunikační dovednosti, organizace práce a vedení týmu, leadership, týmové role nejen zaměstnanců prezentace firmy, projektu (3 hodiny)</li>
@@ -1715,8 +1715,8 @@ var ZSDiagnostika: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
   <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezd01" aria-expanded="false" aria-controls="collapsezd01">Pedagogická diagnostika dítěte v MŠ </b>(8 hod, doporučeno pro MŠ a asistenty pedagoga)
+    <h4><span className="label label-warning">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezd01" aria-expanded="false" aria-controls="collapsezd01">Pedagogická diagnostika dítěte v MŠ </b>(8 hod, doporučeno pro MŠ a asistenty pedagoga)
         <div className="collapse border rounded " id="collapsezd01">
           <div className="m-3">
             <ul className="list-group">
@@ -1732,7 +1732,7 @@ var ZSDiagnostika: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
           </div>
         </div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezd001" aria-expanded="false" aria-controls="collapsezd001">Školní zralost – příprava předškoláka </b>(8 hod, doporučeno pro MŠ, 1.st. ZŠ a asistenty pedagoga)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezd001" aria-expanded="false" aria-controls="collapsezd001">Školní zralost – příprava předškoláka </b>(8 hod, doporučeno pro MŠ, 1.st. ZŠ a asistenty pedagoga)
         <div className="collapse border rounded " id="collapsezd001">
           <div className="m-3">
             <ul className="list-group">
@@ -1749,7 +1749,7 @@ var ZSDiagnostika: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
           </div>
         </div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezd1" aria-expanded="false" aria-controls="collapsezd1">Sociální klima třídy a pedagogická diagnostika učitele </b> (8 hod, doporučeno pro MŠ, ZŠ, SŠ, VOŠ, asistenti)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezd1" aria-expanded="false" aria-controls="collapsezd1">Sociální klima třídy a pedagogická diagnostika učitele </b> (8 hod, doporučeno pro MŠ, ZŠ, SŠ, VOŠ, asistenti)
                 <div className="collapse border rounded " id="collapsezd1">
           <div className="m-3">
             <b>Teoretická část  (4 vyučovací hodiny)</b><br />
@@ -1771,14 +1771,14 @@ var ZSDiagnostika: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
           </div>
         </div>
       </LiFile >
-       <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezd3" aria-expanded="false" aria-controls="collapsezd3">Kázeňské přestupky a možnosti jejich řešení v rámci třídy  </b> (8 hod, doporučeno pro MŠ, ZŠ, ŠD, SŠ, DM, asistenti, výchovní poradci, speciální pedagogové, psychologové)
+       <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezd3" aria-expanded="false" aria-controls="collapsezd3">Kázeňské přestupky a možnosti jejich řešení v rámci třídy  </b> (8 hod, doporučeno pro MŠ, ZŠ, ŠD, SŠ, DM, asistenti, výchovní poradci, speciální pedagogové, psychologové)
         <div className="collapse " id="collapsezd3"><ul className="list-group"><li className="list-group-item">•	Pedagogická diagnostika orientovaná na žáka, učitele a edukační proces (1 hod)</li>
           <li className="list-group-item">•	Možnosti diferencovaného vzdělávání jako prevence problémového chování (1 hod)</li>
           <li className="list-group-item">•	Příčiny problémového chování u žáků, Diagnostická kritéria ADHD, Příčiny poruch chování žáků, Formy rizikového chování  – zneužívání návykových látek, kriminalita, šikana, hostilita, agrese, agresivita, vrstevnické vztahy, školní problémy, přestupky a ostatní rizikové formy chování (4 hod)</li>
           <li className="list-group-item">•	Praktická část: Ukázka práce s třídním kolektivem, ukázka práce v rámci třídnických hodin, ukázka práce - nabídka metodických materiálů. Diskuze, práce s kazuistikami (2 hod)</li>
         </ul></div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezd4" aria-expanded="false" aria-controls="collapsezd4">Pedagogická diagnostika, zrání dítěte a kázeňské přestupky v MŠ  </b> (8 hod, v procesu akreditace)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezd4" aria-expanded="false" aria-controls="collapsezd4">Pedagogická diagnostika, zrání dítěte a kázeňské přestupky v MŠ  </b> (8 hod, v procesu akreditace)
         <div className="collapse " id="collapsezd4">
           <ul className="list-group">
             <li className="list-group-item">•	Specifika dětského věku, emoční a sociální rozvoj dětí. Normativní vývoj, dítě intaktní a dítě se speciálně vzdělávacími potřebami. Vysvětlení základních pojmů (2 hodiny)</li>
@@ -1802,8 +1802,8 @@ var ZSInovace: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
   <h3><Label bsStyle="warning">8</Label> <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi100" aria-expanded="false" aria-controls="collapsezi100">Digitální kompetence na základní škole
+    <h4><span className="label label-warning">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezi100" aria-expanded="false" aria-controls="collapsezi100">Digitální kompetence na základní škole
       </b> (doporučeno pro ZŠ a asistenty pedagoga)
         <div className="collapse " id="collapsezi100">
           <p>Kurz je zaměřen na rozvoj vybraných digitálních kompetencí ve výuce na základní škole, které učitelé využijí ve své praxi v souladu s novými cíli v RVP. Účastníci získají znalosti a dovednosti v oblasti metodiky, které jim umožní v rámci své výuky u žáků rozvíjet vybrané kompetence vedoucí k orientaci v digitálním světě a k účelnému a bezpečnému využívání digitálních technologií.</p>
@@ -1817,7 +1817,7 @@ var ZSInovace: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
             <li className="list-group-item">•	praktické mobilní aplikace do školy i života</li>
           </ul></div>
       </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi110" aria-expanded="false" aria-controls="collapsezi110">Digitální kompetence na ZŠ - matematika
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezi110" aria-expanded="false" aria-controls="collapsezi110">Digitální kompetence na ZŠ - matematika
       </b> (doporučeno pro ZŠ a asistenty pedagoga)
         <div className="collapse " id="collapsezi110">
           <p>Kurz je zaměřen na rozvoj digitálních kompetencí ve výuce matematiky, které učitelé využijí ve své praxi v souladu s novými cíli v RVP. Účastníci získají znalosti a dovednosti v oblasti metodiky, které jim umožní v rámci své výuky u žáků rozvíjet kompetence vedoucí k orientaci v digitálním světě a k účelnému a bezpečnému využívání digitálních technologií v matematice.</p>
@@ -1831,7 +1831,7 @@ var ZSInovace: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
           <p>V rámci semináře se pro tyto účely účastníci naučí využívat dynamický geometrický, tabulkový procesor a vybrané webové stránky, které umožňují dynamické interpretace čísel a proměnných.</p>
         </div>
       </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi123" aria-expanded="false" aria-controls="collapsezi123">Změny v RVP a úpravy ŠVP v rámci programu InspIS ŠVP 
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezi123" aria-expanded="false" aria-controls="collapsezi123">Změny v RVP a úpravy ŠVP v rámci programu InspIS ŠVP 
       </b> (8 hod, doporučeno pro MŠ, ZŠ, ZUŠ, SŠ, VOŠ)
         <div className="collapse " id="collapsezi123">
           <ul className="list-group">
@@ -1870,7 +1870,7 @@ var ZSInovace: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
           </ul>
         </div>
       </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi1" aria-expanded="false" aria-controls="collapsezi1">Změny v revidovaném RVP pro MŠ a úpravy ŠVP pro MŠ </b> (8 hod, doporučeno pro MŠ)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezi1" aria-expanded="false" aria-controls="collapsezi1">Změny v revidovaném RVP pro MŠ a úpravy ŠVP pro MŠ </b> (8 hod, doporučeno pro MŠ)
         <div className="collapse " id="collapsezi1">
           <ul className="list-group">
             <li className="list-group-item">•	Aktuální legislativní rámec školského zákona, který souvisí s tvorbou, úpravou a efektivním využíváním školních vzdělávacích programů  – (0,5 hod)</li>
@@ -1881,7 +1881,7 @@ var ZSInovace: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
           </ul>
         </div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi111" aria-expanded="false" aria-controls="collapsezi111">Změny v revidovaném RVP ZV a úpravy ŠVP ZV </b> (8 hod, doporučeno pro ZŠ)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezi111" aria-expanded="false" aria-controls="collapsezi111">Změny v revidovaném RVP ZV a úpravy ŠVP ZV </b> (8 hod, doporučeno pro ZŠ)
         <div className="collapse " id="collapsezi111">
           <ul className="list-group">
             <li className="list-group-item">•	Aktuální legislativní rámec školského zákona, který souvisí s tvorbou, úpravou a efektivním využíváním školních vzdělávacích programů  – (0,5 hod)</li>
@@ -1892,7 +1892,7 @@ var ZSInovace: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
           </ul>
         </div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi3" aria-expanded="false" aria-controls="collapsezi3">Úpravy ŠVP v rámci programu InspIS ŠVP </b> (8 hod, doporučeno pro MŠ, ZŠ, ZUŠ, SŠ, VOŠ)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezi3" aria-expanded="false" aria-controls="collapsezi3">Úpravy ŠVP v rámci programu InspIS ŠVP </b> (8 hod, doporučeno pro MŠ, ZŠ, ZUŠ, SŠ, VOŠ)
                <div className="collapse border rounded " id="collapsezi3">
           <div className="m-3">
             1.	Aktuální legislativní rámec školského zákona, který souvisí s tvorbou, úpravou a efektivním využíváním školních vzdělávacích programů – (0,5 hod)<br />
@@ -1908,7 +1908,7 @@ var ZSInovace: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
           </div>
         </div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi4" aria-expanded="false" aria-controls="collapsezi4">Kompetence a gramotnosti v novém ŠVP pro MŠ  </b> (8 hod, určeno pro MŠ)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezi4" aria-expanded="false" aria-controls="collapsezi4">Kompetence a gramotnosti v novém ŠVP pro MŠ  </b> (8 hod, určeno pro MŠ)
         <div className="collapse border rounded " id="collapsezi4">
           <ul className="list-group">
             <li className="list-group-item">•	Aktuální legislativní rámec školského zákona, který souvisí s tvorbou, úpravou a efektivním využíváním školních vzdělávacích programů – (0,5hod)</li>
@@ -1918,7 +1918,7 @@ var ZSInovace: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
           </ul>
         </div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi5" aria-expanded="false" aria-controls="collapsezi5">Kompetence, průřezová témata a gramotnosti v novém ŠVP ZV  </b> (8 hod, určeno pro ZŠ)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezi5" aria-expanded="false" aria-controls="collapsezi5">Kompetence, průřezová témata a gramotnosti v novém ŠVP ZV  </b> (8 hod, určeno pro ZŠ)
         <div className="collapse border rounded " id="collapsezi5">
           <ul className="list-group">
             <li className="list-group-item">•	Aktuální legislativní rámec školského zákona, který souvisí s tvorbou, úpravou a efektivním využíváním školních vzdělávacích programů – (0,5 hod)</li>
@@ -1936,8 +1936,8 @@ var ZSSpoluprace: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx
   <h3><Label bsStyle="warning">8</Label> <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezsp1" aria-expanded="true" aria-controls="collapsezsp1">Zásady efektivní komunikace s rodiči a zákonnými zástupci
+    <h4><span className="label label-warning">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezsp1" aria-expanded="true" aria-controls="collapsezsp1">Zásady efektivní komunikace s rodiči a zákonnými zástupci
       </b>(8 hod, doporučeno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, DM, asistenti)
         <div className="collapse.show" id="collapsezsp1">
           <ul className="list-group">
@@ -1962,9 +1962,9 @@ var ZSInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
   <h3><Label bsStyle="warning">8</Label>  <Label bsStyle="warning">16</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>
+    <h4><span className="label label-warning">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>
     <ul className='fa-ul'>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi045451" aria-expanded="false" aria-controls="collapsezi045451">Asistent pedagoga v 1. třídě (nová pozice) - náplň práce   </b>(8 hod, doporučeno pro ZŠ, asistenti pedgoga)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezi045451" aria-expanded="false" aria-controls="collapsezi045451">Asistent pedagoga v 1. třídě (nová pozice) - náplň práce   </b>(8 hod, doporučeno pro ZŠ, asistenti pedgoga)
         <div className="collapse " id="collapsezi045451">
           <br/>
           <b>Od září 2026 má škola povinnost mít asistenta pedagoga v 1. ročníku.</b>
@@ -1977,7 +1977,7 @@ var ZSInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
           </ul>
         </div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi045451" aria-expanded="false" aria-controls="collapsezi045451">Jak pracovat s nezralým prvňáčkem </b>(8 hod, doporučeno pro ZŠ, asistenti pedgoga)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezi045451" aria-expanded="false" aria-controls="collapsezi045451">Jak pracovat s nezralým prvňáčkem </b>(8 hod, doporučeno pro ZŠ, asistenti pedgoga)
         <div className="collapse " id="collapsezi045451">
           <ul className="list-group">
             <li className="list-group-item">•	Co je školní nezralost – teorie a praxe (Rozdíl mezi školní zralostí a nezralostí; Oblasti školní zralosti: biologická, psychická, sociální, emoční; Nejčastější projevy nezralosti v 1. ročníku: poruchy pozornosti, nezralá motorika, potíže v sociální interakci, únavnost; Důsledky nezralosti pro adaptaci dítěte ve škole) (2 hod)</li>
@@ -1987,7 +1987,7 @@ var ZSInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
           </ul>
         </div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi001451" aria-expanded="false" aria-controls="collapsezi001451">Jak se věnovat žákovi s poruchou učení </b>(8 hod, dopručeno pro ZŠ, SŠ, asistenti)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezi001451" aria-expanded="false" aria-controls="collapsezi001451">Jak se věnovat žákovi s poruchou učení </b>(8 hod, dopručeno pro ZŠ, SŠ, asistenti)
         <div className="collapse " id="collapsezi001451">
           <ul className="list-group"><li className="list-group-item"></li>
             <li className="list-group-item">•	Základní charakteristika specifických poruch učení (obtíže spojené s osvojováním dovedností jakými jsou čtení, psaní a počítání při normální nebo i nadprůměrné inteligenci dítěte) (2 hod)</li>
@@ -1998,7 +1998,7 @@ var ZSInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
           </ul>
         </div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi00145" aria-expanded="false" aria-controls="collapsezi00145">Asistent pedagoga ve školní praxi (konkrétní příklady spolupráce s učitelem) </b> (8 hod, doporučeno pro MŠ, ZŠ a asistenty pedagoga)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezi00145" aria-expanded="false" aria-controls="collapsezi00145">Asistent pedagoga ve školní praxi (konkrétní příklady spolupráce s učitelem) </b> (8 hod, doporučeno pro MŠ, ZŠ a asistenty pedagoga)
         <div className="collapse " id="collapsezi00145">
           <ul className="list-group"><li className="list-group-item"></li>
             <li className="list-group-item">•	Legislativní ukotvení personální podpory „asistent pedagoga“, nové pojetí práce asistenta pedagoga, rozdílnost pozic asistent pedagoga x školní asistent x osobní asistent (2 hodiny)</li>
@@ -2008,7 +2008,7 @@ var ZSInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
           </ul>
         </div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi001" aria-expanded="false" aria-controls="collapsezi001">Asistent pedagoga - účelné nastavení podpůrného opatření </b> (8 hod, doporučeno pro MŠ, ZŠ, SŠ, ŠD a asistenty pedagoga)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezi001" aria-expanded="false" aria-controls="collapsezi001">Asistent pedagoga - účelné nastavení podpůrného opatření </b> (8 hod, doporučeno pro MŠ, ZŠ, SŠ, ŠD a asistenty pedagoga)
         <div className="collapse " id="collapsezi001">
           <ul className="list-group"><li className="list-group-item"></li>
             <li className="list-group-item">  •	Legislativní ukotvení podpůrného opatření „asistent pedagoga“, nové  informace v pojetí práce asistenta pedagoga, definice pojmu asistent pedagoga  (asistent pedagoga, školní asistent, osobní asistent) (2 hodiny)</li>
@@ -2018,7 +2018,7 @@ var ZSInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
           </ul>
         </div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi0011" aria-expanded="false" aria-controls="collapsezi0011">Asistent pedagoga - u žáka se zdravotním postižením - MP, PAS  </b> (8 hod, doporučeno pro učitele MŠ, ZŠ a asistenty pedagoga)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezi0011" aria-expanded="false" aria-controls="collapsezi0011">Asistent pedagoga - u žáka se zdravotním postižením - MP, PAS  </b> (8 hod, doporučeno pro učitele MŠ, ZŠ a asistenty pedagoga)
         <div className="collapse " id="collapsezi0011">
           <ul className="list-group"><li className="list-group-item"></li>
             <li className="list-group-item">•	teoretická východiska mentálního postižení  (1 hod)</li>
@@ -2030,7 +2030,7 @@ var ZSInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
           </ul>
         </div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi002" aria-expanded="false" aria-controls="collapsezi002">Strukturované učení u žáků s poruchami autistického spektra  </b> (8 hod, doporučeno pro MŠ, ZŠ, asistenty pedagoga, vychovatele ŠD,DM)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezi002" aria-expanded="false" aria-controls="collapsezi002">Strukturované učení u žáků s poruchami autistického spektra  </b> (8 hod, doporučeno pro MŠ, ZŠ, asistenty pedagoga, vychovatele ŠD,DM)
           <div className="collapse " id="collapsezi002">
           <ul className="list-group">
             <li className="list-group-item">•	Seznámení s problematikou poruch autistického spektra, symptomatické projevy. Zvláštnosti autistického myšlení a rizika problémového chování.  ( 2 hodiny)</li>
@@ -2041,7 +2041,7 @@ var ZSInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
         </ul>
         </div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi01" aria-expanded="false" aria-controls="collapsezi01">Specifické poruchy chování v předškolním věku  </b> (8 hod, doporučeno pro MŠ a asistenty pedagoga)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezi01" aria-expanded="false" aria-controls="collapsezi01">Specifické poruchy chování v předškolním věku  </b> (8 hod, doporučeno pro MŠ a asistenty pedagoga)
         <div className="collapse " id="collapsezi01"><ul className="list-group">
           <li className="list-group-item">•	Včasná diagnostika a včasná intervence jako východiska pro práci s dítětem a s rodiči, na jejichž základě lze s dítětem účinně pracovat (1 hod)</li>
           <li className="list-group-item">•	Základní pojmy, specifické poruchy chování, ADHD, ADD. (1 hod)</li>
@@ -2053,7 +2053,7 @@ var ZSInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
           <li className="list-group-item">•	Diskuse a rozbor příkladů z praxe (1 hod)</li>
         </ul></div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi013" aria-expanded="false" aria-controls="collapsezi013">Specifické poruchy chování –pro ŠD a asistenty pedagoga   </b> (8 hod, doporučeno pro ŠD a asistenty pedagoga)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezi013" aria-expanded="false" aria-controls="collapsezi013">Specifické poruchy chování –pro ŠD a asistenty pedagoga   </b> (8 hod, doporučeno pro ŠD a asistenty pedagoga)
         <div className="collapse " id="collapsezi013"><ul className="list-group">
           <li className="list-group-item">•	Kurz Vám poskytne přehled péče o žáky s ADHD a poruchami chování s akcentem na uplatnění kognitivně behaviorálních přístupů. Součástí kurzu je i vysvětlení možnosti výchovného působení a přístupu k žákům s ADHD. </li>
           <li className="list-group-item">•	Včasná diagnostika a intervence jako východiska pro práci s žákem a rodiči (1 hod)</li>
@@ -2066,14 +2066,14 @@ var ZSInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
           <li className="list-group-item">•	Možnosti a limity pedagogů, psychologů, terapeutů a dalších odborníků při řešení uvedených poruch (1 hodina)</li>
         </ul></div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi011" aria-expanded="false" aria-controls="collapsezi011">Neklidné dítě – problematika ADHD, ADD </b> (8 hod, doporučeno pro učitele MŠ, ZŠ a asistenty pedagoga)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezi011" aria-expanded="false" aria-controls="collapsezi011">Neklidné dítě – problematika ADHD, ADD </b> (8 hod, doporučeno pro učitele MŠ, ZŠ a asistenty pedagoga)
         <div className="collapse " id="collapsezi011"><ul className="list-group">
           <li className="list-group-item">•	Projevy chování dítěte s ADHD, ADD, související se začleněním dítěte do kolektivu MŠ a ZŠ a na ně navazující možná další úskalí. Vznik ADHD, ADD – příčiny vzniku. Kritéria dle MKN – konkrétní popis projevů. Jednotlivé příznaky ADHD, ADD. (3 hod)</li>
           <li className="list-group-item">•	Korekce nežádoucího chování - zásady práce s dítětem s ADHD (ADD), předcházení konfliktním situacím. Chování dětí s ADHD a ADD ve škole i doma, informace o typických projevech chování (příklady z praxe) Zásady práce s dítětem s ADHD/ADD ve škole i doma, pravidla jednoznačné komunikace. (3 hod)</li>
           <li className="list-group-item">•	Efektivní způsoby ovlivňování chování a jednání dětí s ADHD,ADD: vytváření přehledného a strukturovaného prostředí. Promyšlené reakce rodičů, učitelů a okolí na určité projevy jejich chování, uspořádání pomůcek, uspořádání pracovního prostoru, zapojení do skupiny, přecházení od jedné činnosti k druhé. (2 hod)</li>
         </ul></div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi123" aria-expanded="false" aria-controls="collapsezi123">Strategie předcházení školní neúspěšnosti  </b> (8 hod, doporučeno pro ZŠ, SŠ, VOŠ a asistenty pedagoga)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezi123" aria-expanded="false" aria-controls="collapsezi123">Strategie předcházení školní neúspěšnosti  </b> (8 hod, doporučeno pro ZŠ, SŠ, VOŠ a asistenty pedagoga)
         <div className="collapse " id="collapsezi123">
           <ul className="list-group">
             <li className="list-group-item">•	<b>Téma</b> – Strategie předcházení školní neúspěšnosti. Legislativní rámec, strategie jako součást povinné dokumentace školy. Vyhláška 72/2005 Sb., ve znění pozdějších předpisů O poradenských službách ve školách a školských zařízeních.  Vymezení základních pojmů. (1 hodina)</li>
@@ -2085,7 +2085,7 @@ var ZSInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
             <li className="list-group-item">•	<b>Téma – Ukázka inspirativních úloh</b>. Možnosti obohacení učiva, inspirativní úlohy vhodné pro rozvoj rozumového nadání.Práce s kazuistikami, diskuze. (1 hodina)</li>
         </ul></div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi1" aria-expanded="false" aria-controls="collapsezi1">Práce s diferencovanou třídou a náměty na vzdělávání 8 hod </b> (8 hod, doporučeno pro ZŠ, SŠ, VOŠ, asistenti)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezi1" aria-expanded="false" aria-controls="collapsezi1">Práce s diferencovanou třídou a náměty na vzdělávání 8 hod </b> (8 hod, doporučeno pro ZŠ, SŠ, VOŠ, asistenti)
         <div className="collapse " id="collapsezi1"><ul className="list-group"><li className="list-group-item">•	<b>Téma </b> – Legislativní rámec. Školský zákon a Vyhláška 27/2016. Podpůrné opatření, možnosti úpravy obsahu a výstupů v souladu s legislativou.  Vymezení základních pojmů nadání. RVP pro základní školy, kompetence, výstupy, učivo v kontextu s prací s žáka s potřebou podpůrných opatření. (1 hodina)</li>
           <li className="list-group-item">•	<b>Téma Základní pojmy 1. část.</b> Základní pojmy: Heterogenní skupina, diverzita. Diferencované vzdělávání podle kritérii a možností žáka. (1 hodina)</li>
           <li className="list-group-item">•	<b>Téma Základní pojmy 2. část.</b> Možnosti diferencovaného vyučování, pedagogická diagnostika jako součást volby vhodných metod a forem práce s diferencovanou skupinou.  Ukázka diagnostických metod. (1 hodina) </li>
@@ -2095,7 +2095,7 @@ var ZSInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
           <li className="list-group-item">•	<b>Téma – Ukázka inspirativních úloh</b>.  Možnosti obohacení učiva, inspirativní úlohy vhodné pro rozvoj rozumového nadání. (1 hodina)</li>
         </ul></div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi2" aria-expanded="false" aria-controls="collapsezi2">Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje </b> (8 hod, doporučeno pro ZŠ, SŠ, VOŠ)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezi2" aria-expanded="false" aria-controls="collapsezi2">Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje </b> (8 hod, doporučeno pro ZŠ, SŠ, VOŠ)
         <div className="collapse  border rounded" id="collapsezi2">
           <div className="m-3">
             <b>Blok 1 (1 vyučovací hodina – 45 minut)</b><br />
@@ -2127,7 +2127,7 @@ var ZSInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
           </div>
         </div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi3" aria-expanded="false" aria-controls="collapsezi3">Kázeňské přestupky a možnosti jejich řešení v rámci třídy
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezi3" aria-expanded="false" aria-controls="collapsezi3">Kázeňské přestupky a možnosti jejich řešení v rámci třídy
       </b>(8 hod, doporučeno pro MŠ, ZŠ, ŠD, SŠ, DM, asistenti, výchovní poradci, speciální pedagogové, psychologové)
         <div className="collapse " id="collapsezi3">
           <ul className="list-group">
@@ -2137,14 +2137,14 @@ var ZSInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
             <li className="list-group-item">•	Praktická část: Ukázka práce s třídním kolektivem, ukázka práce v rámci třídnických hodin, ukázka práce- nabídka metodických materiálů. Diskuze, práce s kazuistikami (2 hod)</li>
           </ul></div>
       </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi4" aria-expanded="false" aria-controls="collapsezi4">Klima třídy a vedení třídnické hodiny v rámci inkluze-8 hod </b> (8 hod, doporučeno pro ZŠ, asistenti)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezi4" aria-expanded="false" aria-controls="collapsezi4">Klima třídy a vedení třídnické hodiny v rámci inkluze-8 hod </b> (8 hod, doporučeno pro ZŠ, asistenti)
         <div className="collapse " id="collapsezi4"><ul className="list-group"><li className="list-group-item">•	<b>Téma – Vedení třídního kolektivu v souladu s podpůrným opatřením a doporučením ke vzdělávání žáků</b> . Společné vzdělávání na středních školách, typy středních škol a odborných učilišť a možnosti vzdělávání žáků na těchto školách v souladu s platnými přepisy-Vyhláška 27/2016 Sb. - Struktura podpůrných opatření a jejich členění do pěti stupňů se zaměřením na podporu klimatu třídy. (1 hodina)</li>
           <li className="list-group-item">•	<b>Téma - Třídní kolektiv, možnosti vedení třídního kolektivu</b> . Základní pravidla pro fungující třídní kolektiv: Cíle práce se třídou, jak najít cíl a proč?, Třídnické hodiny / jejich nastavení, struktura, co je a není vhodné/, Práce s tvarem třídy /skupiny, dvojice, jednotlivci/, Témata na třídnické hodiny / komunikace, empatie, úcta, respekt…/, Regulace chování ve skupině (3 hodiny)</li>
           <li className="list-group-item">•	<b>Téma - Autenticita pedagoga, sebereflexe pedagoga, sebehodnocení. Kategorie a formy diagnostiky ve školním prostředí </b> - souvislost s úpravou právních předpisů - jak v souvislosti s využitím podpůrného opatření . Pozorování žáků a jeho zaznamenání: analýza získaných poznatků, další nástroje pedagogické diagnostiky, východiska pro nastavení práce s třídním kolektivem, možnosti nastavení podmínek v rámci třídního kolektivu (2 hodiny)</li>
           <li className="list-group-item">•	<b>Téma – supervize, její význam a cíl</b> . Východiska pro hodnocení : kultura vysokých očekávání, Osvědčené strategie pro vytvoření prostředí podporujícího všechny žáky, Sebezkušenostní část vzdělávacího programu. / zaměření na jednotlivé situace, problémy, kauzistiky/ (2 hodiny)</li>
         </ul></div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi5" aria-expanded="false" aria-controls="collapsezi5">Podpora žáků ZŠ v rámci inkluzivního vzdělávání 8 hodin </b> (8 hod, doporučeno pro ZŠ, ŠD, ŠK, asistenti)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezi5" aria-expanded="false" aria-controls="collapsezi5">Podpora žáků ZŠ v rámci inkluzivního vzdělávání 8 hodin </b> (8 hod, doporučeno pro ZŠ, ŠD, ŠK, asistenti)
         <div className="collapse " id="collapsezi5"><ul className="list-group"><li className="list-group-item">•	Téma  – Struktura podpůrných opatření a práce se zaměřením na PO 1. stupně /individualizace - PLPP/. Společné vzdělávání na základních školách a možnosti vzdělávání žáků na těchto školách v souladu s platnými přepisy  , vyhláška 27/2016 Sb. o vzdělávání žáků se speciálními vzdělávacími potřebami a žáků nadaných, školský zákon, RVP pro základní školy, Struktura podpůrných opatření a jejich členění do pěti stupňů, podpůrná opatření prvního stupně (příloha č. 1 vyhlášky č. 27/2016 Sb.), úpravy ŠVP a jeho charakteristika v souvislosti s vytvářením, realizací a vyhodnocováním PLPP (1 hodina)</li>
           <li className="list-group-item">•	PO 1. stupně - individualizace x  PLPP: možnosti  PO 1. stupně na ZŠ, charakteristika PO 1. stupně,  - prostředky PO 1.stupně, příklady individualizace výuky, příklady diferenciace výuky, účel PLPP, struktura daná právními předpisy a porozumění jednotlivým částem v souvislostech, jak pracovat s formulářem při tvorbě PLPP, jak získávat podklady pro vytváření PLPP a pro jeho vyhodnocování , interaktivní formuláře jako pomoc pedagogům a jejich využití (2 hodiny)</li>
           <li className="list-group-item">•	Pedagogická diagnostika jako prostředek pro nastavení PLPP, příp. IVP: kategorie a formy diagnostiky ve školním prostředí, souvislosti s úpravou právních předpisů - jak v souvislosti s využitím podpůrného opatření PLPP, příp. IVP. Pozorování žáků a jeho zaznamenání: analýza získaných poznatků, další nástroje pedagogické diagnostiky, východiska pro nastavení PO, možnosti nastavení podmínek v rámci vyučovací hodiny (2 hodiny)</li>
@@ -2152,14 +2152,14 @@ var ZSInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
           <li className="list-group-item">•	Téma  – hodnocení žáků ve společném vzdělávání. Východiska pro hodnocení: kultura vysokých očekávání, modifikace obsahů, výstupů vzdělávání a dopad do hodnocení, hodnocení a jeho dopad na žáka, hodnocení jako zpětná vazba pro učitele, sumativní a formativní způsoby hodnocení, Autonomní a heteronomní hodnocení, Osvědčené strategie pro vytvoření prostředí podporujícího všechny žáky. Úprava forem a způsobů hodnocení jako podpůrné opatření a jeho uplatňování v různých stupních podpory. (2 hodiny)</li>
         </ul></div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi6" aria-expanded="false" aria-controls="collapsezi6">Práce se žákem s problémovým chováním – 8 hodin  </b> (8 hod, doporučeno pro ZŠ, ŠD, ŠK, asistenti)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezi6" aria-expanded="false" aria-controls="collapsezi6">Práce se žákem s problémovým chováním – 8 hodin  </b> (8 hod, doporučeno pro ZŠ, ŠD, ŠK, asistenti)
         <div className="collapse " id="collapsezi6"><ul className="list-group"><li className="list-group-item">•	Téma  – Základní sociální potřeby žáků základní školy. Základní sociální potřeby: Potřeba místa, bezpečí, podnětu, potřeba péče, výživy, dále potřeby podpory a sociálních limitů. Důsledky nenaplňování potřeb a jejich vliv na chování žáků základní školy. Dopady procesu psychického a fyzického vývoje na chování žáka v podmínkách základní školy (2 hodiny)</li>
           <li className="list-group-item">•	Téma  – žák s problémovým chováním ve třídě, projevy chování žáků s poruchami chování, vliv na klima třídy. Etické vedení dialogu se žákem. Pravidla a zásady vedení třídniho kolektivu Práce s tvarem třídy  – konformita a normy konkrétního třídního kolektivu  – příprava, hranice, rizika a zdroje. Výhody a nevýhody nepsaných norem třídního kolektivu. Role žáka ve třídě. Posilování pozitivních vazeb. Regulace chování ve skupině. (2 hodiny)</li>
           <li className="list-group-item">•	Téma  – Práce s pocity žáků jako prevence kázeňských problémů. Školní prostředí a střídání rolí. Typy kázeňských přestupků a možnosti řešení kázeňských přestupků ve školní třídě v součinnosti se školním řádem a platnou legislativou. Komunikace s problémovým rodičem a jeho specifika  – vhodné a nevhodné komunikační kanály. (2 hodiny)</li>
           <li className="list-group-item">•	Téma  – praktické ukázky řešení přestupků. Komunikace s verbálně agresivním žákem. Zákonité fáze, postupy, změny. Šikana, její vyhledávání a řešení. Konkrétní práce se žákem s problémovým chováním, ukázka možných řešení. Osvědčené strategie pro vytvoření prostředí podporujícího všechny žáky. Sebezkušenostní část vzdělávacího programu. / zaměření na jednotlivé situace, problémy, vlastní kazuistiky/ (2 hodiny)</li>
         </ul></div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi7" aria-expanded="false" aria-controls="collapsezi7">Sociální klima třídy a role učitele – 8 hodin </b> (8 hod, doporučeno pro ZŠ, SŠ, VOŠ, asistenti)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezi7" aria-expanded="false" aria-controls="collapsezi7">Sociální klima třídy a role učitele – 8 hodin </b> (8 hod, doporučeno pro ZŠ, SŠ, VOŠ, asistenti)
         <div className="collapse border rounded " id="collapsezi7">
           <div className="m-3">
             <b>Teoretická část  (4 vyučovací hodiny)</b><br />
@@ -2174,7 +2174,7 @@ var ZSInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
             •	Poslední část bude věnována i dotazům a řízené diskuzi z vlastní praxe zúčastněných ped. pracovníků.<br />
           </div></div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi9" aria-expanded="false" aria-controls="collapsezi9">Společné vzdělávání dětí v MŠ – 8 hodin </b> (8 hod, doporučeno pro MŠ)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezi9" aria-expanded="false" aria-controls="collapsezi9">Společné vzdělávání dětí v MŠ – 8 hodin </b> (8 hod, doporučeno pro MŠ)
         <div className="collapse " id="collapsezi9"><ul className="list-group"><li className="list-group-item">•	Dítě se speciálními vzdělávacími potřebami  – seznámení se základní charakteristikou dětí se speciálními vzdělávacími potřebami (1 hod) </li>
           <li className="list-group-item">•	Metody práce a didaktické zásady při práci s dětmi se SVP (2 hod) </li>
           <li className="list-group-item">•	Podpůrná opatření  – druhy a stupně, charakteristika pěti stupňů podpůrných opatření v mateřské škole, možnosti práce a podpory dětí se SVP (2 hod) </li>
@@ -2182,7 +2182,7 @@ var ZSInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
           <li className="list-group-item">•	Spolupráce s rodiči v rámci rozvoje rozumových schopností dětí, podíl rodičů a mateřské školy na školní připravenosti dětí předškolního věku na vstup do základní školy. Komunikace s rodiči  – druhy komunikace, zásady efektivní komunikace s rodiči, zásady správného kladení otázek, poskytování efektivní zpětné vazby o dítěti rodičům (2 hod) </li>
         </ul></div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi10" aria-expanded="false" aria-controls="collapsezi10">Inkluze v MŠ v teorii a praxi – 16 hodin </b> (16 hod, doporučeno pro MŠ)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezi10" aria-expanded="false" aria-controls="collapsezi10">Inkluze v MŠ v teorii a praxi – 16 hodin </b> (16 hod, doporučeno pro MŠ)
         <div className="collapse " id="collapsezi10"><ul className="list-group"><li className="list-group-item">•	Dítě se speciálními vzdělávacími potřebami  – seznámení se základní charakteristikou dětí se speciálními vzdělávacími potřebami,  (2 hod) </li>
           <li className="list-group-item">•	Podpůrná opatření  – druhy a stupně, charakteristika pěti stupňů podpůrných opatření v mateřské škole, možnosti práce a podpory dětí se SVP (2 hod) </li>
           <li className="list-group-item">•	Plán pedagogické podpory  – charakteristika a tvorba  – na základě kazuistik budou pedagogové vytvářet vlastní PLPP, který budou moci konzultovat s lektorkou (2 hod) </li>
@@ -2194,7 +2194,7 @@ var ZSInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
           <li className="list-group-item">•	Legislativní změny  -zásadní změny v odstavci 16  (1 hod) </li>
         </ul></div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezi11" aria-expanded="false" aria-controls="collapsezi11">Připravme se na inkluzivní vzdělávání </b> 8 hodin – (8 hod, doporučeno pro ZUŠ)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezi11" aria-expanded="false" aria-controls="collapsezi11">Připravme se na inkluzivní vzdělávání </b> 8 hodin – (8 hod, doporučeno pro ZUŠ)
         <div className="collapse " id="collapsezi11"><ul className="list-group"><li className="list-group-item">•	Žák se speciálními vzdělávacími potřebami (1 hod)</li>
           <li className="list-group-item">•	Podpůrná opatření, jejich stupně a druhy (2 hod)</li>
           <li className="list-group-item">•	Plán pedagogické podpory  – charakteristika, diagnostika a realizace (2 hod)</li>
@@ -2213,7 +2213,7 @@ var ZSInovativniFormy: React.StatelessComponent<IKurzProps> = (props: IKurzProps
 </div>} eventKey={2}>
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezif1" aria-expanded="false" aria-controls="collapsezif1">Nové metody práce učitele – aktivizující formy výuky na ZŠ a SŠ
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezif1" aria-expanded="false" aria-controls="collapsezif1">Nové metody práce učitele – aktivizující formy výuky na ZŠ a SŠ
       </b>(8 hod, doporučeno pro ZŠ, SŠ a asistenty pedagoga)
         <div className="collapse border rounded " id="collapsezif1">
           <ol className="list-group">
@@ -2231,7 +2231,7 @@ var ZSInovativniFormy: React.StatelessComponent<IKurzProps> = (props: IKurzProps
           </ol>
         </div>
       </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezif2" aria-expanded="false" aria-controls="collapsezif2">Tandemová výuka – nový prvek ve výuce 
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezif2" aria-expanded="false" aria-controls="collapsezif2">Tandemová výuka – nový prvek ve výuce 
       </b>(8 hod, doporučeno pro ZŠ, SŠ, MŠ)
         <div className="collapse border rounded " id="collapsezif2">
           <ul className="list-group">
@@ -2246,7 +2246,7 @@ společná reflexe výuky - formativní a sumativní hodnocení žáků, vzájem
           </ul>
         </div>
       </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezif3" aria-expanded="false" aria-controls="collapsezif3">Práce s diferencovanou třídou a náměty na vzdělávání 8 hod </b> (8 hod, doporučeno pro ZŠ, SŠ, VOŠ, asistenti)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezif3" aria-expanded="false" aria-controls="collapsezif3">Práce s diferencovanou třídou a náměty na vzdělávání 8 hod </b> (8 hod, doporučeno pro ZŠ, SŠ, VOŠ, asistenti)
         <div className="collapse " id="collapsezif3"><ul className="list-group"><li className="list-group-item">•	<b>Téma </b> – Legislativní rámec. Školský zákon a Vyhláška 27/2016. Podpůrné opatření, možnosti úpravy obsahu a výstupů v souladu s legislativou.  Vymezení základních pojmů nadání. RVP pro základní školy, kompetence, výstupy, učivo v kontextu s prací s žáka s potřebou podpůrných opatření. (1 hodina)</li>
           <li className="list-group-item">•	<b>Téma Základní pojmy 1. část.</b> Základní pojmy: Heterogenní skupina, diverzita. Diferencované vzdělávání podle kritérii a možností žáka. (1 hodina)</li>
           <li className="list-group-item">•	<b>Téma Základní pojmy 2. část.</b> Možnosti diferencovaného vyučování, pedagogická diagnostika jako součást volby vhodných metod a forem práce s diferencovanou skupinou.  Ukázka diagnostických metod. (1 hodina) </li>
@@ -2264,9 +2264,9 @@ var ZSPodpora: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
   <h3><Label bsStyle="warning">8</Label> <Label bsStyle="warning">16</Label> <Label bsStyle="warning">24</Label>   <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+    <h4><span className="label label-warning">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
 
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezp1" aria-expanded="false" aria-controls="collapsezp1">Mentorské dovednosti–úvod do problematiky principů mentoringu </b> (8 hod, doporučeno pro MŠ, ZŠ, ZUŠ, SŠ, ředitelé, zástupci, management)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezp1" aria-expanded="false" aria-controls="collapsezp1">Mentorské dovednosti–úvod do problematiky principů mentoringu </b> (8 hod, doporučeno pro MŠ, ZŠ, ZUŠ, SŠ, ředitelé, zástupci, management)
                 <div className="collapse border rounded " id="collapsezp1">
           <div className="m-3">
             <b>1.	část: vysvětlení principů mentoringu (3 hodiny)</b><br />
@@ -2285,7 +2285,7 @@ var ZSPodpora: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
           </div>
         </div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezp2" aria-expanded="false" aria-controls="collapsezp2">Mentorské dovednosti učitele </b> (16 hod, doporučeno pro MŠ, ZŠ, ZUŠ, SŠ, ředitelé, zástupci, management)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezp2" aria-expanded="false" aria-controls="collapsezp2">Mentorské dovednosti učitele </b> (16 hod, doporučeno pro MŠ, ZŠ, ZUŠ, SŠ, ředitelé, zástupci, management)
                 <div className="collapse border rounded " id="collapsezp2">
           <div className="m-3">
             <b>1.	část -teoretická: (2 hodiny)</b><br />
@@ -2318,7 +2318,7 @@ var ZSPodpora: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
             Na základě získaných informaci a po absolvování praktických bloků semináře, které jsou zaměřeny na sebereflexi účastníka v roli mentora, se budou moci absolventi rozhodnout, zda se pro práci poradce = mentora hodí. Současně získají zpětnou vazbu pro oblasti, ve kterých by se měli, v rámci přípravy pro tuto pozici dále vzdělávat.<br />
           </div></div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezp3" aria-expanded="false" aria-controls="collapsezp3">Moderní trendy ve vedení lidí – Mentoring </b> (24 hod, doporučeno pro MŠ, ZŠ, ZUŠ, SŠ, ředitelé, zástupci, management)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezp3" aria-expanded="false" aria-controls="collapsezp3">Moderní trendy ve vedení lidí – Mentoring </b> (24 hod, doporučeno pro MŠ, ZŠ, ZUŠ, SŠ, ředitelé, zástupci, management)
                  <div className="collapse border rounded " id="collapsezp3">
           <div className="m-3">
             <b>I. SETKÁNÍ (8hod)</b><br />
@@ -2371,9 +2371,9 @@ var ZSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
   <h3><Label bsStyle="warning">8</Label> <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
   <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>
+    <h4><span className="label label-warning">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>
     <ul className='fa-ul'>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseznt0010" aria-expanded="false" aria-controls="collapseznt0010">Umělá inteligence ve škole 
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapseznt0010" aria-expanded="false" aria-controls="collapseznt0010">Umělá inteligence ve škole 
       </b> (doporučeno pro ZŠ,SŠ, VOŠ)
         <div className="collapse " id="collapseznt0010">
           <p>Obsah semináře je zaměřen na konkrétní aplikace umělé inteligence, které jsou použitelné zdarma a mohou okamžitě přinést praktický užitek ve školním prostředí. Účastníci se naučí, jak pomocí AI vytvořit materiály pro výuku, jak AI začlenit do výuky nebo jak si s AI zjednodušit administrativní procesy.</p>
@@ -2387,7 +2387,7 @@ var ZSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
             <li className="list-group-item">•	automatizace hodnocení a zpětné vazby pomocí AI.</li>
           </ul></div>
       </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseznt50" aria-expanded="false" aria-controls="collapseznt50">Využití ICT ve výuce - náměty a inspirace pro praxi
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapseznt50" aria-expanded="false" aria-controls="collapseznt50">Využití ICT ve výuce - náměty a inspirace pro praxi
       </b> (8 hod, doporučeno pro ZŠ, SŠ, VOŠ)
         <div className="collapse " id="collapseznt50">
           <p>Vzdělávací program je zaměřen na využití moderních technologií ve výuce. Semináře je zaměřen jak na obecnější principy využití moderních technologií, tak na využití konkrétních programů, webových stránek a aplikací vhodných pro podporu výuky.Účastníci se seznámí s metodami a postupy, které zdokonalují výklad učiva a zároveň žáky motivují. Pracovat se bude v duchu konstruktivistické pedagogiky.Programy, aplikace a webové stránky jsou voleny tak, aby jejich užití bylo pro školu zdarma (bez kupování licencí).</p>
@@ -2400,7 +2400,7 @@ var ZSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
             <li className="list-group-item">•	Příklady různých aplikací, programů či webových stránek s hrami, videi, texty i jinými materiály, které je možné vhodně využít při výuce</li>
           </ul></div>
       </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseznt5010" aria-expanded="false" aria-controls="collapseznt5010">Moderní technologie pro učitele MŠ: jednoduše a efektivně (doporučeno pro MŠ)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapseznt5010" aria-expanded="false" aria-controls="collapseznt5010">Moderní technologie pro učitele MŠ: jednoduše a efektivně (doporučeno pro MŠ)
       </b> 
         <div className="collapse " id="collapseznt5010">
           <p>Příklady probíraných témat</p>
@@ -2412,7 +2412,7 @@ var ZSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
             <li className="list-group-item">•	Praktické tipy pro efektivní práci s moderními technologiemi</li>
           </ul></div>
       </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseznt010" aria-expanded="false" aria-controls="collapseznt010">Digitální kompetence na základní škole
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapseznt010" aria-expanded="false" aria-controls="collapseznt010">Digitální kompetence na základní škole
       </b> (doporučeno pro ZŠ a asistenty pedagoga)
         <div className="collapse " id="collapseznt010">
           <p>Kurz je zaměřen na rozvoj vybraných digitálních kompetencí ve výuce na základní škole, které učitelé využijí ve své praxi v souladu s novými cíli v RVP. Účastníci získají znalosti a dovednosti v oblasti metodiky, které jim umožní v rámci své výuky u žáků rozvíjet vybrané kompetence vedoucí k orientaci v digitálním světě a k účelnému a bezpečnému využívání digitálních technologií.</p>
@@ -2426,7 +2426,7 @@ var ZSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
             <li className="list-group-item">•	praktické mobilní aplikace do školy i života</li>
           </ul></div>
       </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseznt020" aria-expanded="false" aria-controls="collapseznt020">Digitální kompetence na ZŠ - matematika
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapseznt020" aria-expanded="false" aria-controls="collapseznt020">Digitální kompetence na ZŠ - matematika
       </b> (doporučeno pro ZŠ a asistenty pedagoga)
         <div className="collapse " id="collapseznt020">
           <p>Kurz je zaměřen na rozvoj digitálních kompetencí ve výuce matematiky, které učitelé využijí ve své praxi v souladu s novými cíli v RVP. Účastníci získají znalosti a dovednosti v oblasti metodiky, které jim umožní v rámci své výuky u žáků rozvíjet kompetence vedoucí k orientaci v digitálním světě a k účelnému a bezpečnému využívání digitálních technologií v matematice.</p>
@@ -2440,7 +2440,7 @@ var ZSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
           <p>V rámci semináře se pro tyto účely účastníci naučí využívat dynamický geometrický, tabulkový procesor a vybrané webové stránky, které umožňují dynamické interpretace čísel a proměnných.</p>
         </div>
       </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseznt0" aria-expanded="false" aria-controls="collapseznt0">Nová informatika na základní škole </b> (8 hod, doporučeno pro ZŠ, asistenti)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapseznt0" aria-expanded="false" aria-controls="collapseznt0">Nová informatika na základní škole </b> (8 hod, doporučeno pro ZŠ, asistenti)
                 <div className="collapse " id="collapseznt0">
           <ul className="list-group">
             <li className="list-group-item">•	Jak na novou informatiku dle revidovaného ŠVP. Praktické a teoretické možnosti, jakým způsobem vyučovat novou informatiku na základní škole. Krokování, myšlenková mapa, šifry apod. (2 hod.)</li>
@@ -2450,7 +2450,7 @@ var ZSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
           </ul>
         </div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseznt2" aria-expanded="false" aria-controls="collapseznt2">Různé metody pro využití ICT technologií ve škole </b> (8 hod, doporučeno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapseznt2" aria-expanded="false" aria-controls="collapseznt2">Různé metody pro využití ICT technologií ve škole </b> (8 hod, doporučeno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)
                 <div className="collapse " id="collapseznt2">
           <ul className="list-group">
             <li className="list-group-item">•	<b>Vliv ICT na žáka</b> v každodenním životě (1 hod)</li>
@@ -2461,7 +2461,7 @@ var ZSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
           </ul>
         </div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseznt3" aria-expanded="false" aria-controls="collapseznt3">Inspirace pro využití interaktivních tabulí ve škole </b> (8 hod, doporučeno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapseznt3" aria-expanded="false" aria-controls="collapseznt3">Inspirace pro využití interaktivních tabulí ve škole </b> (8 hod, doporučeno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)
                  <div className="collapse " id="collapseznt3">
           <ul className="list-group">
             <li className="list-group-item">•	<b>Interaktivní tabule a její využití</b>  - využití interaktivních učebnic, on-line cvičení, webové portály vhodné k práci na interaktivní tabuli (1 hod)</li>
@@ -2472,7 +2472,7 @@ var ZSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
           </ul>
         </div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseznt4" aria-expanded="false" aria-controls="collapseznt4">Práce s dotykovými zařízeními ve škole </b> (8 hod, doporučeno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapseznt4" aria-expanded="false" aria-controls="collapseznt4">Práce s dotykovými zařízeními ve škole </b> (8 hod, doporučeno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)
                  <div className="collapse " id="collapseznt4">
           <ul className="list-group">
             <li className="list-group-item">•	<b>Seznámení s dotykovými zařízeními</b> – obecné prvky práce s dotykovými zařízeními, rozdělení dotykových zařízení, různé platformy dotykových zařízení (android, Windows, iOS…) (2 hod)</li>
@@ -2481,7 +2481,7 @@ var ZSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
             <li className="list-group-item">•	<b>Ukázka práce s dotykovými zařízeními</b> - uchazeč se v posledním bloku aktivně zapojí do práce s dotykovým zařízením. Využije získané teoretické poznatky k sestavení ukázkové hodiny, ve které využije dotyková zařízení (2 hod)</li>
           </ul></div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseznt5" aria-expanded="false" aria-controls="collapseznt5">Využití ICT ve škole </b> (8 hod, doporučeno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapseznt5" aria-expanded="false" aria-controls="collapseznt5">Využití ICT ve škole </b> (8 hod, doporučeno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)
                  <div className="collapse " id="collapseznt5"><ul className="list-group"><li className="list-group-item">•	Seznámení s problematikou nasazení výukových technologií školního prostředí (pozitiva, negativa a rizika nasazení se kterými je třeba počítat) (1 hodina)</li>
           <li className="list-group-item">•	Rozbor dosavadně používaných programů a aplikací účastníků (1 hodina)</li>
           <li className="list-group-item">•	Vybrané nástroje Microsoft Office, které usnadňují práci pedagoga (např. hromadná korespondence, fonty psacích písem) (2 hodiny)</li>
@@ -2490,7 +2490,7 @@ var ZSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
           <li className="list-group-item">•	Typy pro vyhledávání materiálů na internetu (1 hodina)</li>
         </ul></div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseznt6" aria-expanded="false" aria-controls="collapseznt6">Efektivní využití LibreOffice ve škole </b> (8 hod, doporučeno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapseznt6" aria-expanded="false" aria-controls="collapseznt6">Efektivní využití LibreOffice ve škole </b> (8 hod, doporučeno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)
                 <div className="collapse " id="collapseznt6">
           <ul className="list-group">
             <li className="list-group-item">•	<b>Writer </b> – formátování písma, odstavců, textu, vícestránkové dokumenty, vkládání a úprava textů z internetu, záhlaví, zápatí, styly, vkládání a úprava obrázků do textu, práce s obrazci, symboly, rozšíření znalostí klávesových zkratek (3 hodiny)</li>
@@ -2499,14 +2499,14 @@ var ZSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
             <li className="list-group-item">•	<b>Draw </b> – seznámení s prostředím pro tvorbu náčrtů, plakátů a mnoha dalších typů dokumentu, manipulace s objekty, ořezávání objektů, seskupování objektů (1 hodina)</li>
           </ul></div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseznt7" aria-expanded="false" aria-controls="collapseznt7">Efektivní využití Google dokumentů ve škole </b> (8 hod, doporučeno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapseznt7" aria-expanded="false" aria-controls="collapseznt7">Efektivní využití Google dokumentů ve škole </b> (8 hod, doporučeno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)
                    <div className="collapse " id="collapseznt7"><ul className="list-group"><li className="list-group-item">•	<b>Dokumenty </b> – formátování písma, odstavců, textu, vícestránkové dokumenty, vkládání a úprava textů z internetu, záhlaví, zápatí, styly, vkládání obrázků a nákresů do textu, práce s tabulkou, speciálními znaky, hlasové zadávání, rozšíření znalostí klávesových zkratek (3 hodiny)</li>
           <li className="list-group-item">•	<b>Tabulky </b> – seznámení s prostředím tabulek, formátování buněk, tabulek, vytváření vlastních řad, vzorce a funkce se zaměřením na praktické využití při evidenci dat i při výuce (2 hodiny)</li>
           <li className="list-group-item">•	<b>Prezentace </b> – pravidla prezentace, práce se snímky, vkládání různých typů objektů (obrázky, diagramy aj.), využití motivů, příprava pro tisk (2 hodiny)</li>
           <li className="list-group-item">•	<b>Formuláře </b> – vytváření online formulářů a kvízů (1 hodina)</li>
         </ul></div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseznt8" aria-expanded="false" aria-controls="collapseznt8">Distanční výuka – formy a metody práce s žáky on-line </b> (8 hod, doporučeno pro ZŠ, ZUŠ, SŠ, VOŠ)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapseznt8" aria-expanded="false" aria-controls="collapseznt8">Distanční výuka – formy a metody práce s žáky on-line </b> (8 hod, doporučeno pro ZŠ, ZUŠ, SŠ, VOŠ)
                  <div className="collapse " id="collapseznt8"><ul className="list-group">
           <li className="list-group-item">•	<b>Programy využitelné při on-line výuce </b> - Skype, Jitsi Meet, Zoom, MS Teams a další (2 hod)</li>
           <li className="list-group-item">•	<b>Využití webových stránek sloužící k výuce on-line</b> (1 hod)</li>
@@ -2515,7 +2515,7 @@ var ZSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
           <li className="list-group-item">•	<b>Praktická cvičení </b> – tvorba prezentací účastníků s jednotlivými prvky prezentace a praktické využití jednotlivých nástrojů k distančnímu učení (2 hod)</li>
         </ul></div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseznt9" aria-expanded="false" aria-controls="collapseznt9">Jak na distanční výuku? </b> (8 hod, doporučeno pro ZŠ, ZUŠ, SŠ, VOŠ)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapseznt9" aria-expanded="false" aria-controls="collapseznt9">Jak na distanční výuku? </b> (8 hod, doporučeno pro ZŠ, ZUŠ, SŠ, VOŠ)
                 <div className="collapse " id="collapseznt9"><ul className="list-group"><li className="list-group-item">•	Software využitelný při on-line výuce (2 hodiny)</li>
           <li className="list-group-item">•	Využití webových stránek sloužící k výuce on-line (1 hodina)</li>
           <li className="list-group-item">•	Prezi - pravidla prezentace, práce se snímky, textovými poli, vkládání obrázků, objektů, využití šablon, motivů, možnosti efektů, sdílení (2 hodiny)</li>
@@ -2523,7 +2523,7 @@ var ZSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
           <li className="list-group-item">•	Praktická cvičení  – tvorba prezentací účastníků s jednotlivými prvky prezentace, praktické využití jednotlivých nástrojů k distančnímu učení (2 hodiny)</li>
         </ul></div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseznt1" aria-expanded="false" aria-controls="collapseznt1">Efektivní využití MS Office pro pedagogy – 8 hodin </b> (8 hod, doporučeno pro ZŠ, SŠ, VOŠ)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapseznt1" aria-expanded="false" aria-controls="collapseznt1">Efektivní využití MS Office pro pedagogy – 8 hodin </b> (8 hod, doporučeno pro ZŠ, SŠ, VOŠ)
                 <div className="collapse " id="collapseznt1">
           <ul className="list-group">
             <li className="list-group-item">•	<b>Seznámení s programem – demonstrace úpravy prostředí Windows</b> - přizpůsobení pracovní plochy, nastavení hlavního panelu, možnosti zobrazení ikon a představení prostřední MS Office z pohledu zefektivnění práce s jednotlivými programy, využití panelu rychlých nástrojů, přizpůsobení pásu karet, nastavení stavového řádku, karta zobrazení (0, 5 hod)</li>
@@ -2533,7 +2533,7 @@ var ZSNoveTechnologie: React.StatelessComponent<IKurzProps> = (props: IKurzProps
           </ul>
         </div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapseznt10" aria-expanded="false" aria-controls="collapseznt10">Základy práce s MS Office a jejich využití na školách
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapseznt10" aria-expanded="false" aria-controls="collapseznt10">Základy práce s MS Office a jejich využití na školách
       </b>(8 hod, doporučeno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)
         <div className="collapse " id="collapseznt10">
           <ul className="list-group"><li className="list-group-item">•	<b>MS Office 365 </b> – představení prostřední MS Office 365 z pohledu zefektivnění práce (1,5 hod)</li>
@@ -2551,8 +2551,8 @@ var ZSInkluzeCizinci: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
   <h3><Label bsStyle="warning">8</Label> <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={1}>
   <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezic0" aria-expanded="false" aria-controls="collapsezic0">Jak pracovat se žáky s odlišným mateřským jazykem  </b> (8 hod, doporučeno pro ZŠ, SŠ, VOŠ, asistenti)
+    <h4><span className="label label-warning">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezic0" aria-expanded="false" aria-controls="collapsezic0">Jak pracovat se žáky s odlišným mateřským jazykem  </b> (8 hod, doporučeno pro ZŠ, SŠ, VOŠ, asistenti)
                                 <div className="collapse " id="collapsezic0"><ul className="list-group">
           <li className="list-group-item">•	Téma: Společné vzdělávání na základních a středních školách a možnosti vzdělávání žáků s OMJ na těchto školách v souladu s platnými přepisy-Vyhláška 27/2016 Sb., ve znění pozdějších předpisů.
 Vymezení pojmů: odlišné kulturní a jiných životní podmínky: vymezení pojetí „kultura“ a „životní“, hledání terminologických ekvivalentů.
@@ -2585,7 +2585,7 @@ Ukázka metodického materiálu, pomůcek, odkazy na doporučenou literaturu. (2
 </li>
         </ul></div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezic01" aria-expanded="false" aria-controls="collapsezic01">Jak pracovat se žákem s odlišnými kulturními podmínkami </b> (8 hod, doporučeno pro ZŠ, ŠD, SŠ, VOŠ, DM, asistenti)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezic01" aria-expanded="false" aria-controls="collapsezic01">Jak pracovat se žákem s odlišnými kulturními podmínkami </b> (8 hod, doporučeno pro ZŠ, ŠD, SŠ, VOŠ, DM, asistenti)
                                 <div className="collapse " id="collapsezic01"><ul className="list-group">
           <li className="list-group-item">•	Téma - teoretická část. Společné vzdělávání na základních a středních školách a možnosti vzdělávání žáků s OMJ na těchto školách v souladu s platnými přepisy-Vyhláška 27/2016 Sb., ve znění pozdějších předpisů. Vymezení pojmů: odlišné kulturní a jiných životní podmínky: vymezení pojetí „kultura“ a „životní“, hledání terminologických ekvivalentů. Struktura podpůrných opatření, možnosti podpůrných opatření se zaměřením na žáky s OMJ a jinými životními a kulturními podmínkami. (2 hodiny)
 </li>
@@ -2598,7 +2598,7 @@ Metodický materiál pro zjištění porozumění českému jazyku (aktivní a p
 </li>
         </ul></div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezic1" aria-expanded="false" aria-controls="collapsezic1">Klima třídy se žáky s odlišným mateřským jazykem </b> (8 hod, doporučeno pro ZŠ, SŠ, VOŠ, asistenti)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezic1" aria-expanded="false" aria-controls="collapsezic1">Klima třídy se žáky s odlišným mateřským jazykem </b> (8 hod, doporučeno pro ZŠ, SŠ, VOŠ, asistenti)
         <div className="collapse " id="collapsezic1"><ul className="list-group">
           <li className="list-group-item">•	<b>Téma – Základní sociální potřeby žáků s OMJ, jinými životními a kulturními potřebami</b>  Základní sociální potřeby: Potřeba místa, bezpečí, podnětu, potřeba péče, výživy, dále potřeby podpory a sociálních limitů. Důsledky nenaplňování potřeb a jejich vliv na chování žáků v rámci dané třídy, školy. Dopady procesu psychického a fyzického vývoje a spojené se změnou životních podmínek a jejich vliv na chování žáka v podmínkách školy, přístup k pravidlům, normám a jejich respektování. (2 hodiny)</li>
           <li className="list-group-item">•	<b>Téma – žák s OMJ a jinými životními a kulturními podmínkami, vliv na klima třídy.</b>  Pravidla a zásady vedení třídního kolektivu. Práce s tvarem třídy – konformita a normy konkrétního třídního kolektivu – příprava, hranice, rizika a zdroje. Role žáka ve třídě, zapojení žáka s OMJ do třídního kolektivu. Posilování pozitivních vazeb. Regulace chování ve skupině. (2 hodiny)</li>
@@ -2606,7 +2606,7 @@ Metodický materiál pro zjištění porozumění českému jazyku (aktivní a p
           <li className="list-group-item">•	<b>Téma – praktické ukázky, práce s třídním kolektivem, kaziustikami.</b>  Komunikace se žákem s OMJ. Pro praktické ukázky bude využita metoda hraní rolí, vedení rozhovoru a další interaktivní techniky a zásady práce v rámci třídního kolektivu za účelem zapojení žáků s OMJ a jinými životními a kulturními podmínkami. Osvědčené strategie pro vytvoření prostředí podporujícího všechny žáky, zaměření na jednotlivé situace, problémy, vlastní kazuistiky. (2 hodiny)</li>
         </ul></div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezic3" aria-expanded="false" aria-controls="collapsezic3">Jak ve škole asertivně pracovat se žáky cizinci
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezic3" aria-expanded="false" aria-controls="collapsezic3">Jak ve škole asertivně pracovat se žáky cizinci
       </b>(8 hod, doporučeno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, asistenti)
         <div className="collapse border rounded " id="collapsezic3">
           <div className="m-3">
@@ -2620,7 +2620,7 @@ Metodický materiál pro zjištění porozumění českému jazyku (aktivní a p
             c)	metodická podpora při vzdělávání žáků cizinců - zaměření na inkluzi žáka cizince do školního prostředí<br />
           </div></div>
       </LiFile>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezic4" aria-expanded="false" aria-controls="collapsezic4">Začlenění žáka cizince do třídního kolektivu
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezic4" aria-expanded="false" aria-controls="collapsezic4">Začlenění žáka cizince do třídního kolektivu
       </b>  (8 hod, doporučeno pro SŠ, VOŠ, DM, MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, asistenti)
         <div className="collapse border rounded " id="collapsezic4">
           <div className="m-3">
@@ -2651,9 +2651,9 @@ var ZSMedialniGramotnost: React.StatelessComponent<IKurzProps> = (props: IKurzPr
   <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
   <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+    <h4><span className="label label-warning">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
 
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezmg1" aria-expanded="false" aria-controls="collapsezmg1">Funkce a nástrahy internetu, kyberšikana a sociální sítě </b> (8 hod, doporučeno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezmg1" aria-expanded="false" aria-controls="collapsezmg1">Funkce a nástrahy internetu, kyberšikana a sociální sítě </b> (8 hod, doporučeno pro MŠ, ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)
                 <div className="collapse.show" id="collapsezmg1">
           <ul className="list-group">
             <li className="list-group-item">•	<b>Vznik a funkce internetu</b> – vznik internetu, fungování internetu, vyhledávání na internetu, rozdíl mezi internetovým vyhledavačem a prohlížečem, nástrahy internetu a bezpečné chování na internetu (2,5 hod)</li>
@@ -2674,7 +2674,7 @@ var ZSVyukaCestiny: React.StatelessComponent<IKurzProps> = (props: IKurzProps, c
 </div>} eventKey={2}>
   <BlockEx header="Nabízíme následující kurzy:">
     <ul className='fa-ul'>
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezvc1" aria-expanded="false" aria-controls="collapsezvc1">Specifika výuky češtiny jako druhého jazyka </b> (8 hod, doporučeno pro ZŠ, SŠ, asistenti, výchovní poradci)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezvc1" aria-expanded="false" aria-controls="collapsezvc1">Specifika výuky češtiny jako druhého jazyka </b> (8 hod, doporučeno pro ZŠ, SŠ, asistenti, výchovní poradci)
                 <div className="collapse " id="collapsezvc1"><ul className="list-group">
           <li className="list-group-item">•	<b>vymezení teoretických východisek a terminologického rámce ČJDJ</b>, shod, rozdílů a specifik procesu výuky českého jazyka, českého jazyka jako cizího jazyka a ČJDJ, přesah do výuky všeobecně vzdělávacích a ostatních předmětů ve vyučovacím procesu, provázanost s oblastí mimoškolních aktivit a zájmových činností (nejen) pro žáky cizince (1 hodina);</li>
           <li className="list-group-item">•	<b>uplatňování postkomunikačního přístupu ve výuce ČJDJ</b>, využívání vhodných strategií a didaktických postupů, rozvoj základních řečových dovedností a jazykových kompetencí žáka cizince v procesu jeho přijímání, začleňování a vzdělávání, tj. v prvních dnech a týdnech po zahájení školní docházky v běžné české škole (1,5 hodiny); </li>
@@ -2693,9 +2693,9 @@ var ZSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
   <h3><Label bsStyle="warning">8</Label>  <span style={headerCss}>{props.title}</span></h3>
 </div>} eventKey={2}>
   <BlockEx header="Nabízíme následující kurzy:">
-    <h4><span className="badge bg-warning text-reset">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
+    <h4><span className="label label-warning">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>    <ul className='fa-ul'>
 
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb1" aria-expanded="false" aria-controls="collapsezwb1">Wellbeing, cesta k harmonizaci vztahů ve škole </b> (8 hod, doporučeno pro MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, SŠ, VOŠ, DM, asistenti)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezwb1" aria-expanded="false" aria-controls="collapsezwb1">Wellbeing, cesta k harmonizaci vztahů ve škole </b> (8 hod, doporučeno pro MŠ, ZŠ, ŠD, ŠK, SVČ, ZUŠ, SŠ, VOŠ, DM, asistenti)
                 <div className="collapse " id="collapsezwb1"><ul className="list-group"><li className="list-group-item">•	<b>Co je wellbeing </b> – klíčové aspekty tvoření „zdravé školy“ (0,5 hod)</li>
           <li className="list-group-item">•	<b>Jaká je situace v naší škole? </b> – analýza současného prostředí a klíčové očekávané změny – projektivní technika, týmový workshop - analýza výstupů – návrhy změn (1,5 hod)</li>
           <li className="list-group-item">•	<b>Kognitivní zkreslení </b> – kognitivně behaviorální model člověka v pedagogické praxi – realita vs. její vidění (1 hod)</li>
@@ -2706,7 +2706,7 @@ var ZSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
           <li className="list-group-item">•	<b>Závěr programu </b> – diskuse, sdílení, otázky a odpovědi (0,5 hod)</li>
         </ul ></div >
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb012" aria-expanded="false" aria-controls="collapsezwb012">Prevence a vyšetřování šikany, kyberšikany a dalšího rizikového chování
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezwb012" aria-expanded="false" aria-controls="collapsezwb012">Prevence a vyšetřování šikany, kyberšikany a dalšího rizikového chování
       </b> (8 hod, dopručeno pro ZŠ, ŠD, ŠK, ZUŠ, SŠ, VOŠ, DM, asistenti)
         <div className="collapse " id="collapsezwb012">
           <p>Obsah</p>
@@ -2724,7 +2724,7 @@ var ZSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
           </ul >
         </div >
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb1111" aria-expanded="false" aria-controls="collapsezwb1111">Třídní učitel a jeho působení na vytváření třídního kolektivu  </b> (8 hod, doporučeno pro ZŠ, SŠ, VOŠ, asistenti)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezwb1111" aria-expanded="false" aria-controls="collapsezwb1111">Třídní učitel a jeho působení na vytváření třídního kolektivu  </b> (8 hod, doporučeno pro ZŠ, SŠ, VOŠ, asistenti)
          <div className="collapse " id="collapsezwb1111">
           <ul className="list-group">
             <li className="list-group-item">•	<b>Téma – třídní učitel v souvislosti</b> s aktuálním znění zákona č. 563/2004 Sb. Zákon o pedagogických pracovnících ve znění účinném od 1. 1. 2024. Vysvětlení pojmů §24d organizační, administrativní činnosti a podpora zdravých, funkčních vztahů mezi žáky aj. (1 hod.)</li>
@@ -2735,7 +2735,7 @@ var ZSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
           </ul >
         </div >
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb1133" aria-expanded="false" aria-controls="collapsezwb1133">Třídní učitel a wellbeing </b> (8 hod, doporučeno pro ZŠ, SŠ, VOŠ, asistenti)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezwb1133" aria-expanded="false" aria-controls="collapsezwb1133">Třídní učitel a wellbeing </b> (8 hod, doporučeno pro ZŠ, SŠ, VOŠ, asistenti)
          <div className="collapse " id="collapsezwb1133">
           <ul className="list-group">
             <li className="list-group-item">•	Praktický vzdělávací program je zaměřen na současně velmi aktuální téma wellbeingu pedagogů a jeho následnou možnou aplikaci při práci se žáky. Zejména v práci třídního učitele by měla být věnována maximální pozornost práci s emocemi a jejich pojmenováváním a vytvoření podnětného prostředí, ve kterém bude žákům přirozené své emoce sdílet. Cílem semináře je zdokonalit kompetence třídních učitelů pedagogů v oblasti wellbeingu.</li>
@@ -2746,7 +2746,7 @@ var ZSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
           </ul >
         </div >
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb4" aria-expanded="false" aria-controls="collapsezwb4">Jak zvládat stresové situace a nedospět k vyhoření </b> (8 hod, doporučeno pro MŠ, ZŠ, ZUŠ, ŠD, SŠ, VOŠ, DM, asistenti)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezwb4" aria-expanded="false" aria-controls="collapsezwb4">Jak zvládat stresové situace a nedospět k vyhoření </b> (8 hod, doporučeno pro MŠ, ZŠ, ZUŠ, ŠD, SŠ, VOŠ, DM, asistenti)
                 <div className="collapse " id="collapsezwb4"><ul className="list-group"><li className="list-group-item">•	Jak psychický stres ovlivňuje náš výkon, Bournout podle Maslachové, Stres management jako pojem (2 hodiny)</li>
           <li className="list-group-item">•	Vytváření mapy zvládání každodenního stresu (1 hodina)</li>
           <li className="list-group-item">•	Zjištění vlastního přístupu k práci, k sobě i k druhým (praktické cvičení) – (1 hodina)</li>
@@ -2755,7 +2755,7 @@ var ZSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
           <li className="list-group-item">•	Jak nastavit změny, které podporují nevyhoření, sdílení, závěrečné shrnutí (1 hodina)</li>
         </ul></div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb3" aria-expanded="false" aria-controls="collapsezwb3">Prevence k zátěžovým situacím ve škole </b> (8 hod, doporučeno pro MŠ, ZŠ, ZUŠ, ŠD, SŠ, VOŠ, DM, asistenti)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezwb3" aria-expanded="false" aria-controls="collapsezwb3">Prevence k zátěžovým situacím ve škole </b> (8 hod, doporučeno pro MŠ, ZŠ, ZUŠ, ŠD, SŠ, VOŠ, DM, asistenti)
                 <div className="collapse " id="collapsezwb3"><ul className="list-group"><li className="list-group-item">•	<b>Teoretický úvod do oblasti psychohygieny učitele </b> – zmapování zátěžových situací u pedagogických pracovníků, které vedou k jejich přepracovanosti – teorie + práce skupin (1 hod.)</li>
           <li className="list-group-item">•	<b>Preventivní doporučení </b> - úprava životního stylu, efektivní organizace času, stanovení priorit, schopnost delegování úkolů (komunikace), spánková hygiena, (3 hod.) </li>
           <li className="list-group-item">•	<b>Preventivní doporučení </b> – důležitost aktivního pohybu, relaxace, odpočinku, včetně nácviku jednoduchých relaxačních technik (jednoduché relaxace k uvolnění stresu: a) cviky k uvolnění svalového napětí, b) cviky k uvolnění po práci u počítače, c) cviky uvolňující při napětí v zádech a bolestech hlavy a zad. (3 hod.)</li>
@@ -2763,7 +2763,7 @@ var ZSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
         </ul></div>
       </LiFile >
       <LiFile>
-        <b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb11" aria-expanded="false" aria-controls="collapsezwb11">Práce s  pedagogickým sborem-jak předejít syndromu vyhoření</b> (8 hod, dopručeno pro ZŠ, SŠ, asistenti)
+        <b type="button" data-toggle="collapse" data-target="#collapsezwb11" aria-expanded="false" aria-controls="collapsezwb11">Práce s  pedagogickým sborem-jak předejít syndromu vyhoření</b> (8 hod, dopručeno pro ZŠ, SŠ, asistenti)
         <div className="collapse " id="collapsezwb11">
           <ul className="list-group">
             <li className="list-group-item">•	<b>Klima ve škole a sborovně</b> : Klima z hlediska - emocionálního, sociálního, pracovního. Faktory ovlivňující klima školy - přístup učitele, komunikace, metody a strategie. (2 hod)</li>
@@ -2773,13 +2773,13 @@ var ZSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
           </ul>
         </div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb9" aria-expanded="false" aria-controls="collapsezwb9">Rozvoj osobnosti pedagoga ve zvládání konfliktů  </b> (8 hod, doporučeno pro MŠ, ZŠ, ŠD, ZUŠ, asistenti)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezwb9" aria-expanded="false" aria-controls="collapsezwb9">Rozvoj osobnosti pedagoga ve zvládání konfliktů  </b> (8 hod, doporučeno pro MŠ, ZŠ, ŠD, ZUŠ, asistenti)
                 <div className="collapse " id="collapsezwb9"><ul className="list-group"><li className="list-group-item">•	Seznámení s principem OSR (0,5 hodiny)</li>
           <li className="list-group-item">•	Poznávání lidí, mezilidské vztahy. Metody zaměřené na vhodné způsoby komunikace v různých životních situacích, případné řešení neshod či konfliktů s druhými lidmi nenásilným způsobem. Tj. na reakce na základě postojů již získaných; na očekávání, která jsou formována na základě životních zkušeností; na zvládání dovednosti přijímat a poskytovat konstruktivní kritiku, na poznávání typu osobnosti pro úspěšné řešení konfliktu (2 hodiny)</li>
           <li className="list-group-item">•	Řešení problémů a rozhodovací dovednosti. Aktivity zaměřené na mapování vlastních postojů v rámci schématu konfliktu, na způsoby jednání v zátěžových situacích a přístupy ke zvládání konfliktu (kooperace, konfrontace, řešitelský přístup atd.), dovednosti pro řešení problémů a rozhodování z hlediska různých typů konfliktních situací, včetně zvládání krizové komunikace při jednání se žáky i s rodiči/zákonnými zástupci. (5,5 hodiny)</li>
         </ul></div>
       </LiFile >ss
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb101" aria-expanded="false" aria-controls="collapsezwb101">Základy krizové intervence pro pedagogy
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezwb101" aria-expanded="false" aria-controls="collapsezwb101">Základy krizové intervence pro pedagogy
       </b>(8 hod, doporučeno pro ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)
         <div className="collapse " id="collapsezwb101">
           <ul className="list-group">
@@ -2794,7 +2794,7 @@ var ZSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
             <li className="list-group-item">Závěr - sdílení, diskuse (0,5 hod)</li>
           </ul ></div >
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb123" aria-expanded="false" aria-controls="collapsezwb123">Sebepoškozování (příčiny – řešení – péče o žáka)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezwb123" aria-expanded="false" aria-controls="collapsezwb123">Sebepoškozování (příčiny – řešení – péče o žáka)
       </b>(8 hod, doporučeno pro ZŠ, ŠD, ZUŠ, SŠ, VOŠ, DM, asistenti)
         <div className="collapse " id="collapsezwb123">
           <p>Kurz Vás seznámí s tím, co vše se může skrývat pod pojmem sebepoškozování dětí. Jaké mohou být rizikové faktory sebepoškozování. Upozorníme Vás na signály, které mohou vést k sebepoškozování. Co musíte a můžete udělat? Jak se k nemocnému chovat, kde hledáme pomoc? Dále Vás seznámíme s pojmem CAN (syndrom týraného, zneužívaného a zanedbávaného dítěte), deprivace u dětí v souvislosti se sebepoškozováním.</p>
@@ -2806,7 +2806,7 @@ var ZSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
           </ul >
         </div >
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb01" aria-expanded="false" aria-controls="collapsezwb01">Rozvoj sociálních dovedností žáků v ŠD/ŠK  </b> (8 hod, doporučeno pro vychovatele ŠD/ŠK a asistenty pedagoga)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezwb01" aria-expanded="false" aria-controls="collapsezwb01">Rozvoj sociálních dovedností žáků v ŠD/ŠK  </b> (8 hod, doporučeno pro vychovatele ŠD/ŠK a asistenty pedagoga)
         <div className="collapse " id="collapsezwb01">
           <ul className="list-group">
             <li className="list-group-item">•	<b>Skupinová dynamika</b> ( 2 hodiny)<br/>
@@ -2823,7 +2823,7 @@ cíl: - seznámit se s tématem, se zákonitostmi skupinové dynamiky pro práci
 </li>
         </ul ></div >
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb0165" aria-expanded="false" aria-controls="collapsezwb0165">Sociální a etický rozvoj – nový předmět na ZŠ</b>
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezwb0165" aria-expanded="false" aria-controls="collapsezwb0165">Sociální a etický rozvoj – nový předmět na ZŠ</b>
         <div className="collapse " id="collapsezwb0165">
           <div className="m-3">
             <b>Obsah:</b><br />
@@ -2840,7 +2840,7 @@ cíl: - seznámit se s tématem, se zákonitostmi skupinové dynamiky pro práci
           </div >
         </div >
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb5" aria-expanded="false" aria-controls="collapsezwb5">Aspekty emoční a sociální inteligence pedagoga 8 hodin </b> (8 hod, doporučeno pro ZŠ, ZUŠ, ŠD, ŠK)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezwb5" aria-expanded="false" aria-controls="collapsezwb5">Aspekty emoční a sociální inteligence pedagoga 8 hodin </b> (8 hod, doporučeno pro ZŠ, ZUŠ, ŠD, ŠK)
                 <div className="collapse " id="collapsezwb5"><ul className="list-group"><li className="list-group-item">•	Teoretické ukotvení tématu emoční inteligence. Vysvětlení jednotlivých aspektů emoční inteligence, EI z pohledu klasicky pojímané inteligence a její role v uplatnění rozumových schopností, Objasnění možností rozvíjet emoční inteligenci: práce a rozhodování pod časových stresem, zvládání negativních emocí, získávání větší odolnosti, resilience vůči zátěži (2 hodiny)</li>
           <li className="list-group-item">•	Teoretické ukotvení tématu sociální inteligence a jejich jednotlivých aspektů. Praktické procvičení vybraných sociálních dovedností, trénink organizačních dovedností, možnosti řešení konfliktních situací, jak rozvíjet sociální inteligenci žáků (1 hodina)</li>
           <li className="list-group-item">•	Teoretické ukotvení tématu sebepoznání, obeznámení s různými přístupy k sebepoznání, vysvětlení opodstatnění a role sebepoznání v každodenním životě a praxi, vysvětlení pojmů a podstaty uvědomování si vlastních předpokladů, pohnutek, myšlenek a následně schopnosti jejich verbalizace a manipulace s nimi. ( 1 hodina)</li>
@@ -2850,7 +2850,7 @@ cíl: - seznámit se s tématem, se zákonitostmi skupinové dynamiky pro práci
           <li className="list-group-item">•	Nové možnosti komunikace ve třídě. Řešení emočně vypjatých situací, tvorba repertoáru strategií k řešení složitých a neobvyklých sociálních situací (1 hodina)</li>
         </ul></div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb6" aria-expanded="false" aria-controls="collapsezwb6">Aspekty emoční a sociální inteligence pedagoga v MŠ </b> (8 hod, doporučeno pro MŠ)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezwb6" aria-expanded="false" aria-controls="collapsezwb6">Aspekty emoční a sociální inteligence pedagoga v MŠ </b> (8 hod, doporučeno pro MŠ)
                 <div className="collapse " id="collapsezwb6"><ul className="list-group"><li className="list-group-item">•	Teoretické ukotvení tématu emoční inteligence. Vysvětlení jednotlivých aspektů emoční inteligence, EI z pohledu klasicky pojímané inteligence a její role v uplatnění rozumových schopností, Objasnění možností rozvíjet emoční inteligenci: práce a rozhodování pod časových stresem, zvládání negativních emocí, získávání větší odolnosti, resilience vůči zátěži (2 hodiny)</li>
           <li className="list-group-item">•	Teoretické ukotvení tématu sociální inteligence a jejich jednotlivých aspektů. Praktické procvičení vybraných sociálních dovedností, trénink organizačních dovedností, možnosti řešení konfliktních situací, jak rozvíjet sociální inteligenci žáků (1 hodina)</li>
           <li className="list-group-item">•	Teoretické ukotvení tématu sebepoznání, obeznámení s různými přístupy k sebepoznání, vysvětlení opodstatnění a role sebepoznání v každodenním životě a praxi, vysvětlení pojmů a podstaty uvědomování si vlastních předpokladů, pohnutek, myšlenek a následně schopnosti jejich verbalizace a manipulace s nimi. ( 1 hodina)</li>
@@ -2860,7 +2860,7 @@ cíl: - seznámit se s tématem, se zákonitostmi skupinové dynamiky pro práci
           <li className="list-group-item">•	Nové možnosti komunikace ve třídě. Řešení emočně vypjatých situací, tvorba repertoáru strategií k řešení složitých a neobvyklých sociálních situací (1 hodina)</li>
         </ul></div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb7" aria-expanded="false" aria-controls="collapsezwb7">Rozvoj osobnosti pedagoga v oblasti komunikace </b> (8 hod, doporučeno pro MŠ, ZŠ, ŠD, ZUŠ, asistenti)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezwb7" aria-expanded="false" aria-controls="collapsezwb7">Rozvoj osobnosti pedagoga v oblasti komunikace </b> (8 hod, doporučeno pro MŠ, ZŠ, ŠD, ZUŠ, asistenti)
         <div className="collapse " id="collapsezwb7"><ul className="list-group"><li className="list-group-item">•	Efektivní komunikace se sebou, v rámci rodiny a posléze také v kontextu pedagogické praxe (3 hodiny)</li>
           <li className="list-group-item">•	Jak jinak komunikovat, analýza základních komunikačních chyb, alternativní možnosti komunikace se žáky, možnosti, jak vést žáky k odpovědnosti za své prožívání a jednání (1 hodina)</li>
           <li className="list-group-item">•	Nové možnosti komunikace ve třídě (1 hodina)</li>
@@ -2869,7 +2869,7 @@ cíl: - seznámit se s tématem, se zákonitostmi skupinové dynamiky pro práci
           <li className="list-group-item">•	Základy asertivního jednání (1 hodina)</li>
         </ul></div>
       </LiFile >
-      <LiFile><b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb8" aria-expanded="false" aria-controls="collapsezwb8">Rozvoj osobnosti pedagoga v oblasti sebepoznání </b> (8 hod, doporučeno pro MŠ, ZŠ, ŠD, ZUŠ, asistenti)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezwb8" aria-expanded="false" aria-controls="collapsezwb8">Rozvoj osobnosti pedagoga v oblasti sebepoznání </b> (8 hod, doporučeno pro MŠ, ZŠ, ŠD, ZUŠ, asistenti)
                 <div className="collapse " id="collapsezwb8"><ul className="list-group"><li className="list-group-item">•	Seznámení s principem OSR  – (0,5 hod)</li>
           <li className="list-group-item">•	Rozvoj schopností poznávání . Aktivity zaměřené na sebepoznání vlastního já (já v pohledu pozitivity, negativity…). Já z pohledu vlastností pozitivních i negativních (pohled empatie ve vyjádření 10ti odpovědí - jak se vnímám já, a jak mě vidí ostatní), mé silné a slabé stránky, vlastní způsob jednání a chování, přetvářka, sebereflexe (2 hodiny)</li>
           <li className="list-group-item">•	Sebepoznání a sebepojetí. Aktivity zaměřené na sebepoznání, moje přednosti, představy, schopnosti  - prostor pro hlubší seznámení nejenom se sebou samým v rámci sebepozorování, ale i s ostatními účastníky, a to při vzájemném sdílení tématu (sestavování žebříčku osobního rozvoje) a dovednosti poskytovat druhým konstruktivním způsobem zpětnou vazbu, naslouchat jim a vcítit se do potřeb druhého/druhých. (2 hodiny)</li>
@@ -2878,7 +2878,7 @@ cíl: - seznámit se s tématem, se zákonitostmi skupinové dynamiky pro práci
         </ul ></div >
       </LiFile >
       <LiFile>
-        <b type="button" data-bs-toggle="collapse" data-bs-target="#collapsezwb10" aria-expanded="false" aria-controls="collapsezwb10">Zásady asertivní a efektivní komunikace pro MŠ, ZŠ, ZUŠ </b> (8 hod, doporučeno pro MŠ, ZŠ, ŠD, ZUŠ, asistenti)
+        <b type="button" data-toggle="collapse" data-target="#collapsezwb10" aria-expanded="false" aria-controls="collapsezwb10">Zásady asertivní a efektivní komunikace pro MŠ, ZŠ, ZUŠ </b> (8 hod, doporučeno pro MŠ, ZŠ, ŠD, ZUŠ, asistenti)
         <div className="collapse " id="collapsezwb10"><ul className="list-group">
           <li className="list-group-item">•	Seznámení se s pravidly a technikami komunikace osobní i profesní: cíl, základní stanovisko, kladení otázek a jejich typologie, aktivní naslouchání, změkčovadla, sdělování názoru (2 hodiny)</li>
           <li className="list-group-item">•	Praktická typologie v komunikaci podle D. Forbese Leye (možné cvičení). Námitky a jak na ně vhodně reagovat. (1 hodina)</li>

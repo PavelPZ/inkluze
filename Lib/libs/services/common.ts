@@ -1,4 +1,4 @@
-﻿namespace services {
+namespace services {
   export interface serviceOUT {
     error: string;
   }
