@@ -1,112 +1,222 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <urlset
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/xmlschema-instance"
-      xsi:schemalocation="http://www.sitemaps.org/schemas/sitemap/0.9
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>http://dvpp.langmaster.cz/index.html?home</loc>
-    <lastmod>2016-10-13T09:45:14+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>http://dvpp.langmaster.cz/index.html?home|kurzy</loc>
-    <lastmod>2016-10-13T09:45:14+00:00</lastmod>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>http://dvpp.langmaster.cz/index.html?home|okurzy</loc>
-    <lastmod>2016-10-13T09:45:14+00:00</lastmod>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://dvpp.langmaster.cz/index.html?home|vyzva</loc>
-    <lastmod>2016-10-13T09:45:14+00:00</lastmod>
+    <loc>http://dvpp.langmaster.cz/index.html?home|prehledkurzu</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://dvpp.langmaster.cz/index.html?home|q_and_a</loc>
-    <lastmod>2016-10-13T09:45:14+00:00</lastmod>
+    <loc>http://dvpp.langmaster.cz/index.html?home|kurzyss</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://dvpp.langmaster.cz/index.html?home|dalsi</loc>
-    <lastmod>2016-10-13T09:45:14+00:00</lastmod>
+    <loc>http://dvpp.langmaster.cz/index.html?home|kurzyii</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://dvpp.langmaster.cz/index.html?home|akreditace</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>http://dvpp.langmaster.cz/index.html?home|onas</loc>
-    <lastmod>2016-10-13T09:45:14+00:00</lastmod>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://dvpp.langmaster.cz/index.html?home|vyzva|dump_popups</loc>
-    <lastmod>2016-10-13T09:45:14+00:00</lastmod>
+    <loc>http://dvpp.langmaster.cz/index.html?home|kurzyss|sspedagogickadiagnostika</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://dvpp.langmaster.cz/index.html?home|kurzy|zsinkluze8</loc>
-    <lastmod>2016-10-13T09:45:14+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-    <url>
-    <loc>http://dvpp.langmaster.cz/index.html?home|kurzy|zsinkluze16</loc>
-    <lastmod>2016-10-13T09:45:14+00:00</lastmod>
+    <loc>http://dvpp.langmaster.cz/index.html?home|kurzyss|ssinovace</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://dvpp.langmaster.cz/index.html?home|kurzy|zsinkluze24</loc>
-    <lastmod>2016-10-13T09:45:14+00:00</lastmod>
+    <loc>http://dvpp.langmaster.cz/index.html?home|kurzyss|ssspoluprace</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://dvpp.langmaster.cz/index.html?home|kurzy|zsinkluze32</loc>
-    <lastmod>2016-10-13T09:45:14+00:00</lastmod>
+    <loc>http://dvpp.langmaster.cz/index.html?home|kurzyss|ssctenarskagramotnost</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://dvpp.langmaster.cz/index.html?home|kurzy|zsctenarska</loc>
-    <lastmod>2016-10-13T09:45:14+00:00</lastmod>
+    <loc>http://dvpp.langmaster.cz/index.html?home|kurzyss|ssmatematickagramotnost</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://dvpp.langmaster.cz/index.html?home|kurzy|zsmatematicka16</loc>
-    <lastmod>2016-10-13T09:45:14+00:00</lastmod>
+    <loc>http://dvpp.langmaster.cz/index.html?home|kurzyss|sspodporaucitelu</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://dvpp.langmaster.cz/index.html?home|kurzy|zsmatematicka32</loc>
-    <lastmod>2016-10-13T09:45:14+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>  
-  <url>
-    <loc>http://dvpp.langmaster.cz/index.html?home|kurzy|zsmentoring32</loc>
-    <lastmod>2016-10-13T09:45:14+00:00</lastmod>
+    <loc>http://dvpp.langmaster.cz/index.html?home|kurzyss|ssmedgramotnost</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://dvpp.langmaster.cz/index.html?home|kurzy|zsmentoring56</loc>
-    <lastmod>2016-10-13T09:45:14+00:00</lastmod>
+    <loc>http://dvpp.langmaster.cz/index.html?home|kurzyss|ssnovetechnologie</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://dvpp.langmaster.cz/index.html?home|kurzy|zsmentoring80</loc>
-    <lastmod>2016-10-13T09:45:14+00:00</lastmod>
+    <loc>http://dvpp.langmaster.cz/index.html?home|kurzyss|ssrozvojpodnikavosti</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://dvpp.langmaster.cz/index.html?home|kurzy|MSInkluze816</loc>
-    <lastmod>2016-10-13T09:45:14+00:00</lastmod>
+    <loc>http://dvpp.langmaster.cz/index.html?home|kurzyss|sskarieroveporadenstvi</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://dvpp.langmaster.cz/index.html?home|kurzy|msctenarska</loc>
-    <lastmod>2016-10-13T09:45:14+00:00</lastmod>
+    <loc>http://dvpp.langmaster.cz/index.html?home|kurzyss|sswellbeing</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://dvpp.langmaster.cz/index.html?home|kurzy|msmatematicka</loc>
-    <lastmod>2016-10-13T09:45:14+00:00</lastmod>
+    <loc>http://dvpp.langmaster.cz/index.html?home|kurzyss|ssvyukacestiny</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://dvpp.langmaster.cz/index.html?home|kurzyss|ssinkluzecizinci</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://dvpp.langmaster.cz/index.html?home|kurzyss|ssostatniinkluze</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://dvpp.langmaster.cz/index.html?home|kurzyss|ssinovativniformy</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://dvpp.langmaster.cz/index.html?home|kurzyss|ssformativnihodnoceni</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://dvpp.langmaster.cz/index.html?home|kurzyss|ssindividualizace</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://dvpp.langmaster.cz/index.html?home|kurzyss|ssgenderovatematika</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://dvpp.langmaster.cz/index.html?home|kurzyii|zsinkluzecizinci</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://dvpp.langmaster.cz/index.html?home|kurzyii|zsinovativniformy</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://dvpp.langmaster.cz/index.html?home|kurzyii|zsvyukacestiny</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://dvpp.langmaster.cz/index.html?home|kurzyii|zsmedialnigramotnost</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://dvpp.langmaster.cz/index.html?home|kurzyii|zsnovetechnologie</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://dvpp.langmaster.cz/index.html?home|kurzyii|zswellbeing</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://dvpp.langmaster.cz/index.html?home|kurzyii|zsgenderova</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://dvpp.langmaster.cz/index.html?home|kurzyii|zsctenarskagramotnost</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://dvpp.langmaster.cz/index.html?home|kurzyii|zsmatematickagramotnost</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://dvpp.langmaster.cz/index.html?home|kurzyii|zsrozvojpodnikavosti</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://dvpp.langmaster.cz/index.html?home|kurzyii|zskarieroveporadenstvi</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://dvpp.langmaster.cz/index.html?home|kurzyii|zsformativnihodnoceni</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://dvpp.langmaster.cz/index.html?home|kurzyii|zsindividualizace</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://dvpp.langmaster.cz/index.html?home|kurzyii|zsdiagnostika</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://dvpp.langmaster.cz/index.html?home|kurzyii|zsinovace</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://dvpp.langmaster.cz/index.html?home|kurzyii|zsspoluprace</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://dvpp.langmaster.cz/index.html?home|kurzyii|zsinkluze</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://dvpp.langmaster.cz/index.html?home|kurzyii|zspodpora</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>

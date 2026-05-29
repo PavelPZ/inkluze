@@ -1,27 +1,27 @@
 ﻿{
   "courseTemplates": [
     {
-      "id": "nezraly-prvnacek",
-      "title": "Jak pracovat s nezralým prvňáčkem (8 hodin)",
+      "id": "asistent-pedagoga-u-zaka-se-zdravotnim-postizenim-mp-pas-8-hodin",
+      "title": "Asistent pedagoga - u žáka se zdravotním postižením - MP, PAS (8 hodin)",
       "courseLink": "/index.html?home|kurzyii|zsinkluze",
-      "area": "Pedagogická diagnostika",
-      "defaultPrice": "1690 Kč/os",
+      "area": "Inkluze",
+      "defaultPrice": "1790 Kč/os",
       "lecturer": "Mgr et Mgr. Dagmar Vilášková",
       "location": "online",
       "defaultNote": "v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny"
     },
     {
-      "id": "stres-a-vyhoreni",
-      "title": "Jak zvládat stresové situace a nedospět k vyhoření (8 hodin)",
-      "courseLink": "/index.html?home|kurzyii|zswellbeing",
-      "area": "Wellbeing a psychohygiena",
-      "defaultPrice": "1690 Kč/os",
-      "lecturer": "Mgr. Jana Soukupová",
+      "id": "asistent-pedagoga-v-1-tride-nova-pozice-napln-prace",
+      "title": "Asistent pedagoga v 1. třídě (nová pozice) - náplň práce",
+      "courseLink": "/index.html?home|kurzyii|zsinkluze",
+      "area": "Inkluze",
+      "defaultPrice": "1790 Kč/os",
+      "lecturer": "PaedDr. Ellen Mlátilíková",
       "location": "online",
       "defaultNote": "v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny"
     },
     {
-      "id": "asistent-pedagoga-praxe",
+      "id": "asistent-pedagoga-ve-skolni-praxi-konkretni-priklady-spoluprace-s-ucitelem-8-hod",
       "title": "Asistent pedagoga ve školní praxi (konkrétní příklady spolupráce s učitelem) (8 hodin)",
       "courseLink": "/index.html?home|kurzyii|zsinkluze",
       "area": "Inkluze",
@@ -31,56 +31,789 @@
       "defaultNote": "v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny"
     },
     {
-      "id": "kurz-1779886454054",
-      "title": "Nový kurz test",
+      "id": "digitalni-kompetence-na-zakladni-skole-8-hodin",
+      "title": "Digitální kompetence na základní škole (8 hodin)",
+      "courseLink": "/index.html?home|kurzyii|zsinovace",
+      "area": "Vzdělání s využitím nových technologií, Inovace ŠVP/koncepce rozvoje školy/školského zařízení",
+      "defaultPrice": "1790 Kč/os",
+      "lecturer": "PhDr. Veronika Havelková, Ph.",
+      "location": "online",
+      "defaultNote": "v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny"
+    },
+    {
+      "id": "digitalni-kompetence-na-zs-matematika-8-hodin",
+      "title": "Digitální kompetence na ZŠ – matematika (8 hodin)",
+      "courseLink": "/index.html?home|kurzyii|zsinovace",
+      "area": "Vzdělání s využitím nových technologií, Inovace ŠVP/koncepce rozvoje školy/školského zařízení",
+      "defaultPrice": "1790 Kč/os",
+      "lecturer": "PhDr. Veronika Havelková, Ph.D",
+      "location": "online",
+      "defaultNote": "v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny"
+    },
+    {
+      "id": "formativni-hodnoceni-v-praxi-8-hodin",
+      "title": "Formativní hodnocení v praxi (8 hodin)",
+      "courseLink": "/index.html?home|kurzyii|zsformativnihodnoceni",
+      "area": "Formativní hodnocení",
+      "defaultPrice": "1790 Kč/os",
+      "lecturer": "Mgr. Jana Soukupová",
+      "location": "online",
+      "defaultNote": "v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny"
+    },
+    {
+      "id": "funkce-a-nastrahy-internetu-kybersikana-a-socialni-site-8-hodin",
+      "title": "Funkce a nástrahy internetu, kyberšikana a sociální sítě (8 hodin)",
+      "courseLink": "/index.html?home|kurzyii|zsmedialnigramotnost",
+      "area": "Mediální gramotnost, prevence kyberšikany, chování na sociálních sítích",
+      "defaultPrice": "1790 Kč/os",
+      "lecturer": "Mgr. Bc. Jan Šindelář",
+      "location": "online",
+      "defaultNote": "v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny"
+    },
+    {
+      "id": "gender-a-genderova-tematika-na-skolach-8-hodin",
+      "title": "Gender a genderová tematika na školách (8 hodin)",
+      "courseLink": "/index.html?home|kurzyss|SSGenderovaTematika",
+      "area": "Genderová tematika v obsahu vzdělávání",
+      "defaultPrice": "1790 Kč/os",
+      "lecturer": "Mgr. Jana Soukupová",
+      "location": "online",
+      "defaultNote": "v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny"
+    },
+    {
+      "id": "geogebra-jako-nastroj-rozvoje-matematicke-gramotnosti-8-hodin",
+      "title": "GeoGebra jako nástroj rozvoje matematické gramotnosti (8 hodin)",
+      "courseLink": "/index.html?home|kurzyss|ssmatematickagramotnost",
+      "area": "Matematická gramotnost",
+      "defaultPrice": "1790 Kč/os",
+      "lecturer": "PhDr. Veronika Havelková, Ph.D.",
+      "location": "online",
+      "defaultNote": "v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny"
+    },
+    {
+      "id": "geogebra-jako-nastroj-rozvoje-matematicke-gramotnosti-na-ss-8-hodin",
+      "title": "GeoGebra jako nástroj rozvoje matematické gramotnosti na SŠ (8 hodin)",
+      "courseLink": "/index.html?home|kurzyss|ssmatematickagramotnost",
+      "area": "Matematická gramotnost",
+      "defaultPrice": "1790 Kč/os",
+      "lecturer": "PhDr. Veronika Havelková, Ph.D.",
+      "location": "online",
+      "defaultNote": "v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny"
+    },
+    {
+      "id": "geogebra-jako-nastroj-rozvoje-matematicke-gramotnosti-na-zs-8-hodin",
+      "title": "GeoGebra jako nástroj rozvoje matematické gramotnosti na ZŠ (8 hodin)",
+      "courseLink": "/index.html?home|kurzyii|zsmatematickagramotnost",
+      "area": "Matematická gramotnost",
+      "defaultPrice": "1790 Kč/os",
+      "lecturer": "PhDr. Veronika Havelková, Ph.D.",
+      "location": "online",
+      "defaultNote": "v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny"
+    },
+    {
+      "id": "jak-pracovat-s-nezralym-prvnackem-8-hodin",
+      "title": "Jak pracovat s nezralým prvňáčkem (8 hodin)",
+      "courseLink": "/index.html?home|kurzyii|zsinkluze",
+      "area": "Pedagogická diagnostika",
+      "defaultPrice": "1690 Kč/os",
+      "lecturer": "Mgr et Mgr. Dagmar Vilášková",
+      "location": "online",
+      "defaultNote": "v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny"
+    },
+    {
+      "id": "jak-se-venovat-zakovi-s-poruchou-uceni-8-hodin",
+      "title": "Jak se věnovat žákovi s poruchou učení (8 hodin)",
       "courseLink": "/index.html?home|kurzyii|zsinkluze",
       "area": "Inkluze",
       "defaultPrice": "1790 Kč/os",
-      "lecturer": "bla bla",
+      "lecturer": "Mgr et Mgr. Dagmar Vilášková",
       "location": "online",
-      "defaultNote": "v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny",
-      "isArchived": false
+      "defaultNote": "v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny"
+    },
+    {
+      "id": "jak-zvladat-stresove-situace-a-nedospet-k-vyhoreni-8-hodin",
+      "title": "Jak zvládat stresové situace a nedospět k vyhoření (8 hodin)",
+      "courseLink": "/index.html?home|kurzyii|zswellbeing",
+      "area": "Wellbeing a psychohygiena",
+      "defaultPrice": "1690 Kč/os",
+      "lecturer": "Mgr. Jana Soukupová",
+      "location": "online",
+      "defaultNote": "v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny"
+    },
+    {
+      "id": "kompetence-a-gramotnosti-v-novem-svp-pro-ms-8-hodin",
+      "title": "Kompetence a gramotnosti v novém ŠVP pro MŠ (8 hodin)",
+      "courseLink": "/index.html?home|kurzyii|zsinovace",
+      "area": "Inovace ŠVP/koncepce rozvoje školy/školského zařízení",
+      "defaultPrice": "1790 Kč/os",
+      "lecturer": "Bc. Jiří Forýtek, Mgr. Dana Forýtková",
+      "location": "online",
+      "defaultNote": "tento termín bude speciálně zaměřen na ŠVP pro MŠ"
+    },
+    {
+      "id": "kompetence-prurezova-temata-a-gramotnosti-v-novem-svp-zv-8-hodin",
+      "title": "Kompetence, průřezová témata a gramotnosti v novém ŠVP ZV (8 hodin)",
+      "courseLink": "/index.html?home|kurzyii|zsinovace",
+      "area": "Inovace ŠVP/koncepce rozvoje školy/školského zařízení",
+      "defaultPrice": "1790 Kč/os",
+      "lecturer": "Bc. Jiří Forýtek, Mgr. Dana Forýtková",
+      "location": "online",
+      "defaultNote": "tento termín bude speciálně zaměřen na ŠVP pro ZŠ"
+    },
+    {
+      "id": "kazenske-prestupky-a-moznosti-jejich-reseni-v-ramci-tridy-8-hodin",
+      "title": "Kázeňské přestupky a možnosti jejich řešení v rámci třídy (8 hodin)",
+      "courseLink": "/index.html?home|kurzyss|sspedagogickadiagnostika",
+      "area": "Pedagogická diagnostika, Inkluze",
+      "defaultPrice": "1790 Kč/os",
+      "lecturer": "PaedDr. Ellen Mlátilíková",
+      "location": "online",
+      "defaultNote": "v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny"
+    },
+    {
+      "id": "moderni-technologie-pro-ucitele-ms-jednoduse-a-efektivne",
+      "title": "Moderní technologie pro učitele MŠ: jednoduše a efektivně",
+      "courseLink": "/index.html?home|kurzyii|zsnovetechnologie",
+      "area": "Vzdělání s využitím nových technologií",
+      "defaultPrice": "1790 Kč/os",
+      "lecturer": "PhDr. Veronika Havelková, Ph.D.",
+      "location": "online",
+      "defaultNote": "v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny"
+    },
+    {
+      "id": "moderni-technologie-pri-rozvoji-matematicke-gramotnosti-8-hodin",
+      "title": "Moderní technologie při rozvoji matematické gramotnosti (8 hodin)",
+      "courseLink": "/index.html?home|kurzyss|ssmatematickagramotnost",
+      "area": "Matematická gramotnost",
+      "defaultPrice": "1790 Kč/os",
+      "lecturer": "PhDr. Veronika Havelková, Ph.D.",
+      "location": "online",
+      "defaultNote": "v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny"
+    },
+    {
+      "id": "neklidne-dite-problematika-adhd-add-8-hodin",
+      "title": "Neklidné dítě – problematika ADHD, ADD (8 hodin)",
+      "courseLink": "/index.html?home|kurzyii|zsinkluze",
+      "area": "Inkluze",
+      "defaultPrice": "1790 Kč/os",
+      "lecturer": "Mgr et Mgr. Dagmar Vilášková",
+      "location": "online",
+      "defaultNote": "v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny"
+    },
+    {
+      "id": "nova-informatika-na-zakladni-skole-8-hodin",
+      "title": "Nová informatika na základní škole (8 hodin)",
+      "courseLink": "/index.html?home|kurzyii|zsnovetechnologie",
+      "area": "Vzdělávání s využitím nových technologií",
+      "defaultPrice": "1790 Kč/os",
+      "lecturer": "Mgr. Bc. Jan Šindelář",
+      "location": "online",
+      "defaultNote": "v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny"
+    },
+    {
+      "id": "nove-metody-prace-ucitele-aktivizujici-formy-vyuky-na-zs-a-ss-8-hodin",
+      "title": "Nové metody práce učitele – aktivizující formy výuky na ZŠ a SŠ (8 hodin)",
+      "courseLink": "/index.html?home|kurzyss|ssinovativniformy",
+      "area": "Alternativní/inovativní formy výuky, aktivizační metody ve výuce",
+      "defaultPrice": "1790 Kč/os",
+      "lecturer": "Mgr. Dana Forýtková",
+      "location": "online",
+      "defaultNote": "v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny"
+    },
+    {
+      "id": "osobnostni-a-socialni-rozvoj-ucitele-ve-zvladani-konfliktu-8-hodin",
+      "title": "Osobnostní a sociální rozvoj učitele ve zvládání konfliktů (8 hodin)",
+      "courseLink": "/index.html?home|kurzyss|sswellbeing",
+      "area": "Wellbeing a psychohygiena",
+      "defaultPrice": "1790 Kč/os",
+      "lecturer": "Mgr. Dana Forýtková",
+      "location": "online",
+      "defaultNote": "v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny"
+    },
+    {
+      "id": "pedagogicka-diagnostika-ditete-v-ms-8-hodin",
+      "title": "Pedagogická diagnostika dítěte v MŠ (8 hodin)",
+      "courseLink": "/index.html?home|kurzyii|zsdiagnostika",
+      "area": "Pedagogická diagnostika",
+      "defaultPrice": "1790 Kč/os",
+      "lecturer": "Mgr et Mgr. Dagmar Vilášková",
+      "location": "online",
+      "defaultNote": "v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny"
+    },
+    {
+      "id": "prevence-k-zatezovam-situacim-ve-skole-8-hodin",
+      "title": "Prevence k zátěžovám situacím ve škole (8 hodin)",
+      "courseLink": "/index.html?home|kurzyss|sswellbeing",
+      "area": "Wellbeing a psychohygiena",
+      "defaultPrice": "1790 Kč/os",
+      "lecturer": "Mgr. Dana Forýtková",
+      "location": "online",
+      "defaultNote": "v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny"
+    },
+    {
+      "id": "prevence-k-zatezovym-situacim-ve-skole-8-hodin",
+      "title": "Prevence k zátěžovým situacím ve škole (8 hodin)",
+      "courseLink": "/index.html?home|kurzyss|sswellbeing",
+      "area": "Wellbeing a psychohygiena",
+      "defaultPrice": "1790 Kč/os",
+      "lecturer": "Mgr. Dana Forýtková",
+      "location": "online",
+      "defaultNote": "v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny"
+    },
+    {
+      "id": "prace-s-diferencovanou-tridou-a-namety-na-vzdelavani-8-hod",
+      "title": "Práce s diferencovanou třídou a náměty na vzdělávání 8 hod",
+      "courseLink": "/index.html?home|kurzyii|zsinkluze",
+      "area": "Alternativní/inovativní formy výuky/Inkluze",
+      "defaultPrice": "1790 Kč/os",
+      "lecturer": "PaedDr. Ellen Mlátilíková",
+      "location": "online",
+      "defaultNote": "v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny"
+    },
+    {
+      "id": "prace-s-pedagogickym-sborem-jak-predejit-syndromu-vyhoreni-8-hodin",
+      "title": "Práce s pedagogickým sborem-jak předejít syndromu vyhoření (8 hodin)",
+      "courseLink": "/index.html?home|kurzyss|sswellbeing",
+      "area": "Wellbeing a psychohygiena",
+      "defaultPrice": "1790 Kč/os",
+      "lecturer": "PaedDr. Ellen Mlátilíková",
+      "location": "online",
+      "defaultNote": "v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny"
+    },
+    {
+      "id": "role-pedagoga-v-karierovem-poradenstvi-8-hodin",
+      "title": "Role pedagoga v karierovém poradenství – 8 hodin",
+      "courseLink": "/index.html?home|kurzyss|sskarieroveporadenstvi",
+      "area": "Kariérové poradenství včetně identifikace a rozvoje nadání",
+      "defaultPrice": "1790 Kč/os",
+      "lecturer": "Mgr. Dana Forýtková",
+      "location": "online",
+      "defaultNote": "v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny"
+    },
+    {
+      "id": "rozvoj-podnikavosti-a-zasady-soukromeho-podnikani-8-hodin",
+      "title": "Rozvoj podnikavosti a zásady soukromého podnikání (8 hodin)",
+      "courseLink": "/index.html?home|kurzyss|SSRozvojPodnikavosti",
+      "area": "Rozvoj podnikavosti a kreativity",
+      "defaultPrice": "1790 Kč/os",
+      "lecturer": "Mgr Jana Soukupová",
+      "location": "online",
+      "defaultNote": "v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny"
+    },
+    {
+      "id": "rozvoj-socialnich-dovednosti-zaku-v-sd-sk-8-hodin",
+      "title": "Rozvoj sociálních dovedností žáků v ŠD/ŠK (8 hodin)",
+      "courseLink": "/index.html?home|kurzyii|zswellbeing",
+      "area": "Wellbeing a psychohygiena",
+      "defaultPrice": "1690 Kč/os",
+      "lecturer": "Mgr. Dana Forýtková",
+      "location": "online",
+      "defaultNote": "v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny"
+    },
+    {
+      "id": "sebeposkozovani-priciny-reseni-pece-o-zaka-8-hodin",
+      "title": "Sebepoškozování (příčiny – řešení – péče o žáka (8 hodin)",
+      "courseLink": "/index.html?home|kurzyss|sswellbeing",
+      "area": "Wellbeing a psychohygiena",
+      "defaultPrice": "1790 Kč/os",
+      "lecturer": "Mgr et Mgr. Dagmar Vilášková",
+      "location": "online",
+      "defaultNote": "v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny"
+    },
+    {
+      "id": "socialni-a-eticky-rozvoj-novy-predmet-na-zs-8-hodin",
+      "title": "Sociální a etický rozvoj – nový předmět na ZŠ (8 hodin)",
+      "courseLink": "/index.html?home|kurzyii|zswellbeing",
+      "area": "Wellbeing a psychohygiena",
+      "defaultPrice": "1790 Kč/os",
+      "lecturer": "Mgr Dana Forýtková",
+      "location": "online",
+      "defaultNote": "v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny"
+    },
+    {
+      "id": "socialni-klima-tridy-a-pedagogicka-diagnostika-ucitele-8-hodin",
+      "title": "Sociální klima třídy a pedagogická diagnostika učitele (8 hodin)",
+      "courseLink": "/index.html?home|kurzyii|zsdiagnostika",
+      "area": "Pedagogická diagnostika",
+      "defaultPrice": "1790 Kč/os",
+      "lecturer": "Mgr. Dana Forýtková",
+      "location": "online",
+      "defaultNote": "v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny"
+    },
+    {
+      "id": "specificke-poruchy-chovani-v-predskolnim-veku-8-hodin",
+      "title": "Specifické poruchy chování v předškolním věku (8 hodin)",
+      "courseLink": "/index.html?home|kurzyii|zsinkluze",
+      "area": "Pedagogická diagnostika",
+      "defaultPrice": "1790 Kč/os",
+      "lecturer": "Mgr et Mgr. Dagmar Vilášková",
+      "location": "online",
+      "defaultNote": "v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny"
+    },
+    {
+      "id": "specificke-poruchy-chovani-pro-sd-a-asistenty-pedagoga-8-hodin",
+      "title": "Specifické poruchy chování –pro ŠD a asistenty pedagoga (8 hodin)",
+      "courseLink": "/index.html?home|kurzyii|zsinkluze",
+      "area": "Inkluze",
+      "defaultPrice": "1790 Kč/os",
+      "lecturer": "Mgr et Mgr. Dagmar Vilášková",
+      "location": "online",
+      "defaultNote": "v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny"
+    },
+    {
+      "id": "strategie-predchazeni-skolni-neuspesnosti-8-hodin",
+      "title": "Strategie předcházení školní neúspěšnosti (8 hodin)",
+      "courseLink": "/index.html?home|kurzyii|zsinkluze",
+      "area": "Inkluze",
+      "defaultPrice": "1790 Kč/os",
+      "lecturer": "PaedDr. Ellen Mlátilíková",
+      "location": "online",
+      "defaultNote": "v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny"
+    },
+    {
+      "id": "strukturovane-uceni-u-zaku-s-poruchami-autistickeho-spektra-8-hodin",
+      "title": "Strukturované učení u žáků s poruchami autistického spektra (8 hodin)",
+      "courseLink": "/index.html?home|kurzyii|zsinkluze",
+      "area": "Inkluze",
+      "defaultPrice": "1690 Kč/os",
+      "lecturer": "Mgr et Mgr. Dagmar Vilášková",
+      "location": "online",
+      "defaultNote": "v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny"
+    },
+    {
+      "id": "tandemova-vyuka-novy-prvek-ve-vyuce-8-hodin",
+      "title": "Tandemová výuka – nový prvek ve výuce (8 hodin)",
+      "courseLink": "/index.html?home|kurzyii|zsinovativniformy",
+      "area": "Alternativní/inovativní formy výuky, aktivizační metody ve výuce",
+      "defaultPrice": "1790 Kč/os",
+      "lecturer": "Mgr. Dana Forýtková",
+      "location": "online",
+      "defaultNote": "v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny"
+    },
+    {
+      "id": "tridni-ucitel-a-jeho-pusobeni-na-vytvareni-tridniho-kolektivu",
+      "title": "Třídní učitel a jeho působení na vytváření třídního kolektivu",
+      "courseLink": "/index.html?home|kurzyss|sswellbeing",
+      "area": "Wellbeing a psychohygiena",
+      "defaultPrice": "1790 Kč/os",
+      "lecturer": "PaedDr. Ellen Mlátilíková",
+      "location": "online",
+      "defaultNote": "v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny"
+    },
+    {
+      "id": "tridni-ucitel-a-jeho-pusobeni-na-vytvareni-tridniho-kolektivu-8-hodin",
+      "title": "Třídní učitel a jeho působení na vytváření třídního kolektivu (8 hodin)",
+      "courseLink": "/index.html?home|kurzyss|sswellbeing",
+      "area": "Wellbeing a psychohygiena",
+      "defaultPrice": "1790 Kč/os",
+      "lecturer": "PaedDr. Ellen Mlátilíková",
+      "location": "online",
+      "defaultNote": "v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny"
+    },
+    {
+      "id": "tridni-ucitel-a-wellbeing-8-hodin",
+      "title": "Třídní učitel a wellbeing (8 hodin)",
+      "courseLink": "/index.html?home|kurzyss|sswellbeing",
+      "area": "Wellbeing a psychohygiena",
+      "defaultPrice": "1790 Kč/os",
+      "lecturer": "Mgr. Dana Forýtková",
+      "location": "online",
+      "defaultNote": "v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny"
+    },
+    {
+      "id": "umela-inteligence-ve-skole-8-hodin",
+      "title": "Umělá inteligence ve škole (8 hodin)",
+      "courseLink": "/index.html?home|kurzyss|ssnovetechnologie",
+      "area": "Vzdělání s využitím nových technologií",
+      "defaultPrice": "1790 Kč/os",
+      "lecturer": "PhDr. Veronika Havelková, Ph.D.",
+      "location": "online",
+      "defaultNote": "v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny"
+    },
+    {
+      "id": "vedeni-portfolia-zaka-jako-nastroj-formativniho-hodnoceni-8-hodin",
+      "title": "Vedení portfolia žáka jako nástroj formativního hodnocení (8 hodin)",
+      "courseLink": "/index.html?home|kurzyss|ssindividualizace",
+      "area": "Individualizece vzdělávání a vedení portfolia dítěte/žáka, formativní hodnocení",
+      "defaultPrice": "1690 Kč/os",
+      "lecturer": "PaedDr. Ellen Mlátilíková",
+      "location": "online",
+      "defaultNote": "v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny"
+    },
+    {
+      "id": "wellbeing-cesta-k-harmonizaci-vztahu-ve-skole-8-hodin",
+      "title": "Wellbeing, cesta k harmonizaci vztahů ve škole (8 hodin)",
+      "courseLink": "/index.html?home|kurzyss|sswellbeing",
+      "area": "Wellbeing a psychohygiena",
+      "defaultPrice": "1790 Kč/os",
+      "lecturer": "Mgr. Jana Soukupová",
+      "location": "online",
+      "defaultNote": "v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny"
+    },
+    {
+      "id": "zmeny-v-revidovanem-rvp-pro-ms-a-upravy-svp-pro-ms-8-hodin",
+      "title": "Změny v revidovaném RVP pro MŠ a úpravy ŠVP pro MŠ (8 hodin)",
+      "courseLink": "/index.html?home|kurzyii|zsinovace",
+      "area": "Inovace ŠVP/koncepce rozvoje školy/školského zařízení",
+      "defaultPrice": "1790 Kč/os",
+      "lecturer": "Bc. Jiří Forýtek, Mgr. Dana Forýtková",
+      "location": "online",
+      "defaultNote": "tento termín bude speciálně zaměřen na ŠVP pro MŠ"
+    },
+    {
+      "id": "zmeny-v-revidovanem-rvp-zv-a-upravy-svp-zv-8-hodin",
+      "title": "Změny v revidovaném RVP ZV a úpravy ŠVP ZV (8 hodin)",
+      "courseLink": "/index.html?home|kurzyii|zsinovace",
+      "area": "Inovace ŠVP/koncepce rozvoje školy/školského zařízení",
+      "defaultPrice": "1690 Kč/os",
+      "lecturer": "Bc. Jiří Forýtek, Mgr. Dana Forýtková",
+      "location": "online",
+      "defaultNote": "tento termín bude speciálně zaměřen na ŠVP pro ZŠ"
+    },
+    {
+      "id": "zmeny-v-rvp-a-upravy-svp-v-ramci-programu-inspis-svp",
+      "title": "Změny v RVP a úpravy ŠVP v rámci programu InspIS ŠVP",
+      "courseLink": "/index.html?home|kurzyii|zsinovace",
+      "area": "Inovace ŠVP/koncepce rozvoje školy/školského zařízení",
+      "defaultPrice": "1790 Kč/os",
+      "lecturer": "Bc. Jiří Forýtek",
+      "location": "online",
+      "defaultNote": "tento termín bude speciálně zaměřen na ŠVP pro ZŠ"
+    },
+    {
+      "id": "zmeny-v-rvp-a-upravy-svp-v-ramci-programu-inspis-svp-8-hodin",
+      "title": "Změny v RVP a úpravy ŠVP v rámci programu InspIS ŠVP (8 hodin)",
+      "courseLink": "/index.html?home|kurzyii|zsinovace",
+      "area": "Inovace ŠVP/koncepce rozvoje školy/školského zařízení",
+      "defaultPrice": "1790 Kč/os",
+      "lecturer": "Bc. Jiří Forýtek",
+      "location": "online",
+      "defaultNote": "tento termín bude speciálně zaměřen na ŠVP pro SŠ"
+    },
+    {
+      "id": "zaklady-krizove-intervence-ve-skole-pro-pedagogy-8-hodin",
+      "title": "Základy krizové intervence ve škole pro pedagogy (8 hodin)",
+      "courseLink": "/index.html?home|kurzyss|sswellbeing",
+      "area": "Wellbeing a psychohygiena",
+      "defaultPrice": "1790 Kč/os",
+      "lecturer": "Mgr. Jana Soukupová",
+      "location": "online",
+      "defaultNote": "v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny"
+    },
+    {
+      "id": "zasady-efektivni-komunikace-s-rodici-a-zakonnymi-zastupci-8-hodin",
+      "title": "Zásady efektivní komunikace s rodiči a zákonnými zástupci (8 hodin)",
+      "courseLink": "/index.html?home|kurzyii|zsspoluprace",
+      "area": "Spolupráce s rodiči a zákonnými zástupci dětí a žáků, Inkluze",
+      "defaultPrice": "1790 Kč/os",
+      "lecturer": "PaedDr. Ellen Mlátilíková",
+      "location": "online",
+      "defaultNote": "v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny"
+    },
+    {
+      "id": "upravy-svp-v-ramci-programu-inspis-svp-8-hodin",
+      "title": "Úpravy ŠVP v rámci programu InspIS ŠVP (8 hodin)",
+      "courseLink": "/index.html?home|kurzyss|ssinovace",
+      "area": "Inovace ŠVP/koncepce rozvoje školy/školského zařízení",
+      "defaultPrice": "1790 Kč/os",
+      "lecturer": "Bc. Jiří Forýtek",
+      "location": "online",
+      "defaultNote": "tento termín bude speciálně zaměřen na ŠVP pro SŠ"
+    },
+    {
+      "id": "ctenarska-a-informacni-gramotnost-na-zs-8-hodin-2",
+      "title": "Čtenářská a informační gramotnost na ZŠ - 8 hodin",
+      "courseLink": "/index.html?home|kurzyii|zsctenarskagramotnost",
+      "area": "Čtenářská gramotnost",
+      "defaultPrice": "1790 Kč/os",
+      "lecturer": "Mgr. Dana Forýtková",
+      "location": "online",
+      "defaultNote": "v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny"
+    },
+    {
+      "id": "ctenarska-a-informacni-gramotnost-na-zs-8-hodin",
+      "title": "Čtenářská a informační gramotnost na ZŠ – 8 hodin",
+      "courseLink": "/index.html?home|kurzyii|ZSCtenarskaGramotnost",
+      "area": "Čtenářská gramotnost",
+      "defaultPrice": "1790 Kč/os",
+      "lecturer": "Mgr. Dana Forýtková",
+      "location": "online",
+      "defaultNote": "v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny"
+    },
+    {
+      "id": "ctenarska-gramotnost-napric-vsemi-predmety-ss-a-vos-8-hod",
+      "title": "Čtenářská gramotnost napříč všemi předměty SŠ a VOŠ – 8 hod",
+      "courseLink": "/index.html?home|kurzyss|SSCtenarskaGramotnost",
+      "area": "Čtenářská gramotnost",
+      "defaultPrice": "1790 Kč/os",
+      "lecturer": "Mgr. Dana Forýtková",
+      "location": "online",
+      "defaultNote": "v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny"
+    },
+    {
+      "id": "skolni-zralost-priprava-predskolaka-8-hodin",
+      "title": "Školní zralost – příprava předškoláka (8 hodin)",
+      "courseLink": "/index.html?home|kurzyii|zsdiagnostika",
+      "area": "Pedagogická diagnostika",
+      "defaultPrice": "1790 Kč/os",
+      "lecturer": "Mgr et Mgr. Dagmar Vilášková",
+      "location": "online",
+      "defaultNote": "v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny"
+    },
+    {
+      "id": "zak-nadany-a-mimoradne-nadany-moznosti-jeho-rozvoje-webinar-8-hodin",
+      "title": "Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje-webinář (8 hodin)",
+      "courseLink": "/index.html?home|kurzyss|sskarieroveporadenstvi",
+      "area": "Kariérové poradenství včetně identifikace a rozvoje nadání, Inkluze",
+      "defaultPrice": "1790 Kč/os",
+      "lecturer": "PaedDr. Ellen Mlátilíková",
+      "location": "online",
+      "defaultNote": "v rámci Šablon OP JAK se mohou účastnit všechny cílové skupiny"
     }
   ],
   "courseRuns": [
     {
-      "id": "run-2026-06-04-nezraly",
-      "templateId": "nezraly-prvnacek",
+      "id": "run-2026-06-04-jak-pracovat-s-nezralym-prvnackem-8-hodin",
+      "templateId": "jak-pracovat-s-nezralym-prvnackem-8-hodin",
       "date": "2026-06-04",
       "dateLabel": "4.6. 2026",
-      "detailNote": "zrušeno, další termín 15.10. 2026",
       "isPublished": true,
-      "signupEnabled": false
+      "signupEnabled": false,
+      "detailNote": "zrušeno, další termín 15.10. 2026"
     },
     {
-      "id": "run-2026-10-15-nezraly",
-      "templateId": "nezraly-prvnacek",
-      "date": "2026-10-15",
-      "dateLabel": "15.10. 2026",
-      "isPublished": true,
-      "priceOverride": "1790 Kč/os",
-      "signupEnabled": true
-    },
-    {
-      "id": "run-2026-06-04-stres",
-      "templateId": "stres-a-vyhoreni",
+      "id": "run-2026-06-04-jak-zvladat-stresove-situace-a-nedospet-k-vyhoreni-8-hodin",
+      "templateId": "jak-zvladat-stresove-situace-a-nedospet-k-vyhoreni-8-hodin",
       "date": "2026-06-04",
       "dateLabel": "4.6. 2026",
       "isPublished": true,
       "signupEnabled": true
     },
     {
-      "id": "run-2026-09-17-asistent",
-      "templateId": "asistent-pedagoga-praxe",
+      "id": "run-2026-06-10-rozvoj-socialnich-dovednosti-zaku-v-sd-sk-8-hodin",
+      "templateId": "rozvoj-socialnich-dovednosti-zaku-v-sd-sk-8-hodin",
+      "date": "2026-06-10",
+      "dateLabel": "10.6. 2026",
+      "isPublished": true,
+      "signupEnabled": false,
+      "detailNote": "přesunuto na 11.6. 2026"
+    },
+    {
+      "id": "run-2026-06-11-rozvoj-socialnich-dovednosti-zaku-v-sd-sk-8-hodin",
+      "templateId": "rozvoj-socialnich-dovednosti-zaku-v-sd-sk-8-hodin",
+      "date": "2026-06-11",
+      "dateLabel": "11.6. 2026",
+      "isPublished": true,
+      "signupEnabled": true
+    },
+    {
+      "id": "run-2026-09-17-asistent-pedagoga-ve-skolni-praxi-konkretni-priklady-spoluprace-s-ucitelem-8-hod",
+      "templateId": "asistent-pedagoga-ve-skolni-praxi-konkretni-priklady-spoluprace-s-ucitelem-8-hod",
       "date": "2026-09-17",
       "dateLabel": "17.9. 2026",
       "isPublished": true,
       "signupEnabled": true
     },
     {
-      "id": "run-1779886479786",
-      "templateId": "kurz-1779886454054",
-      "date": "2026-12-01",
+      "id": "run-2026-09-22-kompetence-a-gramotnosti-v-novem-svp-pro-ms-8-hodin",
+      "templateId": "kompetence-a-gramotnosti-v-novem-svp-pro-ms-8-hodin",
+      "date": "2026-09-22",
+      "dateLabel": "22.9. 2026",
+      "isPublished": true,
+      "signupEnabled": true,
+      "noteOverride": "tento termín bude speciálně zaměřen na ŠVP pro MŠ"
+    },
+    {
+      "id": "run-2026-09-24-pedagogicka-diagnostika-ditete-v-ms-8-hodin",
+      "templateId": "pedagogicka-diagnostika-ditete-v-ms-8-hodin",
+      "date": "2026-09-24",
+      "dateLabel": "24.9. 2026",
+      "isPublished": true,
+      "signupEnabled": true
+    },
+    {
+      "id": "run-2026-09-30-asistent-pedagoga-v-1-tride-nova-pozice-napln-prace",
+      "templateId": "asistent-pedagoga-v-1-tride-nova-pozice-napln-prace",
+      "date": "2026-09-30",
+      "dateLabel": "30.9. 2026",
+      "isPublished": true,
+      "signupEnabled": true
+    },
+    {
+      "id": "run-2026-10-01-formativni-hodnoceni-v-praxi-8-hodin",
+      "templateId": "formativni-hodnoceni-v-praxi-8-hodin",
+      "date": "2026-10-01",
+      "dateLabel": "1.10. 2026",
+      "isPublished": true,
+      "signupEnabled": true
+    },
+    {
+      "id": "run-2026-10-06-nove-metody-prace-ucitele-aktivizujici-formy-vyuky-na-zs-a-ss-8-hodin",
+      "templateId": "nove-metody-prace-ucitele-aktivizujici-formy-vyuky-na-zs-a-ss-8-hodin",
+      "date": "2026-10-06",
+      "dateLabel": "6.10. 2026",
+      "isPublished": true,
+      "signupEnabled": true
+    },
+    {
+      "id": "run-2026-10-07-prace-s-diferencovanou-tridou-a-namety-na-vzdelavani-8-hod",
+      "templateId": "prace-s-diferencovanou-tridou-a-namety-na-vzdelavani-8-hod",
+      "date": "2026-10-07",
+      "dateLabel": "7.10. 2026",
+      "isPublished": true,
+      "signupEnabled": true
+    },
+    {
+      "id": "run-2026-10-08-specificke-poruchy-chovani-v-predskolnim-veku-8-hodin",
+      "templateId": "specificke-poruchy-chovani-v-predskolnim-veku-8-hodin",
+      "date": "2026-10-08",
+      "dateLabel": "8.10. 2026",
+      "isPublished": true,
+      "signupEnabled": true
+    },
+    {
+      "id": "run-2026-10-13-moderni-technologie-pro-ucitele-ms-jednoduse-a-efektivne",
+      "templateId": "moderni-technologie-pro-ucitele-ms-jednoduse-a-efektivne",
+      "date": "2026-10-13",
+      "dateLabel": "13.10. 2026",
+      "isPublished": true,
+      "signupEnabled": true
+    },
+    {
+      "id": "run-2026-10-15-jak-pracovat-s-nezralym-prvnackem-8-hodin",
+      "templateId": "jak-pracovat-s-nezralym-prvnackem-8-hodin",
+      "date": "2026-10-15",
+      "dateLabel": "15.10. 2026",
+      "isPublished": true,
+      "signupEnabled": true,
+      "priceOverride": "1790 Kč/os"
+    },
+    {
+      "id": "run-2026-10-15-kompetence-prurezova-temata-a-gramotnosti-v-novem-svp-zv-8-hodin",
+      "templateId": "kompetence-prurezova-temata-a-gramotnosti-v-novem-svp-zv-8-hodin",
+      "date": "2026-10-15",
+      "dateLabel": "15.10. 2026",
+      "isPublished": true,
+      "signupEnabled": true,
+      "noteOverride": "tento termín bude speciálně zaměřen na ŠVP pro ZŠ"
+    },
+    {
+      "id": "run-2026-10-21-zmeny-v-rvp-a-upravy-svp-v-ramci-programu-inspis-svp-8-hodin",
+      "templateId": "zmeny-v-rvp-a-upravy-svp-v-ramci-programu-inspis-svp-8-hodin",
+      "date": "2026-10-21",
+      "dateLabel": "21.10. 2026",
+      "isPublished": true,
+      "signupEnabled": true,
+      "noteOverride": "tento termín bude speciálně zaměřen na ŠVP pro SŠ"
+    },
+    {
+      "id": "run-2026-10-21-tridni-ucitel-a-jeho-pusobeni-na-vytvareni-tridniho-kolektivu-8-hodin",
+      "templateId": "tridni-ucitel-a-jeho-pusobeni-na-vytvareni-tridniho-kolektivu-8-hodin",
+      "date": "2026-10-21",
+      "dateLabel": "21.10. 2026",
+      "isPublished": true,
+      "signupEnabled": true
+    },
+    {
+      "id": "run-2026-10-22-rozvoj-podnikavosti-a-zasady-soukromeho-podnikani-8-hodin",
+      "templateId": "rozvoj-podnikavosti-a-zasady-soukromeho-podnikani-8-hodin",
+      "date": "2026-10-22",
+      "dateLabel": "22.10. 2026",
+      "isPublished": true,
+      "signupEnabled": true
+    },
+    {
+      "id": "run-2026-11-04-zasady-efektivni-komunikace-s-rodici-a-zakonnymi-zastupci-8-hodin",
+      "templateId": "zasady-efektivni-komunikace-s-rodici-a-zakonnymi-zastupci-8-hodin",
+      "date": "2026-11-04",
+      "dateLabel": "4.11. 2026",
+      "isPublished": true,
+      "signupEnabled": true
+    },
+    {
+      "id": "run-2026-11-05-specificke-poruchy-chovani-pro-sd-a-asistenty-pedagoga-8-hodin",
+      "templateId": "specificke-poruchy-chovani-pro-sd-a-asistenty-pedagoga-8-hodin",
+      "date": "2026-11-05",
+      "dateLabel": "5.11. 2026",
+      "isPublished": true,
+      "signupEnabled": true
+    },
+    {
+      "id": "run-2026-11-10-umela-inteligence-ve-skole-8-hodin",
+      "templateId": "umela-inteligence-ve-skole-8-hodin",
+      "date": "2026-11-10",
+      "dateLabel": "10.11. 2026",
+      "isPublished": true,
+      "signupEnabled": true
+    },
+    {
+      "id": "run-2026-11-11-tandemova-vyuka-novy-prvek-ve-vyuce-8-hodin",
+      "templateId": "tandemova-vyuka-novy-prvek-ve-vyuce-8-hodin",
+      "date": "2026-11-11",
+      "dateLabel": "11.11. 2026",
+      "isPublished": true,
+      "signupEnabled": true
+    },
+    {
+      "id": "run-2026-11-11-kazenske-prestupky-a-moznosti-jejich-reseni-v-ramci-tridy-8-hodin",
+      "templateId": "kazenske-prestupky-a-moznosti-jejich-reseni-v-ramci-tridy-8-hodin",
+      "date": "2026-11-11",
+      "dateLabel": "11.11. 2026",
+      "isPublished": true,
+      "signupEnabled": true
+    },
+    {
+      "id": "run-2026-11-19-neklidne-dite-problematika-adhd-add-8-hodin",
+      "templateId": "neklidne-dite-problematika-adhd-add-8-hodin",
+      "date": "2026-11-19",
+      "dateLabel": "19.11. 2026",
+      "isPublished": true,
+      "signupEnabled": true
+    },
+    {
+      "id": "run-2026-11-25-zak-nadany-a-mimoradne-nadany-moznosti-jeho-rozvoje-webinar-8-hodin",
+      "templateId": "zak-nadany-a-mimoradne-nadany-moznosti-jeho-rozvoje-webinar-8-hodin",
+      "date": "2026-11-25",
+      "dateLabel": "25.11. 2026",
+      "isPublished": true,
+      "signupEnabled": true
+    },
+    {
+      "id": "run-2026-11-26-gender-a-genderova-tematika-na-skolach-8-hodin",
+      "templateId": "gender-a-genderova-tematika-na-skolach-8-hodin",
+      "date": "2026-11-26",
+      "dateLabel": "26.11. 2026",
+      "isPublished": true,
+      "signupEnabled": true
+    },
+    {
+      "id": "run-2026-11-27-role-pedagoga-v-karierovem-poradenstvi-8-hodin",
+      "templateId": "role-pedagoga-v-karierovem-poradenstvi-8-hodin",
+      "date": "2026-11-27",
+      "dateLabel": "27.11. 2026",
+      "isPublished": true,
+      "signupEnabled": true
+    },
+    {
+      "id": "run-2026-12-02-strategie-predchazeni-skolni-neuspesnosti-8-hodin",
+      "templateId": "strategie-predchazeni-skolni-neuspesnosti-8-hodin",
+      "date": "2026-12-02",
+      "dateLabel": "2.12. 2026",
+      "isPublished": true,
+      "signupEnabled": true
+    },
+    {
+      "id": "run-2026-12-03-skolni-zralost-priprava-predskolaka-8-hodin",
+      "templateId": "skolni-zralost-priprava-predskolaka-8-hodin",
+      "date": "2026-12-03",
+      "dateLabel": "3.12. 2026",
+      "isPublished": true,
+      "signupEnabled": true
+    },
+    {
+      "id": "run-1780045277112",
+      "templateId": "socialni-klima-tridy-a-pedagogicka-diagnostika-ucitele-8-hodin",
+      "date": "2026-11-19",
       "isPublished": true,
       "signupEnabled": true
     }

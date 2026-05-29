@@ -1,4 +1,5 @@
 using Newtonsoft.Json.Linq;
+using System.Configuration;
 using System.IO;
 using System.Text;
 using System.Web;
@@ -6,6 +7,8 @@ using System.Web;
 namespace inkluze {
   public class KurzyHandler : IHttpHandler {
     private const string DataFile = "~/App_Data/kurzy.json";
+    private const string PasswordSetting = "KurzyAdminPassword";
+    private const string AdminPasswordHeader = "X-Admin-Password";
 
     public bool IsReusable => false;
 
@@ -16,6 +19,10 @@ namespace inkluze {
           HandleGet(context);
           return;
         case "POST":
+          if (context.Request.QueryString["action"] == "login") {
+            HandleLogin(context);
+            return;
+          }
           HandlePost(context);
           return;
         default:
@@ -31,7 +38,42 @@ namespace inkluze {
       context.Response.Write(File.ReadAllText(path, Encoding.UTF8));
     }
 
+    private void HandleLogin(HttpContext context) {
+      string body;
+      using (var reader = new StreamReader(context.Request.InputStream, Encoding.UTF8)) {
+        body = reader.ReadToEnd();
+      }
+
+      var expected = GetAdminPassword();
+      if (string.IsNullOrEmpty(expected)) {
+        context.Response.Write("{\"ok\":true}");
+        return;
+      }
+
+      try {
+        var json = JObject.Parse(body);
+        var password = json["password"] != null ? json["password"].ToString() : "";
+        if (password == expected) {
+          context.Response.Write("{\"ok\":true}");
+          return;
+        }
+      } catch {
+        context.Response.StatusCode = 400;
+        context.Response.Write("{\"error\":\"Invalid request\"}");
+        return;
+      }
+
+      context.Response.StatusCode = 401;
+      context.Response.Write("{\"error\":\"Unauthorized\"}");
+    }
+
     private void HandlePost(HttpContext context) {
+      if (!IsAuthorized(context)) {
+        context.Response.StatusCode = 401;
+        context.Response.Write("{\"error\":\"Unauthorized\"}");
+        return;
+      }
+
       string body;
       using (var reader = new StreamReader(context.Request.InputStream, Encoding.UTF8)) {
         body = reader.ReadToEnd();
@@ -55,6 +97,17 @@ namespace inkluze {
       EnsureDataFile(path);
       File.WriteAllText(path, body, Encoding.UTF8);
       context.Response.Write("{\"ok\":true}");
+    }
+
+    private static bool IsAuthorized(HttpContext context) {
+      var expected = GetAdminPassword();
+      if (string.IsNullOrEmpty(expected)) return true;
+      var provided = context.Request.Headers[AdminPasswordHeader];
+      return provided == expected;
+    }
+
+    private static string GetAdminPassword() {
+      return ConfigurationManager.AppSettings[PasswordSetting];
     }
 
     private static void EnsureDataFile(string path) {

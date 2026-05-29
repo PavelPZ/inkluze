@@ -39,7 +39,9 @@
     <TypeScriptCompile Include="apps\inkluze\pages\kurzy\kurzyii.tsx" />
     <TypeScriptCompile Include="apps\inkluze\pages\kurzy\kurzyss.tsx" />
     <TypeScriptCompile Include="apps\inkluze\pages\admin-kurzy.tsx" />
+    <TypeScriptCompile Include="apps\inkluze\pages\kurzy-shared.tsx" />
     <TypeScriptCompile Include="apps\inkluze\pages\okurzy.tsx" />
+    <TypeScriptCompile Include="apps\inkluze\pages\prehled-kurzy.tsx" />
     <TypeScriptCompile Include="apps\inkluze\pages\onas.tsx" />
     <Content Include="externals\react-dom.js" />
     <Content Include="externals\react.js" />

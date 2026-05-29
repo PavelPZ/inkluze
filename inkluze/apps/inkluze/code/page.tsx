@@ -16,7 +16,11 @@
   </div>;
   //all nodes
   let nodes: Array<site.INode> = [];
-  for (var p in site.nodes) nodes.push(site.nodes[p]);
+  for (var p in site.nodes) {
+    var n = site.nodes[p];
+    if ((n.id as string).toLowerCase() === 'adminkurzy') continue;
+    nodes.push(n);
+  }
   let idx = nodes.length >> 1;
   function nodeList(nds: Array<site.INode>): Array<JSX.Element> {
     var res: Array<JSX.Element> = [];

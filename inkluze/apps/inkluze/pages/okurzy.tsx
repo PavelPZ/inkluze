@@ -1,33 +1,4 @@
-﻿interface ICourseTemplate {
-  id: string;
-  title: string;
-  courseLink: string;
-  area: string;
-  defaultPrice: string;
-  lecturer: string;
-  location: string;
-  defaultNote?: string;
-}
-
-interface ICourseRun {
-  id: string;
-  templateId: string;
-  date: string;
-  dateLabel?: string;
-  detailNote?: string;
-  isPublished: boolean;
-  priceOverride?: string;
-  lecturerOverride?: string;
-  noteOverride?: string;
-  signupEnabled?: boolean;
-}
-
-interface IOnlineKurzyResponse {
-  courseTemplates: ICourseTemplate[];
-  courseRuns: ICourseRun[];
-}
-
-interface IRenderedCourse {
+﻿interface IRenderedCourse {
   date: string;
   dateLabel: string;
   detailNote?: string;
@@ -43,42 +14,42 @@ interface IRenderedCourse {
 
 interface IOkurzyState {
   courses: IRenderedCourse[];
+  allCourses: IRenderedCourse[];
+  areas: string[];
   loading: boolean;
   error?: string;
+  query: string;
+  area: string;
 }
 
 class OkurzyPage extends React.Component<{}, IOkurzyState> {
   constructor(props: {}, ctx: sitemapRouter.IContext) {
     super(props, ctx);
-    this.state = { courses: [], loading: true };
+    this.state = {
+      courses: [],
+      allCourses: [],
+      areas: [],
+      loading: true,
+      query: '',
+      area: '',
+    };
   }
 
   componentDidMount() {
-    this.loadCourses();
+    kurzyLoadData(payload => {
+      var courses = this.createRenderedCourses(payload);
+      this.setState({
+        courses: courses,
+        allCourses: courses,
+        areas: kurzyCollectAreas(courses),
+        loading: false,
+      } as any);
+    }, msg => this.setState({ loading: false, error: msg } as any));
   }
 
-  private loadCourses() {
-    var req = new XMLHttpRequest();
-    req.open('GET', '/libs/service-kurzy/kurzy.ashx', true);
-    req.onreadystatechange = () => {
-      if (req.readyState !== 4) return;
-      if (req.status >= 200 && req.status < 300) {
-        try {
-          var payload = JSON.parse(req.responseText) as IOnlineKurzyResponse;
-          this.setState({ courses: this.createRenderedCourses(payload), loading: false } as any);
-        } catch (e) {
-          this.setState({ loading: false, error: 'Nepodařilo se zpracovat data kurzů.' } as any);
-        }
-      } else {
-        this.setState({ loading: false, error: 'Nepodařilo se načíst seznam kurzů.' } as any);
-      }
-    };
-    req.send();
-  }
-
-  private createRenderedCourses(payload: IOnlineKurzyResponse): IRenderedCourse[] {
+  private createRenderedCourses(payload: IKurzyPayload): IRenderedCourse[] {
     if (!payload || !payload.courseTemplates || !payload.courseRuns) return [];
-    var templatesById: { [id: string]: ICourseTemplate } = {};
+    var templatesById: { [id: string]: IKurzyTemplate } = {};
     payload.courseTemplates.forEach(t => templatesById[t.id] = t);
     var mailBody = "Vaše emailová adresa: \nNázev školy: \nPočet přihlášených pedagogů: \nPoznámka:";
     var rendered = payload.courseRuns
@@ -86,7 +57,7 @@ class OkurzyPage extends React.Component<{}, IOkurzyState> {
       .map(r => {
         var t = templatesById[r.templateId];
         if (!t) return null;
-        var dateLabel = r.dateLabel || this.formatDate(r.date);
+        var dateLabel = r.dateLabel || kurzyFormatDate(r.date);
         var subject = dateLabel + " " + t.title;
         return {
           date: r.date,
@@ -107,35 +78,55 @@ class OkurzyPage extends React.Component<{}, IOkurzyState> {
     return rendered;
   }
 
-  private formatDate(isoDate: string): string {
-    if (!isoDate || isoDate.length < 10) return isoDate;
-    var p = isoDate.split('-');
-    if (p.length !== 3) return isoDate;
-    return parseInt(p[2], 10) + "." + parseInt(p[1], 10) + ". " + p[0];
+  private getFilteredCourses(): IRenderedCourse[] {
+    return this.state.allCourses.filter(c => {
+      if (this.state.area && kurzyNormalizeText(c.area).indexOf(kurzyNormalizeText(this.state.area)) < 0) return false;
+      if (!this.state.query) return true;
+      var haystack = c.title + ' ' + c.area + ' ' + c.lecturer + ' ' + c.dateLabel + ' ' + (c.detailNote || '');
+      return kurzyMatchesQuery(haystack, this.state.query);
+    });
   }
 
   render(): JSX.Element {
+    var filtered = this.getFilteredCourses();
     return <div>
       <Page>
         <BlockEx header="Termíny kurzů pro Šablony I a II OP JAK">
           <p>Kurzy pro jednotlivce budou probíhat formou videokoference v prostředí ZOOM.</p>
           <p>Po kliknutí na název kurzu se Vám zobrazí jeho obsah. Pokud se chcete na některý z kurzů přihlásit nebo máte ke kurzu nějaký upřesňující dotaz, kontaktujte nás prosím na emailu projekt@langmaster.cz nebo na telefonech 244 460 807, 728 234 285.</p>
-          <p>Podle předběžného zájmu pedagogů budeme průběžně vypisovat další kurzy a termíny. Kontaktujte nás, pokud sháníte nějaký kurz, který v seznamu nevidíte.</p>
+          <p>
+            Podle předběžného zájmu pedagogů budeme průběžně vypisovat další kurzy a termíny.
+            Kompletní seznam všech kurzů v nabídce najdete v{' '}
+            {sitemapRouter.doNavigateTag(inkluze.root.prehledkurzu)}.
+          </p>
         </BlockEx>
         <BlockEx>
-          <p><a href="/index.html?home|adminkurzy">Administrace termínů kurzů</a></p>
           {this.state.loading ? <p>Načítám seznam kurzů...</p> : null}
           {this.state.error ? <div className='alert alert-danger'>{this.state.error}</div> : null}
-          {!this.state.loading && !this.state.error ? this.renderCourses() : null}
+          {!this.state.loading && !this.state.error ? <div>
+            <KurzyFilterBar
+              query={this.state.query}
+              area={this.state.area}
+              areas={this.state.areas}
+              onQueryChange={q => this.setState({ query: q } as any)}
+              onAreaChange={a => this.setState({ area: a } as any)}
+            />
+            <p><strong>Zobrazeno {filtered.length} z {this.state.allCourses.length} termínů.</strong></p>
+            {filtered.length ? this.renderCourses(filtered) : (
+              this.state.allCourses.length
+                ? <p>Žádný termín neodpovídá zadaným filtrům.</p>
+                : <p>Aktuálně nejsou vypsány žádné termíny. Podívejte se do{' '}
+                  {sitemapRouter.doNavigateTag(inkluze.root.prehledkurzu)}, jaké kurzy nabízíme.</p>
+            )}
+          </div> : null}
         </BlockEx>
       </Page>
     </div>;
   }
 
-  private renderCourses(): JSX.Element {
-    if (!this.state.courses.length) return <p>Aktuálně nejsou vypsány žádné termíny.</p>;
+  private renderCourses(courses: IRenderedCourse[]): JSX.Element {
     return <ul className='fa-ul'>
-      {this.state.courses.map((c, i) => <LiHand key={i}>
+      {courses.map((c, i) => <LiHand key={i}>
         <h4><b>{c.dateLabel} <a href={c.courseLink}>{c.title}</a>{c.detailNote ? " " + c.detailNote : null}</b></h4>
         <h4><Label bsStyle="warning">Oblast: {c.area}</Label></h4>
         <p>Cena: {c.price}, Lektor: {c.lecturer}</p>

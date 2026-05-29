@@ -32,6 +32,7 @@
                 <LiFile>Podpora uvádějících/provázejících učitelů (3 kurzy)</LiFile>
                 <LiFile>Obsah jednotlivých kurzů naleznete na stránkách <a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.kurzyss, ev)}>Šablony pro SŠ a VOŠ I a II - OP JAK</a> a <a href="#" onClick={ev => sitemapRouter.doNavigate(inkluze.root.kurzyii, ev)}>Šablony pro ZŠ a MŠ I a II - OP JAK</a></LiFile>
               </ul>
+              <p style={{ marginTop: '12px' }}><strong>Celkem 118 akreditovaných kurzů.</strong></p>
             </Col>
             <Col md={1}>
               <i className="fa fa-exclamation text-info" style={{ fontSize: '100px' }}></i>
@@ -87,6 +88,13 @@
         a {sitemapRouter.doNavigateTag(inkluze.root.kurzyss)}.
       </p>
     </BlockEx>*/}
+    <BlockEx header="Vyhledání kurzů">
+      <ul className='fa-ul'>
+        <LiHand>{sitemapRouter.doNavigateTag(inkluze.root.okurzy)} – aktuálně vypsané termíny s možností přihlášení</LiHand>
+        <LiHand>{sitemapRouter.doNavigateTag(inkluze.root.prehledkurzu)} – prohledávatelný seznam všech kurzů v nabídce</LiHand>
+        <LiHand>{sitemapRouter.doNavigateTag(inkluze.root.kurzyss)} a {sitemapRouter.doNavigateTag(inkluze.root.kurzyii)} – podrobné popisy akreditovaných kurzů dle témat</LiHand>
+      </ul>
+    </BlockEx>
     <BlockEx header="Termíny a místo kurzů">
       <p>
         Naší strategií je vycházet maximálně vstříc potřebám jednotlivých škol.

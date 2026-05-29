@@ -1266,6 +1266,10 @@ var KurzySSAlert: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.
     Pro více informací klikněte na vybrané téma nahoře na stránce.
   </p>
   <p>
+    Vypsané termíny kurzů: {sitemapRouter.doNavigateTag(inkluze.root.okurzy)}.
+    Kompletní prohledávatelný seznam kurzů: {sitemapRouter.doNavigateTag(inkluze.root.prehledkurzu)}.
+  </p>
+  <p>
     Pro získání podrobnějších informací o našich akreditovaných kurzech napište email na projekt@langmaster.cz.
   </p>
 </div>;
@@ -1274,6 +1278,10 @@ var KurzyIIAlert: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.
   <p style={{ marginTop: '0' }}><i className='fa fa-lightbulb-o'></i> Tip: &nbsp;</p>
   <p>
     Pro více informací klikněte na vybrané téma nahoře na stránce.
+  </p>
+  <p>
+    Vypsané termíny kurzů: {sitemapRouter.doNavigateTag(inkluze.root.okurzy)}.
+    Kompletní prohledávatelný seznam kurzů: {sitemapRouter.doNavigateTag(inkluze.root.prehledkurzu)}.
   </p>
   <p>
     Pro získání podrobnějších informací o našich akreditovaných kurzech napište email na projekt@langmaster.cz.

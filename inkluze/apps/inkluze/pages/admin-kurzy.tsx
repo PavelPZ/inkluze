@@ -28,6 +28,8 @@ interface ICourseData {
 }
 
 interface IAdminKurzyState {
+  authenticated: boolean;
+  loginPassword: string;
   loading: boolean;
   saving: boolean;
   message?: string;
@@ -38,11 +40,15 @@ interface IAdminKurzyState {
   selectedRunId?: string;
 }
 
+var adminSessionKey = 'inkluzeAdminPwd';
+
 class AdminKurzyPage extends React.Component<{}, IAdminKurzyState> {
   constructor(props: {}, ctx: sitemapRouter.IContext) {
     super(props, ctx);
     this.state = {
-      loading: true,
+      authenticated: false,
+      loginPassword: '',
+      loading: false,
       saving: false,
       activeTab: 'runs',
       data: { courseTemplates: [], courseRuns: [] }
@@ -50,15 +56,44 @@ class AdminKurzyPage extends React.Component<{}, IAdminKurzyState> {
   }
 
   componentDidMount() {
-    this.loadData();
+    if (sessionStorage.getItem(adminSessionKey)) {
+      this.setState({ authenticated: true, loading: true } as any, () => this.loadData());
+    }
   }
 
   render(): JSX.Element {
+    if (!this.state.authenticated) {
+      return <div>
+        <Page>
+          <BlockEx header="Přihlášení">
+            <p><a href="/index.html?home|okurzy">Zpět na termíny kurzů</a></p>
+            {this.state.error ? <div className='alert alert-danger'>{this.state.error}</div> : null}
+            <FormGroup>
+              <ControlLabel>Heslo</ControlLabel>
+              <FormControl
+                type="password"
+                value={this.state.loginPassword}
+                onChange={(e: any) => this.setState({ loginPassword: e.target.value, error: null } as any)}
+                onKeyDown={(e: any) => { if (e.keyCode === 13) this.login(); }}
+              />
+            </FormGroup>
+            <Button bsStyle="primary" onClick={() => this.login()} disabled={this.state.loading}>
+              {this.state.loading ? 'Ověřuji...' : 'Přihlásit'}
+            </Button>
+          </BlockEx>
+        </Page>
+      </div>;
+    }
+
     return <div>
       <Page>
         <BlockEx header="Administrace termínů kurzů">
           <p>Šablony kurzů a jejich termíny. Na webu se zobrazí jen termíny s přepínačem <strong>Publikováno</strong>.</p>
-          <p><a href="/index.html?home|okurzy">Zpět na veřejný přehled termínů</a></p>
+          <p>
+            <a href="/index.html?home|okurzy">Zpět na veřejný přehled termínů</a>
+            {' · '}
+            <a href="#" onClick={ev => { ev.preventDefault(); this.logout(); }}>Odhlásit</a>
+          </p>
           {this.state.loading ? <p>Načítám data...</p> : null}
           {this.state.error ? <div className='alert alert-danger'>{this.state.error}</div> : null}
           {this.state.message ? <div className='alert alert-success'>{this.state.message}</div> : null}
@@ -361,6 +396,42 @@ class AdminKurzyPage extends React.Component<{}, IAdminKurzyState> {
     this.setState({ data: data, selectedRunId: runId, message: null } as any);
   }
 
+  private getAdminPassword(): string {
+    return sessionStorage.getItem(adminSessionKey) || '';
+  }
+
+  private login() {
+    this.setState({ loading: true, error: null } as any);
+    var req = new XMLHttpRequest();
+    req.open('POST', '/libs/service-kurzy/kurzy.ashx?action=login', true);
+    req.setRequestHeader('Content-Type', 'application/json; charset=utf-8');
+    req.onreadystatechange = () => {
+      if (req.readyState !== 4) return;
+      if (req.status >= 200 && req.status < 300) {
+        sessionStorage.setItem(adminSessionKey, this.state.loginPassword);
+        this.setState({ authenticated: true, loading: true, error: null } as any, () => this.loadData());
+      } else {
+        this.setState({ loading: false, error: 'Neplatné heslo.' } as any);
+      }
+    };
+    req.send(JSON.stringify({ password: this.state.loginPassword }));
+  }
+
+  private logout() {
+    sessionStorage.removeItem(adminSessionKey);
+    this.setState({
+      authenticated: false,
+      loginPassword: '',
+      loading: false,
+      saving: false,
+      message: null,
+      error: null,
+      data: { courseTemplates: [], courseRuns: [] },
+      selectedTemplateId: '',
+      selectedRunId: ''
+    } as any);
+  }
+
   private loadData() {
     var req = new XMLHttpRequest();
     req.open('GET', '/libs/service-kurzy/kurzy.ashx', true);
@@ -435,10 +506,13 @@ class AdminKurzyPage extends React.Component<{}, IAdminKurzyState> {
     var req = new XMLHttpRequest();
     req.open('POST', '/libs/service-kurzy/kurzy.ashx', true);
     req.setRequestHeader('Content-Type', 'application/json; charset=utf-8');
+    req.setRequestHeader('X-Admin-Password', this.getAdminPassword());
     req.onreadystatechange = () => {
       if (req.readyState !== 4) return;
       if (req.status >= 200 && req.status < 300) {
         this.setState({ saving: false, message: 'Změny byly uloženy.' } as any);
+      } else if (req.status === 401) {
+        this.logout();
       } else {
         this.setState({ saving: false, error: 'Uložení se nezdařilo.' } as any);
       }

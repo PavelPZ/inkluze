@@ -3,6 +3,7 @@
     akreditace: site.INode;
     //dalsi: site.INode;
     okurzy: site.INode;
+    prehledkurzu: site.INode;
     adminkurzy: site.INode;
     kurzyss: ISiteKurzySS;
     kurzyii: ISiteKurzyII;
@@ -59,6 +60,7 @@
     kurzyss: site.ITab;
     kurzyii: site.ITab;
     okurzy: site.ITab;
+    prehledkurzu: site.ITab;
     akreditace: site.ITab;
     //dalsi: site.ITab;
     onas: site.ITab;
@@ -278,11 +280,17 @@
       },
       okurzy: {
         id: 'okurzy',
+        title: 'Termíny kurzů',
         createPage: par => <OkurzyPage />
+      },
+      prehledkurzu: {
+        id: 'prehledkurzu',
+        title: 'Katalog kurzů',
+        createPage: par => <PrehledKurzuPage />
       },
       adminkurzy: {
         id: 'adminkurzy',
-        title: 'Administrace termínů',
+        noTitle: true,
         createPage: par => <AdminKurzyPage />
       },
       onas: {
@@ -299,6 +307,10 @@
       okurzy: {
         title: 'Termíny kurzů',
         rootNode: root.okurzy,
+      },
+      prehledkurzu: {
+        title: 'Katalog kurzů',
+        rootNode: root.prehledkurzu,
       },
       kurzyss: {
         title: 'Šablony pro SŠ a VOŠ I a II- OP JAK',
@@ -325,5 +337,54 @@
       //  rootNode: root.slovnicek,
       //},
     } as ITabs
+  }
+
+  var pageMetaDescriptions: { [key: string]: string } = {
+    home: 'Akreditované kurzy DVPP pro školy v rámci šablon OP JAK I a II. Inkluze, well-being, čtenářská a matematická gramotnost a další oblasti.',
+    okurzy: 'Aktuálně vypsané termíny akreditovaných kurzů DVPP LANGMaster s možností online přihlášení.',
+    prehledkurzu: 'Prohledávatelný katalog všech kurzů DVPP v nabídce – obsah, oblast, lektor a dostupnost termínů.',
+    kurzyss: 'Akreditované kurzy DVPP pro střední školy a VOŠ dle šablon OP JAK – kompletní nabídka dle témat.',
+    kurzyii: 'Akreditované kurzy DVPP pro základní a mateřské školy dle šablon OP JAK – kompletní nabídka dle témat.',
+    akreditace: 'Informace o akreditaci kurzů DVPP LANGMaster pro MŠMT.',
+    onas: 'Kontakt a informace o společnosti LANGMaster – poskytovatel kurzů DVPP.',
+  };
+
+  function getRouteFromLocation(): router.TRouteActionPar {
+    var url = window.location.href;
+    var idx = url.toLowerCase().indexOf('index.html');
+    if (idx < 0) return { storeId: 'home' };
+    var part = url.substr(idx + 'index.html'.length).replace(/^[\?\#\/]+/, '');
+    if (!part) return { storeId: 'home' };
+    return { storeId: decodeURIComponent(part.split('&')[0]).toLowerCase() };
+  }
+
+  function updatePageMeta(route: router.TRouteActionPar) {
+    if (!route || !route.storeId) return;
+    var node = site.nodes[route.storeId.toLowerCase()];
+    if (!node) return;
+    var title = node.title || node.brTitle;
+    if (!title && node.tab) title = node.tab.title;
+    if (node.id === 'home') title = 'DVPP kurzy LANGMaster';
+    document.title = (title ? title + ' | ' : '') + 'LANGMaster DVPP';
+    var desc = pageMetaDescriptions[node.id as string];
+    if (!desc && node.parent) {
+      var parentId = node.parent.id as string;
+      if (parentId === 'kurzyss' || parentId === 'kurzyii') {
+        desc = (node.title || '') + ' – akreditované kurzy DVPP LANGMaster v rámci šablon OP JAK.';
+      }
+    }
+    if (desc) {
+      var meta = document.querySelector('meta[name="description"]');
+      if (meta) meta.setAttribute('content', desc);
+    }
+  }
+
+  export function installPageMetaUpdater() {
+    var prev = router.onRouteChanged;
+    router.onRouteChanged = route => {
+      if (prev) prev(route);
+      updatePageMeta(route);
+    };
+    updatePageMeta(getRouteFromLocation());
   }
 }
