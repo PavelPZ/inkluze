@@ -73,7 +73,58 @@ Data se ukládají do `App_Data/kurzy.json`.
 
 Spuštění: `py scripts\generate-sitemap.py` (z adresáře `inkluze`).
 
-## Nasazení na server
+## Nasazení na server (dvpp.langmaster.cz)
 
-Zkopírovat obsah složky `inkluze/` na IIS (včetně `apps/inkluze.js`, `libs/lib.js`, `App_Data/`, `web.config`).  
-Na produkci změnit admin heslo v `web.config`.
+**Cílová složka IIS (VPN):** `\\192.168.0.111\Data\disk_q\inkluze\`
+
+### Rutinní publish (doporučeno)
+
+1. Připojte **VPN** (UNC cesta musí být dostupná).
+2. V PowerShellu:
+
+```powershell
+cd inkluze
+.\scripts\publish.ps1
+```
+
+Skript:
+- spustí `npm run build` (JS)
+- zkompiluje **Release** (`bin\inkluze.dll`)
+- zkopíruje runtime soubory na server
+
+**Výchozí chování:** nepřepisuje `web.config` ani `App_Data\kurzy.json` na serveru (aby se neztratilo produkční heslo admina a data termínů).
+
+### Úplný publish (první nasazení)
+
+```powershell
+.\scripts\publish.ps1 -IncludeWebConfig -IncludeAppData
+```
+
+Před prvním nasazením na produkci v `web.config` nastavte silné `KurzyAdminPassword`.
+
+### Ruční postup (bez skriptu)
+
+```powershell
+cd inkluze
+npm run build
+# MSBuild Release – viz úloha „build inkluze" ve VS Code, Configuration=Release
+```
+
+Poté zkopírovat na `\\192.168.0.111\Data\disk_q\inkluze\`:
+
+| Složka / soubor | Poznámka |
+|-----------------|----------|
+| `bin\` | `inkluze.dll`, `Newtonsoft.Json.dll` |
+| `apps\inkluze.js`, `apps\inkluze\css\` | frontend |
+| `libs\lib.js`, `libs\service-*\` | router + API |
+| `externals\` | React, Bootstrap CSS, … |
+| `index.html`, `sitemap.xml`, `favicon.ico` | |
+| `App_Data\kurzy.json` | jen pokud chcete přepsat data ze dev |
+| `web.config` | jen s vědomím přepsání produkčního hesla |
+
+**Nekopírovat:** `node_modules`, `obj`, `.tsx` zdrojáky, `scripts\`.
+
+### Po nasazení
+
+- Otevřete https://dvpp.langmaster.cz/index.html?home (Ctrl+F5)
+- Admin: https://dvpp.langmaster.cz/index.html?home\|adminkurzy

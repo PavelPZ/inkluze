@@ -119,6 +119,7 @@ declare namespace router {
         par?: {};
         routeHookDefault?: TRouteActionPar;
     }
+    function decodeFullUrl(url?: string): TRouteActionPar;
     var $isHashRouter: boolean;
     var $basicUrl: string;
 }

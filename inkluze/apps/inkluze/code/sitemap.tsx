@@ -350,12 +350,7 @@ namespace inkluze {
   };
 
   function getRouteFromLocation(): router.TRouteActionPar {
-    var url = window.location.href;
-    var idx = url.toLowerCase().indexOf('index.html');
-    if (idx < 0) return { storeId: 'home' };
-    var part = url.substr(idx + 'index.html'.length).replace(/^[\?\#\/]+/, '');
-    if (!part) return { storeId: 'home' };
-    return { storeId: decodeURIComponent(part.split('&')[0]).toLowerCase() };
+    return router.decodeFullUrl() || { storeId: 'home' };
   }
 
   function updatePageMeta(route: router.TRouteActionPar) {

@@ -114,7 +114,7 @@ var KurzyFilterBar: React.StatelessComponent<IKurzyFilterBarProps> = (props) => 
       <ControlLabel>Hledat kurz</ControlLabel>
       <FormControl
         type='text'
-        placeholder='Název, oblast, lektor…'
+        placeholder='Název, lektor…'
         value={props.query}
         onChange={(e: any) => props.onQueryChange(e.target.value)}
       />

@@ -48,9 +48,15 @@ namespace router {
     history.pushState(null, null, urlStr);
   }
 
-  //routa pars are after ".html" url part
+  //routa pars are after ".html" url part, or in query string (e.g. /?home|kurzyss)
   function getBasicUrl(startUrl: string): string {
-    let idx = startUrl.toLowerCase().indexOf(index_Html); return idx >= 0 ? startUrl.substr(0, idx + index_Html.length) : startUrl;
+    let url = startUrl.split('#')[0];
+    let qIdx = url.indexOf('?');
+    if (qIdx >= 0) url = url.substr(0, qIdx);
+    let idx = url.toLowerCase().indexOf(index_Html);
+    if (idx >= 0) return url.substr(0, idx + index_Html.length);
+    if (url.charAt(url.length - 1) !== '/') url = url + '/';
+    return url;
   }
   const index_Html = 'index.html';
 
@@ -70,17 +76,33 @@ namespace router {
     return $basicUrl + (urlStr ? ($isHashRouter ? '#' : '?') + urlStr : '');
   }
 
-  function decodeFullUrl(url?: string): TRouteActionPar {
+  export function decodeFullUrl(url?: string): TRouteActionPar {
     return decodeUrl(decodeUrlPart(url));
   }
 
   function decodeUrlPart(url?: string): string {
     if (!url) url = window.location.href;
-    if (!url.toLowerCase().startsWith($basicUrl)) throw new lib.Exception(`location.href does not start with ${$basicUrl}`);
-    let res = clearSlashes(url.substr($basicUrl.length));
-    if (!res || res == '') return res;
-    res = decodeURIComponent(res.split('&gclid')[0]); //google prida do vysledku hledani tento parametr, viz http://stackoverflow.com/questions/365888/how-to-decode-google-gclids
-    return res;
+    let href = url.split('#')[0];
+    let hrefLower = href.toLowerCase();
+    let baseLower = $basicUrl.toLowerCase();
+    let idxHtml = hrefLower.indexOf(index_Html);
+    if (idxHtml >= 0) {
+      let base = href.substr(0, idxHtml + index_Html.length);
+      if (!hrefLower.startsWith(base.toLowerCase())) {
+        throw new lib.Exception(`location.href does not start with ${$basicUrl}`);
+      }
+      let res = clearSlashes(href.substr(base.length));
+      if (!res || res == '') return res;
+      return decodeURIComponent(res.split('&gclid')[0]);
+    }
+    if (!hrefLower.startsWith(baseLower)) {
+      throw new lib.Exception(`location.href does not start with ${$basicUrl}`);
+    }
+    let qIdx = href.indexOf('?');
+    if (qIdx >= 0) {
+      return decodeURIComponent(href.substr(qIdx + 1).split('&gclid')[0]);
+    }
+    return '';
   }
 
   function decodeUrl(url?: string): TRouteActionPar {
