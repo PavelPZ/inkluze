@@ -40,6 +40,68 @@ var SSPedagogickaDiagnostika: React.StatelessComponent<IKurzProps> = (props: IKu
             <li className="list-group-item">•	Praktická část: Ukázka práce s třídním kolektivem, ukázka práce v rámci třídnických hodin, ukázka práce- nabídka metodických materiálů. Diskuze, práce s kazuistikami (2 hod)</li>
           </ul></div>
       </LiFile>
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesskp2" aria-expanded="false" aria-controls="collapsesskp2">Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje na SŠ
+      </b>(8 hod, doporučeno pro SŠ, VOŠ)
+                        <div className="collapse border rounded " id="collapsesskp2">
+          <div className="m-3">
+            <b>LEGISLATIVNÍ RÁMEC</b><br />
+            •	Nová legislativa - Školský zákon a Vyhláška 27/2016 k rozvoji nadaných a mimořádně nadaných žáků. Vymezení základních pojmů nadání. RVP pro gymnázia a daný typ střední školy v kontextu s rozvoje nadání. (1 hodina)<br />
+            <b>ZÁKLADNÍ POJMY</b><br />
+            •	Základní pojmy z hlediska psychologické diagnostiky. Typologie nadání z hlediska psychologie. Typologie nadaných z hlediska projevů chování (1 hodina)<br />
+            •	Možnosti a význam pedagogické diagnostiky, ukázka diagnostických metod. (1 hodina)<br />
+            <b>PRINCIPY PRÁCE S NADANÝM A MIMOŘÁDNĚ NADANÝM ŽÁKEM</b><br />
+            •	Charakteristické znaky osobitosti nadaných a mimořádně nadaných žáků. Odlišnosti ve vnímání a zpracování podnětů, v myšlení a prožívání.  Seznámení s různými přístupy k rozvoji nadání (1 hodina)<br />
+            •	Základní principy v práci s nadanými a mimořádně nadanými žáky, případně s žáky s dvojí výjimečností. Možnosti jejich dalšího rozvoje rozumových schopností jako i jejich sociálně emočních kompetencí v rámci daného stupně vzdělávání. (1 hodina)<br />
+            •	IVP, úpravy vzdělávacích obsahů a výstupů. Možnosti hodnocení žáků nadaných a mimořádně nadaných. Seznámení s terminologií, její aplikace v praxi. Sumativní, formativní hodnocení, autonomní, heteronomní hodnocení (2 hodiny)<br />
+            <b>Téma –  UKÁZKA INPIRATIVNÍCH ÚLOH</b><br />
+            •	Možnosti obohacení učiva, inspirativní úlohy vhodné pro rozvoj rozumového nadání. (1 hodina)<br />
+          </div></div>
+      </LiFile>
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesskp3" aria-expanded="false" aria-controls="collapsesskp3">Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje
+      </b>(8 hod, doporučeno pro SŠ, VOŠ, ZŠ)
+        <div className="collapse border rounded " id="collapsesskp3">
+          <div className="m-3">
+            <b>Blok 1 (1 vyučovací hodina – 45 minut)</b><br />
+            Téma – Legislativní rámec <br />
+            Nová legislativa - Školský zákon a Vyhláška 27/2016 k rozvoji nadaných a mimořádně nadaných žáků. Vymezení základních pojmů nadání.<br />
+            RVP pro daný typ školy v kontextu s rozvoje nadání.<br />
+
+            <b>Blok 2 (2 vyučovací hodiny – 90 minut)</b><br />
+            Téma – Základní pojmy<br />
+            Základní pojmy z hlediska psychologické diagnostiky. <br />
+            Typologie nadání z hlediska psychologie. Typologie nadaných z hlediska projevů chování.<br />
+            Možnosti a význam pedagogické diagnostiky, ukázka diagnostických metod.<br />
+
+            <b>Blok 3 (2 vyučovací hodiny – 90 minut)</b><br />
+            Téma – Principy práce s nadaným a mimořádně nadaným žákem 1. část<br />
+            -	Charakteristické znaky osobitosti nadaných a mimořádně nadaných žáků. Odlišnosti ve vnímání a zpracování podnětů, v myšlení a prožívání. <br />
+            -	Seznámení s různými přístupy k rozvoji nadání <br />
+            -	Základní principy v práci s nadanými a mimořádně nadanými žáky, případně s žáky s dvojí výjimečností. Možnosti jejich dalšího rozvoje rozumových schopností jako i jejich sociálně emočních kompetencí v rámci daného stupně vzdělávání.<br />
+
+            <b>Blok 4 (2 vyučovací hodiny – 90 minut)</b><br />
+            Téma – Principy práce s nadaným a mimořádně nadaným žákem 2. část<br />
+            IVP, úpravy vzdělávacích obsahů a výstupů. <br />
+            Možnosti hodnocení žáků nadaných a mimořádně nadaných. Seznámení s terminologií, její aplikace v praxi. <br />
+            Sumativní, formativní hodnocení, autonomní, heteronomní hodnocení.<br />
+
+            <b>Blok 5 (1 vyučovací hodina – 45 minut)</b><br />
+            Téma – Ukázka inspirativních úloh<br />
+            Možnosti obohacení učiva, inspirativní úlohy vhodné pro rozvoj rozumového nadání. (1 hodina)<br />
+
+          </div></div>
+      </LiFile>
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesnt123" aria-expanded="false" aria-controls="collapsesnt123">Strategie předcházení školní neúspěšnosti  </b> (8 hod, doporučeno pro ZŠ, SŠ, VOŠ a asistenty pedagoga)
+        <div className="collapse " id="collapsesnt123">
+          <ul className="list-group">
+            <li className="list-group-item">•	<b>Téma</b> – Strategie předcházení školní neúspěšnosti. Legislativní rámec, strategie jako součást povinné dokumentace školy. Vyhláška 72/2005 Sb., ve znění pozdějších předpisů O poradenských službách ve školách a školských zařízeních.  Vymezení základních pojmů. (1 hodina)</li>
+            <li className="list-group-item">• <b>Téma Základní pojmy 1. část.</b> Vymezení základních pojmů, možnosti pedagogické diagnostiky pro nastavení strategie  prevence školní neúspěšnosti.  metody a formy práce pedagogických pracovníků, standardní činností členů školního  poradneského pracoviště v rámci strategie prevence školní neúspěšnosti. dání. (1 hodina)</li>
+            <li className="list-group-item">•	<b>Téma Základní pojmy 2. část.</b>  Principy práce ve vyučovací hodině v rámci strategie prevence školní neúspěšnosti,  pedagogická diagnostika jako nástroj pro volbu vhodných metod a forem práce s diferencovanou skupinou.(1.hodina)</li>
+            <li className="list-group-item">•	<b>Téma – Principy práce s diferencovanou třídou</b>, Možnosti diferencovaného vyučování, Ukázka diagnostických metod. nastavení diferenciace časem v rámci celé třídy. Ukázka pracovních listů a práce s diferencovanou skupinou od žáků mimořádně nadaných, přes žáky se speciálně vzdělávacími potřebami /dále jen SVP v rámci prevence školní neúspěšnosti/ (1 hodina)</li>
+            <li className="list-group-item">•	<b>Téma – Principy práce s diferencovanou třídou</b>, ukázka dalších možností nastavení prevence školní neúspěšnosti.  Možnosti diferenciace rozsahem práce a obtížností úkolů s nastavením podpůrných opatření.  Ukázka možností procvičování podle individuálních možností a schopností jednotlivých žáků, způsob ověřování tematických celků, úrovně, rozsahu, četnosti úkolů stejného typu. Ukázka možntostí práce v rámci strategie prevence školní neúspěšnosti, nabídka metodických a pracovních materiálů. Možnosti zařazování obtížnější úrovně základního učiva. (1 hodina)</li>
+            <li className="list-group-item">•	<b>Téma – Možnosti školního poradenského pracoviště</b>, standardní činností členů ŠPP v rámci strategie předcházení školní neúspěšnosti a možnosti kooperace pedagogických pracovníků na této strategii.   Hodnocení žáků a motivace žáků k diferencované práci. Sumativní a formativní hodnocení, autonomní, heteronomní hodnocení. (2 hodiny)</li>
+            <li className="list-group-item">•	<b>Téma – Ukázka inspirativních úloh</b>. Možnosti obohacení učiva, inspirativní úlohy vhodné pro rozvoj rozumového nadání.Práce s kazuistikami, diskuze. (1 hodina)</li>
+          </ul></div>
+      </LiFile >
     </ul>
   </BlockEx>
 </Panel>
@@ -809,6 +871,28 @@ var SSWellBeing: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx:
           <li className="list-group-item">•	Neverbální komunikace  – gesta a výrazy s jejich významem. Základy psycholingvistiky a rizikové výrazy. (1 hodina)</li>
         </ul></div>
       </LiFile>
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesd1" aria-expanded="false" aria-controls="collapsesd1">Sociální klima třídy a pedagogická diagnostika učitele </b> (8 hod, doporučeno pro MŠ, ZŠ, SŠ, VOŠ, asistenti)
+                <div className="collapse border rounded " id="collapsesd1">
+          <div className="m-3">
+            <b>Teoretická část  (4 vyučovací hodiny)</b><br />
+            •	Objasnění základních pojmů - klima třídy, sociální klima třídy, spolutvůrci třídního klimatu,<br />
+            •	Pedagogická diagnostika školní třídy – vymezení základních pojmů a metod pedagogické diagnostiky (diagnóza, prognóza, dispozice, proces – cíl, oblasti, diagnostický postup, chyby při diagnostikování ze strany pedagoga, charakteristické rysy, typy, mechanismy, které toto klima ovlivňují, prevence vztahů, pozice a role žáka ve školní třídě)<br />
+            •	Sociální klima třídy a pedagogická diagnostika<br />
+            -	Diagnostické kompetence učitele – metody, nástroje<br />
+            a)	Pozorování – obecné principy, průběh, zápis<br />
+            b)	Rozhovor – princip, vedení rozhovoru, typy, techniky kladení otázek<br />
+            c)	Dotazníky – typy, sestavování<br />
+            d)	Sociometrické metody<br />
+            - sběr dat, vyhodnocování, interpretace a práce s nimi<br />
+            - nejčastější chyby v sociální percepci<br />
+            <br />
+            <b>Praktická část (4 vyučovací hodiny)</b><br />
+            •	Nabídka činností zaměřených na podporu utváření pozitivního sociálního klimatu ve třídě a transformace na konkrétní činnosti spojené s nástroji pedagogické diagnostiky (např. účastník si prakticky ověří získané poznatky na základě nabídky konkrétních aktivit průřezového tématu OSV, zacíleného na věk). Nabídky aktivit z vlastního zkušenostního dvouletého výcviku u citovaných osobností a také nabídky jejich publikací - doc. PhDr. Soni Hermochové, CSc., doc. PhDr. Josefa Valenty, CSc., Doc. PhDr. Hany Kasíkové, CSc., Mgr. Petra Kříže a dalších osobností<br />
+            •	Poslední část bude věnována i dotazům a řízené diskuzi z vlastní praxe zúčastněných ped. pracovníků.<br />
+            •	způsoby vedení poradenského rozhovoru koučovacím způsobem - práce se škálou, kladení otázek, model GROW, atd.<br />
+          </div>
+        </div>
+      </LiFile >
     </ul >
   </BlockEx >
 </Panel >;
@@ -946,39 +1030,6 @@ var SSOstatniInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
   <BlockEx header="Nabízíme následující kurzy:">
     <h4><span className="label label-warning">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>
     <ul className='fa-ul'>
-      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesskp3" aria-expanded="false" aria-controls="collapsesskp3">Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje
-      </b>(8 hod, doporučeno pro SŠ, VOŠ, ZŠ)
-        <div className="collapse border rounded " id="collapsesskp3">
-          <div className="m-3">
-            <b>Blok 1 (1 vyučovací hodina – 45 minut)</b><br />
-            Téma – Legislativní rámec <br />
-            Nová legislativa - Školský zákon a Vyhláška 27/2016 k rozvoji nadaných a mimořádně nadaných žáků. Vymezení základních pojmů nadání.<br />
-            RVP pro daný typ školy v kontextu s rozvoje nadání.<br />
-
-            <b>Blok 2 (2 vyučovací hodiny – 90 minut)</b><br />
-            Téma – Základní pojmy<br />
-            Základní pojmy z hlediska psychologické diagnostiky. <br />
-            Typologie nadání z hlediska psychologie. Typologie nadaných z hlediska projevů chování.<br />
-            Možnosti a význam pedagogické diagnostiky, ukázka diagnostických metod.<br />
-
-            <b>Blok 3 (2 vyučovací hodiny – 90 minut)</b><br />
-            Téma – Principy práce s nadaným a mimořádně nadaným žákem 1. část<br />
-            -	Charakteristické znaky osobitosti nadaných a mimořádně nadaných žáků. Odlišnosti ve vnímání a zpracování podnětů, v myšlení a prožívání. <br />
-            -	Seznámení s různými přístupy k rozvoji nadání <br />
-            -	Základní principy v práci s nadanými a mimořádně nadanými žáky, případně s žáky s dvojí výjimečností. Možnosti jejich dalšího rozvoje rozumových schopností jako i jejich sociálně emočních kompetencí v rámci daného stupně vzdělávání.<br />
-
-            <b>Blok 4 (2 vyučovací hodiny – 90 minut)</b><br />
-            Téma – Principy práce s nadaným a mimořádně nadaným žákem 2. část<br />
-            IVP, úpravy vzdělávacích obsahů a výstupů. <br />
-            Možnosti hodnocení žáků nadaných a mimořádně nadaných. Seznámení s terminologií, její aplikace v praxi. <br />
-            Sumativní, formativní hodnocení, autonomní, heteronomní hodnocení.<br />
-
-            <b>Blok 5 (1 vyučovací hodina – 45 minut)</b><br />
-            Téma – Ukázka inspirativních úloh<br />
-            Možnosti obohacení učiva, inspirativní úlohy vhodné pro rozvoj rozumového nadání. (1 hodina)<br />
-
-          </div></div>
-      </LiFile>
       <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Práce s diferencovanou třídou a náměty na vzdělávání 8 hod
       </b>(8 hod, doporučeno pro SŠ, VOŠ, ZŠ, asistenti)
         <div className="collapse " id="collapsesnt1"><ul className="list-group"><li className="list-group-item">•	<b>Téma </b> – Legislativní rámec. Školský zákon a Vyhláška 27/2016. Podpůrné opatření, možnosti úpravy obsahu a výstupů v souladu s legislativou.  Vymezení základních pojmů nadání. RVP pro základní školy, kompetence, výstupy, učivo v kontextu s prací s žáka s potřebou podpůrných opatření. (1 hodina)</li>
@@ -1043,23 +1094,6 @@ var SSOstatniInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
             <li className="list-group-item">•	<b>Téma – Ukázka inspirativních úloh</b>. Možnosti obohacení učiva, inspirativní úlohy vhodné pro rozvoj rozumového nadání.Práce s kazuistikami, diskuze. (1 hodina)</li>
           </ul></div>
       </LiFile >
-      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesskp2" aria-expanded="false" aria-controls="collapsesskp2">Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje na SŠ
-      </b>(8 hod, doporučeno pro SŠ, VOŠ)
-                        <div className="collapse border rounded " id="collapsesskp2">
-          <div className="m-3">
-            <b>LEGISLATIVNÍ RÁMEC</b><br />
-            •	Nová legislativa - Školský zákon a Vyhláška 27/2016 k rozvoji nadaných a mimořádně nadaných žáků. Vymezení základních pojmů nadání. RVP pro gymnázia a daný typ střední školy v kontextu s rozvoje nadání. (1 hodina)<br />
-            <b>ZÁKLADNÍ POJMY</b><br />
-            •	Základní pojmy z hlediska psychologické diagnostiky. Typologie nadání z hlediska psychologie. Typologie nadaných z hlediska projevů chování (1 hodina)<br />
-            •	Možnosti a význam pedagogické diagnostiky, ukázka diagnostických metod. (1 hodina)<br />
-            <b>PRINCIPY PRÁCE S NADANÝM A MIMOŘÁDNĚ NADANÝM ŽÁKEM</b><br />
-            •	Charakteristické znaky osobitosti nadaných a mimořádně nadaných žáků. Odlišnosti ve vnímání a zpracování podnětů, v myšlení a prožívání.  Seznámení s různými přístupy k rozvoji nadání (1 hodina)<br />
-            •	Základní principy v práci s nadanými a mimořádně nadanými žáky, případně s žáky s dvojí výjimečností. Možnosti jejich dalšího rozvoje rozumových schopností jako i jejich sociálně emočních kompetencí v rámci daného stupně vzdělávání. (1 hodina)<br />
-            •	IVP, úpravy vzdělávacích obsahů a výstupů. Možnosti hodnocení žáků nadaných a mimořádně nadaných. Seznámení s terminologií, její aplikace v praxi. Sumativní, formativní hodnocení, autonomní, heteronomní hodnocení (2 hodiny)<br />
-            <b>Téma –  UKÁZKA INPIRATIVNÍCH ÚLOH</b><br />
-            •	Možnosti obohacení učiva, inspirativní úlohy vhodné pro rozvoj rozumového nadání. (1 hodina)<br />
-          </div></div>
-      </LiFile>
       <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesnt01" aria-expanded="false" aria-controls="collapsesnt01">Klima třídy a vedení třídnické hodiny v rámci inkluze - SŠ
       </b>(8 hod, doporučeno pro SŠ, VOŠ)
         <div className="collapse " id="collapsesnt01"><ul className="list-group"><li className="list-group-item">•	<b>Téma – Vedení třídního kolektivu v souladu s podpůrným opatřením a doporučením ke vzdělávání žáků</b> . Společné vzdělávání na středních školách, typy středních škol a odborných učilišť a možnosti vzdělávání žáků na těchto školách v souladu s platnými přepisy-Vyhláška 27/2016 Sb. - Struktura podpůrných opatření a jejich členění do pěti stupňů se zaměřením na podporu klimatu třídy. (1 hodina)</li>
@@ -1771,12 +1805,83 @@ var ZSDiagnostika: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
           </div>
         </div>
       </LiFile >
-       <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezd3" aria-expanded="false" aria-controls="collapsezd3">Kázeňské přestupky a možnosti jejich řešení v rámci třídy  </b> (8 hod, doporučeno pro MŠ, ZŠ, ŠD, SŠ, DM, asistenti, výchovní poradci, speciální pedagogové, psychologové)
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezd3" aria-expanded="false" aria-controls="collapsezd3">Kázeňské přestupky a možnosti jejich řešení v rámci třídy  </b> (8 hod, doporučeno pro MŠ, ZŠ, ŠD, SŠ, DM, asistenti, výchovní poradci, speciální pedagogové, psychologové)
         <div className="collapse " id="collapsezd3"><ul className="list-group"><li className="list-group-item">•	Pedagogická diagnostika orientovaná na žáka, učitele a edukační proces (1 hod)</li>
           <li className="list-group-item">•	Možnosti diferencovaného vzdělávání jako prevence problémového chování (1 hod)</li>
           <li className="list-group-item">•	Příčiny problémového chování u žáků, Diagnostická kritéria ADHD, Příčiny poruch chování žáků, Formy rizikového chování  – zneužívání návykových látek, kriminalita, šikana, hostilita, agrese, agresivita, vrstevnické vztahy, školní problémy, přestupky a ostatní rizikové formy chování (4 hod)</li>
           <li className="list-group-item">•	Praktická část: Ukázka práce s třídním kolektivem, ukázka práce v rámci třídnických hodin, ukázka práce - nabídka metodických materiálů. Diskuze, práce s kazuistikami (2 hod)</li>
         </ul></div>
+      </LiFile >
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezi01" aria-expanded="false" aria-controls="collapsezi01">Specifické poruchy chování v předškolním věku  </b> (8 hod, doporučeno pro MŠ a asistenty pedagoga)
+        <div className="collapse " id="collapsezi01"><ul className="list-group">
+          <li className="list-group-item">•	Včasná diagnostika a včasná intervence jako východiska pro práci s dítětem a s rodiči, na jejichž základě lze s dítětem účinně pracovat (1 hod)</li>
+          <li className="list-group-item">•	Základní pojmy, specifické poruchy chování, ADHD, ADD. (1 hod)</li>
+          <li className="list-group-item">•	Vztah mezi specifickými poruchami chování a specifickými poruchami učení na bázi ADHD se zaměřením na specifika pro práci učitele (1 hod)</li>
+          <li className="list-group-item">•	Objasnění symptomatologie těchto poruch, kritéria pro diagnostiku SPCH, platná legislativa, metody práce u dětí se SPCH v předškolním zařízení, spolupráce rodiny (1 hod)</li>
+          <li className="list-group-item">•	Postavení dítěte s ADHD v mateřské škole a vztah učitele k takovémuto dítěti (1 hod)</li>
+          <li className="list-group-item">•	Pedagogická diagnostika a depistáž dětí v mateřské škole učitelem, tvorba individuálních vzdělávacích plánů (1 hod)</li>
+          <li className="list-group-item">•	Prevence vzniku poruch chování u dětí s ADHD (1 hod)</li>
+          <li className="list-group-item">•	Diskuse a rozbor příkladů z praxe (1 hod)</li>
+        </ul></div>
+      </LiFile >
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezi0454510" aria-expanded="false" aria-controls="collapsezi0454510">Jak pracovat s nezralým prvňáčkem </b>(8 hod, doporučeno pro ZŠ, asistenti pedgoga)
+        <div className="collapse " id="collapsezi0454510">
+          <ul className="list-group">
+            <li className="list-group-item">•	Co je školní nezralost – teorie a praxe (Rozdíl mezi školní zralostí a nezralostí; Oblasti školní zralosti: biologická, psychická, sociální, emoční; Nejčastější projevy nezralosti v 1. ročníku: poruchy pozornosti, nezralá motorika, potíže v sociální interakci, únavnost; Důsledky nezralosti pro adaptaci dítěte ve škole) (2 hod)</li>
+            <li className="list-group-item">Praktická podpora nezralého žáka ve výuce (Jak přizpůsobit organizaci dne a výuky potřebám nezralých dětí; Vizuální opory, rytmizace, smysové prvky, přestávky, režimové pomůcky; Spolupráce učitele a asistenta – rozdělení rolí, efektivní podpora; Strategie pro podporu pozornosti, pracovní paměti a seberegulace) (2 hod)</li>
+            <li className="list-group-item">Spolupráce s rodiči a dalšími odborníky (Jak citlivě komunikovat s rodiči o školní nezralosti; Možnosti spolupráce s poradenským zařízením: PPP, SPC; PLPP – kdy a jak jej využít) (2 hod)</li>
+            <li className="list-group-item">Intervenční plán pro nezralého prvňáčka - Konkrétní nabídka možností podpory a rozvoje školní zralosti (Kognitivní oblast: rozumové schopnosti, myšlení, paměť, pozornost; Motorická oblast: hrubá a jemná motorika, grafomotorika; Emočně-sociální oblast; Jazyková a komunikační oblast; Sebeobsluha a školní samostatnost; Přehled nástrojů a zdrojů pro pedagogy) (2 hod)</li>
+          </ul>
+        </div>
+      </LiFile >
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezi013" aria-expanded="false" aria-controls="collapsezi013">Specifické poruchy chování –pro ŠD a asistenty pedagoga   </b> (8 hod, doporučeno pro ŠD a asistenty pedagoga)
+        <div className="collapse " id="collapsezi013"><ul className="list-group">
+          <li className="list-group-item">•	Kurz Vám poskytne přehled péče o žáky s ADHD a poruchami chování s akcentem na uplatnění kognitivně behaviorálních přístupů. Součástí kurzu je i vysvětlení možnosti výchovného působení a přístupu k žákům s ADHD. </li>
+          <li className="list-group-item">•	Včasná diagnostika a intervence jako východiska pro práci s žákem a rodiči (1 hod)</li>
+          <li className="list-group-item">•	Základní pojmy, specifické poruchy chování, ADHD, ADD. (1 hod)</li>
+          <li className="list-group-item">•	Vztah mezi specifickými poruchami chování a specifickými poruchami učení na bázi ADHD se zaměřením na specifika pro práci pedagoga (1 hod)</li>
+          <li className="list-group-item">•	Objasnění symptomatologie těchto poruch, kritéria pro diagnostiku SPCH, platná legislativa, metody práce u žáků se SPCH, spolupráce rodiny (1 hod)</li>
+          <li className="list-group-item">•	Postavení žáka s ADHD ve škole a úskalí realizace činností ve školní družině (1 hod)</li>
+          <li className="list-group-item">•	Teoretická východiska kognitivně behaviorální terapie (1 hodina)</li>
+          <li className="list-group-item">•	Efektivní kognitivně behaviorální postupy uplatňované ve školním i mimoškolním prostředí – edukace, režimová opatření, monitoring, pozitivní posilování  žádoucího chování, plán činnosti, nácvik chování podle vzoru, formování, expoziční terapie, behaviorální smlouvy, žetonové hospodaření (1 hodina)</li>
+          <li className="list-group-item">•	Možnosti a limity pedagogů, psychologů, terapeutů a dalších odborníků při řešení uvedených poruch (1 hodina)</li>
+        </ul></div>
+      </LiFile >
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezi011" aria-expanded="false" aria-controls="collapsezi011">Neklidné dítě – problematika ADHD, ADD </b> (8 hod, doporučeno pro učitele MŠ, ZŠ a asistenty pedagoga)
+        <div className="collapse " id="collapsezi011"><ul className="list-group">
+          <li className="list-group-item">•	Projevy chování dítěte s ADHD, ADD, související se začleněním dítěte do kolektivu MŠ a ZŠ a na ně navazující možná další úskalí. Vznik ADHD, ADD – příčiny vzniku. Kritéria dle MKN – konkrétní popis projevů. Jednotlivé příznaky ADHD, ADD. (3 hod)</li>
+          <li className="list-group-item">•	Korekce nežádoucího chování - zásady práce s dítětem s ADHD (ADD), předcházení konfliktním situacím. Chování dětí s ADHD a ADD ve škole i doma, informace o typických projevech chování (příklady z praxe) Zásady práce s dítětem s ADHD/ADD ve škole i doma, pravidla jednoznačné komunikace. (3 hod)</li>
+          <li className="list-group-item">•	Efektivní způsoby ovlivňování chování a jednání dětí s ADHD,ADD: vytváření přehledného a strukturovaného prostředí. Promyšlené reakce rodičů, učitelů a okolí na určité projevy jejich chování, uspořádání pomůcek, uspořádání pracovního prostoru, zapojení do skupiny, přecházení od jedné činnosti k druhé. (2 hod)</li>
+        </ul></div>
+      </LiFile >
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezkp2" aria-expanded="false" aria-controls="collapsezkp2">Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje </b> (8 hod, doporučeno pro SŠ, VOŠ, ZŠ, MŠ)
+        <div className="collapse border rounded " id="collapsezkp2">
+          <div className="m-3">
+            <b>LEGISLATIVNÍ RÁMEC</b><br />
+            •	Nová legislativa - Školský zákon a Vyhláška 27/2016 k rozvoji nadaných a mimořádně nadaných žáků. Vymezení základních pojmů nadání. RVP pro gymnázia a daný typ střední školy v kontextu s rozvoje nadání. (1 hodina)<br />
+            <b>ZÁKLADNÍ POJMY</b><br />
+            •	Základní pojmy z hlediska psychologické diagnostiky. Typologie nadání z hlediska psychologie. Typologie nadaných z hlediska projevů chování (1 hodina)<br />
+            •	Možnosti a význam pedagogické diagnostiky, ukázka diagnostických metod. (1 hodina)<br />
+            <b>PRINCIPY PRÁCE S NADANÝM A MIMOŘÁDNĚ NADANÝM ŽÁKEM</b><br />
+            •	Charakteristické znaky osobitosti nadaných a mimořádně nadaných žáků. Odlišnosti ve vnímání a zpracování podnětů, v myšlení a prožívání.  Seznámení s různými přístupy k rozvoji nadání (1 hodina)<br />
+            •	Základní principy v práci s nadanými a mimořádně nadanými žáky, případně s žáky s dvojí výjimečností. Možnosti jejich dalšího rozvoje rozumových schopností jako i jejich sociálně emočních kompetencí v rámci daného stupně vzdělávání. (1 hodina)<br />
+            •	IVP, úpravy vzdělávacích obsahů a výstupů. Možnosti hodnocení žáků nadaných a mimořádně nadaných. Seznámení s terminologií, její aplikace v praxi. Sumativní, formativní hodnocení, autonomní, heteronomní hodnocení (2 hodiny)<br />
+            <b>Téma –  UKÁZKA INPIRATIVNÍCH ÚLOH</b><br />
+            •	Možnosti obohacení učiva, inspirativní úlohy vhodné pro rozvoj rozumového nadání. (1 hodina)<br />
+          </div>
+        </div>
+      </LiFile >
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesnt123" aria-expanded="false" aria-controls="collapsesnt123">Strategie předcházení školní neúspěšnosti  </b> (8 hod, doporučeno pro ZŠ, SŠ, VOŠ a asistenty pedagoga)
+        <div className="collapse " id="collapsesnt123">
+          <ul className="list-group">
+            <li className="list-group-item">•	<b>Téma</b> – Strategie předcházení školní neúspěšnosti. Legislativní rámec, strategie jako součást povinné dokumentace školy. Vyhláška 72/2005 Sb., ve znění pozdějších předpisů O poradenských službách ve školách a školských zařízeních.  Vymezení základních pojmů. (1 hodina)</li>
+            <li className="list-group-item">• <b>Téma Základní pojmy 1. část.</b> Vymezení základních pojmů, možnosti pedagogické diagnostiky pro nastavení strategie  prevence školní neúspěšnosti.  metody a formy práce pedagogických pracovníků, standardní činností členů školního  poradneského pracoviště v rámci strategie prevence školní neúspěšnosti. dání. (1 hodina)</li>
+            <li className="list-group-item">•	<b>Téma Základní pojmy 2. část.</b>  Principy práce ve vyučovací hodině v rámci strategie prevence školní neúspěšnosti,  pedagogická diagnostika jako nástroj pro volbu vhodných metod a forem práce s diferencovanou skupinou.(1.hodina)</li>
+            <li className="list-group-item">•	<b>Téma – Principy práce s diferencovanou třídou</b>, Možnosti diferencovaného vyučování, Ukázka diagnostických metod. nastavení diferenciace časem v rámci celé třídy. Ukázka pracovních listů a práce s diferencovanou skupinou od žáků mimořádně nadaných, přes žáky se speciálně vzdělávacími potřebami /dále jen SVP v rámci prevence školní neúspěšnosti/ (1 hodina)</li>
+            <li className="list-group-item">•	<b>Téma – Principy práce s diferencovanou třídou</b>, ukázka dalších možností nastavení prevence školní neúspěšnosti.  Možnosti diferenciace rozsahem práce a obtížností úkolů s nastavením podpůrných opatření.  Ukázka možností procvičování podle individuálních možností a schopností jednotlivých žáků, způsob ověřování tematických celků, úrovně, rozsahu, četnosti úkolů stejného typu. Ukázka možntostí práce v rámci strategie prevence školní neúspěšnosti, nabídka metodických a pracovních materiálů. Možnosti zařazování obtížnější úrovně základního učiva. (1 hodina)</li>
+            <li className="list-group-item">•	<b>Téma – Možnosti školního poradenského pracoviště</b>, standardní činností členů ŠPP v rámci strategie předcházení školní neúspěšnosti a možnosti kooperace pedagogických pracovníků na této strategii.   Hodnocení žáků a motivace žáků k diferencované práci. Sumativní a formativní hodnocení, autonomní, heteronomní hodnocení. (2 hodiny)</li>
+            <li className="list-group-item">•	<b>Téma – Ukázka inspirativních úloh</b>. Možnosti obohacení učiva, inspirativní úlohy vhodné pro rozvoj rozumového nadání.Práce s kazuistikami, diskuze. (1 hodina)</li>
+          </ul></div>
       </LiFile >
       <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezd4" aria-expanded="false" aria-controls="collapsezd4">Pedagogická diagnostika, zrání dítěte a kázeňské přestupky v MŠ  </b> (8 hod, v procesu akreditace)
         <div className="collapse " id="collapsezd4">
@@ -2094,38 +2199,6 @@ var ZSInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
           <li className="list-group-item">•	<b>Téma – Principy práce s diferencovanou třídou</b>, 3. část. Další způsoby práce s diferencovanou skupinou. Ukázka diferencovaných pracovních listů např. diferencované čtení, ukázka pracovních listů z matematiky - základní a zkrácená verze, diferencovaný diktát, upravené texty, bonusové a prémiové úkoly pro žáky nadané, mimořádně nadané. Skupinová práce s homogenní a heterogenní skupinou. Organizace diferencovaného vyučování ve vyučovací hodině. Hodnocení žáků a motivace žáků k diferencované práci. Sumativní a formativní hodnocení, autonomní, heteronomní hodnocení. (2 hodiny)</li>
           <li className="list-group-item">•	<b>Téma – Ukázka inspirativních úloh</b>.  Možnosti obohacení učiva, inspirativní úlohy vhodné pro rozvoj rozumového nadání. (1 hodina)</li>
         </ul></div>
-      </LiFile >
-      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezi2" aria-expanded="false" aria-controls="collapsezi2">Žák nadaný a mimořádně nadaný, možnosti jeho rozvoje </b> (8 hod, doporučeno pro ZŠ, SŠ, VOŠ)
-        <div className="collapse  border rounded" id="collapsezi2">
-          <div className="m-3">
-            <b>Blok 1 (1 vyučovací hodina – 45 minut)</b><br />
-            Téma – Legislativní rámec <br />
-            Nová legislativa - Školský zákon a Vyhláška 27/2016 k rozvoji nadaných a mimořádně nadaných žáků. Vymezení základních pojmů nadání.<br />
-            RVP pro daný typ školy v kontextu s rozvoje nadání.<br />
-
-            <b>Blok 2 (2 vyučovací hodiny – 90 minut)</b><br />
-            Téma – Základní pojmy<br />
-            Základní pojmy z hlediska psychologické diagnostiky. <br />
-            Typologie nadání z hlediska psychologie. Typologie nadaných z hlediska projevů chování.<br />
-            Možnosti a význam pedagogické diagnostiky, ukázka diagnostických metod.<br />
-
-            <b>Blok 3 (2 vyučovací hodiny – 90 minut)</b><br />
-            Téma – Principy práce s nadaným a mimořádně nadaným žákem 1. část<br />
-            -	Charakteristické znaky osobitosti nadaných a mimořádně nadaných žáků. Odlišnosti ve vnímání a zpracování podnětů, v myšlení a prožívání. <br />
-            -	Seznámení s různými přístupy k rozvoji nadání <br />
-            -	Základní principy v práci s nadanými a mimořádně nadanými žáky, případně s žáky s dvojí výjimečností. Možnosti jejich dalšího rozvoje rozumových schopností jako i jejich sociálně emočních kompetencí v rámci daného stupně vzdělávání.<br />
-
-            <b>Blok 4 (2 vyučovací hodiny – 90 minut)</b><br />
-            Téma – Principy práce s nadaným a mimořádně nadaným žákem 2. část<br />
-            IVP, úpravy vzdělávacích obsahů a výstupů. <br />
-            Možnosti hodnocení žáků nadaných a mimořádně nadaných. Seznámení s terminologií, její aplikace v praxi. <br />
-            Sumativní, formativní hodnocení, autonomní, heteronomní hodnocení.<br />
-
-            <b>Blok 5 (1 vyučovací hodina – 45 minut)</b><br />
-            Téma – Ukázka inspirativních úloh<br />
-            Možnosti obohacení učiva, inspirativní úlohy vhodné pro rozvoj rozumového nadání. (1 hodina)<br />
-          </div>
-        </div>
       </LiFile >
       <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezi3" aria-expanded="false" aria-controls="collapsezi3">Kázeňské přestupky a možnosti jejich řešení v rámci třídy
       </b>(8 hod, doporučeno pro MŠ, ZŠ, ŠD, SŠ, DM, asistenti, výchovní poradci, speciální pedagogové, psychologové)
@@ -2888,6 +2961,28 @@ cíl: - seznámit se s tématem, se zákonitostmi skupinové dynamiky pro práci
           <li className="list-group-item">•	Vedení rozhovoru  – příprava a struktura (1 hodina)</li>
           <li className="list-group-item">•	Neverbální komunikace  – gesta a výrazy s jejich významem. Základy psycholingvistiky a rizikové výrazy. (1 hodina)</li>
         </ul></div>
+      </LiFile >
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezd1" aria-expanded="false" aria-controls="collapsezd1">Sociální klima třídy a pedagogická diagnostika učitele </b> (8 hod, doporučeno pro MŠ, ZŠ, SŠ, VOŠ, asistenti)
+        <div className="collapse border rounded " id="collapsezd1">
+          <div className="m-3">
+            <b>Teoretická část  (4 vyučovací hodiny)</b><br />
+            •	Objasnění základních pojmů - klima třídy, sociální klima třídy, spolutvůrci třídního klimatu,<br />
+            •	Pedagogická diagnostika školní třídy – vymezení základních pojmů a metod pedagogické diagnostiky (diagnóza, prognóza, dispozice, proces – cíl, oblasti, diagnostický postup, chyby při diagnostikování ze strany pedagoga, charakteristické rysy, typy, mechanismy, které toto klima ovlivňují, prevence vztahů, pozice a role žáka ve školní třídě)<br />
+            •	Sociální klima třídy a pedagogická diagnostika<br />
+            -	Diagnostické kompetence učitele – metody, nástroje<br />
+            a)	Pozorování – obecné principy, průběh, zápis<br />
+            b)	Rozhovor – princip, vedení rozhovoru, typy, techniky kladení otázek<br />
+            c)	Dotazníky – typy, sestavování<br />
+            d)	Sociometrické metody<br />
+            - sběr dat, vyhodnocování, interpretace a práce s nimi<br />
+            - nejčastější chyby v sociální percepci<br />
+            <br />
+            <b>Praktická část (4 vyučovací hodiny)</b><br />
+            •	Nabídka činností zaměřených na podporu utváření pozitivního sociálního klimatu ve třídě a transformace na konkrétní činnosti spojené s nástroji pedagogické diagnostiky (např. účastník si prakticky ověří získané poznatky na základě nabídky konkrétních aktivit průřezového tématu OSV, zacíleného na věk). Nabídky aktivit z vlastního zkušenostního dvouletého výcviku u citovaných osobností a také nabídky jejich publikací - doc. PhDr. Soni Hermochové, CSc., doc. PhDr. Josefa Valenty, CSc., Doc. PhDr. Hany Kasíkové, CSc., Mgr. Petra Kříže a dalších osobností<br />
+            •	Poslední část bude věnována i dotazům a řízené diskuzi z vlastní praxe zúčastněných ped. pracovníků.<br />
+            •	způsoby vedení poradenského rozhovoru koučovacím způsobem - práce se škálou, kladení otázek, model GROW, atd.<br />
+          </div>
+        </div>
       </LiFile >
     </ul>
   </BlockEx>
