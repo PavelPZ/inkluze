@@ -1030,9 +1030,9 @@ var SSOstatniInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps,
   <BlockEx header="Nabízíme následující kurzy:">
     <h4><span className="label label-warning">Pro zobrazení obsahu kurzu klikněte na jeho název</span></h4>
     <ul className='fa-ul'>
-      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesnt1" aria-expanded="false" aria-controls="collapsesnt1">Práce s diferencovanou třídou a náměty na vzdělávání 8 hod
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsesijdofijdifnt1" aria-expanded="false" aria-controls="collapsesijdofijdifnt1">Práce s diferencovanou třídou a náměty na vzdělávání 8 hod
       </b>(8 hod, doporučeno pro SŠ, VOŠ, ZŠ, asistenti)
-        <div className="collapse " id="collapsesnt1"><ul className="list-group"><li className="list-group-item">•	<b>Téma </b> – Legislativní rámec. Školský zákon a Vyhláška 27/2016. Podpůrné opatření, možnosti úpravy obsahu a výstupů v souladu s legislativou.  Vymezení základních pojmů nadání. RVP pro základní školy, kompetence, výstupy, učivo v kontextu s prací s žáka s potřebou podpůrných opatření. (1 hodina)</li>
+        <div className="collapse " id="collapsesijdofijdifnt1"><ul className="list-group"><li className="list-group-item">•	<b>Téma </b> – Legislativní rámec. Školský zákon a Vyhláška 27/2016. Podpůrné opatření, možnosti úpravy obsahu a výstupů v souladu s legislativou.  Vymezení základních pojmů nadání. RVP pro základní školy, kompetence, výstupy, učivo v kontextu s prací s žáka s potřebou podpůrných opatření. (1 hodina)</li>
           <li className="list-group-item">•	<b>Téma Základní pojmy 1. část.</b> Základní pojmy: Heterogenní skupina, diverzita. Diferencované vzdělávání podle kritérii a možností žáka. (1 hodina)</li>
           <li className="list-group-item">•	<b>Téma Základní pojmy 2. část.</b> Možnosti diferencovaného vyučování, pedagogická diagnostika jako součást volby vhodných metod a forem práce s diferencovanou skupinou.  Ukázka diagnostických metod. (1 hodina) </li>
           <li className="list-group-item">•	<b>Téma – Principy práce s diferencovanou třídou</b>, 1. část. Teoretické ukotvení tématu. Možnosti diferenciace - navýšení času.  Ukázka možností efektivního času. Ukázka pracovních listů a práce s diferencovanou skupinou od žáků mimořádně nadaných, přes žáky se speciálně vzdělávacími potřebami /dále jen SVP/ (1 hodina)</li>
@@ -2962,8 +2962,8 @@ cíl: - seznámit se s tématem, se zákonitostmi skupinové dynamiky pro práci
           <li className="list-group-item">•	Neverbální komunikace  – gesta a výrazy s jejich významem. Základy psycholingvistiky a rizikové výrazy. (1 hodina)</li>
         </ul></div>
       </LiFile >
-      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezd1" aria-expanded="false" aria-controls="collapsezd1">Sociální klima třídy a pedagogická diagnostika učitele </b> (8 hod, doporučeno pro MŠ, ZŠ, SŠ, VOŠ, asistenti)
-        <div className="collapse border rounded " id="collapsezd1">
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezwb11654" aria-expanded="false" aria-controls="collapsezwb11654">Sociální klima třídy a pedagogická diagnostika učitele </b> (8 hod, doporučeno pro MŠ, ZŠ, SŠ, VOŠ, asistenti)
+        <div className="collapse border rounded " id="collapsezwb11654">
           <div className="m-3">
             <b>Teoretická část  (4 vyučovací hodiny)</b><br />
             •	Objasnění základních pojmů - klima třídy, sociální klima třídy, spolutvůrci třídního klimatu,<br />
