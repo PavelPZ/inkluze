@@ -122,7 +122,7 @@ var KurzyFilterBar: React.StatelessComponent<IKurzyFilterBarProps> = (props) => 
   </div>
   <div className='col-md-4'>
     <FormGroup>
-      <ControlLabel>Oblast</ControlLabel>
+      <ControlLabel>Hledat oblast</ControlLabel>
       <FormControl
         componentClass='select'
         value={props.area}
