@@ -1812,6 +1812,67 @@ var ZSDiagnostika: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ct
           <li className="list-group-item">•	Praktická část: Ukázka práce s třídním kolektivem, ukázka práce v rámci třídnických hodin, ukázka práce - nabídka metodických materiálů. Diskuze, práce s kazuistikami (2 hod)</li>
         </ul></div>
       </LiFile >
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezd055550" aria-expanded="false" aria-controls="collapsezd055550">Asistent pedagoga a vychovatel ŠD při práci se žákem s rizikovým chováním </b>(8 hod, doporučeno pro asistenty pedagoga, vychovatele ŠD, pedagogy ZŠ a MŠ)
+        <div className="collapse " id="collapsezd055550">
+          <p>1. blok – Porozumění. Jak porozumět chování žáka různých věkových kategorií (2 hodiny</p>
+          <ul className="list-group">
+            <li className="list-group-item">•	Co je rizikové, problémové a specifické chování, normativní chování v daném věku</li>
+            <li className="list-group-item">•	Pedagogická diagnostika, specifika daného věku.</li>
+            <li className="list-group-item">•	Nejčastější projevy rizikového chování ve školním prostředí
+              <ul>
+                <li>o	agrese a autoagrese</li>
+                <li>o	vzdor a odmítání spolupráce</li>
+                <li>o	impulzivita a výbuchy emocí</li>
+                <li>o	útěky a záškoláctví</li>
+                <li>o	lhaní, manipulace a porušování pravidel</li>
+                <li>o	provokace, vulgarita a narušování výuky</li>
+              </ul>
+            </li>
+            <li className="list-group-item">•	Projevy chování, příčiny, spouštěče, následky rizikového chování</li>
+            <li className="list-group-item">•	Rizikové faktory na straně žáka, rodiny, třídy a školy</li>
+            <li className="list-group-item">•	Jak pozorovat a popsat chování bez nálepkování žáka</li>
+          </ul>
+          <p>2. Organizace práce asistenta pedagoga (2 hod)</p>
+          <ul className="list-group">
+            <li className="list-group-item">•	Efektivní plánování a organizace činností během vyučování, rozvržení pracovního dne AP ve třídě.</li>
+            <li className="list-group-item">•	Formy podpory jednotlivce i celé třídy (frontální, skupinová, individuální práce).</li>
+            <li className="list-group-item">•	Komunikace a spolupráce s třídním učitelem.</li>
+            <li className="list-group-item">•	Nejčastější situace z praxe a jejich řešení (odmítání pracovat, únava, pomalé pracovní tempo) Kazuistiky, rozbor postupů.</li>
+          </ul>
+          <p>2. blok – Prevence a nastavení podpory (2 hodiny)</p>
+          <ul className="list-group">
+            <li className="list-group-item">•	Jak předcházet problémovému chování</li>
+            <li className="list-group-item">•	Význam jasných pravidel, struktury a předvídatelnosti</li>
+            <li className="list-group-item">•	Nastavení hranic v chování v třídním kolektivu</li>
+            <li className="list-group-item">•	Jak komunikovat se žákem, který odmítá spolupracovat</li>
+            <li className="list-group-item">•	Pozitivní posilování a motivace</li>
+            <li className="list-group-item">•	Jak pracovat s emocemi žáka</li>
+            <li className="list-group-item">•	Individuální přístup versus pravidla platná pro celou třídu</li>
+            <li className="list-group-item">•	Úprava prostředí a režimu jako prevence konfliktů</li>
+            <li className="list-group-item">•	Praktické situace z prostředí školy a hledání vhodných preventivních opatření</li>
+            <li className="list-group-item">•	Komunikace s rodiči – co sdělovat a jak</li>
+            <li className="list-group-item">•	Spolupráce se školním metodikem prevence, výchovným poradcem, školním psychologem či speciálním pedagogem</li>
+            <li className="list-group-item">•	Kdy zapojit ŠPZ, SVP, OSPOD nebo další odborníky</li>
+            <li className="list-group-item">•	Jak vést stručný a užitečný záznam o chování žáka</li>
+            <li className="list-group-item">•	Plán podpory: stanovení cíle, postupu, sledování výsledků</li>
+          </ul>
+          <p>3. blok – Intervence: Zvládání náročných a krizových situací (2 hodiny)</p>
+          <ul className="list-group">
+            <li className="list-group-item">•	Deeskalace konfliktu – co dělat a čemu se vyhnout</li>
+            <li className="list-group-item">•	Verbální komunikace v krizové situaci</li>
+            <li className="list-group-item">•	Formy rizikového chování - agresivita vůči spolužákům, pedagogickým pracovníkům</li>
+            <li className="list-group-item">•	Bezpečnost žáka, ostatních dětí i pracovníků školy</li>
+            <li className="list-group-item">•	Co dělat po skončení krizové situace – reflexe, záznam, další opatření</li>
+            <li className="list-group-item">•	Praktické kazuistiky a modelové situace</li>
+          </ul>
+          <p>4. blok – Spolupráce: Komunikace a dlouhodobá podpora žáka (2 hodiny)</p>
+          <ul className="list-group">
+            <li className="list-group-item">•	Závěrečná kazuistika: vlastní postřehy účastníků semináře, spolupráce učitele a AP/vychovatele, rozdělení rolí a odpovědnosti</li>
+            <li className="list-group-item">•	Jak si nastavit společný postup při problémovém chování</li>
+            <li className="list-group-item">•	Jak vyhodnocovat účinnost nastavených opatření</li>
+          </ul>
+        </div>
+      </LiFile >
       <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezi01" aria-expanded="false" aria-controls="collapsezi01">Specifické poruchy chování v předškolním věku  </b> (8 hod, doporučeno pro MŠ a asistenty pedagoga)
         <div className="collapse " id="collapsezi01"><ul className="list-group">
           <li className="list-group-item">•	Včasná diagnostika a včasná intervence jako východiska pro práci s dítětem a s rodiči, na jejichž základě lze s dítětem účinně pracovat (1 hod)</li>
@@ -2079,6 +2140,99 @@ var ZSInkluze: React.StatelessComponent<IKurzProps> = (props: IKurzProps, ctx: s
             <li className="list-group-item">Příčiny problémového chování u žáků, prevence školní neúspěšnosti. Diagnostická kritéria rizikového chování. Příčiny poruch chování žáků a další formy rizikového chování, možnosti práce se žákem s  problémovým chováním 1. ročníku. (2 hod)</li>
             <li className="list-group-item">Praktická část: Ukázka práce se žákem s problémovým chováním v hromadném vzdělávání.  Nabídka metodických materiálů. (1 hod)</li>
             <li className="list-group-item">Diskuze, práce s kazuistikami. (1 hod)</li>
+          </ul>
+        </div>
+      </LiFile >
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezi04545656510" aria-expanded="false" aria-controls="collapsezi04545656510">Obsah práce asistenta pedagoga v 1. ročníku ZŠ  </b>(8 hod, doporučeno pro ZŠ, asistenti pedgoga)
+        <div className="collapse " id="collapsezi04545656510">
+          <p>1. Legislativní vymezení role asistenta pedagoga (2 hod)</p>
+          <ul className="list-group">
+            <li className="list-group-item">•	Výklad činnosti AP, parametrizace AP ve třídách s více či méně než 15 žáky.</li>
+            <li className="list-group-item">•	Financování AP v rámci parametrizace, dopad na organizaci práce ve škole </li>
+            <li className="list-group-item">•	Legislativní ukotvení role AP, jeho kompetence, práva a povinnosti.</li>
+            <li className="list-group-item">•	Spolupráce AP s učitelem a dalšími odbornými pracovníky školy, kompetence, práce v krizových situacích.</li>
+          </ul>
+          <p>2. Organizace práce asistenta pedagoga (2 hod)</p>
+          <ul className="list-group">
+            <li className="list-group-item">•	Efektivní plánování a organizace činností během vyučování, rozvržení pracovního dne AP ve třídě.</li>
+            <li className="list-group-item">•	Formy podpory jednotlivce i celé třídy (frontální, skupinová, individuální práce).</li>
+            <li className="list-group-item">•	Komunikace a spolupráce s třídním učitelem.</li>
+            <li className="list-group-item">•	Nejčastější situace z praxe a jejich řešení (odmítání pracovat, únava, pomalé pracovní tempo) Kazuistiky, rozbor postupů.</li>
+          </ul>
+          <p>3. Pedagogická diagnostika jako nástroj podpory žáka (2 hod)</p>
+          <ul className="list-group">
+            <li className="list-group-item">•	Význam pedagogické diagnostiky v 1. ročníku ZŠ, praktické využití diagnostiky</li>
+            <li className="list-group-item">•	Stanovení cílů a záměrů podpory.</li>
+            <li className="list-group-item">•	Využití diagnostických poznatků při plánování práce, ukázka jednotlivých diagnostických nástrojů využitelných v praxi AP.</li>
+            <li className="list-group-item">•	Nastavování pravidel, norem a očekávání, sledování výstupních kompetencí žáka, rozvoj výstupních kompetencí a způsoby jejich systematického navozování (sociální a emoční kompetence, pracovní kompetence, zadání a dokončení úkolů, samostatná práce, připravenost na vyučování aj)</li>
+          </ul>
+          <p>4. Praktická podpora rozvoje žáka (2 hod)</p>
+          <ul className="list-group">
+            <li className="list-group-item">•	Nápravná cvičení percepčních a motorických oslabení, práce s pomůckami.</li>
+            <li className="list-group-item">•	Rozvoj pracovních návyků a školní připravenosti (organizace pracovního místa, dokončení práce, samostatnost.</li>
+            <li className="list-group-item">•	Podpora sociálních dovedností a emočního zrání dítěte (řešení konfliktů, zvládání stresových situací, obtíže s adaptací na školní prostředí, odloučení od zákonného zástupce)</li>
+            <li className="list-group-item">•	Praktické náměty a ověřené metody využitelné v každodenní práci AP, kazuistiky, možnosti sdílení využití konkrétních zkušeností účastníků, řízená diskuze a reflexe vlastních postupů.</li>
+          </ul>
+        </div>
+      </LiFile >
+      <LiFile><b type="button" data-toggle="collapse" data-target="#collapsezi055550" aria-expanded="false" aria-controls="collapsezi055550">Asistent pedagoga a vychovatel ŠD při práci se žákem s rizikovým chováním </b>(8 hod, doporučeno pro asistenty pedagoga, vychovatele ŠD, pedagogy ZŠ a MŠ)
+        <div className="collapse " id="collapsezi055550">
+          <p>1. blok – Porozumění. Jak porozumět chování žáka různých věkových kategorií (2 hodiny</p>
+          <ul className="list-group">
+            <li className="list-group-item">•	Co je rizikové, problémové a specifické chování, normativní chování v daném věku</li>
+            <li className="list-group-item">•	Pedagogická diagnostika, specifika daného věku.</li>
+            <li className="list-group-item">•	Nejčastější projevy rizikového chování ve školním prostředí
+              <ul>
+                <li>o	agrese a autoagrese</li>
+                <li>o	vzdor a odmítání spolupráce</li>
+                <li>o	impulzivita a výbuchy emocí</li>
+                <li>o	útěky a záškoláctví</li>
+                <li>o	lhaní, manipulace a porušování pravidel</li>
+                <li>o	provokace, vulgarita a narušování výuky</li>
+              </ul>
+            </li>
+            <li className="list-group-item">•	Projevy chování, příčiny, spouštěče, následky rizikového chování</li>
+            <li className="list-group-item">•	Rizikové faktory na straně žáka, rodiny, třídy a školy</li>
+            <li className="list-group-item">•	Jak pozorovat a popsat chování bez nálepkování žáka</li>
+          </ul>
+          <p>2. Organizace práce asistenta pedagoga (2 hod)</p>
+          <ul className="list-group">
+            <li className="list-group-item">•	Efektivní plánování a organizace činností během vyučování, rozvržení pracovního dne AP ve třídě.</li>
+            <li className="list-group-item">•	Formy podpory jednotlivce i celé třídy (frontální, skupinová, individuální práce).</li>
+            <li className="list-group-item">•	Komunikace a spolupráce s třídním učitelem.</li>
+            <li className="list-group-item">•	Nejčastější situace z praxe a jejich řešení (odmítání pracovat, únava, pomalé pracovní tempo) Kazuistiky, rozbor postupů.</li>
+          </ul>
+          <p>2. blok – Prevence a nastavení podpory (2 hodiny)</p>
+          <ul className="list-group">
+            <li className="list-group-item">•	Jak předcházet problémovému chování</li>
+            <li className="list-group-item">•	Význam jasných pravidel, struktury a předvídatelnosti</li>
+            <li className="list-group-item">•	Nastavení hranic v chování v třídním kolektivu</li>
+            <li className="list-group-item">•	Jak komunikovat se žákem, který odmítá spolupracovat</li>
+            <li className="list-group-item">•	Pozitivní posilování a motivace</li>
+            <li className="list-group-item">•	Jak pracovat s emocemi žáka</li>
+            <li className="list-group-item">•	Individuální přístup versus pravidla platná pro celou třídu</li>
+            <li className="list-group-item">•	Úprava prostředí a režimu jako prevence konfliktů</li>
+            <li className="list-group-item">•	Praktické situace z prostředí školy a hledání vhodných preventivních opatření</li>
+            <li className="list-group-item">•	Komunikace s rodiči – co sdělovat a jak</li>
+            <li className="list-group-item">•	Spolupráce se školním metodikem prevence, výchovným poradcem, školním psychologem či speciálním pedagogem</li>
+            <li className="list-group-item">•	Kdy zapojit ŠPZ, SVP, OSPOD nebo další odborníky</li>
+            <li className="list-group-item">•	Jak vést stručný a užitečný záznam o chování žáka</li>
+            <li className="list-group-item">•	Plán podpory: stanovení cíle, postupu, sledování výsledků</li>
+          </ul>
+          <p>3. blok – Intervence: Zvládání náročných a krizových situací (2 hodiny)</p>
+          <ul className="list-group">
+            <li className="list-group-item">•	Deeskalace konfliktu – co dělat a čemu se vyhnout</li>
+            <li className="list-group-item">•	Verbální komunikace v krizové situaci</li>
+            <li className="list-group-item">•	Formy rizikového chování - agresivita vůči spolužákům, pedagogickým pracovníkům</li>
+            <li className="list-group-item">•	Bezpečnost žáka, ostatních dětí i pracovníků školy</li>
+            <li className="list-group-item">•	Co dělat po skončení krizové situace – reflexe, záznam, další opatření</li>
+            <li className="list-group-item">•	Praktické kazuistiky a modelové situace</li>
+          </ul>
+          <p>4. blok – Spolupráce: Komunikace a dlouhodobá podpora žáka (2 hodiny)</p>
+          <ul className="list-group">
+            <li className="list-group-item">•	Závěrečná kazuistika: vlastní postřehy účastníků semináře, spolupráce učitele a AP/vychovatele, rozdělení rolí a odpovědnosti</li>
+            <li className="list-group-item">•	Jak si nastavit společný postup při problémovém chování</li>
+            <li className="list-group-item">•	Jak vyhodnocovat účinnost nastavených opatření</li>
           </ul>
         </div>
       </LiFile >
