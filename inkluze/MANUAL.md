@@ -62,12 +62,28 @@ Po přihlášení lze upravovat šablony kurzů a termíny. Na webu se zobrazí 
 
 Data se ukládají do `App_Data/kurzy.json`.
 
+## Katalog osnov kurzů (obsah, ne termíny)
+
+Osnovy oblastí jsou v `App_Data/katalog-kurzu.json` (UTF-8), API:
+`/libs/service-katalog-kurzu/katalog-kurzu.ashx` (GET).
+
+Stejná osnova může být sdílená mezi SŠ a ZŠ (jeden `course`, více area referencí).
+U kurzů v oblasti se meta skládá z `hours` + `recommendedFor` (případně `hideHours` / `metaText`).
+
+```powershell
+py scripts\validate-katalog.py
+```
+
+Rutinní `publish.ps1` vždy zkopíruje `katalog-kurzu.json` (ne `kurzy.json` termínů) a bumpne `?v=` v `index.html`.
+
 ## Užitečné skripty (`scripts/`)
 
 | Skript | Účel |
 |--------|------|
 | `generate-sitemap.py` | Obnoví `sitemap.xml` |
 | `import-kurzy-seznam.py` | Import kurzů ze starého `kurzy-seznam.tsx` |
+| `validate-katalog.py` | Kontrola id, referencí a meta polí katalogu osnov |
+| `normalize-katalog.py` | Deduplikace osnov + převod `meta` na strukturovaná pole |
 | `check-encoding.py` | Kontrola kódování UTF-8 |
 | `fix-controls-encoding.py` | Oprava kódování + BS3 atributy v `controls.tsx` |
 
@@ -119,7 +135,8 @@ Poté zkopírovat na `\\192.168.0.111\Data\disk_q\inkluze\`:
 | `libs\lib.js`, `libs\service-*\` | router + API |
 | `externals\` | React, Bootstrap CSS, … |
 | `index.html`, `sitemap.xml`, `favicon.ico` | |
-| `App_Data\kurzy.json` | jen pokud chcete přepsat data ze dev |
+| `App_Data\kurzy.json` | jen pokud chcete přepsat data termínů ze dev |
+| `App_Data\katalog-kurzu.json` | osnovy kurzů (vždy při publish) |
 | `web.config` | jen s vědomím přepsání produkčního hesla |
 
 **Nekopírovat:** `node_modules`, `obj`, `.tsx` zdrojáky, `scripts\`.

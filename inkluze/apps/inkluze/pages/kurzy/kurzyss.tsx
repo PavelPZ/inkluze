@@ -1,24 +1,37 @@
-var KurzySS: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => {
-  var allSSLoaders = getSSLoaders();
-  var actId = (ctx.site.id as string).toLowerCase();
-  return <div>
-    <Page>
-      <Block >
-        {ctx.site.id == 'kurzyss' ? <KurzySSList /> : null}
-        <KurzySSAlert />
+class KurzySSPage extends React.Component<{}, { ready: boolean }> {
+  static contextTypes = sitemapRouter.childContextTypes;
 
-      </Block>
-
-      {coursesSSLoader(() => [
-        { create: gray => <KurzySSInkluze ssloaders={allSSLoaders[0]} actId={actId} gray={gray} key={0} /> },
-        { create: gray => <KurzySSOstatni ssloaders={allSSLoaders[1]} actId={actId} gray={gray} key={1} /> },
-        { create: gray => <KurzySSDalsi ssloaders={allSSLoaders[2]} actId={actId} gray={gray} key={2} /> },
-      ], allSSLoaders, actId)}
-
-    </Page >
-  </div >
-};
-
+  constructor(props: {}, ctx: sitemapRouter.IContext) {
+    super(props, ctx);
+    this.state = { ready: !!katalogCache };
+  }
+  componentDidMount() {
+    // Page-level prefetch so migrated panels do not each start their own XHR.
+    katalogLoadData(
+      () => this.setState({ ready: true } as any),
+      () => this.setState({ ready: true } as any)
+    );
+  }
+  render(): JSX.Element {
+    var ctx = this.context as sitemapRouter.IContext;
+    var allSSLoaders = getSSLoaders();
+    var actId = (ctx.site.id as string).toLowerCase();
+    return <div>
+      <Page>
+        <Block >
+          {ctx.site.id == 'kurzyss' ? <KurzySSList /> : null}
+          <KurzyTipAlert />
+        </Block>
+        {coursesSSLoader(() => [
+          { create: gray => <KurzySSInkluze ssloaders={allSSLoaders[0]} actId={actId} gray={gray} key={0} /> },
+          { create: gray => <KurzySSOstatni ssloaders={allSSLoaders[1]} actId={actId} gray={gray} key={1} /> },
+          { create: gray => <KurzySSDalsi ssloaders={allSSLoaders[2]} actId={actId} gray={gray} key={2} /> },
+        ], allSSLoaders, actId)}
+      </Page >
+    </div >;
+  }
+}
+var KurzySS: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => <KurzySSPage />;
 KurzySS.contextTypes = sitemapRouter.childContextTypes;
 
 interface IKurzySSBlockProps {
@@ -75,30 +88,33 @@ function coursesSSLoader(getSSLoaders: () => Array<ICoursesSSLoader>, allLoaders
 }
 
 function getSSLoaders(): Array<Array<ICourseSSLoader>> {
+  var ss = inkluze.root.kurzyss;
+  var panel = (areaId: string, title: string) =>
+    (expanded: boolean) => <CourseAreaPanel areaId={areaId} defaultExpanded={expanded} key={courseKey++} title={title} />;
   var res = [
     [
-      { id: 'SSMedGramotnost', create: expanded => <SSMedGramotnost defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSMedGramotnost.title} /> },
-      { id: 'SSNoveTechnologie', create: expanded => <SSNoveTechnologie defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSNoveTechnologie.title} /> },
-      { id: 'SSRozvojPodnikavosti', create: expanded => <SSRozvojPodnikavosti defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSRozvojPodnikavosti.title} /> },
-      { id: 'SSKarierovePoradenstvi', create: expanded => <SSKarierovePoradenstvi defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSKarierovePoradenstvi.title} /> },
-      { id: 'SSWellBeing', create: expanded => <SSWellBeing defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSWellBeing.title} /> },
+      { id: 'SSMedGramotnost', create: panel('SSMedGramotnost', ss.SSMedGramotnost.title) },
+      { id: 'SSNoveTechnologie', create: panel('SSNoveTechnologie', ss.SSNoveTechnologie.title) },
+      { id: 'SSRozvojPodnikavosti', create: panel('SSRozvojPodnikavosti', ss.SSRozvojPodnikavosti.title) },
+      { id: 'SSKarierovePoradenstvi', create: panel('SSKarierovePoradenstvi', ss.SSKarierovePoradenstvi.title) },
+      { id: 'SSWellBeing', create: panel('SSWellBeing', ss.SSWellBeing.title) },
     ],
     [
-      { id: 'SSGenderovaTematika', create: expanded => <SSGenderovaTematika defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSGenderovaTematika.title} /> },
-      { id: 'SSVyukaCestiny', create: expanded => <SSVyukaCestiny defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSVyukaCestiny.title} /> },
-      { id: 'SSInkluzeCizinci', create: expanded => <SSInkluzeCizinci defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSInkluzeCizinci.title} /> },
-      { id: 'SSOstatniInkluze', create: expanded => <SSOstatniInkluze defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSOstatniInkluze.title} /> },
-      { id: 'SSFormativniHodnoceni', create: expanded => <SSFormativniHodnoceni defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSFormativniHodnoceni.title} /> },
-      { id: 'SSIndividualizace', create: expanded => <SSIndividualizace defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSIndividualizace.title} /> },
-      { id: 'SSInovativniFormy', create: expanded => <SSInovativniFormy defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSInovativniFormy.title} /> },
+      { id: 'SSGenderovaTematika', create: panel('SSGenderovaTematika', ss.SSGenderovaTematika.title) },
+      { id: 'SSVyukaCestiny', create: panel('SSVyukaCestiny', ss.SSVyukaCestiny.title) },
+      { id: 'SSInkluzeCizinci', create: panel('SSInkluzeCizinci', ss.SSInkluzeCizinci.title) },
+      { id: 'SSOstatniInkluze', create: panel('SSOstatniInkluze', ss.SSOstatniInkluze.title) },
+      { id: 'SSFormativniHodnoceni', create: panel('SSFormativniHodnoceni', ss.SSFormativniHodnoceni.title) },
+      { id: 'SSIndividualizace', create: panel('SSIndividualizace', ss.SSIndividualizace.title) },
+      { id: 'SSInovativniFormy', create: panel('SSInovativniFormy', ss.SSInovativniFormy.title) },
     ],
     [
-      { id: 'SSPedagogickaDiagnostika', create: expanded => <SSPedagogickaDiagnostika defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSPedagogickaDiagnostika.title} /> },
-      { id: 'SSInovace', create: expanded => <SSInovace defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSInovace.title} /> },
-      { id: 'SSSpoluprace', create: expanded => <SSSpoluprace defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSSpoluprace.title} /> },
-      { id: 'SSCtenarskaGramotnost', create: expanded => <SSCtenarskaGramotnost defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSCtenarskaGramotnost.title} /> },
-      { id: 'SSMatematickaGramotnost', create: expanded => <SSMatematickaGramotnost defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSMatematickaGramotnost.title} /> },
-      { id: 'SSPodporaUcitelu', create: expanded => <SSPodporaUcitelu defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyss.SSPodporaUcitelu.title} /> },      
+      { id: 'SSPedagogickaDiagnostika', create: panel('SSPedagogickaDiagnostika', ss.SSPedagogickaDiagnostika.title) },
+      { id: 'SSInovace', create: panel('SSInovace', ss.SSInovace.title) },
+      { id: 'SSSpoluprace', create: panel('SSSpoluprace', ss.SSSpoluprace.title) },
+      { id: 'SSCtenarskaGramotnost', create: panel('SSCtenarskaGramotnost', ss.SSCtenarskaGramotnost.title) },
+      { id: 'SSMatematickaGramotnost', create: panel('SSMatematickaGramotnost', ss.SSMatematickaGramotnost.title) },
+      { id: 'SSPodporaUcitelu', create: panel('SSPodporaUcitelu', ss.SSPodporaUcitelu.title) },
     ]
   ];
   res.forEach(l => l.forEach(ll => ll.id = ll.id.toLowerCase()));

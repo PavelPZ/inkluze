@@ -6,6 +6,7 @@
 /// <reference path="../pages/home.tsx"/>
 /// <reference path="../pages/akreditace.tsx"/>
 /// <reference path="../pages/q_and_as.tsx"/>
+/// <reference path="../pages/kurzy/katalog-kurzu.tsx"/>
 /// <reference path="../pages/kurzy/controls.tsx"/>
 /// <reference path="../pages/kurzy/kurzyss.tsx"/>
 /// <reference path="../pages/kurzy/kurzyii.tsx"/>

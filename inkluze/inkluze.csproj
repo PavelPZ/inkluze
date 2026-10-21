@@ -35,6 +35,7 @@
     <Content Include="favicon.ico" />
     <Content Include="libs\lib.js" />
     <Content Include="externals\react-bootstrap.js" />
+    <TypeScriptCompile Include="apps\inkluze\pages\kurzy\katalog-kurzu.tsx" />
     <TypeScriptCompile Include="apps\inkluze\pages\kurzy\controls.tsx" />
     <TypeScriptCompile Include="apps\inkluze\pages\kurzy\kurzyii.tsx" />
     <TypeScriptCompile Include="apps\inkluze\pages\kurzy\kurzyss.tsx" />
@@ -71,11 +72,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="tsconfig.json" />
-    <Content Include="App_Data\kurzy.json" />
+    <None Include="App_Data\kurzy.json.local" />
+    <Content Include="App_Data\katalog-kurzu.json" />
     <None Include="apps\inkluze\css\styles.less" />
     <None Include="buildprofile.pubxml" />
     <Content Include="libs\service-emailer\service.ashx" />
     <Content Include="libs\service-kurzy\kurzy.ashx" />
+    <Content Include="libs\service-katalog-kurzu\katalog-kurzu.ashx" />
     <None Include="packages.config" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
@@ -103,6 +106,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="libs\service-kurzy\KurzyHandler.cs" />
+    <Compile Include="libs\service-katalog-kurzu\KatalogKurzuHandler.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Lib\Lib.csproj">

@@ -57,6 +57,16 @@ function Sync-Robocopy($Source, $Dest, [string]$Label) {
     Write-Host "   $Label : $summary"
 }
 
+# Cache-bust bundled JS so browsers pick up new apps/inkluze.js after publish.
+$CacheStamp = Get-Date -Format "yyyyMMddHHmm"
+$IndexPath = Join-Path $Project "index.html"
+if (Test-Path $IndexPath) {
+    $indexText = Get-Content $IndexPath -Raw -Encoding UTF8
+    $indexText = [regex]::Replace($indexText, '\?v=\d+', "?v=$CacheStamp")
+    [System.IO.File]::WriteAllText($IndexPath, $indexText, (New-Object System.Text.UTF8Encoding $false))
+    Write-Host ">> index.html cache bust ?v=$CacheStamp"
+}
+
 Write-Host ">> Kopírování do $Target"
 
 Sync-Robocopy (Join-Path $Project "bin") (Join-Path $Target "bin") "bin"
@@ -72,6 +82,17 @@ foreach ($file in @("index.html", "sitemap.xml", "favicon.ico")) {
     }
 }
 
+# Osnovy (katalog) syncujeme vždy; termíny kurzy.json jen s -IncludeAppData.
+$KatalogSrc = Join-Path $Project "App_Data\katalog-kurzu.json"
+$KatalogDstDir = Join-Path $Target "App_Data"
+if (Test-Path $KatalogSrc) {
+    if (-not (Test-Path $KatalogDstDir)) {
+        New-Item -ItemType Directory -Path $KatalogDstDir -Force | Out-Null
+    }
+    Copy-Item $KatalogSrc (Join-Path $KatalogDstDir "katalog-kurzu.json") -Force
+    Write-Host "   katalog-kurzu.json : zkopírován"
+}
+
 if ($IncludeWebConfig) {
     Copy-Item (Join-Path $Project "web.config") (Join-Path $Target "web.config") -Force
     Write-Host "   web.config přepsán (Release transform aplikujte přes MSBuild WebPublish, nebo upravte heslo ručně na serveru)."
@@ -82,7 +103,7 @@ if ($IncludeWebConfig) {
 if ($IncludeAppData) {
     Sync-Robocopy (Join-Path $Project "App_Data") (Join-Path $Target "App_Data") "App_Data"
 } else {
-    Write-Host "   App_Data/kurzy.json ponechán na serveru (použijte -IncludeAppData pro přepsání)."
+    Write-Host "   App_Data/kurzy.json (termíny) ponechán na serveru (použijte -IncludeAppData pro přepsání)."
 }
 
 Write-Host ""

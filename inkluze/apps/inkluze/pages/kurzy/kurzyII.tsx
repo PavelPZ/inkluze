@@ -1,24 +1,36 @@
-var KurzyII: React.StatelessComponent<{}> = (props: {}, ctx: sitemapRouter.IContext) => {
-  var allIILoaders = getIILoaders();
-  var actId = (ctx.site.id as string).toLowerCase();
-  return <div>
-    <Page>
-      <Block >
-        {ctx.site.id == 'kurzyii' ? <KurzyIIList /> : null}
-        <KurzyIIAlert />
+class KurzyIIPage extends React.Component<{}, { ready: boolean }> {
+  static contextTypes = sitemapRouter.childContextTypes;
 
-      </Block>
-
-      {coursesIILoader(() => [
-        { create: gray => <KurzyIIZSKurzy iiloaders={allIILoaders[0]} actId={actId} gray={gray} key={0} /> },
-        { create: gray => <KurzyIIInkluzeZUS iiloaders={allIILoaders[1]} actId={actId} gray={gray} key={1} /> },
-        { create: gray => <KurzyIIMSKurzy iiloaders={allIILoaders[2]} actId={actId} gray={gray} key={2} /> },
-      ], allIILoaders, actId)}
-
-    </Page >
-  </div >
-};
-
+  constructor(props: {}, ctx: sitemapRouter.IContext) {
+    super(props, ctx);
+    this.state = { ready: !!katalogCache };
+  }
+  componentDidMount() {
+    katalogLoadData(
+      () => this.setState({ ready: true } as any),
+      () => this.setState({ ready: true } as any)
+    );
+  }
+  render(): JSX.Element {
+    var ctx = this.context as sitemapRouter.IContext;
+    var allIILoaders = getIILoaders();
+    var actId = (ctx.site.id as string).toLowerCase();
+    return <div>
+      <Page>
+        <Block >
+          {ctx.site.id == 'kurzyii' ? <KurzyIIList /> : null}
+          <KurzyTipAlert />
+        </Block>
+        {coursesIILoader(() => [
+          { create: gray => <KurzyIIZSKurzy iiloaders={allIILoaders[0]} actId={actId} gray={gray} key={0} /> },
+          { create: gray => <KurzyIIInkluzeZUS iiloaders={allIILoaders[1]} actId={actId} gray={gray} key={1} /> },
+          { create: gray => <KurzyIIMSKurzy iiloaders={allIILoaders[2]} actId={actId} gray={gray} key={2} /> },
+        ], allIILoaders, actId)}
+      </Page >
+    </div >;
+  }
+}
+var KurzyII: React.StatelessComponent<{}> = () => <KurzyIIPage />;
 KurzyII.contextTypes = sitemapRouter.childContextTypes;
 
 interface IKurzyIIBlockProps {
@@ -75,30 +87,33 @@ function coursesIILoader(getIILoaders: () => Array<ICoursesIILoader>, allLoaders
 }
 
 function getIILoaders(): Array<Array<ICourseIILoader>> {
+  var zs = inkluze.root.kurzyii;
+  var panel = (areaId: string, title: string) =>
+    (expanded: boolean) => <CourseAreaPanel areaId={areaId} defaultExpanded={expanded} key={courseKey++} title={title} />;
   var res = [
     [
-      { id: 'ZSInkluzeCizinci', create: expanded => <ZSInkluzeCizinci defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSInkluzeCizinci.title} /> },
-      { id: 'ZSVyukaCestiny', create: expanded => <ZSVyukaCestiny defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSVyukaCestiny.title} /> },
-      { id: 'ZSMedialniGramotnost', create: expanded => <ZSMedialniGramotnost defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSMedialniGramotnost.title} /> },
-      { id: 'ZSNoveTechnologie', create: expanded => <ZSNoveTechnologie defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSNoveTechnologie.title} /> },
-      { id: 'ZSWellBeing', create: expanded => <ZSWellBeing defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSWellBeing.title} /> },
-      { id: 'ZSInovativniFormy', create: expanded => <ZSInovativniFormy defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSInovativniFormy.title} /> },
+      { id: 'ZSInkluzeCizinci', create: panel('ZSInkluzeCizinci', zs.ZSInkluzeCizinci.title) },
+      { id: 'ZSVyukaCestiny', create: panel('ZSVyukaCestiny', zs.ZSVyukaCestiny.title) },
+      { id: 'ZSMedialniGramotnost', create: panel('ZSMedialniGramotnost', zs.ZSMedialniGramotnost.title) },
+      { id: 'ZSNoveTechnologie', create: panel('ZSNoveTechnologie', zs.ZSNoveTechnologie.title) },
+      { id: 'ZSWellBeing', create: panel('ZSWellBeing', zs.ZSWellBeing.title) },
+      { id: 'ZSInovativniFormy', create: panel('ZSInovativniFormy', zs.ZSInovativniFormy.title) },
     ],
     [
-      { id: 'ZSGenderova', create: expanded => <ZSGenderova defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSGenderova.title} /> },
-      { id: 'ZSCtenarskaGramotnost', create: expanded => <ZSCtenarskaGramotnost defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSCtenarskaGramotnost.title} /> },
-      { id: 'ZSMatematickaGramotnost', create: expanded => <ZSMatematickaGramotnost defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSMatematickaGramotnost.title} /> },
-      { id: 'ZSKarierovePoradenstvi', create: expanded => <ZSKarierovePoradenstvi defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSKarierovePoradenstvi.title} /> },
-      { id: 'ZSRozvojPodnikavosti', create: expanded => <ZSRozvojPodnikavosti defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSRozvojPodnikavosti.title} /> },
+      { id: 'ZSGenderova', create: panel('ZSGenderova', zs.ZSGenderova.title) },
+      { id: 'ZSCtenarskaGramotnost', create: panel('ZSCtenarskaGramotnost', zs.ZSCtenarskaGramotnost.title) },
+      { id: 'ZSMatematickaGramotnost', create: panel('ZSMatematickaGramotnost', zs.ZSMatematickaGramotnost.title) },
+      { id: 'ZSKarierovePoradenstvi', create: panel('ZSKarierovePoradenstvi', zs.ZSKarierovePoradenstvi.title) },
+      { id: 'ZSRozvojPodnikavosti', create: panel('ZSRozvojPodnikavosti', zs.ZSRozvojPodnikavosti.title) },
     ],
     [
-      { id: 'ZSFormativniHodnoceni', create: expanded => <ZSFormativniHodnoceni defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSFormativniHodnoceni.title} /> },
-      { id: 'ZSIndividualizace', create: expanded => <ZSIndividualizace defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSIndividualizace.title} /> },
-      { id: 'ZSDiagnostika', create: expanded => <ZSDiagnostika defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSDiagnostika.title} /> },
-      { id: 'ZSInovace', create: expanded => <ZSInovace defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSInovace.title} /> },
-      { id: 'ZSSpoluprace', create: expanded => <ZSSpoluprace defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSSpoluprace.title} /> },
-      { id: 'ZSInkluze', create: expanded => <ZSInkluze defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSInkluze.title} /> },
-      { id: 'ZSPodpora', create: expanded => <ZSPodpora defaultExpanded={expanded} key={courseKey++} title={inkluze.root.kurzyii.ZSPodpora.title} /> },
+      { id: 'ZSFormativniHodnoceni', create: panel('ZSFormativniHodnoceni', zs.ZSFormativniHodnoceni.title) },
+      { id: 'ZSIndividualizace', create: panel('ZSIndividualizace', zs.ZSIndividualizace.title) },
+      { id: 'ZSDiagnostika', create: panel('ZSDiagnostika', zs.ZSDiagnostika.title) },
+      { id: 'ZSInovace', create: panel('ZSInovace', zs.ZSInovace.title) },
+      { id: 'ZSSpoluprace', create: panel('ZSSpoluprace', zs.ZSSpoluprace.title) },
+      { id: 'ZSInkluze', create: panel('ZSInkluze', zs.ZSInkluze.title) },
+      { id: 'ZSPodpora', create: panel('ZSPodpora', zs.ZSPodpora.title) },
     ]
   ];
   res.forEach(l => l.forEach(ll => ll.id = ll.id.toLowerCase()));
